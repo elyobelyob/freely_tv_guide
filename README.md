@@ -3,6 +3,9 @@
 
 Fetch the Freely TV-Guide API and publish **per‑channel JSON** files you can point Home Assistant REST sensors at (with a compatibility block mimicking the old Freesat/Freeview card shape).
 
+## Preview
+
+![Home Assistant EPG card](https://github.com/elyobelyob/freely_tv_guide/blob/1cfc53f9a20dbb4fdef2301da48d4b39d1229a4f/docs/img/readme/Screenshot%202025-10-03%20at%2016.27.32.png)
 
 ## Home Assistant examples
 Replace:
