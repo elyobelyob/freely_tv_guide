@@ -4,17 +4,18 @@ on:
   workflow_dispatch:
     inputs:
       start:
-        description: "UNIX timestamp for day start (UTC)"
-        required: true
-        default: "auto"
+        description: "UNIX timestamp (leave blank or 'auto' for UK midnight today)"
+        required: false
         type: string
+        default: "auto"
       nid:
         description: "Freely nid"
         required: false
-        default: "64865"
         type: string
+        default: "64865"
+
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "5 0 * * *"   # runs every day at 00:05 UTC (01:05 in BST, 00:05 in GMT)
 
 jobs:
   fetch:
