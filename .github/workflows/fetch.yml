@@ -14,7 +14,6 @@ required: false
 default: "64865"
 type: string
 schedule:
-# Run every 6 hours (you can adjust). Uses 'today at 00:00 UTC' by default in the job.
 - cron: "0 */6 * * *"
 
 
@@ -22,8 +21,8 @@ jobs:
 fetch:
 runs-on: ubuntu-latest
 permissions:
-contents: write # to push the generated files
-pages: write # if you later switch to Pages deployments
+contents: write
+pages: write
 id-token: write
 steps:
 - uses: actions/checkout@v4
@@ -46,7 +45,6 @@ id: when
 shell: bash
 run: |
 if [[ -z "${{ github.event.inputs.start }}" ]]; then
-# 00:00 UTC of current day
 START=$(date -u -d "$(date -u +%Y-%m-%d) 00:00:00" +%s)
 else
 START=${{ github.event.inputs.start }}
