@@ -67,7 +67,8 @@ def _pick(d: Dict[str, Any], keys: List[str], default=None):
     return default
 
 
-def normalise_event(ev):
+def normalise_event(ev: Dict[str, Any]) -> Event:
+    # pick common fields
     start = _pick(ev, ["startTime", "start", "start_time", "start_timestamp", "time", "begin"])
     dur = _pick(ev, ["duration", "durationMinutes", "duration_minutes", "dur", "length", "runtime"])
     title = _pick(ev, ["name", "title", "main_title", "programme", "program", "programmeTitle", "show"])
@@ -75,10 +76,15 @@ def normalise_event(ev):
     if sub:
         title = f"{title}: {sub}" if title else sub
     desc = _pick(ev, ["description", "synopsis", "shortSynopsis", "longSynopsis", "summary"]) or ""
-    image = _pick(ev, ["image", "imageUrl", "image_url", "imageURL", "poster", "thumbnail",
-                       "image_url", "fallback_image_url"]) or ""
 
-    # seconds→minutes heuristic
+    # prefer any image-like fields, but we'll scrub remote URLs
+    image = _pick(
+        ev,
+        ["image", "imageUrl", "image_url", "imageURL", "poster", "thumbnail", "fallback_image_url"]
+    ) or ""
+
+    # ---- duration normalisation ----
+    # seconds → minutes heuristic
     if isinstance(dur, (int, float)) and dur > 600:
         dur = round(dur / 60)
     # ISO8601 duration like PT1H15M
@@ -87,18 +93,31 @@ def normalise_event(ev):
         if m is not None:
             dur = m
 
+    # compute minutes from numeric start/end if needed
     end = _pick(ev, ["endTime", "end", "end_time", "stop", "finish"])
     if dur is None and isinstance(start, (int, float)) and isinstance(end, (int, float)):
         dur = int(round((end - start) / 60))
 
+    # ---- scrub remote image URLs now ----
+    # if the chosen image is an absolute URL, blank it (the CI step will replace with local/placeholder)
+    if isinstance(image, str) and image.strip().lower().startswith(("http://", "https://")):
+        image = ""  # will be set to img/programmes/<hash>.* or placeholder by the mirroring step
+
+    # keep a sanitised copy of the original without any remote image URL fields
+    raw = dict(ev)
+    for k in ("image", "image_url", "imageUrl", "imageURL", "fallback_image_url"):
+        if k in raw:
+            raw.pop(k, None)
+
     return {
         "startTime": start,          # ISO string is fine; HA's as_datetime handles it
-        "duration": dur,             # now an int (minutes)
+        "duration": dur,             # int minutes when possible
         "name": title or "",
         "description": desc,
-        "image": image,
-        "_raw": ev,
+        "image": image,              # empty here; CI fills with local or placeholder
+        "_raw": raw,                 # no remote image URLs inside
     }
+
 
 
 def extract_channels(payload):
