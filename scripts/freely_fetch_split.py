@@ -9,8 +9,18 @@ from typing import Any, Dict, List, Optional, Tuple
 import requests
 
 FREELY_API = "https://www.freely.co.uk/api/tv-guide"
+_iso_dur_re = re.compile(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?")
 
 # --- Helpers ---------------------------------------------------------------
+
+def _iso_to_minutes(s: str):
+    m = _iso_dur_re.fullmatch(s or "")
+    if not m:
+        return None
+    h = int(m.group(1) or 0)
+    mi = int(m.group(2) or 0)
+    se = int(m.group(3) or 0)
+    return h * 60 + mi + (se // 60)
 
 def slugify(text: str) -> str:
     text = text.lower().strip()
@@ -57,59 +67,65 @@ def _pick(d: Dict[str, Any], keys: List[str], default=None):
     return default
 
 
-def normalise_event(ev: Dict[str, Any]) -> Event:
-    # Try a variety of likely field names from EPG feeds
+def normalise_event(ev):
     start = _pick(ev, ["startTime", "start", "start_time", "start_timestamp", "time", "begin"])
     dur = _pick(ev, ["duration", "durationMinutes", "duration_minutes", "dur", "length", "runtime"])
-    title = _pick(ev, ["name", "title", "programme", "program", "programmeTitle", "show"])
+    title = _pick(ev, ["name", "title", "main_title", "programme", "program", "programmeTitle", "show"])
+    sub = _pick(ev, ["secondary_title", "subtitle", "episode_title"])
+    if sub:
+        title = f"{title}: {sub}" if title else sub
     desc = _pick(ev, ["description", "synopsis", "shortSynopsis", "longSynopsis", "summary"]) or ""
-    image = _pick(ev, ["image", "imageUrl", "image_url", "imageURL", "poster", "thumbnail"]) or ""
+    image = _pick(ev, ["image", "imageUrl", "image_url", "imageURL", "poster", "thumbnail",
+                       "image_url", "fallback_image_url"]) or ""
 
-    # If duration provided in seconds, convert to minutes if it looks big
-    if isinstance(dur, (int, float)) and dur > 600:  # > 10 min probably seconds
+    # seconds→minutes heuristic
+    if isinstance(dur, (int, float)) and dur > 600:
         dur = round(dur / 60)
+    # ISO8601 duration like PT1H15M
+    if isinstance(dur, str) and dur.startswith("PT"):
+        m = _iso_to_minutes(dur)
+        if m is not None:
+            dur = m
 
-    # If duration missing but we have an end, compute it
     end = _pick(ev, ["endTime", "end", "end_time", "stop", "finish"])
     if dur is None and isinstance(start, (int, float)) and isinstance(end, (int, float)):
         dur = int(round((end - start) / 60))
 
     return {
-        "startTime": start,
-        "duration": dur,
+        "startTime": start,          # ISO string is fine; HA's as_datetime handles it
+        "duration": dur,             # now an int (minutes)
         "name": title or "",
         "description": desc,
         "image": image,
-        # keep original too for debugging
         "_raw": ev,
     }
 
 
-def extract_channels(payload: Any) -> List[Channel]:
-    # Try common shapes
+def extract_channels(payload):
+    # Freely: { status, data: { programs: [ ... ] } }
     if isinstance(payload, dict):
-        for key in ("channels", "data", "results", "items"):
+        data = payload.get("data")
+        if isinstance(data, dict):
+            progs = data.get("programs")
+            if isinstance(progs, list) and progs and isinstance(progs[0], dict):
+                return progs
+    # fallback to old heuristics if needed
+    if isinstance(payload, dict):
+        for key in ("channels", "results", "items"):
             val = payload.get(key)
             if isinstance(val, list) and val and isinstance(val[0], dict):
                 return val
-        for key in ("schedule", "schedules", "guide"):
-            val = payload.get(key)
-            if isinstance(val, list) and val and isinstance(val[0], dict):
-                return val
-        if any(k in payload for k in ("events", "event", "schedule")):
-            return [payload]
-    elif isinstance(payload, list) and payload and isinstance(payload[0], dict):
+    if isinstance(payload, list) and payload and isinstance(payload[0], dict):
         return payload
     return []
 
 
-def extract_channel_id_name(ch: Channel) -> Tuple[str, str]:
-    cid = _pick(ch, ["id", "channelId", "serviceId", "sid", "uid", "service"])
+def extract_channel_id_name(ch):
+    cid = _pick(ch, ["id", "channelId", "serviceId", "service_id", "sid", "uid", "service"])
     name = _pick(ch, ["name", "channelName", "title", "serviceName"]) or "Unknown"
     if cid is None:
         cid = slugify(str(name))
     return str(cid), str(name)
-
 
 def extract_events(ch: Channel) -> List[Event]:
     for key in ("events", "event", "schedule", "schedules", "programmes", "programs"):
