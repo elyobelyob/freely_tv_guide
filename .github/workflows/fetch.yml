@@ -35,12 +35,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Compute default START if not provided (00:00 UTC today)
+      - name: Compute default START (midnight Europe/London if no input)
         id: when
         shell: bash
         run: |
           if [[ -z "${{ github.event.inputs.start }}" ]]; then
-            START=$(date -u -d "$(date -u +%Y-%m-%d) 00:00:00" +%s)
+            TZ=Europe/London START=$(date -d "$(date +%Y-%m-%d) 00:00:00" +%s)
           else
             START=${{ github.event.inputs.start }}
           fi
