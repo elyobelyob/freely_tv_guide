@@ -235,7 +235,6 @@ jobs:
           PY
 
 
-
       - name: Update README channel list
         run: |
           python - <<'PY'
@@ -256,6 +255,38 @@ jobs:
           else:
             readme += f"\n\n## Channel list\n{start}\n{table}\n{end}\n"
           readme_path.write_text(readme, 'utf-8')
+          PY
+
+      - name: Add index pages for image folders (and disable Jekyll)
+        run: |
+          python - <<'PY'
+          import pathlib, html
+      
+          root = pathlib.Path('docs')
+          (root/'.nojekyll').write_text('', encoding='utf-8')  # ensure static serving
+      
+          def write_index(dirpath: pathlib.Path, title: str):
+            dirpath.mkdir(parents=True, exist_ok=True)
+            files = sorted(p.name for p in dirpath.glob('*') if p.is_file())
+            thumbs = ''.join(
+              f"<a href='{html.escape(n)}'><img src='{html.escape(n)}' alt='{html.escape(n)}'></a>"
+              for n in files
+            )
+            html_doc = f"""<!doctype html>
+            <meta charset="utf-8"><title>{html.escape(title)}</title>
+            <style>
+              body{{font-family:system-ui,Arial,sans-serif;padding:16px}}
+              .grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}}
+              img{{max-width:100%;height:auto;border-radius:8px}}
+              a{{text-decoration:none}}
+            </style>
+            <h1>{html.escape(title)}</h1>
+            <div class="grid">{thumbs}</div>
+            """
+            (dirpath/'index.html').write_text(html_doc, encoding='utf-8')
+      
+          write_index(root/'img'/'programmes', 'Programme images')
+          write_index(root/'img'/'channels',   'Channel logos')
           PY
 
 
