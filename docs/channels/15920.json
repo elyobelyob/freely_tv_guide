@@ -1,0 +1,84 @@
+{
+  "channel": {
+    "id": "15920",
+    "name": "ITV4+1"
+  },
+  "events": [
+    {
+      "startTime": "2025-10-03T05:00:00+0000",
+      "duration": 60,
+      "name": "Teleshopping",
+      "description": "",
+      "image": "https://img.freeviewplay.tv/e3026efb0414e759c93821271970cf0a1",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/b37304a2-47ee-441b-9dca-cd043e8d1e5f",
+        "event_locator": "dvb://233a..3e30;a60",
+        "main_title": "Teleshopping",
+        "image_url": "https://img.freeviewplay.tv/e3026efb0414e759c93821271970cf0a1",
+        "start_time": "2025-10-03T05:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "uuid": "5093ed12518937072c812b92416eeaa8"
+      }
+    },
+    {
+      "startTime": "2025-10-03T06:00:00+0000",
+      "duration": 1380,
+      "name": "This Is ITV4+1",
+      "description": "",
+      "image": "http://img.freeviewplay.net/e381b28c062b45222ccd8ce4165bb3f5f",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/274ac331-38ab-4da1-be4b-fcd8fdb22767",
+        "event_locator": "dvb://233a..3e30;a45",
+        "main_title": "This Is ITV4+1",
+        "start_time": "2025-10-03T06:00:00+0000",
+        "duration": "PT23H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e381b28c062b45222ccd8ce4165bb3f5f",
+        "uuid": "6e0ad410304fdad45d8f4ca8ca09809a"
+      }
+    }
+  ],
+  "compat": {
+    "freesat_card": [
+      {
+        "event": [
+          {
+            "startTime": "2025-10-03T05:00:00+0000",
+            "duration": 60,
+            "name": "Teleshopping",
+            "description": "",
+            "image": "https://img.freeviewplay.tv/e3026efb0414e759c93821271970cf0a1",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/b37304a2-47ee-441b-9dca-cd043e8d1e5f",
+              "event_locator": "dvb://233a..3e30;a60",
+              "main_title": "Teleshopping",
+              "image_url": "https://img.freeviewplay.tv/e3026efb0414e759c93821271970cf0a1",
+              "start_time": "2025-10-03T05:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "uuid": "5093ed12518937072c812b92416eeaa8"
+            }
+          },
+          {
+            "startTime": "2025-10-03T06:00:00+0000",
+            "duration": 1380,
+            "name": "This Is ITV4+1",
+            "description": "",
+            "image": "http://img.freeviewplay.net/e381b28c062b45222ccd8ce4165bb3f5f",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/274ac331-38ab-4da1-be4b-fcd8fdb22767",
+              "event_locator": "dvb://233a..3e30;a45",
+              "main_title": "This Is ITV4+1",
+              "start_time": "2025-10-03T06:00:00+0000",
+              "duration": "PT23H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e381b28c062b45222ccd8ce4165bb3f5f",
+              "uuid": "6e0ad410304fdad45d8f4ca8ca09809a"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
