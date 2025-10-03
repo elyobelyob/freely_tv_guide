@@ -153,6 +153,11 @@ def extract_events(ch: Channel) -> List[Event]:
 
 def fetch_freely(nid: str, start: int, session: Optional[requests.Session] = None) -> Any:
     s = session or requests.Session()
+    s.headers.update({
+        "User-Agent": "elyobelyob-freely-split/1.0 (+https://github.com/elyobelyob/freely_tv_guide)",
+        "Accept": "application/json",
+        "Referer": "https://www.freely.co.uk/tv-guide",
+    })
     resp = s.get(FREELY_API, params={"nid": nid, "start": start}, timeout=30)
     resp.raise_for_status()
     return resp.json()
@@ -165,6 +170,7 @@ def write_outputs(payload: Any, out_dir: Path, start: int) -> Dict[str, Any]:
     ensure_dir(raw_dir)
     ensure_dir(chan_dir)
 
+    # Save raw payload
     raw_path = raw_dir / f"guide_{start}.json"
     with open(raw_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
@@ -175,29 +181,32 @@ def write_outputs(payload: Any, out_dir: Path, start: int) -> Dict[str, Any]:
     for ch in channels:
         cid, name = extract_channel_id_name(ch)
         events = extract_events(ch)
-        
-    logo = extract_channel_logo(ch)
-    channel_obj = {"id": cid, "name": name}
-    if logo:
-        channel_obj["logo"] = logo
-    
-    out_obj = {
-        "channel": channel_obj,
-        "events": events,
-        "compat": {"freesat_card": [{"event": events}]},
-    }
 
-        
+        # Optional channel logo
+        logo = extract_channel_logo(ch)
+        channel_obj = {"id": cid, "name": name}
+        if logo:
+            channel_obj["logo"] = logo
+
+        # Per-channel output
         out_obj = {
-            "channel": {"id": cid, "name": name},
+            "channel": channel_obj,  # keep logo if present
             "events": events,
             "compat": {"freesat_card": [{"event": events}]},
         }
+
+        # Write file
         chan_path = chan_dir / f"{cid}.json"
         with open(chan_path, "w", encoding="utf-8") as f:
             json.dump(out_obj, f, ensure_ascii=False, indent=2)
-        index["channels"].append({"id": cid, "name": name, "path": f"channels/{cid}.json"})
 
+        # Index entry (include logo if present)
+        entry = {"id": cid, "name": name, "path": f"channels/{cid}.json"}
+        if logo:
+            entry["logo"] = logo
+        index["channels"].append(entry)
+
+    # Write index
     with open(out_dir / "index.json", "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=2)
 
