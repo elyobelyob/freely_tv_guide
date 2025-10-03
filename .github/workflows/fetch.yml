@@ -1,0 +1,73 @@
+name: Fetch Freely Guide
+
+
+on:
+workflow_dispatch:
+inputs:
+start:
+description: "UNIX timestamp for day start (UTC)"
+required: true
+type: string
+nid:
+description: "Freely nid"
+required: false
+default: "64865"
+type: string
+schedule:
+# Run every 6 hours (you can adjust). Uses 'today at 00:00 UTC' by default in the job.
+- cron: "0 */6 * * *"
+
+
+jobs:
+fetch:
+runs-on: ubuntu-latest
+permissions:
+contents: write # to push the generated files
+pages: write # if you later switch to Pages deployments
+id-token: write
+steps:
+- uses: actions/checkout@v4
+
+
+- name: Set up Python
+uses: actions/setup-python@v5
+with:
+python-version: '3.11'
+
+
+- name: Install deps
+run: |
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+
+
+- name: Compute default START if not provided (00:00 UTC today)
+id: when
+shell: bash
+run: |
+if [[ -z "${{ github.event.inputs.start }}" ]]; then
+# 00:00 UTC of current day
+START=$(date -u -d "$(date -u +%Y-%m-%d) 00:00:00" +%s)
+else
+START=${{ github.event.inputs.start }}
+fi
+echo "start=$START" >> "$GITHUB_OUTPUT"
+echo "nid=${{ github.event.inputs.nid || '64865' }}" >> "$GITHUB_OUTPUT"
+
+
+- name: Fetch & split
+run: |
+python scripts/freely_fetch_split.py --nid "${{ steps.when.outputs.nid }}" --start "${{ steps.when.outputs.start }}" --out docs
+
+
+- name: Commit outputs
+run: |
+git config user.name "github-actions"
+git config user.email "github-actions@users.noreply.github.com"
+git add docs/
+if git diff --cached --quiet; then
+echo "No changes"
+else
+git commit -m "Update EPG: start=${{ steps.when.outputs.start }}"
+git push
+fi
