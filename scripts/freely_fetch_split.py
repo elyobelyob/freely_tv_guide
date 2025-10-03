@@ -9,6 +9,11 @@ from typing import Any, Dict, List, Optional, Tuple
 import requests
 
 FREELY_API = "https://www.freely.co.uk/api/tv-guide"
+
+# Local image placeholders (the workflow step creates these files)
+PROG_PLACEHOLDER = "img/programmes/placeholder.svg"
+CHAN_PLACEHOLDER = "img/channels/placeholder.svg"
+
 _iso_dur_re = re.compile(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?")
 
 # --- Helpers ---------------------------------------------------------------
@@ -146,14 +151,15 @@ def extract_channel_id_name(ch):
         cid = slugify(str(name))
     return str(cid), str(name)
 
+
 def extract_channel_logo(ch):
-    # Try common keys for a channel logo
     return _pick(ch, [
         "logo", "logo_url", "logoUrl",
         "channelLogo", "channel_logo",
         "service_logo", "serviceLogo",
-        "image", "image_url"  # fallback if they only provide one
+        "image", "image_url"
     ])
+
 
 def extract_events(ch: Channel) -> List[Event]:
     for key in ("events", "event", "schedule", "schedules", "programmes", "programs"):
@@ -189,7 +195,7 @@ def write_outputs(payload: Any, out_dir: Path, start: int) -> Dict[str, Any]:
     ensure_dir(raw_dir)
     ensure_dir(chan_dir)
 
-    # Save raw payload
+    # Save raw API payload
     raw_path = raw_dir / f"guide_{start}.json"
     with open(raw_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
@@ -201,28 +207,35 @@ def write_outputs(payload: Any, out_dir: Path, start: int) -> Dict[str, Any]:
         cid, name = extract_channel_id_name(ch)
         events = extract_events(ch)
 
-        # Optional channel logo
-        logo = extract_channel_logo(ch)
-        channel_obj = {"id": cid, "name": name}
-        if logo:
-            channel_obj["logo"] = logo
+        # Force local-only event images BEFORE writing files
+        for e in events:
+            img = (e.get("image") or "").strip()
+            if isinstance(img, str) and img.startswith(("http://", "https://")):
+                e["image"] = PROG_PLACEHOLDER
+            if not e.get("image"):
+                e["image"] = PROG_PLACEHOLDER
 
-        # Per-channel output
+        # Channel + logo (use local placeholder if remote)
+        logo_src = extract_channel_logo(ch)
+        channel_obj = {"id": cid, "name": name}
+        if logo_src:
+            channel_obj["logo"] = CHAN_PLACEHOLDER if str(logo_src).startswith(("http://","https://")) else str(logo_src)
+
         out_obj = {
-            "channel": channel_obj,  # keep logo if present
+            "channel": channel_obj,                              # keep logo field
             "events": events,
-            "compat": {"freesat_card": [{"event": events}]},
+            "compat": {"freesat_card": [{"event": events}]},     # legacy card compat
         }
 
-        # Write file
+        # Write per-channel JSON
         chan_path = chan_dir / f"{cid}.json"
         with open(chan_path, "w", encoding="utf-8") as f:
             json.dump(out_obj, f, ensure_ascii=False, indent=2)
 
         # Index entry (include logo if present)
         entry = {"id": cid, "name": name, "path": f"channels/{cid}.json"}
-        if logo:
-            entry["logo"] = logo
+        if channel_obj.get("logo"):
+            entry["logo"] = channel_obj["logo"]
         index["channels"].append(entry)
 
     # Write index
