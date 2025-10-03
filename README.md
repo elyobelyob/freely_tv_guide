@@ -4,7 +4,75 @@
 Fetch the Freely TV-Guide API and publish **per‑channel JSON** files you can point Home Assistant REST sensors at (with a compatibility block mimicking the old Freesat/Freeview card shape).
 
 
-## Quick start
+## Home Assistant examples
+Replace:
+
+<CHANNEL_ID> with e.g. 37124
+
+<SENSOR_NAME> with e.g. EPG_BBCOne
+
+<sensor_name> in the Lovelace card with the entity id (lowercased by HA, e.g. sensor.epg_bbcone).
+
+### REST sensor (drop in `sensors.yaml` or under `sensor:` in `configuration.yaml`)
+```yaml
+# Replace <CHANNEL_ID> with the JSON you want (e.g. 37124)
+# Replace <SENSOR_NAME> if you want a different entity id
+- platform: rest
+  resource: "https://elyobelyob.github.io/freely_tv_guide/channels/<CHANNEL_ID>.json"
+  scan_interval: 28800
+  name: <SENSOR_NAME>
+  value_template: >-
+    {%- macro to_minutes(d) -%}
+      {%- if d is number -%}{{ d }}
+      {%- elif d is string and d.startswith('PT') -%}
+        {% set h = ('H' in d) and (d.split('T')[-1].split('H')[0] | int) or 0 %}
+        {% set m = ('M' in d) and (d.split('H')[-1].split('M')[0] | int) or 0 %}
+        {% set s = ('S' in d) and (d.split('M')[-1].split('S')[0] | int) or 0 %}
+        {{ h*60 + m + (s // 60) }}
+      {%- else -%}0{%- endif -%}
+    {%- endmacro -%}
+    {% set evts = value_json.compat.freesat_card[0].event | default([], true) %}
+    {% set nowts = now() %}
+    {% for e in (evts | sort(attribute='startTime')) %}
+      {% set st = as_local(as_datetime(e.startTime)) %}
+      {% set en = st + timedelta(minutes=(to_minutes(e.duration) | int)) %}
+      {% if en > nowts %}
+        {{ st.strftime("%H:%M") }}  : {{ e.name }}
+        
+        {{ e.description or "" }}
+        {% break %}
+      {% endif %}
+    {% else %}
+      No EPG
+    {% endfor %}
+  json_attributes_path: "$.compat.freesat_card.0"
+  json_attributes:
+    - event
+
+### Lovelace (compact list using a Markdown card)
+```yaml
+type: vertical-stack
+cards:
+  - type: entities
+    entities:
+      - type: custom:hui-element
+        card_type: markdown
+        content: |-
+          {% set evts = state_attr('sensor.<sensor_name>','event') or [] %}
+          {% set nowts = now() %}
+          {% set ns = namespace(count=0) %}
+          {%- for e in evts | sort(attribute='startTime') -%}
+            {%- set st = as_local(as_datetime(e.startTime)) -%}
+            {%- set en = st + timedelta(minutes=(e.duration | int(0))) -%}
+            {%- if en > nowts -%}
+              {%- if ns.count > 0 -%}<br>{%- endif -%}
+              {{ st.strftime("%H:%M") }} : {{ e.name }}
+              {%- set ns.count = ns.count + 1 -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if ns.count == 0 -%}
+            No upcoming programmes
+          {%- endif -%}
 
 
 ## Channel list
