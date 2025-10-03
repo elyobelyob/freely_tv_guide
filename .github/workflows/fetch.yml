@@ -212,6 +212,29 @@ jobs:
           PY
 
 
+      - name: Update README channel list
+        run: |
+          python - <<'PY'
+          import json, pathlib, re
+          idx = json.loads(pathlib.Path('docs/index.json').read_text('utf-8'))
+          base = 'https://elyobelyob.github.io/freely_tv_guide/'
+          rows = ['| ID | Name | JSON |','|---:|---|---|']
+          for c in idx.get('channels', []):
+              rows.append(f"| {c['id']} | {c['name']} | [{c['path']}]({base}{c['path']}) |")
+          table = '\n'.join(rows)
+      
+          readme_path = pathlib.Path('README.md')
+          readme = readme_path.read_text('utf-8')
+          start, end = '<!-- CHANNELS_START -->', '<!-- CHANNELS_END -->'
+          pattern = re.compile(rf"{start}[\s\S]*?{end}", re.MULTILINE)
+          if start in readme and end in readme:
+            readme = pattern.sub(f"{start}\n{table}\n{end}", readme)
+          else:
+            readme += f"\n\n## Channel list\n{start}\n{table}\n{end}\n"
+          readme_path.write_text(readme, 'utf-8')
+          PY
+
+
       - name: Commit outputs
         run: |
           git config user.name "github-actions"
