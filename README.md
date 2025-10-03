@@ -7,11 +7,7 @@ Fetch the Freely TV-Guide API and publish **per‑channel JSON** files you can p
 ## Quick start
 
 
-```bash
-# 1) clone your new repo and enter it
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+## Channel list
+<!-- CHANNELS_START -->
+<!-- CHANNELS_END -->
 
-
-# Example: 2025‑10‑03 00:00:00 UTC
-python scripts/freely_fetch_split.py --nid 64865 --start 1759449600 --out docs
