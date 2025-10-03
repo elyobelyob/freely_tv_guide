@@ -1,4 +1,26 @@
 #!/usr/bin/env python3
+"image": image,
+# keep original too for debugging
+"_raw": ev,
+}
+
+
+
+
+def extract_channels(payload: Any) -> List[Channel]:
+# Try common shapes
+if isinstance(payload, dict):
+for key in ("channels", "data", "results", "items"):
+val = payload.get(key)
+if isinstance(val, list) and val and isinstance(val[0], dict):
+return val
+for key in ("schedule", "schedules", "guide"):
+val = payload.get(key)
+if isinstance(val, list) and val and isinstance(val[0], dict):
+return val
+if any(k in payload for k in ("events", "event", "schedule")):
+return [payload]
+elif isinstance(payload, list) and payload and isinstance(payload[0], dict):
 return payload
 return []
 
@@ -9,7 +31,6 @@ def extract_channel_id_name(ch: Channel) -> Tuple[str, str]:
 cid = _pick(ch, ["id", "channelId", "serviceId", "sid", "uid", "service"])
 name = _pick(ch, ["name", "channelName", "title", "serviceName"]) or "Unknown"
 if cid is None:
-# build a stable id from name
 cid = slugify(str(name))
 return str(cid), str(name)
 
@@ -21,7 +42,6 @@ for key in ("events", "event", "schedule", "schedules", "programmes", "programs"
 v = ch.get(key)
 if isinstance(v, list):
 return [normalise_event(e) for e in v if isinstance(e, dict)]
-# Sometimes events nested deeper
 for key in ch.keys():
 v = ch[key]
 if isinstance(v, dict):
@@ -32,9 +52,6 @@ return [normalise_event(e) for e in v2 if isinstance(e, dict)]
 return []
 
 
-
-
-# --- Fetch & Write --------------------------------------------------------
 
 
 def fetch_freely(nid: str, start: int, session: Optional[requests.Session] = None) -> Any:
@@ -54,7 +71,6 @@ ensure_dir(raw_dir)
 ensure_dir(chan_dir)
 
 
-# write raw
 raw_path = raw_dir / f"guide_{start}.json"
 with open(raw_path, "w", encoding="utf-8") as f:
 json.dump(payload, f, ensure_ascii=False, indent=2)
@@ -70,17 +86,14 @@ events = extract_events(ch)
 out_obj = {
 "channel": {"id": cid, "name": name},
 "events": events,
-# compatibility block
 "compat": {"freesat_card": [{"event": events}]},
 }
-# write file
 chan_path = chan_dir / f"{cid}.json"
 with open(chan_path, "w", encoding="utf-8") as f:
 json.dump(out_obj, f, ensure_ascii=False, indent=2)
 index["channels"].append({"id": cid, "name": name, "path": f"channels/{cid}.json"})
 
 
-# write index
 with open(out_dir / "index.json", "w", encoding="utf-8") as f:
 json.dump(index, f, ensure_ascii=False, indent=2)
 
@@ -88,9 +101,6 @@ json.dump(index, f, ensure_ascii=False, indent=2)
 return index
 
 
-
-
-# --- CLI -----------------------------------------------------------------
 
 
 def main():
