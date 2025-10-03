@@ -15,7 +15,7 @@ on:
         default: "64865"
 
   schedule:
-    - cron: "5 0 * * *"   # runs every day at 00:05 UTC (01:05 in BST, 00:05 in GMT)
+    - cron: "5 4 * * *"   # runs daily at 04:05 UTC
 
 jobs:
   fetch:
