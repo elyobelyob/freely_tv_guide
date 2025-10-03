@@ -30,6 +30,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: |
+            requirements.txt
+
 
       - name: Install deps
         run: |
@@ -52,13 +56,16 @@ jobs:
         run: |
           python scripts/freely_fetch_split.py --nid "${{ steps.when.outputs.nid }}" --start "${{ steps.when.outputs.start }}" --out docs
 
-      - name: Mirror images (local-only, split folders) & rewrite JSON; clean orphans
+      - name: Mirror images (fast cached) & rewrite JSON
         env:
-          IMG_WORKERS: "12"
-          IMG_HOURS_AHEAD: "48"   # only consider programme images starting within next N hours
+          IMG_WORKERS: "16"          # parallel downloads
+          IMG_HOURS_AHEAD: "18"      # only mirror programmes starting within next N hours
+          IMG_MAX_PER_CHANNEL: "10"  # cap images per channel per run
+          IMG_TIMEOUT_CONNECT: "4"
+          IMG_TIMEOUT_READ: "8"
         run: |
           python - <<'PY'
-          import json, hashlib, pathlib, requests, concurrent.futures, os, datetime
+          import json, hashlib, pathlib, requests, concurrent.futures, os, datetime, sys
           from urllib.parse import urlparse
       
           base = pathlib.Path('docs')
@@ -69,147 +76,163 @@ jobs:
           img_chan.mkdir(parents=True, exist_ok=True)
       
           # placeholders
-          prog_placeholder = img_prog/'placeholder.svg'
-          chan_placeholder = img_chan/'placeholder.svg'
-          if not prog_placeholder.exists():
-              prog_placeholder.write_text(
-                '<svg xmlns="http://www.w3.org/2000/svg" width="540" height="360"><rect width="100%" height="100%" fill="#e5e7eb"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#6b7280">No image</text></svg>',
-                'utf-8'
-              )
-          if not chan_placeholder.exists():
-              chan_placeholder.write_text(
-                '<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256"><rect width="100%" height="100%" fill="#e5e7eb"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#6b7280">No logo</text></svg>',
-                'utf-8'
-              )
+          def ensure_placeholder(p: pathlib.Path, text: str, w=540, h=360):
+              if not p.exists():
+                  p.write_text(
+                    f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}">'
+                    f'<rect width="100%" height="100%" fill="#e5e7eb"/>'
+                    f'<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" '
+                    f'font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#6b7280">{text}</text>'
+                    f'</svg>', 'utf-8'
+                  )
+          ensure_placeholder(img_prog/'placeholder.svg', 'No image', 540, 360)
+          ensure_placeholder(img_chan/'placeholder.svg', 'No logo', 256, 256)
       
-          # HTTP session
+          # session
           session = requests.Session()
           session.headers.update({
             "User-Agent":"Mozilla/5.0 (freely_tv_guide)",
             "Accept":"image/avif,image/webp,image/*,*/*;q=0.8",
-            "Referer":"https://www.freeviewplay.co.uk/",  # friendlier than img.freeviewplay.tv
+            "Referer":"https://www.freeviewplay.co.uk/",
           })
+          TCON = float(os.getenv('IMG_TIMEOUT_CONNECT','4'))
+          TREAD = float(os.getenv('IMG_TIMEOUT_READ','8'))
       
           def guess_ext(url, content_type=None):
-              if content_type:
-                  ct = content_type.lower()
-                  if 'jpeg' in ct or 'jpg' in ct: return '.jpg'
-                  if 'png' in ct: return '.png'
-                  if 'webp' in ct: return '.webp'
-              p = urlparse(url).path.lower()
-              for e in ('.jpg','.jpeg','.png','.webp'):
-                  if p.endswith(e): return e
-              return '.jpg'
+            if content_type:
+              ct = content_type.lower()
+              if 'jpeg' in ct or 'jpg' in ct: return '.jpg'
+              if 'png' in ct: return '.png'
+              if 'webp' in ct: return '.webp'
+            p = urlparse(url).path.lower()
+            for e in ('.jpg','.jpeg','.png','.webp'):
+              if p.endswith(e): return e
+            return '.jpg'
       
-          # Collect work: channel logos + programme images (next N hours)
-          HOURS_AHEAD = int(os.getenv('IMG_HOURS_AHEAD','48'))
+          HOURS_AHEAD = int(os.getenv('IMG_HOURS_AHEAD','18'))
+          MAX_PER_CH   = int(os.getenv('IMG_MAX_PER_CHANNEL','10'))
           now = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
           ahead = now + datetime.timedelta(hours=HOURS_AHEAD)
       
-          # Each item: (kind, json_path(str), url_candidates[list])
-          jobs = []  # kind in {"channel","programme"}
-          files = list(chan_dir.glob('*.json'))
+          # collect work
+          jobs_prog = []         # programme image URL list
+          jobs_chan = []         # (channel id, logo url)
+          per_channel_count = {} # limit per channel
       
-          for p in files:
-              data = json.loads(p.read_text('utf-8'))
+          json_files = list(chan_dir.glob('*.json'))
+          for p in json_files:
+            data = json.loads(p.read_text('utf-8'))
+            ch = data.get('channel') or {}
+            cid = ch.get('id')
+            logo = ch.get('logo')
+            if logo:
+              jobs_chan.append((cid, logo))
       
-              # channel logo
-              ch = data.get('channel') or {}
-              logo = ch.get('logo')
-              if logo:
-                  jobs.append(("channel", str(p), [logo]))
-      
-              # programme images
-              for ev in data.get('events', []):
-                  st = ev.get('startTime')
-                  try:
-                      st_dt = datetime.datetime.fromisoformat(str(st).replace('Z','+00:00').replace('+0000','+00:00')) if st else None
-                  except Exception:
-                      st_dt = None
-                  if st_dt and st_dt > ahead:
-                      continue
-                  raw = ev.get('_raw') or {}
-                  cands = []
-                  if ev.get('image'): cands.append(ev['image'])
-                  if raw.get('image_url'): cands.append(raw['image_url'])
-                  if raw.get('fallback_image_url'): cands.append(raw['fallback_image_url'])
-                  if cands:
-                      jobs.append(("programme", str(p), cands))
-      
-          # Download (parallel), always save; map url->relative path
-          def download(kind, url):
+            cnt = 0
+            for ev in data.get('events', []):
+              st = ev.get('startTime')
               try:
-                  r = session.get(url, timeout=12)
-                  r.raise_for_status()
-                  ext = guess_ext(url, r.headers.get('content-type','image/jpeg'))
-                  h = hashlib.sha1(url.encode()).hexdigest() + ext
-                  if kind == "channel":
-                      (img_chan/h).write_bytes(r.content)
-                      return f"img/channels/{h}"
-                  else:
-                      (img_prog/h).write_bytes(r.content)
-                      return f"img/programmes/{h}"
+                st_dt = datetime.datetime.fromisoformat(str(st).replace('Z','+00:00').replace('+0000','+00:00')) if st else None
               except Exception:
-                  return None
+                st_dt = None
+              if st_dt and st_dt > ahead:
+                continue
+              if MAX_PER_CH and cnt >= MAX_PER_CH:
+                continue
+              raw = ev.get('_raw') or {}
+              cands = [ev.get('image'), raw.get('image_url'), raw.get('fallback_image_url')]
+              # first non-empty candidate
+              for u in cands:
+                if u:
+                  jobs_prog.append(u)
+                  cnt += 1
+                  break
+            per_channel_count[cid] = cnt
       
-          workers = int(os.getenv('IMG_WORKERS','12'))
-          url_cache = {}  # (kind,url) -> relpath or None
-          def ensure(kind, url):
-              key = (kind, url)
-              if key in url_cache:
-                  return url_cache[key]
-              res = download(kind, url)
-              url_cache[key] = res
-              return res
+          # download logic (skip network if file already exists)
+          def ensure_local(kind, url):
+            if not url:
+              return None
+            h = hashlib.sha1(url.encode()).hexdigest()
+            dest_dir = img_chan if kind == 'channel' else img_prog
+            # try existing files (any known ext)
+            for ext in ('.jpg','.jpeg','.png','.webp'):
+              f = dest_dir/(h+ext)
+              if f.exists():
+                return f
+            try:
+              r = session.get(url, timeout=(TCON, TREAD))
+              r.raise_for_status()
+              ext = guess_ext(url, r.headers.get('content-type','image/jpeg'))
+              f = dest_dir/(h+ext)
+              f.write_bytes(r.content)
+              return f
+            except Exception:
+              return None
       
-          # Rewrite JSONs; track referenced files for cleanup
-          ref_prog = set()
-          ref_chan = set()
+          # parallel downloads
+          workers = int(os.getenv('IMG_WORKERS','16'))
       
-          for p in files:
-              changed = False
-              data = json.loads(pathlib.Path(p).read_text('utf-8'))
+          # channels
+          chan_map = {}  # cid/url -> rel path
+          with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
+            futs = {ex.submit(ensure_local, 'channel', u): (cid, u) for cid,u in jobs_chan}
+            for fut in concurrent.futures.as_completed(futs):
+              cid, u = futs[fut]
+              f = fut.result()
+              chan_map[(cid,u)] = ('img/channels/'+f.name) if f else 'img/channels/placeholder.svg'
       
-              # channel logo
-              ch = data.get('channel') or {}
-              logo = ch.get('logo')
-              if logo:
-                  out = None
-                  for u in [logo]:
-                      out = ensure("channel", u)
-                      if out: break
-                  ch['logo'] = out or 'img/channels/placeholder.svg'
-                  if out: ref_chan.add(pathlib.Path(out).name)
-                  changed = True
+          # programmes (dedup urls)
+          prog_urls = sorted(set([u for u in jobs_prog if u]))
+          prog_map = {}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
+            futs = {ex.submit(ensure_local, 'programme', u): u for u in prog_urls}
+            for fut in concurrent.futures.as_completed(futs):
+              u = futs[fut]
+              f = fut.result()
+              prog_map[u] = ('img/programmes/'+f.name) if f else 'img/programmes/placeholder.svg'
       
-              # programme images
-              for ev in data.get('events', []):
-                  raw = ev.get('_raw') or {}
-                  cands = [ev.get('image'), raw.get('image_url'), raw.get('fallback_image_url')]
-                  out = None
-                  for u in cands:
-                      if not u: continue
-                      out = ensure("programme", u)
-                      if out: break
-                  ev['image'] = out or 'img/programmes/placeholder.svg'
-                  if out: ref_prog.add(pathlib.Path(out).name)
-                  changed = True
+          # rewrite JSON + collect referenced files
+          ref_prog = set(['placeholder.svg'])
+          ref_chan = set(['placeholder.svg'])
+          changed_files = 0
+          for p in json_files:
+            data = json.loads(p.read_text('utf-8'))
+            ch = data.get('channel') or {}
+            logo = ch.get('logo')
+            if logo:
+              ch['logo'] = chan_map.get((ch.get('id'), logo), 'img/channels/placeholder.svg')
+              if ch['logo'].startswith('img/channels/'):
+                ref_chan.add(pathlib.Path(ch['logo']).name)
+            for ev in data.get('events', []):
+              raw = ev.get('_raw') or {}
+              for u in (ev.get('image'), raw.get('image_url'), raw.get('fallback_image_url')):
+                if not u: 
+                  continue
+                rel = prog_map.get(u)
+                if rel:
+                  ev['image'] = rel
+                  if rel.startswith('img/programmes/'):
+                    ref_prog.add(pathlib.Path(rel).name)
+                  break
+              else:
+                ev['image'] = 'img/programmes/placeholder.svg'
+            p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
+            changed_files += 1
       
-              if changed:
-                  pathlib.Path(p).write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
-      
-          # Clean orphans (keep placeholders)
+          # clean orphans
           for f in img_prog.glob('*'):
-              if f.name in ('placeholder.svg',) or f.is_dir(): continue
-              if f.name not in ref_prog:
-                  try: f.unlink()
-                  except: pass
+            if f.name not in ref_prog and f.name != 'placeholder.svg':
+              try: f.unlink()
+              except: pass
           for f in img_chan.glob('*'):
-              if f.name in ('placeholder.svg',) or f.is_dir(): continue
-              if f.name not in ref_chan:
-                  try: f.unlink()
-                  except: pass
+            if f.name not in ref_chan and f.name != 'placeholder.svg':
+              try: f.unlink()
+              except: pass
+      
+          print(f"Channels processed: {len(json_files)}; programme images queued: {len(prog_urls)}; per-channel cap: {MAX_PER_CH}", file=sys.stderr)
           PY
+
 
 
       - name: Update README channel list
