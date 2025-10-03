@@ -1,0 +1,12 @@
+# Byte‑compiled / cache
+__pycache__/
+*.pyc
+
+
+# venvs
+.venv/
+
+
+# Local runs (keep docs committed by CI only)
+docs/
+!docs/.keep
