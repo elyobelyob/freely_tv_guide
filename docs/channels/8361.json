@@ -9,7 +9,7 @@
       "duration": 130,
       "name": "This is ITV+1",
       "description": "",
-      "image": "https://img.freeviewplay.tv/edbb1bbfc75d6c1ef01652fc8402d369e",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/93dd4623-61cc-40fc-a873-8047690a23ff",
         "event_locator": "dvb://233a..20a9;3077",
@@ -26,7 +26,7 @@
       "duration": 60,
       "name": "The Genius Game: Series 1: Episode 5",
       "description": "",
-      "image": "https://img.freeviewplay.tv/pde32d5b6dea3f8ad0dbcfac589f7ab55",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://jvp.itv.com/95kxr6m_version",
         "event_locator": "dvb://233a..20a9;4311",
@@ -35,6 +35,16 @@
         "image_url": "https://img.freeviewplay.tv/pde32d5b6dea3f8ad0dbcfac589f7ab55",
         "start_time": "2025-10-03T03:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-05-21T21:13:20+0000",
+          "end_of_availability": "2030-05-21T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_5133_0005.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "290a63cbbbd86c4abd0f98b465af387c"
       }
@@ -44,7 +54,7 @@
       "duration": 65,
       "name": "Unwind with ITV",
       "description": "",
-      "image": "https://img.freeviewplay.tv/ebc94612a738f3b3c733f24d9126e7b9d",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/d063011f-a02b-43a8-9e78-7ec075fb5a50",
         "event_locator": "dvb://233a..20a9;3079",
@@ -61,7 +71,7 @@
       "duration": 55,
       "name": "M&S: Dress the Nation",
       "description": "",
-      "image": "https://img.freeviewplay.tv/ebc01d775acd4204dc7dab98127a56763",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/90dc74d1-f0bf-4b0f-b968-d6f3ce733889",
         "event_locator": "dvb://233a..20a9;412",
@@ -76,35 +86,57 @@
     {
       "startTime": "2025-10-03T06:00:00+0000",
       "duration": 180,
-      "name": "Good Morning Britain",
+      "name": "Good Morning Britain: Series 12: 197. Friday 3 Oct",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e1dc10c8c6cac600bbdfe87ed94a7823a",
+      "image": "img/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/1255f617-17f4-4427-ba05-2ad5ffe27cb7",
+        "program_id": "crid://jvp.itv.com/dtf6r5r_version",
         "event_locator": "dvb://233a..20a9;3164",
         "main_title": "Good Morning Britain",
-        "image_url": "https://img.freeviewplay.tv/e1dc10c8c6cac600bbdfe87ed94a7823a",
+        "secondary_title": "Series 12: 197. Friday 3 Oct",
+        "image_url": "https://img.freeviewplay.tv/pc5d9779eb4c34ea5bf096f8c6e726fbe",
         "start_time": "2025-10-03T06:00:00+0000",
         "duration": "PT3H",
+        "on_demand": {
+          "start_of_availability": "2025-10-03T07:54:21+0000",
+          "end_of_availability": "2025-10-10T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_3211_4183.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "19579ff8093eef43c0c1f88b87eefb24"
+        "uuid": "aa2af04f2cbf52aab75726bf37210264"
       }
     },
     {
       "startTime": "2025-10-03T09:00:00+0000",
       "duration": 60,
-      "name": "Lorraine",
+      "name": "Lorraine: Series 17: 197. Friday 3 Oct",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e5a7d61137d157d6af6bcf9b55bd4363f",
+      "image": "img/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/cf65886f-877d-4b28-a76c-20e0ac548f08",
+        "program_id": "crid://jvp.itv.com/zmf2yp7_version",
         "event_locator": "dvb://233a..20a9;3165",
         "main_title": "Lorraine",
-        "image_url": "https://img.freeviewplay.tv/e5a7d61137d157d6af6bcf9b55bd4363f",
+        "secondary_title": "Series 17: 197. Friday 3 Oct",
+        "image_url": "https://img.freeviewplay.tv/pd00b59d704d13c03a4e2a11085c7b406",
         "start_time": "2025-10-03T09:00:00+0000",
         "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "ede1f18279807d535e5675a4aac9e217"
+        "on_demand": {
+          "start_of_availability": "2025-10-03T08:54:36+0000",
+          "end_of_availability": "2025-10-10T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_9360_3973.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+        "uuid": "5c45e6c22fdb294c24adfe2ede797997"
       }
     },
     {
@@ -112,7 +144,7 @@
       "duration": 150,
       "name": "This Morning",
       "description": "",
-      "image": "https://img.freeviewplay.tv/ef2fc2a909e91a0cad5d6c9c1fa5932f9",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/67a5d73e-56eb-4c3e-839c-623e96f62684",
         "event_locator": "dvb://233a..20a9;3167",
@@ -129,7 +161,7 @@
       "duration": 60,
       "name": "Loose Women",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e183b255a212ad6cbdd4bf10c8fc451b7",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/d79b68d4-1262-4bf7-a0af-73203dcb681f",
         "event_locator": "dvb://233a..20a9;317a",
@@ -146,7 +178,7 @@
       "duration": 25,
       "name": "ITV Lunchtime News",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e27cac1f11e44ddddf9016c7709d397e1",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/ff4777d0-79ab-40ba-bfaf-db7ff9b643ee",
         "event_locator": "dvb://233a..20a9;317b",
@@ -163,7 +195,7 @@
       "duration": 5,
       "name": "ITV News London",
       "description": "",
-      "image": "https://img.freeviewplay.tv/ef4fd506f010315cd0cbf6c2080829541",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/6f8d3bbc-962e-4f96-9868-7f5443a4c509",
         "event_locator": "dvb://233a..20a9;317f",
@@ -180,7 +212,7 @@
       "duration": 60,
       "name": "Dickinson's Real Deal: Series 18: 22. Burton 1",
       "description": "",
-      "image": "https://img.freeviewplay.tv/p22eb51e0d3c318eb8ea7804b66c66d73",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://jvp.itv.com/plv4gwt_version",
         "event_locator": "dvb://233a..20a9;31d7",
@@ -198,7 +230,7 @@
       "duration": 60,
       "name": "Tenable: Series 5: 20. David Hill's Billies",
       "description": "",
-      "image": "https://img.freeviewplay.tv/p977920eafbd5aa02c33fc00035c56368",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://jvp.itv.com/ftzvszm_version",
         "event_locator": "dvb://233a..20a9;31d8",
@@ -216,7 +248,7 @@
       "duration": 60,
       "name": "Tipping Point: Series 14: 5. Tuesday 17 Sept",
       "description": "",
-      "image": "https://img.freeviewplay.tv/paf92d035fce240ed00245e6fb33fb504",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://jvp.itv.com/p44xjjk_version",
         "event_locator": "dvb://233a..20a9;5be",
@@ -234,7 +266,7 @@
       "duration": 60,
       "name": "The Chase: Series 17: Episode 57",
       "description": "",
-      "image": "https://img.freeviewplay.tv/pc62760661b6f89fcbac228557cc6699d",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://jvp.itv.com/tnrtly4_version",
         "event_locator": "dvb://233a..20a9;320b",
@@ -252,7 +284,7 @@
       "duration": 30,
       "name": "ITV News London",
       "description": "",
-      "image": "https://img.freeviewplay.tv/ef4fd506f010315cd0cbf6c2080829541",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/3f42b0b3-cfc6-474d-8918-1a382a96dd42",
         "event_locator": "dvb://233a..20a9;321f",
@@ -269,7 +301,7 @@
       "duration": 60,
       "name": "ITV Evening News",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e7da0d5decb172a19a898d1959ac79925",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/7f74e7d3-17e6-41cf-b9d5-d32126db6ab4",
         "event_locator": "dvb://233a..20a9;32af",
@@ -286,7 +318,7 @@
       "duration": 30,
       "name": "Emmerdale: Series 54: 10408. Friday 3 Oct",
       "description": "",
-      "image": "https://img.freeviewplay.tv/pd16b184c2bae23404c80a3ba60721756",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://jvp.itv.com/jc8s2r5_version",
         "event_locator": "dvb://233a..20a9;32e6",
@@ -304,7 +336,7 @@
       "duration": 60,
       "name": "Coronation Street: Series 66: 229. Friday 3 Oct",
       "description": "",
-      "image": "https://img.freeviewplay.tv/pa9a127403453817fb0545b1cbc25b70f",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://jvp.itv.com/4nr73j6_version",
         "event_locator": "dvb://233a..20a9;32e7",
@@ -322,7 +354,7 @@
       "duration": 60,
       "name": "Borderline: Series 1: 1. Hens: Part One",
       "description": "",
-      "image": "https://img.freeviewplay.tv/p16bc02e129bb6e50d40ff60899104f4a",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://jvp.itv.com/l4j97kq_version",
         "event_locator": "dvb://233a..20a9;7ed6",
@@ -340,7 +372,7 @@
       "duration": 30,
       "name": "ITV News at Ten",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e426e9e059174e42d8b93e4ac5f5ed6de",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/38f1f6dd-0430-486b-a884-f1ba6ff500f1",
         "event_locator": "dvb://233a..20a9;32e8",
@@ -357,7 +389,7 @@
       "duration": 15,
       "name": "ITV News London",
       "description": "",
-      "image": "https://img.freeviewplay.tv/ef4fd506f010315cd0cbf6c2080829541",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/7a0a7b67-7c68-440a-9ed2-adc092b55e0d",
         "event_locator": "dvb://233a..20a9;32ed",
@@ -374,7 +406,7 @@
       "duration": 120,
       "name": "Joker: Joker",
       "description": "",
-      "image": "https://img.freeviewplay.tv/p447dc06f601a0c073177281ac83275dc",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://jvp.itv.com/d2zyj16_version",
         "event_locator": "dvb://233a..20a9;5936",
@@ -423,6 +455,16 @@
               "image_url": "https://img.freeviewplay.tv/pde32d5b6dea3f8ad0dbcfac589f7ab55",
               "start_time": "2025-10-03T03:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-05-21T21:13:20+0000",
+                "end_of_availability": "2030-05-21T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_5133_0005.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "290a63cbbbd86c4abd0f98b465af387c"
             }
@@ -464,35 +506,57 @@
           {
             "startTime": "2025-10-03T06:00:00+0000",
             "duration": 180,
-            "name": "Good Morning Britain",
+            "name": "Good Morning Britain: Series 12: 197. Friday 3 Oct",
             "description": "",
-            "image": "https://img.freeviewplay.tv/e1dc10c8c6cac600bbdfe87ed94a7823a",
+            "image": "https://img.freeviewplay.tv/pc5d9779eb4c34ea5bf096f8c6e726fbe",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/1255f617-17f4-4427-ba05-2ad5ffe27cb7",
+              "program_id": "crid://jvp.itv.com/dtf6r5r_version",
               "event_locator": "dvb://233a..20a9;3164",
               "main_title": "Good Morning Britain",
-              "image_url": "https://img.freeviewplay.tv/e1dc10c8c6cac600bbdfe87ed94a7823a",
+              "secondary_title": "Series 12: 197. Friday 3 Oct",
+              "image_url": "https://img.freeviewplay.tv/pc5d9779eb4c34ea5bf096f8c6e726fbe",
               "start_time": "2025-10-03T06:00:00+0000",
               "duration": "PT3H",
+              "on_demand": {
+                "start_of_availability": "2025-10-03T07:54:21+0000",
+                "end_of_availability": "2025-10-10T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_3211_4183.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "19579ff8093eef43c0c1f88b87eefb24"
+              "uuid": "aa2af04f2cbf52aab75726bf37210264"
             }
           },
           {
             "startTime": "2025-10-03T09:00:00+0000",
             "duration": 60,
-            "name": "Lorraine",
+            "name": "Lorraine: Series 17: 197. Friday 3 Oct",
             "description": "",
-            "image": "https://img.freeviewplay.tv/e5a7d61137d157d6af6bcf9b55bd4363f",
+            "image": "https://img.freeviewplay.tv/pd00b59d704d13c03a4e2a11085c7b406",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/cf65886f-877d-4b28-a76c-20e0ac548f08",
+              "program_id": "crid://jvp.itv.com/zmf2yp7_version",
               "event_locator": "dvb://233a..20a9;3165",
               "main_title": "Lorraine",
-              "image_url": "https://img.freeviewplay.tv/e5a7d61137d157d6af6bcf9b55bd4363f",
+              "secondary_title": "Series 17: 197. Friday 3 Oct",
+              "image_url": "https://img.freeviewplay.tv/pd00b59d704d13c03a4e2a11085c7b406",
               "start_time": "2025-10-03T09:00:00+0000",
               "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "ede1f18279807d535e5675a4aac9e217"
+              "on_demand": {
+                "start_of_availability": "2025-10-03T08:54:36+0000",
+                "end_of_availability": "2025-10-10T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_9360_3973.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+              "uuid": "5c45e6c22fdb294c24adfe2ede797997"
             }
           },
           {

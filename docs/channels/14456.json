@@ -9,7 +9,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/029a8fad-0a10-4cf3-b3e3-2c93a52caa86",
         "event_locator": "dvb://233a..3878;3257",
@@ -26,7 +26,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/5b61a3ca-a36c-478e-8981-ef7f5a3beccc",
         "event_locator": "dvb://233a..3878;3258",
@@ -43,7 +43,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/f6b732f1-2a22-4ae9-a51c-d6269eedcc91",
         "event_locator": "dvb://233a..3878;3259",
@@ -60,7 +60,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/9320aa27-3ed5-4db9-ab62-6b7fc3c6c64d",
         "event_locator": "dvb://233a..3878;325a",
@@ -77,7 +77,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/9b3c8358-3a4a-49a2-bf81-dc54d00a0b2f",
         "event_locator": "dvb://233a..3878;325b",
@@ -94,7 +94,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/db7e6226-fdfb-4717-85ee-acd596d24f1a",
         "event_locator": "dvb://233a..3878;325c",
@@ -111,7 +111,7 @@
       "duration": 30,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/6430e245-99d4-409e-b4b7-194af9c1fa79",
         "event_locator": "dvb://233a..3878;325d",
@@ -128,7 +128,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e5a81b1a46aacacfcb1e66d15c501b67a",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/1a807a0d-8b30-409e-ad53-a0356ec6cd18",
         "event_locator": "dvb://233a..3878;325e",
@@ -145,7 +145,7 @@
       "duration": 20,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e5a81b1a46aacacfcb1e66d15c501b67a",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/8f8e302d-adfd-4ab8-b9a3-c0103b590b4a",
         "event_locator": "dvb://233a..3878;325f",
@@ -160,52 +160,85 @@
     {
       "startTime": "2025-10-03T03:45:00+0000",
       "duration": 25,
-      "name": "Medical Detectives",
+      "name": "Medical Detectives: Series 07: 14. A Leg To Stand On",
       "description": "",
-      "image": "https://img.freeviewplay.tv/ecaa5c9afd5151f47aa304375af5a6034",
+      "image": "img/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/b0170306-9e72-4579-a58e-066174f0924f",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-14/36382873",
         "event_locator": "dvb://233a..3878;3260",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/ecaa5c9afd5151f47aa304375af5a6034",
+        "secondary_title": "Series 07: 14. A Leg To Stand On",
+        "image_url": "https://img.freeviewplay.tv/pd7022cd3d705bb1726c138359adb2d32",
         "start_time": "2025-10-03T03:45:00+0000",
         "duration": "PT25M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "89fd5410587176d95667428b1691fef6"
+        "on_demand": {
+          "start_of_availability": "2025-10-03T03:45:00+0000",
+          "end_of_availability": "2025-11-02T04:10:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36382873&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "ea8753e7983f274463e97b961a12292b"
       }
     },
     {
       "startTime": "2025-10-03T04:10:00+0000",
       "duration": 25,
-      "name": "Medical Detectives",
+      "name": "Medical Detectives: Series 07: 15. Partners in Crime",
       "description": "",
-      "image": "https://img.freeviewplay.tv/ee959a3ed672f0d1749c2bd3e89677827",
+      "image": "img/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/21eb3576-84e3-48cc-bb08-25a659bd9fc5",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-15/36386203",
         "event_locator": "dvb://233a..3878;3261",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/ee959a3ed672f0d1749c2bd3e89677827",
+        "secondary_title": "Series 07: 15. Partners in Crime",
+        "image_url": "https://img.freeviewplay.tv/p92a034de560729ed86608747ec3fb796",
         "start_time": "2025-10-03T04:10:00+0000",
         "duration": "PT25M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "b4ac01418d590005162739161b6c4361"
+        "on_demand": {
+          "start_of_availability": "2025-10-03T04:10:00+0000",
+          "end_of_availability": "2025-11-02T04:35:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36386203&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "4384fc8fd66bfa77c579b1df2907cac8"
       }
     },
     {
       "startTime": "2025-10-03T04:35:00+0000",
       "duration": 25,
-      "name": "Medical Detectives",
+      "name": "Medical Detectives: Series 07: 16. Within a Hair",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e3fef2054a26a7d41402546cbda106b0c",
+      "image": "img/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/9bd95218-98b3-440a-85c5-8e0df08942d2",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-16/36386250",
         "event_locator": "dvb://233a..3878;3262",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/e3fef2054a26a7d41402546cbda106b0c",
+        "secondary_title": "Series 07: 16. Within a Hair",
+        "image_url": "https://img.freeviewplay.tv/p0f22d4fdc2817f1e59dd15baec4e397b",
         "start_time": "2025-10-03T04:35:00+0000",
         "duration": "PT25M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "e002a777dba7fc0ea7097005c5b6b571"
+        "on_demand": {
+          "start_of_availability": "2025-10-03T04:35:00+0000",
+          "end_of_availability": "2025-11-02T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36386250&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "e146d3596a9d5c512dd4d25d4be41687"
       }
     },
     {
@@ -230,7 +263,7 @@
       "duration": 60,
       "name": "Murder UK",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e82e97f1dbff027944f98c55e6dfda71e",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/e372b6e3-0f72-4331-9db5-ec054f530c11",
         "event_locator": "dvb://233a..3878;3264",
@@ -247,7 +280,7 @@
       "duration": 60,
       "name": "Murder UK",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e82e97f1dbff027944f98c55e6dfda71e",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/336ec15f-727d-4acc-a75d-c26411bc61d2",
         "event_locator": "dvb://233a..3878;3265",
@@ -264,7 +297,7 @@
       "duration": 60,
       "name": "48 Hours",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e66bd00ac8b8049c20e7e57200accc022",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/9c1a036d-90f3-4b1f-8f54-d82bb538bfef",
         "event_locator": "dvb://233a..3878;3266",
@@ -279,18 +312,29 @@
     {
       "startTime": "2025-10-03T11:00:00+0000",
       "duration": 30,
-      "name": "Medical Detectives",
+      "name": "Medical Detectives: Series 07: 13. A Touching Recollection",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e68d12bed59a556d08b0a2930376591d8",
+      "image": "img/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/d2b8a737-ff79-4404-b547-f73bdf63c92f",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-13/36382777",
         "event_locator": "dvb://233a..3878;3267",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/e68d12bed59a556d08b0a2930376591d8",
+        "secondary_title": "Series 07: 13. A Touching Recollection",
+        "image_url": "https://img.freeviewplay.tv/p3551c5c149bacd5347cd4e982639f512",
         "start_time": "2025-10-03T11:00:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "d25ef119f000d6358abb03b4e99afaae"
+        "on_demand": {
+          "start_of_availability": "2025-10-03T11:00:00+0000",
+          "end_of_availability": "2025-11-02T11:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36382777&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "2a3ca69f8fbba2e07d5e24811995583f"
       }
     },
     {
@@ -298,7 +342,7 @@
       "duration": 30,
       "name": "Medical Detectives",
       "description": "",
-      "image": "https://img.freeviewplay.tv/ecaa5c9afd5151f47aa304375af5a6034",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/d93f68d6-1636-4432-b13c-e807d2c0159b",
         "event_locator": "dvb://233a..3878;3268",
@@ -315,7 +359,7 @@
       "duration": 30,
       "name": "Medical Detectives",
       "description": "",
-      "image": "https://img.freeviewplay.tv/ee959a3ed672f0d1749c2bd3e89677827",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/a6b5b0a4-15b0-42eb-ae57-4809ad298e7f",
         "event_locator": "dvb://233a..3878;3269",
@@ -332,7 +376,7 @@
       "duration": 30,
       "name": "Medical Detectives",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e3fef2054a26a7d41402546cbda106b0c",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/980ed81b-7bdc-4a93-b6d3-2e350296d04d",
         "event_locator": "dvb://233a..3878;326a",
@@ -349,7 +393,7 @@
       "duration": 60,
       "name": "Murder UK",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e82e97f1dbff027944f98c55e6dfda71e",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/a2421cee-ddef-4ba9-af70-9bf3b441d42f",
         "event_locator": "dvb://233a..3878;326b",
@@ -366,7 +410,7 @@
       "duration": 60,
       "name": "Uncovering Melanie's Murderer",
       "description": "",
-      "image": "https://img.freeviewplay.tv/ebd7e65a042d364f3e97190e8f39facb7",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/35b35569-7d33-40d3-a3f5-43eaa27a704c",
         "event_locator": "dvb://233a..3878;326c",
@@ -383,7 +427,7 @@
       "duration": 60,
       "name": "48 Hours",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e66bd00ac8b8049c20e7e57200accc022",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/325a9bae-ef96-424b-9de5-dd203e0b94fa",
         "event_locator": "dvb://233a..3878;326d",
@@ -400,7 +444,7 @@
       "duration": 30,
       "name": "Medical Detectives",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e34870766737a4e05a5b6f9626c87085a",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/07d0ed85-791a-4608-bd2b-a73e886a4a22",
         "event_locator": "dvb://233a..3878;326e",
@@ -417,7 +461,7 @@
       "duration": 30,
       "name": "Medical Detectives",
       "description": "",
-      "image": "https://img.freeviewplay.tv/ed60ab11bb83818e18e0220d594ead788",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/c22e68ca-2af9-4d0b-82a5-c849ad6315b1",
         "event_locator": "dvb://233a..3878;326f",
@@ -434,7 +478,7 @@
       "duration": 30,
       "name": "Medical Detectives",
       "description": "",
-      "image": "https://img.freeviewplay.tv/efc538046df45e46e0ba5508c6ae0cece",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/d07c4244-c4b2-4c09-b9c0-1084b7c4be2f",
         "event_locator": "dvb://233a..3878;3270",
@@ -451,7 +495,7 @@
       "duration": 30,
       "name": "Medical Detectives",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e3363c8465b8e6b7b81e7639f59d40b87",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/5bff8b34-2a60-4990-85c2-8745a05a42a0",
         "event_locator": "dvb://233a..3878;3271",
@@ -468,7 +512,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/ebec30ee-d9c0-498a-8b4e-28f5075b757e",
         "event_locator": "dvb://233a..3878;3272",
@@ -485,7 +529,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/9204df21-417b-49ff-8b6f-450937b29d7e",
         "event_locator": "dvb://233a..3878;3273",
@@ -502,7 +546,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/b11dff4d-c794-4f65-9b03-6f547a9e60fa",
         "event_locator": "dvb://233a..3878;3274",
@@ -519,7 +563,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/2b9d4417-5c03-4ab0-8e87-e4d9209d6281",
         "event_locator": "dvb://233a..3878;3275",
@@ -536,7 +580,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/ae1526da-802f-431b-b161-8616ae3bf938",
         "event_locator": "dvb://233a..3878;3276",
@@ -553,7 +597,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/a24da98b-d447-4aad-94c6-5708f817ccc6",
         "event_locator": "dvb://233a..3878;3277",
@@ -570,7 +614,7 @@
       "duration": 30,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e26706c0e4b15984e947352554c2d76fe",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/c89d5c2f-9aec-4974-8ee9-09d6da03c088",
         "event_locator": "dvb://233a..3878;3278",
@@ -587,7 +631,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e5a81b1a46aacacfcb1e66d15c501b67a",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/f640ff64-cff9-4f65-835a-4a40d88048c4",
         "event_locator": "dvb://233a..3878;3279",
@@ -604,7 +648,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e5a81b1a46aacacfcb1e66d15c501b67a",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/c2b0ef09-196a-4247-aa3c-1ed8ae9d18ba",
         "event_locator": "dvb://233a..3878;327a",
@@ -621,7 +665,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e5a81b1a46aacacfcb1e66d15c501b67a",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/53845e7a-56eb-4f06-808d-f0f45ec4396b",
         "event_locator": "dvb://233a..3878;327b",
@@ -638,7 +682,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e5a81b1a46aacacfcb1e66d15c501b67a",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/8e011c02-8b39-48fd-b530-44dd3c1e5618",
         "event_locator": "dvb://233a..3878;327c",
@@ -655,7 +699,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e5a81b1a46aacacfcb1e66d15c501b67a",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/a6b6ed74-ef48-40d0-94b8-4fa3cc123a11",
         "event_locator": "dvb://233a..3878;327d",
@@ -672,7 +716,7 @@
       "duration": 25,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e5a81b1a46aacacfcb1e66d15c501b67a",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/5eb292e4-aee8-446b-a136-f539b2524809",
         "event_locator": "dvb://233a..3878;327e",
@@ -689,7 +733,7 @@
       "duration": 30,
       "name": "Judge Judy",
       "description": "",
-      "image": "https://img.freeviewplay.tv/e5a81b1a46aacacfcb1e66d15c501b67a",
+      "image": "img/placeholder.svg",
       "_raw": {
         "program_id": "crid://csi.digitaluk.co.uk/0c0b76dd-4f78-484d-bb1d-81a81f7ade1d",
         "event_locator": "dvb://233a..3878;327f",
@@ -862,52 +906,85 @@
           {
             "startTime": "2025-10-03T03:45:00+0000",
             "duration": 25,
-            "name": "Medical Detectives",
+            "name": "Medical Detectives: Series 07: 14. A Leg To Stand On",
             "description": "",
-            "image": "https://img.freeviewplay.tv/ecaa5c9afd5151f47aa304375af5a6034",
+            "image": "https://img.freeviewplay.tv/pd7022cd3d705bb1726c138359adb2d32",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/b0170306-9e72-4579-a58e-066174f0924f",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-14/36382873",
               "event_locator": "dvb://233a..3878;3260",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/ecaa5c9afd5151f47aa304375af5a6034",
+              "secondary_title": "Series 07: 14. A Leg To Stand On",
+              "image_url": "https://img.freeviewplay.tv/pd7022cd3d705bb1726c138359adb2d32",
               "start_time": "2025-10-03T03:45:00+0000",
               "duration": "PT25M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "89fd5410587176d95667428b1691fef6"
+              "on_demand": {
+                "start_of_availability": "2025-10-03T03:45:00+0000",
+                "end_of_availability": "2025-11-02T04:10:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36382873&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "ea8753e7983f274463e97b961a12292b"
             }
           },
           {
             "startTime": "2025-10-03T04:10:00+0000",
             "duration": 25,
-            "name": "Medical Detectives",
+            "name": "Medical Detectives: Series 07: 15. Partners in Crime",
             "description": "",
-            "image": "https://img.freeviewplay.tv/ee959a3ed672f0d1749c2bd3e89677827",
+            "image": "https://img.freeviewplay.tv/p92a034de560729ed86608747ec3fb796",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/21eb3576-84e3-48cc-bb08-25a659bd9fc5",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-15/36386203",
               "event_locator": "dvb://233a..3878;3261",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/ee959a3ed672f0d1749c2bd3e89677827",
+              "secondary_title": "Series 07: 15. Partners in Crime",
+              "image_url": "https://img.freeviewplay.tv/p92a034de560729ed86608747ec3fb796",
               "start_time": "2025-10-03T04:10:00+0000",
               "duration": "PT25M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "b4ac01418d590005162739161b6c4361"
+              "on_demand": {
+                "start_of_availability": "2025-10-03T04:10:00+0000",
+                "end_of_availability": "2025-11-02T04:35:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36386203&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "4384fc8fd66bfa77c579b1df2907cac8"
             }
           },
           {
             "startTime": "2025-10-03T04:35:00+0000",
             "duration": 25,
-            "name": "Medical Detectives",
+            "name": "Medical Detectives: Series 07: 16. Within a Hair",
             "description": "",
-            "image": "https://img.freeviewplay.tv/e3fef2054a26a7d41402546cbda106b0c",
+            "image": "https://img.freeviewplay.tv/p0f22d4fdc2817f1e59dd15baec4e397b",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/9bd95218-98b3-440a-85c5-8e0df08942d2",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-16/36386250",
               "event_locator": "dvb://233a..3878;3262",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/e3fef2054a26a7d41402546cbda106b0c",
+              "secondary_title": "Series 07: 16. Within a Hair",
+              "image_url": "https://img.freeviewplay.tv/p0f22d4fdc2817f1e59dd15baec4e397b",
               "start_time": "2025-10-03T04:35:00+0000",
               "duration": "PT25M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "e002a777dba7fc0ea7097005c5b6b571"
+              "on_demand": {
+                "start_of_availability": "2025-10-03T04:35:00+0000",
+                "end_of_availability": "2025-11-02T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36386250&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "e146d3596a9d5c512dd4d25d4be41687"
             }
           },
           {
@@ -981,18 +1058,29 @@
           {
             "startTime": "2025-10-03T11:00:00+0000",
             "duration": 30,
-            "name": "Medical Detectives",
+            "name": "Medical Detectives: Series 07: 13. A Touching Recollection",
             "description": "",
-            "image": "https://img.freeviewplay.tv/e68d12bed59a556d08b0a2930376591d8",
+            "image": "https://img.freeviewplay.tv/p3551c5c149bacd5347cd4e982639f512",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/d2b8a737-ff79-4404-b547-f73bdf63c92f",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-13/36382777",
               "event_locator": "dvb://233a..3878;3267",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/e68d12bed59a556d08b0a2930376591d8",
+              "secondary_title": "Series 07: 13. A Touching Recollection",
+              "image_url": "https://img.freeviewplay.tv/p3551c5c149bacd5347cd4e982639f512",
               "start_time": "2025-10-03T11:00:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "d25ef119f000d6358abb03b4e99afaae"
+              "on_demand": {
+                "start_of_availability": "2025-10-03T11:00:00+0000",
+                "end_of_availability": "2025-11-02T11:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36382777&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "2a3ca69f8fbba2e07d5e24811995583f"
             }
           },
           {
