@@ -52,50 +52,113 @@ jobs:
         run: |
           python scripts/freely_fetch_split.py --nid "${{ steps.when.outputs.nid }}" --start "${{ steps.when.outputs.start }}" --out docs
 
-      - name: Clear old mirrored images
-        run: |
-          rm -rf docs/img
-          mkdir -p docs/img
-          
-      - name: Mirror images & rewrite channel JSON
+      - name: Mirror images (parallel) & rewrite channel JSON; clean orphans
+        env:
+          IMG_WORKERS: "16"       # tweak concurrency if needed
+          IMG_HOURS_AHEAD: "36"   # only mirror items starting within next N hours
         run: |
           python - <<'PY'
-          import json, hashlib, pathlib, requests
-      
-          base = pathlib.Path('docs'); (base/'img').mkdir(parents=True, exist_ok=True)
-          headers = {
-            "User-Agent":"Mozilla/5.0",
-            "Accept":"image/avif,image/webp,image/*,*/*;q=0.8",
-            "Referer":"https://www.freely.co.uk/tv-guide",
-          }
-      
-          def fetch_to_local(url):
-            try:
-              r = requests.get(url, headers=headers, timeout=20)
-              r.raise_for_status()
-              ct = r.headers.get('content-type','image/jpeg').lower()
-              ext = ('.jpg' if 'jpeg' in ct or 'jpg' in ct else
-                     '.png' if 'png' in ct else
-                     '.webp' if 'webp' in ct else '')
-              name = hashlib.sha1(url.encode()).hexdigest() + ext
-              (base/'img'/name).write_bytes(r.content)
-              return f"img/{name}"  # relative path; we'll prefix in the card
-            except Exception:
-              return None
-      
-          for p in (base/'channels').glob('*.json'):
-            data = json.loads(p.read_text('utf-8'))
-            changed = False
-            for ev in data.get('events', []):
-              url = ev.get('image') or (ev.get('_raw') or {}).get('image_url') or (ev.get('_raw') or {}).get('fallback_image_url')
-              if not url: continue
-              new = fetch_to_local(url)
-              if new:
-                ev['image'] = new
-                changed = True
-            if changed:
-              p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
+          import json, hashlib, pathlib, requests, concurrent.futures, os, datetime
+          from urllib.parse import urlparse
+
+          base = pathlib.Path('docs')
+          chan_dir = base/'channels'
+          img_dir = base/'img'
+          img_dir.mkdir(parents=True, exist_ok=True)
+          manifest_path = img_dir/'manifest.json'
+          manifest = {}
+          if manifest_path.exists():
+              manifest = json.loads(manifest_path.read_text('utf-8'))
+
+          # Reuse one session + keep-alive
+          session = requests.Session()
+          session.headers.update({
+              "User-Agent":"Mozilla/5.0 (freely_tv_guide)",
+              "Accept":"image/avif,image/webp,image/*,*/*;q=0.8",
+              "Referer":"https://www.freely.co.uk/tv-guide",
+          })
+
+          HOURS_AHEAD = int(os.getenv('IMG_HOURS_AHEAD','36'))
+          now = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
+          ahead = now + datetime.timedelta(hours=HOURS_AHEAD)
+
+          # Collect unique image URLs we actually need soon
+          urls = set()
+          for p in chan_dir.glob('*.json'):
+              data = json.loads(p.read_text('utf-8'))
+              for ev in data.get('events', []):
+                  st = ev.get('startTime')
+                  try:
+                      st_dt = datetime.datetime.fromisoformat(str(st).replace('Z','+00:00')) if st else None
+                  except Exception:
+                      st_dt = None
+                  if st_dt and st_dt > ahead:
+                      continue
+                  url = ev.get('image') or (ev.get('_raw') or {}).get('image_url') or (ev.get('_raw') or {}).get('fallback_image_url')
+                  if url:
+                      urls.add(url)
+          urls = sorted(urls)
+
+          def guess_ext(url, content_type=None):
+              if content_type:
+                  ct = content_type.lower()
+                  if 'jpeg' in ct or 'jpg' in ct: return '.jpg'
+                  if 'png' in ct: return '.png'
+                  if 'webp' in ct: return '.webp'
+              path = urlparse(url).path.lower()
+              for e in ('.jpg','.jpeg','.png','.webp'):
+                  if path.endswith(e): return e
+              return '.jpg'
+
+          def download(url):
+              # Skip network if we already have it
+              fn = manifest.get(url)
+              if fn and (img_dir/fn).exists():
+                  return url, fn
+              try:
+                  r = session.get(url, timeout=15)
+                  r.raise_for_status()
+                  ext = guess_ext(url, r.headers.get('content-type','image/jpeg'))
+                  fn = hashlib.sha1(url.encode()).hexdigest() + ext
+                  (img_dir/fn).write_bytes(r.content)
+                  return url, fn
+              except Exception:
+                  return url, None
+
+          workers = int(os.getenv('IMG_WORKERS','16'))
+          results = {}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
+              for url, fn in ex.map(download, urls):
+                  if fn:
+                      results[url] = fn
+
+          # Update manifest and rewrite channel JSON to local paths
+          manifest.update(results)
+          manifest_path.write_text(json.dumps(manifest, indent=2), 'utf-8')
+
+          used_files = set()
+          for p in chan_dir.glob('*.json'):
+              data = json.loads(p.read_text('utf-8'))
+              changed = False
+              for ev in data.get('events', []):
+                  url = ev.get('image') or (ev.get('_raw') or {}).get('image_url') or (ev.get('_raw') or {}).get('fallback_image_url')
+                  fn = manifest.get(url)
+                  if fn:
+                      ev['image'] = f"img/{fn}"
+                      used_files.add(fn)
+                      changed = True
+              if changed:
+                  p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
+
+          # Delete orphans (clears old images not referenced anymore)
+          for f in img_dir.glob('*'):
+              if f.name in ('manifest.json',) or f.is_dir():
+                  continue
+              if f.name not in used_files:
+                  try: f.unlink()
+                  except: pass
           PY
+
 
 
       - name: Commit outputs
