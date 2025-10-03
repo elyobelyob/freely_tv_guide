@@ -127,6 +127,15 @@ def extract_channel_id_name(ch):
         cid = slugify(str(name))
     return str(cid), str(name)
 
+def extract_channel_logo(ch):
+    # Try common keys for a channel logo
+    return _pick(ch, [
+        "logo", "logo_url", "logoUrl",
+        "channelLogo", "channel_logo",
+        "service_logo", "serviceLogo",
+        "image", "image_url"  # fallback if they only provide one
+    ])
+
 def extract_events(ch: Channel) -> List[Event]:
     for key in ("events", "event", "schedule", "schedules", "programmes", "programs"):
         v = ch.get(key)
@@ -166,6 +175,19 @@ def write_outputs(payload: Any, out_dir: Path, start: int) -> Dict[str, Any]:
     for ch in channels:
         cid, name = extract_channel_id_name(ch)
         events = extract_events(ch)
+        
+    logo = extract_channel_logo(ch)
+    channel_obj = {"id": cid, "name": name}
+    if logo:
+        channel_obj["logo"] = logo
+    
+    out_obj = {
+        "channel": channel_obj,
+        "events": events,
+        "compat": {"freesat_card": [{"event": events}]},
+    }
+
+        
         out_obj = {
             "channel": {"id": cid, "name": name},
             "events": events,
