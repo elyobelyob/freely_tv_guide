@@ -6,6 +6,7 @@ on:
       start:
         description: "UNIX timestamp for day start (UTC)"
         required: true
+        default: "auto"
         type: string
       nid:
         description: "Freely nid"
@@ -35,11 +36,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Compute default START (midnight Europe/London if no input)
+      - name: Compute default START (UK midnight if not provided)
         id: when
         shell: bash
         run: |
-          if [[ -z "${{ github.event.inputs.start }}" ]]; then
+          if [[ -z "${{ github.event.inputs.start }}" || "${{ github.event.inputs.start }}" == "auto" ]]; then
             TZ=Europe/London START=$(date -d "$(date +%Y-%m-%d) 00:00:00" +%s)
           else
             START=${{ github.event.inputs.start }}
