@@ -48,6 +48,7 @@ Replace:
   json_attributes_path: "$.compat.freesat_card.0"
   json_attributes:
     - event
+```
 
 ### Lovelace (compact list using a Markdown card)
 ```yaml
@@ -73,7 +74,7 @@ cards:
           {%- if ns.count == 0 -%}
             No upcoming programmes
           {%- endif -%}
-
+```
 
 ## Channel list
 <!-- CHANNELS_START -->
