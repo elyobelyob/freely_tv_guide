@@ -52,114 +52,135 @@ jobs:
         run: |
           python scripts/freely_fetch_split.py --nid "${{ steps.when.outputs.nid }}" --start "${{ steps.when.outputs.start }}" --out docs
 
-      - name: Mirror images (parallel) & rewrite channel JSON; clean orphans
-        env:
-          IMG_WORKERS: "16"       # tweak concurrency if needed
-          IMG_HOURS_AHEAD: "36"   # only mirror items starting within next N hours
-        run: |
-          python - <<'PY'
-          import json, hashlib, pathlib, requests, concurrent.futures, os, datetime
-          from urllib.parse import urlparse
+- name: Mirror images (local-only) & rewrite channel JSON; clean orphans
+  env:
+    IMG_WORKERS: "12"        # concurrency
+    IMG_HOURS_AHEAD: "48"    # only consider items starting within next N hours
+    IMG_PLACEHOLDER: "img/placeholder.svg"
+  run: |
+    python - <<'PY'
+    import json, hashlib, pathlib, requests, concurrent.futures, os, datetime
+    from urllib.parse import urlparse
 
-          base = pathlib.Path('docs')
-          chan_dir = base/'channels'
-          img_dir = base/'img'
-          img_dir.mkdir(parents=True, exist_ok=True)
-          manifest_path = img_dir/'manifest.json'
-          manifest = {}
-          if manifest_path.exists():
-              manifest = json.loads(manifest_path.read_text('utf-8'))
+    base = pathlib.Path('docs')
+    chan_dir = base/'channels'
+    img_dir = base/'img'
+    img_dir.mkdir(parents=True, exist_ok=True)
+    manifest_path = img_dir/'manifest.json'
+    manifest = {}
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text('utf-8'))
 
-          # Reuse one session + keep-alive
-          session = requests.Session()
-          session.headers.update({
-              "User-Agent":"Mozilla/5.0 (freely_tv_guide)",
-              "Accept":"image/avif,image/webp,image/*,*/*;q=0.8",
-              "Referer":"https://www.freely.co.uk/tv-guide",
-          })
+    # Ensure placeholder exists
+    placeholder_rel = os.getenv('IMG_PLACEHOLDER','img/placeholder.svg')
+    placeholder_path = base/placeholder_rel
+    if not placeholder_path.exists():
+        placeholder_path.parent.mkdir(parents=True, exist_ok=True)
+        placeholder_path.write_text(
+            '<svg xmlns="http://www.w3.org/2000/svg" width="540" height="360">'
+            '<rect width="100%" height="100%" fill="#e5e7eb"/>'
+            '<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" '
+            'font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#6b7280">No image</text>'
+            '</svg>', 'utf-8'
+        )
 
-          HOURS_AHEAD = int(os.getenv('IMG_HOURS_AHEAD','36'))
-          now = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
-          ahead = now + datetime.timedelta(hours=HOURS_AHEAD)
+    # HTTP session
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent":"Mozilla/5.0 (freely_tv_guide)",
+        "Accept":"image/avif,image/webp,image/*,*/*;q=0.8",
+        "Referer":"https://www.freeviewplay.co.uk/",
+    })
 
-          # Collect unique image URLs we actually need soon
-          urls = set()
-          for p in chan_dir.glob('*.json'):
-              data = json.loads(p.read_text('utf-8'))
-              for ev in data.get('events', []):
-                  st = ev.get('startTime')
-                  try:
-                      st_dt = datetime.datetime.fromisoformat(str(st).replace('Z','+00:00')) if st else None
-                  except Exception:
-                      st_dt = None
-                  if st_dt and st_dt > ahead:
-                      continue
-                  url = ev.get('image') or (ev.get('_raw') or {}).get('image_url') or (ev.get('_raw') or {}).get('fallback_image_url')
-                  if url:
-                      urls.add(url)
-          urls = sorted(urls)
+    HOURS_AHEAD = int(os.getenv('IMG_HOURS_AHEAD','48'))
+    now = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
+    ahead = now + datetime.timedelta(hours=HOURS_AHEAD)
 
-          def guess_ext(url, content_type=None):
-              if content_type:
-                  ct = content_type.lower()
-                  if 'jpeg' in ct or 'jpg' in ct: return '.jpg'
-                  if 'png' in ct: return '.png'
-                  if 'webp' in ct: return '.webp'
-              path = urlparse(url).path.lower()
-              for e in ('.jpg','.jpeg','.png','.webp'):
-                  if path.endswith(e): return e
-              return '.jpg'
+    def guess_ext(url, content_type=None):
+        if content_type:
+            ct = content_type.lower()
+            if 'jpeg' in ct or 'jpg' in ct: return '.jpg'
+            if 'png' in ct: return '.png'
+            if 'webp' in ct: return '.webp'
+        pth = urlparse(url).path.lower()
+        for e in ('.jpg','.jpeg','.png','.webp'):
+            if pth.endswith(e): return e
+        return '.jpg'
 
-          def download(url):
-              # Skip network if we already have it
-              fn = manifest.get(url)
-              if fn and (img_dir/fn).exists():
-                  return url, fn
-              try:
-                  r = session.get(url, timeout=15)
-                  r.raise_for_status()
-                  ext = guess_ext(url, r.headers.get('content-type','image/jpeg'))
-                  fn = hashlib.sha1(url.encode()).hexdigest() + ext
-                  (img_dir/fn).write_bytes(r.content)
-                  return url, fn
-              except Exception:
-                  return url, None
+    # Gather candidate URLs (primary, then fallbacks) for the next N hours
+    urls = []
+    events_by_file = {}
+    for p in chan_dir.glob('*.json'):
+        data = json.loads(p.read_text('utf-8'))
+        for ev in data.get('events', []):
+            # filter by time window (still rewrite to placeholder later)
+            st = ev.get('startTime')
+            try:
+                st_dt = datetime.datetime.fromisoformat(str(st).replace('Z','+00:00').replace('+0000','+00:00')) if st else None
+            except Exception:
+                st_dt = None
 
-          workers = int(os.getenv('IMG_WORKERS','16'))
-          results = {}
-          with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
-              for url, fn in ex.map(download, urls):
-                  if fn:
-                      results[url] = fn
+            raw = ev.get('_raw') or {}
+            cands = []
+            if ev.get('image'): cands.append(ev['image'])
+            if raw.get('image_url'): cands.append(raw['image_url'])
+            if raw.get('fallback_image_url'): cands.append(raw['fallback_image_url'])
+            ev['_mirror_candidates'] = cands  # store for later rewrite
+            for u in cands:
+                if u not in urls and (not st_dt or st_dt <= ahead):
+                    urls.append(u)
+        events_by_file[str(p)] = data
 
-          # Update manifest and rewrite channel JSON to local paths
-          manifest.update(results)
-          manifest_path.write_text(json.dumps(manifest, indent=2), 'utf-8')
+    # Download in parallel; cache via manifest
+    workers = int(os.getenv('IMG_WORKERS','12'))
+    def download(url):
+        fn = manifest.get(url)
+        if fn and (img_dir/fn).exists():
+            return url, fn
+        try:
+            r = session.get(url, timeout=12)
+            r.raise_for_status()
+            ext = guess_ext(url, r.headers.get('content-type','image/jpeg'))
+            fn = hashlib.sha1(url.encode()).hexdigest() + ext
+            (img_dir/fn).write_bytes(r.content)
+            return url, fn
+        except Exception:
+            return url, None
 
-          used_files = set()
-          for p in chan_dir.glob('*.json'):
-              data = json.loads(p.read_text('utf-8'))
-              changed = False
-              for ev in data.get('events', []):
-                  url = ev.get('image') or (ev.get('_raw') or {}).get('image_url') or (ev.get('_raw') or {}).get('fallback_image_url')
-                  fn = manifest.get(url)
-                  if fn:
-                      ev['image'] = f"img/{fn}"
-                      used_files.add(fn)
-                      changed = True
-              if changed:
-                  p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
+        for url, fn in ex.map(download, urls):
+            if fn:
+                manifest[url] = fn
 
-          # Delete orphans (clears old images not referenced anymore)
-          for f in img_dir.glob('*'):
-              if f.name in ('manifest.json',) or f.is_dir():
-                  continue
-              if f.name not in used_files:
-                  try: f.unlink()
-                  except: pass
-          PY
+    # Rewrite EVERY event to local-only: first successful candidate else placeholder
+    referenced = set()
+    for p_str, data in events_by_file.items():
+        changed = False
+        for ev in data.get('events', []):
+            fn = None
+            for u in ev.get('_mirror_candidates', []):
+                fn = manifest.get(u)
+                if fn:
+                    break
+            if fn:
+                ev['image'] = f"img/{fn}"
+                referenced.add(fn)
+            else:
+                ev['image'] = placeholder_rel.replace('\\','/')
+            ev.pop('_mirror_candidates', None)
+            changed = True
+        pathlib.Path(p_str).write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
 
+    # Clean orphans (keep manifest & placeholder)
+    for f in img_dir.glob('*'):
+        if f.name in ('manifest.json', 'placeholder.svg') or f.is_dir():
+            continue
+        if f.name not in referenced:
+            try: f.unlink()
+            except: pass
 
+    manifest_path.write_text(json.dumps(manifest, indent=2), 'utf-8')
+    PY
 
       - name: Commit outputs
         run: |
