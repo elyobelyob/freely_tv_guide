@@ -52,6 +52,52 @@ jobs:
         run: |
           python scripts/freely_fetch_split.py --nid "${{ steps.when.outputs.nid }}" --start "${{ steps.when.outputs.start }}" --out docs
 
+      - name: Clear old mirrored images
+        run: |
+          rm -rf docs/img
+          mkdir -p docs/img
+          
+      - name: Mirror images & rewrite channel JSON
+        run: |
+          python - <<'PY'
+          import json, hashlib, pathlib, requests
+      
+          base = pathlib.Path('docs'); (base/'img').mkdir(parents=True, exist_ok=True)
+          headers = {
+            "User-Agent":"Mozilla/5.0",
+            "Accept":"image/avif,image/webp,image/*,*/*;q=0.8",
+            "Referer":"https://www.freely.co.uk/tv-guide",
+          }
+      
+          def fetch_to_local(url):
+            try:
+              r = requests.get(url, headers=headers, timeout=20)
+              r.raise_for_status()
+              ct = r.headers.get('content-type','image/jpeg').lower()
+              ext = ('.jpg' if 'jpeg' in ct or 'jpg' in ct else
+                     '.png' if 'png' in ct else
+                     '.webp' if 'webp' in ct else '')
+              name = hashlib.sha1(url.encode()).hexdigest() + ext
+              (base/'img'/name).write_bytes(r.content)
+              return f"img/{name}"  # relative path; we'll prefix in the card
+            except Exception:
+              return None
+      
+          for p in (base/'channels').glob('*.json'):
+            data = json.loads(p.read_text('utf-8'))
+            changed = False
+            for ev in data.get('events', []):
+              url = ev.get('image') or (ev.get('_raw') or {}).get('image_url') or (ev.get('_raw') or {}).get('fallback_image_url')
+              if not url: continue
+              new = fetch_to_local(url)
+              if new:
+                ev['image'] = new
+                changed = True
+            if changed:
+              p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
+          PY
+
+
       - name: Commit outputs
         run: |
           git config user.name "github-actions"
