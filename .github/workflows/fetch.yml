@@ -41,12 +41,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Compute START (UK midnight unless provided)
+      - name: Compute START (UTC midnight of UK day unless provided)
         id: when
         shell: bash
         run: |
           if [[ -z "${{ github.event.inputs.start }}" || "${{ github.event.inputs.start }}" == "auto" ]]; then
-            START=$(TZ=Europe/London date -d 'today 00:00:00' +%s)
+            UKDATE=$(TZ=Europe/London date +%Y-%m-%d)              # e.g. 2025-10-04
+            START=$(date -u -d "$UKDATE 00:00:00" +%s)             # 00:00:00 UTC of that calendar date
           else
             START='${{ github.event.inputs.start }}'
           fi
