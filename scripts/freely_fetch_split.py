@@ -75,56 +75,50 @@ def _pick(d: Dict[str, Any], keys: List[str], default=None):
 
 
 def normalise_event(ev: Dict[str, Any]) -> Event:
-    # pick common fields
-    start = _pick(ev, ["startTime", "start", "start_time", "start_timestamp", "time", "begin"])
-    dur = _pick(ev, ["duration", "durationMinutes", "duration_minutes", "dur", "length", "runtime"])
-    title = _pick(ev, ["name", "title", "main_title", "programme", "program", "programmeTitle", "show"])
-    sub = _pick(ev, ["secondary_title", "subtitle", "episode_title"])
-    if sub:
-        title = f"{title}: {sub}" if title else sub
-    desc = _pick(ev, ["description", "synopsis", "shortSynopsis", "longSynopsis", "summary"]) or ""
+    # pick fields with the desired precedence:
+    # name := main_title (fallbacks to name/title/etc)
+    name_primary = _pick(ev, ["main_title", "name", "title", "programme", "program", "programmeTitle", "show"])
 
-    # prefer any image-like fields, but we'll scrub remote URLs
-    image = _pick(
-        ev,
-        ["image", "imageUrl", "image_url", "imageURL", "poster", "thumbnail", "fallback_image_url"]
-    ) or ""
+    # description := secondary_title (fallback to synopsis/description fields)
+    desc_secondary = _pick(ev, ["secondary_title", "subtitle", "episode_title"])
+    desc_fallback  = _pick(ev, ["description", "synopsis", "shortSynopsis", "longSynopsis", "summary"]) or ""
+
+    start = _pick(ev, ["startTime", "start", "start_time", "start_timestamp", "time", "begin"])
+    dur   = _pick(ev, ["duration", "durationMinutes", "duration_minutes", "dur", "length", "runtime"])
+
+    # Prefer any image-like fields, but scrub remote URLs (we fill local/placeholder later)
+    image = _pick(ev, ["image", "imageUrl", "image_url", "imageURL", "poster", "thumbnail", "fallback_image_url"]) or ""
 
     # ---- duration normalisation ----
-    # seconds → minutes heuristic
-    if isinstance(dur, (int, float)) and dur > 600:
+    if isinstance(dur, (int, float)) and dur > 600:  # seconds -> minutes heuristic
         dur = round(dur / 60)
-    # ISO8601 duration like PT1H15M
-    if isinstance(dur, str) and dur.startswith("PT"):
+    if isinstance(dur, str) and dur.startswith("PT"):  # ISO8601 e.g. PT1H15M
         m = _iso_to_minutes(dur)
         if m is not None:
             dur = m
 
-    # compute minutes from numeric start/end if needed
+    # derive from numeric start/end if duration missing
     end = _pick(ev, ["endTime", "end", "end_time", "stop", "finish"])
     if dur is None and isinstance(start, (int, float)) and isinstance(end, (int, float)):
         dur = int(round((end - start) / 60))
 
-    # ---- scrub remote image URLs now ----
-    # if the chosen image is an absolute URL, blank it (the CI step will replace with local/placeholder)
+    # ---- enforce local-only image later ----
     if isinstance(image, str) and image.strip().lower().startswith(("http://", "https://")):
-        image = ""  # will be set to img/programmes/<hash>.* or placeholder by the mirroring step
+        image = ""  # will become img/programmes/<hash>.* or placeholder in the CI step
 
-    # keep a sanitised copy of the original without any remote image URL fields
+    # scrub remote image fields from _raw
     raw = dict(ev)
     for k in ("image", "image_url", "imageUrl", "imageURL", "fallback_image_url"):
-        if k in raw:
-            raw.pop(k, None)
+        raw.pop(k, None)
 
     return {
-        "startTime": start,          # ISO string is fine; HA's as_datetime handles it
-        "duration": dur,             # int minutes when possible
-        "name": title or "",
-        "description": desc,
-        "image": image,              # empty here; CI fills with local or placeholder
-        "_raw": raw,                 # no remote image URLs inside
+        "startTime": start,
+        "duration": dur,
+        "name": (name_primary or "")[:500],                 # guard against weirdly long titles
+        "description": (desc_secondary or desc_fallback)[:2000],
+        "image": image,
+        "_raw": raw,
     }
-
 
 
 def extract_channels(payload):
