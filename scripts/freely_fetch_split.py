@@ -3,6 +3,8 @@ import argparse
 import json
 import os
 import re
+import sys
+import time
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -175,17 +177,51 @@ def extract_events(ch: Channel) -> List[Event]:
                     return [normalise_event(e) for e in v2 if isinstance(e, dict)]
     return []
 
+class FreelyFetchError(Exception):
+    pass
 
-def fetch_freely(nid: str, start: int, session: Optional[requests.Session] = None) -> Any:
+def write_error_marker(out_dir: Path, start: int, message: str) -> None:
+    ensure_dir(out_dir)
+    raw_dir = out_dir / "raw"
+    ensure_dir(raw_dir)
+    (raw_dir / f"guide_{start}_ERROR.txt").write_text(message, encoding="utf-8")
+
+def fetch_freely(nid: str, start: int, session: Optional[requests.Session] = None, retries: int = 4, backoff: float = 1.7) -> Any:
     s = session or requests.Session()
     s.headers.update({
         "User-Agent": "elyobelyob-freely-split/1.0 (+https://github.com/elyobelyob/freely_tv_guide)",
         "Accept": "application/json",
         "Referer": "https://www.freely.co.uk/tv-guide",
+        "Accept-Language": "en-GB,en;q=0.9",
     })
-    resp = s.get(FREELY_API, params={"nid": nid, "start": start}, timeout=30)
-    resp.raise_for_status()
-    return resp.json()
+
+    params = {"nid": nid, "start": start}
+    last_err = None
+
+    for attempt in range(1, retries + 1):
+        try:
+            resp = s.get(FREELY_API, params=params, timeout=(5, 20))
+            # Retry on transient codes
+            if resp.status_code in (429, 502, 503, 504):
+                raise FreelyFetchError(f"HTTP {resp.status_code} from Freely")
+            # Try to parse JSON regardless of content-type (some servers mislabel)
+            try:
+                return resp.json()
+            except Exception as je:
+                text = (resp.text or "").strip()
+                snippet = text[:240].replace("\n", " ")
+                raise FreelyFetchError(
+                    f"JSON decode failed (status={resp.status_code}, len={len(text)}): {snippet or '<empty response>'}"
+                ) from je
+
+        except (requests.RequestException, FreelyFetchError) as e:
+            last_err = e
+            if attempt >= retries:
+                break
+            time.sleep(backoff ** attempt)
+
+    raise FreelyFetchError(f"Failed after {retries} attempts: {last_err}")
+
 
 
 def write_outputs(payload: Any, out_dir: Path, start: int) -> Dict[str, Any]:
@@ -257,14 +293,17 @@ def main():
     if not args.start:
         raise SystemExit("--start is required (UNIX timestamp for the day start)")
 
+try:
     payload = fetch_freely(args.nid, args.start)
-    if args.dry_run:
-        print(json.dumps(payload)[:2000])
-        return
-
     index = write_outputs(payload, Path(args.out), args.start)
+except FreelyFetchError as e:
+    # Log, leave previous docs untouched, and drop a marker for debugging
+    msg = f"[freely_fetch_split] {e}\nurl={FREELY_API}?nid={args.nid}&start={args.start}\n"
+    print(msg, file=sys.stderr)
+    write_error_marker(Path(args.out), args.start, msg)
+    # Exit 0 so later workflow steps (like README update) can still run, and "No changes" is fine
+    sys.exit(0)
     print(json.dumps(index, indent=2))
-
 
 if __name__ == "__main__":
     main()
