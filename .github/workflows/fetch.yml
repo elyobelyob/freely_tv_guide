@@ -61,7 +61,10 @@ jobs:
 
       - name: Fetch & split
         run: |
-          python scripts/freely_fetch_split.py --nid "${{ steps.when.outputs.nid }}" --start "${{ steps.when.outputs.start }}" --out docs
+          python scripts/freely_fetch_split.py \
+            --nid "${{ steps.when.outputs.nid }}" \
+            --start "${{ steps.when.outputs.start }}" \
+            --out docs
 
       - name: Mirror images (fast cached) & rewrite JSON
         env:
