@@ -41,17 +41,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Compute default START (UK midnight if not provided)
+      - name: Compute START (UK midnight unless provided)
         id: when
         shell: bash
         run: |
           if [[ -z "${{ github.event.inputs.start }}" || "${{ github.event.inputs.start }}" == "auto" ]]; then
-            TZ=Europe/London START=$(date -d "$(date +%Y-%m-%d) 00:00:00" +%s)
+            START=$(TZ=Europe/London date -d 'today 00:00:00' +%s)
           else
-            START=${{ github.event.inputs.start }}
+            START='${{ github.event.inputs.start }}'
           fi
           echo "start=$START" >> "$GITHUB_OUTPUT"
           echo "nid=${{ github.event.inputs.nid || '64865' }}" >> "$GITHUB_OUTPUT"
+
 
       - name: Fetch & split
         run: |
