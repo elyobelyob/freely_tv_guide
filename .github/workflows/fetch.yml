@@ -53,6 +53,11 @@ jobs:
           echo "start=$START" >> "$GITHUB_OUTPUT"
           echo "nid=${{ github.event.inputs.nid || '64865' }}" >> "$GITHUB_OUTPUT"
 
+      - name: Show resolved START
+        run: |
+          echo "start=${{ steps.when.outputs.start }}"
+          TZ=Europe/London date -d @${{ steps.when.outputs.start }} "+UK  %Y-%m-%d %H:%M (%Z)"
+          date -u -d @${{ steps.when.outputs.start }} "+UTC %Y-%m-%d %H:%M"
 
       - name: Fetch & split
         run: |
