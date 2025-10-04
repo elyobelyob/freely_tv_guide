@@ -282,28 +282,39 @@ def write_outputs(payload: Any, out_dir: Path, start: int) -> Dict[str, Any]:
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Fetch Freely guide and split into per‑channel files")
-    ap.add_argument("--nid", default=os.getenv("FREELY_NID", "64865"), help="Network id (nid) for the Freely API")
-    ap.add_argument("--start", type=int, default=int(os.getenv("FREELY_START", "0") or 0), help="UNIX timestamp (UTC) for the day start")
-    ap.add_argument("--out", default=os.getenv("OUTPUT_DIR", "docs"), help="Output folder (default: docs)")
-    ap.add_argument("--dry-run", action="store_true", help="Fetch but do not write outputs")
+    ap = argparse.ArgumentParser(description="Fetch Freely guide and split into per-channel files")
+    ap.add_argument("--nid", default=os.getenv("FREELY_NID", "64865"),
+                    help="Network id (nid) for the Freely API (default: 64865)")
+    ap.add_argument("--start", type=int, default=int(os.getenv("FREELY_START", "0") or 0),
+                    help="UNIX timestamp (UTC) for the day start")
+    ap.add_argument("--out", default=os.getenv("OUTPUT_DIR", "docs"),
+                    help="Output folder (default: docs)")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="Fetch but do not write outputs")
 
     args = ap.parse_args()
 
     if not args.start:
-        raise SystemExit("--start is required (UNIX timestamp for the day start)")
+        ap.error("--start is required (UNIX timestamp, seconds)")
 
-try:
-    payload = fetch_freely(args.nid, args.start)
+    try:
+        payload = fetch_freely(args.nid, args.start)
+    except FreelyFetchError as e:
+        # Log, drop a marker, and exit 0 so later workflow steps can still run
+        msg = (f"[freely_fetch_split] {e}\n"
+               f"url={FREELY_API}?nid={args.nid}&start={args.start}\n")
+        print(msg, file=sys.stderr)
+        write_error_marker(Path(args.out), args.start, msg)
+        sys.exit(0)
+
+    if args.dry_run:
+        chs = extract_channels(payload)
+        print(f"[freely_fetch_split] dry-run: channels={len(chs)} (no files written)")
+        return
+
     index = write_outputs(payload, Path(args.out), args.start)
-except FreelyFetchError as e:
-    # Log, leave previous docs untouched, and drop a marker for debugging
-    msg = f"[freely_fetch_split] {e}\nurl={FREELY_API}?nid={args.nid}&start={args.start}\n"
-    print(msg, file=sys.stderr)
-    write_error_marker(Path(args.out), args.start, msg)
-    # Exit 0 so later workflow steps (like README update) can still run, and "No changes" is fine
-    sys.exit(0)
-    print(json.dumps(index, indent=2))
+    print(f"[freely_fetch_split] wrote {len(index.get('channels', []))} channels to {args.out}/channels")
 
 if __name__ == "__main__":
     main()
+
