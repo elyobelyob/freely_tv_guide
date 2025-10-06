@@ -306,3 +306,6 @@ cards:
 | 37245 | BBC Two NI | [channels/37245.json](https://elyobelyob.github.io/freely_tv_guide/channels/37245.json) |
 <!-- CHANNELS_END -->
 
+## Stats
+See counts of channels and images here:  
+https://elyobelyob.github.io/freely_tv_guide/stats/
