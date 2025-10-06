@@ -267,6 +267,7 @@ jobs:
           readme_path.write_text(readme, 'utf-8')
           PY
 
+          
       - name: Add index pages for image folders (and disable Jekyll)
         run: |
           python - <<'PY'
@@ -300,11 +301,89 @@ jobs:
           PY
 
 
+      - name: Build stats page
+        run: |
+          python - <<'PY'
+          import json, pathlib, datetime
+      
+          base = pathlib.Path('docs')
+          (base/'.nojekyll').write_text('', encoding='utf-8')  # ensure static serving
+      
+          chan_dir = base/'channels'
+          img_prog = base/'img'/'programmes'
+          img_chan = base/'img'/'channels'
+          stats_dir = base/'stats'
+          stats_dir.mkdir(parents=True, exist_ok=True)
+      
+          # channels from index.json if present (falls back to file count)
+          idx_path = base/'index.json'
+          if idx_path.exists():
+              idx = json.loads(idx_path.read_text('utf-8'))
+              channels = idx.get('channels', [])
+              channel_count = len(channels)
+              start = idx.get('start')
+          else:
+              channels = sorted(p.name for p in chan_dir.glob('*.json'))
+              channel_count = len(channels)
+              start = None
+      
+          # count images (ignore placeholders)
+          def count_images(p):
+              if not p.exists(): return 0
+              return sum(1 for f in p.glob('*') if f.is_file() and f.name != 'placeholder.svg')
+      
+          prog_images = count_images(img_prog)
+          chan_images = count_images(img_chan)
+      
+          stats = {
+            "channels": channel_count,
+            "programme_images": prog_images,
+            "channel_logos": chan_images,
+            "start": start,
+            "generated_utc": datetime.datetime.utcnow().isoformat(timespec='seconds') + 'Z'
+          }
+          (stats_dir/'stats.json').write_text(json.dumps(stats, indent=2), 'utf-8')
+      
+          # simple HTML
+          html = f"""<!doctype html>
+          <meta charset="utf-8">
+          <title>Freely TV Guide — Stats</title>
+          <style>
+            :root {{ --bg:#0b1220; --fg:#e6eaf2; --muted:#9aa4b2; --card:#111a2e; }}
+            body{{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,Arial,sans-serif;padding:32px}}
+            h1{{margin:0 0 18px 0;font-size:28px}}
+            .grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:18px 0 8px}}
+            .card{{background:var(--card);padding:18px 22px;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.4)}}
+            .k{{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}}
+            .v{{font-size:28px;font-weight:700}}
+            a{{color:#7cc7ff;text-decoration:none}}
+            .links a{{margin-right:14px}}
+            .small{{color:var(--muted);font-size:13px}}
+          </style>
+          <h1>Freely TV Guide — Stats</h1>
+          <div class="grid">
+            <div class="card"><div class="k">Channels</div><div class="v">{channel_count}</div></div>
+            <div class="card"><div class="k">Programme images</div><div class="v">{prog_images}</div></div>
+            <div class="card"><div class="k">Channel logos</div><div class="v">{chan_images}</div></div>
+          </div>
+          <p class="small">Start timestamp: {start if start is not None else 'n/a'}<br>
+          Generated (UTC): {stats['generated_utc']}</p>
+          <p class="links">
+            <a href="../index.json">index.json</a>
+            <a href="../img/programmes/">programme images</a>
+            <a href="../img/channels/">channel logos</a>
+            <a href="stats.json">stats.json</a>
+          </p>
+          """
+          (stats_dir/'index.html').write_text(html, 'utf-8')
+          PY
+
+
       - name: Commit outputs
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add -A docs/ README.md
+          git add -A 
           if git diff --cached --quiet; then
             echo "No changes"
           else
