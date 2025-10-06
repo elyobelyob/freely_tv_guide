@@ -5,712 +5,820 @@
   },
   "events": [
     {
-      "startTime": "2025-10-05T00:00:00+0000",
-      "duration": 300,
-      "name": "Joins BBC News",
-      "description": "05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002khs1",
-        "event_locator": "dvb://233a..9106;12ff",
-        "main_title": "Joins BBC News",
-        "secondary_title": "05/10/2025",
-        "start_time": "2025-10-05T00:00:00+0000",
-        "duration": "PT5H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "cb28ee81e66793acb94032c8203c6a5f"
-      }
-    },
-    {
-      "startTime": "2025-10-05T05:00:00+0000",
-      "duration": 110,
-      "name": "Breakfast",
-      "description": "05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002khsw",
-        "event_locator": "dvb://233a..9106;1300",
-        "main_title": "Breakfast",
-        "secondary_title": "05/10/2025",
-        "start_time": "2025-10-05T05:00:00+0000",
-        "duration": "PT1H50M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T06:48:45+0000",
-          "end_of_availability": "2025-10-06T06:48:45+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khsw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "ede24503a5b3f17b7bcedd188fa04a72"
-      }
-    },
-    {
-      "startTime": "2025-10-05T06:50:00+0000",
-      "duration": 70,
-      "name": "Match of the Day",
-      "description": "2025/26: 04/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kjhq",
-        "event_locator": "dvb://233a..9106;1301",
-        "main_title": "Match of the Day",
-        "secondary_title": "2025/26: 04/10/2025",
-        "start_time": "2025-10-05T06:50:00+0000",
-        "duration": "PT1H10M",
-        "on_demand": {
-          "start_of_availability": "2025-10-04T22:59:00+0000",
-          "end_of_availability": "2025-11-03T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjhq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-        "uuid": "91ea09c75f883402d513a95241c8eff7"
-      }
-    },
-    {
-      "startTime": "2025-10-05T08:00:00+0000",
-      "duration": 60,
-      "name": "Sunday with Laura Kuenssberg",
-      "description": "05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002khsy",
-        "event_locator": "dvb://233a..9106;1302",
-        "main_title": "Sunday with Laura Kuenssberg",
-        "secondary_title": "05/10/2025",
-        "start_time": "2025-10-05T08:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T09:01:01+0000",
-          "end_of_availability": "2026-10-05T09:01:01+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khsy&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "92392f5a7cda0744311ecfd0deaa05cf"
-      }
-    },
-    {
-      "startTime": "2025-10-05T09:00:00+0000",
+      "startTime": "2025-10-06T00:00:00+0000",
       "duration": 30,
-      "name": "Politics East Midlands",
-      "description": "05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kl53",
-        "event_locator": "dvb://233a..9106;1303",
-        "main_title": "Politics East Midlands",
-        "secondary_title": "05/10/2025",
-        "start_time": "2025-10-05T09:00:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T09:28:50+0000",
-          "end_of_availability": "2025-11-04T10:28:50+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kl53&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "0cc29969426dffa239692a9490904edd"
-      }
-    },
-    {
-      "startTime": "2025-10-05T09:30:00+0000",
-      "duration": 60,
-      "name": "Sunday Morning Live",
-      "description": "Series 16: 05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kht2",
-        "event_locator": "dvb://233a..9106;1304",
-        "main_title": "Sunday Morning Live",
-        "secondary_title": "Series 16: 05/10/2025",
-        "start_time": "2025-10-05T09:30:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T10:30:20+0000",
-          "end_of_availability": "2026-10-05T10:30:20+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kht2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "69eead71af8933eb309fc59f63d0bf59"
-      }
-    },
-    {
-      "startTime": "2025-10-05T10:30:00+0000",
-      "duration": 30,
-      "name": "Prayer and Reflection",
-      "description": "Series 1: 4. Kagyu Samye Ling Monastery, Eskdalemuir",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kjhs",
-        "event_locator": "dvb://233a..9106;1305",
-        "main_title": "Prayer and Reflection",
-        "secondary_title": "Series 1: 4. Kagyu Samye Ling Monastery, Eskdalemuir",
-        "start_time": "2025-10-05T10:30:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T11:00:21+0000",
-          "end_of_availability": "2026-12-21T11:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjhs&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "ba544704c707392e315cc4e7d5ae18d8"
-      }
-    },
-    {
-      "startTime": "2025-10-05T11:00:00+0000",
-      "duration": 60,
-      "name": "Bargain Hunt",
-      "description": "Series 68 (Extended Versions): Hemswell 10 and 11",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kht4",
-        "event_locator": "dvb://233a..9106;1306",
-        "main_title": "Bargain Hunt",
-        "secondary_title": "Series 68 (Extended Versions): Hemswell 10 and 11",
-        "start_time": "2025-10-05T11:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T12:00:03+0000",
-          "end_of_availability": "2025-11-04T13:00:03+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kht4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "03c3ff04ebaa98285127e8e22780723e"
-      }
-    },
-    {
-      "startTime": "2025-10-05T12:00:00+0000",
-      "duration": 10,
-      "name": "BBC Weekend News",
-      "description": "Lunchtime News: 05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kht6",
-        "event_locator": "dvb://233a..9106;1307",
-        "main_title": "BBC Weekend News",
-        "secondary_title": "Lunchtime News: 05/10/2025",
-        "start_time": "2025-10-05T12:00:00+0000",
-        "duration": "PT10M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T12:11:00+0000",
-          "end_of_availability": "2025-10-06T12:11:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kht6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "2a412038e21003ba7f351998002917b4"
-      }
-    },
-    {
-      "startTime": "2025-10-05T12:10:00+0000",
-      "duration": 5,
-      "name": "Weather for the Week Ahead",
-      "description": "05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kht8",
-        "event_locator": "dvb://233a..9106;1308",
-        "main_title": "Weather for the Week Ahead",
-        "secondary_title": "05/10/2025",
-        "start_time": "2025-10-05T12:10:00+0000",
-        "duration": "PT5M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T12:16:06+0000",
-          "end_of_availability": "2025-10-06T12:16:06+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kht8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "935c723b849bec26fab7e38c327c9cb6"
-      }
-    },
-    {
-      "startTime": "2025-10-05T12:15:00+0000",
-      "duration": 45,
-      "name": "Songs of Praise",
-      "description": "Young Chorister of the Year - Junior Semi-Final",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kjhv",
-        "event_locator": "dvb://233a..9106;1309",
-        "main_title": "Songs of Praise",
-        "secondary_title": "Young Chorister of the Year - Junior Semi-Final",
-        "start_time": "2025-10-05T12:15:00+0000",
-        "duration": "PT45M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T13:01:27+0000",
-          "end_of_availability": "2026-10-05T13:01:27+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjhv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "d118f192796db53720f6dc48ea1a0e40"
-      }
-    },
-    {
-      "startTime": "2025-10-05T13:00:00+0000",
-      "duration": 15,
-      "name": "Points of View",
-      "description": "2025: 05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kjhx",
-        "event_locator": "dvb://233a..9106;130a",
-        "main_title": "Points of View",
-        "secondary_title": "2025: 05/10/2025",
-        "start_time": "2025-10-05T13:00:00+0000",
-        "duration": "PT15M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T13:16:35+0000",
-          "end_of_availability": "2026-10-05T13:16:35+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjhx&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "57ea426cbbce9ae85e8b1136254b2f37"
-      }
-    },
-    {
-      "startTime": "2025-10-05T13:15:00+0000",
-      "duration": 25,
-      "name": "Escape to the Country",
-      "description": "Series 24: 5. North Yorkshire",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m001qgnw",
-        "event_locator": "dvb://233a..9106;130b",
-        "main_title": "Escape to the Country",
-        "secondary_title": "Series 24: 5. North Yorkshire",
-        "start_time": "2025-10-05T13:15:00+0000",
-        "duration": "PT25M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T13:41:16+0000",
-          "end_of_availability": "2025-11-04T14:41:16+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001qgnw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "b6d1612db3fe1a4c48f639a4bfbaabf9"
-      }
-    },
-    {
-      "startTime": "2025-10-05T13:40:00+0000",
-      "duration": 120,
-      "name": "Beauty and the Beast",
-      "description": "Beauty and the Beast",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m000cspm",
-        "event_locator": "dvb://233a..9106;130c",
-        "main_title": "Beauty and the Beast",
-        "secondary_title": "Beauty and the Beast",
-        "start_time": "2025-10-05T13:40:00+0000",
-        "duration": "PT2H",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T15:40:30+0000",
-          "end_of_availability": "2025-11-04T16:40:30+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m000cspm&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "1b2c3cf68c1bfd7eb5ed3869295f8a0c"
-      }
-    },
-    {
-      "startTime": "2025-10-05T15:40:00+0000",
-      "duration": 60,
-      "name": "Our Changing Planet",
-      "description": "3. Restoring Our Reefs",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m001ykh4",
-        "event_locator": "dvb://233a..9106;130d",
-        "main_title": "Our Changing Planet",
-        "secondary_title": "3. Restoring Our Reefs",
-        "start_time": "2025-10-05T15:40:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2025-04-21T17:30:00+0000",
-          "end_of_availability": "2026-04-21T04:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001ykh4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "e7cac47eadced7593a645e563f101b78"
-      }
-    },
-    {
-      "startTime": "2025-10-05T16:40:00+0000",
-      "duration": 15,
-      "name": "BBC Weekend News",
-      "description": "Evening News: 05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002khtc",
-        "event_locator": "dvb://233a..9106;130e",
-        "main_title": "BBC Weekend News",
-        "secondary_title": "Evening News: 05/10/2025",
-        "start_time": "2025-10-05T16:40:00+0000",
-        "duration": "PT15M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T16:55:00+0000",
-          "end_of_availability": "2025-10-06T16:55:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khtc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "e16cf357d2f051c5d85ad5cd2d85a736"
-      }
-    },
-    {
-      "startTime": "2025-10-05T16:55:00+0000",
-      "duration": 5,
-      "name": "East Midlands Today",
-      "description": "Evening News: 05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kl55",
-        "event_locator": "dvb://233a..9106;130f",
-        "main_title": "East Midlands Today",
-        "secondary_title": "Evening News: 05/10/2025",
-        "start_time": "2025-10-05T16:55:00+0000",
-        "duration": "PT5M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T17:01:00+0000",
-          "end_of_availability": "2025-10-06T17:01:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kl55&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "e4031ed50502e65d9fe88d34252a64f0"
-      }
-    },
-    {
-      "startTime": "2025-10-05T17:00:00+0000",
-      "duration": 5,
-      "name": "BBC Weather",
-      "description": "05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002khth",
-        "event_locator": "dvb://233a..9106;1310",
-        "main_title": "BBC Weather",
-        "secondary_title": "05/10/2025",
-        "start_time": "2025-10-05T17:00:00+0000",
-        "duration": "PT5M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T17:04:06+0000",
-          "end_of_availability": "2025-10-06T17:04:06+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khth&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "3ea57f71fa44e6886cdc48a6fbe63f3b"
-      }
-    },
-    {
-      "startTime": "2025-10-05T17:05:00+0000",
-      "duration": 70,
-      "name": "Countryfile",
-      "description": "Countryfile Ramble for BBC Children in Need 2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kt5m",
-        "event_locator": "dvb://233a..9106;1311",
-        "main_title": "Countryfile",
-        "secondary_title": "Countryfile Ramble for BBC Children in Need 2025",
-        "start_time": "2025-10-05T17:05:00+0000",
-        "duration": "PT1H10M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T18:24:02+0000",
-          "end_of_availability": "2026-10-12T08:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kt5m&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "464409473a297f664673536ff18333e3"
-      }
-    },
-    {
-      "startTime": "2025-10-05T18:15:00+0000",
-      "duration": 50,
-      "name": "Strictly Come Dancing",
-      "description": "Series 23: Week 2 Results",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kkcj",
-        "event_locator": "dvb://233a..9106;1312",
-        "main_title": "Strictly Come Dancing",
-        "secondary_title": "Series 23: Week 2 Results",
-        "start_time": "2025-10-05T18:15:00+0000",
-        "duration": "PT50M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T19:06:20+0000",
-          "end_of_availability": "2026-12-14T20:29:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kkcj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "320e50396beb7d315786c5440c7990ab"
-      }
-    },
-    {
-      "startTime": "2025-10-05T19:05:00+0000",
-      "duration": 60,
-      "name": "Antiques Roadshow",
-      "description": "Series 48: 7. Shuttleworth House 3",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kkcl",
-        "event_locator": "dvb://233a..9106;1313",
-        "main_title": "Antiques Roadshow",
-        "secondary_title": "Series 48: 7. Shuttleworth House 3",
-        "start_time": "2025-10-05T19:05:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T20:06:13+0000",
-          "end_of_availability": "2027-01-04T20:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kkcl&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "d1e5fb2808d46ddc0d27506a344fc487"
-      }
-    },
-    {
-      "startTime": "2025-10-05T20:05:00+0000",
-      "duration": 55,
-      "name": "King & Conqueror",
-      "description": "Series 1: 8. The Hand of God",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002hpnd",
-        "event_locator": "dvb://233a..9106;1314",
-        "main_title": "King & Conqueror",
-        "secondary_title": "Series 1: 8. The Hand of God",
-        "start_time": "2025-10-05T20:05:00+0000",
-        "duration": "PT55M",
-        "on_demand": {
-          "start_of_availability": "2025-08-24T05:00:00+0000",
-          "end_of_availability": "2030-08-23T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002hpnd&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "9fca4b88b4901789c2b19b82db3ea940"
-      }
-    },
-    {
-      "startTime": "2025-10-05T21:00:00+0000",
-      "duration": 25,
-      "name": "BBC Weekend News",
-      "description": "Late News: 05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002khtk",
-        "event_locator": "dvb://233a..9106;1315",
-        "main_title": "BBC Weekend News",
-        "secondary_title": "Late News: 05/10/2025",
-        "start_time": "2025-10-05T21:00:00+0000",
-        "duration": "PT25M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T21:24:00+0000",
-          "end_of_availability": "2025-10-06T21:24:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khtk&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "837a2c59edc326b169ab120014f8e63d"
-      }
-    },
-    {
-      "startTime": "2025-10-05T21:25:00+0000",
-      "duration": 5,
-      "name": "East Midlands Today",
-      "description": "Late News: 05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kl57",
-        "event_locator": "dvb://233a..9106;1316",
-        "main_title": "East Midlands Today",
-        "secondary_title": "Late News: 05/10/2025",
-        "start_time": "2025-10-05T21:25:00+0000",
-        "duration": "PT5M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T21:29:00+0000",
-          "end_of_availability": "2025-10-06T21:29:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kl57&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "587d8c18c49cc48d0742246864fa1378"
-      }
-    },
-    {
-      "startTime": "2025-10-05T21:30:00+0000",
-      "duration": 75,
-      "name": "Match of the Day",
-      "description": "2025/26: 05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kkcn",
-        "event_locator": "dvb://233a..9106;1317",
-        "main_title": "Match of the Day",
-        "secondary_title": "2025/26: 05/10/2025",
-        "start_time": "2025-10-05T21:30:00+0000",
-        "duration": "PT1H15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-        "uuid": "2ab0b3282bc5c2a1d58a071dcb11c372"
-      }
-    },
-    {
-      "startTime": "2025-10-05T22:45:00+0000",
-      "duration": 50,
-      "name": "The Women's Football Show",
-      "description": "2025/26: 05/10/2025",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002kkcq",
-        "event_locator": "dvb://233a..9106;1318",
-        "main_title": "The Women's Football Show",
-        "secondary_title": "2025/26: 05/10/2025",
-        "start_time": "2025-10-05T22:45:00+0000",
-        "duration": "PT50M",
-        "on_demand": {
-          "start_of_availability": "2025-10-05T20:00:00+0000",
-          "end_of_availability": "2025-11-04T21:51:40+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kkcq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-        "uuid": "e8427fb7a2783990449288b939b033cc"
-      }
-    },
-    {
-      "startTime": "2025-10-05T23:35:00+0000",
-      "duration": 25,
       "name": "Juice",
-      "description": "Series 2: 5. The Storm Is Coming",
+      "description": "Series 2: 6. Last Chapter",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002jjmr",
-        "event_locator": "dvb://233a..9106;1319",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002jjmt",
+        "event_locator": "dvb://233a..9106;131a",
         "main_title": "Juice",
-        "secondary_title": "Series 2: 5. The Storm Is Coming",
-        "start_time": "2025-10-05T23:35:00+0000",
-        "duration": "PT25M",
+        "secondary_title": "Series 2: 6. Last Chapter",
+        "start_time": "2025-10-06T00:00:00+0000",
+        "duration": "PT30M",
         "on_demand": {
           "start_of_availability": "2025-09-18T05:00:00+0000",
           "end_of_availability": "2027-09-18T05:00:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002jjmr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002jjmt&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "4c91fa740de3a775f2a6c101c45e32dd"
+        "uuid": "059e6a1eb5a84ba904cdbe574a2d950d"
+      }
+    },
+    {
+      "startTime": "2025-10-06T00:30:00+0000",
+      "duration": 50,
+      "name": "The Graham Norton Show",
+      "description": "Series 33: Episode 2",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002k7rj",
+        "event_locator": "dvb://233a..9106;131b",
+        "main_title": "The Graham Norton Show",
+        "secondary_title": "Series 33: Episode 2",
+        "start_time": "2025-10-06T00:30:00+0000",
+        "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2025-10-03T22:32:55+0000",
+          "end_of_availability": "2027-02-20T23:29:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002k7rj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "1a22f1aa1b86cad3b05b3d523e831d38"
+      }
+    },
+    {
+      "startTime": "2025-10-06T01:20:00+0000",
+      "duration": 5,
+      "name": "Weather for the Week Ahead",
+      "description": "06/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002khtp",
+        "event_locator": "dvb://233a..9106;131c",
+        "main_title": "Weather for the Week Ahead",
+        "secondary_title": "06/10/2025",
+        "start_time": "2025-10-06T01:20:00+0000",
+        "duration": "PT5M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T01:25:47+0000",
+          "end_of_availability": "2025-10-13T01:31:23+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khtp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "f9957fcf1cface15c151cc51f922f258"
+      }
+    },
+    {
+      "startTime": "2025-10-06T01:25:00+0000",
+      "duration": 215,
+      "name": "Joins BBC News",
+      "description": "06/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002khtr",
+        "event_locator": "dvb://233a..9106;131d",
+        "main_title": "Joins BBC News",
+        "secondary_title": "06/10/2025",
+        "start_time": "2025-10-06T01:25:00+0000",
+        "duration": "PT3H35M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "cd6c72d9d6e2864f3d9355b207c352ae"
+      }
+    },
+    {
+      "startTime": "2025-10-06T05:00:00+0000",
+      "duration": 210,
+      "name": "Breakfast",
+      "description": "06/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002khtt",
+        "event_locator": "dvb://233a..9106;138b",
+        "main_title": "Breakfast",
+        "secondary_title": "06/10/2025",
+        "start_time": "2025-10-06T05:00:00+0000",
+        "duration": "PT3H30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T08:29:00+0000",
+          "end_of_availability": "2025-10-07T08:29:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khtt&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "d66d17600b794fb4752d961aa0ac0bde"
+      }
+    },
+    {
+      "startTime": "2025-10-06T08:30:00+0000",
+      "duration": 75,
+      "name": "Morning Live",
+      "description": "Series 7: 06/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002khtw",
+        "event_locator": "dvb://233a..9106;138c",
+        "main_title": "Morning Live",
+        "secondary_title": "Series 7: 06/10/2025",
+        "start_time": "2025-10-06T08:30:00+0000",
+        "duration": "PT1H15M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T09:44:00+0000",
+          "end_of_availability": "2026-10-06T09:44:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khtw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "37f81138f764b259b425daec014e9327"
+      }
+    },
+    {
+      "startTime": "2025-10-06T09:45:00+0000",
+      "duration": 45,
+      "name": "Crimewatch Live",
+      "description": "Series 22: 1. A Shooting in Aintree",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kjkw",
+        "event_locator": "dvb://233a..9106;138d",
+        "main_title": "Crimewatch Live",
+        "secondary_title": "Series 22: 1. A Shooting in Aintree",
+        "start_time": "2025-10-06T09:45:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T10:29:35+0000",
+          "end_of_availability": "2025-11-05T11:29:35+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjkw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "df7fc230719299b9078be21955be0b28"
+      }
+    },
+    {
+      "startTime": "2025-10-06T10:30:00+0000",
+      "duration": 45,
+      "name": "Homes Under the Hammer",
+      "description": "Series 25: 10. Double Vision",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0015q1c",
+        "event_locator": "dvb://233a..9106;138e",
+        "main_title": "Homes Under the Hammer",
+        "secondary_title": "Series 25: 10. Double Vision",
+        "start_time": "2025-10-06T10:30:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T11:14:22+0000",
+          "end_of_availability": "2025-11-05T12:14:22+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0015q1c&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "e43f3626be3c893fec4499ab2d5c5a54"
+      }
+    },
+    {
+      "startTime": "2025-10-06T11:15:00+0000",
+      "duration": 45,
+      "name": "Bargain Hunt",
+      "description": "Series 72: Builth Wells 15",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kjkz",
+        "event_locator": "dvb://233a..9106;138f",
+        "main_title": "Bargain Hunt",
+        "secondary_title": "Series 72: Builth Wells 15",
+        "start_time": "2025-10-06T11:15:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T12:00:00+0000",
+          "end_of_availability": "2026-12-12T12:58:30+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjkz&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "aeb1f91a19d81ca20bb74773bf4e4ce2"
+      }
+    },
+    {
+      "startTime": "2025-10-06T12:00:00+0000",
+      "duration": 60,
+      "name": "BBC News at One",
+      "description": "06/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002khty",
+        "event_locator": "dvb://233a..9106;1390",
+        "main_title": "BBC News at One",
+        "secondary_title": "06/10/2025",
+        "start_time": "2025-10-06T12:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T13:00:00+0000",
+          "end_of_availability": "2025-10-07T12:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khty&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "9117520989edadc86f9b103df40c0996"
+      }
+    },
+    {
+      "startTime": "2025-10-06T13:00:00+0000",
+      "duration": 30,
+      "name": "Trace, Track, Get My Car Back",
+      "description": "Series 1: Episode 1",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kj57",
+        "event_locator": "dvb://233a..9106;1393",
+        "main_title": "Trace, Track, Get My Car Back",
+        "secondary_title": "Series 1: Episode 1",
+        "start_time": "2025-10-06T13:00:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T05:00:00+0000",
+          "end_of_availability": "2026-10-06T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kj57&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "56ed78efa4dc2f395d1e13e1ecf8fed7"
+      }
+    },
+    {
+      "startTime": "2025-10-06T13:30:00+0000",
+      "duration": 30,
+      "name": "Amanda & Alan's Italian Job",
+      "description": "Series 2: Episode 5",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m001tmlw",
+        "event_locator": "dvb://233a..9106;1394",
+        "main_title": "Amanda & Alan's Italian Job",
+        "secondary_title": "Series 2: Episode 5",
+        "start_time": "2025-10-06T13:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-01-05T05:45:00+0000",
+          "end_of_availability": "2026-01-05T05:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001tmlw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "bf7aee0aafb27e4308b2fdc12e6a49f8"
+      }
+    },
+    {
+      "startTime": "2025-10-06T14:00:00+0000",
+      "duration": 45,
+      "name": "Escape to the Country",
+      "description": "Series 26: 7. Norfolk and Suffolk Border",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kjl1",
+        "event_locator": "dvb://233a..9106;1395",
+        "main_title": "Escape to the Country",
+        "secondary_title": "Series 26: 7. Norfolk and Suffolk Border",
+        "start_time": "2025-10-06T14:00:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T14:44:30+0000",
+          "end_of_availability": "2026-10-06T14:44:30+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjl1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "c40c78ee450c0c0614e12aaf2e536755"
+      }
+    },
+    {
+      "startTime": "2025-10-06T14:45:00+0000",
+      "duration": 45,
+      "name": "The Repair Shop",
+      "description": "Series 15: Episode 1",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kjl3",
+        "event_locator": "dvb://233a..9106;1396",
+        "main_title": "The Repair Shop",
+        "secondary_title": "Series 15: Episode 1",
+        "start_time": "2025-10-06T14:45:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T15:29:47+0000",
+          "end_of_availability": "2026-10-08T15:29:46+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjl3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "863eb64f11eeeb25074c3563b6e33139"
+      }
+    },
+    {
+      "startTime": "2025-10-06T15:30:00+0000",
+      "duration": 45,
+      "name": "The Inner Circle",
+      "description": "Series 1: Episode 1",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002hzc1",
+        "event_locator": "dvb://233a..9106;1397",
+        "main_title": "The Inner Circle",
+        "secondary_title": "Series 1: Episode 1",
+        "start_time": "2025-10-06T15:30:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T16:14:16+0000",
+          "end_of_availability": "2026-11-07T17:13:50+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002hzc1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "584e89eafdeb238bfa87c68f58b3c731"
+      }
+    },
+    {
+      "startTime": "2025-10-06T16:15:00+0000",
+      "duration": 45,
+      "name": "Pointless",
+      "description": "Series 34: Episode 11",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kjl6",
+        "event_locator": "dvb://233a..9106;1398",
+        "main_title": "Pointless",
+        "secondary_title": "Series 34: Episode 11",
+        "start_time": "2025-10-06T16:15:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T17:00:04+0000",
+          "end_of_availability": "2026-10-24T16:58:36+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjl6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "9b4f17058c23d69875daf3465408c322"
+      }
+    },
+    {
+      "startTime": "2025-10-06T17:00:00+0000",
+      "duration": 30,
+      "name": "BBC News at Six",
+      "description": "06/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002khv3",
+        "event_locator": "dvb://233a..9106;1399",
+        "main_title": "BBC News at Six",
+        "secondary_title": "06/10/2025",
+        "start_time": "2025-10-06T17:00:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T17:29:30+0000",
+          "end_of_availability": "2025-10-07T17:29:30+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khv3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "bc5f0e7dbe563ae8a515117c7ad0acf9"
+      }
+    },
+    {
+      "startTime": "2025-10-06T17:30:00+0000",
+      "duration": 25,
+      "name": "East Midlands Today",
+      "description": "Evening News: 06/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kl0s",
+        "event_locator": "dvb://233a..9106;139a",
+        "main_title": "East Midlands Today",
+        "secondary_title": "Evening News: 06/10/2025",
+        "start_time": "2025-10-06T17:30:00+0000",
+        "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T17:58:15+0000",
+          "end_of_availability": "2025-10-07T17:58:15+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kl0s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "948fc30bdc0a85d708e220909c2f3c69"
+      }
+    },
+    {
+      "startTime": "2025-10-06T17:55:00+0000",
+      "duration": 5,
+      "name": "Party Political Broadcasts: Green Party",
+      "description": "06/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kk28",
+        "event_locator": "dvb://233a..9106;139b",
+        "main_title": "Party Political Broadcasts: Green Party",
+        "secondary_title": "06/10/2025",
+        "start_time": "2025-10-06T17:55:00+0000",
+        "duration": "PT5M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T18:00:54+0000",
+          "end_of_availability": "2025-11-05T19:00:54+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kk28&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "6a8eef737b88f1eca300d1bbd212fcb8"
+      }
+    },
+    {
+      "startTime": "2025-10-06T18:00:00+0000",
+      "duration": 30,
+      "name": "The One Show",
+      "description": "06/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kjl8",
+        "event_locator": "dvb://233a..9106;139c",
+        "main_title": "The One Show",
+        "secondary_title": "06/10/2025",
+        "start_time": "2025-10-06T18:00:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T18:31:04+0000",
+          "end_of_availability": "2025-11-05T19:31:04+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjl8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "c6684aec11484f75d95cc32525047ee3"
+      }
+    },
+    {
+      "startTime": "2025-10-06T18:30:00+0000",
+      "duration": 30,
+      "name": "EastEnders",
+      "description": "06/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kk2d",
+        "event_locator": "dvb://233a..9106;139d",
+        "main_title": "EastEnders",
+        "secondary_title": "06/10/2025",
+        "start_time": "2025-10-06T18:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T05:00:00+0000",
+          "end_of_availability": "2027-03-31T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kk2d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "uuid": "015646e841528b277918e63a45ca6360"
+      }
+    },
+    {
+      "startTime": "2025-10-06T19:00:00+0000",
+      "duration": 60,
+      "name": "Panorama",
+      "description": "Kellie Bright - Autism, School and Families on the Edge",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kk2j",
+        "event_locator": "dvb://233a..9106;139e",
+        "main_title": "Panorama",
+        "secondary_title": "Kellie Bright - Autism, School and Families on the Edge",
+        "start_time": "2025-10-06T19:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-10-05T23:00:00+0000",
+          "end_of_availability": "2026-10-05T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kk2j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "ba4801e198e60d8893b95604abce6529"
+      }
+    },
+    {
+      "startTime": "2025-10-06T20:00:00+0000",
+      "duration": 60,
+      "name": "Blue Lights",
+      "description": "Series 3: 2. Skipper",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002k78n",
+        "event_locator": "dvb://233a..9106;139f",
+        "main_title": "Blue Lights",
+        "secondary_title": "Series 3: 2. Skipper",
+        "start_time": "2025-10-06T20:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-09-29T05:00:00+0000",
+          "end_of_availability": "2026-09-29T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002k78n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "uuid": "e7a478d364e6f75d0cd3d3eaaa27ea48"
+      }
+    },
+    {
+      "startTime": "2025-10-06T21:00:00+0000",
+      "duration": 30,
+      "name": "BBC News at Ten",
+      "description": "06/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002khv7",
+        "event_locator": "dvb://233a..9106;13a0",
+        "main_title": "BBC News at Ten",
+        "secondary_title": "06/10/2025",
+        "start_time": "2025-10-06T21:00:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T21:31:30+0000",
+          "end_of_availability": "2025-10-07T21:31:30+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khv7&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "c913312c045a8a1ffe3a945345e1fc2a"
+      }
+    },
+    {
+      "startTime": "2025-10-06T21:30:00+0000",
+      "duration": 10,
+      "name": "East Midlands Today",
+      "description": "Late News: 06/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kl0v",
+        "event_locator": "dvb://233a..9106;13a1",
+        "main_title": "East Midlands Today",
+        "secondary_title": "Late News: 06/10/2025",
+        "start_time": "2025-10-06T21:30:00+0000",
+        "duration": "PT10M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T21:37:30+0000",
+          "end_of_availability": "2025-10-07T21:37:30+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kl0v&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "6edec01cc7f055e76317853f6632d5a9"
+      }
+    },
+    {
+      "startTime": "2025-10-06T21:40:00+0000",
+      "duration": 25,
+      "name": "Trying",
+      "description": "Series 1: 7. Good Old Family Map",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kk2n",
+        "event_locator": "dvb://233a..9106;13a2",
+        "main_title": "Trying",
+        "secondary_title": "Series 1: 7. Good Old Family Map",
+        "start_time": "2025-10-06T21:40:00+0000",
+        "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T22:07:33+0000",
+          "end_of_availability": "2027-03-15T23:59:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kk2n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "eaa072a112fde9b3cd403d275ce347fb"
+      }
+    },
+    {
+      "startTime": "2025-10-06T22:05:00+0000",
+      "duration": 30,
+      "name": "Trying",
+      "description": "Series 1: 8. We Know the Way Out",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kk2s",
+        "event_locator": "dvb://233a..9106;13a3",
+        "main_title": "Trying",
+        "secondary_title": "Series 1: 8. We Know the Way Out",
+        "start_time": "2025-10-06T22:05:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T22:37:35+0000",
+          "end_of_availability": "2027-03-15T23:59:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kk2s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "710fa0d0ccc9e461cebb1383bb2f0a16"
+      }
+    },
+    {
+      "startTime": "2025-10-06T22:35:00+0000",
+      "duration": 30,
+      "name": "Have I Got News for You",
+      "description": "Series 70: Episode 1",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002k7r3",
+        "event_locator": "dvb://233a..9106;13a4",
+        "main_title": "Have I Got News for You",
+        "secondary_title": "Series 70: Episode 1",
+        "start_time": "2025-10-06T22:35:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-04T10:10:18+0000",
+          "end_of_availability": "2025-11-03T10:10:18+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002k7r3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "0b893ddb029c695f8fcdf46191435fb0"
+      }
+    },
+    {
+      "startTime": "2025-10-06T23:05:00+0000",
+      "duration": 45,
+      "name": "The Celebrity Inner Circle",
+      "description": "Series 1: Episode 1",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kjjj",
+        "event_locator": "dvb://233a..9106;13a5",
+        "main_title": "The Celebrity Inner Circle",
+        "secondary_title": "Series 1: Episode 1",
+        "start_time": "2025-10-06T23:05:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2025-10-04T17:19:00+0000",
+          "end_of_availability": "2026-11-08T18:18:50+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjjj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "220c5d74bde5c5f4f6c6364d9c03975c"
+      }
+    },
+    {
+      "startTime": "2025-10-06T23:50:00+0000",
+      "duration": 5,
+      "name": "Weather for the Week Ahead",
+      "description": "07/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002khvc",
+        "event_locator": "dvb://233a..9106;13a6",
+        "main_title": "Weather for the Week Ahead",
+        "secondary_title": "07/10/2025",
+        "start_time": "2025-10-06T23:50:00+0000",
+        "duration": "PT5M",
+        "on_demand": {
+          "start_of_availability": "2025-10-06T23:57:30+0000",
+          "end_of_availability": "2025-10-14T00:34:09+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khvc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "a8625547ba37bb96ca2e006161dad49a"
+      }
+    },
+    {
+      "startTime": "2025-10-06T23:55:00+0000",
+      "duration": 305,
+      "name": "Joins BBC News",
+      "description": "07/10/2025",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002khvf",
+        "event_locator": "dvb://233a..9106;13a7",
+        "main_title": "Joins BBC News",
+        "secondary_title": "07/10/2025",
+        "start_time": "2025-10-06T23:55:00+0000",
+        "duration": "PT5H5M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "6ddae23f37910fa8d62bbf26174bd624"
       }
     }
   ],
@@ -719,712 +827,820 @@
       {
         "event": [
           {
-            "startTime": "2025-10-05T00:00:00+0000",
-            "duration": 300,
-            "name": "Joins BBC News",
-            "description": "05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002khs1",
-              "event_locator": "dvb://233a..9106;12ff",
-              "main_title": "Joins BBC News",
-              "secondary_title": "05/10/2025",
-              "start_time": "2025-10-05T00:00:00+0000",
-              "duration": "PT5H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "cb28ee81e66793acb94032c8203c6a5f"
-            }
-          },
-          {
-            "startTime": "2025-10-05T05:00:00+0000",
-            "duration": 110,
-            "name": "Breakfast",
-            "description": "05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002khsw",
-              "event_locator": "dvb://233a..9106;1300",
-              "main_title": "Breakfast",
-              "secondary_title": "05/10/2025",
-              "start_time": "2025-10-05T05:00:00+0000",
-              "duration": "PT1H50M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T06:48:45+0000",
-                "end_of_availability": "2025-10-06T06:48:45+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khsw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "ede24503a5b3f17b7bcedd188fa04a72"
-            }
-          },
-          {
-            "startTime": "2025-10-05T06:50:00+0000",
-            "duration": 70,
-            "name": "Match of the Day",
-            "description": "2025/26: 04/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kjhq",
-              "event_locator": "dvb://233a..9106;1301",
-              "main_title": "Match of the Day",
-              "secondary_title": "2025/26: 04/10/2025",
-              "start_time": "2025-10-05T06:50:00+0000",
-              "duration": "PT1H10M",
-              "on_demand": {
-                "start_of_availability": "2025-10-04T22:59:00+0000",
-                "end_of_availability": "2025-11-03T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjhq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-              "uuid": "91ea09c75f883402d513a95241c8eff7"
-            }
-          },
-          {
-            "startTime": "2025-10-05T08:00:00+0000",
-            "duration": 60,
-            "name": "Sunday with Laura Kuenssberg",
-            "description": "05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002khsy",
-              "event_locator": "dvb://233a..9106;1302",
-              "main_title": "Sunday with Laura Kuenssberg",
-              "secondary_title": "05/10/2025",
-              "start_time": "2025-10-05T08:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T09:01:01+0000",
-                "end_of_availability": "2026-10-05T09:01:01+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khsy&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "92392f5a7cda0744311ecfd0deaa05cf"
-            }
-          },
-          {
-            "startTime": "2025-10-05T09:00:00+0000",
+            "startTime": "2025-10-06T00:00:00+0000",
             "duration": 30,
-            "name": "Politics East Midlands",
-            "description": "05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kl53",
-              "event_locator": "dvb://233a..9106;1303",
-              "main_title": "Politics East Midlands",
-              "secondary_title": "05/10/2025",
-              "start_time": "2025-10-05T09:00:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T09:28:50+0000",
-                "end_of_availability": "2025-11-04T10:28:50+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kl53&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "0cc29969426dffa239692a9490904edd"
-            }
-          },
-          {
-            "startTime": "2025-10-05T09:30:00+0000",
-            "duration": 60,
-            "name": "Sunday Morning Live",
-            "description": "Series 16: 05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kht2",
-              "event_locator": "dvb://233a..9106;1304",
-              "main_title": "Sunday Morning Live",
-              "secondary_title": "Series 16: 05/10/2025",
-              "start_time": "2025-10-05T09:30:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T10:30:20+0000",
-                "end_of_availability": "2026-10-05T10:30:20+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kht2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "69eead71af8933eb309fc59f63d0bf59"
-            }
-          },
-          {
-            "startTime": "2025-10-05T10:30:00+0000",
-            "duration": 30,
-            "name": "Prayer and Reflection",
-            "description": "Series 1: 4. Kagyu Samye Ling Monastery, Eskdalemuir",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kjhs",
-              "event_locator": "dvb://233a..9106;1305",
-              "main_title": "Prayer and Reflection",
-              "secondary_title": "Series 1: 4. Kagyu Samye Ling Monastery, Eskdalemuir",
-              "start_time": "2025-10-05T10:30:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T11:00:21+0000",
-                "end_of_availability": "2026-12-21T11:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjhs&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "ba544704c707392e315cc4e7d5ae18d8"
-            }
-          },
-          {
-            "startTime": "2025-10-05T11:00:00+0000",
-            "duration": 60,
-            "name": "Bargain Hunt",
-            "description": "Series 68 (Extended Versions): Hemswell 10 and 11",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kht4",
-              "event_locator": "dvb://233a..9106;1306",
-              "main_title": "Bargain Hunt",
-              "secondary_title": "Series 68 (Extended Versions): Hemswell 10 and 11",
-              "start_time": "2025-10-05T11:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T12:00:03+0000",
-                "end_of_availability": "2025-11-04T13:00:03+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kht4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "03c3ff04ebaa98285127e8e22780723e"
-            }
-          },
-          {
-            "startTime": "2025-10-05T12:00:00+0000",
-            "duration": 10,
-            "name": "BBC Weekend News",
-            "description": "Lunchtime News: 05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kht6",
-              "event_locator": "dvb://233a..9106;1307",
-              "main_title": "BBC Weekend News",
-              "secondary_title": "Lunchtime News: 05/10/2025",
-              "start_time": "2025-10-05T12:00:00+0000",
-              "duration": "PT10M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T12:11:00+0000",
-                "end_of_availability": "2025-10-06T12:11:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kht6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "2a412038e21003ba7f351998002917b4"
-            }
-          },
-          {
-            "startTime": "2025-10-05T12:10:00+0000",
-            "duration": 5,
-            "name": "Weather for the Week Ahead",
-            "description": "05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kht8",
-              "event_locator": "dvb://233a..9106;1308",
-              "main_title": "Weather for the Week Ahead",
-              "secondary_title": "05/10/2025",
-              "start_time": "2025-10-05T12:10:00+0000",
-              "duration": "PT5M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T12:16:06+0000",
-                "end_of_availability": "2025-10-06T12:16:06+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kht8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "935c723b849bec26fab7e38c327c9cb6"
-            }
-          },
-          {
-            "startTime": "2025-10-05T12:15:00+0000",
-            "duration": 45,
-            "name": "Songs of Praise",
-            "description": "Young Chorister of the Year - Junior Semi-Final",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kjhv",
-              "event_locator": "dvb://233a..9106;1309",
-              "main_title": "Songs of Praise",
-              "secondary_title": "Young Chorister of the Year - Junior Semi-Final",
-              "start_time": "2025-10-05T12:15:00+0000",
-              "duration": "PT45M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T13:01:27+0000",
-                "end_of_availability": "2026-10-05T13:01:27+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjhv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "d118f192796db53720f6dc48ea1a0e40"
-            }
-          },
-          {
-            "startTime": "2025-10-05T13:00:00+0000",
-            "duration": 15,
-            "name": "Points of View",
-            "description": "2025: 05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kjhx",
-              "event_locator": "dvb://233a..9106;130a",
-              "main_title": "Points of View",
-              "secondary_title": "2025: 05/10/2025",
-              "start_time": "2025-10-05T13:00:00+0000",
-              "duration": "PT15M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T13:16:35+0000",
-                "end_of_availability": "2026-10-05T13:16:35+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjhx&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "57ea426cbbce9ae85e8b1136254b2f37"
-            }
-          },
-          {
-            "startTime": "2025-10-05T13:15:00+0000",
-            "duration": 25,
-            "name": "Escape to the Country",
-            "description": "Series 24: 5. North Yorkshire",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m001qgnw",
-              "event_locator": "dvb://233a..9106;130b",
-              "main_title": "Escape to the Country",
-              "secondary_title": "Series 24: 5. North Yorkshire",
-              "start_time": "2025-10-05T13:15:00+0000",
-              "duration": "PT25M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T13:41:16+0000",
-                "end_of_availability": "2025-11-04T14:41:16+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001qgnw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "b6d1612db3fe1a4c48f639a4bfbaabf9"
-            }
-          },
-          {
-            "startTime": "2025-10-05T13:40:00+0000",
-            "duration": 120,
-            "name": "Beauty and the Beast",
-            "description": "Beauty and the Beast",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m000cspm",
-              "event_locator": "dvb://233a..9106;130c",
-              "main_title": "Beauty and the Beast",
-              "secondary_title": "Beauty and the Beast",
-              "start_time": "2025-10-05T13:40:00+0000",
-              "duration": "PT2H",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T15:40:30+0000",
-                "end_of_availability": "2025-11-04T16:40:30+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m000cspm&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "1b2c3cf68c1bfd7eb5ed3869295f8a0c"
-            }
-          },
-          {
-            "startTime": "2025-10-05T15:40:00+0000",
-            "duration": 60,
-            "name": "Our Changing Planet",
-            "description": "3. Restoring Our Reefs",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m001ykh4",
-              "event_locator": "dvb://233a..9106;130d",
-              "main_title": "Our Changing Planet",
-              "secondary_title": "3. Restoring Our Reefs",
-              "start_time": "2025-10-05T15:40:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2025-04-21T17:30:00+0000",
-                "end_of_availability": "2026-04-21T04:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001ykh4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "e7cac47eadced7593a645e563f101b78"
-            }
-          },
-          {
-            "startTime": "2025-10-05T16:40:00+0000",
-            "duration": 15,
-            "name": "BBC Weekend News",
-            "description": "Evening News: 05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002khtc",
-              "event_locator": "dvb://233a..9106;130e",
-              "main_title": "BBC Weekend News",
-              "secondary_title": "Evening News: 05/10/2025",
-              "start_time": "2025-10-05T16:40:00+0000",
-              "duration": "PT15M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T16:55:00+0000",
-                "end_of_availability": "2025-10-06T16:55:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khtc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "e16cf357d2f051c5d85ad5cd2d85a736"
-            }
-          },
-          {
-            "startTime": "2025-10-05T16:55:00+0000",
-            "duration": 5,
-            "name": "East Midlands Today",
-            "description": "Evening News: 05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kl55",
-              "event_locator": "dvb://233a..9106;130f",
-              "main_title": "East Midlands Today",
-              "secondary_title": "Evening News: 05/10/2025",
-              "start_time": "2025-10-05T16:55:00+0000",
-              "duration": "PT5M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T17:01:00+0000",
-                "end_of_availability": "2025-10-06T17:01:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kl55&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "e4031ed50502e65d9fe88d34252a64f0"
-            }
-          },
-          {
-            "startTime": "2025-10-05T17:00:00+0000",
-            "duration": 5,
-            "name": "BBC Weather",
-            "description": "05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002khth",
-              "event_locator": "dvb://233a..9106;1310",
-              "main_title": "BBC Weather",
-              "secondary_title": "05/10/2025",
-              "start_time": "2025-10-05T17:00:00+0000",
-              "duration": "PT5M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T17:04:06+0000",
-                "end_of_availability": "2025-10-06T17:04:06+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khth&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "3ea57f71fa44e6886cdc48a6fbe63f3b"
-            }
-          },
-          {
-            "startTime": "2025-10-05T17:05:00+0000",
-            "duration": 70,
-            "name": "Countryfile",
-            "description": "Countryfile Ramble for BBC Children in Need 2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kt5m",
-              "event_locator": "dvb://233a..9106;1311",
-              "main_title": "Countryfile",
-              "secondary_title": "Countryfile Ramble for BBC Children in Need 2025",
-              "start_time": "2025-10-05T17:05:00+0000",
-              "duration": "PT1H10M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T18:24:02+0000",
-                "end_of_availability": "2026-10-12T08:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kt5m&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "464409473a297f664673536ff18333e3"
-            }
-          },
-          {
-            "startTime": "2025-10-05T18:15:00+0000",
-            "duration": 50,
-            "name": "Strictly Come Dancing",
-            "description": "Series 23: Week 2 Results",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kkcj",
-              "event_locator": "dvb://233a..9106;1312",
-              "main_title": "Strictly Come Dancing",
-              "secondary_title": "Series 23: Week 2 Results",
-              "start_time": "2025-10-05T18:15:00+0000",
-              "duration": "PT50M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T19:06:20+0000",
-                "end_of_availability": "2026-12-14T20:29:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kkcj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "320e50396beb7d315786c5440c7990ab"
-            }
-          },
-          {
-            "startTime": "2025-10-05T19:05:00+0000",
-            "duration": 60,
-            "name": "Antiques Roadshow",
-            "description": "Series 48: 7. Shuttleworth House 3",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kkcl",
-              "event_locator": "dvb://233a..9106;1313",
-              "main_title": "Antiques Roadshow",
-              "secondary_title": "Series 48: 7. Shuttleworth House 3",
-              "start_time": "2025-10-05T19:05:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T20:06:13+0000",
-                "end_of_availability": "2027-01-04T20:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kkcl&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "d1e5fb2808d46ddc0d27506a344fc487"
-            }
-          },
-          {
-            "startTime": "2025-10-05T20:05:00+0000",
-            "duration": 55,
-            "name": "King & Conqueror",
-            "description": "Series 1: 8. The Hand of God",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002hpnd",
-              "event_locator": "dvb://233a..9106;1314",
-              "main_title": "King & Conqueror",
-              "secondary_title": "Series 1: 8. The Hand of God",
-              "start_time": "2025-10-05T20:05:00+0000",
-              "duration": "PT55M",
-              "on_demand": {
-                "start_of_availability": "2025-08-24T05:00:00+0000",
-                "end_of_availability": "2030-08-23T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002hpnd&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "9fca4b88b4901789c2b19b82db3ea940"
-            }
-          },
-          {
-            "startTime": "2025-10-05T21:00:00+0000",
-            "duration": 25,
-            "name": "BBC Weekend News",
-            "description": "Late News: 05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002khtk",
-              "event_locator": "dvb://233a..9106;1315",
-              "main_title": "BBC Weekend News",
-              "secondary_title": "Late News: 05/10/2025",
-              "start_time": "2025-10-05T21:00:00+0000",
-              "duration": "PT25M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T21:24:00+0000",
-                "end_of_availability": "2025-10-06T21:24:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khtk&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "837a2c59edc326b169ab120014f8e63d"
-            }
-          },
-          {
-            "startTime": "2025-10-05T21:25:00+0000",
-            "duration": 5,
-            "name": "East Midlands Today",
-            "description": "Late News: 05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kl57",
-              "event_locator": "dvb://233a..9106;1316",
-              "main_title": "East Midlands Today",
-              "secondary_title": "Late News: 05/10/2025",
-              "start_time": "2025-10-05T21:25:00+0000",
-              "duration": "PT5M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T21:29:00+0000",
-                "end_of_availability": "2025-10-06T21:29:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kl57&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "587d8c18c49cc48d0742246864fa1378"
-            }
-          },
-          {
-            "startTime": "2025-10-05T21:30:00+0000",
-            "duration": 75,
-            "name": "Match of the Day",
-            "description": "2025/26: 05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kkcn",
-              "event_locator": "dvb://233a..9106;1317",
-              "main_title": "Match of the Day",
-              "secondary_title": "2025/26: 05/10/2025",
-              "start_time": "2025-10-05T21:30:00+0000",
-              "duration": "PT1H15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-              "uuid": "2ab0b3282bc5c2a1d58a071dcb11c372"
-            }
-          },
-          {
-            "startTime": "2025-10-05T22:45:00+0000",
-            "duration": 50,
-            "name": "The Women's Football Show",
-            "description": "2025/26: 05/10/2025",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002kkcq",
-              "event_locator": "dvb://233a..9106;1318",
-              "main_title": "The Women's Football Show",
-              "secondary_title": "2025/26: 05/10/2025",
-              "start_time": "2025-10-05T22:45:00+0000",
-              "duration": "PT50M",
-              "on_demand": {
-                "start_of_availability": "2025-10-05T20:00:00+0000",
-                "end_of_availability": "2025-11-04T21:51:40+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kkcq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-              "uuid": "e8427fb7a2783990449288b939b033cc"
-            }
-          },
-          {
-            "startTime": "2025-10-05T23:35:00+0000",
-            "duration": 25,
             "name": "Juice",
-            "description": "Series 2: 5. The Storm Is Coming",
+            "description": "Series 2: 6. Last Chapter",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002jjmr",
-              "event_locator": "dvb://233a..9106;1319",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002jjmt",
+              "event_locator": "dvb://233a..9106;131a",
               "main_title": "Juice",
-              "secondary_title": "Series 2: 5. The Storm Is Coming",
-              "start_time": "2025-10-05T23:35:00+0000",
-              "duration": "PT25M",
+              "secondary_title": "Series 2: 6. Last Chapter",
+              "start_time": "2025-10-06T00:00:00+0000",
+              "duration": "PT30M",
               "on_demand": {
                 "start_of_availability": "2025-09-18T05:00:00+0000",
                 "end_of_availability": "2027-09-18T05:00:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002jjmr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002jjmt&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "4c91fa740de3a775f2a6c101c45e32dd"
+              "uuid": "059e6a1eb5a84ba904cdbe574a2d950d"
+            }
+          },
+          {
+            "startTime": "2025-10-06T00:30:00+0000",
+            "duration": 50,
+            "name": "The Graham Norton Show",
+            "description": "Series 33: Episode 2",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002k7rj",
+              "event_locator": "dvb://233a..9106;131b",
+              "main_title": "The Graham Norton Show",
+              "secondary_title": "Series 33: Episode 2",
+              "start_time": "2025-10-06T00:30:00+0000",
+              "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2025-10-03T22:32:55+0000",
+                "end_of_availability": "2027-02-20T23:29:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002k7rj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "1a22f1aa1b86cad3b05b3d523e831d38"
+            }
+          },
+          {
+            "startTime": "2025-10-06T01:20:00+0000",
+            "duration": 5,
+            "name": "Weather for the Week Ahead",
+            "description": "06/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002khtp",
+              "event_locator": "dvb://233a..9106;131c",
+              "main_title": "Weather for the Week Ahead",
+              "secondary_title": "06/10/2025",
+              "start_time": "2025-10-06T01:20:00+0000",
+              "duration": "PT5M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T01:25:47+0000",
+                "end_of_availability": "2025-10-13T01:31:23+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khtp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "f9957fcf1cface15c151cc51f922f258"
+            }
+          },
+          {
+            "startTime": "2025-10-06T01:25:00+0000",
+            "duration": 215,
+            "name": "Joins BBC News",
+            "description": "06/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002khtr",
+              "event_locator": "dvb://233a..9106;131d",
+              "main_title": "Joins BBC News",
+              "secondary_title": "06/10/2025",
+              "start_time": "2025-10-06T01:25:00+0000",
+              "duration": "PT3H35M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "cd6c72d9d6e2864f3d9355b207c352ae"
+            }
+          },
+          {
+            "startTime": "2025-10-06T05:00:00+0000",
+            "duration": 210,
+            "name": "Breakfast",
+            "description": "06/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002khtt",
+              "event_locator": "dvb://233a..9106;138b",
+              "main_title": "Breakfast",
+              "secondary_title": "06/10/2025",
+              "start_time": "2025-10-06T05:00:00+0000",
+              "duration": "PT3H30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T08:29:00+0000",
+                "end_of_availability": "2025-10-07T08:29:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khtt&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "d66d17600b794fb4752d961aa0ac0bde"
+            }
+          },
+          {
+            "startTime": "2025-10-06T08:30:00+0000",
+            "duration": 75,
+            "name": "Morning Live",
+            "description": "Series 7: 06/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002khtw",
+              "event_locator": "dvb://233a..9106;138c",
+              "main_title": "Morning Live",
+              "secondary_title": "Series 7: 06/10/2025",
+              "start_time": "2025-10-06T08:30:00+0000",
+              "duration": "PT1H15M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T09:44:00+0000",
+                "end_of_availability": "2026-10-06T09:44:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khtw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "37f81138f764b259b425daec014e9327"
+            }
+          },
+          {
+            "startTime": "2025-10-06T09:45:00+0000",
+            "duration": 45,
+            "name": "Crimewatch Live",
+            "description": "Series 22: 1. A Shooting in Aintree",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kjkw",
+              "event_locator": "dvb://233a..9106;138d",
+              "main_title": "Crimewatch Live",
+              "secondary_title": "Series 22: 1. A Shooting in Aintree",
+              "start_time": "2025-10-06T09:45:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T10:29:35+0000",
+                "end_of_availability": "2025-11-05T11:29:35+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjkw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "df7fc230719299b9078be21955be0b28"
+            }
+          },
+          {
+            "startTime": "2025-10-06T10:30:00+0000",
+            "duration": 45,
+            "name": "Homes Under the Hammer",
+            "description": "Series 25: 10. Double Vision",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0015q1c",
+              "event_locator": "dvb://233a..9106;138e",
+              "main_title": "Homes Under the Hammer",
+              "secondary_title": "Series 25: 10. Double Vision",
+              "start_time": "2025-10-06T10:30:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T11:14:22+0000",
+                "end_of_availability": "2025-11-05T12:14:22+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0015q1c&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "e43f3626be3c893fec4499ab2d5c5a54"
+            }
+          },
+          {
+            "startTime": "2025-10-06T11:15:00+0000",
+            "duration": 45,
+            "name": "Bargain Hunt",
+            "description": "Series 72: Builth Wells 15",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kjkz",
+              "event_locator": "dvb://233a..9106;138f",
+              "main_title": "Bargain Hunt",
+              "secondary_title": "Series 72: Builth Wells 15",
+              "start_time": "2025-10-06T11:15:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T12:00:00+0000",
+                "end_of_availability": "2026-12-12T12:58:30+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjkz&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "aeb1f91a19d81ca20bb74773bf4e4ce2"
+            }
+          },
+          {
+            "startTime": "2025-10-06T12:00:00+0000",
+            "duration": 60,
+            "name": "BBC News at One",
+            "description": "06/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002khty",
+              "event_locator": "dvb://233a..9106;1390",
+              "main_title": "BBC News at One",
+              "secondary_title": "06/10/2025",
+              "start_time": "2025-10-06T12:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T13:00:00+0000",
+                "end_of_availability": "2025-10-07T12:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khty&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "9117520989edadc86f9b103df40c0996"
+            }
+          },
+          {
+            "startTime": "2025-10-06T13:00:00+0000",
+            "duration": 30,
+            "name": "Trace, Track, Get My Car Back",
+            "description": "Series 1: Episode 1",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kj57",
+              "event_locator": "dvb://233a..9106;1393",
+              "main_title": "Trace, Track, Get My Car Back",
+              "secondary_title": "Series 1: Episode 1",
+              "start_time": "2025-10-06T13:00:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T05:00:00+0000",
+                "end_of_availability": "2026-10-06T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kj57&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "56ed78efa4dc2f395d1e13e1ecf8fed7"
+            }
+          },
+          {
+            "startTime": "2025-10-06T13:30:00+0000",
+            "duration": 30,
+            "name": "Amanda & Alan's Italian Job",
+            "description": "Series 2: Episode 5",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m001tmlw",
+              "event_locator": "dvb://233a..9106;1394",
+              "main_title": "Amanda & Alan's Italian Job",
+              "secondary_title": "Series 2: Episode 5",
+              "start_time": "2025-10-06T13:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-01-05T05:45:00+0000",
+                "end_of_availability": "2026-01-05T05:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001tmlw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "bf7aee0aafb27e4308b2fdc12e6a49f8"
+            }
+          },
+          {
+            "startTime": "2025-10-06T14:00:00+0000",
+            "duration": 45,
+            "name": "Escape to the Country",
+            "description": "Series 26: 7. Norfolk and Suffolk Border",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kjl1",
+              "event_locator": "dvb://233a..9106;1395",
+              "main_title": "Escape to the Country",
+              "secondary_title": "Series 26: 7. Norfolk and Suffolk Border",
+              "start_time": "2025-10-06T14:00:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T14:44:30+0000",
+                "end_of_availability": "2026-10-06T14:44:30+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjl1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "c40c78ee450c0c0614e12aaf2e536755"
+            }
+          },
+          {
+            "startTime": "2025-10-06T14:45:00+0000",
+            "duration": 45,
+            "name": "The Repair Shop",
+            "description": "Series 15: Episode 1",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kjl3",
+              "event_locator": "dvb://233a..9106;1396",
+              "main_title": "The Repair Shop",
+              "secondary_title": "Series 15: Episode 1",
+              "start_time": "2025-10-06T14:45:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T15:29:47+0000",
+                "end_of_availability": "2026-10-08T15:29:46+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjl3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "863eb64f11eeeb25074c3563b6e33139"
+            }
+          },
+          {
+            "startTime": "2025-10-06T15:30:00+0000",
+            "duration": 45,
+            "name": "The Inner Circle",
+            "description": "Series 1: Episode 1",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002hzc1",
+              "event_locator": "dvb://233a..9106;1397",
+              "main_title": "The Inner Circle",
+              "secondary_title": "Series 1: Episode 1",
+              "start_time": "2025-10-06T15:30:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T16:14:16+0000",
+                "end_of_availability": "2026-11-07T17:13:50+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002hzc1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "584e89eafdeb238bfa87c68f58b3c731"
+            }
+          },
+          {
+            "startTime": "2025-10-06T16:15:00+0000",
+            "duration": 45,
+            "name": "Pointless",
+            "description": "Series 34: Episode 11",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kjl6",
+              "event_locator": "dvb://233a..9106;1398",
+              "main_title": "Pointless",
+              "secondary_title": "Series 34: Episode 11",
+              "start_time": "2025-10-06T16:15:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T17:00:04+0000",
+                "end_of_availability": "2026-10-24T16:58:36+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjl6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "9b4f17058c23d69875daf3465408c322"
+            }
+          },
+          {
+            "startTime": "2025-10-06T17:00:00+0000",
+            "duration": 30,
+            "name": "BBC News at Six",
+            "description": "06/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002khv3",
+              "event_locator": "dvb://233a..9106;1399",
+              "main_title": "BBC News at Six",
+              "secondary_title": "06/10/2025",
+              "start_time": "2025-10-06T17:00:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T17:29:30+0000",
+                "end_of_availability": "2025-10-07T17:29:30+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khv3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "bc5f0e7dbe563ae8a515117c7ad0acf9"
+            }
+          },
+          {
+            "startTime": "2025-10-06T17:30:00+0000",
+            "duration": 25,
+            "name": "East Midlands Today",
+            "description": "Evening News: 06/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kl0s",
+              "event_locator": "dvb://233a..9106;139a",
+              "main_title": "East Midlands Today",
+              "secondary_title": "Evening News: 06/10/2025",
+              "start_time": "2025-10-06T17:30:00+0000",
+              "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T17:58:15+0000",
+                "end_of_availability": "2025-10-07T17:58:15+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kl0s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "948fc30bdc0a85d708e220909c2f3c69"
+            }
+          },
+          {
+            "startTime": "2025-10-06T17:55:00+0000",
+            "duration": 5,
+            "name": "Party Political Broadcasts: Green Party",
+            "description": "06/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kk28",
+              "event_locator": "dvb://233a..9106;139b",
+              "main_title": "Party Political Broadcasts: Green Party",
+              "secondary_title": "06/10/2025",
+              "start_time": "2025-10-06T17:55:00+0000",
+              "duration": "PT5M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T18:00:54+0000",
+                "end_of_availability": "2025-11-05T19:00:54+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kk28&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "6a8eef737b88f1eca300d1bbd212fcb8"
+            }
+          },
+          {
+            "startTime": "2025-10-06T18:00:00+0000",
+            "duration": 30,
+            "name": "The One Show",
+            "description": "06/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kjl8",
+              "event_locator": "dvb://233a..9106;139c",
+              "main_title": "The One Show",
+              "secondary_title": "06/10/2025",
+              "start_time": "2025-10-06T18:00:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T18:31:04+0000",
+                "end_of_availability": "2025-11-05T19:31:04+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjl8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "c6684aec11484f75d95cc32525047ee3"
+            }
+          },
+          {
+            "startTime": "2025-10-06T18:30:00+0000",
+            "duration": 30,
+            "name": "EastEnders",
+            "description": "06/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kk2d",
+              "event_locator": "dvb://233a..9106;139d",
+              "main_title": "EastEnders",
+              "secondary_title": "06/10/2025",
+              "start_time": "2025-10-06T18:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T05:00:00+0000",
+                "end_of_availability": "2027-03-31T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kk2d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "uuid": "015646e841528b277918e63a45ca6360"
+            }
+          },
+          {
+            "startTime": "2025-10-06T19:00:00+0000",
+            "duration": 60,
+            "name": "Panorama",
+            "description": "Kellie Bright - Autism, School and Families on the Edge",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kk2j",
+              "event_locator": "dvb://233a..9106;139e",
+              "main_title": "Panorama",
+              "secondary_title": "Kellie Bright - Autism, School and Families on the Edge",
+              "start_time": "2025-10-06T19:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-10-05T23:00:00+0000",
+                "end_of_availability": "2026-10-05T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kk2j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "ba4801e198e60d8893b95604abce6529"
+            }
+          },
+          {
+            "startTime": "2025-10-06T20:00:00+0000",
+            "duration": 60,
+            "name": "Blue Lights",
+            "description": "Series 3: 2. Skipper",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002k78n",
+              "event_locator": "dvb://233a..9106;139f",
+              "main_title": "Blue Lights",
+              "secondary_title": "Series 3: 2. Skipper",
+              "start_time": "2025-10-06T20:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-09-29T05:00:00+0000",
+                "end_of_availability": "2026-09-29T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002k78n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "uuid": "e7a478d364e6f75d0cd3d3eaaa27ea48"
+            }
+          },
+          {
+            "startTime": "2025-10-06T21:00:00+0000",
+            "duration": 30,
+            "name": "BBC News at Ten",
+            "description": "06/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002khv7",
+              "event_locator": "dvb://233a..9106;13a0",
+              "main_title": "BBC News at Ten",
+              "secondary_title": "06/10/2025",
+              "start_time": "2025-10-06T21:00:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T21:31:30+0000",
+                "end_of_availability": "2025-10-07T21:31:30+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khv7&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "c913312c045a8a1ffe3a945345e1fc2a"
+            }
+          },
+          {
+            "startTime": "2025-10-06T21:30:00+0000",
+            "duration": 10,
+            "name": "East Midlands Today",
+            "description": "Late News: 06/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kl0v",
+              "event_locator": "dvb://233a..9106;13a1",
+              "main_title": "East Midlands Today",
+              "secondary_title": "Late News: 06/10/2025",
+              "start_time": "2025-10-06T21:30:00+0000",
+              "duration": "PT10M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T21:37:30+0000",
+                "end_of_availability": "2025-10-07T21:37:30+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kl0v&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "6edec01cc7f055e76317853f6632d5a9"
+            }
+          },
+          {
+            "startTime": "2025-10-06T21:40:00+0000",
+            "duration": 25,
+            "name": "Trying",
+            "description": "Series 1: 7. Good Old Family Map",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kk2n",
+              "event_locator": "dvb://233a..9106;13a2",
+              "main_title": "Trying",
+              "secondary_title": "Series 1: 7. Good Old Family Map",
+              "start_time": "2025-10-06T21:40:00+0000",
+              "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T22:07:33+0000",
+                "end_of_availability": "2027-03-15T23:59:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kk2n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "eaa072a112fde9b3cd403d275ce347fb"
+            }
+          },
+          {
+            "startTime": "2025-10-06T22:05:00+0000",
+            "duration": 30,
+            "name": "Trying",
+            "description": "Series 1: 8. We Know the Way Out",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kk2s",
+              "event_locator": "dvb://233a..9106;13a3",
+              "main_title": "Trying",
+              "secondary_title": "Series 1: 8. We Know the Way Out",
+              "start_time": "2025-10-06T22:05:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T22:37:35+0000",
+                "end_of_availability": "2027-03-15T23:59:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kk2s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "710fa0d0ccc9e461cebb1383bb2f0a16"
+            }
+          },
+          {
+            "startTime": "2025-10-06T22:35:00+0000",
+            "duration": 30,
+            "name": "Have I Got News for You",
+            "description": "Series 70: Episode 1",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002k7r3",
+              "event_locator": "dvb://233a..9106;13a4",
+              "main_title": "Have I Got News for You",
+              "secondary_title": "Series 70: Episode 1",
+              "start_time": "2025-10-06T22:35:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-04T10:10:18+0000",
+                "end_of_availability": "2025-11-03T10:10:18+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002k7r3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "0b893ddb029c695f8fcdf46191435fb0"
+            }
+          },
+          {
+            "startTime": "2025-10-06T23:05:00+0000",
+            "duration": 45,
+            "name": "The Celebrity Inner Circle",
+            "description": "Series 1: Episode 1",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kjjj",
+              "event_locator": "dvb://233a..9106;13a5",
+              "main_title": "The Celebrity Inner Circle",
+              "secondary_title": "Series 1: Episode 1",
+              "start_time": "2025-10-06T23:05:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2025-10-04T17:19:00+0000",
+                "end_of_availability": "2026-11-08T18:18:50+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kjjj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "220c5d74bde5c5f4f6c6364d9c03975c"
+            }
+          },
+          {
+            "startTime": "2025-10-06T23:50:00+0000",
+            "duration": 5,
+            "name": "Weather for the Week Ahead",
+            "description": "07/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002khvc",
+              "event_locator": "dvb://233a..9106;13a6",
+              "main_title": "Weather for the Week Ahead",
+              "secondary_title": "07/10/2025",
+              "start_time": "2025-10-06T23:50:00+0000",
+              "duration": "PT5M",
+              "on_demand": {
+                "start_of_availability": "2025-10-06T23:57:30+0000",
+                "end_of_availability": "2025-10-14T00:34:09+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002khvc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "a8625547ba37bb96ca2e006161dad49a"
+            }
+          },
+          {
+            "startTime": "2025-10-06T23:55:00+0000",
+            "duration": 305,
+            "name": "Joins BBC News",
+            "description": "07/10/2025",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002khvf",
+              "event_locator": "dvb://233a..9106;13a7",
+              "main_title": "Joins BBC News",
+              "secondary_title": "07/10/2025",
+              "start_time": "2025-10-06T23:55:00+0000",
+              "duration": "PT5H5M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "6ddae23f37910fa8d62bbf26174bd624"
             }
           }
         ]
