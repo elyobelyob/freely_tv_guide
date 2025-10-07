@@ -85,8 +85,8 @@ jobs:
         if: steps.sanity.outputs.has_channels == 'true'
         env:
           IMG_WORKERS: "16"
-          IMG_HOURS_AHEAD: "18"
-          IMG_MAX_PER_CHANNEL: "10"
+          IMG_HOURS_AHEAD: "36"   # broaden for better coverage
+          IMG_MAX_PER_CHANNEL: "20"
           IMG_TIMEOUT_CONNECT: "4"
           IMG_TIMEOUT_READ: "8"
         run: |
@@ -102,6 +102,7 @@ jobs:
           img_prog.mkdir(parents=True, exist_ok=True)
           img_chan.mkdir(parents=True, exist_ok=True)
 
+          # placeholders
           def svg(path, text, w, h):
               path.write_text(
                 f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}">'
@@ -122,7 +123,7 @@ jobs:
               except Exception:
                   pass
 
-          # walk events to map identifiers -> URL
+          # walk events in the raw payload
           def walk_events(obj):
               if isinstance(obj, dict):
                   for k,v in obj.items():
@@ -143,25 +144,40 @@ jobs:
                       return val
               return None
 
+          # produce multiple key variants per event for robust matching
+          def keys_for_event(ev):
+              st  = ev.get('start_time') or ev.get('startTime') or ev.get('time')
+              mt  = ev.get('main_title') or ev.get('title') or ev.get('name')
+              sub = ev.get('secondary_title') or ''
+              names = []
+              if ev.get('name'): names.append(ev['name'])
+              if mt:             names.append(mt)
+              if mt and sub:     names.append(f"{mt}: {sub}")  # combined form used in channel JSON
+              # de-dup
+              seen=set(); names=[n for n in names if not (n in seen or seen.add(n))]
+              return st, names
+
           prog_url_map = {}
           for ev in walk_events(raw_payload):
               url = first_url(ev)
-              if not url: continue
+              if not url:
+                  continue
               if ev.get('uuid'):
                   prog_url_map[('uuid', ev['uuid'])] = url
               if ev.get('program_id'):
                   prog_url_map[('pid', ev['program_id'])] = url
-              st = ev.get('start_time') or ev.get('startTime') or ev.get('time')
-              nm = ev.get('name') or ev.get('title') or ev.get('main_title')
-              if st and nm:
-                  prog_url_map[('t', f"{st}|{nm}")] = url
+              st, names = keys_for_event(ev)
+              if st:
+                  for nm in names:
+                      prog_url_map[('t', f"{st}|{nm}")] = url
 
-          # HTTP session
+          # HTTP session (browsery headers help with 406s)
           session = requests.Session()
           session.headers.update({
-              "User-Agent":"Mozilla/5.0 (freely_tv_guide)",
-              "Accept":"image/avif,image/webp,image/*,*/*;q=0.8",
-              "Referer":"https://www.freeviewplay.co.uk/",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36",
+              "Accept": "image/avif,image/webp,image/*,*/*;q=0.8",
+              "Accept-Language": "en-GB,en;q=0.9",
+              "Referer": "https://www.freeviewplay.co.uk/tv-guide",
           })
           TCON = float(os.getenv('IMG_TIMEOUT_CONNECT','4'))
           TREAD = float(os.getenv('IMG_TIMEOUT_READ','8'))
@@ -180,12 +196,14 @@ jobs:
 
           _dl_cache = {}
           def ensure_local(kind, url):
+              """Return Path or None. Saves only valid image responses."""
               if not isinstance(url,str) or not url.startswith('http'):
                   return None
               if url in _dl_cache:
                   return _dl_cache[url]
               h = hashlib.sha1(url.encode()).hexdigest()
               dest_dir = img_chan if kind == 'channel' else img_prog
+              # reuse if already present
               for ext in ('.jpg','.jpeg','.png','.webp','.svg'):
                   f = dest_dir/(h+ext)
                   if f.exists():
@@ -207,43 +225,58 @@ jobs:
               except Exception:
                   return None
 
-          HOURS_AHEAD = int(os.getenv('IMG_HOURS_AHEAD','18'))
-          MAX_PER_CH  = int(os.getenv('IMG_MAX_PER_CHANNEL','10'))
+          HOURS_AHEAD = int(os.getenv('IMG_HOURS_AHEAD','36'))
+          MAX_PER_CH  = int(os.getenv('IMG_MAX_PER_CHANNEL','20'))
           now = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
           ahead = now + datetime.timedelta(hours=HOURS_AHEAD)
 
           def find_prog_url(ev):
               raw = ev.get('_raw') or {}
+              # strong keys first
               for key in ('uuid','program_id'):
                   val = raw.get(key)
-                  if val and ('uuid',val) in prog_url_map: return prog_url_map[('uuid',val)]
-                  if val and ('pid',val)  in prog_url_map: return prog_url_map[('pid',val)]
-              st = raw.get('start_time') or ev.get('startTime')
-              nm = ev.get('name') or raw.get('main_title') or raw.get('title')
-              if st and nm and ('t', f"{st}|{nm}") in prog_url_map:
-                  return prog_url_map[('t', f"{st}|{nm}")]
+                  if val and ('uuid', val) in prog_url_map: return prog_url_map[('uuid', val)]
+                  if val and ('pid',  val) in prog_url_map: return prog_url_map[('pid',  val)]
+              # fallback: time + title variants
+              st = raw.get('start_time') or ev.get('startTime') or raw.get('time')
+              cand = []
+              if ev.get('name'): cand.append(ev['name'])
+              mt  = raw.get('main_title') or raw.get('title') or raw.get('name')
+              sub = raw.get('secondary_title') or ''
+              if mt: cand.append(mt)
+              if mt and sub: cand.append(f"{mt}: {sub}")
+              seen=set(); cand=[n for n in cand if not (n in seen or seen.add(n))]
+              if st:
+                  for nm in cand:
+                      key = ('t', f"{st}|{nm}")
+                      if key in prog_url_map:
+                          return prog_url_map[key]
               return None
 
           ref_prog = {'placeholder.svg'}
           ref_chan = {'placeholder.svg'}
 
           json_files = list(chan_dir.glob('*.json'))
+          total_matched = 0
+
           for p in json_files:
               data = json.loads(p.read_text('utf-8'))
               ch = data.get('channel') or {}
               logo = ch.get('logo')
 
-              # logo: only if remote URL
+              # logo: only mirror if remote (most of our JSON already points to local/placeholder)
               if isinstance(logo, str) and logo.startswith('http'):
                   lf = ensure_local('channel', logo)
                   ch['logo'] = ('img/channels/'+lf.name) if lf else 'img/channels/placeholder.svg'
-              else:
+              elif not isinstance(logo, str) or not logo.startswith('img/channels/'):
                   ch['logo'] = 'img/channels/placeholder.svg'
+
               if ch['logo'].startswith('img/channels/'):
                   ref_chan.add(pathlib.Path(ch['logo']).name)
 
               kept = 0
               for ev in data.get('events', []):
+                  # time filter
                   st = ev.get('startTime')
                   try:
                       st_dt = datetime.datetime.fromisoformat(str(st).replace('Z','+00:00').replace('+0000','+00:00')) if st else None
@@ -255,6 +288,7 @@ jobs:
                   if MAX_PER_CH and kept >= MAX_PER_CH:
                       ev['image'] = 'img/programmes/placeholder.svg'
                       continue
+
                   u = find_prog_url(ev)
                   if u:
                       pf = ensure_local('programme', u)
@@ -262,10 +296,12 @@ jobs:
                           ev['image'] = 'img/programmes/'+pf.name
                           ref_prog.add(pf.name)
                           kept += 1
+                          total_matched += 1
                           continue
                   ev['image'] = 'img/programmes/placeholder.svg'
 
               p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
+              print(f"{p.name}: matched {kept} images", file=sys.stderr)
 
           # prune unreferenced files (keep placeholders)
           for f in img_prog.glob('*'):
@@ -277,7 +313,7 @@ jobs:
                   try: f.unlink()
                   except: pass
 
-          print(f"channels={len(json_files)}  raw_urls={len(prog_url_map)}  kept_prog_files={len(ref_prog)-1}", file=sys.stderr)
+          print(f"channels={len(json_files)}  raw_urls={len(prog_url_map)}  matched_total={total_matched}", file=sys.stderr)
           PY
 
       - name: Migrate legacy images to subfolders & fix JSON refs
