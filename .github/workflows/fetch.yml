@@ -24,6 +24,7 @@ jobs:
       contents: write
       pages: write
       id-token: write
+
     steps:
       - uses: actions/checkout@v4
 
@@ -35,7 +36,6 @@ jobs:
           cache-dependency-path: |
             requirements.txt
 
-
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
@@ -46,10 +46,10 @@ jobs:
         shell: bash
         run: |
           if [[ -z "${{ github.event.inputs.start }}" || "${{ github.event.inputs.start }}" == "auto" ]]; then
-            UKDATE=$(TZ=Europe/London date +%Y-%m-%d)              # e.g. 2025-10-04
-            START=$(date -u -d "$UKDATE 00:00:00" +%s)             # 00:00:00 UTC of that calendar date
+            UKDATE=$(TZ=Europe/London date +%Y-%m-%d)          # e.g. 2025-10-04
+            START=$(date -u -d "$UKDATE 00:00:00" +%s)         # 00:00:00 UTC of that calendar date
           else
-            START='${{ github.event.inputs.start }}'
+            START="${{ github.event.inputs.start }}"
           fi
           echo "start=$START" >> "$GITHUB_OUTPUT"
           echo "nid=${{ github.event.inputs.nid || '64865' }}" >> "$GITHUB_OUTPUT"
@@ -78,14 +78,14 @@ jobs:
           python - <<'PY'
           import json, hashlib, pathlib, requests, concurrent.futures, os, datetime, sys
           from urllib.parse import urlparse
-      
+
           base = pathlib.Path('docs')
           chan_dir = base/'channels'
           img_prog = base/'img'/'programmes'
           img_chan = base/'img'/'channels'
           img_prog.mkdir(parents=True, exist_ok=True)
           img_chan.mkdir(parents=True, exist_ok=True)
-      
+
           # placeholders
           def ensure_placeholder(p: pathlib.Path, text: str, w=540, h=360):
               if not p.exists():
@@ -98,7 +98,7 @@ jobs:
                   )
           ensure_placeholder(img_prog/'placeholder.svg', 'No image', 540, 360)
           ensure_placeholder(img_chan/'placeholder.svg', 'No logo', 256, 256)
-      
+
           # session
           session = requests.Session()
           session.headers.update({
@@ -108,7 +108,7 @@ jobs:
           })
           TCON = float(os.getenv('IMG_TIMEOUT_CONNECT','4'))
           TREAD = float(os.getenv('IMG_TIMEOUT_READ','8'))
-      
+
           def guess_ext(url, content_type=None):
             if content_type:
               ct = content_type.lower()
@@ -119,17 +119,17 @@ jobs:
             for e in ('.jpg','.jpeg','.png','.webp'):
               if p.endswith(e): return e
             return '.jpg'
-      
+
           HOURS_AHEAD = int(os.getenv('IMG_HOURS_AHEAD','18'))
           MAX_PER_CH   = int(os.getenv('IMG_MAX_PER_CHANNEL','10'))
           now = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
           ahead = now + datetime.timedelta(hours=HOURS_AHEAD)
-      
+
           # collect work
           jobs_prog = []         # programme image URL list
           jobs_chan = []         # (channel id, logo url)
           per_channel_count = {} # limit per channel
-      
+
           json_files = list(chan_dir.glob('*.json'))
           for p in json_files:
             data = json.loads(p.read_text('utf-8'))
@@ -138,7 +138,7 @@ jobs:
             logo = ch.get('logo')
             if logo:
               jobs_chan.append((cid, logo))
-      
+
             cnt = 0
             for ev in data.get('events', []):
               st = ev.get('startTime')
@@ -159,7 +159,7 @@ jobs:
                   cnt += 1
                   break
             per_channel_count[cid] = cnt
-      
+
           # download logic (skip network if file already exists)
           def ensure_local(kind, url):
             if not url:
@@ -180,10 +180,10 @@ jobs:
               return f
             except Exception:
               return None
-      
+
           # parallel downloads
           workers = int(os.getenv('IMG_WORKERS','16'))
-      
+
           # channels
           chan_map = {}  # cid/url -> rel path
           with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
@@ -192,7 +192,7 @@ jobs:
               cid, u = futs[fut]
               f = fut.result()
               chan_map[(cid,u)] = ('img/channels/'+f.name) if f else 'img/channels/placeholder.svg'
-      
+
           # programmes (dedup urls)
           prog_urls = sorted(set([u for u in jobs_prog if u]))
           prog_map = {}
@@ -202,7 +202,7 @@ jobs:
               u = futs[fut]
               f = fut.result()
               prog_map[u] = ('img/programmes/'+f.name) if f else 'img/programmes/placeholder.svg'
-      
+
           # rewrite JSON + collect referenced files
           ref_prog = set(['placeholder.svg'])
           ref_chan = set(['placeholder.svg'])
@@ -218,7 +218,7 @@ jobs:
             for ev in data.get('events', []):
               raw = ev.get('_raw') or {}
               for u in (ev.get('image'), raw.get('image_url'), raw.get('fallback_image_url')):
-                if not u: 
+                if not u:
                   continue
                 rel = prog_map.get(u)
                 if rel:
@@ -230,7 +230,7 @@ jobs:
                 ev['image'] = 'img/programmes/placeholder.svg'
             p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
             changed_files += 1
-      
+
           # clean orphans
           for f in img_prog.glob('*'):
             if f.name not in ref_prog and f.name != 'placeholder.svg':
@@ -240,10 +240,57 @@ jobs:
             if f.name not in ref_chan and f.name != 'placeholder.svg':
               try: f.unlink()
               except: pass
-      
+
           print(f"Channels processed: {len(json_files)}; programme images queued: {len(prog_urls)}; per-channel cap: {MAX_PER_CH}", file=sys.stderr)
           PY
 
+      - name: Migrate legacy images to subfolders & fix JSON refs
+        run: |
+          python - <<'PY'
+          import pathlib, json, shutil
+
+          root = pathlib.Path('docs')
+          img = root/'img'
+          prog = img/'programmes'
+          chan = img/'channels'
+          prog.mkdir(parents=True, exist_ok=True)
+          chan.mkdir(parents=True, exist_ok=True)
+
+          # 1) Move legacy image files from docs/img/* -> docs/img/programmes/*
+          moved = 0
+          for f in img.glob('*'):
+            if f.is_file() and f.suffix.lower() in ('.jpg','.jpeg','.png','.webp','.svg'):
+              if f.name not in ('placeholder.svg','index.html'):
+                dest = prog/f.name
+                if not dest.exists():
+                  shutil.move(str(f), str(dest))
+                  moved += 1
+
+          # 2) Rewrite JSON image paths: img/<name> -> img/programmes/<name>
+          fixed = 0
+          ch_dir = root/'channels'
+          for p in ch_dir.glob('*.json'):
+            data = json.loads(p.read_text('utf-8'))
+            # events
+            for ev in data.get('events', []):
+              imgp = ev.get('image') or ''
+              if isinstance(imgp, str) and imgp.startswith('img/') and not imgp.startswith('img/programmes/') and not imgp.startswith('img/channels/'):
+                ev['image'] = 'img/programmes/' + imgp.split('/',1)[1]
+                fixed += 1
+            # channel logo (if any) -> channels/
+            ch = data.get('channel') or {}
+            logo = ch.get('logo')
+            if isinstance(logo, str) and logo.startswith('img/') and not logo.startswith('img/channels/'):
+              src = root/logo
+              dest = chan/src.name
+              if src.exists() and not dest.exists():
+                shutil.move(str(src), str(dest))
+              ch['logo'] = 'img/channels/' + src.name
+              fixed += 1
+            p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
+
+          print(f"migrated_files={moved} fixed_json_refs={fixed}")
+          PY
 
       - name: Update README channel list
         run: |
@@ -255,7 +302,7 @@ jobs:
           for c in idx.get('channels', []):
               rows.append(f"| {c['id']} | {c['name']} | [{c['path']}]({base}{c['path']}) |")
           table = '\n'.join(rows)
-      
+
           readme_path = pathlib.Path('README.md')
           readme = readme_path.read_text('utf-8')
           start, end = '<!-- CHANNELS_START -->', '<!-- CHANNELS_END -->'
@@ -267,15 +314,14 @@ jobs:
           readme_path.write_text(readme, 'utf-8')
           PY
 
-          
       - name: Add index pages for image folders (and disable Jekyll)
         run: |
           python - <<'PY'
           import pathlib, html
-      
+
           root = pathlib.Path('docs')
           (root/'.nojekyll').write_text('', encoding='utf-8')  # ensure static serving
-      
+
           def write_index(dirpath: pathlib.Path, title: str):
             dirpath.mkdir(parents=True, exist_ok=True)
             files = sorted(p.name for p in dirpath.glob('*') if p.is_file())
@@ -295,26 +341,25 @@ jobs:
             <div class="grid">{thumbs}</div>
             """
             (dirpath/'index.html').write_text(html_doc, encoding='utf-8')
-      
+
           write_index(root/'img'/'programmes', 'Programme images')
           write_index(root/'img'/'channels',   'Channel logos')
           PY
-
 
       - name: Build stats page
         run: |
           python - <<'PY'
           import json, pathlib, datetime
-      
+
           base = pathlib.Path('docs')
           (base/'.nojekyll').write_text('', encoding='utf-8')  # ensure static serving
-      
+
           chan_dir = base/'channels'
           img_prog = base/'img'/'programmes'
           img_chan = base/'img'/'channels'
           stats_dir = base/'stats'
           stats_dir.mkdir(parents=True, exist_ok=True)
-      
+
           # channels from index.json if present (falls back to file count)
           idx_path = base/'index.json'
           if idx_path.exists():
@@ -326,15 +371,15 @@ jobs:
               channels = sorted(p.name for p in chan_dir.glob('*.json'))
               channel_count = len(channels)
               start = None
-      
+
           # count images (ignore placeholders)
           def count_images(p):
               if not p.exists(): return 0
               return sum(1 for f in p.glob('*') if f.is_file() and f.name != 'placeholder.svg')
-      
+
           prog_images = count_images(img_prog)
           chan_images = count_images(img_chan)
-      
+
           stats = {
             "channels": channel_count,
             "programme_images": prog_images,
@@ -343,7 +388,7 @@ jobs:
             "generated_utc": datetime.datetime.utcnow().isoformat(timespec='seconds') + 'Z'
           }
           (stats_dir/'stats.json').write_text(json.dumps(stats, indent=2), 'utf-8')
-      
+
           # simple HTML
           html = f"""<!doctype html>
           <meta charset="utf-8">
@@ -378,12 +423,11 @@ jobs:
           (stats_dir/'index.html').write_text(html, 'utf-8')
           PY
 
-
       - name: Commit outputs
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add -A 
+          git add -A
           if git diff --cached --quiet; then
             echo "No changes"
           else
