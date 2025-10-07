@@ -67,39 +67,87 @@ jobs:
             --start "${{ steps.when.outputs.start }}" \
             --out docs
 
-      - name: Mirror images (fast cached) & rewrite JSON
+      - name: Mirror images from raw payload & rewrite JSON (robust)
         env:
-          IMG_WORKERS: "16"          # parallel downloads
-          IMG_HOURS_AHEAD: "18"      # only mirror programmes starting within next N hours
-          IMG_MAX_PER_CHANNEL: "10"  # cap images per channel per run
+          IMG_WORKERS: "16"
+          IMG_HOURS_AHEAD: "18"
+          IMG_MAX_PER_CHANNEL: "10"
           IMG_TIMEOUT_CONNECT: "4"
           IMG_TIMEOUT_READ: "8"
         run: |
           python - <<'PY'
           import json, hashlib, pathlib, requests, concurrent.futures, os, datetime, sys
           from urllib.parse import urlparse
-
+      
           base = pathlib.Path('docs')
           chan_dir = base/'channels'
+          raw_dir  = base/'raw'
           img_prog = base/'img'/'programmes'
           img_chan = base/'img'/'channels'
           img_prog.mkdir(parents=True, exist_ok=True)
           img_chan.mkdir(parents=True, exist_ok=True)
-
-          # placeholders
-          def ensure_placeholder(p: pathlib.Path, text: str, w=540, h=360):
-              if not p.exists():
-                  p.write_text(
-                    f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}">'
-                    f'<rect width="100%" height="100%" fill="#e5e7eb"/>'
-                    f'<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" '
-                    f'font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#6b7280">{text}</text>'
-                    f'</svg>', 'utf-8'
-                  )
-          ensure_placeholder(img_prog/'placeholder.svg', 'No image', 540, 360)
-          ensure_placeholder(img_chan/'placeholder.svg', 'No logo', 256, 256)
-
-          # session
+      
+          # placeholders (always exist)
+          for p, txt, wh in [
+            (img_prog/'placeholder.svg', 'No image', (540,360)),
+            (img_chan/'placeholder.svg', 'No logo',  (256,256)),
+          ]:
+            if not p.exists():
+              w,h = wh
+              p.write_text(
+                f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}">'
+                f'<rect width="100%" height="100%" fill="#e5e7eb"/>'
+                f'<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" '
+                f'font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#6b7280">{txt}</text>'
+                f'</svg>', 'utf-8'
+              )
+      
+          # pick the most recent raw guide (this run)
+          raw_files = sorted(raw_dir.glob('guide_*.json'), key=lambda p: p.stat().st_mtime, reverse=True)
+          raw_payload = {}
+          if raw_files:
+            try:
+              raw_payload = json.loads(raw_files[0].read_text('utf-8'))
+            except Exception:
+              pass
+      
+          # extract programme image URLs from the raw payload
+          def walk_events(obj):
+            if isinstance(obj, dict):
+              for k,v in obj.items():
+                if k in ('events','event','schedule','programs','programmes'):
+                  if isinstance(v, list):
+                    for ev in v:
+                      if isinstance(ev, dict):
+                        yield ev
+                else:
+                  yield from walk_events(v)
+            elif isinstance(obj, list):
+              for it in obj:
+                yield from walk_events(it)
+      
+          prog_url_map = {}   # keys like ('uuid',val) or ('pid',val) or ('t', start|name) -> URL
+          def first_url(ev):
+            for key in ('image_url','imageUrl','image','poster','thumbnail','fallback_image_url'):
+              val = ev.get(key)
+              if isinstance(val,str) and val.startswith('http'):
+                return val
+            return None
+      
+          for ev in walk_events(raw_payload):
+            url = first_url(ev)
+            if not url: 
+              continue
+            if ev.get('uuid'):
+              prog_url_map[('uuid', ev['uuid'])] = url
+            if ev.get('program_id'):
+              prog_url_map[('pid', ev['program_id'])] = url
+            st = ev.get('start_time') or ev.get('startTime') or ev.get('time')
+            nm = ev.get('name') or ev.get('title') or ev.get('main_title')
+            if st and nm:
+              prog_url_map[('t', f"{st}|{nm}")] = url
+      
+          # session for downloads
           session = requests.Session()
           session.headers.update({
             "User-Agent":"Mozilla/5.0 (freely_tv_guide)",
@@ -108,141 +156,113 @@ jobs:
           })
           TCON = float(os.getenv('IMG_TIMEOUT_CONNECT','4'))
           TREAD = float(os.getenv('IMG_TIMEOUT_READ','8'))
-
-          def guess_ext(url, content_type=None):
+      
+          def guess_ext_from_headers(url, content_type=None):
             if content_type:
               ct = content_type.lower()
               if 'jpeg' in ct or 'jpg' in ct: return '.jpg'
-              if 'png' in ct: return '.png'
+              if 'png'  in ct: return '.png'
               if 'webp' in ct: return '.webp'
-            p = urlparse(url).path.lower()
-            for e in ('.jpg','.jpeg','.png','.webp'):
-              if p.endswith(e): return e
+              if 'svg'  in ct: return '.svg'
+            path = urlparse(url).path.lower()
+            for e in ('.jpg','.jpeg','.png','.webp','.svg'):
+              if path.endswith(e): return e
             return '.jpg'
-
+      
+          def ensure_local(kind, url):
+            """Return Path or None. Only write if it's a valid image response."""
+            if not isinstance(url,str) or not url.startswith('http'):
+              return None
+            h = hashlib.sha1(url.encode()).hexdigest()
+            dest_dir = img_chan if kind == 'channel' else img_prog
+            # reuse if already present (any known ext)
+            for ext in ('.jpg','.jpeg','.png','.webp','.svg'):
+              f = dest_dir/(h+ext)
+              if f.exists():
+                return f
+            try:
+              r = session.get(url, timeout=(TCON, TREAD), allow_redirects=True)
+              r.raise_for_status()
+              ct = r.headers.get('content-type','').lower()
+              if 'image' not in ct and not urlparse(url).path.lower().endswith(('.jpg','.jpeg','.png','.webp','.svg')):
+                return None
+              if len(r.content) < 1024 and 'svg' not in ct:
+                return None
+              ext = guess_ext_from_headers(url, ct)
+              f = dest_dir/(h+ext)
+              f.write_bytes(r.content)
+              return f
+            except Exception:
+              return None
+      
           HOURS_AHEAD = int(os.getenv('IMG_HOURS_AHEAD','18'))
           MAX_PER_CH   = int(os.getenv('IMG_MAX_PER_CHANNEL','10'))
           now = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
           ahead = now + datetime.timedelta(hours=HOURS_AHEAD)
-
-          # collect work
-          jobs_prog = []         # programme image URL list
-          jobs_chan = []         # (channel id, logo url)
-          per_channel_count = {} # limit per channel
-
+      
+          # gather jobs and rewrite JSON
           json_files = list(chan_dir.glob('*.json'))
+          ref_prog = set(['placeholder.svg'])
+          ref_chan = set(['placeholder.svg'])
+      
+          def find_prog_url(ev):
+            raw = ev.get('_raw') or {}
+            for tag,keyname in (('uuid','uuid'),('pid','program_id')):
+              val = raw.get(keyname)
+              if val and ('uuid',val) in prog_url_map:
+                return prog_url_map[('uuid',val)]
+              if val and ('pid',val) in prog_url_map:
+                return prog_url_map[('pid',val)]
+            st = raw.get('start_time') or ev.get('startTime')
+            nm = ev.get('name') or raw.get('main_title') or raw.get('title')
+            if st and nm and ('t', f"{st}|{nm}") in prog_url_map:
+              return prog_url_map[('t', f"{st}|{nm}")]
+            return None
+      
           for p in json_files:
             data = json.loads(p.read_text('utf-8'))
-            ch = data.get('channel') or {}
-            cid = ch.get('id')
+            ch   = data.get('channel') or {}
+            cid  = ch.get('id')
+      
+            # channel logo: download only if JSON has a remote URL (we don’t anymore, so usually skip)
             logo = ch.get('logo')
-            if logo:
-              jobs_chan.append((cid, logo))
-
-            cnt = 0
+            if isinstance(logo, str) and logo.startswith('http'):
+              lf = ensure_local('channel', logo)
+              ch['logo'] = ('img/channels/'+lf.name) if lf else 'img/channels/placeholder.svg'
+            if isinstance(ch.get('logo'), str) and ch['logo'].startswith('img/channels/'):
+              ref_chan.add(pathlib.Path(ch['logo']).name)
+            else:
+              ch['logo'] = 'img/channels/placeholder.svg'
+      
+            # events
+            kept = 0
             for ev in data.get('events', []):
+              # time filter
               st = ev.get('startTime')
               try:
                 st_dt = datetime.datetime.fromisoformat(str(st).replace('Z','+00:00').replace('+0000','+00:00')) if st else None
               except Exception:
                 st_dt = None
               if st_dt and st_dt > ahead:
-                continue
-              if MAX_PER_CH and cnt >= MAX_PER_CH:
-                continue
-              raw = ev.get('_raw') or {}
-              cands = [ev.get('image'), raw.get('image_url'), raw.get('fallback_image_url')]
-              # first non-empty candidate
-              for u in cands:
-                if u:
-                  jobs_prog.append(u)
-                  cnt += 1
-                  break
-            per_channel_count[cid] = cnt
-
-          # download logic (skip network if file already exists)
-          def ensure_local(kind, url):
-            if not url:
-              return None
-            h = hashlib.sha1(url.encode()).hexdigest()
-            dest_dir = img_chan if kind == 'channel' else img_prog
-            # try existing files (any known ext)
-            for ext in ('.jpg','.jpeg','.png','.webp'):
-              f = dest_dir/(h+ext)
-              if f.exists():
-                return f
-            try:
-              r = session.get(url, timeout=(TCON, TREAD))
-              r.raise_for_status()
-              ext = guess_ext(url, r.headers.get('content-type','image/jpeg'))
-              f = dest_dir/(h+ext)
-              f.write_bytes(r.content)
-              return f
-            except Exception:
-              return None
-
-          # parallel downloads
-          workers = int(os.getenv('IMG_WORKERS','16'))
-
-          # channels
-          chan_map = {}  # cid/url -> rel path
-          with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
-            futs = {ex.submit(ensure_local, 'channel', u): (cid, u) for cid,u in jobs_chan}
-            for fut in concurrent.futures.as_completed(futs):
-              cid, u = futs[fut]
-              f = fut.result()
-              chan_map[(cid,u)] = ('img/channels/'+f.name) if f else 'img/channels/placeholder.svg'
-
-          # programmes (dedup urls)
-          prog_urls = sorted(set([u for u in jobs_prog if u]))
-          prog_map = {}
-          with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
-            futs = {ex.submit(ensure_local, 'programme', u): u for u in prog_urls}
-            for fut in concurrent.futures.as_completed(futs):
-              u = futs[fut]
-              f = fut.result()
-              prog_map[u] = ('img/programmes/'+f.name) if f else 'img/programmes/placeholder.svg'
-
-          # rewrite JSON + collect referenced files
-          ref_prog = set(['placeholder.svg'])
-          ref_chan = set(['placeholder.svg'])
-          changed_files = 0
-          for p in json_files:
-            data = json.loads(p.read_text('utf-8'))
-            ch = data.get('channel') or {}
-            logo = ch.get('logo')
-            if logo:
-              ch['logo'] = chan_map.get((ch.get('id'), logo), 'img/channels/placeholder.svg')
-              if ch['logo'].startswith('img/channels/'):
-                ref_chan.add(pathlib.Path(ch['logo']).name)
-            for ev in data.get('events', []):
-              raw = ev.get('_raw') or {}
-              for u in (ev.get('image'), raw.get('image_url'), raw.get('fallback_image_url')):
-                if not u:
-                  continue
-                rel = prog_map.get(u)
-                if rel:
-                  ev['image'] = rel
-                  if rel.startswith('img/programmes/'):
-                    ref_prog.add(pathlib.Path(rel).name)
-                  break
-              else:
                 ev['image'] = 'img/programmes/placeholder.svg'
-            p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
-            changed_files += 1
-
-          # clean orphans
-          for f in img_prog.glob('*'):
-            if f.name not in ref_prog and f.name != 'placeholder.svg':
-              try: f.unlink()
-              except: pass
-          for f in img_chan.glob('*'):
-            if f.name not in ref_chan and f.name != 'placeholder.svg':
-              try: f.unlink()
-              except: pass
-
-          print(f"Channels processed: {len(json_files)}; programme images queued: {len(prog_urls)}; per-channel cap: {MAX_PER_CH}", file=sys.stderr)
-          PY
+                continue
+      
+              if MAX_PER_CH and kept >= MAX_PER_CH:
+                ev['image'] = 'img/programmes/placeholder.svg'
+                continue
+      
+              u = find_prog_url(ev)
+              if u:
+                pf = ensure_local('programme', u)
+                if pf:
+                  ev['image'] = 'img/programmes/'+pf.name
+                  ref_prog.add(pf.name)
+                  kept += 1
+                  continue
+      
+              ev['image'] = 'img/programmes/placeholder.svg'
+      
+            p.write_text(json.dumps(data, ensure_as
 
       - name: Migrate legacy images to subfolders & fix JSON refs
         run: |
