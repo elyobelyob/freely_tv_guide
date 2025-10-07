@@ -76,16 +76,15 @@ def _pick(d: Dict[str, Any], keys: List[str], default=None):
 
 def normalise_event(ev: Dict[str, Any]) -> Dict[str, Any]:
     start = _pick(ev, ["startTime", "start", "start_time", "start_timestamp", "time", "begin"])
-    dur = _pick(ev, ["duration", "durationMinutes", "duration_minutes", "dur", "length", "runtime"])
-    title = _pick(ev, ["name", "title", "main_title", "programme", "program", "programmeTitle", "show"])
-    sub = _pick(ev, ["secondary_title", "subtitle", "episode_title"])
-    if sub:
-        title = f"{title}: {sub}" if title else sub
+    dur   = _pick(ev, ["duration", "durationMinutes", "duration_minutes", "dur", "length", "runtime"])
+
+    main = _pick(ev, ["name", "title", "main_title", "programme", "program", "programmeTitle", "show"]) or ""
+    sub  = _pick(ev, ["secondary_title", "subtitle", "episode_title"]) or ""
     desc = _pick(ev, ["description", "synopsis", "shortSynopsis", "longSynopsis", "summary"]) or ""
 
     image = _pick(ev, ["image", "imageUrl", "image_url", "imageURL", "poster", "thumbnail", "fallback_image_url"]) or ""
 
-    # seconds→minutes heuristic
+    # duration normalisation
     if isinstance(dur, (int, float)) and dur > 600:
         dur = round(dur / 60)
     if isinstance(dur, str) and dur.startswith("PT"):
@@ -97,20 +96,21 @@ def normalise_event(ev: Dict[str, Any]) -> Dict[str, Any]:
     if dur is None and isinstance(start, (int, float)) and isinstance(end, (int, float)):
         dur = int(round((end - start) / 60))
 
-    # do NOT scrub remote URLs out of _raw; we need image_url for mirroring
+    # keep _raw intact (we need image_url/fallback_image_url in the mirror step)
     raw = dict(ev)
 
-    # If the chosen image is remote, leave event.image blank so CI fills with local/placeholder.
+    # leave event.image blank if remote; CI will fill with local or placeholder
     if isinstance(image, str) and image.strip().lower().startswith(("http://", "https://")):
         image = ""
 
     return {
         "startTime": start,
         "duration": dur,
-        "name": title or "",
+        "name": main,          # main title only
+        "subtitle": sub,       # secondary kept separate
         "description": desc,
-        "image": image,   # CI will set to img/programmes/<file> or placeholder
-        "_raw": raw,      # includes image_url / fallback_image_url
+        "image": image,
+        "_raw": raw,
     }
 
 
