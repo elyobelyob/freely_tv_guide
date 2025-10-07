@@ -17,13 +17,15 @@ on:
   schedule:
     - cron: "5 4 * * *"   # runs daily at 04:05 UTC
 
+concurrency:
+  group: freely_guide
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pages: write
-      id-token: write
 
     steps:
       - uses: actions/checkout@v4
@@ -67,7 +69,20 @@ jobs:
             --start "${{ steps.when.outputs.start }}" \
             --out docs
 
+      - name: Sanity check (non-empty guide)
+        id: sanity
+        run: |
+          python - <<'PY'
+          import json, pathlib, os
+          idx = json.loads(pathlib.Path('docs/index.json').read_text('utf-8'))
+          n = len(idx.get('channels', []))
+          print(f"channels={n}")
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"has_channels={'true' if n>0 else 'false'}\n")
+          PY
+
       - name: Mirror images from raw payload & rewrite JSON (robust)
+        if: steps.sanity.outputs.has_channels == 'true'
         env:
           IMG_WORKERS: "16"
           IMG_HOURS_AHEAD: "18"
@@ -76,9 +91,9 @@ jobs:
           IMG_TIMEOUT_READ: "8"
         run: |
           python - <<'PY'
-          import json, hashlib, pathlib, requests, concurrent.futures, os, datetime, sys
+          import json, hashlib, pathlib, requests, os, datetime, sys
           from urllib.parse import urlparse
-      
+
           base = pathlib.Path('docs')
           chan_dir = base/'channels'
           raw_dir  = base/'raw'
@@ -86,185 +101,187 @@ jobs:
           img_chan = base/'img'/'channels'
           img_prog.mkdir(parents=True, exist_ok=True)
           img_chan.mkdir(parents=True, exist_ok=True)
-      
-          # placeholders (always exist)
-          for p, txt, wh in [
-            (img_prog/'placeholder.svg', 'No image', (540,360)),
-            (img_chan/'placeholder.svg', 'No logo',  (256,256)),
-          ]:
-            if not p.exists():
-              w,h = wh
-              p.write_text(
+
+          def svg(path, text, w, h):
+              path.write_text(
                 f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}">'
                 f'<rect width="100%" height="100%" fill="#e5e7eb"/>'
                 f'<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" '
-                f'font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#6b7280">{txt}</text>'
+                f'font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#6b7280">{text}</text>'
                 f'</svg>', 'utf-8'
               )
-      
-          # pick the most recent raw guide (this run)
+          if not (img_prog/'placeholder.svg').exists(): svg(img_prog/'placeholder.svg', 'No image', 540, 360)
+          if not (img_chan/'placeholder.svg').exists(): svg(img_chan/'placeholder.svg', 'No logo',  256, 256)
+
+          # load most recent raw payload
           raw_files = sorted(raw_dir.glob('guide_*.json'), key=lambda p: p.stat().st_mtime, reverse=True)
           raw_payload = {}
           if raw_files:
-            try:
-              raw_payload = json.loads(raw_files[0].read_text('utf-8'))
-            except Exception:
-              pass
-      
-          # extract programme image URLs from the raw payload
+              try:
+                  raw_payload = json.loads(raw_files[0].read_text('utf-8'))
+              except Exception:
+                  pass
+
+          # walk events to map identifiers -> URL
           def walk_events(obj):
-            if isinstance(obj, dict):
-              for k,v in obj.items():
-                if k in ('events','event','schedule','programs','programmes'):
-                  if isinstance(v, list):
-                    for ev in v:
-                      if isinstance(ev, dict):
-                        yield ev
-                else:
-                  yield from walk_events(v)
-            elif isinstance(obj, list):
-              for it in obj:
-                yield from walk_events(it)
-      
-          prog_url_map = {}   # keys like ('uuid',val) or ('pid',val) or ('t', start|name) -> URL
+              if isinstance(obj, dict):
+                  for k,v in obj.items():
+                      if k in ('events','event','schedule','programs','programmes') and isinstance(v, list):
+                          for ev in v:
+                              if isinstance(ev, dict):
+                                  yield ev
+                      else:
+                          yield from walk_events(v)
+              elif isinstance(obj, list):
+                  for it in obj:
+                      yield from walk_events(it)
+
           def first_url(ev):
-            for key in ('image_url','imageUrl','image','poster','thumbnail','fallback_image_url'):
-              val = ev.get(key)
-              if isinstance(val,str) and val.startswith('http'):
-                return val
-            return None
-      
+              for key in ('image_url','imageUrl','image','poster','thumbnail','fallback_image_url'):
+                  val = ev.get(key)
+                  if isinstance(val, str) and val.startswith('http'):
+                      return val
+              return None
+
+          prog_url_map = {}
           for ev in walk_events(raw_payload):
-            url = first_url(ev)
-            if not url: 
-              continue
-            if ev.get('uuid'):
-              prog_url_map[('uuid', ev['uuid'])] = url
-            if ev.get('program_id'):
-              prog_url_map[('pid', ev['program_id'])] = url
-            st = ev.get('start_time') or ev.get('startTime') or ev.get('time')
-            nm = ev.get('name') or ev.get('title') or ev.get('main_title')
-            if st and nm:
-              prog_url_map[('t', f"{st}|{nm}")] = url
-      
-          # session for downloads
+              url = first_url(ev)
+              if not url: continue
+              if ev.get('uuid'):
+                  prog_url_map[('uuid', ev['uuid'])] = url
+              if ev.get('program_id'):
+                  prog_url_map[('pid', ev['program_id'])] = url
+              st = ev.get('start_time') or ev.get('startTime') or ev.get('time')
+              nm = ev.get('name') or ev.get('title') or ev.get('main_title')
+              if st and nm:
+                  prog_url_map[('t', f"{st}|{nm}")] = url
+
+          # HTTP session
           session = requests.Session()
           session.headers.update({
-            "User-Agent":"Mozilla/5.0 (freely_tv_guide)",
-            "Accept":"image/avif,image/webp,image/*,*/*;q=0.8",
-            "Referer":"https://www.freeviewplay.co.uk/",
+              "User-Agent":"Mozilla/5.0 (freely_tv_guide)",
+              "Accept":"image/avif,image/webp,image/*,*/*;q=0.8",
+              "Referer":"https://www.freeviewplay.co.uk/",
           })
           TCON = float(os.getenv('IMG_TIMEOUT_CONNECT','4'))
           TREAD = float(os.getenv('IMG_TIMEOUT_READ','8'))
-      
-          def guess_ext_from_headers(url, content_type=None):
-            if content_type:
-              ct = content_type.lower()
-              if 'jpeg' in ct or 'jpg' in ct: return '.jpg'
-              if 'png'  in ct: return '.png'
-              if 'webp' in ct: return '.webp'
-              if 'svg'  in ct: return '.svg'
-            path = urlparse(url).path.lower()
-            for e in ('.jpg','.jpeg','.png','.webp','.svg'):
-              if path.endswith(e): return e
-            return '.jpg'
-      
+
+          def guess_ext(url, content_type=None):
+              if content_type:
+                  ct = content_type.lower()
+                  if 'jpeg' in ct or 'jpg' in ct: return '.jpg'
+                  if 'png'  in ct: return '.png'
+                  if 'webp' in ct: return '.webp'
+                  if 'svg'  in ct: return '.svg'
+              p = urlparse(url).path.lower()
+              for e in ('.jpg','.jpeg','.png','.webp','.svg'):
+                  if p.endswith(e): return e
+              return '.jpg'
+
+          _dl_cache = {}
           def ensure_local(kind, url):
-            """Return Path or None. Only write if it's a valid image response."""
-            if not isinstance(url,str) or not url.startswith('http'):
-              return None
-            h = hashlib.sha1(url.encode()).hexdigest()
-            dest_dir = img_chan if kind == 'channel' else img_prog
-            # reuse if already present (any known ext)
-            for ext in ('.jpg','.jpeg','.png','.webp','.svg'):
-              f = dest_dir/(h+ext)
-              if f.exists():
-                return f
-            try:
-              r = session.get(url, timeout=(TCON, TREAD), allow_redirects=True)
-              r.raise_for_status()
-              ct = r.headers.get('content-type','').lower()
-              if 'image' not in ct and not urlparse(url).path.lower().endswith(('.jpg','.jpeg','.png','.webp','.svg')):
-                return None
-              if len(r.content) < 1024 and 'svg' not in ct:
-                return None
-              ext = guess_ext_from_headers(url, ct)
-              f = dest_dir/(h+ext)
-              f.write_bytes(r.content)
-              return f
-            except Exception:
-              return None
-      
+              if not isinstance(url,str) or not url.startswith('http'):
+                  return None
+              if url in _dl_cache:
+                  return _dl_cache[url]
+              h = hashlib.sha1(url.encode()).hexdigest()
+              dest_dir = img_chan if kind == 'channel' else img_prog
+              for ext in ('.jpg','.jpeg','.png','.webp','.svg'):
+                  f = dest_dir/(h+ext)
+                  if f.exists():
+                      _dl_cache[url] = f
+                      return f
+              try:
+                  r = session.get(url, timeout=(TCON, TREAD), allow_redirects=True)
+                  r.raise_for_status()
+                  ct = r.headers.get('content-type','').lower()
+                  if 'image' not in ct and not urlparse(url).path.lower().endswith(('.jpg','.jpeg','.png','.webp','.svg')):
+                      return None
+                  if len(r.content) < 1024 and 'svg' not in ct:
+                      return None
+                  ext = guess_ext(url, ct)
+                  f = dest_dir/(h+ext)
+                  f.write_bytes(r.content)
+                  _dl_cache[url] = f
+                  return f
+              except Exception:
+                  return None
+
           HOURS_AHEAD = int(os.getenv('IMG_HOURS_AHEAD','18'))
-          MAX_PER_CH   = int(os.getenv('IMG_MAX_PER_CHANNEL','10'))
+          MAX_PER_CH  = int(os.getenv('IMG_MAX_PER_CHANNEL','10'))
           now = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
           ahead = now + datetime.timedelta(hours=HOURS_AHEAD)
-      
-          # gather jobs and rewrite JSON
-          json_files = list(chan_dir.glob('*.json'))
-          ref_prog = set(['placeholder.svg'])
-          ref_chan = set(['placeholder.svg'])
-      
+
           def find_prog_url(ev):
-            raw = ev.get('_raw') or {}
-            for tag,keyname in (('uuid','uuid'),('pid','program_id')):
-              val = raw.get(keyname)
-              if val and ('uuid',val) in prog_url_map:
-                return prog_url_map[('uuid',val)]
-              if val and ('pid',val) in prog_url_map:
-                return prog_url_map[('pid',val)]
-            st = raw.get('start_time') or ev.get('startTime')
-            nm = ev.get('name') or raw.get('main_title') or raw.get('title')
-            if st and nm and ('t', f"{st}|{nm}") in prog_url_map:
-              return prog_url_map[('t', f"{st}|{nm}")]
-            return None
-      
+              raw = ev.get('_raw') or {}
+              for key in ('uuid','program_id'):
+                  val = raw.get(key)
+                  if val and ('uuid',val) in prog_url_map: return prog_url_map[('uuid',val)]
+                  if val and ('pid',val)  in prog_url_map: return prog_url_map[('pid',val)]
+              st = raw.get('start_time') or ev.get('startTime')
+              nm = ev.get('name') or raw.get('main_title') or raw.get('title')
+              if st and nm and ('t', f"{st}|{nm}") in prog_url_map:
+                  return prog_url_map[('t', f"{st}|{nm}")]
+              return None
+
+          ref_prog = {'placeholder.svg'}
+          ref_chan = {'placeholder.svg'}
+
+          json_files = list(chan_dir.glob('*.json'))
           for p in json_files:
-            data = json.loads(p.read_text('utf-8'))
-            ch   = data.get('channel') or {}
-            cid  = ch.get('id')
-      
-            # channel logo: download only if JSON has a remote URL (we don’t anymore, so usually skip)
-            logo = ch.get('logo')
-            if isinstance(logo, str) and logo.startswith('http'):
-              lf = ensure_local('channel', logo)
-              ch['logo'] = ('img/channels/'+lf.name) if lf else 'img/channels/placeholder.svg'
-            if isinstance(ch.get('logo'), str) and ch['logo'].startswith('img/channels/'):
-              ref_chan.add(pathlib.Path(ch['logo']).name)
-            else:
-              ch['logo'] = 'img/channels/placeholder.svg'
-      
-            # events
-            kept = 0
-            for ev in data.get('events', []):
-              # time filter
-              st = ev.get('startTime')
-              try:
-                st_dt = datetime.datetime.fromisoformat(str(st).replace('Z','+00:00').replace('+0000','+00:00')) if st else None
-              except Exception:
-                st_dt = None
-              if st_dt and st_dt > ahead:
-                ev['image'] = 'img/programmes/placeholder.svg'
-                continue
-      
-              if MAX_PER_CH and kept >= MAX_PER_CH:
-                ev['image'] = 'img/programmes/placeholder.svg'
-                continue
-      
-              u = find_prog_url(ev)
-              if u:
-                pf = ensure_local('programme', u)
-                if pf:
-                  ev['image'] = 'img/programmes/'+pf.name
-                  ref_prog.add(pf.name)
-                  kept += 1
-                  continue
-      
-              ev['image'] = 'img/programmes/placeholder.svg'
-      
-            p.write_text(json.dumps(data, ensure_as
+              data = json.loads(p.read_text('utf-8'))
+              ch = data.get('channel') or {}
+              logo = ch.get('logo')
+
+              # logo: only if remote URL
+              if isinstance(logo, str) and logo.startswith('http'):
+                  lf = ensure_local('channel', logo)
+                  ch['logo'] = ('img/channels/'+lf.name) if lf else 'img/channels/placeholder.svg'
+              else:
+                  ch['logo'] = 'img/channels/placeholder.svg'
+              if ch['logo'].startswith('img/channels/'):
+                  ref_chan.add(pathlib.Path(ch['logo']).name)
+
+              kept = 0
+              for ev in data.get('events', []):
+                  st = ev.get('startTime')
+                  try:
+                      st_dt = datetime.datetime.fromisoformat(str(st).replace('Z','+00:00').replace('+0000','+00:00')) if st else None
+                  except Exception:
+                      st_dt = None
+                  if st_dt and st_dt > ahead:
+                      ev['image'] = 'img/programmes/placeholder.svg'
+                      continue
+                  if MAX_PER_CH and kept >= MAX_PER_CH:
+                      ev['image'] = 'img/programmes/placeholder.svg'
+                      continue
+                  u = find_prog_url(ev)
+                  if u:
+                      pf = ensure_local('programme', u)
+                      if pf:
+                          ev['image'] = 'img/programmes/'+pf.name
+                          ref_prog.add(pf.name)
+                          kept += 1
+                          continue
+                  ev['image'] = 'img/programmes/placeholder.svg'
+
+              p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
+
+          # prune unreferenced files (keep placeholders)
+          for f in img_prog.glob('*'):
+              if f.name not in ref_prog and f.name != 'placeholder.svg':
+                  try: f.unlink()
+                  except: pass
+          for f in img_chan.glob('*'):
+              if f.name not in ref_chan and f.name != 'placeholder.svg':
+                  try: f.unlink()
+                  except: pass
+
+          print(f"channels={len(json_files)}  raw_urls={len(prog_url_map)}  kept_prog_files={len(ref_prog)-1}", file=sys.stderr)
+          PY
 
       - name: Migrate legacy images to subfolders & fix JSON refs
+        if: steps.sanity.outputs.has_channels == 'true'
         run: |
           python - <<'PY'
           import pathlib, json, shutil
@@ -276,7 +293,6 @@ jobs:
           prog.mkdir(parents=True, exist_ok=True)
           chan.mkdir(parents=True, exist_ok=True)
 
-          # 1) Move legacy image files from docs/img/* -> docs/img/programmes/*
           moved = 0
           for f in img.glob('*'):
             if f.is_file() and f.suffix.lower() in ('.jpg','.jpeg','.png','.webp','.svg'):
@@ -286,18 +302,15 @@ jobs:
                   shutil.move(str(f), str(dest))
                   moved += 1
 
-          # 2) Rewrite JSON image paths: img/<name> -> img/programmes/<name>
           fixed = 0
           ch_dir = root/'channels'
           for p in ch_dir.glob('*.json'):
             data = json.loads(p.read_text('utf-8'))
-            # events
             for ev in data.get('events', []):
               imgp = ev.get('image') or ''
               if isinstance(imgp, str) and imgp.startswith('img/') and not imgp.startswith('img/programmes/') and not imgp.startswith('img/channels/'):
                 ev['image'] = 'img/programmes/' + imgp.split('/',1)[1]
                 fixed += 1
-            # channel logo (if any) -> channels/
             ch = data.get('channel') or {}
             logo = ch.get('logo')
             if isinstance(logo, str) and logo.startswith('img/') and not logo.startswith('img/channels/'):
@@ -312,35 +325,14 @@ jobs:
           print(f"migrated_files={moved} fixed_json_refs={fixed}")
           PY
 
-      - name: Update README channel list
-        run: |
-          python - <<'PY'
-          import json, pathlib, re
-          idx = json.loads(pathlib.Path('docs/index.json').read_text('utf-8'))
-          base = 'https://elyobelyob.github.io/freely_tv_guide/'
-          rows = ['| ID | Name | JSON |','|---:|---|---|']
-          for c in idx.get('channels', []):
-              rows.append(f"| {c['id']} | {c['name']} | [{c['path']}]({base}{c['path']}) |")
-          table = '\n'.join(rows)
-
-          readme_path = pathlib.Path('README.md')
-          readme = readme_path.read_text('utf-8')
-          start, end = '<!-- CHANNELS_START -->', '<!-- CHANNELS_END -->'
-          pattern = re.compile(rf"{start}[\s\S]*?{end}", re.MULTILINE)
-          if start in readme and end in readme:
-            readme = pattern.sub(f"{start}\n{table}\n{end}", readme)
-          else:
-            readme += f"\n\n## Channel list\n{start}\n{table}\n{end}\n"
-          readme_path.write_text(readme, 'utf-8')
-          PY
-
       - name: Add index pages for image folders (and disable Jekyll)
+        if: steps.sanity.outputs.has_channels == 'true'
         run: |
           python - <<'PY'
           import pathlib, html
 
           root = pathlib.Path('docs')
-          (root/'.nojekyll').write_text('', encoding='utf-8')  # ensure static serving
+          (root/'.nojekyll').write_text('', encoding='utf-8')
 
           def write_index(dirpath: pathlib.Path, title: str):
             dirpath.mkdir(parents=True, exist_ok=True)
@@ -367,12 +359,13 @@ jobs:
           PY
 
       - name: Build stats page
+        if: steps.sanity.outputs.has_channels == 'true'
         run: |
           python - <<'PY'
           import json, pathlib, datetime
 
           base = pathlib.Path('docs')
-          (base/'.nojekyll').write_text('', encoding='utf-8')  # ensure static serving
+          (base/'.nojekyll').write_text('', encoding='utf-8')
 
           chan_dir = base/'channels'
           img_prog = base/'img'/'programmes'
@@ -380,7 +373,6 @@ jobs:
           stats_dir = base/'stats'
           stats_dir.mkdir(parents=True, exist_ok=True)
 
-          # channels from index.json if present (falls back to file count)
           idx_path = base/'index.json'
           if idx_path.exists():
               idx = json.loads(idx_path.read_text('utf-8'))
@@ -392,7 +384,6 @@ jobs:
               channel_count = len(channels)
               start = None
 
-          # count images (ignore placeholders)
           def count_images(p):
               if not p.exists(): return 0
               return sum(1 for f in p.glob('*') if f.is_file() and f.name != 'placeholder.svg')
@@ -409,7 +400,6 @@ jobs:
           }
           (stats_dir/'stats.json').write_text(json.dumps(stats, indent=2), 'utf-8')
 
-          # simple HTML
           html = f"""<!doctype html>
           <meta charset="utf-8">
           <title>Freely TV Guide — Stats</title>
@@ -442,6 +432,35 @@ jobs:
           """
           (stats_dir/'index.html').write_text(html, 'utf-8')
           PY
+
+      - name: Update README channel list
+        if: steps.sanity.outputs.has_channels == 'true'
+        run: |
+          python - <<'PY'
+          import json, pathlib, re
+          idx = json.loads(pathlib.Path('docs/index.json').read_text('utf-8'))
+          base = 'https://elyobelyob.github.io/freely_tv_guide/'
+          rows = ['| ID | Name | JSON |','|---:|---|---|']
+          for c in sorted(idx.get('channels', []), key=lambda x: (x.get('name',''), x.get('id',''))):
+              rows.append(f"| {c['id']} | {c['name']} | [{c['path']}]({base}{c['path']}) |")
+          table = '\n'.join(rows)
+
+          p = pathlib.Path('README.md')
+          txt = p.read_text('utf-8')
+          start, end = '<!-- CHANNELS_START -->', '<!-- CHANNELS_END -->'
+          pat = re.compile(rf"{start}[\s\S]*?{end}", re.MULTILINE)
+          if start in txt and end in txt:
+            txt = pat.sub(f"{start}\n{table}\n{end}", txt)
+          else:
+            txt += f"\n\n## Channel list\n{start}\n{table}\n{end}\n"
+          p.write_text(txt, 'utf-8')
+          PY
+
+      - name: Prune old raw payloads (keep 4)
+        if: steps.sanity.outputs.has_channels == 'true'
+        run: |
+          ls -1t docs/raw/guide_*.json 2>/dev/null | tail -n +5 | xargs -r rm -f
+          ls -1t docs/raw/*_ERROR.txt  2>/dev/null | tail -n +3 | xargs -r rm -f
 
       - name: Commit outputs
         run: |
