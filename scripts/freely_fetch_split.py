@@ -74,50 +74,43 @@ def _pick(d: Dict[str, Any], keys: List[str], default=None):
     return default
 
 
-def normalise_event(ev: Dict[str, Any]) -> Event:
-    # pick fields with the desired precedence:
-    # name := main_title (fallbacks to name/title/etc)
-    name_primary = _pick(ev, ["main_title", "name", "title", "programme", "program", "programmeTitle", "show"])
-
-    # description := secondary_title (fallback to synopsis/description fields)
-    desc_secondary = _pick(ev, ["secondary_title", "subtitle", "episode_title"])
-    desc_fallback  = _pick(ev, ["description", "synopsis", "shortSynopsis", "longSynopsis", "summary"]) or ""
-
+def normalise_event(ev: Dict[str, Any]) -> Dict[str, Any]:
     start = _pick(ev, ["startTime", "start", "start_time", "start_timestamp", "time", "begin"])
-    dur   = _pick(ev, ["duration", "durationMinutes", "duration_minutes", "dur", "length", "runtime"])
+    dur = _pick(ev, ["duration", "durationMinutes", "duration_minutes", "dur", "length", "runtime"])
+    title = _pick(ev, ["name", "title", "main_title", "programme", "program", "programmeTitle", "show"])
+    sub = _pick(ev, ["secondary_title", "subtitle", "episode_title"])
+    if sub:
+        title = f"{title}: {sub}" if title else sub
+    desc = _pick(ev, ["description", "synopsis", "shortSynopsis", "longSynopsis", "summary"]) or ""
 
-    # Prefer any image-like fields, but scrub remote URLs (we fill local/placeholder later)
     image = _pick(ev, ["image", "imageUrl", "image_url", "imageURL", "poster", "thumbnail", "fallback_image_url"]) or ""
 
-    # ---- duration normalisation ----
-    if isinstance(dur, (int, float)) and dur > 600:  # seconds -> minutes heuristic
+    # seconds→minutes heuristic
+    if isinstance(dur, (int, float)) and dur > 600:
         dur = round(dur / 60)
-    if isinstance(dur, str) and dur.startswith("PT"):  # ISO8601 e.g. PT1H15M
+    if isinstance(dur, str) and dur.startswith("PT"):
         m = _iso_to_minutes(dur)
         if m is not None:
             dur = m
 
-    # derive from numeric start/end if duration missing
     end = _pick(ev, ["endTime", "end", "end_time", "stop", "finish"])
     if dur is None and isinstance(start, (int, float)) and isinstance(end, (int, float)):
         dur = int(round((end - start) / 60))
 
-    # ---- enforce local-only image later ----
-    if isinstance(image, str) and image.strip().lower().startswith(("http://", "https://")):
-        image = ""  # will become img/programmes/<hash>.* or placeholder in the CI step
-
-    # scrub remote image fields from _raw
+    # do NOT scrub remote URLs out of _raw; we need image_url for mirroring
     raw = dict(ev)
-    for k in ("image", "image_url", "imageUrl", "imageURL", "fallback_image_url"):
-        raw.pop(k, None)
+
+    # If the chosen image is remote, leave event.image blank so CI fills with local/placeholder.
+    if isinstance(image, str) and image.strip().lower().startswith(("http://", "https://")):
+        image = ""
 
     return {
         "startTime": start,
         "duration": dur,
-        "name": (name_primary or "")[:500],                 # guard against weirdly long titles
-        "description": (desc_secondary or desc_fallback)[:2000],
-        "image": image,
-        "_raw": raw,
+        "name": title or "",
+        "description": desc,
+        "image": image,   # CI will set to img/programmes/<file> or placeholder
+        "_raw": raw,      # includes image_url / fallback_image_url
     }
 
 
