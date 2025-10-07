@@ -79,8 +79,10 @@ def normalise_event(ev: Dict[str, Any]) -> Dict[str, Any]:
     dur   = _pick(ev, ["duration", "durationMinutes", "duration_minutes", "dur", "length", "runtime"])
 
     main = _pick(ev, ["name", "title", "main_title", "programme", "program", "programmeTitle", "show"]) or ""
-    sub  = _pick(ev, ["secondary_title", "subtitle", "episode_title"]) or ""
-    desc = _pick(ev, ["description", "synopsis", "shortSynopsis", "longSynopsis", "summary"]) or ""
+    # secondary title (what your card calls "description")
+    secondary = _pick(ev, ["secondary_title", "subtitle", "episode_title"]) or ""
+    # actual synopsis/blurbs (we'll keep this in a separate field)
+    synopsis = _pick(ev, ["description", "synopsis", "shortSynopsis", "longSynopsis", "summary"]) or ""
 
     image = _pick(ev, ["image", "imageUrl", "image_url", "imageURL", "poster", "thumbnail", "fallback_image_url"]) or ""
 
@@ -96,19 +98,22 @@ def normalise_event(ev: Dict[str, Any]) -> Dict[str, Any]:
     if dur is None and isinstance(start, (int, float)) and isinstance(end, (int, float)):
         dur = int(round((end - start) / 60))
 
-    # keep _raw intact (we need image_url/fallback_image_url in the mirror step)
+    # keep _raw intact (need image_url/fallback_image_url for mirroring)
     raw = dict(ev)
 
-    # leave event.image blank if remote; CI will fill with local or placeholder
+    # leave event.image blank if remote; CI will fill local/placeholder
     if isinstance(image, str) and image.strip().lower().startswith(("http://", "https://")):
         image = ""
+
+    # IMPORTANT: map secondary title into "description" for your frontend
+    description_for_card = secondary or synopsis
 
     return {
         "startTime": start,
         "duration": dur,
-        "name": main,          # main title only
-        "subtitle": sub,       # secondary kept separate
-        "description": desc,
+        "name": main,                  # main title
+        "description": description_for_card,  # what your card prints
+        "synopsis": synopsis,          # full blurb preserved here
         "image": image,
         "_raw": raw,
     }
