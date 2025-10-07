@@ -81,97 +81,37 @@ jobs:
               f.write(f"has_channels={'true' if n>0 else 'false'}\n")
           PY
 
-      - name: Mirror images from raw payload & rewrite JSON (robust)
-        if: steps.sanity.outputs.has_channels == 'true'
+      - name: Mirror programme images directly from channel JSON (_raw.image_url) & rewrite JSON
         env:
-          IMG_WORKERS: "16"
-          IMG_HOURS_AHEAD: "36"   # broaden for better coverage
-          IMG_MAX_PER_CHANNEL: "20"
-          IMG_TIMEOUT_CONNECT: "4"
-          IMG_TIMEOUT_READ: "8"
+          IMG_TIMEOUT_CONNECT: "5"
+          IMG_TIMEOUT_READ: "10"
+          IMG_HOURS_AHEAD: "36"      # only mirror shows starting within N hours
+          IMG_MAX_PER_CHANNEL: "20"  # cap per channel per run
         run: |
           python - <<'PY'
-          import json, hashlib, pathlib, requests, os, datetime, sys
+          import json, pathlib, hashlib, requests, os, sys, datetime
           from urllib.parse import urlparse
 
-          base = pathlib.Path('docs')
-          chan_dir = base/'channels'
-          raw_dir  = base/'raw'
-          img_prog = base/'img'/'programmes'
-          img_chan = base/'img'/'channels'
+          base      = pathlib.Path('docs')
+          chan_dir  = base/'channels'
+          img_prog  = base/'img'/'programmes'
+          img_chan  = base/'img'/'channels'
           img_prog.mkdir(parents=True, exist_ok=True)
           img_chan.mkdir(parents=True, exist_ok=True)
 
-          # placeholders
+          # Ensure placeholders exist
           def svg(path, text, w, h):
               path.write_text(
-                f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}">'
-                f'<rect width="100%" height="100%" fill="#e5e7eb"/>'
-                f'<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" '
-                f'font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#6b7280">{text}</text>'
-                f'</svg>', 'utf-8'
+                  f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}">'
+                  f'<rect width="100%" height="100%" fill="#e5e7eb"/>'
+                  f'<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" '
+                  f'font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#6b7280">{text}</text>'
+                  f'</svg>', 'utf-8'
               )
           if not (img_prog/'placeholder.svg').exists(): svg(img_prog/'placeholder.svg', 'No image', 540, 360)
-          if not (img_chan/'placeholder.svg').exists(): svg(img_chan/'placeholder.svg', 'No logo',  256, 256)
+          if not (img_chan/'placeholder.svg').exists(): svg(img_chan/'placeholder.svg', 'No logo', 256, 256)
 
-          # load most recent raw payload
-          raw_files = sorted(raw_dir.glob('guide_*.json'), key=lambda p: p.stat().st_mtime, reverse=True)
-          raw_payload = {}
-          if raw_files:
-              try:
-                  raw_payload = json.loads(raw_files[0].read_text('utf-8'))
-              except Exception:
-                  pass
-
-          # walk events in the raw payload
-          def walk_events(obj):
-              if isinstance(obj, dict):
-                  for k,v in obj.items():
-                      if k in ('events','event','schedule','programs','programmes') and isinstance(v, list):
-                          for ev in v:
-                              if isinstance(ev, dict):
-                                  yield ev
-                      else:
-                          yield from walk_events(v)
-              elif isinstance(obj, list):
-                  for it in obj:
-                      yield from walk_events(it)
-
-          def first_url(ev):
-              for key in ('image_url','imageUrl','image','poster','thumbnail','fallback_image_url'):
-                  val = ev.get(key)
-                  if isinstance(val, str) and val.startswith('http'):
-                      return val
-              return None
-
-          # produce multiple key variants per event for robust matching
-          def keys_for_event(ev):
-              st  = ev.get('start_time') or ev.get('startTime') or ev.get('time')
-              mt  = ev.get('main_title') or ev.get('title') or ev.get('name')
-              sub = ev.get('secondary_title') or ''
-              names = []
-              if ev.get('name'): names.append(ev['name'])
-              if mt:             names.append(mt)
-              if mt and sub:     names.append(f"{mt}: {sub}")  # combined form used in channel JSON
-              # de-dup
-              seen=set(); names=[n for n in names if not (n in seen or seen.add(n))]
-              return st, names
-
-          prog_url_map = {}
-          for ev in walk_events(raw_payload):
-              url = first_url(ev)
-              if not url:
-                  continue
-              if ev.get('uuid'):
-                  prog_url_map[('uuid', ev['uuid'])] = url
-              if ev.get('program_id'):
-                  prog_url_map[('pid', ev['program_id'])] = url
-              st, names = keys_for_event(ev)
-              if st:
-                  for nm in names:
-                      prog_url_map[('t', f"{st}|{nm}")] = url
-
-          # HTTP session (browsery headers help with 406s)
+          # HTTP session (headers help against 406)
           session = requests.Session()
           session.headers.update({
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36",
@@ -179,8 +119,8 @@ jobs:
               "Accept-Language": "en-GB,en;q=0.9",
               "Referer": "https://www.freeviewplay.co.uk/tv-guide",
           })
-          TCON = float(os.getenv('IMG_TIMEOUT_CONNECT','4'))
-          TREAD = float(os.getenv('IMG_TIMEOUT_READ','8'))
+          TCON  = float(os.getenv('IMG_TIMEOUT_CONNECT','5'))
+          TREAD = float(os.getenv('IMG_TIMEOUT_READ','10'))
 
           def guess_ext(url, content_type=None):
               if content_type:
@@ -194,21 +134,15 @@ jobs:
                   if p.endswith(e): return e
               return '.jpg'
 
-          _dl_cache = {}
-          def ensure_local(kind, url):
-              """Return Path or None. Saves only valid image responses."""
-              if not isinstance(url,str) or not url.startswith('http'):
+          def download_programme(url: str):
+              """Download URL to img/programmes/<sha1>.<ext>, return relative path or None."""
+              if not isinstance(url, str) or not url.startswith('http'):
                   return None
-              if url in _dl_cache:
-                  return _dl_cache[url]
               h = hashlib.sha1(url.encode()).hexdigest()
-              dest_dir = img_chan if kind == 'channel' else img_prog
               # reuse if already present
               for ext in ('.jpg','.jpeg','.png','.webp','.svg'):
-                  f = dest_dir/(h+ext)
-                  if f.exists():
-                      _dl_cache[url] = f
-                      return f
+                  f = img_prog/(h+ext)
+                  if f.exists(): return 'img/programmes/'+f.name
               try:
                   r = session.get(url, timeout=(TCON, TREAD), allow_redirects=True)
                   r.raise_for_status()
@@ -218,61 +152,30 @@ jobs:
                   if len(r.content) < 1024 and 'svg' not in ct:
                       return None
                   ext = guess_ext(url, ct)
-                  f = dest_dir/(h+ext)
+                  f = img_prog/(h+ext)
                   f.write_bytes(r.content)
-                  _dl_cache[url] = f
-                  return f
+                  return 'img/programmes/'+f.name
               except Exception:
                   return None
 
           HOURS_AHEAD = int(os.getenv('IMG_HOURS_AHEAD','36'))
           MAX_PER_CH  = int(os.getenv('IMG_MAX_PER_CHANNEL','20'))
-          now = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
+          now   = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
           ahead = now + datetime.timedelta(hours=HOURS_AHEAD)
 
-          def find_prog_url(ev):
-              raw = ev.get('_raw') or {}
-              # strong keys first
-              for key in ('uuid','program_id'):
-                  val = raw.get(key)
-                  if val and ('uuid', val) in prog_url_map: return prog_url_map[('uuid', val)]
-                  if val and ('pid',  val) in prog_url_map: return prog_url_map[('pid',  val)]
-              # fallback: time + title variants
-              st = raw.get('start_time') or ev.get('startTime') or raw.get('time')
-              cand = []
-              if ev.get('name'): cand.append(ev['name'])
-              mt  = raw.get('main_title') or raw.get('title') or raw.get('name')
-              sub = raw.get('secondary_title') or ''
-              if mt: cand.append(mt)
-              if mt and sub: cand.append(f"{mt}: {sub}")
-              seen=set(); cand=[n for n in cand if not (n in seen or seen.add(n))]
-              if st:
-                  for nm in cand:
-                      key = ('t', f"{st}|{nm}")
-                      if key in prog_url_map:
-                          return prog_url_map[key]
-              return None
+          # keep track of referenced files to prune orphans
+          referenced = {'img/programmes/placeholder.svg', 'img/channels/placeholder.svg'}
 
-          ref_prog = {'placeholder.svg'}
-          ref_chan = {'placeholder.svg'}
-
-          json_files = list(chan_dir.glob('*.json'))
+          chan_files = sorted(chan_dir.glob('*.json'))
           total_matched = 0
-
-          for p in json_files:
+          for p in chan_files:
               data = json.loads(p.read_text('utf-8'))
               ch = data.get('channel') or {}
+              # normalise logo to a local placeholder if not already local
               logo = ch.get('logo')
-
-              # logo: only mirror if remote (most of our JSON already points to local/placeholder)
-              if isinstance(logo, str) and logo.startswith('http'):
-                  lf = ensure_local('channel', logo)
-                  ch['logo'] = ('img/channels/'+lf.name) if lf else 'img/channels/placeholder.svg'
-              elif not isinstance(logo, str) or not logo.startswith('img/channels/'):
+              if not isinstance(logo, str) or not logo.startswith('img/channels/'):
                   ch['logo'] = 'img/channels/placeholder.svg'
-
-              if ch['logo'].startswith('img/channels/'):
-                  ref_chan.add(pathlib.Path(ch['logo']).name)
+              referenced.add(ch['logo'])
 
               kept = 0
               for ev in data.get('events', []):
@@ -284,37 +187,39 @@ jobs:
                       st_dt = None
                   if st_dt and st_dt > ahead:
                       ev['image'] = 'img/programmes/placeholder.svg'
+                      referenced.add(ev['image'])
                       continue
                   if MAX_PER_CH and kept >= MAX_PER_CH:
                       ev['image'] = 'img/programmes/placeholder.svg'
+                      referenced.add(ev['image'])
                       continue
 
-                  u = find_prog_url(ev)
-                  if u:
-                      pf = ensure_local('programme', u)
-                      if pf:
-                          ev['image'] = 'img/programmes/'+pf.name
-                          ref_prog.add(pf.name)
-                          kept += 1
-                          total_matched += 1
-                          continue
-                  ev['image'] = 'img/programmes/placeholder.svg'
+                  raw = ev.get('_raw') or {}
+                  url = raw.get('image_url') or raw.get('fallback_image_url') or ev.get('image')
+
+                  rel = download_programme(url) if url else None
+                  if rel:
+                      ev['image'] = rel
+                      referenced.add(rel)
+                      kept += 1
+                      total_matched += 1
+                  else:
+                      ev['image'] = 'img/programmes/placeholder.svg'
+                      referenced.add(ev['image'])
 
               p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
-              print(f"{p.name}: matched {kept} images", file=sys.stderr)
+              print(f"{p.name}: saved {kept} images", file=sys.stderr)
 
-          # prune unreferenced files (keep placeholders)
+          # prune unreferenced programme images (but keep placeholder)
           for f in img_prog.glob('*'):
-              if f.name not in ref_prog and f.name != 'placeholder.svg':
-                  try: f.unlink()
-                  except: pass
-          for f in img_chan.glob('*'):
-              if f.name not in ref_chan and f.name != 'placeholder.svg':
+              rel = 'img/programmes/'+f.name
+              if f.is_file() and rel not in referenced and f.name != 'placeholder.svg':
                   try: f.unlink()
                   except: pass
 
-          print(f"channels={len(json_files)}  raw_urls={len(prog_url_map)}  matched_total={total_matched}", file=sys.stderr)
+          print(f"channels={len(chan_files)}  matched_total={total_matched}", file=sys.stderr)
           PY
+
 
       - name: Migrate legacy images to subfolders & fix JSON refs
         if: steps.sanity.outputs.has_channels == 'true'
