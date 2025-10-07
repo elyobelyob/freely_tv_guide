@@ -81,25 +81,34 @@ jobs:
               f.write(f"has_channels={'true' if n>0 else 'false'}\n")
           PY
 
-      - name: Mirror programme images directly from channel JSON (_raw.image_url) & rewrite JSON
+      - name: Mirror programme images (DEBUG) using _raw.image_url → rewrite JSON
         env:
-          IMG_TIMEOUT_CONNECT: "5"
-          IMG_TIMEOUT_READ: "10"
-          IMG_HOURS_AHEAD: "36"      # only mirror shows starting within N hours
-          IMG_MAX_PER_CHANNEL: "20"  # cap per channel per run
+          IMG_TIMEOUT_CONNECT: "6"
+          IMG_TIMEOUT_READ: "12"
+          IMG_HOURS_AHEAD: "36"       # mirror shows starting within next N hours
+          IMG_MAX_PER_CHANNEL: "20"   # cap per channel per run
+          DEBUG_MAX_ATTEMPTS_PRINT: "60"   # how many individual downloads to log verbosely
         run: |
           python - <<'PY'
-          import json, pathlib, hashlib, requests, os, sys, datetime
+          import json, pathlib, hashlib, requests, os, sys, datetime, textwrap
           from urllib.parse import urlparse
 
           base      = pathlib.Path('docs')
           chan_dir  = base/'channels'
           img_prog  = base/'img'/'programmes'
           img_chan  = base/'img'/'channels'
+          stats_dir = base/'stats'
           img_prog.mkdir(parents=True, exist_ok=True)
           img_chan.mkdir(parents=True, exist_ok=True)
+          stats_dir.mkdir(parents=True, exist_ok=True)
 
-          # Ensure placeholders exist
+          # capture a copy of logs to publish
+          log_lines = []
+          def log(msg):
+              msg = str(msg)
+              print(msg)
+              log_lines.append(msg)
+
           def svg(path, text, w, h):
               path.write_text(
                   f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}">'
@@ -111,16 +120,17 @@ jobs:
           if not (img_prog/'placeholder.svg').exists(): svg(img_prog/'placeholder.svg', 'No image', 540, 360)
           if not (img_chan/'placeholder.svg').exists(): svg(img_chan/'placeholder.svg', 'No logo', 256, 256)
 
-          # HTTP session (headers help against 406)
+          # HTTP session (headers matter for 406)
           session = requests.Session()
           session.headers.update({
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36",
               "Accept": "image/avif,image/webp,image/*,*/*;q=0.8",
               "Accept-Language": "en-GB,en;q=0.9",
               "Referer": "https://www.freeviewplay.co.uk/tv-guide",
+              "Origin": "https://www.freeviewplay.co.uk",
           })
-          TCON  = float(os.getenv('IMG_TIMEOUT_CONNECT','5'))
-          TREAD = float(os.getenv('IMG_TIMEOUT_READ','10'))
+          TCON  = float(os.getenv('IMG_TIMEOUT_CONNECT','6'))
+          TREAD = float(os.getenv('IMG_TIMEOUT_READ','12'))
 
           def guess_ext(url, content_type=None):
               if content_type:
@@ -134,7 +144,24 @@ jobs:
                   if p.endswith(e): return e
               return '.jpg'
 
-          def download_programme(url: str):
+          # download with a couple of header permutations to dodge 406
+          def try_get(url, variant):
+              try:
+                  if variant == 0:
+                      r = session.get(url, timeout=(TCON, TREAD), allow_redirects=True)
+                  elif variant == 1:
+                      # alt referer/origin (freely)
+                      headers = {"Referer": "https://www.freely.co.uk/tv-guide", "Origin": "https://www.freely.co.uk"}
+                      r = session.get(url, headers=headers, timeout=(TCON, TREAD), allow_redirects=True)
+                  else:
+                      # minimal accept
+                      headers = {"Accept": "*/*"}
+                      r = session.get(url, headers=headers, timeout=(TCON, TREAD), allow_redirects=True)
+                  return r
+              except Exception as e:
+                  return e
+
+          def download_programme(url: str, verbose_ok: bool):
               """Download URL to img/programmes/<sha1>.<ext>, return relative path or None."""
               if not isinstance(url, str) or not url.startswith('http'):
                   return None
@@ -142,44 +169,69 @@ jobs:
               # reuse if already present
               for ext in ('.jpg','.jpeg','.png','.webp','.svg'):
                   f = img_prog/(h+ext)
-                  if f.exists(): return 'img/programmes/'+f.name
-              try:
-                  r = session.get(url, timeout=(TCON, TREAD), allow_redirects=True)
-                  r.raise_for_status()
+                  if f.exists():
+                      if verbose_ok: log(f"  cache hit -> {f.name}")
+                      return 'img/programmes/'+f.name
+
+              # try a few variants
+              for variant in (0, 1, 2):
+                  r = try_get(url, variant)
+                  if isinstance(r, Exception):
+                      if verbose_ok: log(f"  try {variant}: EXC {r}")
+                      continue
                   ct = r.headers.get('content-type','').lower()
+                  ln = r.headers.get('content-length','?')
+                  if verbose_ok: log(f"  try {variant}: status={r.status_code} ct='{ct}' len={ln}")
+                  if r.status_code == 406:
+                      continue
+                  if r.status_code >= 400:
+                      continue
                   if 'image' not in ct and not urlparse(url).path.lower().endswith(('.jpg','.jpeg','.png','.webp','.svg')):
-                      return None
+                      continue
                   if len(r.content) < 1024 and 'svg' not in ct:
-                      return None
+                      continue
                   ext = guess_ext(url, ct)
                   f = img_prog/(h+ext)
                   f.write_bytes(r.content)
                   return 'img/programmes/'+f.name
-              except Exception:
-                  return None
+              return None
 
           HOURS_AHEAD = int(os.getenv('IMG_HOURS_AHEAD','36'))
           MAX_PER_CH  = int(os.getenv('IMG_MAX_PER_CHANNEL','20'))
+          VERBOSE_CAP = int(os.getenv('DEBUG_MAX_ATTEMPTS_PRINT','60'))
+
           now   = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
           ahead = now + datetime.timedelta(hours=HOURS_AHEAD)
 
-          # keep track of referenced files to prune orphans
           referenced = {'img/programmes/placeholder.svg', 'img/channels/placeholder.svg'}
-
           chan_files = sorted(chan_dir.glob('*.json'))
           total_matched = 0
+          total_tried   = 0
+
+          log(f"Mirror DEBUG: channels={len(chan_files)} hours_ahead={HOURS_AHEAD} max_per_channel={MAX_PER_CH}")
           for p in chan_files:
               data = json.loads(p.read_text('utf-8'))
               ch = data.get('channel') or {}
-              # normalise logo to a local placeholder if not already local
+              cid = ch.get('id'); cname = ch.get('name', '')
+              kept = tried = with_url = 0
+
+              # ensure logo is a local placeholder if not already local
               logo = ch.get('logo')
               if not isinstance(logo, str) or not logo.startswith('img/channels/'):
                   ch['logo'] = 'img/channels/placeholder.svg'
               referenced.add(ch['logo'])
 
-              kept = 0
+              # quick scan to report how many events have URLs in _raw
               for ev in data.get('events', []):
-                  # time filter
+                  raw = ev.get('_raw') or {}
+                  if raw.get('image_url') or raw.get('fallback_image_url'):
+                      with_url += 1
+
+              # only print a header if we'll touch this channel
+              header_printed = False
+
+              for ev in data.get('events', []):
+                  # window filter
                   st = ev.get('startTime')
                   try:
                       st_dt = datetime.datetime.fromisoformat(str(st).replace('Z','+00:00').replace('+0000','+00:00')) if st else None
@@ -195,29 +247,52 @@ jobs:
                       continue
 
                   raw = ev.get('_raw') or {}
-                  url = raw.get('image_url') or raw.get('fallback_image_url') or ev.get('image')
+                  cand = [raw.get('image_url'), raw.get('fallback_image_url')]
+                  cand = [u for u in cand if isinstance(u,str) and u.startswith('http')]
 
-                  rel = download_programme(url) if url else None
+                  if total_tried < VERBOSE_CAP and not header_printed:
+                      log(f"\nChannel {cid} — {cname} | events={len(data.get('events',[]))} with_url={with_url}")
+                      header_printed = True
+
+                  url = cand[0] if cand else None
+                  if total_tried < VERBOSE_CAP:
+                      log(f"- {st}  {ev.get('name','')}")
+
+                  rel = download_programme(url, verbose_ok=(total_tried < VERBOSE_CAP))
+                  tried += 1
+                  total_tried += 1
+
                   if rel:
                       ev['image'] = rel
                       referenced.add(rel)
                       kept += 1
                       total_matched += 1
+                      if total_tried < VERBOSE_CAP:
+                          log(f"  -> saved {rel}")
                   else:
                       ev['image'] = 'img/programmes/placeholder.svg'
                       referenced.add(ev['image'])
+                      if total_tried < VERBOSE_CAP:
+                          if not url:
+                              log("  -> no URL in _raw (image_url/fallback_image_url missing)")
+                          else:
+                              log("  -> download failed; placeholder set")
 
               p.write_text(json.dumps(data, ensure_ascii=False, indent=2), 'utf-8')
-              print(f"{p.name}: saved {kept} images", file=sys.stderr)
+              if header_printed:
+                  log(f"Summary for {cid}: tried={tried} saved={kept} (events with URL in _raw={with_url})")
 
-          # prune unreferenced programme images (but keep placeholder)
+          # prune unreferenced images
           for f in img_prog.glob('*'):
               rel = 'img/programmes/'+f.name
               if f.is_file() and rel not in referenced and f.name != 'placeholder.svg':
                   try: f.unlink()
                   except: pass
 
-          print(f"channels={len(chan_files)}  matched_total={total_matched}", file=sys.stderr)
+          log(f"\nTOTAL: channels={len(chan_files)} attempts={total_tried} saved={total_matched}")
+
+          # publish a copy of the log to Pages
+          (stats_dir/'last_mirror_log.txt').write_text("\n".join(log_lines), 'utf-8')
           PY
 
 
