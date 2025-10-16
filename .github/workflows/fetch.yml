@@ -68,7 +68,7 @@ jobs:
             --nid "${{ steps.when.outputs.nid }}" \
             --start "${{ steps.when.outputs.start }}" \
             --out docs \
-            --days 1
+            --days 0
 
       - name: Sanity check (non-empty guide)
         id: sanity
