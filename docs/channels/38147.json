@@ -226,6 +226,16 @@
         "image_url": "https://img.freeviewplay.tv/pa85278d7d0a4e10e5120846f0926fc2f",
         "start_time": "2025-10-16T08:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-03-04T03:02:17+0000",
+          "end_of_availability": "2027-08-31T02:02:17+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5229260003.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/e9c76ad071e8f10b71a58f6f14a7f7e2a",
         "uuid": "81866069b1775502c813778bc425af88"
@@ -246,6 +256,16 @@
         "image_url": "https://img.freeviewplay.tv/pd92bb7d8f2417454ffe9b7504e991baa",
         "start_time": "2025-10-16T09:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-03-05T03:02:58+0000",
+          "end_of_availability": "2027-08-31T02:02:58+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5229260004.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/e9c76ad071e8f10b71a58f6f14a7f7e2a",
         "uuid": "91880d2281655ca0ec6fbb5adaedaf4b"
@@ -266,6 +286,16 @@
         "image_url": "https://img.freeviewplay.tv/p2f6098ea43d467ecaefb85cbea1f2cb1",
         "start_time": "2025-10-16T10:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-07-08T08:00:00+0000",
+          "end_of_availability": "2027-03-27T09:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5273720006.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/e6a5c3b826a41b5436e149e2616a1b748",
         "uuid": "b3c575b6cbecba31530add19a8c92b70"
@@ -461,36 +491,40 @@
       "startTime": "2025-10-16T22:00:00+0000",
       "duration": 60,
       "name": "Prisoner: Cell Block H",
-      "description": "",
+      "description": "Series 8: Episode 4",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/f6319aaf-07b2-4585-bdca-5e5993f9e05c",
+        "program_id": "crid://panorama.five.tv/versions/C5517960004B",
         "event_locator": "dvb://233a..9503;b4bb",
         "main_title": "Prisoner: Cell Block H",
+        "secondary_title": "Series 8: Episode 4",
+        "image_url": "https://img.freeviewplay.tv/p4a111c7ea457d1564954dc962216b907",
         "start_time": "2025-10-16T22:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/ec89701ec721892013d5a82fd6af21b54",
-        "uuid": "e25db02b076a1fe81f01dbfe885a83a2"
+        "uuid": "204a72eae98c89b275b6bdae6ac8a4a9"
       }
     },
     {
       "startTime": "2025-10-16T23:00:00+0000",
       "duration": 60,
       "name": "Prisoner: Cell Block H",
-      "description": "",
+      "description": "Series 8: Episode 5",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/9d8a477b-ef11-4b29-8577-0cd5c78659b1",
+        "program_id": "crid://panorama.five.tv/versions/C5517960005A",
         "event_locator": "dvb://233a..9503;b4bc",
         "main_title": "Prisoner: Cell Block H",
+        "secondary_title": "Series 8: Episode 5",
+        "image_url": "https://img.freeviewplay.tv/p169d3d211af152dd602f80347423ce73",
         "start_time": "2025-10-16T23:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/ec89701ec721892013d5a82fd6af21b54",
-        "uuid": "64b76f86407d303d9ebde2fed5679b73"
+        "uuid": "9d57cce6d6107da2126e091b7a82b8c2"
       }
     }
   ],
@@ -719,6 +753,16 @@
               "image_url": "https://img.freeviewplay.tv/pa85278d7d0a4e10e5120846f0926fc2f",
               "start_time": "2025-10-16T08:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-03-04T03:02:17+0000",
+                "end_of_availability": "2027-08-31T02:02:17+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5229260003.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/e9c76ad071e8f10b71a58f6f14a7f7e2a",
               "uuid": "81866069b1775502c813778bc425af88"
@@ -739,6 +783,16 @@
               "image_url": "https://img.freeviewplay.tv/pd92bb7d8f2417454ffe9b7504e991baa",
               "start_time": "2025-10-16T09:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-03-05T03:02:58+0000",
+                "end_of_availability": "2027-08-31T02:02:58+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5229260004.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/e9c76ad071e8f10b71a58f6f14a7f7e2a",
               "uuid": "91880d2281655ca0ec6fbb5adaedaf4b"
@@ -759,6 +813,16 @@
               "image_url": "https://img.freeviewplay.tv/p2f6098ea43d467ecaefb85cbea1f2cb1",
               "start_time": "2025-10-16T10:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-07-08T08:00:00+0000",
+                "end_of_availability": "2027-03-27T09:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5273720006.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/e6a5c3b826a41b5436e149e2616a1b748",
               "uuid": "b3c575b6cbecba31530add19a8c92b70"
@@ -954,36 +1018,40 @@
             "startTime": "2025-10-16T22:00:00+0000",
             "duration": 60,
             "name": "Prisoner: Cell Block H",
-            "description": "",
+            "description": "Series 8: Episode 4",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/f6319aaf-07b2-4585-bdca-5e5993f9e05c",
+              "program_id": "crid://panorama.five.tv/versions/C5517960004B",
               "event_locator": "dvb://233a..9503;b4bb",
               "main_title": "Prisoner: Cell Block H",
+              "secondary_title": "Series 8: Episode 4",
+              "image_url": "https://img.freeviewplay.tv/p4a111c7ea457d1564954dc962216b907",
               "start_time": "2025-10-16T22:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/ec89701ec721892013d5a82fd6af21b54",
-              "uuid": "e25db02b076a1fe81f01dbfe885a83a2"
+              "uuid": "204a72eae98c89b275b6bdae6ac8a4a9"
             }
           },
           {
             "startTime": "2025-10-16T23:00:00+0000",
             "duration": 60,
             "name": "Prisoner: Cell Block H",
-            "description": "",
+            "description": "Series 8: Episode 5",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/9d8a477b-ef11-4b29-8577-0cd5c78659b1",
+              "program_id": "crid://panorama.five.tv/versions/C5517960005A",
               "event_locator": "dvb://233a..9503;b4bc",
               "main_title": "Prisoner: Cell Block H",
+              "secondary_title": "Series 8: Episode 5",
+              "image_url": "https://img.freeviewplay.tv/p169d3d211af152dd602f80347423ce73",
               "start_time": "2025-10-16T23:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/ec89701ec721892013d5a82fd6af21b54",
-              "uuid": "64b76f86407d303d9ebde2fed5679b73"
+              "uuid": "9d57cce6d6107da2126e091b7a82b8c2"
             }
           }
         ]
