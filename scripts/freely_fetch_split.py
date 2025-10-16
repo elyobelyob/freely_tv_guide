@@ -272,6 +272,65 @@ def write_outputs(payload: Any, out_dir: Path, start: int) -> Dict[str, Any]:
 
     return index
 
+# --- new: write merged outputs when fetching multiple days ------------------
+def write_merged_outputs(channels_map: Dict[str, Dict[str, Any]], out_dir: Path, start: int) -> Dict[str, Any]:
+    ensure_dir(out_dir)
+    raw_dir = out_dir / "raw"
+    chan_dir = out_dir / "channels"
+    ensure_dir(raw_dir)
+    ensure_dir(chan_dir)
+
+    index = {"start": start, "channels": []}
+
+    for cid, info in sorted(channels_map.items(), key=lambda t: t[0]):
+        name = info.get("name", "Unknown")
+        logo_src = info.get("logo")
+        events = info.get("events", [])
+
+        # Normalise programme images to local placeholder if remote/empty
+        for e in events:
+            img = (e.get("image") or "").strip()
+            if isinstance(img, str) and img.startswith(("http://", "https://")):
+                e["image"] = PROG_PLACEHOLDER
+            if not e.get("image"):
+                e["image"] = PROG_PLACEHOLDER
+
+        # Sort events and remove simple duplicates (startTime + name)
+        events.sort(key=lambda ev: (ev.get("startTime") or 0, ev.get("name") or ""))
+        seen = set()
+        deduped = []
+        for ev in events:
+            key = (ev.get("startTime"), ev.get("name"))
+            if key in seen:
+                continue
+            seen.add(key)
+            deduped.append(ev)
+        events = deduped
+
+        channel_obj = {"id": cid, "name": name}
+        if logo_src:
+            channel_obj["logo"] = CHAN_PLACEHOLDER if str(logo_src).startswith(("http://", "https://")) else str(logo_src)
+
+        out_obj = {
+            "channel": channel_obj,
+            "events": events,
+            "compat": {"freesat_card": [{"event": events}]},
+        }
+
+        chan_path = chan_dir / f"{cid}.json"
+        with open(chan_path, "w", encoding="utf-8") as f:
+            json.dump(out_obj, f, ensure_ascii=False, indent=2)
+
+        entry = {"id": cid, "name": name, "path": f"channels/{cid}.json"}
+        if channel_obj.get("logo"):
+            entry["logo"] = channel_obj["logo"]
+        index["channels"].append(entry)
+
+    with open(out_dir / "index.json", "w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False, indent=2)
+
+    return index
+
 
 def main():
     ap = argparse.ArgumentParser(description="Fetch Freely guide and split into per-channel files")
@@ -283,28 +342,53 @@ def main():
                     help="Output folder (default: docs)")
     ap.add_argument("--dry-run", action="store_true",
                     help="Fetch but do not write outputs")
+    ap.add_argument("--days", type=int, default=0,
+                    help="Extra days after --start to include (0 = only start, 1 = add tomorrow, etc.)")
 
     args = ap.parse_args()
 
     if not args.start:
         ap.error("--start is required (UNIX timestamp, seconds)")
 
-    try:
-        payload = fetch_freely(args.nid, args.start)
-    except FreelyFetchError as e:
-        # Log, drop a marker, and exit 0 so later workflow steps can still run
-        msg = (f"[freely_fetch_split] {e}\n"
-               f"url={FREELY_API}?nid={args.nid}&start={args.start}\n")
-        print(msg, file=sys.stderr)
-        write_error_marker(Path(args.out), args.start, msg)
-        sys.exit(0)
+    # Build list of start timestamps to fetch
+    starts = [args.start + 86400 * i for i in range(0, args.days + 1)]
+
+    # Fetch and merge channels/events across requested days
+    channels_map: Dict[str, Dict[str, Any]] = {}
+
+    for s in starts:
+        try:
+            payload = fetch_freely(args.nid, s)
+        except FreelyFetchError as e:
+            msg = (f"[freely_fetch_split] {e}\n"
+                   f"url={FREELY_API}?nid={args.nid}&start={s}\n")
+            print(msg, file=sys.stderr)
+            write_error_marker(Path(args.out), s, msg)
+            sys.exit(0)
+
+        chs = extract_channels(payload)
+        for ch in chs:
+            cid, name = extract_channel_id_name(ch)
+            logo = extract_channel_logo(ch)
+            evs = extract_events(ch)
+
+            if cid not in channels_map:
+                channels_map[cid] = {"name": name, "logo": logo, "events": []}
+            # Prefer a non-empty name/logo already set (don't overwrite good values)
+            if not channels_map[cid].get("name"):
+                channels_map[cid]["name"] = name
+            if not channels_map[cid].get("logo") and logo:
+                channels_map[cid]["logo"] = logo
+
+            channels_map[cid]["events"].extend(evs)
 
     if args.dry_run:
-        chs = extract_channels(payload)
-        print(f"[freely_fetch_split] dry-run: channels={len(chs)} (no files written)")
+        total_ch = len(channels_map)
+        total_ev = sum(len(v.get("events", [])) for v in channels_map.values())
+        print(f"[freely_fetch_split] dry-run: merged channels={total_ch} events={total_ev} (no files written)")
         return
 
-    index = write_outputs(payload, Path(args.out), args.start)
+    index = write_merged_outputs(channels_map, Path(args.out), args.start)
     print(f"[freely_fetch_split] wrote {len(index.get('channels', []))} channels to {args.out}/channels")
 
 if __name__ == "__main__":
