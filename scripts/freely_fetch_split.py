@@ -372,6 +372,18 @@ def main():
             logo = extract_channel_logo(ch)
             evs = extract_events(ch)
 
+            # Keep only events whose startTime falls within this fetch's 24h window
+            try:
+                window_start = int(s)
+                window_end = window_start + 86400
+                evs = [
+                    e for e in evs
+                    if isinstance(e.get("startTime"), (int, float)) and window_start <= int(e["startTime"]) < window_end
+                ]
+            except Exception:
+                # if startTime isn't numeric, fall back to keeping all events
+                pass
+
             if cid not in channels_map:
                 channels_map[cid] = {"name": name, "logo": logo, "events": []}
             # Prefer a non-empty name/logo already set (don't overwrite good values)
