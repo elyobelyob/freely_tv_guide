@@ -67,7 +67,8 @@ jobs:
           python scripts/freely_fetch_split.py \
             --nid "${{ steps.when.outputs.nid }}" \
             --start "${{ steps.when.outputs.start }}" \
-            --out docs
+            --out docs \
+            --days 1
 
       - name: Sanity check (non-empty guide)
         id: sanity
@@ -83,6 +84,7 @@ jobs:
 
 
       - name: Mirror programme images (DEBUG + legacy CDN fallback) & rewrite JSON
+        if: false
         env:
           IMG_TIMEOUT_CONNECT: "6"
           IMG_TIMEOUT_READ: "12"
