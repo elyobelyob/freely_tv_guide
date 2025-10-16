@@ -7,6 +7,7 @@ import sys
 import time
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
+from datetime import datetime, timezone
 
 import requests
 
@@ -376,12 +377,30 @@ def main():
             try:
                 window_start = int(s)
                 window_end = window_start + 86400
-                evs = [
-                    e for e in evs
-                    if isinstance(e.get("startTime"), (int, float)) and window_start <= int(e["startTime"]) < window_end
-                ]
+
+                def to_epoch(v):
+                    if isinstance(v, (int, float)):
+                        return int(v)
+                    if isinstance(v, str):
+                        # try ISO8601 like "2025-10-16T01:00:00Z" -> replace Z for fromisoformat
+                        try:
+                            dt = datetime.fromisoformat(v.replace("Z", "+00:00"))
+                            return int(dt.timestamp())
+                        except Exception:
+                            try:
+                                return int(float(v))
+                            except Exception:
+                                return None
+                    return None
+
+                filtered = []
+                for e in evs:
+                    te = to_epoch(e.get("startTime"))
+                    if te is not None and window_start <= te < window_end:
+                        filtered.append(e)
+                evs = filtered
             except Exception:
-                # if startTime isn't numeric, fall back to keeping all events
+                # if anything unexpected happens, preserve original events
                 pass
 
             if cid not in channels_map:
