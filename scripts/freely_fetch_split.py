@@ -78,8 +78,41 @@ def _pick(d: Dict[str, Any], keys: List[str], default=None):
 def normalise_event(ev: Dict[str, Any]) -> Dict[str, Any]:
     start = _pick(ev, ["startTime", "start", "start_time", "start_timestamp", "time", "begin"])
     dur   = _pick(ev, ["duration", "durationMinutes", "duration_minutes", "dur", "length", "runtime"])
+    # normalize start/end to epoch seconds when possible
+    def _to_epoch(v):
+        if isinstance(v, (int, float)):
+            return int(v)
+        if isinstance(v, str):
+            s = v.strip()
+            # ISO8601 (allow trailing Z)
+            try:
+                dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                return int(dt.timestamp())
+            except Exception:
+                pass
+            # numeric string (seconds or milliseconds)
+            try:
+                iv = int(s)
+                if iv > 10**12:
+                    return int(iv / 1000)
+                return iv
+            except Exception:
+                try:
+                    return int(float(s))
+                except Exception:
+                    return None
+        return None
 
-    main = _pick(ev, ["name", "title", "main_title", "programme", "program", "programmeTitle", "show"]) or ""
+    parsed_start = _to_epoch(start)
+    if parsed_start is not None:
+        start = parsed_start
+    end = _pick(ev, ["endTime", "end", "end_time", "stop", "finish"])
+    parsed_end = _to_epoch(end)
+    if parsed_end is not None:
+        end = parsed_end
+
     # secondary title (what your card calls "description")
     secondary = _pick(ev, ["secondary_title", "subtitle", "episode_title"]) or ""
     # actual synopsis/blurbs (we'll keep this in a separate field)
@@ -95,7 +128,11 @@ def normalise_event(ev: Dict[str, Any]) -> Dict[str, Any]:
         if m is not None:
             dur = m
 
-    end = _pick(ev, ["endTime", "end", "end_time", "stop", "finish"])
+    # if we didn't already parse an end above, try now (and compute duration)
+    if not isinstance(end, (int, float)):
+        parsed_end2 = _to_epoch(end)
+        if parsed_end2 is not None:
+            end = parsed_end2
     if dur is None and isinstance(start, (int, float)) and isinstance(end, (int, float)):
         dur = int(round((end - start) / 60))
 
