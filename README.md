@@ -190,6 +190,7 @@ cards:
 | 37276 | CBeebies | [channels/37276.json](https://elyobelyob.github.io/freely_tv_guide/channels/37276.json) |
 | 16164 | CNA Originals | [channels/16164.json](https://elyobelyob.github.io/freely_tv_guide/channels/16164.json) |
 | 22688 | Capital | [channels/22688.json](https://elyobelyob.github.io/freely_tv_guide/channels/22688.json) |
+| 34432 | Cartoon Classics | [channels/34432.json](https://elyobelyob.github.io/freely_tv_guide/channels/34432.json) |
 | 22226 | Challenge | [channels/22226.json](https://elyobelyob.github.io/freely_tv_guide/channels/22226.json) |
 | 37889 | Channel 4 | [channels/37889.json](https://elyobelyob.github.io/freely_tv_guide/channels/37889.json) |
 | 8452 | Channel 4+1 | [channels/8452.json](https://elyobelyob.github.io/freely_tv_guide/channels/8452.json) |
@@ -206,7 +207,7 @@ cards:
 | 23040 | Food Network | [channels/23040.json](https://elyobelyob.github.io/freely_tv_guide/channels/23040.json) |
 | 27360 | GB News | [channels/27360.json](https://elyobelyob.github.io/freely_tv_guide/channels/27360.json) |
 | 16170 | GIGS | [channels/16170.json](https://elyobelyob.github.io/freely_tv_guide/channels/16170.json) |
-| 39201 | Gems TV | [channels/39201.json](https://elyobelyob.github.io/freely_tv_guide/channels/39201.json) |
+| 39201 | Gemporia | [channels/39201.json](https://elyobelyob.github.io/freely_tv_guide/channels/39201.json) |
 | 16286 | Global Arabic + | [channels/16286.json](https://elyobelyob.github.io/freely_tv_guide/channels/16286.json) |
 | 16256 | God TV | [channels/16256.json](https://elyobelyob.github.io/freely_tv_guide/channels/16256.json) |
 | 15576 | Great! Action | [channels/15576.json](https://elyobelyob.github.io/freely_tv_guide/channels/15576.json) |
@@ -301,8 +302,9 @@ cards:
 | 28096 | U&W | [channels/28096.json](https://elyobelyob.github.io/freely_tv_guide/channels/28096.json) |
 | 25792 | U&Yesterday | [channels/25792.json](https://elyobelyob.github.io/freely_tv_guide/channels/25792.json) |
 | 14464 | WildEarth | [channels/14464.json](https://elyobelyob.github.io/freely_tv_guide/channels/14464.json) |
-| 12952 | YAAAS! | [channels/12952.json](https://elyobelyob.github.io/freely_tv_guide/channels/12952.json) |
+| 34368 | YAAAS! | [channels/34368.json](https://elyobelyob.github.io/freely_tv_guide/channels/34368.json) |
 | 22592 | talkSPORT | [channels/22592.json](https://elyobelyob.github.io/freely_tv_guide/channels/22592.json) |
+| 34496 | wedotv Movies UK | [channels/34496.json](https://elyobelyob.github.io/freely_tv_guide/channels/34496.json) |
 | 33920 | wedotv movies | [channels/33920.json](https://elyobelyob.github.io/freely_tv_guide/channels/33920.json) |
 <!-- CHANNELS_END -->
 
