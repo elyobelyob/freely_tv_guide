@@ -89,7 +89,7 @@ jobs:
 
       - name: Mirror programme images (DEBUG + legacy CDN fallback) & rewrite JSON
         if: ${{ github.event.inputs.mirror_images == 'true' }}
-              env:
+        env:
           IMG_TIMEOUT_CONNECT: "6"
           IMG_TIMEOUT_READ: "12"
           IMG_HOURS_AHEAD: "36"        # only mirror shows within next N hours
