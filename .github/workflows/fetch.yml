@@ -15,7 +15,9 @@ on:
         default: "64865"
 
   schedule:
-    - cron: "4 4 * * *"   # runs daily at 03:05 UTC
+    - cron: "4 4 * * *"   # runs daily at 04:04 UTC
+    - cron: "0 2 * * *"   # runs daily at 02:00 UTC
+    - cron: "15 2 * * *"  # runs daily at 02:15 UTC
 
 concurrency:
   group: freely_guide
