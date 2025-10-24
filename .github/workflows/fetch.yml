@@ -18,7 +18,6 @@ on:
         required: false
         default: "true"
         
-
   schedule:
     - cron: "2 0 * * *" 
     - cron: "4 0 * * *" 
