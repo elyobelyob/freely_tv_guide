@@ -20,7 +20,7 @@ on:
         
 
   schedule:
-    - cron: "3 0 * * *" 
+    - cron: "2 0 * * *" 
     - cron: "4 0 * * *" 
 
 concurrency:
