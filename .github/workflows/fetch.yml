@@ -13,9 +13,15 @@ on:
         required: false
         type: string
         default: "64865"
+      mirror_images:
+        description: "Mirror images (true/false)"
+        required: false
+        default: "true"
+        
 
   schedule:
-    - cron: "4 0 * * *"   # runs daily at 04:00 UTC
+    - cron: "3 0 * * *" 
+    - cron: "4 0 * * *" 
 
 concurrency:
   group: freely_guide
@@ -83,7 +89,8 @@ jobs:
 
 
       - name: Mirror programme images (DEBUG + legacy CDN fallback) & rewrite JSON
-        env:
+        if: ${{ github.event.inputs.mirror_images == 'true' }}
+              env:
           IMG_TIMEOUT_CONNECT: "6"
           IMG_TIMEOUT_READ: "12"
           IMG_HOURS_AHEAD: "36"        # only mirror shows within next N hours
