@@ -1,114 +1,23 @@
 {
   "channel": {
     "id": "37272",
-    "name": "BBC Three",
-    "logo": "img/channels/placeholder.svg"
+    "name": "BBC Three"
   },
   "events": [
     {
-      "startTime": "2025-10-24T00:05:00+0000",
-      "duration": 60,
-      "name": "Top Gear",
-      "description": "Series 17: Episode 1",
-      "synopsis": "",
-      "image": "img/programmes/5d5cb0f5cb5b5c84d354a74ae90cb7da126d0980.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/b0129r3z",
-        "event_locator": "dvb://233a..9198;61d8",
-        "main_title": "Top Gear",
-        "secondary_title": "Series 17: Episode 1",
-        "image_url": "https://img.freeviewplay.tv/p937b415e96d428fe7b8d66d74df5aa0d",
-        "start_time": "2025-10-24T00:05:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2021-05-05T05:00:00+0000",
-          "end_of_availability": "2030-07-10T05:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b0129r3z&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2114433b98825bdfb04a4f6474c04c11",
-        "uuid": "4779ab72076732263b4b3193a43bfd2b"
-      }
-    },
-    {
-      "startTime": "2025-10-24T01:05:00+0000",
-      "duration": 15,
-      "name": "Zen Motoring",
-      "description": "Series 1: 1. Scooter Boys",
-      "synopsis": "",
-      "image": "img/programmes/e918f128ff415a6002663dd599372cd99cb684c0.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/p0bf955j",
-        "event_locator": "dvb://233a..9198;61d9",
-        "main_title": "Zen Motoring",
-        "secondary_title": "Series 1: 1. Scooter Boys",
-        "image_url": "https://img.freeviewplay.tv/p91f8493fc268c1cafadef6ebb8b2fd7a",
-        "start_time": "2025-10-24T01:05:00+0000",
-        "duration": "PT15M",
-        "on_demand": {
-          "start_of_availability": "2025-01-06T06:00:00+0000",
-          "end_of_availability": "2026-01-06T05:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:p0bf955j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/e4ab5ca749832479073ef9e44137d3108",
-        "uuid": "54e8a27cc08256b867fc86f45f16cf53"
-      }
-    },
-    {
-      "startTime": "2025-10-24T01:20:00+0000",
-      "duration": 30,
-      "name": "BBC New Comedy Awards",
-      "description": "2025: 2. Midlands - Birmingham",
-      "synopsis": "",
-      "image": "img/programmes/213497f9e054dc5eb2d07213453bea57c339fc55.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l6by",
-        "event_locator": "dvb://233a..9198;61da",
-        "main_title": "BBC New Comedy Awards",
-        "secondary_title": "2025: 2. Midlands - Birmingham",
-        "image_url": "https://img.freeviewplay.tv/p1b91683c4a6984b1dad3bc29067d30d6",
-        "start_time": "2025-10-24T01:20:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2025-10-22T05:00:00+0000",
-          "end_of_availability": "2027-10-15T05:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l6by&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/e2f616e5433163ca97ebe79b91b23b604",
-        "uuid": "69a2e8572d43485f6afe1710bd4aa1c8"
-      }
-    },
-    {
-      "startTime": "2025-10-24T01:50:00+0000",
+      "startTime": "2025-10-25T00:00:00+0000",
       "duration": 65,
       "name": "RuPaul's Drag Race UK",
       "description": "Series 7: Episode 5",
       "synopsis": "",
-      "image": "img/programmes/ebad440701bcb6c2f8593c48f27bcda45b70c1e8.jpg",
+      "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m002l5l6",
-        "event_locator": "dvb://233a..9198;61db",
+        "event_locator": "dvb://233a..9198;6175",
         "main_title": "RuPaul's Drag Race UK",
         "secondary_title": "Series 7: Episode 5",
         "image_url": "https://img.freeviewplay.tv/pb37ec99f249195d5a364f337559d494d",
-        "start_time": "2025-10-24T01:50:00+0000",
+        "start_time": "2025-10-25T00:00:00+0000",
         "duration": "PT1H5M",
         "on_demand": {
           "start_of_availability": "2025-10-23T19:00:00+0000",
@@ -122,275 +31,485 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/eb7d978b9801b537fe9ddc864bf766f1b",
-        "uuid": "3400a159cd75395ccbf88c6ae7bae436"
+        "uuid": "37484dfbc520a49fe83700ab3b358c7f"
       }
     },
     {
-      "startTime": "2025-10-24T02:55:00+0000",
-      "duration": 95,
-      "name": "This is BBC Three",
-      "description": "This is BBC Three",
+      "startTime": "2025-10-25T01:05:00+0000",
+      "duration": 25,
+      "name": "My Mate's a Bad Date",
+      "description": "Series 1: 2. Khalil",
       "synopsis": "",
-      "image": "img/programmes/8ede97f9cb8e1cff2d2ea2baf49828748d5aabea.jpg",
+      "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0010ykr",
-        "event_locator": "dvb://233a..9198;61dc",
-        "main_title": "This is BBC Three",
-        "secondary_title": "This is BBC Three",
-        "image_url": "https://img.freeviewplay.tv/pa2bd173369ea0efe6fd731e911367515",
-        "start_time": "2025-10-24T02:55:00+0000",
-        "duration": "PT1H35M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/e43524646b60221962df26c4d00950b5a",
-        "uuid": "479396932137092dca3cfb12e44435f1"
-      }
-    },
-    {
-      "startTime": "2025-10-24T04:30:00+0000",
-      "duration": 808,
-      "name": "This is BBC Three",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/98f744c5291acf47d05a9a2098028b7c146c63be.png",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/ff7d8383-84e6-4478-bc13-61e24e763d7b",
-        "event_locator": "dvb://233a..9198;61dd",
-        "main_title": "This is BBC Three",
-        "start_time": "2025-10-24T04:30:00+0000",
-        "duration": "PT13H28M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-        "fallback_image_url": "http://img.freeviewplay.net/e43524646b60221962df26c4d00950b5a",
-        "uuid": "fb69c355ab295a9a6238d47f64a08923"
-      }
-    },
-    {
-      "startTime": "2025-10-24T17:58:00+0000",
-      "duration": 2,
-      "name": "This is BBC Three",
-      "description": "This is BBC Three",
-      "synopsis": "",
-      "image": "img/programmes/8ede97f9cb8e1cff2d2ea2baf49828748d5aabea.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0010ykr",
-        "event_locator": "dvb://233a..9198;616d",
-        "main_title": "This is BBC Three",
-        "secondary_title": "This is BBC Three",
-        "image_url": "https://img.freeviewplay.tv/pa2bd173369ea0efe6fd731e911367515",
-        "start_time": "2025-10-24T17:58:00+0000",
-        "duration": "PT2M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/e43524646b60221962df26c4d00950b5a",
-        "uuid": "b4ef59e72a9ab85cc6631664c84a0e29"
-      }
-    },
-    {
-      "startTime": "2025-10-24T18:00:00+0000",
-      "duration": 5,
-      "name": "The Catch Up",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/1e3d06d934855986d83f89f933885906a9d2051b.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l6bs",
-        "event_locator": "dvb://233a..9198;616e",
-        "main_title": "The Catch Up",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p793c4ffb3b5e7c0a5401b8dc234017f3",
-        "start_time": "2025-10-24T18:00:00+0000",
-        "duration": "PT5M",
+        "program_id": "crid://bbc.co.uk/icc/episode/p07t7zvs",
+        "event_locator": "dvb://233a..9198;6176",
+        "main_title": "My Mate's a Bad Date",
+        "secondary_title": "Series 1: 2. Khalil",
+        "image_url": "https://img.freeviewplay.tv/p6690c6e5eb4d49819535e782d99d8f46",
+        "start_time": "2025-10-25T01:05:00+0000",
+        "duration": "PT25M",
         "on_demand": {
-          "start_of_availability": "2025-10-24T18:04:00+0000",
-          "end_of_availability": "2025-10-25T18:04:00+0000",
+          "start_of_availability": "2020-11-21T06:00:00+0000",
+          "end_of_availability": "2025-11-27T05:59:59+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l6bs&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:p07t7zvs&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e32df4c089e967c98dc635b975c028bc3",
+        "uuid": "fd5091502a8cfc09b4cb369558d41d04"
+      }
+    },
+    {
+      "startTime": "2025-10-25T01:30:00+0000",
+      "duration": 60,
+      "name": "Joe Swash: Forgotten Young Dads",
+      "description": "Joe Swash: Forgotten Young Dads",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002l5hr",
+        "event_locator": "dvb://233a..9198;6177",
+        "main_title": "Joe Swash: Forgotten Young Dads",
+        "secondary_title": "Joe Swash: Forgotten Young Dads",
+        "image_url": "https://img.freeviewplay.tv/p6e9f8dd98a42c57aa1a4506507c417b0",
+        "start_time": "2025-10-25T01:30:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-10-20T05:00:00+0000",
+          "end_of_availability": "2026-10-20T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l5hr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e3759cd52408d5dac5d26ec1d5d58da09",
-        "uuid": "591aeb9cb6261f946358f4e3e8f5624d"
+        "fallback_image_url": "http://img.freeviewplay.net/e0142a37ae8c4f796b67ac53c3ca51990",
+        "uuid": "caacd6d52a23f15cbadd539850feb7ec"
       }
     },
     {
-      "startTime": "2025-10-24T18:05:00+0000",
-      "duration": 5,
-      "name": "Shaun the Sheep",
-      "description": "Series 7: 1. Bake it Easy",
+      "startTime": "2025-10-25T02:30:00+0000",
+      "duration": 30,
+      "name": "BBC New Comedy Awards",
+      "description": "2025: 2. Midlands - Birmingham",
       "synopsis": "",
-      "image": "img/programmes/b9aee3f6227f8d9fbb238aa75fc0a5f9809674a9.jpg",
+      "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002crqv",
-        "event_locator": "dvb://233a..9198;616f",
-        "main_title": "Shaun the Sheep",
-        "secondary_title": "Series 7: 1. Bake it Easy",
-        "image_url": "https://img.freeviewplay.tv/p52cad13186b4964b457432c0b79519b7",
-        "start_time": "2025-10-24T18:05:00+0000",
-        "duration": "PT5M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002l6by",
+        "event_locator": "dvb://233a..9198;6178",
+        "main_title": "BBC New Comedy Awards",
+        "secondary_title": "2025: 2. Midlands - Birmingham",
+        "image_url": "https://img.freeviewplay.tv/p1b91683c4a6984b1dad3bc29067d30d6",
+        "start_time": "2025-10-25T02:30:00+0000",
+        "duration": "PT30M",
         "on_demand": {
-          "start_of_availability": "2025-05-24T03:00:00+0000",
-          "end_of_availability": "2032-05-15T03:00:00+0000",
+          "start_of_availability": "2025-10-22T05:00:00+0000",
+          "end_of_availability": "2027-10-15T05:00:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002crqv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l6by&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "fallback_image_url": "http://img.freeviewplay.net/ee9aac04b2d90a2d5ca8b2eb9db99a164",
-        "uuid": "3e7862303d8bb21e702bc561dac3b0ef"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e2f616e5433163ca97ebe79b91b23b604",
+        "uuid": "4209a408f18bf0acd2fd72513ae6a258"
       }
     },
     {
-      "startTime": "2025-10-24T18:10:00+0000",
-      "duration": 10,
-      "name": "Shaun the Sheep",
-      "description": "Series 7: 2. Shelf Life",
+      "startTime": "2025-10-25T03:00:00+0000",
+      "duration": 90,
+      "name": "This is BBC Three",
+      "description": "This is BBC Three",
       "synopsis": "",
-      "image": "img/programmes/60a4521fff27de1335b242b7550506cf61277323.jpg",
+      "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002crr5",
-        "event_locator": "dvb://233a..9198;6170",
-        "main_title": "Shaun the Sheep",
-        "secondary_title": "Series 7: 2. Shelf Life",
-        "image_url": "https://img.freeviewplay.tv/p8d0dd9504a3c0f105eb983ecfaee021d",
-        "start_time": "2025-10-24T18:10:00+0000",
-        "duration": "PT10M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0010ykr",
+        "event_locator": "dvb://233a..9198;6179",
+        "main_title": "This is BBC Three",
+        "secondary_title": "This is BBC Three",
+        "image_url": "https://img.freeviewplay.tv/pa2bd173369ea0efe6fd731e911367515",
+        "start_time": "2025-10-25T03:00:00+0000",
+        "duration": "PT1H30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e43524646b60221962df26c4d00950b5a",
+        "uuid": "68c62cf9d0012937e994981d35e71587"
+      }
+    },
+    {
+      "startTime": "2025-10-25T04:30:00+0000",
+      "duration": 808,
+      "name": "This is BBC Three",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/242e7cf9-d03b-4437-a6db-990475a39ca2",
+        "event_locator": "dvb://233a..9198;617a",
+        "main_title": "This is BBC Three",
+        "start_time": "2025-10-25T04:30:00+0000",
+        "duration": "PT13H28M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "fallback_image_url": "http://img.freeviewplay.net/e43524646b60221962df26c4d00950b5a",
+        "uuid": "588816490c7d7f6913221d3ceeb53996"
+      }
+    },
+    {
+      "startTime": "2025-10-25T17:58:00+0000",
+      "duration": 2,
+      "name": "This is BBC Three",
+      "description": "This is BBC Three",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0010ykr",
+        "event_locator": "dvb://233a..9198;61fd",
+        "main_title": "This is BBC Three",
+        "secondary_title": "This is BBC Three",
+        "image_url": "https://img.freeviewplay.tv/pa2bd173369ea0efe6fd731e911367515",
+        "start_time": "2025-10-25T17:58:00+0000",
+        "duration": "PT2M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e43524646b60221962df26c4d00950b5a",
+        "uuid": "3fdb5596516ad7461671159a0218d6bd"
+      }
+    },
+    {
+      "startTime": "2025-10-25T18:00:00+0000",
+      "duration": 30,
+      "name": "EastEnders",
+      "description": "20/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002l5k7",
+        "event_locator": "dvb://233a..9198;61ff",
+        "main_title": "EastEnders",
+        "secondary_title": "20/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pfb939b569133ea336aac25da44518bf8",
+        "start_time": "2025-10-25T18:00:00+0000",
+        "duration": "PT30M",
         "on_demand": {
-          "start_of_availability": "2025-05-24T03:00:00+0000",
-          "end_of_availability": "2032-05-15T03:00:00+0000",
+          "start_of_availability": "2025-10-20T05:00:00+0000",
+          "end_of_availability": "2027-03-31T05:00:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002crr5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l5k7&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "fallback_image_url": "http://img.freeviewplay.net/ee9aac04b2d90a2d5ca8b2eb9db99a164",
-        "uuid": "f939d5f381f0833b612d3d97c042afbd"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "fallback_image_url": "http://img.freeviewplay.net/eaa9d8693b7a24980a525010011d6f2b9",
+        "uuid": "39ffe4a5f9b49a208a4090dfa9f9fa23"
       }
     },
     {
-      "startTime": "2025-10-24T18:20:00+0000",
-      "duration": 5,
-      "name": "Shaun the Sheep",
-      "description": "Series 7: 3. Bed Lamb",
+      "startTime": "2025-10-25T18:30:00+0000",
+      "duration": 30,
+      "name": "EastEnders",
+      "description": "21/10/2025",
       "synopsis": "",
-      "image": "img/programmes/832519cf726222b0cffa26076bb0bf5699d6d144.jpg",
+      "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002crtg",
-        "event_locator": "dvb://233a..9198;6171",
-        "main_title": "Shaun the Sheep",
-        "secondary_title": "Series 7: 3. Bed Lamb",
-        "image_url": "https://img.freeviewplay.tv/p859bcc0ba6d00ac73d3e8310a33597fe",
-        "start_time": "2025-10-24T18:20:00+0000",
-        "duration": "PT5M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002l5hp",
+        "event_locator": "dvb://233a..9198;6201",
+        "main_title": "EastEnders",
+        "secondary_title": "21/10/2025",
+        "image_url": "https://img.freeviewplay.tv/p77170ae5871d78c6f8fb00fdd05f286e",
+        "start_time": "2025-10-25T18:30:00+0000",
+        "duration": "PT30M",
         "on_demand": {
-          "start_of_availability": "2025-05-24T03:00:00+0000",
-          "end_of_availability": "2032-05-15T03:00:00+0000",
+          "start_of_availability": "2025-10-21T05:00:00+0000",
+          "end_of_availability": "2027-03-31T05:00:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002crtg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l5hp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "fallback_image_url": "http://img.freeviewplay.net/ee9aac04b2d90a2d5ca8b2eb9db99a164",
-        "uuid": "74939db65eb79745e66daa7530395eb6"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "fallback_image_url": "http://img.freeviewplay.net/eaa9d8693b7a24980a525010011d6f2b9",
+        "uuid": "4885ba513ca9c7377f62167534091761"
       }
     },
     {
-      "startTime": "2025-10-24T18:25:00+0000",
-      "duration": 15,
-      "name": "Shaun the Sheep",
-      "description": "Specials: Shirleyverse",
+      "startTime": "2025-10-25T19:00:00+0000",
+      "duration": 30,
+      "name": "EastEnders",
+      "description": "22/10/2025",
       "synopsis": "",
-      "image": "img/programmes/e1cbe560d87415ab2f5e483e6c1a5cdb924bdbfe.jpg",
+      "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002cs3s",
-        "event_locator": "dvb://233a..9198;6172",
-        "main_title": "Shaun the Sheep",
-        "secondary_title": "Specials: Shirleyverse",
-        "image_url": "https://img.freeviewplay.tv/p28421a1fc8a24eebc8d5ca39a016403c",
-        "start_time": "2025-10-24T18:25:00+0000",
-        "duration": "PT15M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002l5xr",
+        "event_locator": "dvb://233a..9198;6203",
+        "main_title": "EastEnders",
+        "secondary_title": "22/10/2025",
+        "image_url": "https://img.freeviewplay.tv/p65393434bfc995a71913e60741e70b5a",
+        "start_time": "2025-10-25T19:00:00+0000",
+        "duration": "PT30M",
         "on_demand": {
-          "start_of_availability": "2025-05-24T03:00:00+0000",
-          "end_of_availability": "2032-05-15T04:55:00+0000",
+          "start_of_availability": "2025-10-22T05:00:00+0000",
+          "end_of_availability": "2027-03-31T05:00:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002cs3s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l5xr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "fallback_image_url": "http://img.freeviewplay.net/eca9f6b3246b949459bb6c1d3c56664ac",
-        "uuid": "dc45ca1235ec56af9fefceed1d2f6ac6"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "fallback_image_url": "http://img.freeviewplay.net/eaa9d8693b7a24980a525010011d6f2b9",
+        "uuid": "e7e4f468954c72970b12ca702131b8b0"
       }
     },
     {
-      "startTime": "2025-10-24T18:40:00+0000",
-      "duration": 80,
-      "name": "Shaun the Sheep: Farmageddon",
-      "description": "Shaun the Sheep: Farmageddon",
+      "startTime": "2025-10-25T19:30:00+0000",
+      "duration": 30,
+      "name": "EastEnders",
+      "description": "23/10/2025",
       "synopsis": "",
-      "image": "img/programmes/76ad4fd25f0395ae4126c2549b5b2789727cfd6d.jpg",
+      "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m001gn3s",
-        "event_locator": "dvb://233a..9198;6173",
-        "main_title": "Shaun the Sheep: Farmageddon",
-        "secondary_title": "Shaun the Sheep: Farmageddon",
-        "image_url": "https://img.freeviewplay.tv/pc78169015903f6db79e7a8329556affc",
-        "start_time": "2025-10-24T18:40:00+0000",
-        "duration": "PT1H20M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002l5k0",
+        "event_locator": "dvb://233a..9198;6205",
+        "main_title": "EastEnders",
+        "secondary_title": "23/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pa6728f61b7d009da6bf3c012ea5ddfbe",
+        "start_time": "2025-10-25T19:30:00+0000",
+        "duration": "PT30M",
         "on_demand": {
-          "start_of_availability": "2025-10-06T05:00:00+0000",
-          "end_of_availability": "2025-11-05T05:59:00+0000",
+          "start_of_availability": "2025-10-23T05:00:00+0000",
+          "end_of_availability": "2027-03-31T05:00:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001gn3s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l5k0&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "fallback_image_url": "http://img.freeviewplay.net/eb6539e255c70847aa46fb2fbe9eacfb1",
-        "uuid": "c02a67604c22f504e9cbbe00d6fc64e1"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "fallback_image_url": "http://img.freeviewplay.net/eaa9d8693b7a24980a525010011d6f2b9",
+        "uuid": "6a1b633210cb8b6745638cfa488333bc"
       }
     },
     {
-      "startTime": "2025-10-24T20:00:00+0000",
-      "duration": 240,
-      "name": "Cycling: Track World Championships",
-      "description": "2025: Day 3: Women's Omnium Final, Individual Pursuit and Sprint Finals",
+      "startTime": "2025-10-25T20:00:00+0000",
+      "duration": 30,
+      "name": "Gavin & Stacey",
+      "description": "Series 1: Episode 5",
       "synopsis": "",
-      "image": "img/programmes/38d1d17e92e60e84561713eaf20d09a3eb0923b2.jpg",
+      "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l6bv",
-        "event_locator": "dvb://233a..9198;6174",
-        "main_title": "Cycling: Track World Championships",
-        "secondary_title": "2025: Day 3: Women's Omnium Final, Individual Pursuit and Sprint Finals",
-        "image_url": "https://img.freeviewplay.tv/pdb611bf14a1f8c58019ad251fe6fe420",
-        "start_time": "2025-10-24T20:00:00+0000",
-        "duration": "PT4H",
+        "program_id": "crid://bbc.co.uk/icc/episode/b007q875",
+        "event_locator": "dvb://233a..9198;6207",
+        "main_title": "Gavin & Stacey",
+        "secondary_title": "Series 1: Episode 5",
+        "image_url": "https://img.freeviewplay.tv/p30c9902e669158c6e1a8775a814c1931",
+        "start_time": "2025-10-25T20:00:00+0000",
+        "duration": "PT30M",
         "on_demand": {
-          "start_of_availability": "2025-10-25T00:00:10+0000",
-          "end_of_availability": "2025-11-24T01:00:10+0000",
+          "start_of_availability": "2024-01-31T05:45:00+0000",
+          "end_of_availability": "2027-02-14T06:05:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l6bv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b007q875&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-        "fallback_image_url": "http://img.freeviewplay.net/e38825eb2c25799313f031d0cf3740bff",
-        "uuid": "e56a60169c462d3d76f5580fa9f5ea0f"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/ee3a85d7b7eb501472c02e8f3e7642322",
+        "uuid": "b2fa94d441a9d5319dd829a6d3ad64be"
+      }
+    },
+    {
+      "startTime": "2025-10-25T20:30:00+0000",
+      "duration": 30,
+      "name": "Gavin & Stacey",
+      "description": "Series 1: Episode 6",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/b007rj82",
+        "event_locator": "dvb://233a..9198;6209",
+        "main_title": "Gavin & Stacey",
+        "secondary_title": "Series 1: Episode 6",
+        "image_url": "https://img.freeviewplay.tv/p068046a79f858c7b5540f4d3c5a48a06",
+        "start_time": "2025-10-25T20:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2024-01-31T05:45:00+0000",
+          "end_of_availability": "2027-02-14T06:05:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b007rj82&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/ee3a85d7b7eb501472c02e8f3e7642322",
+        "uuid": "abda0685a9957de7dde7d4f152474d36"
+      }
+    },
+    {
+      "startTime": "2025-10-25T21:00:00+0000",
+      "duration": 25,
+      "name": "Daddy Issues",
+      "description": "Series 1: 1. Happy Tears",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0021k8k",
+        "event_locator": "dvb://233a..9198;620b",
+        "main_title": "Daddy Issues",
+        "secondary_title": "Series 1: 1. Happy Tears",
+        "image_url": "https://img.freeviewplay.tv/p97a4ffbb8bca6a6d51e7723a4e5e34d7",
+        "start_time": "2025-10-25T21:00:00+0000",
+        "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2024-08-15T04:45:00+0000",
+          "end_of_availability": "2026-08-15T04:45:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0021k8k&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e352fde3404fc0a83d3c87f6b44f435a0",
+        "uuid": "9115f36298b9281b3a28fecbce5f8933"
+      }
+    },
+    {
+      "startTime": "2025-10-25T21:25:00+0000",
+      "duration": 25,
+      "name": "Daddy Issues",
+      "description": "Series 1: 2. Normal Men",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0021k8m",
+        "event_locator": "dvb://233a..9198;620d",
+        "main_title": "Daddy Issues",
+        "secondary_title": "Series 1: 2. Normal Men",
+        "image_url": "https://img.freeviewplay.tv/p8645d4db274da03f0e13c478581714d3",
+        "start_time": "2025-10-25T21:25:00+0000",
+        "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2024-08-15T04:45:00+0000",
+          "end_of_availability": "2026-08-15T04:45:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0021k8m&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e352fde3404fc0a83d3c87f6b44f435a0",
+        "uuid": "f96fd4690da44f2e5712a9a1d7655cad"
+      }
+    },
+    {
+      "startTime": "2025-10-25T21:50:00+0000",
+      "duration": 70,
+      "name": "RuPaul's Drag Race UK",
+      "description": "Series 7: Episode 5",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002l5l6",
+        "event_locator": "dvb://233a..9198;620f",
+        "main_title": "RuPaul's Drag Race UK",
+        "secondary_title": "Series 7: Episode 5",
+        "image_url": "https://img.freeviewplay.tv/pb37ec99f249195d5a364f337559d494d",
+        "start_time": "2025-10-25T21:50:00+0000",
+        "duration": "PT1H10M",
+        "on_demand": {
+          "start_of_availability": "2025-10-23T19:00:00+0000",
+          "end_of_availability": "2027-10-23T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l5l6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/eb7d978b9801b537fe9ddc864bf766f1b",
+        "uuid": "c54084af478e78e059abbd6eb269f6b3"
+      }
+    },
+    {
+      "startTime": "2025-10-25T23:00:00+0000",
+      "duration": 30,
+      "name": "BBC New Comedy Awards",
+      "description": "2025: 1. West - Bristol",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kwhj",
+        "event_locator": "dvb://233a..9198;6211",
+        "main_title": "BBC New Comedy Awards",
+        "secondary_title": "2025: 1. West - Bristol",
+        "image_url": "https://img.freeviewplay.tv/p14dfd96fa9afd1802612565eab42563c",
+        "start_time": "2025-10-25T23:00:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-15T05:00:00+0000",
+          "end_of_availability": "2027-10-15T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kwhj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e2f616e5433163ca97ebe79b91b23b604",
+        "uuid": "d8bd8a86a8724be5b21070f9b98d9482"
+      }
+    },
+    {
+      "startTime": "2025-10-25T23:30:00+0000",
+      "duration": 30,
+      "name": "BBC New Comedy Awards",
+      "description": "2025: 2. Midlands - Birmingham",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002l6by",
+        "event_locator": "dvb://233a..9198;6213",
+        "main_title": "BBC New Comedy Awards",
+        "secondary_title": "2025: 2. Midlands - Birmingham",
+        "image_url": "https://img.freeviewplay.tv/p1b91683c4a6984b1dad3bc29067d30d6",
+        "start_time": "2025-10-25T23:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-22T05:00:00+0000",
+          "end_of_availability": "2027-10-15T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l6by&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e2f616e5433163ca97ebe79b91b23b604",
+        "uuid": "bd1a7ee46ba4d51e38589ef59aa9e673"
       }
     }
   ],
@@ -399,97 +518,7 @@
       {
         "event": [
           {
-            "startTime": "2025-10-24T00:05:00+0000",
-            "duration": 60,
-            "name": "Top Gear",
-            "description": "Series 17: Episode 1",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/b0129r3z",
-              "event_locator": "dvb://233a..9198;61d8",
-              "main_title": "Top Gear",
-              "secondary_title": "Series 17: Episode 1",
-              "image_url": "https://img.freeviewplay.tv/p937b415e96d428fe7b8d66d74df5aa0d",
-              "start_time": "2025-10-24T00:05:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2021-05-05T05:00:00+0000",
-                "end_of_availability": "2030-07-10T05:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b0129r3z&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2114433b98825bdfb04a4f6474c04c11",
-              "uuid": "4779ab72076732263b4b3193a43bfd2b"
-            }
-          },
-          {
-            "startTime": "2025-10-24T01:05:00+0000",
-            "duration": 15,
-            "name": "Zen Motoring",
-            "description": "Series 1: 1. Scooter Boys",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/p0bf955j",
-              "event_locator": "dvb://233a..9198;61d9",
-              "main_title": "Zen Motoring",
-              "secondary_title": "Series 1: 1. Scooter Boys",
-              "image_url": "https://img.freeviewplay.tv/p91f8493fc268c1cafadef6ebb8b2fd7a",
-              "start_time": "2025-10-24T01:05:00+0000",
-              "duration": "PT15M",
-              "on_demand": {
-                "start_of_availability": "2025-01-06T06:00:00+0000",
-                "end_of_availability": "2026-01-06T05:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:p0bf955j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/e4ab5ca749832479073ef9e44137d3108",
-              "uuid": "54e8a27cc08256b867fc86f45f16cf53"
-            }
-          },
-          {
-            "startTime": "2025-10-24T01:20:00+0000",
-            "duration": 30,
-            "name": "BBC New Comedy Awards",
-            "description": "2025: 2. Midlands - Birmingham",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l6by",
-              "event_locator": "dvb://233a..9198;61da",
-              "main_title": "BBC New Comedy Awards",
-              "secondary_title": "2025: 2. Midlands - Birmingham",
-              "image_url": "https://img.freeviewplay.tv/p1b91683c4a6984b1dad3bc29067d30d6",
-              "start_time": "2025-10-24T01:20:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2025-10-22T05:00:00+0000",
-                "end_of_availability": "2027-10-15T05:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l6by&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/e2f616e5433163ca97ebe79b91b23b604",
-              "uuid": "69a2e8572d43485f6afe1710bd4aa1c8"
-            }
-          },
-          {
-            "startTime": "2025-10-24T01:50:00+0000",
+            "startTime": "2025-10-25T00:00:00+0000",
             "duration": 65,
             "name": "RuPaul's Drag Race UK",
             "description": "Series 7: Episode 5",
@@ -497,11 +526,11 @@
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m002l5l6",
-              "event_locator": "dvb://233a..9198;61db",
+              "event_locator": "dvb://233a..9198;6175",
               "main_title": "RuPaul's Drag Race UK",
               "secondary_title": "Series 7: Episode 5",
               "image_url": "https://img.freeviewplay.tv/pb37ec99f249195d5a364f337559d494d",
-              "start_time": "2025-10-24T01:50:00+0000",
+              "start_time": "2025-10-25T00:00:00+0000",
               "duration": "PT1H5M",
               "on_demand": {
                 "start_of_availability": "2025-10-23T19:00:00+0000",
@@ -515,49 +544,139 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/eb7d978b9801b537fe9ddc864bf766f1b",
-              "uuid": "3400a159cd75395ccbf88c6ae7bae436"
+              "uuid": "37484dfbc520a49fe83700ab3b358c7f"
             }
           },
           {
-            "startTime": "2025-10-24T02:55:00+0000",
-            "duration": 95,
+            "startTime": "2025-10-25T01:05:00+0000",
+            "duration": 25,
+            "name": "My Mate's a Bad Date",
+            "description": "Series 1: 2. Khalil",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/p07t7zvs",
+              "event_locator": "dvb://233a..9198;6176",
+              "main_title": "My Mate's a Bad Date",
+              "secondary_title": "Series 1: 2. Khalil",
+              "image_url": "https://img.freeviewplay.tv/p6690c6e5eb4d49819535e782d99d8f46",
+              "start_time": "2025-10-25T01:05:00+0000",
+              "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2020-11-21T06:00:00+0000",
+                "end_of_availability": "2025-11-27T05:59:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:p07t7zvs&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e32df4c089e967c98dc635b975c028bc3",
+              "uuid": "fd5091502a8cfc09b4cb369558d41d04"
+            }
+          },
+          {
+            "startTime": "2025-10-25T01:30:00+0000",
+            "duration": 60,
+            "name": "Joe Swash: Forgotten Young Dads",
+            "description": "Joe Swash: Forgotten Young Dads",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002l5hr",
+              "event_locator": "dvb://233a..9198;6177",
+              "main_title": "Joe Swash: Forgotten Young Dads",
+              "secondary_title": "Joe Swash: Forgotten Young Dads",
+              "image_url": "https://img.freeviewplay.tv/p6e9f8dd98a42c57aa1a4506507c417b0",
+              "start_time": "2025-10-25T01:30:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-10-20T05:00:00+0000",
+                "end_of_availability": "2026-10-20T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l5hr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e0142a37ae8c4f796b67ac53c3ca51990",
+              "uuid": "caacd6d52a23f15cbadd539850feb7ec"
+            }
+          },
+          {
+            "startTime": "2025-10-25T02:30:00+0000",
+            "duration": 30,
+            "name": "BBC New Comedy Awards",
+            "description": "2025: 2. Midlands - Birmingham",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002l6by",
+              "event_locator": "dvb://233a..9198;6178",
+              "main_title": "BBC New Comedy Awards",
+              "secondary_title": "2025: 2. Midlands - Birmingham",
+              "image_url": "https://img.freeviewplay.tv/p1b91683c4a6984b1dad3bc29067d30d6",
+              "start_time": "2025-10-25T02:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-22T05:00:00+0000",
+                "end_of_availability": "2027-10-15T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l6by&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e2f616e5433163ca97ebe79b91b23b604",
+              "uuid": "4209a408f18bf0acd2fd72513ae6a258"
+            }
+          },
+          {
+            "startTime": "2025-10-25T03:00:00+0000",
+            "duration": 90,
             "name": "This is BBC Three",
             "description": "This is BBC Three",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m0010ykr",
-              "event_locator": "dvb://233a..9198;61dc",
+              "event_locator": "dvb://233a..9198;6179",
               "main_title": "This is BBC Three",
               "secondary_title": "This is BBC Three",
               "image_url": "https://img.freeviewplay.tv/pa2bd173369ea0efe6fd731e911367515",
-              "start_time": "2025-10-24T02:55:00+0000",
-              "duration": "PT1H35M",
+              "start_time": "2025-10-25T03:00:00+0000",
+              "duration": "PT1H30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/e43524646b60221962df26c4d00950b5a",
-              "uuid": "479396932137092dca3cfb12e44435f1"
+              "uuid": "68c62cf9d0012937e994981d35e71587"
             }
           },
           {
-            "startTime": "2025-10-24T04:30:00+0000",
+            "startTime": "2025-10-25T04:30:00+0000",
             "duration": 808,
             "name": "This is BBC Three",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/ff7d8383-84e6-4478-bc13-61e24e763d7b",
-              "event_locator": "dvb://233a..9198;61dd",
+              "program_id": "crid://csi.digitaluk.co.uk/242e7cf9-d03b-4437-a6db-990475a39ca2",
+              "event_locator": "dvb://233a..9198;617a",
               "main_title": "This is BBC Three",
-              "start_time": "2025-10-24T04:30:00+0000",
+              "start_time": "2025-10-25T04:30:00+0000",
               "duration": "PT13H28M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "fallback_image_url": "http://img.freeviewplay.net/e43524646b60221962df26c4d00950b5a",
-              "uuid": "fb69c355ab295a9a6238d47f64a08923"
+              "uuid": "588816490c7d7f6913221d3ceeb53996"
             }
           },
           {
-            "startTime": "2025-10-24T17:58:00+0000",
+            "startTime": "2025-10-25T17:58:00+0000",
             "duration": 2,
             "name": "This is BBC Three",
             "description": "This is BBC Three",
@@ -565,225 +684,345 @@
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m0010ykr",
-              "event_locator": "dvb://233a..9198;616d",
+              "event_locator": "dvb://233a..9198;61fd",
               "main_title": "This is BBC Three",
               "secondary_title": "This is BBC Three",
               "image_url": "https://img.freeviewplay.tv/pa2bd173369ea0efe6fd731e911367515",
-              "start_time": "2025-10-24T17:58:00+0000",
+              "start_time": "2025-10-25T17:58:00+0000",
               "duration": "PT2M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/e43524646b60221962df26c4d00950b5a",
-              "uuid": "b4ef59e72a9ab85cc6631664c84a0e29"
+              "uuid": "3fdb5596516ad7461671159a0218d6bd"
             }
           },
           {
-            "startTime": "2025-10-24T18:00:00+0000",
-            "duration": 5,
-            "name": "The Catch Up",
-            "description": "24/10/2025",
+            "startTime": "2025-10-25T18:00:00+0000",
+            "duration": 30,
+            "name": "EastEnders",
+            "description": "20/10/2025",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l6bs",
-              "event_locator": "dvb://233a..9198;616e",
-              "main_title": "The Catch Up",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p793c4ffb3b5e7c0a5401b8dc234017f3",
-              "start_time": "2025-10-24T18:00:00+0000",
-              "duration": "PT5M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002l5k7",
+              "event_locator": "dvb://233a..9198;61ff",
+              "main_title": "EastEnders",
+              "secondary_title": "20/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pfb939b569133ea336aac25da44518bf8",
+              "start_time": "2025-10-25T18:00:00+0000",
+              "duration": "PT30M",
               "on_demand": {
-                "start_of_availability": "2025-10-24T18:04:00+0000",
-                "end_of_availability": "2025-10-25T18:04:00+0000",
+                "start_of_availability": "2025-10-20T05:00:00+0000",
+                "end_of_availability": "2027-03-31T05:00:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l6bs&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l5k7&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e3759cd52408d5dac5d26ec1d5d58da09",
-              "uuid": "591aeb9cb6261f946358f4e3e8f5624d"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "fallback_image_url": "http://img.freeviewplay.net/eaa9d8693b7a24980a525010011d6f2b9",
+              "uuid": "39ffe4a5f9b49a208a4090dfa9f9fa23"
             }
           },
           {
-            "startTime": "2025-10-24T18:05:00+0000",
-            "duration": 5,
-            "name": "Shaun the Sheep",
-            "description": "Series 7: 1. Bake it Easy",
+            "startTime": "2025-10-25T18:30:00+0000",
+            "duration": 30,
+            "name": "EastEnders",
+            "description": "21/10/2025",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002crqv",
-              "event_locator": "dvb://233a..9198;616f",
-              "main_title": "Shaun the Sheep",
-              "secondary_title": "Series 7: 1. Bake it Easy",
-              "image_url": "https://img.freeviewplay.tv/p52cad13186b4964b457432c0b79519b7",
-              "start_time": "2025-10-24T18:05:00+0000",
-              "duration": "PT5M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002l5hp",
+              "event_locator": "dvb://233a..9198;6201",
+              "main_title": "EastEnders",
+              "secondary_title": "21/10/2025",
+              "image_url": "https://img.freeviewplay.tv/p77170ae5871d78c6f8fb00fdd05f286e",
+              "start_time": "2025-10-25T18:30:00+0000",
+              "duration": "PT30M",
               "on_demand": {
-                "start_of_availability": "2025-05-24T03:00:00+0000",
-                "end_of_availability": "2032-05-15T03:00:00+0000",
+                "start_of_availability": "2025-10-21T05:00:00+0000",
+                "end_of_availability": "2027-03-31T05:00:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002crqv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l5hp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "fallback_image_url": "http://img.freeviewplay.net/ee9aac04b2d90a2d5ca8b2eb9db99a164",
-              "uuid": "3e7862303d8bb21e702bc561dac3b0ef"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "fallback_image_url": "http://img.freeviewplay.net/eaa9d8693b7a24980a525010011d6f2b9",
+              "uuid": "4885ba513ca9c7377f62167534091761"
             }
           },
           {
-            "startTime": "2025-10-24T18:10:00+0000",
-            "duration": 10,
-            "name": "Shaun the Sheep",
-            "description": "Series 7: 2. Shelf Life",
+            "startTime": "2025-10-25T19:00:00+0000",
+            "duration": 30,
+            "name": "EastEnders",
+            "description": "22/10/2025",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002crr5",
-              "event_locator": "dvb://233a..9198;6170",
-              "main_title": "Shaun the Sheep",
-              "secondary_title": "Series 7: 2. Shelf Life",
-              "image_url": "https://img.freeviewplay.tv/p8d0dd9504a3c0f105eb983ecfaee021d",
-              "start_time": "2025-10-24T18:10:00+0000",
-              "duration": "PT10M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002l5xr",
+              "event_locator": "dvb://233a..9198;6203",
+              "main_title": "EastEnders",
+              "secondary_title": "22/10/2025",
+              "image_url": "https://img.freeviewplay.tv/p65393434bfc995a71913e60741e70b5a",
+              "start_time": "2025-10-25T19:00:00+0000",
+              "duration": "PT30M",
               "on_demand": {
-                "start_of_availability": "2025-05-24T03:00:00+0000",
-                "end_of_availability": "2032-05-15T03:00:00+0000",
+                "start_of_availability": "2025-10-22T05:00:00+0000",
+                "end_of_availability": "2027-03-31T05:00:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002crr5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l5xr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "fallback_image_url": "http://img.freeviewplay.net/ee9aac04b2d90a2d5ca8b2eb9db99a164",
-              "uuid": "f939d5f381f0833b612d3d97c042afbd"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "fallback_image_url": "http://img.freeviewplay.net/eaa9d8693b7a24980a525010011d6f2b9",
+              "uuid": "e7e4f468954c72970b12ca702131b8b0"
             }
           },
           {
-            "startTime": "2025-10-24T18:20:00+0000",
-            "duration": 5,
-            "name": "Shaun the Sheep",
-            "description": "Series 7: 3. Bed Lamb",
+            "startTime": "2025-10-25T19:30:00+0000",
+            "duration": 30,
+            "name": "EastEnders",
+            "description": "23/10/2025",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002crtg",
-              "event_locator": "dvb://233a..9198;6171",
-              "main_title": "Shaun the Sheep",
-              "secondary_title": "Series 7: 3. Bed Lamb",
-              "image_url": "https://img.freeviewplay.tv/p859bcc0ba6d00ac73d3e8310a33597fe",
-              "start_time": "2025-10-24T18:20:00+0000",
-              "duration": "PT5M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002l5k0",
+              "event_locator": "dvb://233a..9198;6205",
+              "main_title": "EastEnders",
+              "secondary_title": "23/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pa6728f61b7d009da6bf3c012ea5ddfbe",
+              "start_time": "2025-10-25T19:30:00+0000",
+              "duration": "PT30M",
               "on_demand": {
-                "start_of_availability": "2025-05-24T03:00:00+0000",
-                "end_of_availability": "2032-05-15T03:00:00+0000",
+                "start_of_availability": "2025-10-23T05:00:00+0000",
+                "end_of_availability": "2027-03-31T05:00:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002crtg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l5k0&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "fallback_image_url": "http://img.freeviewplay.net/ee9aac04b2d90a2d5ca8b2eb9db99a164",
-              "uuid": "74939db65eb79745e66daa7530395eb6"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "fallback_image_url": "http://img.freeviewplay.net/eaa9d8693b7a24980a525010011d6f2b9",
+              "uuid": "6a1b633210cb8b6745638cfa488333bc"
             }
           },
           {
-            "startTime": "2025-10-24T18:25:00+0000",
-            "duration": 15,
-            "name": "Shaun the Sheep",
-            "description": "Specials: Shirleyverse",
+            "startTime": "2025-10-25T20:00:00+0000",
+            "duration": 30,
+            "name": "Gavin & Stacey",
+            "description": "Series 1: Episode 5",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002cs3s",
-              "event_locator": "dvb://233a..9198;6172",
-              "main_title": "Shaun the Sheep",
-              "secondary_title": "Specials: Shirleyverse",
-              "image_url": "https://img.freeviewplay.tv/p28421a1fc8a24eebc8d5ca39a016403c",
-              "start_time": "2025-10-24T18:25:00+0000",
-              "duration": "PT15M",
+              "program_id": "crid://bbc.co.uk/icc/episode/b007q875",
+              "event_locator": "dvb://233a..9198;6207",
+              "main_title": "Gavin & Stacey",
+              "secondary_title": "Series 1: Episode 5",
+              "image_url": "https://img.freeviewplay.tv/p30c9902e669158c6e1a8775a814c1931",
+              "start_time": "2025-10-25T20:00:00+0000",
+              "duration": "PT30M",
               "on_demand": {
-                "start_of_availability": "2025-05-24T03:00:00+0000",
-                "end_of_availability": "2032-05-15T04:55:00+0000",
+                "start_of_availability": "2024-01-31T05:45:00+0000",
+                "end_of_availability": "2027-02-14T06:05:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002cs3s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b007q875&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "fallback_image_url": "http://img.freeviewplay.net/eca9f6b3246b949459bb6c1d3c56664ac",
-              "uuid": "dc45ca1235ec56af9fefceed1d2f6ac6"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/ee3a85d7b7eb501472c02e8f3e7642322",
+              "uuid": "b2fa94d441a9d5319dd829a6d3ad64be"
             }
           },
           {
-            "startTime": "2025-10-24T18:40:00+0000",
-            "duration": 80,
-            "name": "Shaun the Sheep: Farmageddon",
-            "description": "Shaun the Sheep: Farmageddon",
+            "startTime": "2025-10-25T20:30:00+0000",
+            "duration": 30,
+            "name": "Gavin & Stacey",
+            "description": "Series 1: Episode 6",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m001gn3s",
-              "event_locator": "dvb://233a..9198;6173",
-              "main_title": "Shaun the Sheep: Farmageddon",
-              "secondary_title": "Shaun the Sheep: Farmageddon",
-              "image_url": "https://img.freeviewplay.tv/pc78169015903f6db79e7a8329556affc",
-              "start_time": "2025-10-24T18:40:00+0000",
-              "duration": "PT1H20M",
+              "program_id": "crid://bbc.co.uk/icc/episode/b007rj82",
+              "event_locator": "dvb://233a..9198;6209",
+              "main_title": "Gavin & Stacey",
+              "secondary_title": "Series 1: Episode 6",
+              "image_url": "https://img.freeviewplay.tv/p068046a79f858c7b5540f4d3c5a48a06",
+              "start_time": "2025-10-25T20:30:00+0000",
+              "duration": "PT30M",
               "on_demand": {
-                "start_of_availability": "2025-10-06T05:00:00+0000",
-                "end_of_availability": "2025-11-05T05:59:00+0000",
+                "start_of_availability": "2024-01-31T05:45:00+0000",
+                "end_of_availability": "2027-02-14T06:05:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001gn3s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b007rj82&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "fallback_image_url": "http://img.freeviewplay.net/eb6539e255c70847aa46fb2fbe9eacfb1",
-              "uuid": "c02a67604c22f504e9cbbe00d6fc64e1"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/ee3a85d7b7eb501472c02e8f3e7642322",
+              "uuid": "abda0685a9957de7dde7d4f152474d36"
             }
           },
           {
-            "startTime": "2025-10-24T20:00:00+0000",
-            "duration": 240,
-            "name": "Cycling: Track World Championships",
-            "description": "2025: Day 3: Women's Omnium Final, Individual Pursuit and Sprint Finals",
+            "startTime": "2025-10-25T21:00:00+0000",
+            "duration": 25,
+            "name": "Daddy Issues",
+            "description": "Series 1: 1. Happy Tears",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l6bv",
-              "event_locator": "dvb://233a..9198;6174",
-              "main_title": "Cycling: Track World Championships",
-              "secondary_title": "2025: Day 3: Women's Omnium Final, Individual Pursuit and Sprint Finals",
-              "image_url": "https://img.freeviewplay.tv/pdb611bf14a1f8c58019ad251fe6fe420",
-              "start_time": "2025-10-24T20:00:00+0000",
-              "duration": "PT4H",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0021k8k",
+              "event_locator": "dvb://233a..9198;620b",
+              "main_title": "Daddy Issues",
+              "secondary_title": "Series 1: 1. Happy Tears",
+              "image_url": "https://img.freeviewplay.tv/p97a4ffbb8bca6a6d51e7723a4e5e34d7",
+              "start_time": "2025-10-25T21:00:00+0000",
+              "duration": "PT25M",
               "on_demand": {
-                "start_of_availability": "2025-10-25T00:00:10+0000",
-                "end_of_availability": "2025-11-24T01:00:10+0000",
+                "start_of_availability": "2024-08-15T04:45:00+0000",
+                "end_of_availability": "2026-08-15T04:45:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l6bv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0021k8k&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-              "fallback_image_url": "http://img.freeviewplay.net/e38825eb2c25799313f031d0cf3740bff",
-              "uuid": "e56a60169c462d3d76f5580fa9f5ea0f"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e352fde3404fc0a83d3c87f6b44f435a0",
+              "uuid": "9115f36298b9281b3a28fecbce5f8933"
+            }
+          },
+          {
+            "startTime": "2025-10-25T21:25:00+0000",
+            "duration": 25,
+            "name": "Daddy Issues",
+            "description": "Series 1: 2. Normal Men",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0021k8m",
+              "event_locator": "dvb://233a..9198;620d",
+              "main_title": "Daddy Issues",
+              "secondary_title": "Series 1: 2. Normal Men",
+              "image_url": "https://img.freeviewplay.tv/p8645d4db274da03f0e13c478581714d3",
+              "start_time": "2025-10-25T21:25:00+0000",
+              "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2024-08-15T04:45:00+0000",
+                "end_of_availability": "2026-08-15T04:45:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0021k8m&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e352fde3404fc0a83d3c87f6b44f435a0",
+              "uuid": "f96fd4690da44f2e5712a9a1d7655cad"
+            }
+          },
+          {
+            "startTime": "2025-10-25T21:50:00+0000",
+            "duration": 70,
+            "name": "RuPaul's Drag Race UK",
+            "description": "Series 7: Episode 5",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002l5l6",
+              "event_locator": "dvb://233a..9198;620f",
+              "main_title": "RuPaul's Drag Race UK",
+              "secondary_title": "Series 7: Episode 5",
+              "image_url": "https://img.freeviewplay.tv/pb37ec99f249195d5a364f337559d494d",
+              "start_time": "2025-10-25T21:50:00+0000",
+              "duration": "PT1H10M",
+              "on_demand": {
+                "start_of_availability": "2025-10-23T19:00:00+0000",
+                "end_of_availability": "2027-10-23T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l5l6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/eb7d978b9801b537fe9ddc864bf766f1b",
+              "uuid": "c54084af478e78e059abbd6eb269f6b3"
+            }
+          },
+          {
+            "startTime": "2025-10-25T23:00:00+0000",
+            "duration": 30,
+            "name": "BBC New Comedy Awards",
+            "description": "2025: 1. West - Bristol",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kwhj",
+              "event_locator": "dvb://233a..9198;6211",
+              "main_title": "BBC New Comedy Awards",
+              "secondary_title": "2025: 1. West - Bristol",
+              "image_url": "https://img.freeviewplay.tv/p14dfd96fa9afd1802612565eab42563c",
+              "start_time": "2025-10-25T23:00:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-15T05:00:00+0000",
+                "end_of_availability": "2027-10-15T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kwhj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e2f616e5433163ca97ebe79b91b23b604",
+              "uuid": "d8bd8a86a8724be5b21070f9b98d9482"
+            }
+          },
+          {
+            "startTime": "2025-10-25T23:30:00+0000",
+            "duration": 30,
+            "name": "BBC New Comedy Awards",
+            "description": "2025: 2. Midlands - Birmingham",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002l6by",
+              "event_locator": "dvb://233a..9198;6213",
+              "main_title": "BBC New Comedy Awards",
+              "secondary_title": "2025: 2. Midlands - Birmingham",
+              "image_url": "https://img.freeviewplay.tv/p1b91683c4a6984b1dad3bc29067d30d6",
+              "start_time": "2025-10-25T23:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-22T05:00:00+0000",
+                "end_of_availability": "2027-10-15T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l6by&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e2f616e5433163ca97ebe79b91b23b604",
+              "uuid": "bd1a7ee46ba4d51e38589ef59aa9e673"
             }
           }
         ]

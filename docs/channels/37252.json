@@ -1,1012 +1,361 @@
 {
   "channel": {
     "id": "37252",
-    "name": "BBC News",
-    "logo": "img/channels/placeholder.svg"
+    "name": "BBC News"
   },
   "events": [
     {
-      "startTime": "2025-10-24T00:00:00+0000",
+      "startTime": "2025-10-25T00:00:00+0000",
       "duration": 30,
       "name": "BBC News",
-      "description": "24/10/2025",
+      "description": "25/10/2025",
       "synopsis": "",
-      "image": "img/programmes/502c967bfc4c52175f4d7b7a62d9718a1396af37.jpg",
+      "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8ks",
-        "event_locator": "dvb://233a..9184;e5d",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk8q",
+        "event_locator": "dvb://233a..9184;ea8",
         "main_title": "BBC News",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-        "start_time": "2025-10-24T00:00:00+0000",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T00:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "79fc3b45f7947bb61ed3823c796585c1"
+        "uuid": "87e47079de941dcaa84ec4d6ef63f79a"
       }
     },
     {
-      "startTime": "2025-10-24T00:30:00+0000",
+      "startTime": "2025-10-25T00:30:00+0000",
       "duration": 30,
-      "name": "The Media Show",
-      "description": "The Gaza Ceasefire",
+      "name": "Tech Now",
+      "description": "25/10/2025",
       "synopsis": "",
-      "image": "img/programmes/efd36cfe9e794da034e700e7ae4dd34f7b4f401c.jpg",
+      "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l87d",
-        "event_locator": "dvb://233a..9184;e5e",
-        "main_title": "The Media Show",
-        "secondary_title": "The Gaza Ceasefire",
-        "image_url": "https://img.freeviewplay.tv/p22272b1c75e11db0b5bd27ecd03fc889",
-        "start_time": "2025-10-24T00:30:00+0000",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk8s",
+        "event_locator": "dvb://233a..9184;ea9",
+        "main_title": "Tech Now",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pe2d3ddd13d86db2cf2cfa6d96fd1fd86",
+        "start_time": "2025-10-25T00:30:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/eede0e7d70f8c3fe8d46f0f7cd70a4aaa",
+        "uuid": "340372ba1e58adac271e4e07948cb66f"
+      }
+    },
+    {
+      "startTime": "2025-10-25T01:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk8v",
+        "event_locator": "dvb://233a..9184;eaa",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T01:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "67cf885f149c79791a521294a0c19465"
+      }
+    },
+    {
+      "startTime": "2025-10-25T01:30:00+0000",
+      "duration": 30,
+      "name": "Clive Myrie’s Caribbean Adventure",
+      "description": "Series 1: 1. Blue Mountains - Jamaica",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m001zpmp",
+        "event_locator": "dvb://233a..9184;fe0",
+        "main_title": "Clive Myrie’s Caribbean Adventure",
+        "secondary_title": "Series 1: 1. Blue Mountains - Jamaica",
+        "image_url": "https://img.freeviewplay.tv/p44c007531a180dd740d06bf822f81be3",
+        "start_time": "2025-10-25T01:30:00+0000",
         "duration": "PT30M",
         "on_demand": {
-          "start_of_availability": "2025-10-18T03:59:45+0000",
-          "end_of_availability": "2026-10-18T02:59:45+0000",
+          "start_of_availability": "2025-05-27T04:45:00+0000",
+          "end_of_availability": "2026-05-27T04:59:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l87d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001zpmp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e4559fdd760ef8cbb66aa4e01f9309059",
+        "uuid": "88b7e5b3563fdda0c8865223dd3eeb62"
+      }
+    },
+    {
+      "startTime": "2025-10-25T02:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk8y",
+        "event_locator": "dvb://233a..9184;eac",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T02:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "4ec31476bcdf52557fcfc56f5681cae8"
+      }
+    },
+    {
+      "startTime": "2025-10-25T02:30:00+0000",
+      "duration": 30,
+      "name": "On the Front Line",
+      "description": "Fighting the Phone Snatchers",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lgmk",
+        "event_locator": "dvb://233a..9184;ead",
+        "main_title": "On the Front Line",
+        "secondary_title": "Fighting the Phone Snatchers",
+        "image_url": "https://img.freeviewplay.tv/p7ddf64f7920c15bc57423763b5c74a53",
+        "start_time": "2025-10-25T02:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-20T23:01:00+0000",
+          "end_of_availability": "2026-10-20T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lgmk&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ee90cb89c71198abf6deeef34d55d495d",
+        "uuid": "d72158ae3e41a4deb5726f03be547bb6"
+      }
+    },
+    {
+      "startTime": "2025-10-25T03:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk90",
+        "event_locator": "dvb://233a..9184;eae",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T03:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "90ec1f4aee2c3105ea4d514589ea449e"
+      }
+    },
+    {
+      "startTime": "2025-10-25T03:30:00+0000",
+      "duration": 30,
+      "name": "The Media Show",
+      "description": "When the Royals Lose Control of the Story",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk92",
+        "event_locator": "dvb://233a..9184;eaf",
+        "main_title": "The Media Show",
+        "secondary_title": "When the Royals Lose Control of the Story",
+        "image_url": "https://img.freeviewplay.tv/p32a7db4840d13f1e14f768aee139a4d8",
+        "start_time": "2025-10-25T03:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-25T04:00:00+0000",
+          "end_of_availability": "2026-10-25T04:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lk92&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e1035ed55e9766f09bc5f3ea61a7cb5be",
-        "uuid": "2869db700f46b76f9368d7a8cc6b4f30"
+        "uuid": "e4fe7df988e10feeba737eb73e7b313a"
       }
     },
     {
-      "startTime": "2025-10-24T01:00:00+0000",
-      "duration": 30,
-      "name": "Newsday",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/396cc534680eb42a07432130b498617d1d4ad455.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8kv",
-        "event_locator": "dvb://233a..9184;e5f",
-        "main_title": "Newsday",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p1ff44b3b5268efe5c6aeb468f0017b95",
-        "start_time": "2025-10-24T01:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e654fc7febc27b315df7683160ca50ac7",
-        "uuid": "018332b243771a8b80f9206a92e6dc7c"
-      }
-    },
-    {
-      "startTime": "2025-10-24T01:30:00+0000",
-      "duration": 15,
-      "name": "Business Today",
-      "description": "06/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/1d7e405c08af360ee59e8f69cceac058e4b0b273.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8kx",
-        "event_locator": "dvb://233a..9184;e60",
-        "main_title": "Business Today",
-        "secondary_title": "06/10/2025",
-        "image_url": "https://img.freeviewplay.tv/pdbed001914a1f899b01c0d9e89b12eab",
-        "start_time": "2025-10-24T01:30:00+0000",
-        "duration": "PT15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e54b5132fcab4f8da3bf267eb2c588388",
-        "uuid": "954cbb5cede66cb991c7ea4838817733"
-      }
-    },
-    {
-      "startTime": "2025-10-24T01:45:00+0000",
-      "duration": 15,
-      "name": "BBC Sport",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/b34e3f45b75b0ff386d6bd3e9bafe6f94f567367.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8kz",
-        "event_locator": "dvb://233a..9184;e61",
-        "main_title": "BBC Sport",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p12967ddfef603c60add4152480857246",
-        "start_time": "2025-10-24T01:45:00+0000",
-        "duration": "PT15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e28d53744553905c9d16625bf3609003b",
-        "uuid": "50b842b262432f08916f342996bd2f83"
-      }
-    },
-    {
-      "startTime": "2025-10-24T02:00:00+0000",
-      "duration": 30,
-      "name": "Newsday",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/396cc534680eb42a07432130b498617d1d4ad455.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8l1",
-        "event_locator": "dvb://233a..9184;e62",
-        "main_title": "Newsday",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p1ff44b3b5268efe5c6aeb468f0017b95",
-        "start_time": "2025-10-24T02:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e654fc7febc27b315df7683160ca50ac7",
-        "uuid": "e38cab5055b133951e30522fc2621ace"
-      }
-    },
-    {
-      "startTime": "2025-10-24T02:30:00+0000",
-      "duration": 15,
-      "name": "Business Today",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/f0204480ab8a6859d712c9561d187375618a7d46.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8l3",
-        "event_locator": "dvb://233a..9184;e63",
-        "main_title": "Business Today",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p34d43e10eda010ac11692f5d4e8ccca0",
-        "start_time": "2025-10-24T02:30:00+0000",
-        "duration": "PT15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e54b5132fcab4f8da3bf267eb2c588388",
-        "uuid": "3631b4d6fbadb08bbafc6f8aeb416b1a"
-      }
-    },
-    {
-      "startTime": "2025-10-24T02:45:00+0000",
-      "duration": 15,
-      "name": "BBC Sport",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/b34e3f45b75b0ff386d6bd3e9bafe6f94f567367.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8kz",
-        "event_locator": "dvb://233a..9184;e64",
-        "main_title": "BBC Sport",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p12967ddfef603c60add4152480857246",
-        "start_time": "2025-10-24T02:45:00+0000",
-        "duration": "PT15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e28d53744553905c9d16625bf3609003b",
-        "uuid": "19b4ce47793f717c96b95c4d4081174d"
-      }
-    },
-    {
-      "startTime": "2025-10-24T03:00:00+0000",
-      "duration": 30,
-      "name": "Newsday",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/396cc534680eb42a07432130b498617d1d4ad455.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8l5",
-        "event_locator": "dvb://233a..9184;e65",
-        "main_title": "Newsday",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p1ff44b3b5268efe5c6aeb468f0017b95",
-        "start_time": "2025-10-24T03:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e654fc7febc27b315df7683160ca50ac7",
-        "uuid": "640001e5940799e5ce108d85c0921783"
-      }
-    },
-    {
-      "startTime": "2025-10-24T03:30:00+0000",
-      "duration": 15,
-      "name": "Business Today",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/f0204480ab8a6859d712c9561d187375618a7d46.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8l7",
-        "event_locator": "dvb://233a..9184;e66",
-        "main_title": "Business Today",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p34d43e10eda010ac11692f5d4e8ccca0",
-        "start_time": "2025-10-24T03:30:00+0000",
-        "duration": "PT15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e54b5132fcab4f8da3bf267eb2c588388",
-        "uuid": "a941d1121a8feefd85728299a4766169"
-      }
-    },
-    {
-      "startTime": "2025-10-24T03:45:00+0000",
-      "duration": 15,
-      "name": "BBC Sport",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/b34e3f45b75b0ff386d6bd3e9bafe6f94f567367.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8kz",
-        "event_locator": "dvb://233a..9184;e67",
-        "main_title": "BBC Sport",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p12967ddfef603c60add4152480857246",
-        "start_time": "2025-10-24T03:45:00+0000",
-        "duration": "PT15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e28d53744553905c9d16625bf3609003b",
-        "uuid": "c486285bae7adf91c3beb7ec815731f8"
-      }
-    },
-    {
-      "startTime": "2025-10-24T04:00:00+0000",
+      "startTime": "2025-10-25T04:00:00+0000",
       "duration": 30,
       "name": "BBC News",
-      "description": "24/10/2025",
+      "description": "25/10/2025",
       "synopsis": "",
-      "image": "img/programmes/502c967bfc4c52175f4d7b7a62d9718a1396af37.jpg",
+      "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8l9",
-        "event_locator": "dvb://233a..9184;e68",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk94",
+        "event_locator": "dvb://233a..9184;eb0",
         "main_title": "BBC News",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-        "start_time": "2025-10-24T04:00:00+0000",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T04:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "2d5e2da7d78f3ebc42299d277f503354"
+        "uuid": "650029b67a221a3c478adb4305b70d22"
       }
     },
     {
-      "startTime": "2025-10-24T04:30:00+0000",
+      "startTime": "2025-10-25T04:30:00+0000",
       "duration": 30,
-      "name": "Business Today",
-      "description": "24/10/2025",
+      "name": "The Travel Show",
+      "description": "Norway",
       "synopsis": "",
-      "image": "img/programmes/f0204480ab8a6859d712c9561d187375618a7d46.jpg",
+      "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8lc",
-        "event_locator": "dvb://233a..9184;e69",
-        "main_title": "Business Today",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p34d43e10eda010ac11692f5d4e8ccca0",
-        "start_time": "2025-10-24T04:30:00+0000",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk96",
+        "event_locator": "dvb://233a..9184;eb1",
+        "main_title": "The Travel Show",
+        "secondary_title": "Norway",
+        "image_url": "https://img.freeviewplay.tv/p9dad9c01f8c87eb55ed9dfdbc5ceb17a",
+        "start_time": "2025-10-25T04:30:00+0000",
         "duration": "PT30M",
         "on_demand": {
-          "start_of_availability": "2025-10-24T05:00:00+0000",
-          "end_of_availability": "2025-11-23T05:00:00+0000",
+          "start_of_availability": "2025-10-25T04:59:56+0000",
+          "end_of_availability": "2026-10-25T04:59:56+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l8lc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lk96&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e54b5132fcab4f8da3bf267eb2c588388",
-        "uuid": "b9ebf842fc5eb31a81d91ae29bbb157f"
+        "fallback_image_url": "http://img.freeviewplay.net/ee589718ab2a2ce184b30bd9edff06305",
+        "uuid": "9123132184ffe2d76d0b2221e97e22f9"
       }
     },
     {
-      "startTime": "2025-10-24T05:00:00+0000",
+      "startTime": "2025-10-25T05:00:00+0000",
       "duration": 180,
       "name": "Breakfast",
-      "description": "24/10/2025",
+      "description": "25/10/2025",
       "synopsis": "",
-      "image": "img/programmes/f30e9f2e0ff581924ea2a859bca346bec7a0bff2.jpg",
+      "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l4dr",
-        "event_locator": "dvb://233a..9184;e6a",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lg2j",
+        "event_locator": "dvb://233a..9184;eb2",
         "main_title": "Breakfast",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p6f05b92e00d44f54c96f77422cf8d14d",
-        "start_time": "2025-10-24T05:00:00+0000",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pa4877f8902b085390df4a732422140eb",
+        "start_time": "2025-10-25T05:00:00+0000",
         "duration": "PT3H",
         "on_demand": {
-          "start_of_availability": "2025-10-24T08:29:00+0000",
-          "end_of_availability": "2025-10-25T08:29:00+0000",
+          "start_of_availability": "2025-10-25T09:00:00+0000",
+          "end_of_availability": "2025-10-26T10:00:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l4dr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lg2j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e3a42ed932bf359b1a037197b9b384851",
-        "uuid": "74cce27d5373afb7bb35e228d66b53f7"
+        "uuid": "797a4897233ea640f531e93553696e78"
       }
     },
     {
-      "startTime": "2025-10-24T08:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/502c967bfc4c52175f4d7b7a62d9718a1396af37.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8lw",
-        "event_locator": "dvb://233a..9184;e6b",
-        "main_title": "BBC News",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-        "start_time": "2025-10-24T08:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "29a966dd871ca3550616de8b72fb7091"
-      }
-    },
-    {
-      "startTime": "2025-10-24T08:30:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/502c967bfc4c52175f4d7b7a62d9718a1396af37.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8ly",
-        "event_locator": "dvb://233a..9184;e6c",
-        "main_title": "BBC News",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-        "start_time": "2025-10-24T08:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "9896ff4a77397e80638050a63f940236"
-      }
-    },
-    {
-      "startTime": "2025-10-24T09:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/502c967bfc4c52175f4d7b7a62d9718a1396af37.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8m0",
-        "event_locator": "dvb://233a..9184;e6d",
-        "main_title": "BBC News",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-        "start_time": "2025-10-24T09:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "a202b1e410e4f3fc04f9c45650eaf57f"
-      }
-    },
-    {
-      "startTime": "2025-10-24T09:30:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/502c967bfc4c52175f4d7b7a62d9718a1396af37.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8m2",
-        "event_locator": "dvb://233a..9184;e6e",
-        "main_title": "BBC News",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-        "start_time": "2025-10-24T09:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "2dcfec781e7a9f5a430f722aced8f647"
-      }
-    },
-    {
-      "startTime": "2025-10-24T10:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/502c967bfc4c52175f4d7b7a62d9718a1396af37.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8m4",
-        "event_locator": "dvb://233a..9184;e6f",
-        "main_title": "BBC News",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-        "start_time": "2025-10-24T10:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "729d69ccf6a018681c6bf851fc964991"
-      }
-    },
-    {
-      "startTime": "2025-10-24T10:30:00+0000",
-      "duration": 15,
-      "name": "Business Today",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/f0204480ab8a6859d712c9561d187375618a7d46.jpg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8m6",
-        "event_locator": "dvb://233a..9184;e70",
-        "main_title": "Business Today",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p34d43e10eda010ac11692f5d4e8ccca0",
-        "start_time": "2025-10-24T10:30:00+0000",
-        "duration": "PT15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e54b5132fcab4f8da3bf267eb2c588388",
-        "uuid": "5dc1837b1d474642654543c54de3d43b"
-      }
-    },
-    {
-      "startTime": "2025-10-24T10:45:00+0000",
-      "duration": 15,
-      "name": "BBC News",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8m8",
-        "event_locator": "dvb://233a..9184;e71",
-        "main_title": "BBC News",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-        "start_time": "2025-10-24T10:45:00+0000",
-        "duration": "PT15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "9552c1c788a26164a636c8df3bce480f"
-      }
-    },
-    {
-      "startTime": "2025-10-24T11:00:00+0000",
-      "duration": 30,
-      "name": "BBC News Now",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8mb",
-        "event_locator": "dvb://233a..9184;e72",
-        "main_title": "BBC News Now",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p624c6b160acea30f4764a8a8e7c7a5a2",
-        "start_time": "2025-10-24T11:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e439fdc9f55b42c5fed19dbbe19f7a034",
-        "uuid": "8814ddcee4120afbc1b4996a054573e7"
-      }
-    },
-    {
-      "startTime": "2025-10-24T11:30:00+0000",
-      "duration": 30,
-      "name": "BBC News Now",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8md",
-        "event_locator": "dvb://233a..9184;e73",
-        "main_title": "BBC News Now",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p624c6b160acea30f4764a8a8e7c7a5a2",
-        "start_time": "2025-10-24T11:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e439fdc9f55b42c5fed19dbbe19f7a034",
-        "uuid": "3fff70c4341b7f4e4fbe3c81c7472fc7"
-      }
-    },
-    {
-      "startTime": "2025-10-24T12:00:00+0000",
+      "startTime": "2025-10-25T08:00:00+0000",
       "duration": 60,
-      "name": "BBC News at One",
-      "description": "24/10/2025",
+      "name": "BBC News",
+      "description": "25/10/2025",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l4dw",
-        "event_locator": "dvb://233a..9184;e74",
-        "main_title": "BBC News at One",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p9e4cda2db4a8082eecd68f1a5a8ca546",
-        "start_time": "2025-10-24T12:00:00+0000",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk9j",
+        "event_locator": "dvb://233a..9184;eb3",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T08:00:00+0000",
         "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2025-10-24T13:00:00+0000",
-          "end_of_availability": "2025-10-25T12:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l4dw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e56473492b31a13b7e920b6f6bedb1762",
-        "uuid": "fd7e4feee6667f1add689662472d164d"
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "80c99f6ebaa58cb4940d11c2e261eae7"
       }
     },
     {
-      "startTime": "2025-10-24T13:00:00+0000",
-      "duration": 30,
-      "name": "BBC News Now",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8ml",
-        "event_locator": "dvb://233a..9184;e75",
-        "main_title": "BBC News Now",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p624c6b160acea30f4764a8a8e7c7a5a2",
-        "start_time": "2025-10-24T13:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e439fdc9f55b42c5fed19dbbe19f7a034",
-        "uuid": "c350a972f918edc249fbfceb46f35221"
-      }
-    },
-    {
-      "startTime": "2025-10-24T13:30:00+0000",
-      "duration": 15,
-      "name": "Business Today - NYSE Opening Bell",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8mn",
-        "event_locator": "dvb://233a..9184;e76",
-        "main_title": "Business Today - NYSE Opening Bell",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/pfdd3fda9e9ac1571d8c74146a94beeda",
-        "start_time": "2025-10-24T13:30:00+0000",
-        "duration": "PT15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e3ed133e99c6253f012e1d2320799cd03",
-        "uuid": "2291a2731a8b304ad398dc1c77c32a74"
-      }
-    },
-    {
-      "startTime": "2025-10-24T13:45:00+0000",
-      "duration": 15,
-      "name": "BBC News Now",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8mq",
-        "event_locator": "dvb://233a..9184;e77",
-        "main_title": "BBC News Now",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p624c6b160acea30f4764a8a8e7c7a5a2",
-        "start_time": "2025-10-24T13:45:00+0000",
-        "duration": "PT15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e439fdc9f55b42c5fed19dbbe19f7a034",
-        "uuid": "55889a8c09bd19898ae2b694ff52aad3"
-      }
-    },
-    {
-      "startTime": "2025-10-24T14:00:00+0000",
-      "duration": 30,
-      "name": "Verified Live",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8ms",
-        "event_locator": "dvb://233a..9184;e78",
-        "main_title": "Verified Live",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/pd347a9cf5c4061db4cda5dce3783979a",
-        "start_time": "2025-10-24T14:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ed93150d5baaf9e4ea9be94a8058c0de9",
-        "uuid": "905e984289ceb2f9b23c1136a329c8e8"
-      }
-    },
-    {
-      "startTime": "2025-10-24T14:30:00+0000",
-      "duration": 30,
-      "name": "Verified Live",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8mv",
-        "event_locator": "dvb://233a..9184;e79",
-        "main_title": "Verified Live",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/pd347a9cf5c4061db4cda5dce3783979a",
-        "start_time": "2025-10-24T14:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ed93150d5baaf9e4ea9be94a8058c0de9",
-        "uuid": "b1932713a48aae3392c7249b3c71b271"
-      }
-    },
-    {
-      "startTime": "2025-10-24T15:00:00+0000",
-      "duration": 30,
-      "name": "Verified Live",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8mx",
-        "event_locator": "dvb://233a..9184;e7a",
-        "main_title": "Verified Live",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/pd347a9cf5c4061db4cda5dce3783979a",
-        "start_time": "2025-10-24T15:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ed93150d5baaf9e4ea9be94a8058c0de9",
-        "uuid": "18a66f49321809ab69f7796360adbb4b"
-      }
-    },
-    {
-      "startTime": "2025-10-24T15:30:00+0000",
-      "duration": 30,
-      "name": "Verified Live",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8mz",
-        "event_locator": "dvb://233a..9184;e7b",
-        "main_title": "Verified Live",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/pd347a9cf5c4061db4cda5dce3783979a",
-        "start_time": "2025-10-24T15:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ed93150d5baaf9e4ea9be94a8058c0de9",
-        "uuid": "9bfb8c9a9ec414d0f6892e46c9249e77"
-      }
-    },
-    {
-      "startTime": "2025-10-24T16:00:00+0000",
-      "duration": 30,
-      "name": "Verified Live",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8n1",
-        "event_locator": "dvb://233a..9184;e7c",
-        "main_title": "Verified Live",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/pd347a9cf5c4061db4cda5dce3783979a",
-        "start_time": "2025-10-24T16:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ed93150d5baaf9e4ea9be94a8058c0de9",
-        "uuid": "4b4f4f10e08fad175e473073533ecdaa"
-      }
-    },
-    {
-      "startTime": "2025-10-24T16:30:00+0000",
+      "startTime": "2025-10-25T09:00:00+0000",
       "duration": 30,
       "name": "BBC News",
-      "description": "24/10/2025",
+      "description": "25/10/2025",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002lb08",
-        "event_locator": "dvb://233a..9184;e7d",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk9l",
+        "event_locator": "dvb://233a..9184;eb4",
         "main_title": "BBC News",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-        "start_time": "2025-10-24T16:30:00+0000",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T09:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "e4bbf85c62321fa4cec6c9365326e9fd"
+        "uuid": "4d66cf493a5c2f166d0b2396d7a43270"
       }
     },
     {
-      "startTime": "2025-10-24T17:00:00+0000",
-      "duration": 30,
-      "name": "BBC News at Six",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l4f1",
-        "event_locator": "dvb://233a..9184;e7e",
-        "main_title": "BBC News at Six",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/pa5bdb0b7331860fff45dbd7d73c4d2ed",
-        "start_time": "2025-10-24T17:00:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2025-10-24T17:31:30+0000",
-          "end_of_availability": "2025-10-25T17:31:30+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l4f1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/eb202a7d41a1725d703938617a1fce87b",
-        "uuid": "05856b45109b0e68cc0bf428454f4c85"
-      }
-    },
-    {
-      "startTime": "2025-10-24T17:30:00+0000",
-      "duration": 30,
-      "name": "The World Today with Maryam Moshiri",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8n7",
-        "event_locator": "dvb://233a..9184;e7f",
-        "main_title": "The World Today with Maryam Moshiri",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/pd7eb663403e90ff5ace03f3439a34fed",
-        "start_time": "2025-10-24T17:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/efaf3920c24cb768f86f81d8d163d2946",
-        "uuid": "5ec78f740fde22ee67adf52a3f2bc9c7"
-      }
-    },
-    {
-      "startTime": "2025-10-24T18:00:00+0000",
-      "duration": 30,
-      "name": "The World Today with Maryam Moshiri",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8n9",
-        "event_locator": "dvb://233a..9184;e80",
-        "main_title": "The World Today with Maryam Moshiri",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/pd7eb663403e90ff5ace03f3439a34fed",
-        "start_time": "2025-10-24T18:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/efaf3920c24cb768f86f81d8d163d2946",
-        "uuid": "def361858390bed4162363df28d9b040"
-      }
-    },
-    {
-      "startTime": "2025-10-24T18:30:00+0000",
-      "duration": 30,
-      "name": "The World Today with Maryam Moshiri",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8nc",
-        "event_locator": "dvb://233a..9184;e81",
-        "main_title": "The World Today with Maryam Moshiri",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/pd7eb663403e90ff5ace03f3439a34fed",
-        "start_time": "2025-10-24T18:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/efaf3920c24cb768f86f81d8d163d2946",
-        "uuid": "71d91fb4796012dd090cc42a97699423"
-      }
-    },
-    {
-      "startTime": "2025-10-24T19:00:00+0000",
-      "duration": 30,
-      "name": "The Context",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8nf",
-        "event_locator": "dvb://233a..9184;e82",
-        "main_title": "The Context",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p0929987fba2469f953862fcac2095183",
-        "start_time": "2025-10-24T19:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e5ac5b83c146f2460d273ca5303829ed2",
-        "uuid": "9d61eaee50462005943cd8073c7bad03"
-      }
-    },
-    {
-      "startTime": "2025-10-24T19:30:00+0000",
-      "duration": 30,
-      "name": "The Context",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8nh",
-        "event_locator": "dvb://233a..9184;e83",
-        "main_title": "The Context",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p0929987fba2469f953862fcac2095183",
-        "start_time": "2025-10-24T19:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e5ac5b83c146f2460d273ca5303829ed2",
-        "uuid": "5c021c8a57ae3fa0215bf55d9c5be6f1"
-      }
-    },
-    {
-      "startTime": "2025-10-24T20:00:00+0000",
-      "duration": 30,
-      "name": "The Context USA",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8nk",
-        "event_locator": "dvb://233a..9184;e84",
-        "main_title": "The Context USA",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p7fa937aeab829ad4dab722b035c2a0ed",
-        "start_time": "2025-10-24T20:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e71e4679c3f70d40d2a6ebf38b71823cc",
-        "uuid": "05252ebf5b9f479f7548683accfe303d"
-      }
-    },
-    {
-      "startTime": "2025-10-24T20:30:00+0000",
-      "duration": 30,
-      "name": "The Context USA",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8nm",
-        "event_locator": "dvb://233a..9184;e85",
-        "main_title": "The Context USA",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p7fa937aeab829ad4dab722b035c2a0ed",
-        "start_time": "2025-10-24T20:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e71e4679c3f70d40d2a6ebf38b71823cc",
-        "uuid": "2c4d6b5e1b2edfbf9a3cd397f82d59dc"
-      }
-    },
-    {
-      "startTime": "2025-10-24T21:00:00+0000",
-      "duration": 30,
-      "name": "BBC News at Ten",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l4f5",
-        "event_locator": "dvb://233a..9184;e86",
-        "main_title": "BBC News at Ten",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/paf9731d582db0d232c899f0130eda210",
-        "start_time": "2025-10-24T21:00:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2025-10-24T21:31:30+0000",
-          "end_of_availability": "2025-10-25T21:31:30+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l4f5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e0693ec4b670370a7c0d4f7ea008e6df0",
-        "uuid": "a5f0b88c7e15701098a2ab48196fe650"
-      }
-    },
-    {
-      "startTime": "2025-10-24T21:30:00+0000",
-      "duration": 30,
-      "name": "Newsnight",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l4jp",
-        "event_locator": "dvb://233a..9184;e87",
-        "main_title": "Newsnight",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/pae061ce40c7f3fa370d1841b0da090c5",
-        "start_time": "2025-10-24T21:30:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2025-10-24T22:00:00+0000",
-          "end_of_availability": "2026-10-24T22:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l4jp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/edc3515102cb6ee53ee46f2da1e4fa6b1",
-        "uuid": "3de4610814b15ee643d07c8d6942ad03"
-      }
-    },
-    {
-      "startTime": "2025-10-24T22:00:00+0000",
-      "duration": 30,
-      "name": "BBC World News America",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8ns",
-        "event_locator": "dvb://233a..9184;e88",
-        "main_title": "BBC World News America",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p9d2f8e9a1382e5c19abfa6222d176f82",
-        "start_time": "2025-10-24T22:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ea86a43038ab44043d159435fe79f1ade",
-        "uuid": "988bd93ff4269b484eed58bf179f22ca"
-      }
-    },
-    {
-      "startTime": "2025-10-24T22:30:00+0000",
-      "duration": 30,
-      "name": "The President's Path",
-      "description": "24/10/2025",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8nv",
-        "event_locator": "dvb://233a..9184;e89",
-        "main_title": "The President's Path",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p824e7e2722899a1fd00b3a587afd71ea",
-        "start_time": "2025-10-24T22:30:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2025-10-24T23:00:00+0000",
-          "end_of_availability": "2025-11-23T23:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l8nv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/eb9fd87e355f384fa1cce5ae687dd76c2",
-        "uuid": "6bdd9a26ce6a572fd8f7c49b3fe426b9"
-      }
-    },
-    {
-      "startTime": "2025-10-24T23:00:00+0000",
+      "startTime": "2025-10-25T09:30:00+0000",
       "duration": 30,
       "name": "BBC News",
-      "description": "24/10/2025",
+      "description": "25/10/2025",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002l8nx",
-        "event_locator": "dvb://233a..9184;ea6",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkcn",
+        "event_locator": "dvb://233a..9184;eb5",
         "main_title": "BBC News",
-        "secondary_title": "24/10/2025",
-        "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-        "start_time": "2025-10-24T23:00:00+0000",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T09:30:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "e91f9a05dd1264258cf90a08b6edf93e"
+        "uuid": "8a71ca395e4c2c8ea2ad72c26f165fd8"
       }
     },
     {
-      "startTime": "2025-10-24T23:30:00+0000",
+      "startTime": "2025-10-25T10:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk9p",
+        "event_locator": "dvb://233a..9184;eb6",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T10:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "78d56794ec4a89477a1585a7e071eb70"
+      }
+    },
+    {
+      "startTime": "2025-10-25T10:30:00+0000",
       "duration": 30,
       "name": "Talking Business",
       "description": "24/10/2025",
@@ -1014,11 +363,11 @@
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m002l8nz",
-        "event_locator": "dvb://233a..9184;ea7",
+        "event_locator": "dvb://233a..9184;eb7",
         "main_title": "Talking Business",
         "secondary_title": "24/10/2025",
         "image_url": "https://img.freeviewplay.tv/p0fb16c0b590c3ce6bd5aea88a761886a",
-        "start_time": "2025-10-24T23:30:00+0000",
+        "start_time": "2025-10-25T10:30:00+0000",
         "duration": "PT30M",
         "on_demand": {
           "start_of_availability": "2025-10-25T00:00:00+0000",
@@ -1032,7 +381,557 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e63f29618463b8cc01ae8280001018138",
-        "uuid": "18c5091ddffa59db5ae358a385371bcf"
+        "uuid": "0d60a53fe9665eaf39d71a6e8e9c1c67"
+      }
+    },
+    {
+      "startTime": "2025-10-25T11:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk9r",
+        "event_locator": "dvb://233a..9184;eb8",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T11:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "f1a27dc478a42d776961fdba644e6e79"
+      }
+    },
+    {
+      "startTime": "2025-10-25T11:30:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkcq",
+        "event_locator": "dvb://233a..9184;eb9",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T11:30:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "459f22cabf45dbd52e3d317607206450"
+      }
+    },
+    {
+      "startTime": "2025-10-25T12:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk9t",
+        "event_locator": "dvb://233a..9184;eba",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T12:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "127e39a6655e66ad768b2ebf209f5fb0"
+      }
+    },
+    {
+      "startTime": "2025-10-25T12:30:00+0000",
+      "duration": 30,
+      "name": "On the Front Line",
+      "description": "Fighting the Phone Snatchers",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lgmk",
+        "event_locator": "dvb://233a..9184;ebb",
+        "main_title": "On the Front Line",
+        "secondary_title": "Fighting the Phone Snatchers",
+        "image_url": "https://img.freeviewplay.tv/p7ddf64f7920c15bc57423763b5c74a53",
+        "start_time": "2025-10-25T12:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-20T23:01:00+0000",
+          "end_of_availability": "2026-10-20T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lgmk&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ee90cb89c71198abf6deeef34d55d495d",
+        "uuid": "ad126536c325fe19806c88da5650382a"
+      }
+    },
+    {
+      "startTime": "2025-10-25T13:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk9w",
+        "event_locator": "dvb://233a..9184;ebc",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T13:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "99b43448099970727409e67529c8e671"
+      }
+    },
+    {
+      "startTime": "2025-10-25T13:30:00+0000",
+      "duration": 30,
+      "name": "AI Decoded",
+      "description": "AI and Robotics",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002kmfx",
+        "event_locator": "dvb://233a..9184;ebd",
+        "main_title": "AI Decoded",
+        "secondary_title": "AI and Robotics",
+        "image_url": "https://img.freeviewplay.tv/paad1bdb58d87fc30624e11cf975f5572",
+        "start_time": "2025-10-25T13:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-04T03:00:05+0000",
+          "end_of_availability": "2025-11-26T00:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kmfx&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e56a8c1cc610f99d8238e4220ffa20e23",
+        "uuid": "7326e437048e68667067e963976851ed"
+      }
+    },
+    {
+      "startTime": "2025-10-25T14:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk9y",
+        "event_locator": "dvb://233a..9184;ebe",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T14:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "4f0b7fd3d6b6aff938c82983d6d05bdb"
+      }
+    },
+    {
+      "startTime": "2025-10-25T14:30:00+0000",
+      "duration": 15,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkcs",
+        "event_locator": "dvb://233a..9184;ebf",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T14:30:00+0000",
+        "duration": "PT15M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "b0701fbdab22654fbb79406d6069a072"
+      }
+    },
+    {
+      "startTime": "2025-10-25T14:45:00+0000",
+      "duration": 15,
+      "name": "Newswatch",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkcv",
+        "event_locator": "dvb://233a..9184;ec0",
+        "main_title": "Newswatch",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/p6fc11067114d0746afdc5be2c8c6e95c",
+        "start_time": "2025-10-25T14:45:00+0000",
+        "duration": "PT15M",
+        "on_demand": {
+          "start_of_availability": "2025-10-24T22:30:00+0000",
+          "end_of_availability": "2026-10-25T15:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lkcv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e217e978bf44a105ea670730739804276",
+        "uuid": "fc7e6235dfdbce287dbccc6dde96d6eb"
+      }
+    },
+    {
+      "startTime": "2025-10-25T15:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkb0",
+        "event_locator": "dvb://233a..9184;ec1",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pf7fc574ead16643aa6273350a335bee8",
+        "start_time": "2025-10-25T15:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "46f413117c2f61b414bee6240aeddcd6"
+      }
+    },
+    {
+      "startTime": "2025-10-25T15:30:00+0000",
+      "duration": 30,
+      "name": "Political Thinking with Nick Robinson",
+      "description": "Series 2: Tom Fletcher – UN humanitarian chief",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002l58s",
+        "event_locator": "dvb://233a..9184;ec2",
+        "main_title": "Political Thinking with Nick Robinson",
+        "secondary_title": "Series 2: Tom Fletcher – UN humanitarian chief",
+        "image_url": "https://img.freeviewplay.tv/pb0abc8b9ced4c908c5060e0a720e36d1",
+        "start_time": "2025-10-25T15:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-24T12:00:30+0000",
+          "end_of_availability": "2026-10-24T12:00:30+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l58s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/efcdf26aea70eeca87b244fdf86427813",
+        "uuid": "8620cbab0b84139f508de7cbc8b7968f"
+      }
+    },
+    {
+      "startTime": "2025-10-25T16:00:00+0000",
+      "duration": 60,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkb3",
+        "event_locator": "dvb://233a..9184;ec3",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T16:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "40bcf6ae74b04ab752b9fd746ea22817"
+      }
+    },
+    {
+      "startTime": "2025-10-25T17:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkb5",
+        "event_locator": "dvb://233a..9184;ec4",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T17:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "e9df1b0c0ee02eb014a9a1987418d464"
+      }
+    },
+    {
+      "startTime": "2025-10-25T17:30:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkcx",
+        "event_locator": "dvb://233a..9184;ec5",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T17:30:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e49145e747446469dc6818427b9098414",
+        "uuid": "41da64e73a526c89d4edca63bffd8c9f"
+      }
+    },
+    {
+      "startTime": "2025-10-25T18:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkb7",
+        "event_locator": "dvb://233a..9184;ec6",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T18:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "b1446410e293f8a248894efd32f19a8e"
+      }
+    },
+    {
+      "startTime": "2025-10-25T18:30:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkcz",
+        "event_locator": "dvb://233a..9184;ec7",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T18:30:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e49145e747446469dc6818427b9098414",
+        "uuid": "9577b0aa5935914c70a7415c3cd9eadb"
+      }
+    },
+    {
+      "startTime": "2025-10-25T19:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkb9",
+        "event_locator": "dvb://233a..9184;ec8",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T19:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "226b2b93c6cad3ee5657ee54563e32de"
+      }
+    },
+    {
+      "startTime": "2025-10-25T19:30:00+0000",
+      "duration": 30,
+      "name": "Newscast",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkd1",
+        "event_locator": "dvb://233a..9184;ec9",
+        "main_title": "Newscast",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pb78795a0bb21bacd3f24a4cfb0a4f802",
+        "start_time": "2025-10-25T19:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-25T20:00:00+0000",
+          "end_of_availability": "2025-11-24T20:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lkd1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e092478be76a663037e099bfe410f2080",
+        "uuid": "2a28854081395ec0d75a1aed1e10dbf4"
+      }
+    },
+    {
+      "startTime": "2025-10-25T20:00:00+0000",
+      "duration": 60,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkbc",
+        "event_locator": "dvb://233a..9184;eca",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T20:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "71740cb4b921d442416b220e6ff961d0"
+      }
+    },
+    {
+      "startTime": "2025-10-25T21:00:00+0000",
+      "duration": 60,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkbf",
+        "event_locator": "dvb://233a..9184;ecb",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T21:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "eb0ba19bff36ea1a577f3641d165ccc1"
+      }
+    },
+    {
+      "startTime": "2025-10-25T22:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkbh",
+        "event_locator": "dvb://233a..9184;ecc",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T22:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "29ffdcd9a36dae8056599dfef78ef1bb"
+      }
+    },
+    {
+      "startTime": "2025-10-25T22:30:00+0000",
+      "duration": 30,
+      "name": "Talking Business",
+      "description": "24/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002l8nz",
+        "event_locator": "dvb://233a..9184;ecd",
+        "main_title": "Talking Business",
+        "secondary_title": "24/10/2025",
+        "image_url": "https://img.freeviewplay.tv/p0fb16c0b590c3ce6bd5aea88a761886a",
+        "start_time": "2025-10-25T22:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-25T00:00:00+0000",
+          "end_of_availability": "2026-10-24T23:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l8nz&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e63f29618463b8cc01ae8280001018138",
+        "uuid": "c6209c75bd07fd46a67283282a57321a"
+      }
+    },
+    {
+      "startTime": "2025-10-25T23:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "25/10/2025",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lkbk",
+        "event_locator": "dvb://233a..9184;ece",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2025",
+        "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+        "start_time": "2025-10-25T23:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "a6854e4b2ee7a3ff110f4a6f93074560"
+      }
+    },
+    {
+      "startTime": "2025-10-25T23:30:00+0000",
+      "duration": 30,
+      "name": "The Media Show",
+      "description": "When the Royals Lose Control of the Story",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002lk92",
+        "event_locator": "dvb://233a..9184;ecf",
+        "main_title": "The Media Show",
+        "secondary_title": "When the Royals Lose Control of the Story",
+        "image_url": "https://img.freeviewplay.tv/p32a7db4840d13f1e14f768aee139a4d8",
+        "start_time": "2025-10-25T23:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-25T04:00:00+0000",
+          "end_of_availability": "2026-10-25T04:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lk92&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e1035ed55e9766f09bc5f3ea61a7cb5be",
+        "uuid": "9224287e5864a919624d96d8510187b6"
       }
     }
   ],
@@ -1041,1007 +940,357 @@
       {
         "event": [
           {
-            "startTime": "2025-10-24T00:00:00+0000",
+            "startTime": "2025-10-25T00:00:00+0000",
             "duration": 30,
             "name": "BBC News",
-            "description": "24/10/2025",
+            "description": "25/10/2025",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8ks",
-              "event_locator": "dvb://233a..9184;e5d",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk8q",
+              "event_locator": "dvb://233a..9184;ea8",
               "main_title": "BBC News",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-              "start_time": "2025-10-24T00:00:00+0000",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T00:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "79fc3b45f7947bb61ed3823c796585c1"
+              "uuid": "87e47079de941dcaa84ec4d6ef63f79a"
             }
           },
           {
-            "startTime": "2025-10-24T00:30:00+0000",
+            "startTime": "2025-10-25T00:30:00+0000",
             "duration": 30,
-            "name": "The Media Show",
-            "description": "The Gaza Ceasefire",
+            "name": "Tech Now",
+            "description": "25/10/2025",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l87d",
-              "event_locator": "dvb://233a..9184;e5e",
-              "main_title": "The Media Show",
-              "secondary_title": "The Gaza Ceasefire",
-              "image_url": "https://img.freeviewplay.tv/p22272b1c75e11db0b5bd27ecd03fc889",
-              "start_time": "2025-10-24T00:30:00+0000",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk8s",
+              "event_locator": "dvb://233a..9184;ea9",
+              "main_title": "Tech Now",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pe2d3ddd13d86db2cf2cfa6d96fd1fd86",
+              "start_time": "2025-10-25T00:30:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/eede0e7d70f8c3fe8d46f0f7cd70a4aaa",
+              "uuid": "340372ba1e58adac271e4e07948cb66f"
+            }
+          },
+          {
+            "startTime": "2025-10-25T01:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk8v",
+              "event_locator": "dvb://233a..9184;eaa",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T01:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "67cf885f149c79791a521294a0c19465"
+            }
+          },
+          {
+            "startTime": "2025-10-25T01:30:00+0000",
+            "duration": 30,
+            "name": "Clive Myrie’s Caribbean Adventure",
+            "description": "Series 1: 1. Blue Mountains - Jamaica",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m001zpmp",
+              "event_locator": "dvb://233a..9184;fe0",
+              "main_title": "Clive Myrie’s Caribbean Adventure",
+              "secondary_title": "Series 1: 1. Blue Mountains - Jamaica",
+              "image_url": "https://img.freeviewplay.tv/p44c007531a180dd740d06bf822f81be3",
+              "start_time": "2025-10-25T01:30:00+0000",
               "duration": "PT30M",
               "on_demand": {
-                "start_of_availability": "2025-10-18T03:59:45+0000",
-                "end_of_availability": "2026-10-18T02:59:45+0000",
+                "start_of_availability": "2025-05-27T04:45:00+0000",
+                "end_of_availability": "2026-05-27T04:59:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l87d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001zpmp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e4559fdd760ef8cbb66aa4e01f9309059",
+              "uuid": "88b7e5b3563fdda0c8865223dd3eeb62"
+            }
+          },
+          {
+            "startTime": "2025-10-25T02:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk8y",
+              "event_locator": "dvb://233a..9184;eac",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T02:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "4ec31476bcdf52557fcfc56f5681cae8"
+            }
+          },
+          {
+            "startTime": "2025-10-25T02:30:00+0000",
+            "duration": 30,
+            "name": "On the Front Line",
+            "description": "Fighting the Phone Snatchers",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lgmk",
+              "event_locator": "dvb://233a..9184;ead",
+              "main_title": "On the Front Line",
+              "secondary_title": "Fighting the Phone Snatchers",
+              "image_url": "https://img.freeviewplay.tv/p7ddf64f7920c15bc57423763b5c74a53",
+              "start_time": "2025-10-25T02:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-20T23:01:00+0000",
+                "end_of_availability": "2026-10-20T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lgmk&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ee90cb89c71198abf6deeef34d55d495d",
+              "uuid": "d72158ae3e41a4deb5726f03be547bb6"
+            }
+          },
+          {
+            "startTime": "2025-10-25T03:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk90",
+              "event_locator": "dvb://233a..9184;eae",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T03:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "90ec1f4aee2c3105ea4d514589ea449e"
+            }
+          },
+          {
+            "startTime": "2025-10-25T03:30:00+0000",
+            "duration": 30,
+            "name": "The Media Show",
+            "description": "When the Royals Lose Control of the Story",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk92",
+              "event_locator": "dvb://233a..9184;eaf",
+              "main_title": "The Media Show",
+              "secondary_title": "When the Royals Lose Control of the Story",
+              "image_url": "https://img.freeviewplay.tv/p32a7db4840d13f1e14f768aee139a4d8",
+              "start_time": "2025-10-25T03:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-25T04:00:00+0000",
+                "end_of_availability": "2026-10-25T04:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lk92&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e1035ed55e9766f09bc5f3ea61a7cb5be",
-              "uuid": "2869db700f46b76f9368d7a8cc6b4f30"
+              "uuid": "e4fe7df988e10feeba737eb73e7b313a"
             }
           },
           {
-            "startTime": "2025-10-24T01:00:00+0000",
-            "duration": 30,
-            "name": "Newsday",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8kv",
-              "event_locator": "dvb://233a..9184;e5f",
-              "main_title": "Newsday",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p1ff44b3b5268efe5c6aeb468f0017b95",
-              "start_time": "2025-10-24T01:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e654fc7febc27b315df7683160ca50ac7",
-              "uuid": "018332b243771a8b80f9206a92e6dc7c"
-            }
-          },
-          {
-            "startTime": "2025-10-24T01:30:00+0000",
-            "duration": 15,
-            "name": "Business Today",
-            "description": "06/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8kx",
-              "event_locator": "dvb://233a..9184;e60",
-              "main_title": "Business Today",
-              "secondary_title": "06/10/2025",
-              "image_url": "https://img.freeviewplay.tv/pdbed001914a1f899b01c0d9e89b12eab",
-              "start_time": "2025-10-24T01:30:00+0000",
-              "duration": "PT15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e54b5132fcab4f8da3bf267eb2c588388",
-              "uuid": "954cbb5cede66cb991c7ea4838817733"
-            }
-          },
-          {
-            "startTime": "2025-10-24T01:45:00+0000",
-            "duration": 15,
-            "name": "BBC Sport",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8kz",
-              "event_locator": "dvb://233a..9184;e61",
-              "main_title": "BBC Sport",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p12967ddfef603c60add4152480857246",
-              "start_time": "2025-10-24T01:45:00+0000",
-              "duration": "PT15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e28d53744553905c9d16625bf3609003b",
-              "uuid": "50b842b262432f08916f342996bd2f83"
-            }
-          },
-          {
-            "startTime": "2025-10-24T02:00:00+0000",
-            "duration": 30,
-            "name": "Newsday",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8l1",
-              "event_locator": "dvb://233a..9184;e62",
-              "main_title": "Newsday",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p1ff44b3b5268efe5c6aeb468f0017b95",
-              "start_time": "2025-10-24T02:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e654fc7febc27b315df7683160ca50ac7",
-              "uuid": "e38cab5055b133951e30522fc2621ace"
-            }
-          },
-          {
-            "startTime": "2025-10-24T02:30:00+0000",
-            "duration": 15,
-            "name": "Business Today",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8l3",
-              "event_locator": "dvb://233a..9184;e63",
-              "main_title": "Business Today",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p34d43e10eda010ac11692f5d4e8ccca0",
-              "start_time": "2025-10-24T02:30:00+0000",
-              "duration": "PT15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e54b5132fcab4f8da3bf267eb2c588388",
-              "uuid": "3631b4d6fbadb08bbafc6f8aeb416b1a"
-            }
-          },
-          {
-            "startTime": "2025-10-24T02:45:00+0000",
-            "duration": 15,
-            "name": "BBC Sport",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8kz",
-              "event_locator": "dvb://233a..9184;e64",
-              "main_title": "BBC Sport",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p12967ddfef603c60add4152480857246",
-              "start_time": "2025-10-24T02:45:00+0000",
-              "duration": "PT15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e28d53744553905c9d16625bf3609003b",
-              "uuid": "19b4ce47793f717c96b95c4d4081174d"
-            }
-          },
-          {
-            "startTime": "2025-10-24T03:00:00+0000",
-            "duration": 30,
-            "name": "Newsday",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8l5",
-              "event_locator": "dvb://233a..9184;e65",
-              "main_title": "Newsday",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p1ff44b3b5268efe5c6aeb468f0017b95",
-              "start_time": "2025-10-24T03:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e654fc7febc27b315df7683160ca50ac7",
-              "uuid": "640001e5940799e5ce108d85c0921783"
-            }
-          },
-          {
-            "startTime": "2025-10-24T03:30:00+0000",
-            "duration": 15,
-            "name": "Business Today",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8l7",
-              "event_locator": "dvb://233a..9184;e66",
-              "main_title": "Business Today",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p34d43e10eda010ac11692f5d4e8ccca0",
-              "start_time": "2025-10-24T03:30:00+0000",
-              "duration": "PT15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e54b5132fcab4f8da3bf267eb2c588388",
-              "uuid": "a941d1121a8feefd85728299a4766169"
-            }
-          },
-          {
-            "startTime": "2025-10-24T03:45:00+0000",
-            "duration": 15,
-            "name": "BBC Sport",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8kz",
-              "event_locator": "dvb://233a..9184;e67",
-              "main_title": "BBC Sport",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p12967ddfef603c60add4152480857246",
-              "start_time": "2025-10-24T03:45:00+0000",
-              "duration": "PT15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e28d53744553905c9d16625bf3609003b",
-              "uuid": "c486285bae7adf91c3beb7ec815731f8"
-            }
-          },
-          {
-            "startTime": "2025-10-24T04:00:00+0000",
+            "startTime": "2025-10-25T04:00:00+0000",
             "duration": 30,
             "name": "BBC News",
-            "description": "24/10/2025",
+            "description": "25/10/2025",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8l9",
-              "event_locator": "dvb://233a..9184;e68",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk94",
+              "event_locator": "dvb://233a..9184;eb0",
               "main_title": "BBC News",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-              "start_time": "2025-10-24T04:00:00+0000",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T04:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "2d5e2da7d78f3ebc42299d277f503354"
+              "uuid": "650029b67a221a3c478adb4305b70d22"
             }
           },
           {
-            "startTime": "2025-10-24T04:30:00+0000",
+            "startTime": "2025-10-25T04:30:00+0000",
             "duration": 30,
-            "name": "Business Today",
-            "description": "24/10/2025",
+            "name": "The Travel Show",
+            "description": "Norway",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8lc",
-              "event_locator": "dvb://233a..9184;e69",
-              "main_title": "Business Today",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p34d43e10eda010ac11692f5d4e8ccca0",
-              "start_time": "2025-10-24T04:30:00+0000",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk96",
+              "event_locator": "dvb://233a..9184;eb1",
+              "main_title": "The Travel Show",
+              "secondary_title": "Norway",
+              "image_url": "https://img.freeviewplay.tv/p9dad9c01f8c87eb55ed9dfdbc5ceb17a",
+              "start_time": "2025-10-25T04:30:00+0000",
               "duration": "PT30M",
               "on_demand": {
-                "start_of_availability": "2025-10-24T05:00:00+0000",
-                "end_of_availability": "2025-11-23T05:00:00+0000",
+                "start_of_availability": "2025-10-25T04:59:56+0000",
+                "end_of_availability": "2026-10-25T04:59:56+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l8lc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lk96&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e54b5132fcab4f8da3bf267eb2c588388",
-              "uuid": "b9ebf842fc5eb31a81d91ae29bbb157f"
+              "fallback_image_url": "http://img.freeviewplay.net/ee589718ab2a2ce184b30bd9edff06305",
+              "uuid": "9123132184ffe2d76d0b2221e97e22f9"
             }
           },
           {
-            "startTime": "2025-10-24T05:00:00+0000",
+            "startTime": "2025-10-25T05:00:00+0000",
             "duration": 180,
             "name": "Breakfast",
-            "description": "24/10/2025",
+            "description": "25/10/2025",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l4dr",
-              "event_locator": "dvb://233a..9184;e6a",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lg2j",
+              "event_locator": "dvb://233a..9184;eb2",
               "main_title": "Breakfast",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p6f05b92e00d44f54c96f77422cf8d14d",
-              "start_time": "2025-10-24T05:00:00+0000",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pa4877f8902b085390df4a732422140eb",
+              "start_time": "2025-10-25T05:00:00+0000",
               "duration": "PT3H",
               "on_demand": {
-                "start_of_availability": "2025-10-24T08:29:00+0000",
-                "end_of_availability": "2025-10-25T08:29:00+0000",
+                "start_of_availability": "2025-10-25T09:00:00+0000",
+                "end_of_availability": "2025-10-26T10:00:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l4dr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lg2j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e3a42ed932bf359b1a037197b9b384851",
-              "uuid": "74cce27d5373afb7bb35e228d66b53f7"
+              "uuid": "797a4897233ea640f531e93553696e78"
             }
           },
           {
-            "startTime": "2025-10-24T08:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8lw",
-              "event_locator": "dvb://233a..9184;e6b",
-              "main_title": "BBC News",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-              "start_time": "2025-10-24T08:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "29a966dd871ca3550616de8b72fb7091"
-            }
-          },
-          {
-            "startTime": "2025-10-24T08:30:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8ly",
-              "event_locator": "dvb://233a..9184;e6c",
-              "main_title": "BBC News",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-              "start_time": "2025-10-24T08:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "9896ff4a77397e80638050a63f940236"
-            }
-          },
-          {
-            "startTime": "2025-10-24T09:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8m0",
-              "event_locator": "dvb://233a..9184;e6d",
-              "main_title": "BBC News",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-              "start_time": "2025-10-24T09:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "a202b1e410e4f3fc04f9c45650eaf57f"
-            }
-          },
-          {
-            "startTime": "2025-10-24T09:30:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8m2",
-              "event_locator": "dvb://233a..9184;e6e",
-              "main_title": "BBC News",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-              "start_time": "2025-10-24T09:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "2dcfec781e7a9f5a430f722aced8f647"
-            }
-          },
-          {
-            "startTime": "2025-10-24T10:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8m4",
-              "event_locator": "dvb://233a..9184;e6f",
-              "main_title": "BBC News",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-              "start_time": "2025-10-24T10:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "729d69ccf6a018681c6bf851fc964991"
-            }
-          },
-          {
-            "startTime": "2025-10-24T10:30:00+0000",
-            "duration": 15,
-            "name": "Business Today",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8m6",
-              "event_locator": "dvb://233a..9184;e70",
-              "main_title": "Business Today",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p34d43e10eda010ac11692f5d4e8ccca0",
-              "start_time": "2025-10-24T10:30:00+0000",
-              "duration": "PT15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e54b5132fcab4f8da3bf267eb2c588388",
-              "uuid": "5dc1837b1d474642654543c54de3d43b"
-            }
-          },
-          {
-            "startTime": "2025-10-24T10:45:00+0000",
-            "duration": 15,
-            "name": "BBC News",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8m8",
-              "event_locator": "dvb://233a..9184;e71",
-              "main_title": "BBC News",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-              "start_time": "2025-10-24T10:45:00+0000",
-              "duration": "PT15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "9552c1c788a26164a636c8df3bce480f"
-            }
-          },
-          {
-            "startTime": "2025-10-24T11:00:00+0000",
-            "duration": 30,
-            "name": "BBC News Now",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8mb",
-              "event_locator": "dvb://233a..9184;e72",
-              "main_title": "BBC News Now",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p624c6b160acea30f4764a8a8e7c7a5a2",
-              "start_time": "2025-10-24T11:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e439fdc9f55b42c5fed19dbbe19f7a034",
-              "uuid": "8814ddcee4120afbc1b4996a054573e7"
-            }
-          },
-          {
-            "startTime": "2025-10-24T11:30:00+0000",
-            "duration": 30,
-            "name": "BBC News Now",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8md",
-              "event_locator": "dvb://233a..9184;e73",
-              "main_title": "BBC News Now",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p624c6b160acea30f4764a8a8e7c7a5a2",
-              "start_time": "2025-10-24T11:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e439fdc9f55b42c5fed19dbbe19f7a034",
-              "uuid": "3fff70c4341b7f4e4fbe3c81c7472fc7"
-            }
-          },
-          {
-            "startTime": "2025-10-24T12:00:00+0000",
+            "startTime": "2025-10-25T08:00:00+0000",
             "duration": 60,
-            "name": "BBC News at One",
-            "description": "24/10/2025",
+            "name": "BBC News",
+            "description": "25/10/2025",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l4dw",
-              "event_locator": "dvb://233a..9184;e74",
-              "main_title": "BBC News at One",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p9e4cda2db4a8082eecd68f1a5a8ca546",
-              "start_time": "2025-10-24T12:00:00+0000",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk9j",
+              "event_locator": "dvb://233a..9184;eb3",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T08:00:00+0000",
               "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2025-10-24T13:00:00+0000",
-                "end_of_availability": "2025-10-25T12:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l4dw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e56473492b31a13b7e920b6f6bedb1762",
-              "uuid": "fd7e4feee6667f1add689662472d164d"
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "80c99f6ebaa58cb4940d11c2e261eae7"
             }
           },
           {
-            "startTime": "2025-10-24T13:00:00+0000",
-            "duration": 30,
-            "name": "BBC News Now",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8ml",
-              "event_locator": "dvb://233a..9184;e75",
-              "main_title": "BBC News Now",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p624c6b160acea30f4764a8a8e7c7a5a2",
-              "start_time": "2025-10-24T13:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e439fdc9f55b42c5fed19dbbe19f7a034",
-              "uuid": "c350a972f918edc249fbfceb46f35221"
-            }
-          },
-          {
-            "startTime": "2025-10-24T13:30:00+0000",
-            "duration": 15,
-            "name": "Business Today - NYSE Opening Bell",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8mn",
-              "event_locator": "dvb://233a..9184;e76",
-              "main_title": "Business Today - NYSE Opening Bell",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/pfdd3fda9e9ac1571d8c74146a94beeda",
-              "start_time": "2025-10-24T13:30:00+0000",
-              "duration": "PT15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e3ed133e99c6253f012e1d2320799cd03",
-              "uuid": "2291a2731a8b304ad398dc1c77c32a74"
-            }
-          },
-          {
-            "startTime": "2025-10-24T13:45:00+0000",
-            "duration": 15,
-            "name": "BBC News Now",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8mq",
-              "event_locator": "dvb://233a..9184;e77",
-              "main_title": "BBC News Now",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p624c6b160acea30f4764a8a8e7c7a5a2",
-              "start_time": "2025-10-24T13:45:00+0000",
-              "duration": "PT15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e439fdc9f55b42c5fed19dbbe19f7a034",
-              "uuid": "55889a8c09bd19898ae2b694ff52aad3"
-            }
-          },
-          {
-            "startTime": "2025-10-24T14:00:00+0000",
-            "duration": 30,
-            "name": "Verified Live",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8ms",
-              "event_locator": "dvb://233a..9184;e78",
-              "main_title": "Verified Live",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/pd347a9cf5c4061db4cda5dce3783979a",
-              "start_time": "2025-10-24T14:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ed93150d5baaf9e4ea9be94a8058c0de9",
-              "uuid": "905e984289ceb2f9b23c1136a329c8e8"
-            }
-          },
-          {
-            "startTime": "2025-10-24T14:30:00+0000",
-            "duration": 30,
-            "name": "Verified Live",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8mv",
-              "event_locator": "dvb://233a..9184;e79",
-              "main_title": "Verified Live",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/pd347a9cf5c4061db4cda5dce3783979a",
-              "start_time": "2025-10-24T14:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ed93150d5baaf9e4ea9be94a8058c0de9",
-              "uuid": "b1932713a48aae3392c7249b3c71b271"
-            }
-          },
-          {
-            "startTime": "2025-10-24T15:00:00+0000",
-            "duration": 30,
-            "name": "Verified Live",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8mx",
-              "event_locator": "dvb://233a..9184;e7a",
-              "main_title": "Verified Live",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/pd347a9cf5c4061db4cda5dce3783979a",
-              "start_time": "2025-10-24T15:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ed93150d5baaf9e4ea9be94a8058c0de9",
-              "uuid": "18a66f49321809ab69f7796360adbb4b"
-            }
-          },
-          {
-            "startTime": "2025-10-24T15:30:00+0000",
-            "duration": 30,
-            "name": "Verified Live",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8mz",
-              "event_locator": "dvb://233a..9184;e7b",
-              "main_title": "Verified Live",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/pd347a9cf5c4061db4cda5dce3783979a",
-              "start_time": "2025-10-24T15:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ed93150d5baaf9e4ea9be94a8058c0de9",
-              "uuid": "9bfb8c9a9ec414d0f6892e46c9249e77"
-            }
-          },
-          {
-            "startTime": "2025-10-24T16:00:00+0000",
-            "duration": 30,
-            "name": "Verified Live",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8n1",
-              "event_locator": "dvb://233a..9184;e7c",
-              "main_title": "Verified Live",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/pd347a9cf5c4061db4cda5dce3783979a",
-              "start_time": "2025-10-24T16:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ed93150d5baaf9e4ea9be94a8058c0de9",
-              "uuid": "4b4f4f10e08fad175e473073533ecdaa"
-            }
-          },
-          {
-            "startTime": "2025-10-24T16:30:00+0000",
+            "startTime": "2025-10-25T09:00:00+0000",
             "duration": 30,
             "name": "BBC News",
-            "description": "24/10/2025",
+            "description": "25/10/2025",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002lb08",
-              "event_locator": "dvb://233a..9184;e7d",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk9l",
+              "event_locator": "dvb://233a..9184;eb4",
               "main_title": "BBC News",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-              "start_time": "2025-10-24T16:30:00+0000",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T09:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "e4bbf85c62321fa4cec6c9365326e9fd"
+              "uuid": "4d66cf493a5c2f166d0b2396d7a43270"
             }
           },
           {
-            "startTime": "2025-10-24T17:00:00+0000",
-            "duration": 30,
-            "name": "BBC News at Six",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l4f1",
-              "event_locator": "dvb://233a..9184;e7e",
-              "main_title": "BBC News at Six",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/pa5bdb0b7331860fff45dbd7d73c4d2ed",
-              "start_time": "2025-10-24T17:00:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2025-10-24T17:31:30+0000",
-                "end_of_availability": "2025-10-25T17:31:30+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l4f1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/eb202a7d41a1725d703938617a1fce87b",
-              "uuid": "05856b45109b0e68cc0bf428454f4c85"
-            }
-          },
-          {
-            "startTime": "2025-10-24T17:30:00+0000",
-            "duration": 30,
-            "name": "The World Today with Maryam Moshiri",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8n7",
-              "event_locator": "dvb://233a..9184;e7f",
-              "main_title": "The World Today with Maryam Moshiri",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/pd7eb663403e90ff5ace03f3439a34fed",
-              "start_time": "2025-10-24T17:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/efaf3920c24cb768f86f81d8d163d2946",
-              "uuid": "5ec78f740fde22ee67adf52a3f2bc9c7"
-            }
-          },
-          {
-            "startTime": "2025-10-24T18:00:00+0000",
-            "duration": 30,
-            "name": "The World Today with Maryam Moshiri",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8n9",
-              "event_locator": "dvb://233a..9184;e80",
-              "main_title": "The World Today with Maryam Moshiri",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/pd7eb663403e90ff5ace03f3439a34fed",
-              "start_time": "2025-10-24T18:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/efaf3920c24cb768f86f81d8d163d2946",
-              "uuid": "def361858390bed4162363df28d9b040"
-            }
-          },
-          {
-            "startTime": "2025-10-24T18:30:00+0000",
-            "duration": 30,
-            "name": "The World Today with Maryam Moshiri",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8nc",
-              "event_locator": "dvb://233a..9184;e81",
-              "main_title": "The World Today with Maryam Moshiri",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/pd7eb663403e90ff5ace03f3439a34fed",
-              "start_time": "2025-10-24T18:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/efaf3920c24cb768f86f81d8d163d2946",
-              "uuid": "71d91fb4796012dd090cc42a97699423"
-            }
-          },
-          {
-            "startTime": "2025-10-24T19:00:00+0000",
-            "duration": 30,
-            "name": "The Context",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8nf",
-              "event_locator": "dvb://233a..9184;e82",
-              "main_title": "The Context",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p0929987fba2469f953862fcac2095183",
-              "start_time": "2025-10-24T19:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e5ac5b83c146f2460d273ca5303829ed2",
-              "uuid": "9d61eaee50462005943cd8073c7bad03"
-            }
-          },
-          {
-            "startTime": "2025-10-24T19:30:00+0000",
-            "duration": 30,
-            "name": "The Context",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8nh",
-              "event_locator": "dvb://233a..9184;e83",
-              "main_title": "The Context",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p0929987fba2469f953862fcac2095183",
-              "start_time": "2025-10-24T19:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e5ac5b83c146f2460d273ca5303829ed2",
-              "uuid": "5c021c8a57ae3fa0215bf55d9c5be6f1"
-            }
-          },
-          {
-            "startTime": "2025-10-24T20:00:00+0000",
-            "duration": 30,
-            "name": "The Context USA",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8nk",
-              "event_locator": "dvb://233a..9184;e84",
-              "main_title": "The Context USA",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p7fa937aeab829ad4dab722b035c2a0ed",
-              "start_time": "2025-10-24T20:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e71e4679c3f70d40d2a6ebf38b71823cc",
-              "uuid": "05252ebf5b9f479f7548683accfe303d"
-            }
-          },
-          {
-            "startTime": "2025-10-24T20:30:00+0000",
-            "duration": 30,
-            "name": "The Context USA",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8nm",
-              "event_locator": "dvb://233a..9184;e85",
-              "main_title": "The Context USA",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p7fa937aeab829ad4dab722b035c2a0ed",
-              "start_time": "2025-10-24T20:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e71e4679c3f70d40d2a6ebf38b71823cc",
-              "uuid": "2c4d6b5e1b2edfbf9a3cd397f82d59dc"
-            }
-          },
-          {
-            "startTime": "2025-10-24T21:00:00+0000",
-            "duration": 30,
-            "name": "BBC News at Ten",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l4f5",
-              "event_locator": "dvb://233a..9184;e86",
-              "main_title": "BBC News at Ten",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/paf9731d582db0d232c899f0130eda210",
-              "start_time": "2025-10-24T21:00:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2025-10-24T21:31:30+0000",
-                "end_of_availability": "2025-10-25T21:31:30+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l4f5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e0693ec4b670370a7c0d4f7ea008e6df0",
-              "uuid": "a5f0b88c7e15701098a2ab48196fe650"
-            }
-          },
-          {
-            "startTime": "2025-10-24T21:30:00+0000",
-            "duration": 30,
-            "name": "Newsnight",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l4jp",
-              "event_locator": "dvb://233a..9184;e87",
-              "main_title": "Newsnight",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/pae061ce40c7f3fa370d1841b0da090c5",
-              "start_time": "2025-10-24T21:30:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2025-10-24T22:00:00+0000",
-                "end_of_availability": "2026-10-24T22:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l4jp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/edc3515102cb6ee53ee46f2da1e4fa6b1",
-              "uuid": "3de4610814b15ee643d07c8d6942ad03"
-            }
-          },
-          {
-            "startTime": "2025-10-24T22:00:00+0000",
-            "duration": 30,
-            "name": "BBC World News America",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8ns",
-              "event_locator": "dvb://233a..9184;e88",
-              "main_title": "BBC World News America",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p9d2f8e9a1382e5c19abfa6222d176f82",
-              "start_time": "2025-10-24T22:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ea86a43038ab44043d159435fe79f1ade",
-              "uuid": "988bd93ff4269b484eed58bf179f22ca"
-            }
-          },
-          {
-            "startTime": "2025-10-24T22:30:00+0000",
-            "duration": 30,
-            "name": "The President's Path",
-            "description": "24/10/2025",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8nv",
-              "event_locator": "dvb://233a..9184;e89",
-              "main_title": "The President's Path",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p824e7e2722899a1fd00b3a587afd71ea",
-              "start_time": "2025-10-24T22:30:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2025-10-24T23:00:00+0000",
-                "end_of_availability": "2025-11-23T23:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l8nv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/eb9fd87e355f384fa1cce5ae687dd76c2",
-              "uuid": "6bdd9a26ce6a572fd8f7c49b3fe426b9"
-            }
-          },
-          {
-            "startTime": "2025-10-24T23:00:00+0000",
+            "startTime": "2025-10-25T09:30:00+0000",
             "duration": 30,
             "name": "BBC News",
-            "description": "24/10/2025",
+            "description": "25/10/2025",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002l8nx",
-              "event_locator": "dvb://233a..9184;ea6",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkcn",
+              "event_locator": "dvb://233a..9184;eb5",
               "main_title": "BBC News",
-              "secondary_title": "24/10/2025",
-              "image_url": "https://img.freeviewplay.tv/p0f397741cf9d3f2d70875b2a2cbd2695",
-              "start_time": "2025-10-24T23:00:00+0000",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T09:30:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "e91f9a05dd1264258cf90a08b6edf93e"
+              "uuid": "8a71ca395e4c2c8ea2ad72c26f165fd8"
             }
           },
           {
-            "startTime": "2025-10-24T23:30:00+0000",
+            "startTime": "2025-10-25T10:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk9p",
+              "event_locator": "dvb://233a..9184;eb6",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T10:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "78d56794ec4a89477a1585a7e071eb70"
+            }
+          },
+          {
+            "startTime": "2025-10-25T10:30:00+0000",
             "duration": 30,
             "name": "Talking Business",
             "description": "24/10/2025",
@@ -2049,11 +1298,11 @@
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m002l8nz",
-              "event_locator": "dvb://233a..9184;ea7",
+              "event_locator": "dvb://233a..9184;eb7",
               "main_title": "Talking Business",
               "secondary_title": "24/10/2025",
               "image_url": "https://img.freeviewplay.tv/p0fb16c0b590c3ce6bd5aea88a761886a",
-              "start_time": "2025-10-24T23:30:00+0000",
+              "start_time": "2025-10-25T10:30:00+0000",
               "duration": "PT30M",
               "on_demand": {
                 "start_of_availability": "2025-10-25T00:00:00+0000",
@@ -2067,7 +1316,557 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e63f29618463b8cc01ae8280001018138",
-              "uuid": "18c5091ddffa59db5ae358a385371bcf"
+              "uuid": "0d60a53fe9665eaf39d71a6e8e9c1c67"
+            }
+          },
+          {
+            "startTime": "2025-10-25T11:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk9r",
+              "event_locator": "dvb://233a..9184;eb8",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T11:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "f1a27dc478a42d776961fdba644e6e79"
+            }
+          },
+          {
+            "startTime": "2025-10-25T11:30:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkcq",
+              "event_locator": "dvb://233a..9184;eb9",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T11:30:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "459f22cabf45dbd52e3d317607206450"
+            }
+          },
+          {
+            "startTime": "2025-10-25T12:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk9t",
+              "event_locator": "dvb://233a..9184;eba",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T12:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "127e39a6655e66ad768b2ebf209f5fb0"
+            }
+          },
+          {
+            "startTime": "2025-10-25T12:30:00+0000",
+            "duration": 30,
+            "name": "On the Front Line",
+            "description": "Fighting the Phone Snatchers",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lgmk",
+              "event_locator": "dvb://233a..9184;ebb",
+              "main_title": "On the Front Line",
+              "secondary_title": "Fighting the Phone Snatchers",
+              "image_url": "https://img.freeviewplay.tv/p7ddf64f7920c15bc57423763b5c74a53",
+              "start_time": "2025-10-25T12:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-20T23:01:00+0000",
+                "end_of_availability": "2026-10-20T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lgmk&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ee90cb89c71198abf6deeef34d55d495d",
+              "uuid": "ad126536c325fe19806c88da5650382a"
+            }
+          },
+          {
+            "startTime": "2025-10-25T13:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk9w",
+              "event_locator": "dvb://233a..9184;ebc",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T13:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "99b43448099970727409e67529c8e671"
+            }
+          },
+          {
+            "startTime": "2025-10-25T13:30:00+0000",
+            "duration": 30,
+            "name": "AI Decoded",
+            "description": "AI and Robotics",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002kmfx",
+              "event_locator": "dvb://233a..9184;ebd",
+              "main_title": "AI Decoded",
+              "secondary_title": "AI and Robotics",
+              "image_url": "https://img.freeviewplay.tv/paad1bdb58d87fc30624e11cf975f5572",
+              "start_time": "2025-10-25T13:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-04T03:00:05+0000",
+                "end_of_availability": "2025-11-26T00:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002kmfx&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e56a8c1cc610f99d8238e4220ffa20e23",
+              "uuid": "7326e437048e68667067e963976851ed"
+            }
+          },
+          {
+            "startTime": "2025-10-25T14:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk9y",
+              "event_locator": "dvb://233a..9184;ebe",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T14:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "4f0b7fd3d6b6aff938c82983d6d05bdb"
+            }
+          },
+          {
+            "startTime": "2025-10-25T14:30:00+0000",
+            "duration": 15,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkcs",
+              "event_locator": "dvb://233a..9184;ebf",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T14:30:00+0000",
+              "duration": "PT15M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "b0701fbdab22654fbb79406d6069a072"
+            }
+          },
+          {
+            "startTime": "2025-10-25T14:45:00+0000",
+            "duration": 15,
+            "name": "Newswatch",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkcv",
+              "event_locator": "dvb://233a..9184;ec0",
+              "main_title": "Newswatch",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/p6fc11067114d0746afdc5be2c8c6e95c",
+              "start_time": "2025-10-25T14:45:00+0000",
+              "duration": "PT15M",
+              "on_demand": {
+                "start_of_availability": "2025-10-24T22:30:00+0000",
+                "end_of_availability": "2026-10-25T15:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lkcv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e217e978bf44a105ea670730739804276",
+              "uuid": "fc7e6235dfdbce287dbccc6dde96d6eb"
+            }
+          },
+          {
+            "startTime": "2025-10-25T15:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkb0",
+              "event_locator": "dvb://233a..9184;ec1",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pf7fc574ead16643aa6273350a335bee8",
+              "start_time": "2025-10-25T15:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "46f413117c2f61b414bee6240aeddcd6"
+            }
+          },
+          {
+            "startTime": "2025-10-25T15:30:00+0000",
+            "duration": 30,
+            "name": "Political Thinking with Nick Robinson",
+            "description": "Series 2: Tom Fletcher – UN humanitarian chief",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002l58s",
+              "event_locator": "dvb://233a..9184;ec2",
+              "main_title": "Political Thinking with Nick Robinson",
+              "secondary_title": "Series 2: Tom Fletcher – UN humanitarian chief",
+              "image_url": "https://img.freeviewplay.tv/pb0abc8b9ced4c908c5060e0a720e36d1",
+              "start_time": "2025-10-25T15:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-24T12:00:30+0000",
+                "end_of_availability": "2026-10-24T12:00:30+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l58s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/efcdf26aea70eeca87b244fdf86427813",
+              "uuid": "8620cbab0b84139f508de7cbc8b7968f"
+            }
+          },
+          {
+            "startTime": "2025-10-25T16:00:00+0000",
+            "duration": 60,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkb3",
+              "event_locator": "dvb://233a..9184;ec3",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T16:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "40bcf6ae74b04ab752b9fd746ea22817"
+            }
+          },
+          {
+            "startTime": "2025-10-25T17:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkb5",
+              "event_locator": "dvb://233a..9184;ec4",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T17:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "e9df1b0c0ee02eb014a9a1987418d464"
+            }
+          },
+          {
+            "startTime": "2025-10-25T17:30:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkcx",
+              "event_locator": "dvb://233a..9184;ec5",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T17:30:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e49145e747446469dc6818427b9098414",
+              "uuid": "41da64e73a526c89d4edca63bffd8c9f"
+            }
+          },
+          {
+            "startTime": "2025-10-25T18:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkb7",
+              "event_locator": "dvb://233a..9184;ec6",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T18:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "b1446410e293f8a248894efd32f19a8e"
+            }
+          },
+          {
+            "startTime": "2025-10-25T18:30:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkcz",
+              "event_locator": "dvb://233a..9184;ec7",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T18:30:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e49145e747446469dc6818427b9098414",
+              "uuid": "9577b0aa5935914c70a7415c3cd9eadb"
+            }
+          },
+          {
+            "startTime": "2025-10-25T19:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkb9",
+              "event_locator": "dvb://233a..9184;ec8",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T19:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "226b2b93c6cad3ee5657ee54563e32de"
+            }
+          },
+          {
+            "startTime": "2025-10-25T19:30:00+0000",
+            "duration": 30,
+            "name": "Newscast",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkd1",
+              "event_locator": "dvb://233a..9184;ec9",
+              "main_title": "Newscast",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pb78795a0bb21bacd3f24a4cfb0a4f802",
+              "start_time": "2025-10-25T19:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-25T20:00:00+0000",
+                "end_of_availability": "2025-11-24T20:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lkd1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e092478be76a663037e099bfe410f2080",
+              "uuid": "2a28854081395ec0d75a1aed1e10dbf4"
+            }
+          },
+          {
+            "startTime": "2025-10-25T20:00:00+0000",
+            "duration": 60,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkbc",
+              "event_locator": "dvb://233a..9184;eca",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T20:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "71740cb4b921d442416b220e6ff961d0"
+            }
+          },
+          {
+            "startTime": "2025-10-25T21:00:00+0000",
+            "duration": 60,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkbf",
+              "event_locator": "dvb://233a..9184;ecb",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T21:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "eb0ba19bff36ea1a577f3641d165ccc1"
+            }
+          },
+          {
+            "startTime": "2025-10-25T22:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkbh",
+              "event_locator": "dvb://233a..9184;ecc",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T22:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "29ffdcd9a36dae8056599dfef78ef1bb"
+            }
+          },
+          {
+            "startTime": "2025-10-25T22:30:00+0000",
+            "duration": 30,
+            "name": "Talking Business",
+            "description": "24/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002l8nz",
+              "event_locator": "dvb://233a..9184;ecd",
+              "main_title": "Talking Business",
+              "secondary_title": "24/10/2025",
+              "image_url": "https://img.freeviewplay.tv/p0fb16c0b590c3ce6bd5aea88a761886a",
+              "start_time": "2025-10-25T22:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-25T00:00:00+0000",
+                "end_of_availability": "2026-10-24T23:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002l8nz&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e63f29618463b8cc01ae8280001018138",
+              "uuid": "c6209c75bd07fd46a67283282a57321a"
+            }
+          },
+          {
+            "startTime": "2025-10-25T23:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "25/10/2025",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lkbk",
+              "event_locator": "dvb://233a..9184;ece",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2025",
+              "image_url": "https://img.freeviewplay.tv/pd60beb250324ea5e041404caf61a641d",
+              "start_time": "2025-10-25T23:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "a6854e4b2ee7a3ff110f4a6f93074560"
+            }
+          },
+          {
+            "startTime": "2025-10-25T23:30:00+0000",
+            "duration": 30,
+            "name": "The Media Show",
+            "description": "When the Royals Lose Control of the Story",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002lk92",
+              "event_locator": "dvb://233a..9184;ecf",
+              "main_title": "The Media Show",
+              "secondary_title": "When the Royals Lose Control of the Story",
+              "image_url": "https://img.freeviewplay.tv/p32a7db4840d13f1e14f768aee139a4d8",
+              "start_time": "2025-10-25T23:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-25T04:00:00+0000",
+                "end_of_availability": "2026-10-25T04:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lk92&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e1035ed55e9766f09bc5f3ea61a7cb5be",
+              "uuid": "9224287e5864a919624d96d8510187b6"
             }
           }
         ]
