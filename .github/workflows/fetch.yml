@@ -19,6 +19,8 @@ on:
         default: "true"
         
   schedule:
+    - cron: "1 0 * * *"     # 00:01 UTC (winter) → 00:01 UK time
+    - cron: "1 23 * * *"    # 23:01 UTC (summer) → 00:01 UK time  
     - cron: "2 0 * * *" 
     - cron: "4 0 * * *" 
 
