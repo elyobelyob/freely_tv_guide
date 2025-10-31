@@ -19,6 +19,16 @@
         "image_url": "https://img.freeviewplay.tv/p8a395278d8090b5978480c5de9cdbc1c",
         "start_time": "2025-10-31T00:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-10-28T21:00:48+0000",
+          "end_of_availability": "2030-08-14T20:00:48+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5507180010.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/e635c5772b5602b6d6bc994b7a7510275",
         "uuid": "56e508cef15f821dd670f5c62bf9bde4"
@@ -39,6 +49,16 @@
         "image_url": "https://img.freeviewplay.tv/paa0e42641abeb8cdb1373d34ef84cbc9",
         "start_time": "2025-10-31T01:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2023-12-21T12:00:00+0000",
+          "end_of_availability": "2027-03-31T12:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5224880031.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/eab80988d1958ac8a57543bb62de49427",
         "uuid": "96b187812825e1cb3faa3c01d256371e"
@@ -59,6 +79,16 @@
         "image_url": "https://img.freeviewplay.tv/pd7e810ebb4644021ea6dc740e4d24cad",
         "start_time": "2025-10-31T02:00:00+0000",
         "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2024-12-04T20:02:54+0000",
+          "end_of_availability": "2026-12-19T20:02:54+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5328650008.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/e26595699c124a1c5973e84a99467bb82",
         "uuid": "f974e2df6fa969f20bda3721a904fa25"
@@ -79,6 +109,16 @@
         "image_url": "https://img.freeviewplay.tv/pe82c07cf91e92bee078546428bb1c66a",
         "start_time": "2025-10-31T02:45:00+0000",
         "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2025-10-29T06:00:00+0000",
+          "end_of_availability": "2025-11-28T06:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5164552974.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/ef8309ea16aac733cce73bc06bea0db6c",
         "uuid": "3e1439065004aace247ce04b85220863"
@@ -99,6 +139,16 @@
         "image_url": "https://img.freeviewplay.tv/pea95c3fbdedc3d9146fb2c222c3e0515",
         "start_time": "2025-10-31T03:10:00+0000",
         "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2025-10-30T06:00:00+0000",
+          "end_of_availability": "2025-11-29T06:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5164552975.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/ef8309ea16aac733cce73bc06bea0db6c",
         "uuid": "7ebe3131948d76ea3733188002ed406d"
@@ -167,15 +217,16 @@
     {
       "startTime": "2025-10-31T07:00:00+0000",
       "duration": 30,
-      "name": "Teleshopping Block 4 - Thane",
-      "description": "",
+      "name": "Teleshopping Block",
+      "description": "Teleshopping Block 4 - Thane",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://panorama.five.tv/versions/C5326820001A",
         "event_locator": "dvb://233a..9504;f70e",
-        "main_title": "Teleshopping Block 4 - Thane",
-        "image_url": "https://img.freeviewplay.tv/p606e666c640dca2990f6b0487d3f4fc0",
+        "main_title": "Teleshopping Block",
+        "secondary_title": "Teleshopping Block 4 - Thane",
+        "image_url": "https://img.freeviewplay.tv/p3fca2216d63a151309f6ca79859043e2",
         "start_time": "2025-10-31T07:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
@@ -186,15 +237,16 @@
     {
       "startTime": "2025-10-31T07:30:00+0000",
       "duration": 30,
-      "name": "JML",
-      "description": "",
+      "name": "Teleshopping Block",
+      "description": "JML",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://panorama.five.tv/versions/C5480340001A",
         "event_locator": "dvb://233a..9504;f70f",
-        "main_title": "JML",
-        "image_url": "https://img.freeviewplay.tv/pf48cadf3f5b956f558eecce849c52d75",
+        "main_title": "Teleshopping Block",
+        "secondary_title": "JML",
+        "image_url": "https://img.freeviewplay.tv/p5454267a2fe9c732773bbca92c6ee8c2",
         "start_time": "2025-10-31T07:30:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
@@ -217,6 +269,16 @@
         "image_url": "https://img.freeviewplay.tv/p89925d6a118bbf7ef7fc1715ced4e4e6",
         "start_time": "2025-10-31T08:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2022-06-02T14:59:38+0000",
+          "end_of_availability": "2026-02-27T15:59:38+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5392240039.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/e4e40b8d43efd3b32293bae785b3d26ba",
         "uuid": "32e65653da1927929600588a6fe6dc89"
@@ -237,6 +299,16 @@
         "image_url": "https://img.freeviewplay.tv/p6046a5a0f2c4a90fb654a3008616941a",
         "start_time": "2025-10-31T09:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2022-06-03T14:59:57+0000",
+          "end_of_availability": "2026-02-27T15:59:57+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5392240040.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/e4e40b8d43efd3b32293bae785b3d26ba",
         "uuid": "4df0c3f54cc415692a113217e8b07b6c"
@@ -257,6 +329,16 @@
         "image_url": "https://img.freeviewplay.tv/p1715c13b788d3cb4817831be816a2ed4",
         "start_time": "2025-10-31T10:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2024-04-04T20:00:39+0000",
+          "end_of_availability": "2028-12-30T21:00:39+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5455370003.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/eb49cf540e16cae14c61edfa8fd10201a",
         "uuid": "166e6f3a4616e158b05bef79070709fb"
@@ -277,6 +359,16 @@
         "image_url": "https://img.freeviewplay.tv/pb58f4ad50fddbd514e90ed0a42e57443",
         "start_time": "2025-10-31T11:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2024-10-21T11:00:35+0000",
+          "end_of_availability": "2026-09-13T11:00:35+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5232100008.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/e5158941e41e604934de4f5cf865816a5",
         "uuid": "d12af60603f3905ebb0d74c85ae5107f"
@@ -297,6 +389,16 @@
         "image_url": "https://img.freeviewplay.tv/p99b4c1f2fde3a6ef6b793af70f46508c",
         "start_time": "2025-10-31T12:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2024-10-21T11:59:47+0000",
+          "end_of_availability": "2026-09-13T11:59:47+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5232100009.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/e5158941e41e604934de4f5cf865816a5",
         "uuid": "0a7ba570805e2edc444c84c3f8ae2441"
@@ -317,6 +419,16 @@
         "image_url": "https://img.freeviewplay.tv/p2c63600b4a07593c0b3241f5e2d43469",
         "start_time": "2025-10-31T13:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2024-10-22T09:59:56+0000",
+          "end_of_availability": "2026-09-13T09:59:56+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5232100010.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/e5158941e41e604934de4f5cf865816a5",
         "uuid": "d460d13a194136991886ec2ac5681605"
@@ -337,6 +449,16 @@
         "image_url": "https://img.freeviewplay.tv/p9b998dce5a5ea6badfaa5ea22028e4ab",
         "start_time": "2025-10-31T14:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2024-06-05T19:00:16+0000",
+          "end_of_availability": "2026-03-09T20:00:16+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5202260004.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/ed262e3d106618f4014425a96e1092bd9",
         "uuid": "522e91fffbdea0bf377f939b796fffff"
@@ -357,6 +479,16 @@
         "image_url": "https://img.freeviewplay.tv/p480f76689ebe045d05f39e33e64b4ee3",
         "start_time": "2025-10-31T15:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2024-03-26T20:00:47+0000",
+          "end_of_availability": "2026-03-09T20:00:47+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5202260007.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/ed262e3d106618f4014425a96e1092bd9",
         "uuid": "f65777ac6f28156ee9116f6e77d595a4"
@@ -377,6 +509,16 @@
         "image_url": "https://img.freeviewplay.tv/pb2bb4bb9fea10d03d4374c0a1cf22742",
         "start_time": "2025-10-31T16:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2024-03-27T20:02:39+0000",
+          "end_of_availability": "2026-03-09T20:02:39+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5202260008.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/ed262e3d106618f4014425a96e1092bd9",
         "uuid": "0929cc08745a545bea472f3aad514809"
@@ -397,6 +539,16 @@
         "image_url": "https://img.freeviewplay.tv/p4c49f2528bab14bc73aa4b1912e7b340",
         "start_time": "2025-10-31T17:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2024-08-13T16:00:00+0000",
+          "end_of_availability": "2026-08-19T21:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5378180001.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/e4505b4768d687489bd99f1d0f42a2a9f",
         "uuid": "05ce1cf740fedd37ff45c89271f822c6"
@@ -417,6 +569,16 @@
         "image_url": "https://img.freeviewplay.tv/pea95c3fbdedc3d9146fb2c222c3e0515",
         "start_time": "2025-10-31T18:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-30T06:00:00+0000",
+          "end_of_availability": "2025-11-29T06:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5164552975.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/ef8309ea16aac733cce73bc06bea0db6c",
         "uuid": "7e34435cd96cc5f103b62c77e7e7fe14"
@@ -437,6 +599,16 @@
         "image_url": "https://img.freeviewplay.tv/p4d0f2993bae5642e232816cbe4c14852",
         "start_time": "2025-10-31T18:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2025-10-31T06:00:00+0000",
+          "end_of_availability": "2025-11-30T06:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5164552976.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/e2e7109b6fb499adb7df52a3fb790d08c",
         "uuid": "cd3a7bfa008b8d3731be9b9adb4ab28c"
@@ -457,6 +629,16 @@
         "image_url": "https://img.freeviewplay.tv/p64d1063c025d9847332a2368a26b5757",
         "start_time": "2025-10-31T19:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-10-31T19:02:20+0000",
+          "end_of_availability": "2027-03-31T18:02:20+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5224880035.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/eab80988d1958ac8a57543bb62de49427",
         "uuid": "51a9d0f5fa4652af6171fe2dd316ccc7"
@@ -477,6 +659,16 @@
         "image_url": "https://img.freeviewplay.tv/p69b6530820671ab3f06cfc891a4c1ab5",
         "start_time": "2025-10-31T20:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2022-05-19T20:02:24+0000",
+          "end_of_availability": "2026-03-17T21:02:24+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5394740004.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/e26595699c124a1c5973e84a99467bb82",
         "uuid": "5cad0135901b5854f5fdec5ac8566b9d"
@@ -574,6 +766,16 @@
               "image_url": "https://img.freeviewplay.tv/p8a395278d8090b5978480c5de9cdbc1c",
               "start_time": "2025-10-31T00:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-10-28T21:00:48+0000",
+                "end_of_availability": "2030-08-14T20:00:48+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5507180010.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/e635c5772b5602b6d6bc994b7a7510275",
               "uuid": "56e508cef15f821dd670f5c62bf9bde4"
@@ -594,6 +796,16 @@
               "image_url": "https://img.freeviewplay.tv/paa0e42641abeb8cdb1373d34ef84cbc9",
               "start_time": "2025-10-31T01:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2023-12-21T12:00:00+0000",
+                "end_of_availability": "2027-03-31T12:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5224880031.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/eab80988d1958ac8a57543bb62de49427",
               "uuid": "96b187812825e1cb3faa3c01d256371e"
@@ -614,6 +826,16 @@
               "image_url": "https://img.freeviewplay.tv/pd7e810ebb4644021ea6dc740e4d24cad",
               "start_time": "2025-10-31T02:00:00+0000",
               "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2024-12-04T20:02:54+0000",
+                "end_of_availability": "2026-12-19T20:02:54+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5328650008.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/e26595699c124a1c5973e84a99467bb82",
               "uuid": "f974e2df6fa969f20bda3721a904fa25"
@@ -634,6 +856,16 @@
               "image_url": "https://img.freeviewplay.tv/pe82c07cf91e92bee078546428bb1c66a",
               "start_time": "2025-10-31T02:45:00+0000",
               "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2025-10-29T06:00:00+0000",
+                "end_of_availability": "2025-11-28T06:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5164552974.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/ef8309ea16aac733cce73bc06bea0db6c",
               "uuid": "3e1439065004aace247ce04b85220863"
@@ -654,6 +886,16 @@
               "image_url": "https://img.freeviewplay.tv/pea95c3fbdedc3d9146fb2c222c3e0515",
               "start_time": "2025-10-31T03:10:00+0000",
               "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2025-10-30T06:00:00+0000",
+                "end_of_availability": "2025-11-29T06:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5164552975.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/ef8309ea16aac733cce73bc06bea0db6c",
               "uuid": "7ebe3131948d76ea3733188002ed406d"
@@ -722,15 +964,16 @@
           {
             "startTime": "2025-10-31T07:00:00+0000",
             "duration": 30,
-            "name": "Teleshopping Block 4 - Thane",
-            "description": "",
+            "name": "Teleshopping Block",
+            "description": "Teleshopping Block 4 - Thane",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://panorama.five.tv/versions/C5326820001A",
               "event_locator": "dvb://233a..9504;f70e",
-              "main_title": "Teleshopping Block 4 - Thane",
-              "image_url": "https://img.freeviewplay.tv/p606e666c640dca2990f6b0487d3f4fc0",
+              "main_title": "Teleshopping Block",
+              "secondary_title": "Teleshopping Block 4 - Thane",
+              "image_url": "https://img.freeviewplay.tv/p3fca2216d63a151309f6ca79859043e2",
               "start_time": "2025-10-31T07:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
@@ -741,15 +984,16 @@
           {
             "startTime": "2025-10-31T07:30:00+0000",
             "duration": 30,
-            "name": "JML",
-            "description": "",
+            "name": "Teleshopping Block",
+            "description": "JML",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://panorama.five.tv/versions/C5480340001A",
               "event_locator": "dvb://233a..9504;f70f",
-              "main_title": "JML",
-              "image_url": "https://img.freeviewplay.tv/pf48cadf3f5b956f558eecce849c52d75",
+              "main_title": "Teleshopping Block",
+              "secondary_title": "JML",
+              "image_url": "https://img.freeviewplay.tv/p5454267a2fe9c732773bbca92c6ee8c2",
               "start_time": "2025-10-31T07:30:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
@@ -772,6 +1016,16 @@
               "image_url": "https://img.freeviewplay.tv/p89925d6a118bbf7ef7fc1715ced4e4e6",
               "start_time": "2025-10-31T08:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2022-06-02T14:59:38+0000",
+                "end_of_availability": "2026-02-27T15:59:38+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5392240039.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/e4e40b8d43efd3b32293bae785b3d26ba",
               "uuid": "32e65653da1927929600588a6fe6dc89"
@@ -792,6 +1046,16 @@
               "image_url": "https://img.freeviewplay.tv/p6046a5a0f2c4a90fb654a3008616941a",
               "start_time": "2025-10-31T09:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2022-06-03T14:59:57+0000",
+                "end_of_availability": "2026-02-27T15:59:57+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5392240040.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/e4e40b8d43efd3b32293bae785b3d26ba",
               "uuid": "4df0c3f54cc415692a113217e8b07b6c"
@@ -812,6 +1076,16 @@
               "image_url": "https://img.freeviewplay.tv/p1715c13b788d3cb4817831be816a2ed4",
               "start_time": "2025-10-31T10:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2024-04-04T20:00:39+0000",
+                "end_of_availability": "2028-12-30T21:00:39+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5455370003.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/eb49cf540e16cae14c61edfa8fd10201a",
               "uuid": "166e6f3a4616e158b05bef79070709fb"
@@ -832,6 +1106,16 @@
               "image_url": "https://img.freeviewplay.tv/pb58f4ad50fddbd514e90ed0a42e57443",
               "start_time": "2025-10-31T11:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2024-10-21T11:00:35+0000",
+                "end_of_availability": "2026-09-13T11:00:35+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5232100008.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/e5158941e41e604934de4f5cf865816a5",
               "uuid": "d12af60603f3905ebb0d74c85ae5107f"
@@ -852,6 +1136,16 @@
               "image_url": "https://img.freeviewplay.tv/p99b4c1f2fde3a6ef6b793af70f46508c",
               "start_time": "2025-10-31T12:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2024-10-21T11:59:47+0000",
+                "end_of_availability": "2026-09-13T11:59:47+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5232100009.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/e5158941e41e604934de4f5cf865816a5",
               "uuid": "0a7ba570805e2edc444c84c3f8ae2441"
@@ -872,6 +1166,16 @@
               "image_url": "https://img.freeviewplay.tv/p2c63600b4a07593c0b3241f5e2d43469",
               "start_time": "2025-10-31T13:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2024-10-22T09:59:56+0000",
+                "end_of_availability": "2026-09-13T09:59:56+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5232100010.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/e5158941e41e604934de4f5cf865816a5",
               "uuid": "d460d13a194136991886ec2ac5681605"
@@ -892,6 +1196,16 @@
               "image_url": "https://img.freeviewplay.tv/p9b998dce5a5ea6badfaa5ea22028e4ab",
               "start_time": "2025-10-31T14:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2024-06-05T19:00:16+0000",
+                "end_of_availability": "2026-03-09T20:00:16+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5202260004.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/ed262e3d106618f4014425a96e1092bd9",
               "uuid": "522e91fffbdea0bf377f939b796fffff"
@@ -912,6 +1226,16 @@
               "image_url": "https://img.freeviewplay.tv/p480f76689ebe045d05f39e33e64b4ee3",
               "start_time": "2025-10-31T15:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2024-03-26T20:00:47+0000",
+                "end_of_availability": "2026-03-09T20:00:47+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5202260007.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/ed262e3d106618f4014425a96e1092bd9",
               "uuid": "f65777ac6f28156ee9116f6e77d595a4"
@@ -932,6 +1256,16 @@
               "image_url": "https://img.freeviewplay.tv/pb2bb4bb9fea10d03d4374c0a1cf22742",
               "start_time": "2025-10-31T16:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2024-03-27T20:02:39+0000",
+                "end_of_availability": "2026-03-09T20:02:39+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5202260008.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/ed262e3d106618f4014425a96e1092bd9",
               "uuid": "0929cc08745a545bea472f3aad514809"
@@ -952,6 +1286,16 @@
               "image_url": "https://img.freeviewplay.tv/p4c49f2528bab14bc73aa4b1912e7b340",
               "start_time": "2025-10-31T17:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2024-08-13T16:00:00+0000",
+                "end_of_availability": "2026-08-19T21:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5378180001.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/e4505b4768d687489bd99f1d0f42a2a9f",
               "uuid": "05ce1cf740fedd37ff45c89271f822c6"
@@ -972,6 +1316,16 @@
               "image_url": "https://img.freeviewplay.tv/pea95c3fbdedc3d9146fb2c222c3e0515",
               "start_time": "2025-10-31T18:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-30T06:00:00+0000",
+                "end_of_availability": "2025-11-29T06:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5164552975.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/ef8309ea16aac733cce73bc06bea0db6c",
               "uuid": "7e34435cd96cc5f103b62c77e7e7fe14"
@@ -992,6 +1346,16 @@
               "image_url": "https://img.freeviewplay.tv/p4d0f2993bae5642e232816cbe4c14852",
               "start_time": "2025-10-31T18:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2025-10-31T06:00:00+0000",
+                "end_of_availability": "2025-11-30T06:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5164552976.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/e2e7109b6fb499adb7df52a3fb790d08c",
               "uuid": "cd3a7bfa008b8d3731be9b9adb4ab28c"
@@ -1012,6 +1376,16 @@
               "image_url": "https://img.freeviewplay.tv/p64d1063c025d9847332a2368a26b5757",
               "start_time": "2025-10-31T19:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-10-31T19:02:20+0000",
+                "end_of_availability": "2027-03-31T18:02:20+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5224880035.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/eab80988d1958ac8a57543bb62de49427",
               "uuid": "51a9d0f5fa4652af6171fe2dd316ccc7"
@@ -1032,6 +1406,16 @@
               "image_url": "https://img.freeviewplay.tv/p69b6530820671ab3f06cfc891a4c1ab5",
               "start_time": "2025-10-31T20:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2022-05-19T20:02:24+0000",
+                "end_of_availability": "2026-03-17T21:02:24+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5394740004.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/e26595699c124a1c5973e84a99467bb82",
               "uuid": "5cad0135901b5854f5fdec5ac8566b9d"
