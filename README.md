@@ -79,6 +79,37 @@ cards:
           {%- endif -%}
 ```
 
+## Home Assistant Examples
+
+### Update EPG Sensors Button
+
+You can add a simple Lovelace button to manually refresh all EPG (Electronic Programme Guide) sensors without waiting for the next automatic update.  
+This is useful after restarting Home Assistant or when you’ve just updated the guide data and want to pull in the latest information immediately.
+
+```yaml
+show_name: true
+show_icon: true
+type: button
+name: Update EPG Sensors
+tap_action:
+  action: call-service
+  service: homeassistant.update_entity
+  service_data:
+    entity_id:
+      - sensor.epg_bbcone
+      - sensor.epg_bbctwo
+      - sensor.epg_itv
+      - sensor.epg_channel4
+      - sensor.epg_channel5
+      - sensor.epg_bbc_news
+      - sensor.epg_bbc_3_hd
+      - sensor.epg_bbc_4_hd
+icon: mdi:refresh
+layout_options:
+  grid_columns: 1
+  grid_rows: 2
+```
+
 ## Channel list
 <!-- CHANNELS_START -->
 | ID | Name | JSON |
