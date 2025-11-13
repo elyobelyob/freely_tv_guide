@@ -12,14 +12,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/4286d404-75e6-4a86-a2fd-b0369cd2b1b6",
+        "program_id": "crid://csi.digitaluk.co.uk/5d85cbce-187f-48d5-b264-c48e0af6221d",
         "event_locator": "dvb://233a..9309;1bc4",
         "main_title": "Shop on TV",
         "image_url": "https://img.freeviewplay.tv/e690b40591162e0f796f1af3415fe360c",
         "start_time": "2025-11-13T00:05:00+0000",
         "duration": "PT2H55M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-        "uuid": "0a98d1906f68ef9b621e47c84eb8ccfd"
+        "uuid": "1c4aae249cac7da0adf0d82821e5011d"
       }
     },
     {
@@ -30,14 +30,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/a69ef8a4-6852-4b55-86a0-dbf32a2a98f4",
+        "program_id": "crid://csi.digitaluk.co.uk/879a1a1c-85e7-439f-b958-4b0e47e789d5",
         "event_locator": "dvb://233a..9309;3e40",
         "main_title": "The Jonathan Ross Show: Special Guests",
         "image_url": "https://img.freeviewplay.tv/ea21ba8c4a3246044565a175ac2a22aa8",
         "start_time": "2025-11-13T03:00:00+0000",
         "duration": "PT25M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "f737ed6fc8fd15ec0e7b4b0756fb7d4f"
+        "uuid": "e705c62a65a43d0697c5a2c97c7bb8cb"
       }
     },
     {
@@ -55,6 +55,16 @@
         "image_url": "https://img.freeviewplay.tv/pdf3c11ba36105ab667062def4fef2f9f",
         "start_time": "2025-11-13T03:25:00+0000",
         "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2025-11-09T07:00:00+0000",
+          "end_of_availability": "2030-11-08T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_2892_0045.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "uuid": "36ed9996354fc8e0db481fe90bc2559d"
       }
@@ -67,14 +77,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/dc71c09a-9708-41ad-9471-3f85f77e24b5",
+        "program_id": "crid://csi.digitaluk.co.uk/94ee53bd-92ec-4d55-baba-ea2e80b7fa96",
         "event_locator": "dvb://233a..9309;7324",
         "main_title": "Unwind with ITV",
         "image_url": "https://img.freeviewplay.tv/e8873cb2c0aa8c4d66f53046926435239",
         "start_time": "2025-11-13T03:50:00+0000",
         "duration": "PT1H15M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "uuid": "2fc249b2ce8b4d6ab708d74abf59371c"
+        "uuid": "fb263aa7f89ad2c880b5eaff34800cdd"
       }
     },
     {
@@ -92,6 +102,16 @@
         "image_url": "https://img.freeviewplay.tv/pc8bd07e06185c19dfabc1531e9bcef44",
         "start_time": "2025-11-13T05:05:00+0000",
         "duration": "PT55M",
+        "on_demand": {
+          "start_of_availability": "2025-11-12T16:56:07+0000",
+          "end_of_availability": "2029-10-27T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_4934_0103.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "afd4695ce868fd94e964384544a641ce"
       }
@@ -100,54 +120,87 @@
       "startTime": "2025-11-13T06:00:00+0000",
       "duration": 180,
       "name": "Good Morning Britain",
-      "description": "",
+      "description": "Series 12: 226. Thursday 13 Nov",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/e9e3795c-ecc7-49c5-a0b2-0361a0fb647a",
+        "program_id": "crid://jvp.itv.com/z60kpnr_version",
         "event_locator": "dvb://233a..9309;737e",
         "main_title": "Good Morning Britain",
-        "image_url": "https://img.freeviewplay.tv/edc21d33b439399d12536d364f7fdf228",
+        "secondary_title": "Series 12: 226. Thursday 13 Nov",
+        "image_url": "https://img.freeviewplay.tv/p870c85e496872eea600b045ad7a312e4",
         "start_time": "2025-11-13T06:00:00+0000",
         "duration": "PT3H",
+        "on_demand": {
+          "start_of_availability": "2025-11-13T08:54:21+0000",
+          "end_of_availability": "2025-11-20T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_3211_4212.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "bcff75b3df5cfaffb7533299c7369244"
+        "uuid": "c4f9514912a086afad8fcf521982c16e"
       }
     },
     {
       "startTime": "2025-11-13T09:00:00+0000",
       "duration": 60,
       "name": "Lorraine",
-      "description": "",
+      "description": "Series 17: 226. Thursday 13 Nov",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/dff056a8-50b3-4387-8b98-6f26bf10832c",
+        "program_id": "crid://jvp.itv.com/zl0139m_version",
         "event_locator": "dvb://233a..9309;737f",
         "main_title": "Lorraine",
-        "image_url": "https://img.freeviewplay.tv/e29736054b87d2023c33a9b173a91f363",
+        "secondary_title": "Series 17: 226. Thursday 13 Nov",
+        "image_url": "https://img.freeviewplay.tv/pb8dc5f306010bb21fe6ee9ca299ba753",
         "start_time": "2025-11-13T09:00:00+0000",
         "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "b4aeae1e1a5a6a0b87c256e5c2e6cb18"
+        "on_demand": {
+          "start_of_availability": "2025-11-13T09:54:36+0000",
+          "end_of_availability": "2025-11-20T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_9360_4002.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+        "uuid": "c72a31b79a05af55d015c45030949a81"
       }
     },
     {
       "startTime": "2025-11-13T10:00:00+0000",
       "duration": 150,
       "name": "This Morning",
-      "description": "",
+      "description": "Series 37: 226. Thursday 13 Nov",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/edaf6e3c-1646-4cb1-96bb-27c390c7fd5f",
+        "program_id": "crid://jvp.itv.com/vrm4mm2_version",
         "event_locator": "dvb://233a..9309;7381",
         "main_title": "This Morning",
-        "image_url": "https://img.freeviewplay.tv/eada0bf450da9e31697740d7ddeb66563",
+        "secondary_title": "Series 37: 226. Thursday 13 Nov",
+        "image_url": "https://img.freeviewplay.tv/p14aaa8c3bacfb2395b3957f73d2c6b96",
         "start_time": "2025-11-13T10:00:00+0000",
         "duration": "PT2H30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "ce69df8f7275104c0eaead65aa3acfbd"
+        "on_demand": {
+          "start_of_availability": "2025-11-13T12:26:41+0000",
+          "end_of_availability": "2025-11-20T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_1960_10107.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+        "uuid": "4bafacbb26e71fb40a59a9211e6459a7"
       }
     },
     {
@@ -158,14 +211,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/32454789-fa54-4f19-b681-006fd42ad7f9",
+        "program_id": "crid://csi.digitaluk.co.uk/e7fab167-1f49-4e5a-a89c-544123133711",
         "event_locator": "dvb://233a..9309;7392",
         "main_title": "Loose Women",
         "image_url": "https://img.freeviewplay.tv/e51a777965b9549c7ea643cc37e213eb7",
         "start_time": "2025-11-13T12:30:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "b60603053bfdc1aebf43b508ee31efdb"
+        "uuid": "8988814638c1772962ac29ac2d8d3bfa"
       }
     },
     {
@@ -176,14 +229,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/10a835f1-0a4c-4734-abc3-880de6469c88",
+        "program_id": "crid://csi.digitaluk.co.uk/d430e19c-5fa8-47f5-8d3f-49479f620375",
         "event_locator": "dvb://233a..9309;7393",
         "main_title": "ITV Lunchtime News",
         "image_url": "https://img.freeviewplay.tv/e78885b48d37be6165dc1764b7159fc11",
         "start_time": "2025-11-13T13:30:00+0000",
         "duration": "PT25M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "b74d9b90af2697ab2812c2015cc76c65"
+        "uuid": "e98f65ff58e0a16d1886e1d8932afcaa"
       }
     },
     {
@@ -194,14 +247,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/84cf1f43-3bb8-4102-bc64-6f11ac245277",
+        "program_id": "crid://csi.digitaluk.co.uk/efeba6de-aff1-4a36-941e-dd7d59af3b9f",
         "event_locator": "dvb://233a..9309;73a3",
         "main_title": "ITV News London",
         "image_url": "https://img.freeviewplay.tv/efc9ec73d544de5e32d6596a6875be9c9",
         "start_time": "2025-11-13T13:55:00+0000",
         "duration": "PT5M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "f54109c00a9e6251f55a09d0be19c0c0"
+        "uuid": "ea2329469bd9bb371731f56f9a41aded"
       }
     },
     {
@@ -219,6 +272,16 @@
         "image_url": "https://img.freeviewplay.tv/pbc4877b84e49763ca4aaf7aa6cd23d4d",
         "start_time": "2025-11-13T14:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-11-13T14:57:46+0000",
+          "end_of_availability": "2025-12-13T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_8665_1066.004",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
         "uuid": "b93d2b7bb0bb47ea87f9681ddf01b2ce"
       }
@@ -238,6 +301,16 @@
         "image_url": "https://img.freeviewplay.tv/pe7e250b3cc23aa8bb34fe0533cb5f05d",
         "start_time": "2025-11-13T15:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2023-01-04T15:54:16+0000",
+          "end_of_availability": "2027-11-27T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_0540_0127.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "8515fea30b887e5e3e957ff9ba362520"
       }
@@ -257,6 +330,16 @@
         "image_url": "https://img.freeviewplay.tv/p2bfaadb6b397df891283f2dfe944288a",
         "start_time": "2025-11-13T16:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-11-13T16:55:30+0000",
+          "end_of_availability": "2029-10-27T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_4934_0104.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "f6cb3f761a432c8e4c631b3cb67893e9"
       }
@@ -276,6 +359,16 @@
         "image_url": "https://img.freeviewplay.tv/p798ada120d2790b0ac4c60870733f331",
         "start_time": "2025-11-13T17:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-11-13T17:55:51+0000",
+          "end_of_availability": "2027-10-04T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_7842_2316.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "5ec51f671a546f07ab1085951965b607"
       }
@@ -288,14 +381,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/b9eb86ac-2a0a-4482-a5f8-bc8aec5bcaf4",
+        "program_id": "crid://csi.digitaluk.co.uk/aa7482ed-0dc0-41d9-b38e-a4daa914df8b",
         "event_locator": "dvb://233a..9309;73f0",
         "main_title": "ITV News London",
         "image_url": "https://img.freeviewplay.tv/efc9ec73d544de5e32d6596a6875be9c9",
         "start_time": "2025-11-13T18:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "5c087957194224cbe9ae827b9a30b829"
+        "uuid": "e0334789c3b35fab8c3a87ad854f7b8f"
       }
     },
     {
@@ -306,14 +399,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/421a7bf5-ab79-47f7-b6c9-fdc02c8783f8",
+        "program_id": "crid://csi.digitaluk.co.uk/fa9debb8-cf81-41d6-94e8-014ae301a949",
         "event_locator": "dvb://233a..9309;7460",
         "main_title": "ITV Evening News",
         "image_url": "https://img.freeviewplay.tv/e8d2a5b5b69fc144f25d8ba574cb624f2",
         "start_time": "2025-11-13T18:30:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "69c6e16e56e008021993e2edbd35cc0e"
+        "uuid": "78b2a98ae0b737214bf3f0825b98c384"
       }
     },
     {
@@ -324,14 +417,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/b44f4024-fb30-4c65-bdcc-beba97a4664e",
+        "program_id": "crid://csi.digitaluk.co.uk/c5e72ccc-ac94-4ca0-b39e-08075649095d",
         "event_locator": "dvb://233a..9309;7462",
         "main_title": "European Qualifier: England v Serbia",
         "image_url": "https://img.freeviewplay.tv/ebf62075195cb7ce2057e7359fc63eb53",
         "start_time": "2025-11-13T19:00:00+0000",
         "duration": "PT3H5M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-        "uuid": "d7d422fdf7a451b318fadda112377208"
+        "uuid": "b7940812d95841c7a33d1f1479171901"
       }
     },
     {
@@ -342,14 +435,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/34e8b62f-166e-4b4b-b4eb-0cd5db091e57",
+        "program_id": "crid://csi.digitaluk.co.uk/7c46666d-b484-4b06-b96c-8f59d88f8590",
         "event_locator": "dvb://233a..9309;5f41",
         "main_title": "ITV News at Ten",
         "image_url": "https://img.freeviewplay.tv/e65d97ea4f69878c7ed7f12edd2ad5bd4",
         "start_time": "2025-11-13T22:05:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "ec8a6efe1fc0a153605a8c3ca3342fa1"
+        "uuid": "ae7c7f796e512b486722d8843798fc50"
       }
     },
     {
@@ -360,14 +453,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/1dc4fcbd-bcd5-4dc4-b62d-98ea56cf5009",
+        "program_id": "crid://csi.digitaluk.co.uk/05001200-0c03-4cb7-96b1-3f26d1ef9746",
         "event_locator": "dvb://233a..9309;5f53",
         "main_title": "ITV News London",
         "image_url": "https://img.freeviewplay.tv/efc9ec73d544de5e32d6596a6875be9c9",
         "start_time": "2025-11-13T22:35:00+0000",
         "duration": "PT15M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "bc8dffd249198762022aaed59448d864"
+        "uuid": "5fc9c081f55ef555af5650287e37e3bc"
       }
     },
     {
@@ -378,14 +471,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/63cbb186-7918-4c94-ad81-8d1822bffd99",
+        "program_id": "crid://csi.digitaluk.co.uk/b56b6e63-a09f-4ed5-a31f-ba6a1114a2c6",
         "event_locator": "dvb://233a..9309;5f40",
         "main_title": "The Late Debate",
         "image_url": "https://img.freeviewplay.tv/e98d5d8478bfef6ac233f60b9cb34340a",
         "start_time": "2025-11-13T22:50:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "7f91ad56607cbe28b4792628e5f88db0"
+        "uuid": "b7a635d1132d70d7af0d6a50fcbe5ff7"
       }
     },
     {
@@ -420,14 +513,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/4286d404-75e6-4a86-a2fd-b0369cd2b1b6",
+              "program_id": "crid://csi.digitaluk.co.uk/5d85cbce-187f-48d5-b264-c48e0af6221d",
               "event_locator": "dvb://233a..9309;1bc4",
               "main_title": "Shop on TV",
               "image_url": "https://img.freeviewplay.tv/e690b40591162e0f796f1af3415fe360c",
               "start_time": "2025-11-13T00:05:00+0000",
               "duration": "PT2H55M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-              "uuid": "0a98d1906f68ef9b621e47c84eb8ccfd"
+              "uuid": "1c4aae249cac7da0adf0d82821e5011d"
             }
           },
           {
@@ -438,14 +531,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/a69ef8a4-6852-4b55-86a0-dbf32a2a98f4",
+              "program_id": "crid://csi.digitaluk.co.uk/879a1a1c-85e7-439f-b958-4b0e47e789d5",
               "event_locator": "dvb://233a..9309;3e40",
               "main_title": "The Jonathan Ross Show: Special Guests",
               "image_url": "https://img.freeviewplay.tv/ea21ba8c4a3246044565a175ac2a22aa8",
               "start_time": "2025-11-13T03:00:00+0000",
               "duration": "PT25M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "f737ed6fc8fd15ec0e7b4b0756fb7d4f"
+              "uuid": "e705c62a65a43d0697c5a2c97c7bb8cb"
             }
           },
           {
@@ -463,6 +556,16 @@
               "image_url": "https://img.freeviewplay.tv/pdf3c11ba36105ab667062def4fef2f9f",
               "start_time": "2025-11-13T03:25:00+0000",
               "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2025-11-09T07:00:00+0000",
+                "end_of_availability": "2030-11-08T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_2892_0045.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "uuid": "36ed9996354fc8e0db481fe90bc2559d"
             }
@@ -475,14 +578,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/dc71c09a-9708-41ad-9471-3f85f77e24b5",
+              "program_id": "crid://csi.digitaluk.co.uk/94ee53bd-92ec-4d55-baba-ea2e80b7fa96",
               "event_locator": "dvb://233a..9309;7324",
               "main_title": "Unwind with ITV",
               "image_url": "https://img.freeviewplay.tv/e8873cb2c0aa8c4d66f53046926435239",
               "start_time": "2025-11-13T03:50:00+0000",
               "duration": "PT1H15M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "uuid": "2fc249b2ce8b4d6ab708d74abf59371c"
+              "uuid": "fb263aa7f89ad2c880b5eaff34800cdd"
             }
           },
           {
@@ -500,6 +603,16 @@
               "image_url": "https://img.freeviewplay.tv/pc8bd07e06185c19dfabc1531e9bcef44",
               "start_time": "2025-11-13T05:05:00+0000",
               "duration": "PT55M",
+              "on_demand": {
+                "start_of_availability": "2025-11-12T16:56:07+0000",
+                "end_of_availability": "2029-10-27T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_4934_0103.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "afd4695ce868fd94e964384544a641ce"
             }
@@ -508,54 +621,87 @@
             "startTime": "2025-11-13T06:00:00+0000",
             "duration": 180,
             "name": "Good Morning Britain",
-            "description": "",
+            "description": "Series 12: 226. Thursday 13 Nov",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/e9e3795c-ecc7-49c5-a0b2-0361a0fb647a",
+              "program_id": "crid://jvp.itv.com/z60kpnr_version",
               "event_locator": "dvb://233a..9309;737e",
               "main_title": "Good Morning Britain",
-              "image_url": "https://img.freeviewplay.tv/edc21d33b439399d12536d364f7fdf228",
+              "secondary_title": "Series 12: 226. Thursday 13 Nov",
+              "image_url": "https://img.freeviewplay.tv/p870c85e496872eea600b045ad7a312e4",
               "start_time": "2025-11-13T06:00:00+0000",
               "duration": "PT3H",
+              "on_demand": {
+                "start_of_availability": "2025-11-13T08:54:21+0000",
+                "end_of_availability": "2025-11-20T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_3211_4212.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "bcff75b3df5cfaffb7533299c7369244"
+              "uuid": "c4f9514912a086afad8fcf521982c16e"
             }
           },
           {
             "startTime": "2025-11-13T09:00:00+0000",
             "duration": 60,
             "name": "Lorraine",
-            "description": "",
+            "description": "Series 17: 226. Thursday 13 Nov",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/dff056a8-50b3-4387-8b98-6f26bf10832c",
+              "program_id": "crid://jvp.itv.com/zl0139m_version",
               "event_locator": "dvb://233a..9309;737f",
               "main_title": "Lorraine",
-              "image_url": "https://img.freeviewplay.tv/e29736054b87d2023c33a9b173a91f363",
+              "secondary_title": "Series 17: 226. Thursday 13 Nov",
+              "image_url": "https://img.freeviewplay.tv/pb8dc5f306010bb21fe6ee9ca299ba753",
               "start_time": "2025-11-13T09:00:00+0000",
               "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "b4aeae1e1a5a6a0b87c256e5c2e6cb18"
+              "on_demand": {
+                "start_of_availability": "2025-11-13T09:54:36+0000",
+                "end_of_availability": "2025-11-20T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_9360_4002.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+              "uuid": "c72a31b79a05af55d015c45030949a81"
             }
           },
           {
             "startTime": "2025-11-13T10:00:00+0000",
             "duration": 150,
             "name": "This Morning",
-            "description": "",
+            "description": "Series 37: 226. Thursday 13 Nov",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/edaf6e3c-1646-4cb1-96bb-27c390c7fd5f",
+              "program_id": "crid://jvp.itv.com/vrm4mm2_version",
               "event_locator": "dvb://233a..9309;7381",
               "main_title": "This Morning",
-              "image_url": "https://img.freeviewplay.tv/eada0bf450da9e31697740d7ddeb66563",
+              "secondary_title": "Series 37: 226. Thursday 13 Nov",
+              "image_url": "https://img.freeviewplay.tv/p14aaa8c3bacfb2395b3957f73d2c6b96",
               "start_time": "2025-11-13T10:00:00+0000",
               "duration": "PT2H30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "ce69df8f7275104c0eaead65aa3acfbd"
+              "on_demand": {
+                "start_of_availability": "2025-11-13T12:26:41+0000",
+                "end_of_availability": "2025-11-20T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_1960_10107.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+              "uuid": "4bafacbb26e71fb40a59a9211e6459a7"
             }
           },
           {
@@ -566,14 +712,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/32454789-fa54-4f19-b681-006fd42ad7f9",
+              "program_id": "crid://csi.digitaluk.co.uk/e7fab167-1f49-4e5a-a89c-544123133711",
               "event_locator": "dvb://233a..9309;7392",
               "main_title": "Loose Women",
               "image_url": "https://img.freeviewplay.tv/e51a777965b9549c7ea643cc37e213eb7",
               "start_time": "2025-11-13T12:30:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "b60603053bfdc1aebf43b508ee31efdb"
+              "uuid": "8988814638c1772962ac29ac2d8d3bfa"
             }
           },
           {
@@ -584,14 +730,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/10a835f1-0a4c-4734-abc3-880de6469c88",
+              "program_id": "crid://csi.digitaluk.co.uk/d430e19c-5fa8-47f5-8d3f-49479f620375",
               "event_locator": "dvb://233a..9309;7393",
               "main_title": "ITV Lunchtime News",
               "image_url": "https://img.freeviewplay.tv/e78885b48d37be6165dc1764b7159fc11",
               "start_time": "2025-11-13T13:30:00+0000",
               "duration": "PT25M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "b74d9b90af2697ab2812c2015cc76c65"
+              "uuid": "e98f65ff58e0a16d1886e1d8932afcaa"
             }
           },
           {
@@ -602,14 +748,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/84cf1f43-3bb8-4102-bc64-6f11ac245277",
+              "program_id": "crid://csi.digitaluk.co.uk/efeba6de-aff1-4a36-941e-dd7d59af3b9f",
               "event_locator": "dvb://233a..9309;73a3",
               "main_title": "ITV News London",
               "image_url": "https://img.freeviewplay.tv/efc9ec73d544de5e32d6596a6875be9c9",
               "start_time": "2025-11-13T13:55:00+0000",
               "duration": "PT5M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "f54109c00a9e6251f55a09d0be19c0c0"
+              "uuid": "ea2329469bd9bb371731f56f9a41aded"
             }
           },
           {
@@ -627,6 +773,16 @@
               "image_url": "https://img.freeviewplay.tv/pbc4877b84e49763ca4aaf7aa6cd23d4d",
               "start_time": "2025-11-13T14:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-11-13T14:57:46+0000",
+                "end_of_availability": "2025-12-13T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_8665_1066.004",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
               "uuid": "b93d2b7bb0bb47ea87f9681ddf01b2ce"
             }
@@ -646,6 +802,16 @@
               "image_url": "https://img.freeviewplay.tv/pe7e250b3cc23aa8bb34fe0533cb5f05d",
               "start_time": "2025-11-13T15:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2023-01-04T15:54:16+0000",
+                "end_of_availability": "2027-11-27T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_0540_0127.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "8515fea30b887e5e3e957ff9ba362520"
             }
@@ -665,6 +831,16 @@
               "image_url": "https://img.freeviewplay.tv/p2bfaadb6b397df891283f2dfe944288a",
               "start_time": "2025-11-13T16:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-11-13T16:55:30+0000",
+                "end_of_availability": "2029-10-27T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_4934_0104.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "f6cb3f761a432c8e4c631b3cb67893e9"
             }
@@ -684,6 +860,16 @@
               "image_url": "https://img.freeviewplay.tv/p798ada120d2790b0ac4c60870733f331",
               "start_time": "2025-11-13T17:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-11-13T17:55:51+0000",
+                "end_of_availability": "2027-10-04T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_7842_2316.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "5ec51f671a546f07ab1085951965b607"
             }
@@ -696,14 +882,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/b9eb86ac-2a0a-4482-a5f8-bc8aec5bcaf4",
+              "program_id": "crid://csi.digitaluk.co.uk/aa7482ed-0dc0-41d9-b38e-a4daa914df8b",
               "event_locator": "dvb://233a..9309;73f0",
               "main_title": "ITV News London",
               "image_url": "https://img.freeviewplay.tv/efc9ec73d544de5e32d6596a6875be9c9",
               "start_time": "2025-11-13T18:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "5c087957194224cbe9ae827b9a30b829"
+              "uuid": "e0334789c3b35fab8c3a87ad854f7b8f"
             }
           },
           {
@@ -714,14 +900,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/421a7bf5-ab79-47f7-b6c9-fdc02c8783f8",
+              "program_id": "crid://csi.digitaluk.co.uk/fa9debb8-cf81-41d6-94e8-014ae301a949",
               "event_locator": "dvb://233a..9309;7460",
               "main_title": "ITV Evening News",
               "image_url": "https://img.freeviewplay.tv/e8d2a5b5b69fc144f25d8ba574cb624f2",
               "start_time": "2025-11-13T18:30:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "69c6e16e56e008021993e2edbd35cc0e"
+              "uuid": "78b2a98ae0b737214bf3f0825b98c384"
             }
           },
           {
@@ -732,14 +918,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/b44f4024-fb30-4c65-bdcc-beba97a4664e",
+              "program_id": "crid://csi.digitaluk.co.uk/c5e72ccc-ac94-4ca0-b39e-08075649095d",
               "event_locator": "dvb://233a..9309;7462",
               "main_title": "European Qualifier: England v Serbia",
               "image_url": "https://img.freeviewplay.tv/ebf62075195cb7ce2057e7359fc63eb53",
               "start_time": "2025-11-13T19:00:00+0000",
               "duration": "PT3H5M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-              "uuid": "d7d422fdf7a451b318fadda112377208"
+              "uuid": "b7940812d95841c7a33d1f1479171901"
             }
           },
           {
@@ -750,14 +936,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/34e8b62f-166e-4b4b-b4eb-0cd5db091e57",
+              "program_id": "crid://csi.digitaluk.co.uk/7c46666d-b484-4b06-b96c-8f59d88f8590",
               "event_locator": "dvb://233a..9309;5f41",
               "main_title": "ITV News at Ten",
               "image_url": "https://img.freeviewplay.tv/e65d97ea4f69878c7ed7f12edd2ad5bd4",
               "start_time": "2025-11-13T22:05:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "ec8a6efe1fc0a153605a8c3ca3342fa1"
+              "uuid": "ae7c7f796e512b486722d8843798fc50"
             }
           },
           {
@@ -768,14 +954,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/1dc4fcbd-bcd5-4dc4-b62d-98ea56cf5009",
+              "program_id": "crid://csi.digitaluk.co.uk/05001200-0c03-4cb7-96b1-3f26d1ef9746",
               "event_locator": "dvb://233a..9309;5f53",
               "main_title": "ITV News London",
               "image_url": "https://img.freeviewplay.tv/efc9ec73d544de5e32d6596a6875be9c9",
               "start_time": "2025-11-13T22:35:00+0000",
               "duration": "PT15M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "bc8dffd249198762022aaed59448d864"
+              "uuid": "5fc9c081f55ef555af5650287e37e3bc"
             }
           },
           {
@@ -786,14 +972,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/63cbb186-7918-4c94-ad81-8d1822bffd99",
+              "program_id": "crid://csi.digitaluk.co.uk/b56b6e63-a09f-4ed5-a31f-ba6a1114a2c6",
               "event_locator": "dvb://233a..9309;5f40",
               "main_title": "The Late Debate",
               "image_url": "https://img.freeviewplay.tv/e98d5d8478bfef6ac233f60b9cb34340a",
               "start_time": "2025-11-13T22:50:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "7f91ad56607cbe28b4792628e5f88db0"
+              "uuid": "b7a635d1132d70d7af0d6a50fcbe5ff7"
             }
           },
           {
