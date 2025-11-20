@@ -315,8 +315,9 @@ layout_options:
 | 14456 | TRUE CRIME XTRA | [channels/14456.json](https://elyobelyob.github.io/freely_tv_guide/channels/14456.json) |
 | 16406 | Talk | [channels/16406.json](https://elyobelyob.github.io/freely_tv_guide/channels/16406.json) |
 | 28224 | TalkingPictures TV | [channels/28224.json](https://elyobelyob.github.io/freely_tv_guide/channels/28224.json) |
+| 23904 | That's 80s | [channels/23904.json](https://elyobelyob.github.io/freely_tv_guide/channels/23904.json) |
+| 15864 | That's Christmas | [channels/15864.json](https://elyobelyob.github.io/freely_tv_guide/channels/15864.json) |
 | 28032 | That's Melody | [channels/28032.json](https://elyobelyob.github.io/freely_tv_guide/channels/28032.json) |
-| 15864 | That's Oldies | [channels/15864.json](https://elyobelyob.github.io/freely_tv_guide/channels/15864.json) |
 | 27936 | That's TV (UK) | [channels/27936.json](https://elyobelyob.github.io/freely_tv_guide/channels/27936.json) |
 | 23152 | That's TV 2 | [channels/23152.json](https://elyobelyob.github.io/freely_tv_guide/channels/23152.json) |
 | 8700 | That's TV 3 | [channels/8700.json](https://elyobelyob.github.io/freely_tv_guide/channels/8700.json) |
