@@ -127,6 +127,16 @@
         "image_url": "https://img.freeviewplay.tv/p8471d77f88f6ba6530b8e6da269b9371",
         "start_time": "2025-11-21T06:55:00+0000",
         "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2025-11-20T15:00:00+0000",
+          "end_of_availability": "2026-11-20T15:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-169",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
         "uuid": "48b64edfda3ad8583de99fdfb61e5499"
       }
@@ -326,6 +336,16 @@
         "image_url": "https://img.freeviewplay.tv/pfebead760290a1a46f8a552287732b45",
         "start_time": "2025-11-21T12:10:00+0000",
         "duration": "PT55M",
+        "on_demand": {
+          "start_of_availability": "2025-11-21T12:05:00+0000",
+          "end_of_availability": "2025-12-27T12:05:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=american-pickers&programme=78130-010",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
         "uuid": "a23f397da74ac787216404a5090d46cc"
       }
@@ -333,19 +353,30 @@
     {
       "startTime": "2025-11-21T13:05:00+0000",
       "duration": 5,
-      "name": "Channel 4 News Summary",
-      "description": "",
+      "name": "Channel 4 News",
+      "description": "20256602. Fri 21 Nov 2025 Midday News",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.enh.digitaluk.co.uk/0f7ee4fc-88df-4be1-9157-036ad66d7b49",
+        "program_id": "crid://movida.bebanjo.net/mas/version/76575/481/ASDELIVERED/C",
         "event_locator": "dvb://233a..2104;ccdb",
-        "main_title": "Channel 4 News Summary",
-        "image_url": "https://img.freeviewplay.tv/e3695da43fab15fffa57a4c2c763168e8",
+        "main_title": "Channel 4 News",
+        "secondary_title": "20256602. Fri 21 Nov 2025 Midday News",
+        "image_url": "https://img.freeviewplay.tv/p3df6cfa18fe86991ff948998f56a0f86",
         "start_time": "2025-11-21T13:05:00+0000",
         "duration": "PT5M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "cf36ce0afe0841aad6f7d7b42adea068"
+        "on_demand": {
+          "start_of_availability": "2025-11-21T12:10:00+0000",
+          "end_of_availability": "2025-11-22T12:10:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=76575-481",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+        "uuid": "f8789bac430c58e37de847799855af93"
       }
     },
     {
@@ -498,19 +529,20 @@
     {
       "startTime": "2025-11-21T20:30:00+0000",
       "duration": 25,
-      "name": "New: Unreported World",
-      "description": "",
+      "name": "Unreported World",
+      "description": "20262131. Inside Tenerife's Squatter Wars",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.enh.digitaluk.co.uk/8ccf3466-d601-4413-aa8e-5af653ee3617",
+        "program_id": "crid://movida.bebanjo.net/mas/version/77296/010/ASDELIVERED/C",
         "event_locator": "dvb://233a..2104;cce4",
-        "main_title": "New: Unreported World",
-        "image_url": "https://img.freeviewplay.tv/e0d5f2c0a188128d9e7d1abb62d3ec7d9",
+        "main_title": "Unreported World",
+        "secondary_title": "20262131. Inside Tenerife's Squatter Wars",
+        "image_url": "https://img.freeviewplay.tv/p90fcf34d342241bcc3480400c1bd7436",
         "start_time": "2025-11-21T20:30:00+0000",
         "duration": "PT25M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "72889712c4191f9984a97820b6329fbc"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+        "uuid": "40ddc39cde293a611568faf5c33b8876"
       }
     },
     {
@@ -714,6 +746,16 @@
               "image_url": "https://img.freeviewplay.tv/p8471d77f88f6ba6530b8e6da269b9371",
               "start_time": "2025-11-21T06:55:00+0000",
               "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2025-11-20T15:00:00+0000",
+                "end_of_availability": "2026-11-20T15:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-169",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
               "uuid": "48b64edfda3ad8583de99fdfb61e5499"
             }
@@ -913,6 +955,16 @@
               "image_url": "https://img.freeviewplay.tv/pfebead760290a1a46f8a552287732b45",
               "start_time": "2025-11-21T12:10:00+0000",
               "duration": "PT55M",
+              "on_demand": {
+                "start_of_availability": "2025-11-21T12:05:00+0000",
+                "end_of_availability": "2025-12-27T12:05:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=american-pickers&programme=78130-010",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
               "uuid": "a23f397da74ac787216404a5090d46cc"
             }
@@ -920,19 +972,30 @@
           {
             "startTime": "2025-11-21T13:05:00+0000",
             "duration": 5,
-            "name": "Channel 4 News Summary",
-            "description": "",
+            "name": "Channel 4 News",
+            "description": "20256602. Fri 21 Nov 2025 Midday News",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.enh.digitaluk.co.uk/0f7ee4fc-88df-4be1-9157-036ad66d7b49",
+              "program_id": "crid://movida.bebanjo.net/mas/version/76575/481/ASDELIVERED/C",
               "event_locator": "dvb://233a..2104;ccdb",
-              "main_title": "Channel 4 News Summary",
-              "image_url": "https://img.freeviewplay.tv/e3695da43fab15fffa57a4c2c763168e8",
+              "main_title": "Channel 4 News",
+              "secondary_title": "20256602. Fri 21 Nov 2025 Midday News",
+              "image_url": "https://img.freeviewplay.tv/p3df6cfa18fe86991ff948998f56a0f86",
               "start_time": "2025-11-21T13:05:00+0000",
               "duration": "PT5M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "cf36ce0afe0841aad6f7d7b42adea068"
+              "on_demand": {
+                "start_of_availability": "2025-11-21T12:10:00+0000",
+                "end_of_availability": "2025-11-22T12:10:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=76575-481",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+              "uuid": "f8789bac430c58e37de847799855af93"
             }
           },
           {
@@ -1085,19 +1148,20 @@
           {
             "startTime": "2025-11-21T20:30:00+0000",
             "duration": 25,
-            "name": "New: Unreported World",
-            "description": "",
+            "name": "Unreported World",
+            "description": "20262131. Inside Tenerife's Squatter Wars",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.enh.digitaluk.co.uk/8ccf3466-d601-4413-aa8e-5af653ee3617",
+              "program_id": "crid://movida.bebanjo.net/mas/version/77296/010/ASDELIVERED/C",
               "event_locator": "dvb://233a..2104;cce4",
-              "main_title": "New: Unreported World",
-              "image_url": "https://img.freeviewplay.tv/e0d5f2c0a188128d9e7d1abb62d3ec7d9",
+              "main_title": "Unreported World",
+              "secondary_title": "20262131. Inside Tenerife's Squatter Wars",
+              "image_url": "https://img.freeviewplay.tv/p90fcf34d342241bcc3480400c1bd7436",
               "start_time": "2025-11-21T20:30:00+0000",
               "duration": "PT25M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "72889712c4191f9984a97820b6329fbc"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+              "uuid": "40ddc39cde293a611568faf5c33b8876"
             }
           },
           {
