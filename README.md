@@ -302,6 +302,7 @@ layout_options:
 | 16248 | Revelation TV | [channels/16248.json](https://elyobelyob.github.io/freely_tv_guide/channels/16248.json) |
 | 27744 | Rewind TV | [channels/27744.json](https://elyobelyob.github.io/freely_tv_guide/channels/27744.json) |
 | 38113 | S4C | [channels/38113.json](https://elyobelyob.github.io/freely_tv_guide/channels/38113.json) |
+| 37697 | Saturday Night Every Night | [channels/37697.json](https://elyobelyob.github.io/freely_tv_guide/channels/37697.json) |
 | 16394 | Shop On TV | [channels/16394.json](https://elyobelyob.github.io/freely_tv_guide/channels/16394.json) |
 | 22144 | Sky Arts | [channels/22144.json](https://elyobelyob.github.io/freely_tv_guide/channels/22144.json) |
 | 22208 | Sky Mix | [channels/22208.json](https://elyobelyob.github.io/freely_tv_guide/channels/22208.json) |
@@ -321,6 +322,7 @@ layout_options:
 | 27936 | That's TV (UK) | [channels/27936.json](https://elyobelyob.github.io/freely_tv_guide/channels/27936.json) |
 | 23152 | That's TV 2 | [channels/23152.json](https://elyobelyob.github.io/freely_tv_guide/channels/23152.json) |
 | 8700 | That's TV 3 | [channels/8700.json](https://elyobelyob.github.io/freely_tv_guide/channels/8700.json) |
+| 37696 | The Chase | [channels/37696.json](https://elyobelyob.github.io/freely_tv_guide/channels/37696.json) |
 | 16280 | Tiny Pop | [channels/16280.json](https://elyobelyob.github.io/freely_tv_guide/channels/16280.json) |
 | 16364 | Together TV | [channels/16364.json](https://elyobelyob.github.io/freely_tv_guide/channels/16364.json) |
 | 27808 | Together TV IP | [channels/27808.json](https://elyobelyob.github.io/freely_tv_guide/channels/27808.json) |
