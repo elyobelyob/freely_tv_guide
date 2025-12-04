@@ -220,6 +220,7 @@ layout_options:
 | 37275 | CBBC | [channels/37275.json](https://elyobelyob.github.io/freely_tv_guide/channels/37275.json) |
 | 37276 | CBeebies | [channels/37276.json](https://elyobelyob.github.io/freely_tv_guide/channels/37276.json) |
 | 16164 | CNA Originals | [channels/16164.json](https://elyobelyob.github.io/freely_tv_guide/channels/16164.json) |
+| 39425 | CNN Headlines | [channels/39425.json](https://elyobelyob.github.io/freely_tv_guide/channels/39425.json) |
 | 22688 | Capital | [channels/22688.json](https://elyobelyob.github.io/freely_tv_guide/channels/22688.json) |
 | 34432 | Cartoon Classics | [channels/34432.json](https://elyobelyob.github.io/freely_tv_guide/channels/34432.json) |
 | 22226 | Challenge | [channels/22226.json](https://elyobelyob.github.io/freely_tv_guide/channels/22226.json) |
