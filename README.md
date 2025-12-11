@@ -114,8 +114,8 @@ layout_options:
 <!-- CHANNELS_START -->
 | ID | Name | JSON |
 |---:|---|---|
+| 38050 | 4Christmas | [channels/38050.json](https://elyobelyob.github.io/freely_tv_guide/channels/38050.json) |
 | 38051 | 4Homes | [channels/38051.json](https://elyobelyob.github.io/freely_tv_guide/channels/38051.json) |
-| 38050 | 4Life | [channels/38050.json](https://elyobelyob.github.io/freely_tv_guide/channels/38050.json) |
 | 38049 | 4Reality | [channels/38049.json](https://elyobelyob.github.io/freely_tv_guide/channels/38049.json) |
 | 37899 | 4seven | [channels/37899.json](https://elyobelyob.github.io/freely_tv_guide/channels/37899.json) |
 | 38145 | 5 | [channels/38145.json](https://elyobelyob.github.io/freely_tv_guide/channels/38145.json) |
@@ -280,16 +280,14 @@ layout_options:
 | 16322 | NHK WORLD | [channels/16322.json](https://elyobelyob.github.io/freely_tv_guide/channels/16322.json) |
 | 16360 | New Media TV | [channels/16360.json](https://elyobelyob.github.io/freely_tv_guide/channels/16360.json) |
 | 16328 | Newsmax | [channels/16328.json](https://elyobelyob.github.io/freely_tv_guide/channels/16328.json) |
-| 16264 | Nolly Africa | [channels/16264.json](https://elyobelyob.github.io/freely_tv_guide/channels/16264.json) |
+| 34560 | Nolly Africa | [channels/34560.json](https://elyobelyob.github.io/freely_tv_guide/channels/34560.json) |
 | 16376 | Nosey | [channels/16376.json](https://elyobelyob.github.io/freely_tv_guide/channels/16376.json) |
 | 34048 | OUTflix Proud | [channels/34048.json](https://elyobelyob.github.io/freely_tv_guide/channels/34048.json) |
 | 16194 | Odyssey TV | [channels/16194.json](https://elyobelyob.github.io/freely_tv_guide/channels/16194.json) |
 | 15064 | On Demand 365 | [channels/15064.json](https://elyobelyob.github.io/freely_tv_guide/channels/15064.json) |
 | 27968 | PBS America | [channels/27968.json](https://elyobelyob.github.io/freely_tv_guide/channels/27968.json) |
-| 27776 | POP | [channels/27776.json](https://elyobelyob.github.io/freely_tv_guide/channels/27776.json) |
-| 16272 | POP Max | [channels/16272.json](https://elyobelyob.github.io/freely_tv_guide/channels/16272.json) |
+| 16272 | POP | [channels/16272.json](https://elyobelyob.github.io/freely_tv_guide/channels/16272.json) |
 | 27424 | POP UP | [channels/27424.json](https://elyobelyob.github.io/freely_tv_guide/channels/27424.json) |
-| 33856 | Pop Player | [channels/33856.json](https://elyobelyob.github.io/freely_tv_guide/channels/33856.json) |
 | 28160 | Premier Radio | [channels/28160.json](https://elyobelyob.github.io/freely_tv_guide/channels/28160.json) |
 | 16400 | Purpose Media | [channels/16400.json](https://elyobelyob.github.io/freely_tv_guide/channels/16400.json) |
 | 27328 | QUEST | [channels/27328.json](https://elyobelyob.github.io/freely_tv_guide/channels/27328.json) |
