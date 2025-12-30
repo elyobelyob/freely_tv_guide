@@ -109,6 +109,16 @@
         "image_url": "https://img.freeviewplay.tv/pd68f1bc0a692a98240aa1cd307e23b59",
         "start_time": "2025-12-30T05:25:00+0000",
         "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2025-12-28T06:00:00+0000",
+          "end_of_availability": "2099-01-01T23:59:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=hollyoaks-omnibus-signed&programme=76931-104",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "uuid": "17e5dfb59e990b8b4cda9d3fc9b11dca"
       }
@@ -296,19 +306,30 @@
     {
       "startTime": "2025-12-30T12:35:00+0000",
       "duration": 5,
-      "name": "Channel 4 News Summary",
-      "description": "",
+      "name": "Channel 4 News",
+      "description": "20256736. Tue 30 Dec 2025 Midday News",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.enh.digitaluk.co.uk/126b0df5-537c-48cf-9df0-0b7398402320",
+        "program_id": "crid://movida.bebanjo.net/mas/version/76575/506/ASDELIVERED/C",
         "event_locator": "dvb://233a..9401;df47",
-        "main_title": "Channel 4 News Summary",
-        "image_url": "https://img.freeviewplay.tv/pca71744c7bcc75a00326b7c7cabd743c",
+        "main_title": "Channel 4 News",
+        "secondary_title": "20256736. Tue 30 Dec 2025 Midday News",
+        "image_url": "https://img.freeviewplay.tv/p67351082b8fbd84ba78119d342b9a86f",
         "start_time": "2025-12-30T12:35:00+0000",
         "duration": "PT5M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "e8c2251ec8588e145d7744b8ba5e7246"
+        "on_demand": {
+          "start_of_availability": "2025-12-30T12:40:00+0000",
+          "end_of_availability": "2025-12-31T12:40:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=76575-506",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+        "uuid": "f46e0c950d2f6114a43ef8d865fc9325"
       }
     },
     {
@@ -326,6 +347,16 @@
         "image_url": "https://img.freeviewplay.tv/pc91914b51d487221856cf7633dc7864f",
         "start_time": "2025-12-30T12:40:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-12-18T18:00:00+0000",
+          "end_of_availability": "2026-01-18T18:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=chateau-diy&programme=77425-004",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
         "uuid": "a948995cbd383aefacde00164be8408a"
       }
@@ -442,18 +473,29 @@
       "startTime": "2025-12-30T17:10:00+0000",
       "duration": 30,
       "name": "Channel 4 News",
-      "description": "",
+      "description": "21264094. Tue 30 Dec 2025",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.enh.digitaluk.co.uk/0f3244f7-b711-4594-911b-a36b28ce0abe",
+        "program_id": "crid://movida.bebanjo.net/mas/version/76008/364/ASDELIVERED/C",
         "event_locator": "dvb://233a..9401;df4f",
         "main_title": "Channel 4 News",
-        "image_url": "https://img.freeviewplay.tv/p327b364fb6640f0cce1e18aa6309ecaf",
+        "secondary_title": "21264094. Tue 30 Dec 2025",
+        "image_url": "https://img.freeviewplay.tv/p9aa2427b2690467135b1bce523df3f27",
         "start_time": "2025-12-30T17:10:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "f2e0d28fa5e561b5c00dd0c2cd4a9d68"
+        "on_demand": {
+          "start_of_availability": "2025-12-30T17:40:00+0000",
+          "end_of_availability": "2025-12-31T17:40:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=76008-364",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+        "uuid": "f27f7af7993682e2fe2db0831d353d46"
       }
     },
     {
@@ -638,6 +680,16 @@
               "image_url": "https://img.freeviewplay.tv/pd68f1bc0a692a98240aa1cd307e23b59",
               "start_time": "2025-12-30T05:25:00+0000",
               "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2025-12-28T06:00:00+0000",
+                "end_of_availability": "2099-01-01T23:59:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=hollyoaks-omnibus-signed&programme=76931-104",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "uuid": "17e5dfb59e990b8b4cda9d3fc9b11dca"
             }
@@ -825,19 +877,30 @@
           {
             "startTime": "2025-12-30T12:35:00+0000",
             "duration": 5,
-            "name": "Channel 4 News Summary",
-            "description": "",
+            "name": "Channel 4 News",
+            "description": "20256736. Tue 30 Dec 2025 Midday News",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.enh.digitaluk.co.uk/126b0df5-537c-48cf-9df0-0b7398402320",
+              "program_id": "crid://movida.bebanjo.net/mas/version/76575/506/ASDELIVERED/C",
               "event_locator": "dvb://233a..9401;df47",
-              "main_title": "Channel 4 News Summary",
-              "image_url": "https://img.freeviewplay.tv/pca71744c7bcc75a00326b7c7cabd743c",
+              "main_title": "Channel 4 News",
+              "secondary_title": "20256736. Tue 30 Dec 2025 Midday News",
+              "image_url": "https://img.freeviewplay.tv/p67351082b8fbd84ba78119d342b9a86f",
               "start_time": "2025-12-30T12:35:00+0000",
               "duration": "PT5M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "e8c2251ec8588e145d7744b8ba5e7246"
+              "on_demand": {
+                "start_of_availability": "2025-12-30T12:40:00+0000",
+                "end_of_availability": "2025-12-31T12:40:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=76575-506",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+              "uuid": "f46e0c950d2f6114a43ef8d865fc9325"
             }
           },
           {
@@ -855,6 +918,16 @@
               "image_url": "https://img.freeviewplay.tv/pc91914b51d487221856cf7633dc7864f",
               "start_time": "2025-12-30T12:40:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-12-18T18:00:00+0000",
+                "end_of_availability": "2026-01-18T18:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=chateau-diy&programme=77425-004",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
               "uuid": "a948995cbd383aefacde00164be8408a"
             }
@@ -971,18 +1044,29 @@
             "startTime": "2025-12-30T17:10:00+0000",
             "duration": 30,
             "name": "Channel 4 News",
-            "description": "",
+            "description": "21264094. Tue 30 Dec 2025",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.enh.digitaluk.co.uk/0f3244f7-b711-4594-911b-a36b28ce0abe",
+              "program_id": "crid://movida.bebanjo.net/mas/version/76008/364/ASDELIVERED/C",
               "event_locator": "dvb://233a..9401;df4f",
               "main_title": "Channel 4 News",
-              "image_url": "https://img.freeviewplay.tv/p327b364fb6640f0cce1e18aa6309ecaf",
+              "secondary_title": "21264094. Tue 30 Dec 2025",
+              "image_url": "https://img.freeviewplay.tv/p9aa2427b2690467135b1bce523df3f27",
               "start_time": "2025-12-30T17:10:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "f2e0d28fa5e561b5c00dd0c2cd4a9d68"
+              "on_demand": {
+                "start_of_availability": "2025-12-30T17:40:00+0000",
+                "end_of_availability": "2025-12-31T17:40:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=76008-364",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+              "uuid": "f27f7af7993682e2fe2db0831d353d46"
             }
           },
           {
