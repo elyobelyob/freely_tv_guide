@@ -16,7 +16,7 @@
         "event_locator": "dvb://233a..9184;1cea",
         "main_title": "BBC News",
         "secondary_title": "05/01/2026",
-        "image_url": "https://img.freeviewplay.tv/pb12f1c423275777eaa9abbdadb3b4c33",
+        "image_url": "https://img.freeviewplay.tv/p0fa5ade94492696c3e71b90c8c6f7396",
         "start_time": "2026-01-05T00:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -346,7 +346,7 @@
         "event_locator": "dvb://233a..9184;1cf9",
         "main_title": "BBC News",
         "secondary_title": "05/01/2026",
-        "image_url": "https://img.freeviewplay.tv/p0fa5ade94492696c3e71b90c8c6f7396",
+        "image_url": "https://img.freeviewplay.tv/pb12f1c423275777eaa9abbdadb3b4c33",
         "start_time": "2026-01-05T06:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -466,7 +466,7 @@
         "event_locator": "dvb://233a..9184;1cff",
         "main_title": "BBC News",
         "secondary_title": "05/01/2026",
-        "image_url": "https://img.freeviewplay.tv/pb12f1c423275777eaa9abbdadb3b4c33",
+        "image_url": "https://img.freeviewplay.tv/p0fa5ade94492696c3e71b90c8c6f7396",
         "start_time": "2026-01-05T09:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -546,7 +546,7 @@
         "event_locator": "dvb://233a..9184;1d03",
         "main_title": "BBC News",
         "secondary_title": "05/01/2026",
-        "image_url": "https://img.freeviewplay.tv/pb12f1c423275777eaa9abbdadb3b4c33",
+        "image_url": "https://img.freeviewplay.tv/p0fa5ade94492696c3e71b90c8c6f7396",
         "start_time": "2026-01-05T11:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -606,7 +606,7 @@
         "event_locator": "dvb://233a..9184;1d06",
         "main_title": "BBC News Now",
         "secondary_title": "05/01/2026",
-        "image_url": "https://img.freeviewplay.tv/p6b4086920fbce831b77aab97bd6e79e4",
+        "image_url": "https://img.freeviewplay.tv/p9bd79130b75c10cde16c40747f1ca327",
         "start_time": "2026-01-05T12:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -636,32 +636,42 @@
     },
     {
       "startTime": "2026-01-05T13:00:00+0000",
-      "duration": 60,
-      "name": "BBC News at One",
+      "duration": 30,
+      "name": "BBC News Now",
       "description": "05/01/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002pd2g",
-        "event_locator": "dvb://233a..9184;1d08",
-        "main_title": "BBC News at One",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002pmxv",
+        "event_locator": "dvb://233a..9184;1fda",
+        "main_title": "BBC News Now",
         "secondary_title": "05/01/2026",
-        "image_url": "https://img.freeviewplay.tv/p53e362dc21e85933d07d4ef5be54a093",
+        "image_url": "https://img.freeviewplay.tv/p9bd79130b75c10cde16c40747f1ca327",
         "start_time": "2026-01-05T13:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2026-01-05T14:00:00+0000",
-          "end_of_availability": "2026-01-06T14:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pd2g&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
+        "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e56473492b31a13b7e920b6f6bedb1762",
-        "uuid": "ff3a5bc225214ef6d8340f50154d58f4"
+        "fallback_image_url": "http://img.freeviewplay.net/e439fdc9f55b42c5fed19dbbe19f7a034",
+        "uuid": "c1a5f11d0a540cab828e1ed6f1cd9ff9"
+      }
+    },
+    {
+      "startTime": "2026-01-05T13:30:00+0000",
+      "duration": 30,
+      "name": "BBC News Now",
+      "description": "05/01/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002pmxx",
+        "event_locator": "dvb://233a..9184;1fdb",
+        "main_title": "BBC News Now",
+        "secondary_title": "05/01/2026",
+        "image_url": "https://img.freeviewplay.tv/p6b4086920fbce831b77aab97bd6e79e4",
+        "start_time": "2026-01-05T13:30:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e439fdc9f55b42c5fed19dbbe19f7a034",
+        "uuid": "86c338c7649e914009f8ba137cadc2ea"
       }
     },
     {
@@ -716,7 +726,7 @@
         "event_locator": "dvb://233a..9184;1d0b",
         "main_title": "BBC News Now",
         "secondary_title": "05/01/2026",
-        "image_url": "https://img.freeviewplay.tv/p6b4086920fbce831b77aab97bd6e79e4",
+        "image_url": "https://img.freeviewplay.tv/p9bd79130b75c10cde16c40747f1ca327",
         "start_time": "2026-01-05T14:45:00+0000",
         "duration": "PT15M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -846,7 +856,7 @@
     },
     {
       "startTime": "2026-01-05T17:30:00+0000",
-      "duration": 30,
+      "duration": 90,
       "name": "BBC News",
       "description": "05/01/2026",
       "synopsis": "",
@@ -858,60 +868,10 @@
         "secondary_title": "05/01/2026",
         "image_url": "https://img.freeviewplay.tv/p0fa5ade94492696c3e71b90c8c6f7396",
         "start_time": "2026-01-05T17:30:00+0000",
-        "duration": "PT30M",
+        "duration": "PT1H30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
         "uuid": "23e88ca1cf7569f5f619d53ec7801db9"
-      }
-    },
-    {
-      "startTime": "2026-01-05T18:00:00+0000",
-      "duration": 30,
-      "name": "BBC News at Six",
-      "description": "05/01/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002pd2n",
-        "event_locator": "dvb://233a..9184;1d13",
-        "main_title": "BBC News at Six",
-        "secondary_title": "05/01/2026",
-        "image_url": "https://img.freeviewplay.tv/p51038f8f0d35e2a78ad468a86daea00a",
-        "start_time": "2026-01-05T18:00:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-01-05T18:31:30+0000",
-          "end_of_availability": "2026-01-06T18:31:30+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pd2n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/eb202a7d41a1725d703938617a1fce87b",
-        "uuid": "0ece5acf0f9d09d76bc01cfa4d78bd41"
-      }
-    },
-    {
-      "startTime": "2026-01-05T18:30:00+0000",
-      "duration": 30,
-      "name": "The World Today with Maryam Moshiri",
-      "description": "05/01/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002pmyp",
-        "event_locator": "dvb://233a..9184;1d14",
-        "main_title": "The World Today with Maryam Moshiri",
-        "secondary_title": "05/01/2026",
-        "image_url": "https://img.freeviewplay.tv/pcdf98d555251069f0ab30c92e8096c78",
-        "start_time": "2026-01-05T18:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/efaf3920c24cb768f86f81d8d163d2946",
-        "uuid": "d23d7fb33a31459ad496810dafd5bfc1"
       }
     },
     {
@@ -1068,15 +1028,15 @@
       "startTime": "2026-01-05T22:30:00+0000",
       "duration": 30,
       "name": "Newsnight",
-      "description": "05/01/2026",
+      "description": "President Trump's next move",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m002pd37",
         "event_locator": "dvb://233a..9184;1d1c",
         "main_title": "Newsnight",
-        "secondary_title": "05/01/2026",
-        "image_url": "https://img.freeviewplay.tv/p1e0a8f29d4c60990d95ce4dccaa1a8b7",
+        "secondary_title": "President Trump's next move",
+        "image_url": "https://img.freeviewplay.tv/p6c28b3e261c314cc682c9303e292b14d",
         "start_time": "2026-01-05T22:30:00+0000",
         "duration": "PT30M",
         "on_demand": {
@@ -1131,7 +1091,7 @@
               "event_locator": "dvb://233a..9184;1cea",
               "main_title": "BBC News",
               "secondary_title": "05/01/2026",
-              "image_url": "https://img.freeviewplay.tv/pb12f1c423275777eaa9abbdadb3b4c33",
+              "image_url": "https://img.freeviewplay.tv/p0fa5ade94492696c3e71b90c8c6f7396",
               "start_time": "2026-01-05T00:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1461,7 +1421,7 @@
               "event_locator": "dvb://233a..9184;1cf9",
               "main_title": "BBC News",
               "secondary_title": "05/01/2026",
-              "image_url": "https://img.freeviewplay.tv/p0fa5ade94492696c3e71b90c8c6f7396",
+              "image_url": "https://img.freeviewplay.tv/pb12f1c423275777eaa9abbdadb3b4c33",
               "start_time": "2026-01-05T06:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1581,7 +1541,7 @@
               "event_locator": "dvb://233a..9184;1cff",
               "main_title": "BBC News",
               "secondary_title": "05/01/2026",
-              "image_url": "https://img.freeviewplay.tv/pb12f1c423275777eaa9abbdadb3b4c33",
+              "image_url": "https://img.freeviewplay.tv/p0fa5ade94492696c3e71b90c8c6f7396",
               "start_time": "2026-01-05T09:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1661,7 +1621,7 @@
               "event_locator": "dvb://233a..9184;1d03",
               "main_title": "BBC News",
               "secondary_title": "05/01/2026",
-              "image_url": "https://img.freeviewplay.tv/pb12f1c423275777eaa9abbdadb3b4c33",
+              "image_url": "https://img.freeviewplay.tv/p0fa5ade94492696c3e71b90c8c6f7396",
               "start_time": "2026-01-05T11:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1721,7 +1681,7 @@
               "event_locator": "dvb://233a..9184;1d06",
               "main_title": "BBC News Now",
               "secondary_title": "05/01/2026",
-              "image_url": "https://img.freeviewplay.tv/p6b4086920fbce831b77aab97bd6e79e4",
+              "image_url": "https://img.freeviewplay.tv/p9bd79130b75c10cde16c40747f1ca327",
               "start_time": "2026-01-05T12:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1751,32 +1711,42 @@
           },
           {
             "startTime": "2026-01-05T13:00:00+0000",
-            "duration": 60,
-            "name": "BBC News at One",
+            "duration": 30,
+            "name": "BBC News Now",
             "description": "05/01/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002pd2g",
-              "event_locator": "dvb://233a..9184;1d08",
-              "main_title": "BBC News at One",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002pmxv",
+              "event_locator": "dvb://233a..9184;1fda",
+              "main_title": "BBC News Now",
               "secondary_title": "05/01/2026",
-              "image_url": "https://img.freeviewplay.tv/p53e362dc21e85933d07d4ef5be54a093",
+              "image_url": "https://img.freeviewplay.tv/p9bd79130b75c10cde16c40747f1ca327",
               "start_time": "2026-01-05T13:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2026-01-05T14:00:00+0000",
-                "end_of_availability": "2026-01-06T14:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pd2g&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
+              "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e56473492b31a13b7e920b6f6bedb1762",
-              "uuid": "ff3a5bc225214ef6d8340f50154d58f4"
+              "fallback_image_url": "http://img.freeviewplay.net/e439fdc9f55b42c5fed19dbbe19f7a034",
+              "uuid": "c1a5f11d0a540cab828e1ed6f1cd9ff9"
+            }
+          },
+          {
+            "startTime": "2026-01-05T13:30:00+0000",
+            "duration": 30,
+            "name": "BBC News Now",
+            "description": "05/01/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002pmxx",
+              "event_locator": "dvb://233a..9184;1fdb",
+              "main_title": "BBC News Now",
+              "secondary_title": "05/01/2026",
+              "image_url": "https://img.freeviewplay.tv/p6b4086920fbce831b77aab97bd6e79e4",
+              "start_time": "2026-01-05T13:30:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e439fdc9f55b42c5fed19dbbe19f7a034",
+              "uuid": "86c338c7649e914009f8ba137cadc2ea"
             }
           },
           {
@@ -1831,7 +1801,7 @@
               "event_locator": "dvb://233a..9184;1d0b",
               "main_title": "BBC News Now",
               "secondary_title": "05/01/2026",
-              "image_url": "https://img.freeviewplay.tv/p6b4086920fbce831b77aab97bd6e79e4",
+              "image_url": "https://img.freeviewplay.tv/p9bd79130b75c10cde16c40747f1ca327",
               "start_time": "2026-01-05T14:45:00+0000",
               "duration": "PT15M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1961,7 +1931,7 @@
           },
           {
             "startTime": "2026-01-05T17:30:00+0000",
-            "duration": 30,
+            "duration": 90,
             "name": "BBC News",
             "description": "05/01/2026",
             "synopsis": "",
@@ -1973,60 +1943,10 @@
               "secondary_title": "05/01/2026",
               "image_url": "https://img.freeviewplay.tv/p0fa5ade94492696c3e71b90c8c6f7396",
               "start_time": "2026-01-05T17:30:00+0000",
-              "duration": "PT30M",
+              "duration": "PT1H30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
               "uuid": "23e88ca1cf7569f5f619d53ec7801db9"
-            }
-          },
-          {
-            "startTime": "2026-01-05T18:00:00+0000",
-            "duration": 30,
-            "name": "BBC News at Six",
-            "description": "05/01/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002pd2n",
-              "event_locator": "dvb://233a..9184;1d13",
-              "main_title": "BBC News at Six",
-              "secondary_title": "05/01/2026",
-              "image_url": "https://img.freeviewplay.tv/p51038f8f0d35e2a78ad468a86daea00a",
-              "start_time": "2026-01-05T18:00:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-01-05T18:31:30+0000",
-                "end_of_availability": "2026-01-06T18:31:30+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pd2n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/eb202a7d41a1725d703938617a1fce87b",
-              "uuid": "0ece5acf0f9d09d76bc01cfa4d78bd41"
-            }
-          },
-          {
-            "startTime": "2026-01-05T18:30:00+0000",
-            "duration": 30,
-            "name": "The World Today with Maryam Moshiri",
-            "description": "05/01/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002pmyp",
-              "event_locator": "dvb://233a..9184;1d14",
-              "main_title": "The World Today with Maryam Moshiri",
-              "secondary_title": "05/01/2026",
-              "image_url": "https://img.freeviewplay.tv/pcdf98d555251069f0ab30c92e8096c78",
-              "start_time": "2026-01-05T18:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/efaf3920c24cb768f86f81d8d163d2946",
-              "uuid": "d23d7fb33a31459ad496810dafd5bfc1"
             }
           },
           {
@@ -2183,15 +2103,15 @@
             "startTime": "2026-01-05T22:30:00+0000",
             "duration": 30,
             "name": "Newsnight",
-            "description": "05/01/2026",
+            "description": "President Trump's next move",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m002pd37",
               "event_locator": "dvb://233a..9184;1d1c",
               "main_title": "Newsnight",
-              "secondary_title": "05/01/2026",
-              "image_url": "https://img.freeviewplay.tv/p1e0a8f29d4c60990d95ce4dccaa1a8b7",
+              "secondary_title": "President Trump's next move",
+              "image_url": "https://img.freeviewplay.tv/p6c28b3e261c314cc682c9303e292b14d",
               "start_time": "2026-01-05T22:30:00+0000",
               "duration": "PT30M",
               "on_demand": {
