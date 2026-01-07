@@ -114,8 +114,8 @@ layout_options:
 <!-- CHANNELS_START -->
 | ID | Name | JSON |
 |---:|---|---|
-| 38050 | 4Christmas | [channels/38050.json](https://elyobelyob.github.io/freely_tv_guide/channels/38050.json) |
 | 38051 | 4Homes | [channels/38051.json](https://elyobelyob.github.io/freely_tv_guide/channels/38051.json) |
+| 38050 | 4Life | [channels/38050.json](https://elyobelyob.github.io/freely_tv_guide/channels/38050.json) |
 | 38049 | 4Reality | [channels/38049.json](https://elyobelyob.github.io/freely_tv_guide/channels/38049.json) |
 | 37899 | 4seven | [channels/37899.json](https://elyobelyob.github.io/freely_tv_guide/channels/37899.json) |
 | 38145 | 5 | [channels/38145.json](https://elyobelyob.github.io/freely_tv_guide/channels/38145.json) |
@@ -243,10 +243,10 @@ layout_options:
 | 16286 | Global Arabic + | [channels/16286.json](https://elyobelyob.github.io/freely_tv_guide/channels/16286.json) |
 | 16256 | God TV | [channels/16256.json](https://elyobelyob.github.io/freely_tv_guide/channels/16256.json) |
 | 15576 | Great! Action | [channels/15576.json](https://elyobelyob.github.io/freely_tv_guide/channels/15576.json) |
-| 27296 | Great! Christmas | [channels/27296.json](https://elyobelyob.github.io/freely_tv_guide/channels/27296.json) |
 | 15584 | Great! Movies | [channels/15584.json](https://elyobelyob.github.io/freely_tv_guide/channels/15584.json) |
 | 27872 | Great! Mystery | [channels/27872.json](https://elyobelyob.github.io/freely_tv_guide/channels/27872.json) |
 | 28352 | Great! Player | [channels/28352.json](https://elyobelyob.github.io/freely_tv_guide/channels/28352.json) |
+| 27296 | Great! Romance | [channels/27296.json](https://elyobelyob.github.io/freely_tv_guide/channels/27296.json) |
 | 28384 | Great! Romance Mix | [channels/28384.json](https://elyobelyob.github.io/freely_tv_guide/channels/28384.json) |
 | 27168 | Great! TV | [channels/27168.json](https://elyobelyob.github.io/freely_tv_guide/channels/27168.json) |
 | 28000 | HGTV | [channels/28000.json](https://elyobelyob.github.io/freely_tv_guide/channels/28000.json) |
@@ -316,8 +316,8 @@ layout_options:
 | 16406 | Talk | [channels/16406.json](https://elyobelyob.github.io/freely_tv_guide/channels/16406.json) |
 | 28224 | TalkingPictures TV | [channels/28224.json](https://elyobelyob.github.io/freely_tv_guide/channels/28224.json) |
 | 23904 | That's 80s | [channels/23904.json](https://elyobelyob.github.io/freely_tv_guide/channels/23904.json) |
-| 15864 | That's Christmas | [channels/15864.json](https://elyobelyob.github.io/freely_tv_guide/channels/15864.json) |
 | 28032 | That's Melody | [channels/28032.json](https://elyobelyob.github.io/freely_tv_guide/channels/28032.json) |
+| 15864 | That's Oldies | [channels/15864.json](https://elyobelyob.github.io/freely_tv_guide/channels/15864.json) |
 | 27936 | That's TV (UK) | [channels/27936.json](https://elyobelyob.github.io/freely_tv_guide/channels/27936.json) |
 | 23152 | That's TV 2 | [channels/23152.json](https://elyobelyob.github.io/freely_tv_guide/channels/23152.json) |
 | 8700 | That's TV 3 | [channels/8700.json](https://elyobelyob.github.io/freely_tv_guide/channels/8700.json) |
