@@ -145,6 +145,16 @@
         "image_url": "https://img.freeviewplay.tv/pcb5d0471f42c3c855d725a3f82105047",
         "start_time": "2026-01-08T05:45:00+0000",
         "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2026-01-07T15:00:00+0000",
+          "end_of_availability": "2027-01-07T15:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-193",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
         "uuid": "ab916ef2af63a20478b44801adeb1bb6"
       }
@@ -344,6 +354,16 @@
         "image_url": "https://img.freeviewplay.tv/pcda30d05868aa79de87ddf97506481db",
         "start_time": "2026-01-08T11:10:00+0000",
         "duration": "PT55M",
+        "on_demand": {
+          "start_of_availability": "2026-01-08T12:05:00+0000",
+          "end_of_availability": "2026-02-19T12:05:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=american-pickers&programme=78129-004",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
         "uuid": "35f6ab214c870ce45d66583e5815bfc4"
       }
@@ -351,20 +371,31 @@
     {
       "startTime": "2026-01-08T12:05:00+0000",
       "duration": 5,
-      "name": "Channel 4 News Summary",
-      "description": "",
+      "name": "Channel 4 News",
+      "description": "20265613. Thu 8 Jan 2026 Midday News",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.enh.digitaluk.co.uk/9d7af3b5-b780-46e7-907f-0a22111a6c37",
+        "program_id": "crid://movida.bebanjo.net/mas/version/79199/005/ASDELIVERED/C",
         "event_locator": "dvb://233a..9401;4a8",
-        "main_title": "Channel 4 News Summary",
-        "image_url": "https://img.freeviewplay.tv/eb7a72a1d4b209baa1f79879a666d689e",
+        "main_title": "Channel 4 News",
+        "secondary_title": "20265613. Thu 8 Jan 2026 Midday News",
+        "image_url": "https://img.freeviewplay.tv/p654b34dde34c0cf7749b708aae731e64",
         "start_time": "2026-01-08T12:05:00+0000",
         "duration": "PT5M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "on_demand": {
+          "start_of_availability": "2026-01-08T12:10:00+0000",
+          "end_of_availability": "2026-01-09T12:10:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=79199-005",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
         "fallback_image_url": "http://img.freeviewplay.net/ec2f9b9ff47d695c758f11e2db30fd7ba",
-        "uuid": "a40bf476077fca4d9f1f2ab5262c177b"
+        "uuid": "09dc906cc2ecbad65c841c65faca9f61"
       }
     },
     {
@@ -733,6 +764,16 @@
               "image_url": "https://img.freeviewplay.tv/pcb5d0471f42c3c855d725a3f82105047",
               "start_time": "2026-01-08T05:45:00+0000",
               "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2026-01-07T15:00:00+0000",
+                "end_of_availability": "2027-01-07T15:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-193",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
               "uuid": "ab916ef2af63a20478b44801adeb1bb6"
             }
@@ -932,6 +973,16 @@
               "image_url": "https://img.freeviewplay.tv/pcda30d05868aa79de87ddf97506481db",
               "start_time": "2026-01-08T11:10:00+0000",
               "duration": "PT55M",
+              "on_demand": {
+                "start_of_availability": "2026-01-08T12:05:00+0000",
+                "end_of_availability": "2026-02-19T12:05:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=american-pickers&programme=78129-004",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
               "uuid": "35f6ab214c870ce45d66583e5815bfc4"
             }
@@ -939,20 +990,31 @@
           {
             "startTime": "2026-01-08T12:05:00+0000",
             "duration": 5,
-            "name": "Channel 4 News Summary",
-            "description": "",
+            "name": "Channel 4 News",
+            "description": "20265613. Thu 8 Jan 2026 Midday News",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.enh.digitaluk.co.uk/9d7af3b5-b780-46e7-907f-0a22111a6c37",
+              "program_id": "crid://movida.bebanjo.net/mas/version/79199/005/ASDELIVERED/C",
               "event_locator": "dvb://233a..9401;4a8",
-              "main_title": "Channel 4 News Summary",
-              "image_url": "https://img.freeviewplay.tv/eb7a72a1d4b209baa1f79879a666d689e",
+              "main_title": "Channel 4 News",
+              "secondary_title": "20265613. Thu 8 Jan 2026 Midday News",
+              "image_url": "https://img.freeviewplay.tv/p654b34dde34c0cf7749b708aae731e64",
               "start_time": "2026-01-08T12:05:00+0000",
               "duration": "PT5M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "on_demand": {
+                "start_of_availability": "2026-01-08T12:10:00+0000",
+                "end_of_availability": "2026-01-09T12:10:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=79199-005",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
               "fallback_image_url": "http://img.freeviewplay.net/ec2f9b9ff47d695c758f11e2db30fd7ba",
-              "uuid": "a40bf476077fca4d9f1f2ab5262c177b"
+              "uuid": "09dc906cc2ecbad65c841c65faca9f61"
             }
           },
           {
