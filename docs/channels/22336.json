@@ -5,306 +5,49 @@
   },
   "events": [
     {
-      "startTime": "2026-01-11T01:00:00+0000",
-      "duration": 60,
-      "name": "New Tricks",
-      "description": "Series 5: Episode 5",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/DRIA201W",
-        "event_locator": "dvb://233a..5740;8a35",
-        "main_title": "New Tricks",
-        "secondary_title": "Series 5: Episode 5",
-        "image_url": "https://img.freeviewplay.tv/p8f20d981a74136272a747a9c3a5e2446",
-        "start_time": "2026-01-11T01:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2025-11-01T00:00:00+0000",
-          "end_of_availability": "2026-10-31T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=DRIA201W",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "fdd4e982d497b6ad7bdf9065a25fa50a"
-      }
-    },
-    {
-      "startTime": "2026-01-11T02:00:00+0000",
-      "duration": 85,
-      "name": "New Tricks",
-      "description": "Series 5: Episode 6",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/DRIA206R",
-        "event_locator": "dvb://233a..5740;8a36",
-        "main_title": "New Tricks",
-        "secondary_title": "Series 5: Episode 6",
-        "image_url": "https://img.freeviewplay.tv/p31933b03bc13e19d7e551d3be478af4a",
-        "start_time": "2026-01-11T02:00:00+0000",
-        "duration": "PT1H25M",
-        "on_demand": {
-          "start_of_availability": "2025-11-01T00:00:00+0000",
-          "end_of_availability": "2026-10-31T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=DRIA206R",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "b8deb1f34937d2fc421b7eb0b1a9e91b"
-      }
-    },
-    {
-      "startTime": "2026-01-11T03:25:00+0000",
-      "duration": 55,
-      "name": "Ladies in Black (BSL)",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/330a06d9-35cb-411f-97bc-aa0cf9cab6a4",
-        "event_locator": "dvb://233a..5740;8a37",
-        "main_title": "Ladies in Black (BSL)",
-        "start_time": "2026-01-11T03:25:00+0000",
-        "duration": "PT55M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "fallback_image_url": "http://img.freeviewplay.net/ea77d9e078409664e6555c2bb9d50953a",
-        "uuid": "60b78d95bb204aac015d450cdfdd6b66"
-      }
-    },
-    {
-      "startTime": "2026-01-11T04:20:00+0000",
-      "duration": 40,
-      "name": "Birds of a Feather",
-      "description": "Series 7: Episode 7",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/CTBF596L",
-        "event_locator": "dvb://233a..5740;8a38",
-        "main_title": "Birds of a Feather",
-        "secondary_title": "Series 7: Episode 7",
-        "image_url": "https://img.freeviewplay.tv/p1609b261565fa7871f69a815a7225c0f",
-        "start_time": "2026-01-11T04:20:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2024-12-31T00:00:00+0000",
-          "end_of_availability": "2027-11-30T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTBF596L",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "fb986556d921a079ed9392d604f67636"
-      }
-    },
-    {
-      "startTime": "2026-01-11T05:00:00+0000",
-      "duration": 120,
-      "name": "Teleshopping",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/27c8999a-4803-4bea-8b7e-0d8f3fb46e28",
-        "event_locator": "dvb://233a..5740;8a39",
-        "main_title": "Teleshopping",
-        "start_time": "2026-01-11T05:00:00+0000",
-        "duration": "PT2H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "fallback_image_url": "http://img.freeviewplay.net/eb5c8413d996580c419eb14f4cd99c2d0",
-        "uuid": "e4a5b26e23e8f75279717ac7a94ecd9d"
-      }
-    },
-    {
-      "startTime": "2026-01-11T07:00:00+0000",
-      "duration": 70,
-      "name": "Teleshopping",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/d8da9312-a149-46ca-b68b-452c69bc5f59",
-        "event_locator": "dvb://233a..5740;8a3a",
-        "main_title": "Teleshopping",
-        "start_time": "2026-01-11T07:00:00+0000",
-        "duration": "PT1H10M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "fallback_image_url": "http://img.freeviewplay.net/eb5c8413d996580c419eb14f4cd99c2d0",
-        "uuid": "13fb0ed6ca62442505a9512759369fe7"
-      }
-    },
-    {
-      "startTime": "2026-01-11T08:10:00+0000",
-      "duration": 50,
-      "name": "The Bill",
-      "description": "Series 17: Episode 94",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB232B",
-        "event_locator": "dvb://233a..5740;8a3b",
-        "main_title": "The Bill",
-        "secondary_title": "Series 17: Episode 94",
-        "image_url": "https://img.freeviewplay.tv/pb9c74bf381afc49dd3500944eaaadbbc",
-        "start_time": "2026-01-11T08:10:00+0000",
-        "duration": "PT50M",
-        "on_demand": {
-          "start_of_availability": "2024-02-17T07:00:00+0000",
-          "end_of_availability": "2027-12-30T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB232B",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "ccd60864dc207743b378e8342a1ec844"
-      }
-    },
-    {
-      "startTime": "2026-01-11T09:00:00+0000",
-      "duration": 60,
-      "name": "The Bill",
-      "description": "Series 17: Episode 95",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB233W",
-        "event_locator": "dvb://233a..5740;8a3c",
-        "main_title": "The Bill",
-        "secondary_title": "Series 17: Episode 95",
-        "image_url": "https://img.freeviewplay.tv/p098c6dfc77232adea42dd3595441f13a",
-        "start_time": "2026-01-11T09:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2024-02-17T07:00:00+0000",
-          "end_of_availability": "2027-12-30T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB233W",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "cdb800222c24598ec423848e9cc3a61f"
-      }
-    },
-    {
-      "startTime": "2026-01-11T10:00:00+0000",
-      "duration": 60,
-      "name": "The Bill",
-      "description": "Series 17: Episode 96",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB234P",
-        "event_locator": "dvb://233a..5740;8a3d",
-        "main_title": "The Bill",
-        "secondary_title": "Series 17: Episode 96",
-        "image_url": "https://img.freeviewplay.tv/p18a128973ce2b1c77facc3fc42f326ca",
-        "start_time": "2026-01-11T10:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2024-02-17T07:00:00+0000",
-          "end_of_availability": "2027-12-30T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB234P",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "336674fb4bc149707e9930c71e04a9f9"
-      }
-    },
-    {
-      "startTime": "2026-01-11T11:00:00+0000",
-      "duration": 60,
-      "name": "The Bill",
-      "description": "Series 17: Episode 97",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB235J",
-        "event_locator": "dvb://233a..5740;8a3e",
-        "main_title": "The Bill",
-        "secondary_title": "Series 17: Episode 97",
-        "image_url": "https://img.freeviewplay.tv/p4c1625a328dadbce77f90cfa5b23306e",
-        "start_time": "2026-01-11T11:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2024-02-17T07:00:00+0000",
-          "end_of_availability": "2027-12-30T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB235J",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "eaae20467bb5c5a94dae99bc65318c8f"
-      }
-    },
-    {
-      "startTime": "2026-01-11T12:00:00+0000",
-      "duration": 60,
-      "name": "The Bill",
-      "description": "Series 17: Episode 98",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB236D",
-        "event_locator": "dvb://233a..5740;8a3f",
-        "main_title": "The Bill",
-        "secondary_title": "Series 17: Episode 98",
-        "image_url": "https://img.freeviewplay.tv/pf6942006a12e0a36f8eaa85051a650e7",
-        "start_time": "2026-01-11T12:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2024-02-17T07:00:00+0000",
-          "end_of_availability": "2027-12-30T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB236D",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "0379d81916a402603c809aa4943841c9"
-      }
-    },
-    {
-      "startTime": "2026-01-11T13:00:00+0000",
+      "startTime": "2026-01-12T00:25:00+0000",
       "duration": 80,
+      "name": "New Tricks",
+      "description": "Series 10: Episode 2",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/DRIB442L",
+        "event_locator": "dvb://233a..5740;8a47",
+        "main_title": "New Tricks",
+        "secondary_title": "Series 10: Episode 2",
+        "image_url": "https://img.freeviewplay.tv/p2abfd8dbbcefd1372d7c60b36b470343",
+        "start_time": "2026-01-12T00:25:00+0000",
+        "duration": "PT1H20M",
+        "on_demand": {
+          "start_of_availability": "2025-09-01T06:00:00+0000",
+          "end_of_availability": "2026-08-31T22:55:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=DRIB442L",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "uuid": "62e95b1c31d075b104feb63bc4730f4d"
+      }
+    },
+    {
+      "startTime": "2026-01-12T01:45:00+0000",
+      "duration": 75,
       "name": "Call the Midwife",
       "description": "Series 12: Episode 1",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://www.uktv.co.uk/ep/drama/DRIJ330E",
-        "event_locator": "dvb://233a..5740;8a40",
+        "event_locator": "dvb://233a..5740;8a48",
         "main_title": "Call the Midwife",
         "secondary_title": "Series 12: Episode 1",
         "image_url": "https://img.freeviewplay.tv/p1c3d04665229e4d2dfe59f7f2c6cf949",
-        "start_time": "2026-01-11T13:00:00+0000",
-        "duration": "PT1H20M",
+        "start_time": "2026-01-12T01:45:00+0000",
+        "duration": "PT1H15M",
         "on_demand": {
           "start_of_availability": "2026-01-11T13:20:00+0000",
           "end_of_availability": "2026-03-03T13:20:00+0000",
@@ -316,184 +59,549 @@
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "b27d41e3b4cd2f4a851d98ac5c077527"
+        "uuid": "a99cb854a0e3e92e7747f9e367d382bb"
       }
     },
     {
-      "startTime": "2026-01-11T14:20:00+0000",
-      "duration": 80,
-      "name": "Call the Midwife",
-      "description": "Series 12: Episode 2",
+      "startTime": "2026-01-12T03:00:00+0000",
+      "duration": 120,
+      "name": "The Brokenwood Mysteries (BSL)",
+      "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/DRIJ331Y",
-        "event_locator": "dvb://233a..5740;8a41",
-        "main_title": "Call the Midwife",
-        "secondary_title": "Series 12: Episode 2",
-        "image_url": "https://img.freeviewplay.tv/pe16fbcb517479762620b11aa803298da",
-        "start_time": "2026-01-11T14:20:00+0000",
-        "duration": "PT1H20M",
-        "on_demand": {
-          "start_of_availability": "2026-01-11T14:40:00+0000",
-          "end_of_availability": "2026-03-03T13:20:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=DRIJ331Y",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
+        "program_id": "crid://csi.digitaluk.co.uk/d78e1a0a-512b-4aae-baa1-150ef4832d23",
+        "event_locator": "dvb://233a..5740;8a49",
+        "main_title": "The Brokenwood Mysteries (BSL)",
+        "image_url": "https://img.freeviewplay.tv/e0b75a4249f46649f6814a7b23eeb4cc8",
+        "start_time": "2026-01-12T03:00:00+0000",
+        "duration": "PT2H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "f956a89d3eb6f715aee5f4c5eae9b51f"
+        "uuid": "c5fd625478974d88daf43e10842e8374"
       }
     },
     {
-      "startTime": "2026-01-11T15:40:00+0000",
-      "duration": 180,
-      "name": "Catherine Cookson: Dinner of Herbs",
-      "description": "Series 1: Episode 1",
+      "startTime": "2026-01-12T05:00:00+0000",
+      "duration": 120,
+      "name": "Teleshopping",
+      "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/CTAN987J",
-        "event_locator": "dvb://233a..5740;8a42",
-        "main_title": "Catherine Cookson: Dinner of Herbs",
-        "secondary_title": "Series 1: Episode 1",
-        "image_url": "https://img.freeviewplay.tv/p4768df4f97136742e50e8747c4e5d713",
-        "start_time": "2026-01-11T15:40:00+0000",
-        "duration": "PT3H",
-        "on_demand": {
-          "start_of_availability": "2022-12-07T00:00:00+0000",
-          "end_of_availability": "2026-07-31T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTAN987J",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "fallback_image_url": "http://img.freeviewplay.net/e777da920e9cce3c982d702ed3dfe7f0d",
-        "uuid": "f09726df3ef25c2c9afb932b76fa9107"
+        "program_id": "crid://csi.digitaluk.co.uk/34a34baf-2671-46fa-b6e4-c43b9d747b98",
+        "event_locator": "dvb://233a..5740;8a4a",
+        "main_title": "Teleshopping",
+        "start_time": "2026-01-12T05:00:00+0000",
+        "duration": "PT2H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "fallback_image_url": "http://img.freeviewplay.net/eb5c8413d996580c419eb14f4cd99c2d0",
+        "uuid": "ef9e12c8d28d0c5def85d62e5350335e"
       }
     },
     {
-      "startTime": "2026-01-11T18:40:00+0000",
-      "duration": 80,
-      "name": "Last Tango in Halifax",
-      "description": "Series 3: Episode 1",
+      "startTime": "2026-01-12T07:00:00+0000",
+      "duration": 75,
+      "name": "Teleshopping",
+      "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/DRIB801J",
-        "event_locator": "dvb://233a..5740;8a43",
-        "main_title": "Last Tango in Halifax",
-        "secondary_title": "Series 3: Episode 1",
-        "image_url": "https://img.freeviewplay.tv/p18fe4885c8557630d4ee60dbd388a316",
-        "start_time": "2026-01-11T18:40:00+0000",
-        "duration": "PT1H20M",
-        "on_demand": {
-          "start_of_availability": "2025-12-12T00:00:00+0000",
-          "end_of_availability": "2026-12-11T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=DRIB801J",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "fallback_image_url": "http://img.freeviewplay.net/e2f15f132d90d896d8c9dc5d9a72a73da",
-        "uuid": "ed240fba6b83b2290b508820ef0c73bd"
+        "program_id": "crid://csi.digitaluk.co.uk/c61d3cea-a612-4e35-8445-aba0dc241d10",
+        "event_locator": "dvb://233a..5740;8a4b",
+        "main_title": "Teleshopping",
+        "start_time": "2026-01-12T07:00:00+0000",
+        "duration": "PT1H15M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "fallback_image_url": "http://img.freeviewplay.net/eb5c8413d996580c419eb14f4cd99c2d0",
+        "uuid": "3eecf8a86c2e22903d06ce7a41c5f1fe"
       }
     },
     {
-      "startTime": "2026-01-11T20:00:00+0000",
-      "duration": 70,
-      "name": "Ladies in Black",
-      "description": "Series 1: Episode 2",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCP522P",
-        "event_locator": "dvb://233a..5740;8a44",
-        "main_title": "Ladies in Black",
-        "secondary_title": "Series 1: Episode 2",
-        "image_url": "https://img.freeviewplay.tv/p5594a300365bd35cc9cc879117338a62",
-        "start_time": "2026-01-11T20:00:00+0000",
-        "duration": "PT1H10M",
-        "on_demand": {
-          "start_of_availability": "2025-07-12T06:00:00+0000",
-          "end_of_availability": "2028-05-31T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCP522P",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "fallback_image_url": "http://img.freeviewplay.net/ea9548c1cc8061cbb6c603b16860c9158",
-        "uuid": "13eae57d5f9821cd620fbca22c0a6cd2"
-      }
-    },
-    {
-      "startTime": "2026-01-11T21:10:00+0000",
+      "startTime": "2026-01-12T08:15:00+0000",
       "duration": 60,
-      "name": "Sister Boniface Mysteries",
-      "description": "Series 3: Episode 8",
+      "name": "The Bill",
+      "description": "Series 17: Episode 99",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/ABZI064T",
-        "event_locator": "dvb://233a..5740;8a45",
-        "main_title": "Sister Boniface Mysteries",
-        "secondary_title": "Series 3: Episode 8",
-        "image_url": "https://img.freeviewplay.tv/pe51ab6b7673b4a4694d2a33fe99152de",
-        "start_time": "2026-01-11T21:10:00+0000",
+        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB237X",
+        "event_locator": "dvb://233a..5740;8c40",
+        "main_title": "The Bill",
+        "secondary_title": "Series 17: Episode 99",
+        "image_url": "https://img.freeviewplay.tv/pad1531786c560577e087c7eee756b3f5",
+        "start_time": "2026-01-12T08:15:00+0000",
         "duration": "PT1H",
         "on_demand": {
-          "start_of_availability": "2024-06-07T06:00:00+0000",
-          "end_of_availability": "2034-03-31T22:59:00+0000",
+          "start_of_availability": "2024-02-17T07:00:00+0000",
+          "end_of_availability": "2027-12-30T23:59:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ABZI064T",
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB237X",
               "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "42a413f02d39b24c698862354e7bd599"
+        "uuid": "49c3d9ccc984b5e72957b0bfccfa05a4"
       }
     },
     {
-      "startTime": "2026-01-11T22:10:00+0000",
-      "duration": 135,
-      "name": "Silent Witness",
+      "startTime": "2026-01-12T09:15:00+0000",
+      "duration": 35,
+      "name": "Classic Doctors",
+      "description": "Series 9: Episode 137",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCQ619N",
+        "event_locator": "dvb://233a..5740;8a4d",
+        "main_title": "Classic Doctors",
+        "secondary_title": "Series 9: Episode 137",
+        "image_url": "https://img.freeviewplay.tv/p66c29d37e5103a1d70abfe8888e7baf8",
+        "start_time": "2026-01-12T09:15:00+0000",
+        "duration": "PT35M",
+        "on_demand": {
+          "start_of_availability": "2025-12-22T07:00:00+0000",
+          "end_of_availability": "2026-09-24T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCQ619N",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "fallback_image_url": "http://img.freeviewplay.net/e172e074a020f56809cb6bb35a7b00967",
+        "uuid": "9b4c5add595eb4b9f90a64069b338730"
+      }
+    },
+    {
+      "startTime": "2026-01-12T09:50:00+0000",
+      "duration": 40,
+      "name": "Classic Doctors",
+      "description": "Series 9: Episode 138",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCQ620H",
+        "event_locator": "dvb://233a..5740;8a4e",
+        "main_title": "Classic Doctors",
+        "secondary_title": "Series 9: Episode 138",
+        "image_url": "https://img.freeviewplay.tv/pd9f367c157a7f96c522a56695ea69def",
+        "start_time": "2026-01-12T09:50:00+0000",
+        "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2025-12-22T07:00:00+0000",
+          "end_of_availability": "2026-09-24T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCQ620H",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "fallback_image_url": "http://img.freeviewplay.net/e172e074a020f56809cb6bb35a7b00967",
+        "uuid": "6dbb1c76d4fbaa083e61eb3dd5e92d51"
+      }
+    },
+    {
+      "startTime": "2026-01-12T10:30:00+0000",
+      "duration": 65,
+      "name": "Classic Holby City",
+      "description": "Series 5: Episode 37",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/CTBV842F",
+        "event_locator": "dvb://233a..5740;8a4f",
+        "main_title": "Classic Holby City",
+        "secondary_title": "Series 5: Episode 37",
+        "image_url": "https://img.freeviewplay.tv/p453cf544efcc34aeff31daab25114af7",
+        "start_time": "2026-01-12T10:30:00+0000",
+        "duration": "PT1H5M",
+        "on_demand": {
+          "start_of_availability": "2026-01-12T10:30:00+0000",
+          "end_of_availability": "2026-11-18T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTBV842F",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "fallback_image_url": "http://img.freeviewplay.net/edcbeba677ec280551ef0b4b03956c1d3",
+        "uuid": "c489f2a64aed58d4153c82eb0589586c"
+      }
+    },
+    {
+      "startTime": "2026-01-12T11:35:00+0000",
+      "duration": 65,
+      "name": "Classic Casualty",
+      "description": "Series 24: Episode 10",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCD020D",
+        "event_locator": "dvb://233a..5740;8a50",
+        "main_title": "Classic Casualty",
+        "secondary_title": "Series 24: Episode 10",
+        "image_url": "https://img.freeviewplay.tv/pb1c2a0afddf6222efcdb54cf2241ca3d",
+        "start_time": "2026-01-12T11:35:00+0000",
+        "duration": "PT1H5M",
+        "on_demand": {
+          "start_of_availability": "2026-01-12T11:40:00+0000",
+          "end_of_availability": "2026-12-22T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCD020D",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "uuid": "8885d6138340afed125df13d8f517371"
+      }
+    },
+    {
+      "startTime": "2026-01-12T12:40:00+0000",
+      "duration": 65,
+      "name": "The Bill",
+      "description": "Series 17: Episode 99",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB237X",
+        "event_locator": "dvb://233a..5740;8a51",
+        "main_title": "The Bill",
+        "secondary_title": "Series 17: Episode 99",
+        "image_url": "https://img.freeviewplay.tv/pad1531786c560577e087c7eee756b3f5",
+        "start_time": "2026-01-12T12:40:00+0000",
+        "duration": "PT1H5M",
+        "on_demand": {
+          "start_of_availability": "2024-02-17T07:00:00+0000",
+          "end_of_availability": "2027-12-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB237X",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "uuid": "9ba6af8cfcc013ed9da14269852ce583"
+      }
+    },
+    {
+      "startTime": "2026-01-12T13:45:00+0000",
+      "duration": 40,
+      "name": "Classic EastEnders",
+      "description": "Series 26: Episode 107",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCP637D",
+        "event_locator": "dvb://233a..5740;8a52",
+        "main_title": "Classic EastEnders",
+        "secondary_title": "Series 26: Episode 107",
+        "image_url": "https://img.freeviewplay.tv/p0b62e1c4db466ef8bf2256606018730f",
+        "start_time": "2026-01-12T13:45:00+0000",
+        "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2026-01-09T13:40:00+0000",
+          "end_of_availability": "2026-10-17T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCP637D",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "uuid": "846ca9f89e094fbc5861116fc38d9fa9"
+      }
+    },
+    {
+      "startTime": "2026-01-12T14:25:00+0000",
+      "duration": 35,
+      "name": "Classic EastEnders",
+      "description": "Series 26: Episode 108",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCP638X",
+        "event_locator": "dvb://233a..5740;8a53",
+        "main_title": "Classic EastEnders",
+        "secondary_title": "Series 26: Episode 108",
+        "image_url": "https://img.freeviewplay.tv/p69d0327e0368e42a98496afe10f96365",
+        "start_time": "2026-01-12T14:25:00+0000",
+        "duration": "PT35M",
+        "on_demand": {
+          "start_of_availability": "2026-01-09T13:40:00+0000",
+          "end_of_availability": "2026-10-17T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCP638X",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "uuid": "1a0ee1e86066bac6d51c38a3403bbdd5"
+      }
+    },
+    {
+      "startTime": "2026-01-12T15:00:00+0000",
+      "duration": 60,
+      "name": "All Creatures Great and Small",
+      "description": "Series 1: Episode 6",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/LDLB806N",
+        "event_locator": "dvb://233a..5740;8c41",
+        "main_title": "All Creatures Great and Small",
+        "secondary_title": "Series 1: Episode 6",
+        "image_url": "https://img.freeviewplay.tv/pcbdd28667abd7009a875c6105c0f14c1",
+        "start_time": "2026-01-12T15:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-01-05T00:00:00+0000",
+          "end_of_availability": "2027-01-04T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=LDLB806N",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "uuid": "46775ce3d6f70a28abce256e80320d04"
+      }
+    },
+    {
+      "startTime": "2026-01-12T16:00:00+0000",
+      "duration": 70,
+      "name": "Howards' Way",
+      "description": "Series 1: Episode 6",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/CTCG030H",
+        "event_locator": "dvb://233a..5740;8a55",
+        "main_title": "Howards' Way",
+        "secondary_title": "Series 1: Episode 6",
+        "image_url": "https://img.freeviewplay.tv/p9cffb431cb283990a6cc9b1c1a0c1675",
+        "start_time": "2026-01-12T16:00:00+0000",
+        "duration": "PT1H10M",
+        "on_demand": {
+          "start_of_availability": "2025-12-11T00:00:00+0000",
+          "end_of_availability": "2026-12-10T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCG030H",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "fallback_image_url": "http://img.freeviewplay.net/ee9f1969ef47e35629f2966860bd6d6d1",
+        "uuid": "2a7b158112f560424b1f0f17b8038bb2"
+      }
+    },
+    {
+      "startTime": "2026-01-12T17:10:00+0000",
+      "duration": 70,
+      "name": "Classic Bergerac",
+      "description": "Series 7: Episode 8",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/LDLK087D",
+        "event_locator": "dvb://233a..5740;8a56",
+        "main_title": "Classic Bergerac",
+        "secondary_title": "Series 7: Episode 8",
+        "image_url": "https://img.freeviewplay.tv/p58f131bdc4e01640e71cb9491ca7bd27",
+        "start_time": "2026-01-12T17:10:00+0000",
+        "duration": "PT1H10M",
+        "on_demand": {
+          "start_of_availability": "2025-11-18T00:00:00+0000",
+          "end_of_availability": "2026-11-17T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=LDLK087D",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "fallback_image_url": "http://img.freeviewplay.net/ea52cbf0b7d10fa0afd1c2ef7d55beaf2",
+        "uuid": "0d9e6ec407f08f3d502098520d7e3349"
+      }
+    },
+    {
+      "startTime": "2026-01-12T18:20:00+0000",
+      "duration": 40,
+      "name": "One Foot in the Grave",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/0f50584b-514f-48c7-bc23-ead7f69c5c23",
+        "event_locator": "dvb://233a..5740;8b51",
+        "main_title": "One Foot in the Grave",
+        "start_time": "2026-01-12T18:20:00+0000",
+        "duration": "PT40M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e66cb225a326353d5fd59f25b9b14fcdc",
+        "uuid": "6cf01e97afcbfd678ae64cd780074f2d"
+      }
+    },
+    {
+      "startTime": "2026-01-12T19:00:00+0000",
+      "duration": 40,
+      "name": "To the Manor Born",
+      "description": "Series 1: Episode 7",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/LLCA397N",
+        "event_locator": "dvb://233a..5740;8a58",
+        "main_title": "To the Manor Born",
+        "secondary_title": "Series 1: Episode 7",
+        "image_url": "https://img.freeviewplay.tv/p2db27038400d4872b43936bd057c414b",
+        "start_time": "2026-01-12T19:00:00+0000",
+        "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2025-08-31T23:00:00+0000",
+          "end_of_availability": "2026-08-31T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=LLCA397N",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/eb9feb0e7f6d2884be4c60efbe1de7d5b",
+        "uuid": "bc11fdf9008af0225c1f324905abb4e9"
+      }
+    },
+    {
+      "startTime": "2026-01-12T19:40:00+0000",
+      "duration": 40,
+      "name": "Last Of The Summer Wine",
       "description": "Series 17: Episode 2",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/drama/CTGC812Y",
-        "event_locator": "dvb://233a..5740;8a46",
-        "main_title": "Silent Witness",
+        "program_id": "crid://www.uktv.co.uk/ep/drama/LLCF177A",
+        "event_locator": "dvb://233a..5740;8a59",
+        "main_title": "Last Of The Summer Wine",
         "secondary_title": "Series 17: Episode 2",
-        "image_url": "https://img.freeviewplay.tv/pbb027c21b9e5a2c37621d479fd730b8f",
-        "start_time": "2026-01-11T22:10:00+0000",
-        "duration": "PT2H15M",
+        "image_url": "https://img.freeviewplay.tv/p365840e2dfedbe851b780c4be215a104",
+        "start_time": "2026-01-12T19:40:00+0000",
+        "duration": "PT40M",
         "on_demand": {
-          "start_of_availability": "2026-01-11T23:25:00+0000",
-          "end_of_availability": "2026-03-03T21:00:00+0000",
+          "start_of_availability": "2026-01-12T19:20:00+0000",
+          "end_of_availability": "2026-02-11T18:40:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTGC812Y",
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=LLCF177A",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "797c84c1ccd2a9f6a3f4852a75c22d1b"
+      }
+    },
+    {
+      "startTime": "2026-01-12T20:20:00+0000",
+      "duration": 40,
+      "name": "Last Of The Summer Wine",
+      "description": "Series 17: Episode 3",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/LLCF174S",
+        "event_locator": "dvb://233a..5740;8a5a",
+        "main_title": "Last Of The Summer Wine",
+        "secondary_title": "Series 17: Episode 3",
+        "image_url": "https://img.freeviewplay.tv/pa4016039af57042f013e581edb85c807",
+        "start_time": "2026-01-12T20:20:00+0000",
+        "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2026-01-12T19:50:00+0000",
+          "end_of_availability": "2026-02-11T19:20:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=LLCF174S",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "fd8b1c3643e12b113e804e1e9731ebb0"
+      }
+    },
+    {
+      "startTime": "2026-01-12T21:00:00+0000",
+      "duration": 120,
+      "name": "Judge John Deed",
+      "description": "Series 2: Episode 8",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/LDXI924Y",
+        "event_locator": "dvb://233a..5740;8a5b",
+        "main_title": "Judge John Deed",
+        "secondary_title": "Series 2: Episode 8",
+        "image_url": "https://img.freeviewplay.tv/p2c8492ea716df0dcc31a934d53e0db88",
+        "start_time": "2026-01-12T21:00:00+0000",
+        "duration": "PT2H",
+        "on_demand": {
+          "start_of_availability": "2025-11-07T00:00:00+0000",
+          "end_of_availability": "2026-03-31T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=LDXI924Y",
               "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "e2dd0861c1b9c2c0c017b8c2f802747d"
+        "uuid": "5a96c5a05d9dc4bccfbf277c8939d926"
+      }
+    },
+    {
+      "startTime": "2026-01-12T23:00:00+0000",
+      "duration": 75,
+      "name": "New Tricks",
+      "description": "Series 10: Episode 2",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/drama/DRIB442L",
+        "event_locator": "dvb://233a..5740;8a5c",
+        "main_title": "New Tricks",
+        "secondary_title": "Series 10: Episode 2",
+        "image_url": "https://img.freeviewplay.tv/p2abfd8dbbcefd1372d7c60b36b470343",
+        "start_time": "2026-01-12T23:00:00+0000",
+        "duration": "PT1H15M",
+        "on_demand": {
+          "start_of_availability": "2025-09-01T06:00:00+0000",
+          "end_of_availability": "2026-08-31T22:55:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=DRIB442L",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "uuid": "b1001e00bd78bcc09280acc10ec34331"
       }
     }
   ],
@@ -502,306 +610,49 @@
       {
         "event": [
           {
-            "startTime": "2026-01-11T01:00:00+0000",
-            "duration": 60,
-            "name": "New Tricks",
-            "description": "Series 5: Episode 5",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/DRIA201W",
-              "event_locator": "dvb://233a..5740;8a35",
-              "main_title": "New Tricks",
-              "secondary_title": "Series 5: Episode 5",
-              "image_url": "https://img.freeviewplay.tv/p8f20d981a74136272a747a9c3a5e2446",
-              "start_time": "2026-01-11T01:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2025-11-01T00:00:00+0000",
-                "end_of_availability": "2026-10-31T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=DRIA201W",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "fdd4e982d497b6ad7bdf9065a25fa50a"
-            }
-          },
-          {
-            "startTime": "2026-01-11T02:00:00+0000",
-            "duration": 85,
-            "name": "New Tricks",
-            "description": "Series 5: Episode 6",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/DRIA206R",
-              "event_locator": "dvb://233a..5740;8a36",
-              "main_title": "New Tricks",
-              "secondary_title": "Series 5: Episode 6",
-              "image_url": "https://img.freeviewplay.tv/p31933b03bc13e19d7e551d3be478af4a",
-              "start_time": "2026-01-11T02:00:00+0000",
-              "duration": "PT1H25M",
-              "on_demand": {
-                "start_of_availability": "2025-11-01T00:00:00+0000",
-                "end_of_availability": "2026-10-31T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=DRIA206R",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "b8deb1f34937d2fc421b7eb0b1a9e91b"
-            }
-          },
-          {
-            "startTime": "2026-01-11T03:25:00+0000",
-            "duration": 55,
-            "name": "Ladies in Black (BSL)",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/330a06d9-35cb-411f-97bc-aa0cf9cab6a4",
-              "event_locator": "dvb://233a..5740;8a37",
-              "main_title": "Ladies in Black (BSL)",
-              "start_time": "2026-01-11T03:25:00+0000",
-              "duration": "PT55M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "fallback_image_url": "http://img.freeviewplay.net/ea77d9e078409664e6555c2bb9d50953a",
-              "uuid": "60b78d95bb204aac015d450cdfdd6b66"
-            }
-          },
-          {
-            "startTime": "2026-01-11T04:20:00+0000",
-            "duration": 40,
-            "name": "Birds of a Feather",
-            "description": "Series 7: Episode 7",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/CTBF596L",
-              "event_locator": "dvb://233a..5740;8a38",
-              "main_title": "Birds of a Feather",
-              "secondary_title": "Series 7: Episode 7",
-              "image_url": "https://img.freeviewplay.tv/p1609b261565fa7871f69a815a7225c0f",
-              "start_time": "2026-01-11T04:20:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2024-12-31T00:00:00+0000",
-                "end_of_availability": "2027-11-30T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTBF596L",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "fb986556d921a079ed9392d604f67636"
-            }
-          },
-          {
-            "startTime": "2026-01-11T05:00:00+0000",
-            "duration": 120,
-            "name": "Teleshopping",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/27c8999a-4803-4bea-8b7e-0d8f3fb46e28",
-              "event_locator": "dvb://233a..5740;8a39",
-              "main_title": "Teleshopping",
-              "start_time": "2026-01-11T05:00:00+0000",
-              "duration": "PT2H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "fallback_image_url": "http://img.freeviewplay.net/eb5c8413d996580c419eb14f4cd99c2d0",
-              "uuid": "e4a5b26e23e8f75279717ac7a94ecd9d"
-            }
-          },
-          {
-            "startTime": "2026-01-11T07:00:00+0000",
-            "duration": 70,
-            "name": "Teleshopping",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/d8da9312-a149-46ca-b68b-452c69bc5f59",
-              "event_locator": "dvb://233a..5740;8a3a",
-              "main_title": "Teleshopping",
-              "start_time": "2026-01-11T07:00:00+0000",
-              "duration": "PT1H10M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "fallback_image_url": "http://img.freeviewplay.net/eb5c8413d996580c419eb14f4cd99c2d0",
-              "uuid": "13fb0ed6ca62442505a9512759369fe7"
-            }
-          },
-          {
-            "startTime": "2026-01-11T08:10:00+0000",
-            "duration": 50,
-            "name": "The Bill",
-            "description": "Series 17: Episode 94",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB232B",
-              "event_locator": "dvb://233a..5740;8a3b",
-              "main_title": "The Bill",
-              "secondary_title": "Series 17: Episode 94",
-              "image_url": "https://img.freeviewplay.tv/pb9c74bf381afc49dd3500944eaaadbbc",
-              "start_time": "2026-01-11T08:10:00+0000",
-              "duration": "PT50M",
-              "on_demand": {
-                "start_of_availability": "2024-02-17T07:00:00+0000",
-                "end_of_availability": "2027-12-30T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB232B",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "ccd60864dc207743b378e8342a1ec844"
-            }
-          },
-          {
-            "startTime": "2026-01-11T09:00:00+0000",
-            "duration": 60,
-            "name": "The Bill",
-            "description": "Series 17: Episode 95",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB233W",
-              "event_locator": "dvb://233a..5740;8a3c",
-              "main_title": "The Bill",
-              "secondary_title": "Series 17: Episode 95",
-              "image_url": "https://img.freeviewplay.tv/p098c6dfc77232adea42dd3595441f13a",
-              "start_time": "2026-01-11T09:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2024-02-17T07:00:00+0000",
-                "end_of_availability": "2027-12-30T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB233W",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "cdb800222c24598ec423848e9cc3a61f"
-            }
-          },
-          {
-            "startTime": "2026-01-11T10:00:00+0000",
-            "duration": 60,
-            "name": "The Bill",
-            "description": "Series 17: Episode 96",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB234P",
-              "event_locator": "dvb://233a..5740;8a3d",
-              "main_title": "The Bill",
-              "secondary_title": "Series 17: Episode 96",
-              "image_url": "https://img.freeviewplay.tv/p18a128973ce2b1c77facc3fc42f326ca",
-              "start_time": "2026-01-11T10:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2024-02-17T07:00:00+0000",
-                "end_of_availability": "2027-12-30T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB234P",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "336674fb4bc149707e9930c71e04a9f9"
-            }
-          },
-          {
-            "startTime": "2026-01-11T11:00:00+0000",
-            "duration": 60,
-            "name": "The Bill",
-            "description": "Series 17: Episode 97",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB235J",
-              "event_locator": "dvb://233a..5740;8a3e",
-              "main_title": "The Bill",
-              "secondary_title": "Series 17: Episode 97",
-              "image_url": "https://img.freeviewplay.tv/p4c1625a328dadbce77f90cfa5b23306e",
-              "start_time": "2026-01-11T11:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2024-02-17T07:00:00+0000",
-                "end_of_availability": "2027-12-30T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB235J",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "eaae20467bb5c5a94dae99bc65318c8f"
-            }
-          },
-          {
-            "startTime": "2026-01-11T12:00:00+0000",
-            "duration": 60,
-            "name": "The Bill",
-            "description": "Series 17: Episode 98",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB236D",
-              "event_locator": "dvb://233a..5740;8a3f",
-              "main_title": "The Bill",
-              "secondary_title": "Series 17: Episode 98",
-              "image_url": "https://img.freeviewplay.tv/pf6942006a12e0a36f8eaa85051a650e7",
-              "start_time": "2026-01-11T12:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2024-02-17T07:00:00+0000",
-                "end_of_availability": "2027-12-30T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB236D",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "0379d81916a402603c809aa4943841c9"
-            }
-          },
-          {
-            "startTime": "2026-01-11T13:00:00+0000",
+            "startTime": "2026-01-12T00:25:00+0000",
             "duration": 80,
+            "name": "New Tricks",
+            "description": "Series 10: Episode 2",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/DRIB442L",
+              "event_locator": "dvb://233a..5740;8a47",
+              "main_title": "New Tricks",
+              "secondary_title": "Series 10: Episode 2",
+              "image_url": "https://img.freeviewplay.tv/p2abfd8dbbcefd1372d7c60b36b470343",
+              "start_time": "2026-01-12T00:25:00+0000",
+              "duration": "PT1H20M",
+              "on_demand": {
+                "start_of_availability": "2025-09-01T06:00:00+0000",
+                "end_of_availability": "2026-08-31T22:55:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=DRIB442L",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "uuid": "62e95b1c31d075b104feb63bc4730f4d"
+            }
+          },
+          {
+            "startTime": "2026-01-12T01:45:00+0000",
+            "duration": 75,
             "name": "Call the Midwife",
             "description": "Series 12: Episode 1",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://www.uktv.co.uk/ep/drama/DRIJ330E",
-              "event_locator": "dvb://233a..5740;8a40",
+              "event_locator": "dvb://233a..5740;8a48",
               "main_title": "Call the Midwife",
               "secondary_title": "Series 12: Episode 1",
               "image_url": "https://img.freeviewplay.tv/p1c3d04665229e4d2dfe59f7f2c6cf949",
-              "start_time": "2026-01-11T13:00:00+0000",
-              "duration": "PT1H20M",
+              "start_time": "2026-01-12T01:45:00+0000",
+              "duration": "PT1H15M",
               "on_demand": {
                 "start_of_availability": "2026-01-11T13:20:00+0000",
                 "end_of_availability": "2026-03-03T13:20:00+0000",
@@ -813,184 +664,549 @@
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "b27d41e3b4cd2f4a851d98ac5c077527"
+              "uuid": "a99cb854a0e3e92e7747f9e367d382bb"
             }
           },
           {
-            "startTime": "2026-01-11T14:20:00+0000",
-            "duration": 80,
-            "name": "Call the Midwife",
-            "description": "Series 12: Episode 2",
+            "startTime": "2026-01-12T03:00:00+0000",
+            "duration": 120,
+            "name": "The Brokenwood Mysteries (BSL)",
+            "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/DRIJ331Y",
-              "event_locator": "dvb://233a..5740;8a41",
-              "main_title": "Call the Midwife",
-              "secondary_title": "Series 12: Episode 2",
-              "image_url": "https://img.freeviewplay.tv/pe16fbcb517479762620b11aa803298da",
-              "start_time": "2026-01-11T14:20:00+0000",
-              "duration": "PT1H20M",
-              "on_demand": {
-                "start_of_availability": "2026-01-11T14:40:00+0000",
-                "end_of_availability": "2026-03-03T13:20:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=DRIJ331Y",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
+              "program_id": "crid://csi.digitaluk.co.uk/d78e1a0a-512b-4aae-baa1-150ef4832d23",
+              "event_locator": "dvb://233a..5740;8a49",
+              "main_title": "The Brokenwood Mysteries (BSL)",
+              "image_url": "https://img.freeviewplay.tv/e0b75a4249f46649f6814a7b23eeb4cc8",
+              "start_time": "2026-01-12T03:00:00+0000",
+              "duration": "PT2H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "f956a89d3eb6f715aee5f4c5eae9b51f"
+              "uuid": "c5fd625478974d88daf43e10842e8374"
             }
           },
           {
-            "startTime": "2026-01-11T15:40:00+0000",
-            "duration": 180,
-            "name": "Catherine Cookson: Dinner of Herbs",
-            "description": "Series 1: Episode 1",
+            "startTime": "2026-01-12T05:00:00+0000",
+            "duration": 120,
+            "name": "Teleshopping",
+            "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/CTAN987J",
-              "event_locator": "dvb://233a..5740;8a42",
-              "main_title": "Catherine Cookson: Dinner of Herbs",
-              "secondary_title": "Series 1: Episode 1",
-              "image_url": "https://img.freeviewplay.tv/p4768df4f97136742e50e8747c4e5d713",
-              "start_time": "2026-01-11T15:40:00+0000",
-              "duration": "PT3H",
-              "on_demand": {
-                "start_of_availability": "2022-12-07T00:00:00+0000",
-                "end_of_availability": "2026-07-31T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTAN987J",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "fallback_image_url": "http://img.freeviewplay.net/e777da920e9cce3c982d702ed3dfe7f0d",
-              "uuid": "f09726df3ef25c2c9afb932b76fa9107"
+              "program_id": "crid://csi.digitaluk.co.uk/34a34baf-2671-46fa-b6e4-c43b9d747b98",
+              "event_locator": "dvb://233a..5740;8a4a",
+              "main_title": "Teleshopping",
+              "start_time": "2026-01-12T05:00:00+0000",
+              "duration": "PT2H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "fallback_image_url": "http://img.freeviewplay.net/eb5c8413d996580c419eb14f4cd99c2d0",
+              "uuid": "ef9e12c8d28d0c5def85d62e5350335e"
             }
           },
           {
-            "startTime": "2026-01-11T18:40:00+0000",
-            "duration": 80,
-            "name": "Last Tango in Halifax",
-            "description": "Series 3: Episode 1",
+            "startTime": "2026-01-12T07:00:00+0000",
+            "duration": 75,
+            "name": "Teleshopping",
+            "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/DRIB801J",
-              "event_locator": "dvb://233a..5740;8a43",
-              "main_title": "Last Tango in Halifax",
-              "secondary_title": "Series 3: Episode 1",
-              "image_url": "https://img.freeviewplay.tv/p18fe4885c8557630d4ee60dbd388a316",
-              "start_time": "2026-01-11T18:40:00+0000",
-              "duration": "PT1H20M",
-              "on_demand": {
-                "start_of_availability": "2025-12-12T00:00:00+0000",
-                "end_of_availability": "2026-12-11T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=DRIB801J",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "fallback_image_url": "http://img.freeviewplay.net/e2f15f132d90d896d8c9dc5d9a72a73da",
-              "uuid": "ed240fba6b83b2290b508820ef0c73bd"
+              "program_id": "crid://csi.digitaluk.co.uk/c61d3cea-a612-4e35-8445-aba0dc241d10",
+              "event_locator": "dvb://233a..5740;8a4b",
+              "main_title": "Teleshopping",
+              "start_time": "2026-01-12T07:00:00+0000",
+              "duration": "PT1H15M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "fallback_image_url": "http://img.freeviewplay.net/eb5c8413d996580c419eb14f4cd99c2d0",
+              "uuid": "3eecf8a86c2e22903d06ce7a41c5f1fe"
             }
           },
           {
-            "startTime": "2026-01-11T20:00:00+0000",
-            "duration": 70,
-            "name": "Ladies in Black",
-            "description": "Series 1: Episode 2",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCP522P",
-              "event_locator": "dvb://233a..5740;8a44",
-              "main_title": "Ladies in Black",
-              "secondary_title": "Series 1: Episode 2",
-              "image_url": "https://img.freeviewplay.tv/p5594a300365bd35cc9cc879117338a62",
-              "start_time": "2026-01-11T20:00:00+0000",
-              "duration": "PT1H10M",
-              "on_demand": {
-                "start_of_availability": "2025-07-12T06:00:00+0000",
-                "end_of_availability": "2028-05-31T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCP522P",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "fallback_image_url": "http://img.freeviewplay.net/ea9548c1cc8061cbb6c603b16860c9158",
-              "uuid": "13eae57d5f9821cd620fbca22c0a6cd2"
-            }
-          },
-          {
-            "startTime": "2026-01-11T21:10:00+0000",
+            "startTime": "2026-01-12T08:15:00+0000",
             "duration": 60,
-            "name": "Sister Boniface Mysteries",
-            "description": "Series 3: Episode 8",
+            "name": "The Bill",
+            "description": "Series 17: Episode 99",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/ABZI064T",
-              "event_locator": "dvb://233a..5740;8a45",
-              "main_title": "Sister Boniface Mysteries",
-              "secondary_title": "Series 3: Episode 8",
-              "image_url": "https://img.freeviewplay.tv/pe51ab6b7673b4a4694d2a33fe99152de",
-              "start_time": "2026-01-11T21:10:00+0000",
+              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB237X",
+              "event_locator": "dvb://233a..5740;8c40",
+              "main_title": "The Bill",
+              "secondary_title": "Series 17: Episode 99",
+              "image_url": "https://img.freeviewplay.tv/pad1531786c560577e087c7eee756b3f5",
+              "start_time": "2026-01-12T08:15:00+0000",
               "duration": "PT1H",
               "on_demand": {
-                "start_of_availability": "2024-06-07T06:00:00+0000",
-                "end_of_availability": "2034-03-31T22:59:00+0000",
+                "start_of_availability": "2024-02-17T07:00:00+0000",
+                "end_of_availability": "2027-12-30T23:59:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ABZI064T",
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB237X",
                     "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "42a413f02d39b24c698862354e7bd599"
+              "uuid": "49c3d9ccc984b5e72957b0bfccfa05a4"
             }
           },
           {
-            "startTime": "2026-01-11T22:10:00+0000",
-            "duration": 135,
-            "name": "Silent Witness",
+            "startTime": "2026-01-12T09:15:00+0000",
+            "duration": 35,
+            "name": "Classic Doctors",
+            "description": "Series 9: Episode 137",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCQ619N",
+              "event_locator": "dvb://233a..5740;8a4d",
+              "main_title": "Classic Doctors",
+              "secondary_title": "Series 9: Episode 137",
+              "image_url": "https://img.freeviewplay.tv/p66c29d37e5103a1d70abfe8888e7baf8",
+              "start_time": "2026-01-12T09:15:00+0000",
+              "duration": "PT35M",
+              "on_demand": {
+                "start_of_availability": "2025-12-22T07:00:00+0000",
+                "end_of_availability": "2026-09-24T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCQ619N",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "fallback_image_url": "http://img.freeviewplay.net/e172e074a020f56809cb6bb35a7b00967",
+              "uuid": "9b4c5add595eb4b9f90a64069b338730"
+            }
+          },
+          {
+            "startTime": "2026-01-12T09:50:00+0000",
+            "duration": 40,
+            "name": "Classic Doctors",
+            "description": "Series 9: Episode 138",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCQ620H",
+              "event_locator": "dvb://233a..5740;8a4e",
+              "main_title": "Classic Doctors",
+              "secondary_title": "Series 9: Episode 138",
+              "image_url": "https://img.freeviewplay.tv/pd9f367c157a7f96c522a56695ea69def",
+              "start_time": "2026-01-12T09:50:00+0000",
+              "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2025-12-22T07:00:00+0000",
+                "end_of_availability": "2026-09-24T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCQ620H",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "fallback_image_url": "http://img.freeviewplay.net/e172e074a020f56809cb6bb35a7b00967",
+              "uuid": "6dbb1c76d4fbaa083e61eb3dd5e92d51"
+            }
+          },
+          {
+            "startTime": "2026-01-12T10:30:00+0000",
+            "duration": 65,
+            "name": "Classic Holby City",
+            "description": "Series 5: Episode 37",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/CTBV842F",
+              "event_locator": "dvb://233a..5740;8a4f",
+              "main_title": "Classic Holby City",
+              "secondary_title": "Series 5: Episode 37",
+              "image_url": "https://img.freeviewplay.tv/p453cf544efcc34aeff31daab25114af7",
+              "start_time": "2026-01-12T10:30:00+0000",
+              "duration": "PT1H5M",
+              "on_demand": {
+                "start_of_availability": "2026-01-12T10:30:00+0000",
+                "end_of_availability": "2026-11-18T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTBV842F",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "fallback_image_url": "http://img.freeviewplay.net/edcbeba677ec280551ef0b4b03956c1d3",
+              "uuid": "c489f2a64aed58d4153c82eb0589586c"
+            }
+          },
+          {
+            "startTime": "2026-01-12T11:35:00+0000",
+            "duration": 65,
+            "name": "Classic Casualty",
+            "description": "Series 24: Episode 10",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCD020D",
+              "event_locator": "dvb://233a..5740;8a50",
+              "main_title": "Classic Casualty",
+              "secondary_title": "Series 24: Episode 10",
+              "image_url": "https://img.freeviewplay.tv/pb1c2a0afddf6222efcdb54cf2241ca3d",
+              "start_time": "2026-01-12T11:35:00+0000",
+              "duration": "PT1H5M",
+              "on_demand": {
+                "start_of_availability": "2026-01-12T11:40:00+0000",
+                "end_of_availability": "2026-12-22T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCD020D",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "uuid": "8885d6138340afed125df13d8f517371"
+            }
+          },
+          {
+            "startTime": "2026-01-12T12:40:00+0000",
+            "duration": 65,
+            "name": "The Bill",
+            "description": "Series 17: Episode 99",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCB237X",
+              "event_locator": "dvb://233a..5740;8a51",
+              "main_title": "The Bill",
+              "secondary_title": "Series 17: Episode 99",
+              "image_url": "https://img.freeviewplay.tv/pad1531786c560577e087c7eee756b3f5",
+              "start_time": "2026-01-12T12:40:00+0000",
+              "duration": "PT1H5M",
+              "on_demand": {
+                "start_of_availability": "2024-02-17T07:00:00+0000",
+                "end_of_availability": "2027-12-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCB237X",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "uuid": "9ba6af8cfcc013ed9da14269852ce583"
+            }
+          },
+          {
+            "startTime": "2026-01-12T13:45:00+0000",
+            "duration": 40,
+            "name": "Classic EastEnders",
+            "description": "Series 26: Episode 107",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCP637D",
+              "event_locator": "dvb://233a..5740;8a52",
+              "main_title": "Classic EastEnders",
+              "secondary_title": "Series 26: Episode 107",
+              "image_url": "https://img.freeviewplay.tv/p0b62e1c4db466ef8bf2256606018730f",
+              "start_time": "2026-01-12T13:45:00+0000",
+              "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2026-01-09T13:40:00+0000",
+                "end_of_availability": "2026-10-17T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCP637D",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "uuid": "846ca9f89e094fbc5861116fc38d9fa9"
+            }
+          },
+          {
+            "startTime": "2026-01-12T14:25:00+0000",
+            "duration": 35,
+            "name": "Classic EastEnders",
+            "description": "Series 26: Episode 108",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCP638X",
+              "event_locator": "dvb://233a..5740;8a53",
+              "main_title": "Classic EastEnders",
+              "secondary_title": "Series 26: Episode 108",
+              "image_url": "https://img.freeviewplay.tv/p69d0327e0368e42a98496afe10f96365",
+              "start_time": "2026-01-12T14:25:00+0000",
+              "duration": "PT35M",
+              "on_demand": {
+                "start_of_availability": "2026-01-09T13:40:00+0000",
+                "end_of_availability": "2026-10-17T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCP638X",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "uuid": "1a0ee1e86066bac6d51c38a3403bbdd5"
+            }
+          },
+          {
+            "startTime": "2026-01-12T15:00:00+0000",
+            "duration": 60,
+            "name": "All Creatures Great and Small",
+            "description": "Series 1: Episode 6",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/LDLB806N",
+              "event_locator": "dvb://233a..5740;8c41",
+              "main_title": "All Creatures Great and Small",
+              "secondary_title": "Series 1: Episode 6",
+              "image_url": "https://img.freeviewplay.tv/pcbdd28667abd7009a875c6105c0f14c1",
+              "start_time": "2026-01-12T15:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-01-05T00:00:00+0000",
+                "end_of_availability": "2027-01-04T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=LDLB806N",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "uuid": "46775ce3d6f70a28abce256e80320d04"
+            }
+          },
+          {
+            "startTime": "2026-01-12T16:00:00+0000",
+            "duration": 70,
+            "name": "Howards' Way",
+            "description": "Series 1: Episode 6",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/CTCG030H",
+              "event_locator": "dvb://233a..5740;8a55",
+              "main_title": "Howards' Way",
+              "secondary_title": "Series 1: Episode 6",
+              "image_url": "https://img.freeviewplay.tv/p9cffb431cb283990a6cc9b1c1a0c1675",
+              "start_time": "2026-01-12T16:00:00+0000",
+              "duration": "PT1H10M",
+              "on_demand": {
+                "start_of_availability": "2025-12-11T00:00:00+0000",
+                "end_of_availability": "2026-12-10T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCG030H",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "fallback_image_url": "http://img.freeviewplay.net/ee9f1969ef47e35629f2966860bd6d6d1",
+              "uuid": "2a7b158112f560424b1f0f17b8038bb2"
+            }
+          },
+          {
+            "startTime": "2026-01-12T17:10:00+0000",
+            "duration": 70,
+            "name": "Classic Bergerac",
+            "description": "Series 7: Episode 8",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/LDLK087D",
+              "event_locator": "dvb://233a..5740;8a56",
+              "main_title": "Classic Bergerac",
+              "secondary_title": "Series 7: Episode 8",
+              "image_url": "https://img.freeviewplay.tv/p58f131bdc4e01640e71cb9491ca7bd27",
+              "start_time": "2026-01-12T17:10:00+0000",
+              "duration": "PT1H10M",
+              "on_demand": {
+                "start_of_availability": "2025-11-18T00:00:00+0000",
+                "end_of_availability": "2026-11-17T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=LDLK087D",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "fallback_image_url": "http://img.freeviewplay.net/ea52cbf0b7d10fa0afd1c2ef7d55beaf2",
+              "uuid": "0d9e6ec407f08f3d502098520d7e3349"
+            }
+          },
+          {
+            "startTime": "2026-01-12T18:20:00+0000",
+            "duration": 40,
+            "name": "One Foot in the Grave",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/0f50584b-514f-48c7-bc23-ead7f69c5c23",
+              "event_locator": "dvb://233a..5740;8b51",
+              "main_title": "One Foot in the Grave",
+              "start_time": "2026-01-12T18:20:00+0000",
+              "duration": "PT40M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e66cb225a326353d5fd59f25b9b14fcdc",
+              "uuid": "6cf01e97afcbfd678ae64cd780074f2d"
+            }
+          },
+          {
+            "startTime": "2026-01-12T19:00:00+0000",
+            "duration": 40,
+            "name": "To the Manor Born",
+            "description": "Series 1: Episode 7",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/LLCA397N",
+              "event_locator": "dvb://233a..5740;8a58",
+              "main_title": "To the Manor Born",
+              "secondary_title": "Series 1: Episode 7",
+              "image_url": "https://img.freeviewplay.tv/p2db27038400d4872b43936bd057c414b",
+              "start_time": "2026-01-12T19:00:00+0000",
+              "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2025-08-31T23:00:00+0000",
+                "end_of_availability": "2026-08-31T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=LLCA397N",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/eb9feb0e7f6d2884be4c60efbe1de7d5b",
+              "uuid": "bc11fdf9008af0225c1f324905abb4e9"
+            }
+          },
+          {
+            "startTime": "2026-01-12T19:40:00+0000",
+            "duration": 40,
+            "name": "Last Of The Summer Wine",
             "description": "Series 17: Episode 2",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/drama/CTGC812Y",
-              "event_locator": "dvb://233a..5740;8a46",
-              "main_title": "Silent Witness",
+              "program_id": "crid://www.uktv.co.uk/ep/drama/LLCF177A",
+              "event_locator": "dvb://233a..5740;8a59",
+              "main_title": "Last Of The Summer Wine",
               "secondary_title": "Series 17: Episode 2",
-              "image_url": "https://img.freeviewplay.tv/pbb027c21b9e5a2c37621d479fd730b8f",
-              "start_time": "2026-01-11T22:10:00+0000",
-              "duration": "PT2H15M",
+              "image_url": "https://img.freeviewplay.tv/p365840e2dfedbe851b780c4be215a104",
+              "start_time": "2026-01-12T19:40:00+0000",
+              "duration": "PT40M",
               "on_demand": {
-                "start_of_availability": "2026-01-11T23:25:00+0000",
-                "end_of_availability": "2026-03-03T21:00:00+0000",
+                "start_of_availability": "2026-01-12T19:20:00+0000",
+                "end_of_availability": "2026-02-11T18:40:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTGC812Y",
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=LLCF177A",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "797c84c1ccd2a9f6a3f4852a75c22d1b"
+            }
+          },
+          {
+            "startTime": "2026-01-12T20:20:00+0000",
+            "duration": 40,
+            "name": "Last Of The Summer Wine",
+            "description": "Series 17: Episode 3",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/LLCF174S",
+              "event_locator": "dvb://233a..5740;8a5a",
+              "main_title": "Last Of The Summer Wine",
+              "secondary_title": "Series 17: Episode 3",
+              "image_url": "https://img.freeviewplay.tv/pa4016039af57042f013e581edb85c807",
+              "start_time": "2026-01-12T20:20:00+0000",
+              "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2026-01-12T19:50:00+0000",
+                "end_of_availability": "2026-02-11T19:20:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=LLCF174S",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "fd8b1c3643e12b113e804e1e9731ebb0"
+            }
+          },
+          {
+            "startTime": "2026-01-12T21:00:00+0000",
+            "duration": 120,
+            "name": "Judge John Deed",
+            "description": "Series 2: Episode 8",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/LDXI924Y",
+              "event_locator": "dvb://233a..5740;8a5b",
+              "main_title": "Judge John Deed",
+              "secondary_title": "Series 2: Episode 8",
+              "image_url": "https://img.freeviewplay.tv/p2c8492ea716df0dcc31a934d53e0db88",
+              "start_time": "2026-01-12T21:00:00+0000",
+              "duration": "PT2H",
+              "on_demand": {
+                "start_of_availability": "2025-11-07T00:00:00+0000",
+                "end_of_availability": "2026-03-31T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=LDXI924Y",
                     "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "e2dd0861c1b9c2c0c017b8c2f802747d"
+              "uuid": "5a96c5a05d9dc4bccfbf277c8939d926"
+            }
+          },
+          {
+            "startTime": "2026-01-12T23:00:00+0000",
+            "duration": 75,
+            "name": "New Tricks",
+            "description": "Series 10: Episode 2",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/drama/DRIB442L",
+              "event_locator": "dvb://233a..5740;8a5c",
+              "main_title": "New Tricks",
+              "secondary_title": "Series 10: Episode 2",
+              "image_url": "https://img.freeviewplay.tv/p2abfd8dbbcefd1372d7c60b36b470343",
+              "start_time": "2026-01-12T23:00:00+0000",
+              "duration": "PT1H15M",
+              "on_demand": {
+                "start_of_availability": "2025-09-01T06:00:00+0000",
+                "end_of_availability": "2026-08-31T22:55:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=DRIB442L",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "uuid": "b1001e00bd78bcc09280acc10ec34331"
             }
           }
         ]
