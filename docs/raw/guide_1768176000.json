@@ -159,7 +159,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -313,7 +313,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -379,8 +379,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -3177,6 +3177,16 @@
             "image_url": "https://img.freeviewplay.tv/p043b2e51dbc89a266d558f62957dc448",
             "start_time": "2026-01-12T23:15:00+0000",
             "duration": "PT1H",
+            "on_demand": {
+              "start_of_availability": "2025-12-12T23:00:00+0000",
+              "end_of_availability": "2026-01-11T23:00:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002n36t&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                  "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/ee3e926c6becf8027bd0a30c1870de733",
             "uuid": "8d2fd898963f6d820490ed0ee835c809"
@@ -3188,34 +3198,12 @@
         "title": "BBC Four",
         "events": [
           {
-            "program_id": "crid://bbc.co.uk/icc/episode/b08tj2zr",
-            "event_locator": "dvb://233a..919a;385",
-            "main_title": "Horizon",
-            "secondary_title": "2017: 7. Antarctica - Ice Station Rescue",
-            "image_url": "https://img.freeviewplay.tv/pa2366675b15fd9c0a747422b7e480db4",
-            "start_time": "2026-01-12T00:25:00+0000",
-            "duration": "PT1H",
-            "on_demand": {
-              "start_of_availability": "2026-01-12T00:51:23+0000",
-              "end_of_availability": "2026-02-11T00:51:23+0000",
-              "player_links": {
-                "tv": {
-                  "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b08tj2zr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                  "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                }
-              }
-            },
-            "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-            "fallback_image_url": "http://img.freeviewplay.net/e31388e57d8fb05b730bdfec9752f01fc",
-            "uuid": "78723d344009c05f3cf8662cac640b0d"
-          },
-          {
             "program_id": "crid://bbc.co.uk/icc/episode/b087vhpv",
             "event_locator": "dvb://233a..919a;386",
             "main_title": "Yellowstone: Wildest Winter to Blazing Summer",
             "secondary_title": "1. The Wildest Winter",
             "image_url": "https://img.freeviewplay.tv/p72158068746f06ebf02be227cf89d745",
-            "start_time": "2026-01-12T01:25:00+0000",
+            "start_time": "2026-01-12T00:50:00+0000",
             "duration": "PT1H",
             "on_demand": {
               "start_of_availability": "2026-01-10T19:59:53+0000",
@@ -3229,7 +3217,7 @@
             },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e3caf7966ca7348de31fd6a0692c6841c",
-            "uuid": "c1a6bcbcdf2cf6f25cff15e1c80a0d42"
+            "uuid": "2ac4d76ee76ab508f932de75802790fb"
           },
           {
             "program_id": "crid://bbc.co.uk/icc/episode/m001grr7",
@@ -3237,7 +3225,7 @@
             "main_title": "Shackleton's Cabin",
             "secondary_title": "Shackleton's Cabin",
             "image_url": "https://img.freeviewplay.tv/pae02cef06cdf097e7bb5c1721f90278d",
-            "start_time": "2026-01-12T02:25:00+0000",
+            "start_time": "2026-01-12T01:50:00+0000",
             "duration": "PT50M",
             "on_demand": {
               "start_of_availability": "2024-01-04T21:30:00+0000",
@@ -3251,7 +3239,29 @@
             },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e67f0e55bdf8b618d359fd48d5d618211",
-            "uuid": "706a1747e9da8e7c888438e833112e22"
+            "uuid": "55065bcca1e19015396b38804a846434"
+          },
+          {
+            "program_id": "crid://bbc.co.uk/icc/episode/b016pwgw",
+            "event_locator": "dvb://233a..919a;388",
+            "main_title": "Timeshift",
+            "secondary_title": "Series 11: 7. Of Ice and Men",
+            "image_url": "https://img.freeviewplay.tv/pce7098c845951e3de4236a2067bc3ed0",
+            "start_time": "2026-01-12T02:40:00+0000",
+            "duration": "PT1H",
+            "on_demand": {
+              "start_of_availability": "2026-01-11T23:51:15+0000",
+              "end_of_availability": "2026-02-11T03:41:11+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b016pwgw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                  "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                }
+              }
+            },
+            "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+            "fallback_image_url": "http://img.freeviewplay.net/ecda66cabf8c45674a1ca5fc4a99d1fac",
+            "uuid": "349934e60207d5a132ffe118314943eb"
           },
           {
             "program_id": "crid://bbc.co.uk/icc/episode/m0001jfh",
@@ -3259,21 +3269,21 @@
             "main_title": "This is BBC Four",
             "secondary_title": "This is BBC Four",
             "image_url": "https://img.freeviewplay.tv/p00e2d22899d8336f45458ab80ac4f0c5",
-            "start_time": "2026-01-12T03:15:00+0000",
-            "duration": "PT2H15M",
+            "start_time": "2026-01-12T03:40:00+0000",
+            "duration": "PT1H50M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e707f799679aa6c68b415b08df2dd9614",
-            "uuid": "d3579fb959be4d04606ae775620ce038"
+            "uuid": "cd08cb695e2e21adf64766ff62bb13b5"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/d4232fd8-f6a3-47ab-8643-64a9e1aa7a7e",
+            "program_id": "crid://csi.digitaluk.co.uk/02f8be10-ef44-4ce1-b64d-7d7e837e0bb4",
             "event_locator": "dvb://233a..919a;38a",
             "main_title": "This is BBC Four",
             "start_time": "2026-01-12T05:30:00+0000",
             "duration": "PT13H28M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
             "fallback_image_url": "http://img.freeviewplay.net/e707f799679aa6c68b415b08df2dd9614",
-            "uuid": "9f159d1782c9175a8f2ef5513d7e1736"
+            "uuid": "02f85fd30f83db2fea047a39951b2bb5"
           },
           {
             "program_id": "crid://bbc.co.uk/icc/episode/m0001jfh",
@@ -4177,14 +4187,14 @@
             "uuid": "ec4f585938c795f9b59721fcccd60403"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/c36dd599-985a-4cc4-bc61-8c3514606d15",
+            "program_id": "crid://csi.digitaluk.co.uk/94eee42b-21e5-41bc-8a42-480f2ed23c6e",
             "event_locator": "dvb://233a..940b;ea77",
             "main_title": "Teleshopping",
             "start_time": "2026-01-12T06:00:00+0000",
             "duration": "PT3H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
             "fallback_image_url": "http://img.freeviewplay.net/eaa6b4c906f4ab0420dd6eeeb5a75075e",
-            "uuid": "b93385574ca3608d7614127e0c7ac6f2"
+            "uuid": "1c5c2bff6d57cb5abc1b1482d12012d1"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/4f3e4a2d-e42e-400e-93ab-bf50bc71a752",
@@ -4337,34 +4347,34 @@
             "uuid": "24aa388b50782512e8125bae0cf1b479"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/b77466f3-565f-478e-98e7-7a55d8352496",
+            "program_id": "crid://csi.digitaluk.co.uk/f666ed0c-25dc-40dd-b326-fe3bc2c5239a",
             "event_locator": "dvb://233a..940b;f51",
             "main_title": "24 Hours in A&E",
             "image_url": "https://img.freeviewplay.tv/ec46d33de454a262db4e63f63f553aa2d",
             "start_time": "2026-01-12T21:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-            "uuid": "ecf778619bbf282870fc46e745498ad1"
+            "uuid": "e49a7b24cff12a9673a662f9ba57df36"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/e4727307-51ec-4416-8975-c285a244120a",
+            "program_id": "crid://csi.digitaluk.co.uk/04677ce4-4318-449b-a506-29b9342e4ced",
             "event_locator": "dvb://233a..940b;f52",
             "main_title": "Catching a Killer",
             "image_url": "https://img.freeviewplay.tv/ecd9c204d35d50a343b08a81d9ce36819",
             "start_time": "2026-01-12T22:00:00+0000",
             "duration": "PT1H15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-            "uuid": "e08cd718a2d4036869d0dc09052af1ba"
+            "uuid": "ff06132a0baede59370aa4519e32baac"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/a78e939b-5944-4846-80cb-2ea2392ef3b7",
+            "program_id": "crid://csi.digitaluk.co.uk/07f6a7fd-d83d-4369-b5a2-907fa2a88647",
             "event_locator": "dvb://233a..940b;f53",
             "main_title": "The Murder of Laci Peterson",
             "image_url": "https://img.freeviewplay.tv/ea4f390f8e4f80ea2ebf2ab20964c0aea",
             "start_time": "2026-01-12T23:15:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-            "uuid": "2af8e500a9fe44c7d80876fd66d877fb"
+            "uuid": "948e4e3ccb92639bbd894b958a508ce7"
           }
         ]
       },
@@ -15321,7 +15331,7 @@
             "event_locator": "dvb://233a..918c;6c6",
             "main_title": "This is BBC Scotland",
             "secondary_title": "This is BBC Scotland",
-            "image_url": "https://img.freeviewplay.tv/p94acea5fe379e967773c18441718503c",
+            "image_url": "https://img.freeviewplay.tv/p8c6072e27a85e07edceae878e4c882f5",
             "start_time": "2026-01-12T00:00:00+0000",
             "duration": "PT6H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -15333,7 +15343,7 @@
             "event_locator": "dvb://233a..918c;6c7",
             "main_title": "This is BBC Scotland",
             "secondary_title": "This is BBC Scotland",
-            "image_url": "https://img.freeviewplay.tv/p94acea5fe379e967773c18441718503c",
+            "image_url": "https://img.freeviewplay.tv/p8c6072e27a85e07edceae878e4c882f5",
             "start_time": "2026-01-12T06:00:00+0000",
             "duration": "PT6H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -15345,7 +15355,7 @@
             "event_locator": "dvb://233a..918c;6c8",
             "main_title": "This is BBC Scotland",
             "secondary_title": "This is BBC Scotland",
-            "image_url": "https://img.freeviewplay.tv/p94acea5fe379e967773c18441718503c",
+            "image_url": "https://img.freeviewplay.tv/p8c6072e27a85e07edceae878e4c882f5",
             "start_time": "2026-01-12T12:00:00+0000",
             "duration": "PT2H30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -15379,7 +15389,7 @@
             "event_locator": "dvb://233a..918c;6cb",
             "main_title": "This is BBC Scotland",
             "secondary_title": "This is BBC Scotland",
-            "image_url": "https://img.freeviewplay.tv/p94acea5fe379e967773c18441718503c",
+            "image_url": "https://img.freeviewplay.tv/p8c6072e27a85e07edceae878e4c882f5",
             "start_time": "2026-01-12T15:30:00+0000",
             "duration": "PT3H30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -22469,7 +22479,7 @@
             "event_locator": "dvb://233a..9184;1eeb",
             "main_title": "BBC News",
             "secondary_title": "12/01/2026",
-            "image_url": "https://img.freeviewplay.tv/pa0826a4c509960944e178f73025ac317",
+            "image_url": "https://img.freeviewplay.tv/pb4704163b4b78b28a850291ab8e7cfaa",
             "start_time": "2026-01-12T01:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -22669,7 +22679,7 @@
             "event_locator": "dvb://233a..9184;1efa",
             "main_title": "BBC News",
             "secondary_title": "12/01/2026",
-            "image_url": "https://img.freeviewplay.tv/pa0826a4c509960944e178f73025ac317",
+            "image_url": "https://img.freeviewplay.tv/pb4704163b4b78b28a850291ab8e7cfaa",
             "start_time": "2026-01-12T07:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -22705,7 +22715,7 @@
             "event_locator": "dvb://233a..9184;1efd",
             "main_title": "BBC News",
             "secondary_title": "12/01/2026",
-            "image_url": "https://img.freeviewplay.tv/pb4704163b4b78b28a850291ab8e7cfaa",
+            "image_url": "https://img.freeviewplay.tv/pa0826a4c509960944e178f73025ac317",
             "start_time": "2026-01-12T08:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -22717,7 +22727,7 @@
             "event_locator": "dvb://233a..9184;1efe",
             "main_title": "BBC News",
             "secondary_title": "12/01/2026",
-            "image_url": "https://img.freeviewplay.tv/pb4704163b4b78b28a850291ab8e7cfaa",
+            "image_url": "https://img.freeviewplay.tv/pa0826a4c509960944e178f73025ac317",
             "start_time": "2026-01-12T09:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -22753,7 +22763,7 @@
             "event_locator": "dvb://233a..9184;1f01",
             "main_title": "BBC News",
             "secondary_title": "12/01/2026",
-            "image_url": "https://img.freeviewplay.tv/pa0826a4c509960944e178f73025ac317",
+            "image_url": "https://img.freeviewplay.tv/pb4704163b4b78b28a850291ab8e7cfaa",
             "start_time": "2026-01-12T10:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -22765,7 +22775,7 @@
             "event_locator": "dvb://233a..9184;1f02",
             "main_title": "BBC News",
             "secondary_title": "12/01/2026",
-            "image_url": "https://img.freeviewplay.tv/pa0826a4c509960944e178f73025ac317",
+            "image_url": "https://img.freeviewplay.tv/pb4704163b4b78b28a850291ab8e7cfaa",
             "start_time": "2026-01-12T11:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -22955,7 +22965,7 @@
             "event_locator": "dvb://233a..9184;1f11",
             "main_title": "BBC News",
             "secondary_title": "12/01/2026",
-            "image_url": "https://img.freeviewplay.tv/pb4704163b4b78b28a850291ab8e7cfaa",
+            "image_url": "https://img.freeviewplay.tv/pa0826a4c509960944e178f73025ac317",
             "start_time": "2026-01-12T17:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -25319,7 +25329,7 @@
             "event_locator": "dvb://233a..919c;56a1",
             "main_title": "This Is CBeebies",
             "secondary_title": "This Is CBeebies",
-            "image_url": "https://img.freeviewplay.tv/p0c047a0fc0e6776a0f901f7aba9b849c",
+            "image_url": "https://img.freeviewplay.tv/p10ea157587b2c59f69b2bc41bc98163f",
             "start_time": "2026-01-12T05:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
@@ -25551,7 +25561,7 @@
             "event_locator": "dvb://233a..919c;56f9",
             "main_title": "Bluey",
             "secondary_title": "Series 2: 32. Circus",
-            "image_url": "https://img.freeviewplay.tv/p08e3227d77060e796fe569f545c78d5b",
+            "image_url": "https://img.freeviewplay.tv/pdd518a87eefa4808aaa4c7038cce9754",
             "start_time": "2026-01-12T07:30:00+0000",
             "duration": "PT5M",
             "on_demand": {
@@ -45398,132 +45408,132 @@
           {
             "program_id": "crid://csi.digitaluk.co.uk/a02a7e17-f908-4b6c-b87b-ae23e26d1568",
             "event_locator": "dvb://233a..8380;c09",
-            "main_title": "Meyra Wa Selim",
+            "main_title": "Layl",
             "start_time": "2026-01-12T04:00:00+0000",
-            "duration": "PT25M",
+            "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-            "fallback_image_url": "http://img.freeviewplay.net/e74bb1c8bdf050b8d9bfe49cff9652621",
+            "fallback_image_url": "http://img.freeviewplay.net/e6794326c4547a0762dbf55c4a2526823",
             "uuid": "637965d0077a0eace621dbf24e55d1e5"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/23c1faa4-6e1b-49c0-acf5-325b7892d894",
             "event_locator": "dvb://233a..8380;c0a",
-            "main_title": "Layl",
-            "start_time": "2026-01-12T04:25:00+0000",
-            "duration": "PT5M",
-            "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-            "fallback_image_url": "http://img.freeviewplay.net/e6794326c4547a0762dbf55c4a2526823",
-            "uuid": "2710e8c479afa0c85ae3277af5d7c679"
-          },
-          {
-            "program_id": "crid://csi.digitaluk.co.uk/4f44611d-bf65-4555-a8d4-f7e33086e047",
-            "event_locator": "dvb://233a..8380;c0b",
             "main_title": "Al Marsa",
             "start_time": "2026-01-12T04:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/eb283f9f62d7ee4cc54d19dbc97cbf3d4",
-            "uuid": "4facba4b258f54542dd5c401af6ef0d5"
+            "uuid": "b6d35d067a0bf4de06e08b62989771c5"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/d0e532df-dd7e-4fc1-af95-9a06993d358e",
-            "event_locator": "dvb://233a..8380;c0c",
+            "program_id": "crid://csi.digitaluk.co.uk/4f44611d-bf65-4555-a8d4-f7e33086e047",
+            "event_locator": "dvb://233a..8380;c0b",
             "main_title": "Kalam Nawa'em",
             "start_time": "2026-01-12T05:00:00+0000",
             "duration": "PT1H55M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e191b6573b59edc48388000fbe1748bac",
-            "uuid": "0e334adf7fb0ae2082da3b840c24a360"
+            "uuid": "e33a7a118259e4deb9856f4c5b0cbb87"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/eae6e31e-7d88-43dc-8648-bb08ae993788",
-            "event_locator": "dvb://233a..8380;c0d",
+            "program_id": "crid://csi.digitaluk.co.uk/d0e532df-dd7e-4fc1-af95-9a06993d358e",
+            "event_locator": "dvb://233a..8380;c0c",
             "main_title": "Kalam Nawa'em",
             "start_time": "2026-01-12T06:55:00+0000",
             "duration": "PT5M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e191b6573b59edc48388000fbe1748bac",
-            "uuid": "1336de2d5c71d10807e97bdceb3a2293"
+            "uuid": "a3ad05fbb1a1f54227d81b8ed244ed8f"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/cabc6ab0-b88d-43e6-8f0c-5e45a0b7a474",
-            "event_locator": "dvb://233a..8380;c0e",
+            "program_id": "crid://csi.digitaluk.co.uk/eae6e31e-7d88-43dc-8648-bb08ae993788",
+            "event_locator": "dvb://233a..8380;c0d",
             "main_title": "Nadina",
             "start_time": "2026-01-12T07:00:00+0000",
             "duration": "PT1H15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e6f2de8bccb1a5348da97850f47f5d0b8",
-            "uuid": "9fcf948f5c0e7cb757056cb26c2b57d3"
+            "uuid": "37ddd5f0250eba70a65ba52f336bb2b6"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/1b507ec1-3960-421b-b769-13a2b52a5862",
-            "event_locator": "dvb://233a..8380;c0f",
+            "program_id": "crid://csi.digitaluk.co.uk/cabc6ab0-b88d-43e6-8f0c-5e45a0b7a474",
+            "event_locator": "dvb://233a..8380;c0e",
             "main_title": "MBC1",
             "start_time": "2026-01-12T08:15:00+0000",
             "duration": "PT15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/eb6ee201817ff4ec786a4c904121057d5",
-            "uuid": "7943184f0c940e36992ebdc3a8f332a6"
+            "uuid": "c186ce6926bf7295b6d5e17cacb2d9b5"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/9fe66b3e-b798-4a97-8bfb-d1f94a5433b8",
-            "event_locator": "dvb://233a..8380;c10",
+            "program_id": "crid://csi.digitaluk.co.uk/1b507ec1-3960-421b-b769-13a2b52a5862",
+            "event_locator": "dvb://233a..8380;c0f",
             "main_title": "Studio 23",
             "start_time": "2026-01-12T08:30:00+0000",
             "duration": "PT15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/ec00af6f9ba8cffebbaa308a40abad319",
-            "uuid": "e647dc2cacea1aa8b5e3fd20d1763789"
+            "uuid": "7df80f5e4f803ce9464d3cf70eccf821"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/133dad87-d416-4ef7-89ce-34c105d5cc16",
-            "event_locator": "dvb://233a..8380;c11",
+            "program_id": "crid://csi.digitaluk.co.uk/9fe66b3e-b798-4a97-8bfb-d1f94a5433b8",
+            "event_locator": "dvb://233a..8380;c10",
             "main_title": "MBC1",
             "start_time": "2026-01-12T08:45:00+0000",
             "duration": "PT15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/eb6ee201817ff4ec786a4c904121057d5",
-            "uuid": "957cd9f62f8ef6ff5c08946a055c37a9"
+            "uuid": "9f6168759d28065c60d5da8c4d5ea404"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/99751231-7519-42e3-993a-3fec7e37583c",
-            "event_locator": "dvb://233a..8380;c12",
+            "program_id": "crid://csi.digitaluk.co.uk/133dad87-d416-4ef7-89ce-34c105d5cc16",
+            "event_locator": "dvb://233a..8380;c11",
             "main_title": "Layl",
             "start_time": "2026-01-12T09:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e6794326c4547a0762dbf55c4a2526823",
-            "uuid": "a9c4dfb053f9399935347cc3f6231014"
+            "uuid": "6ec783309bafc20423a8cc6a51977624"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/562948fa-8eb4-411a-a98b-be455f89941f",
-            "event_locator": "dvb://233a..8380;c13",
+            "program_id": "crid://csi.digitaluk.co.uk/99751231-7519-42e3-993a-3fec7e37583c",
+            "event_locator": "dvb://233a..8380;c12",
             "main_title": "Meyra Wa Selim",
             "start_time": "2026-01-12T09:30:00+0000",
             "duration": "PT25M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e74bb1c8bdf050b8d9bfe49cff9652621",
-            "uuid": "4b6430778af3b3a91388a09dd5b1431d"
+            "uuid": "1916fb23a69e900041faae53cf5856a1"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/6a11bf60-708e-4fa7-b596-a4493465dbca",
-            "event_locator": "dvb://233a..8380;c14",
+            "program_id": "crid://csi.digitaluk.co.uk/562948fa-8eb4-411a-a98b-be455f89941f",
+            "event_locator": "dvb://233a..8380;c13",
             "main_title": "Meyra Wa Selim",
             "start_time": "2026-01-12T09:55:00+0000",
             "duration": "PT5M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e74bb1c8bdf050b8d9bfe49cff9652621",
-            "uuid": "a4f00fcfc9d46dd6e48d71be7f166b83"
+            "uuid": "4f6698c269fdc05af92fc95e8368c7c2"
+          },
+          {
+            "program_id": "crid://csi.digitaluk.co.uk/6a11bf60-708e-4fa7-b596-a4493465dbca",
+            "event_locator": "dvb://233a..8380;c14",
+            "main_title": "Sikkat Safar",
+            "start_time": "2026-01-12T10:00:00+0000",
+            "duration": "PT23M",
+            "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+            "fallback_image_url": "http://img.freeviewplay.net/e2603f340db1f1ce5ab5e3ab4ca72bc47",
+            "uuid": "6b86f2b542b2569f7d72637f02ab2094"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/d82141ec-60bd-416a-87cd-d2858a7f7d3b",
             "event_locator": "dvb://233a..8380;c15",
             "main_title": "Al Marsa",
-            "start_time": "2026-01-12T10:00:00+0000",
-            "duration": "PT30M",
+            "start_time": "2026-01-12T10:23:00+0000",
+            "duration": "PT7M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/eb283f9f62d7ee4cc54d19dbc97cbf3d4",
-            "uuid": "5380a3ee17a100316783779f7f713c4e"
+            "uuid": "fcd7a08a42ce2213155833f9dd1928ba"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/e060cf06-7e85-4886-b138-224fbfcbd162",
@@ -45638,11 +45648,11 @@
           {
             "program_id": "crid://csi.digitaluk.co.uk/6d74c9fa-1958-4d04-bbe2-48f7a14d5e63",
             "event_locator": "dvb://233a..8380;c21",
-            "main_title": "Sabah Al Khair Ya Arab",
+            "main_title": "Al Marsa",
             "start_time": "2026-01-12T15:00:00+0000",
             "duration": "PT45M19S",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-            "fallback_image_url": "http://img.freeviewplay.net/e88662e19faf66162dcd8acdf43df0f47",
+            "fallback_image_url": "http://img.freeviewplay.net/eb283f9f62d7ee4cc54d19dbc97cbf3d4",
             "uuid": "d056c62c577f33140df255a425ddf11a"
           },
           {
@@ -50676,14 +50686,14 @@
             "uuid": "f009a772b30dd1817cfa9c91bc911f2a"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/4d577203-8985-41b7-8bb2-7f4dbb5c59b1",
+            "program_id": "crid://csi.digitaluk.co.uk/94403aaa-fb61-4431-920d-9c8283f2429f",
             "event_locator": "dvb://233a..9222;7029",
             "main_title": "Anne-Marie Wallace",
             "start_time": "2026-01-12T18:05:00+0000",
             "duration": "PT1H25M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/f3fe3907ef706bb783749df76d58e5781",
-            "uuid": "f198b5fbf54f39bd686f5c016ee52dfd"
+            "uuid": "b3ffdb4d2933ce4aa6f021acbf646a5d"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/a676875e-7094-4d3e-b509-b7f39d9b40aa",
@@ -50902,14 +50912,14 @@
             "uuid": "ffff0701e715efdbac635df7db978966"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/fc2a230b-d706-477f-844a-5cd76d4f4a1b",
+            "program_id": "crid://csi.digitaluk.co.uk/db82a527-4ca2-4d5b-83b3-0f98fc2d0a86",
             "event_locator": "dvb://233a..9223;391",
             "main_title": "Anne-Marie Wallace",
             "start_time": "2026-01-12T18:05:00+0000",
             "duration": "PT1H25M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/f74eadd31f5f44fd042aa1dcce9a9b3d0",
-            "uuid": "3d33a743f081347ff7283079339c61cd"
+            "uuid": "b5de98f811ebf809557994489be11bbe"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/76025c81-63d0-49d0-a7a4-2ff439476ee7",
@@ -53866,7 +53876,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -54020,7 +54030,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -54086,8 +54096,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -54412,7 +54422,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -54566,7 +54576,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -54632,8 +54642,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -54958,7 +54968,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -55112,7 +55122,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -55178,8 +55188,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -55504,7 +55514,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -55658,7 +55668,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -55724,8 +55734,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -56050,7 +56060,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -56204,7 +56214,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -56270,8 +56280,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -56596,7 +56606,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -56750,7 +56760,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -56816,8 +56826,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -57142,7 +57152,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -57296,7 +57306,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -57362,8 +57372,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -57688,7 +57698,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -57842,7 +57852,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -57908,8 +57918,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -58234,7 +58244,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -58388,7 +58398,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -58454,8 +58464,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -58780,7 +58790,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -58934,7 +58944,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -59000,8 +59010,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -59326,7 +59336,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -59480,7 +59490,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -59546,8 +59556,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -59872,7 +59882,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -60026,7 +60036,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -60092,8 +60102,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -60440,7 +60450,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -60594,7 +60604,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -60660,8 +60670,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -60986,7 +60996,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -61140,7 +61150,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -61532,7 +61542,7 @@
             "start_time": "2026-01-12T12:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T13:00:02+0000",
+              "start_of_availability": "2026-01-12T13:00:01+0000",
               "end_of_availability": "2027-04-20T11:58:33+0000",
               "player_links": {
                 "tv": {
@@ -61686,7 +61696,7 @@
             "start_time": "2026-01-12T17:15:00+0000",
             "duration": "PT45M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T18:00:04+0000",
+              "start_of_availability": "2026-01-12T18:00:01+0000",
               "end_of_availability": "2027-01-16T17:59:59+0000",
               "player_links": {
                 "tv": {
@@ -61752,8 +61762,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -62178,8 +62188,8 @@
             "start_time": "2026-01-12T19:00:00+0000",
             "duration": "PT30M",
             "on_demand": {
-              "start_of_availability": "2026-01-12T19:30:00+0000",
-              "end_of_availability": "2026-02-11T19:30:00+0000",
+              "start_of_availability": "2026-01-12T19:29:59+0000",
+              "end_of_availability": "2026-02-11T19:29:59+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002pvf5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
