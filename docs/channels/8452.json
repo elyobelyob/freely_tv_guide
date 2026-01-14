@@ -19,6 +19,16 @@
         "image_url": "https://img.freeviewplay.tv/pca4783b35077b3e5e8545ea058a63516",
         "start_time": "2026-01-14T00:00:00+0000",
         "duration": "PT1H5M",
+        "on_demand": {
+          "start_of_availability": "2026-01-06T22:15:00+0000",
+          "end_of_availability": "2026-02-05T22:15:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=catching-a-killer&programme=67116-004",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "uuid": "17f994f0341b7a538847a5b5a724b0a7"
       }
@@ -56,6 +66,16 @@
         "image_url": "https://img.freeviewplay.tv/pc24b9c7d9356aa82066b651e10455dbd",
         "start_time": "2026-01-14T01:50:00+0000",
         "duration": "PT55M",
+        "on_demand": {
+          "start_of_availability": "2026-01-03T21:00:00+0000",
+          "end_of_availability": "2026-02-02T21:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=taskmaster-s-new-year-treat&programme=77220-002",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
         "uuid": "73c007a668a75d78cd0eaf3f8400ecd5"
       }
@@ -165,6 +185,16 @@
         "image_url": "https://img.freeviewplay.tv/p702a494c8f4516cd6a0ff33f62ef8203",
         "start_time": "2026-01-14T06:45:00+0000",
         "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2026-01-13T15:00:00+0000",
+          "end_of_availability": "2027-01-13T15:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-197",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
         "fallback_image_url": "http://img.freeviewplay.net/e726bcead7a12f20a3ab50c0d3c8a2b6a",
         "uuid": "fa102679b1225af69a9193af873953f6"
@@ -257,6 +287,7 @@
         "start_time": "2026-01-14T09:15:00+0000",
         "duration": "PT25M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/eb8186ea5843145a22b5e6548b67d8557",
         "uuid": "234cbaa2ef543c2e37309c25e0458054"
       }
     },
@@ -275,6 +306,7 @@
         "start_time": "2026-01-14T09:40:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/eb8186ea5843145a22b5e6548b67d8557",
         "uuid": "db11b2c0c462a0a1365cbeef27f97c57"
       }
     },
@@ -365,6 +397,16 @@
         "image_url": "https://img.freeviewplay.tv/p15e906c3547bc97c0e6dc80672d4b967",
         "start_time": "2026-01-14T12:10:00+0000",
         "duration": "PT55M",
+        "on_demand": {
+          "start_of_availability": "2026-01-14T12:05:00+0000",
+          "end_of_availability": "2026-02-19T12:05:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=american-pickers&programme=78129-008",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
         "uuid": "7129efdc5fc769a44b405feb3f9ff388"
       }
@@ -372,19 +414,30 @@
     {
       "startTime": "2026-01-14T13:05:00+0000",
       "duration": 5,
-      "name": "Channel 4 News Summary",
-      "description": "",
+      "name": "Channel 4 News",
+      "description": "20265623. Wed 14 Jan Midday News",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.enh.digitaluk.co.uk/a7143612-16fa-4d96-a8fc-11913ee432be",
+        "program_id": "crid://movida.bebanjo.net/mas/version/79199/009/ASDELIVERED/C",
         "event_locator": "dvb://233a..2104;7d2",
-        "main_title": "Channel 4 News Summary",
-        "image_url": "https://img.freeviewplay.tv/pca71744c7bcc75a00326b7c7cabd743c",
+        "main_title": "Channel 4 News",
+        "secondary_title": "20265623. Wed 14 Jan Midday News",
+        "image_url": "https://img.freeviewplay.tv/pd39c5d7302891c501943b4960f4bf9ac",
         "start_time": "2026-01-14T13:05:00+0000",
         "duration": "PT5M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "19f2ab9ea19a237a46312661ee90c245"
+        "on_demand": {
+          "start_of_availability": "2026-01-14T12:10:00+0000",
+          "end_of_availability": "2026-01-15T12:10:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=79199-009",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+        "uuid": "c0f233783b5d25ce78ade96ab1eb836e"
       }
     },
     {
@@ -438,6 +491,16 @@
         "image_url": "https://img.freeviewplay.tv/p2e8525ef513529e1d4b60f50ff79693f",
         "start_time": "2026-01-14T15:10:00+0000",
         "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2026-01-14T15:00:00+0000",
+          "end_of_availability": "2027-01-14T15:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-198",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
         "fallback_image_url": "http://img.freeviewplay.net/e726bcead7a12f20a3ab50c0d3c8a2b6a",
         "uuid": "de0f61912c54a0df4263552feccd8e3e"
@@ -476,6 +539,16 @@
         "image_url": "https://img.freeviewplay.tv/pb14a38f98015e7b28d053c02bfc6e57d",
         "start_time": "2026-01-14T17:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-01-14T17:00:00+0000",
+          "end_of_availability": "2026-03-01T17:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=a-new-life-in-the-sun&programme=76993-008",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
         "uuid": "a687796201736bfed12576cc334ab871"
       }
@@ -495,6 +568,16 @@
         "image_url": "https://img.freeviewplay.tv/pd53e0595149c8a4a7ea9bc261ebbdebb",
         "start_time": "2026-01-14T18:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-01-14T18:00:00+0000",
+          "end_of_availability": "2026-02-22T18:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=junior-bake-off&programme=77796-008",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "0b535925bbda4ce00b12c7e7ea62d9af"
       }
@@ -514,6 +597,16 @@
         "image_url": "https://img.freeviewplay.tv/pa2563d293781c080bb3ac2dc849372d9",
         "start_time": "2026-01-14T19:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-01-14T19:00:00+0000",
+          "end_of_availability": "2026-02-13T19:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=a-place-in-the-sun&programme=72018-103",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
         "uuid": "5061bf8424e726d15804a15232180da6"
       }
@@ -522,36 +615,58 @@
       "startTime": "2026-01-14T20:00:00+0000",
       "duration": 60,
       "name": "Channel 4 News",
-      "description": "",
+      "description": "21273128. Wed 14 Jan 2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.enh.digitaluk.co.uk/64cc6849-91de-4c8e-84de-2078900ed33e",
+        "program_id": "crid://movida.bebanjo.net/mas/version/76009/014/ASDELIVERED/C",
         "event_locator": "dvb://233a..2104;7da",
         "main_title": "Channel 4 News",
-        "image_url": "https://img.freeviewplay.tv/e5da142eb57a0ee7a538e2c2d68e04679",
+        "secondary_title": "21273128. Wed 14 Jan 2026",
+        "image_url": "https://img.freeviewplay.tv/p81f7ea73d873844f4a7d27b18e905a18",
         "start_time": "2026-01-14T20:00:00+0000",
         "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "3939fada675dd55f107c71d28a8c6b63"
+        "on_demand": {
+          "start_of_availability": "2026-01-14T20:00:00+0000",
+          "end_of_availability": "2026-01-15T20:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=76009-014",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+        "uuid": "40da67e0ddebf8667dc27916d14a0aee"
       }
     },
     {
       "startTime": "2026-01-14T21:00:00+0000",
       "duration": 60,
-      "name": "New: Kirstie and Phil's Love It...",
-      "description": "",
+      "name": "Kirstie and Phil's Love It or List It",
+      "description": "Series 11 Episode 2: St Osyth, Essex",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/7e089fe4-974c-4908-ab91-42bae6c7b088",
+        "program_id": "crid://movida.bebanjo.net/mas/version/75732/008/ASDELIVERED/C",
         "event_locator": "dvb://233a..2104;7db",
-        "main_title": "New: Kirstie and Phil's Love It...",
-        "image_url": "https://img.freeviewplay.tv/efe527d8bf420ba304195b8a8d137d7d1",
+        "main_title": "Kirstie and Phil's Love It or List It",
+        "secondary_title": "Series 11 Episode 2: St Osyth, Essex",
+        "image_url": "https://img.freeviewplay.tv/p80dc85441a4afa08ab0fee765d046d14",
         "start_time": "2026-01-14T21:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-01-14T21:00:00+0000",
+          "end_of_availability": "2026-02-13T21:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=kirstie-and-phil-s-love-it-or-list-it&programme=75732-008",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "uuid": "206d4c9aee064a332cccafb8330506fc"
+        "uuid": "1c9e7c22121e161498b6d3a5e5f63565"
       }
     },
     {
@@ -610,6 +725,16 @@
               "image_url": "https://img.freeviewplay.tv/pca4783b35077b3e5e8545ea058a63516",
               "start_time": "2026-01-14T00:00:00+0000",
               "duration": "PT1H5M",
+              "on_demand": {
+                "start_of_availability": "2026-01-06T22:15:00+0000",
+                "end_of_availability": "2026-02-05T22:15:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=catching-a-killer&programme=67116-004",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "uuid": "17f994f0341b7a538847a5b5a724b0a7"
             }
@@ -647,6 +772,16 @@
               "image_url": "https://img.freeviewplay.tv/pc24b9c7d9356aa82066b651e10455dbd",
               "start_time": "2026-01-14T01:50:00+0000",
               "duration": "PT55M",
+              "on_demand": {
+                "start_of_availability": "2026-01-03T21:00:00+0000",
+                "end_of_availability": "2026-02-02T21:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=taskmaster-s-new-year-treat&programme=77220-002",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
               "uuid": "73c007a668a75d78cd0eaf3f8400ecd5"
             }
@@ -756,6 +891,16 @@
               "image_url": "https://img.freeviewplay.tv/p702a494c8f4516cd6a0ff33f62ef8203",
               "start_time": "2026-01-14T06:45:00+0000",
               "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2026-01-13T15:00:00+0000",
+                "end_of_availability": "2027-01-13T15:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-197",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
               "fallback_image_url": "http://img.freeviewplay.net/e726bcead7a12f20a3ab50c0d3c8a2b6a",
               "uuid": "fa102679b1225af69a9193af873953f6"
@@ -848,6 +993,7 @@
               "start_time": "2026-01-14T09:15:00+0000",
               "duration": "PT25M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/eb8186ea5843145a22b5e6548b67d8557",
               "uuid": "234cbaa2ef543c2e37309c25e0458054"
             }
           },
@@ -866,6 +1012,7 @@
               "start_time": "2026-01-14T09:40:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/eb8186ea5843145a22b5e6548b67d8557",
               "uuid": "db11b2c0c462a0a1365cbeef27f97c57"
             }
           },
@@ -956,6 +1103,16 @@
               "image_url": "https://img.freeviewplay.tv/p15e906c3547bc97c0e6dc80672d4b967",
               "start_time": "2026-01-14T12:10:00+0000",
               "duration": "PT55M",
+              "on_demand": {
+                "start_of_availability": "2026-01-14T12:05:00+0000",
+                "end_of_availability": "2026-02-19T12:05:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=american-pickers&programme=78129-008",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
               "uuid": "7129efdc5fc769a44b405feb3f9ff388"
             }
@@ -963,19 +1120,30 @@
           {
             "startTime": "2026-01-14T13:05:00+0000",
             "duration": 5,
-            "name": "Channel 4 News Summary",
-            "description": "",
+            "name": "Channel 4 News",
+            "description": "20265623. Wed 14 Jan Midday News",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.enh.digitaluk.co.uk/a7143612-16fa-4d96-a8fc-11913ee432be",
+              "program_id": "crid://movida.bebanjo.net/mas/version/79199/009/ASDELIVERED/C",
               "event_locator": "dvb://233a..2104;7d2",
-              "main_title": "Channel 4 News Summary",
-              "image_url": "https://img.freeviewplay.tv/pca71744c7bcc75a00326b7c7cabd743c",
+              "main_title": "Channel 4 News",
+              "secondary_title": "20265623. Wed 14 Jan Midday News",
+              "image_url": "https://img.freeviewplay.tv/pd39c5d7302891c501943b4960f4bf9ac",
               "start_time": "2026-01-14T13:05:00+0000",
               "duration": "PT5M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "19f2ab9ea19a237a46312661ee90c245"
+              "on_demand": {
+                "start_of_availability": "2026-01-14T12:10:00+0000",
+                "end_of_availability": "2026-01-15T12:10:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=79199-009",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+              "uuid": "c0f233783b5d25ce78ade96ab1eb836e"
             }
           },
           {
@@ -1029,6 +1197,16 @@
               "image_url": "https://img.freeviewplay.tv/p2e8525ef513529e1d4b60f50ff79693f",
               "start_time": "2026-01-14T15:10:00+0000",
               "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2026-01-14T15:00:00+0000",
+                "end_of_availability": "2027-01-14T15:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-198",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
               "fallback_image_url": "http://img.freeviewplay.net/e726bcead7a12f20a3ab50c0d3c8a2b6a",
               "uuid": "de0f61912c54a0df4263552feccd8e3e"
@@ -1067,6 +1245,16 @@
               "image_url": "https://img.freeviewplay.tv/pb14a38f98015e7b28d053c02bfc6e57d",
               "start_time": "2026-01-14T17:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-01-14T17:00:00+0000",
+                "end_of_availability": "2026-03-01T17:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=a-new-life-in-the-sun&programme=76993-008",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
               "uuid": "a687796201736bfed12576cc334ab871"
             }
@@ -1086,6 +1274,16 @@
               "image_url": "https://img.freeviewplay.tv/pd53e0595149c8a4a7ea9bc261ebbdebb",
               "start_time": "2026-01-14T18:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-01-14T18:00:00+0000",
+                "end_of_availability": "2026-02-22T18:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=junior-bake-off&programme=77796-008",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "0b535925bbda4ce00b12c7e7ea62d9af"
             }
@@ -1105,6 +1303,16 @@
               "image_url": "https://img.freeviewplay.tv/pa2563d293781c080bb3ac2dc849372d9",
               "start_time": "2026-01-14T19:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-01-14T19:00:00+0000",
+                "end_of_availability": "2026-02-13T19:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=a-place-in-the-sun&programme=72018-103",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
               "uuid": "5061bf8424e726d15804a15232180da6"
             }
@@ -1113,36 +1321,58 @@
             "startTime": "2026-01-14T20:00:00+0000",
             "duration": 60,
             "name": "Channel 4 News",
-            "description": "",
+            "description": "21273128. Wed 14 Jan 2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.enh.digitaluk.co.uk/64cc6849-91de-4c8e-84de-2078900ed33e",
+              "program_id": "crid://movida.bebanjo.net/mas/version/76009/014/ASDELIVERED/C",
               "event_locator": "dvb://233a..2104;7da",
               "main_title": "Channel 4 News",
-              "image_url": "https://img.freeviewplay.tv/e5da142eb57a0ee7a538e2c2d68e04679",
+              "secondary_title": "21273128. Wed 14 Jan 2026",
+              "image_url": "https://img.freeviewplay.tv/p81f7ea73d873844f4a7d27b18e905a18",
               "start_time": "2026-01-14T20:00:00+0000",
               "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "3939fada675dd55f107c71d28a8c6b63"
+              "on_demand": {
+                "start_of_availability": "2026-01-14T20:00:00+0000",
+                "end_of_availability": "2026-01-15T20:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=76009-014",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+              "uuid": "40da67e0ddebf8667dc27916d14a0aee"
             }
           },
           {
             "startTime": "2026-01-14T21:00:00+0000",
             "duration": 60,
-            "name": "New: Kirstie and Phil's Love It...",
-            "description": "",
+            "name": "Kirstie and Phil's Love It or List It",
+            "description": "Series 11 Episode 2: St Osyth, Essex",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/7e089fe4-974c-4908-ab91-42bae6c7b088",
+              "program_id": "crid://movida.bebanjo.net/mas/version/75732/008/ASDELIVERED/C",
               "event_locator": "dvb://233a..2104;7db",
-              "main_title": "New: Kirstie and Phil's Love It...",
-              "image_url": "https://img.freeviewplay.tv/efe527d8bf420ba304195b8a8d137d7d1",
+              "main_title": "Kirstie and Phil's Love It or List It",
+              "secondary_title": "Series 11 Episode 2: St Osyth, Essex",
+              "image_url": "https://img.freeviewplay.tv/p80dc85441a4afa08ab0fee765d046d14",
               "start_time": "2026-01-14T21:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-01-14T21:00:00+0000",
+                "end_of_availability": "2026-02-13T21:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=kirstie-and-phil-s-love-it-or-list-it&programme=75732-008",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "uuid": "206d4c9aee064a332cccafb8330506fc"
+              "uuid": "1c9e7c22121e161498b6d3a5e5f63565"
             }
           },
           {
