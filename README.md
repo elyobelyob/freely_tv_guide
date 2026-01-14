@@ -241,7 +241,6 @@ layout_options:
 | 16170 | GIGS | [channels/16170.json](https://elyobelyob.github.io/freely_tv_guide/channels/16170.json) |
 | 39201 | Gemporia | [channels/39201.json](https://elyobelyob.github.io/freely_tv_guide/channels/39201.json) |
 | 16286 | Global Arabic + | [channels/16286.json](https://elyobelyob.github.io/freely_tv_guide/channels/16286.json) |
-| 16256 | God TV | [channels/16256.json](https://elyobelyob.github.io/freely_tv_guide/channels/16256.json) |
 | 15576 | Great! Action | [channels/15576.json](https://elyobelyob.github.io/freely_tv_guide/channels/15576.json) |
 | 15584 | Great! Movies | [channels/15584.json](https://elyobelyob.github.io/freely_tv_guide/channels/15584.json) |
 | 27872 | Great! Mystery | [channels/27872.json](https://elyobelyob.github.io/freely_tv_guide/channels/27872.json) |
@@ -249,7 +248,6 @@ layout_options:
 | 27296 | Great! Romance | [channels/27296.json](https://elyobelyob.github.io/freely_tv_guide/channels/27296.json) |
 | 28384 | Great! Romance Mix | [channels/28384.json](https://elyobelyob.github.io/freely_tv_guide/channels/28384.json) |
 | 27168 | Great! TV | [channels/27168.json](https://elyobelyob.github.io/freely_tv_guide/channels/27168.json) |
-| 28000 | HGTV | [channels/28000.json](https://elyobelyob.github.io/freely_tv_guide/channels/28000.json) |
 | 22656 | Heart | [channels/22656.json](https://elyobelyob.github.io/freely_tv_guide/channels/22656.json) |
 | 34176 | High Street TV | [channels/34176.json](https://elyobelyob.github.io/freely_tv_guide/channels/34176.json) |
 | 39203 | HobbyMaker | [channels/39203.json](https://elyobelyob.github.io/freely_tv_guide/channels/39203.json) |
@@ -264,7 +262,6 @@ layout_options:
 | 37654 | ITV4 | [channels/37654.json](https://elyobelyob.github.io/freely_tv_guide/channels/37654.json) |
 | 15920 | ITV4+1 | [channels/15920.json](https://elyobelyob.github.io/freely_tv_guide/channels/15920.json) |
 | 25920 | Ideal World | [channels/25920.json](https://elyobelyob.github.io/freely_tv_guide/channels/25920.json) |
-| 33280 | India Today | [channels/33280.json](https://elyobelyob.github.io/freely_tv_guide/channels/33280.json) |
 | 33984 | It Is Written TV | [channels/33984.json](https://elyobelyob.github.io/freely_tv_guide/channels/33984.json) |
 | 39202 | Jewellery Maker | [channels/39202.json](https://elyobelyob.github.io/freely_tv_guide/channels/39202.json) |
 | 16200 | Ketchup TV | [channels/16200.json](https://elyobelyob.github.io/freely_tv_guide/channels/16200.json) |
@@ -311,6 +308,8 @@ layout_options:
 | 15016 | Sonlife | [channels/15016.json](https://elyobelyob.github.io/freely_tv_guide/channels/15016.json) |
 | 20160 | TBN UK | [channels/20160.json](https://elyobelyob.github.io/freely_tv_guide/channels/20160.json) |
 | 15592 | TJC | [channels/15592.json](https://elyobelyob.github.io/freely_tv_guide/channels/15592.json) |
+| 28000 | TLC | [channels/28000.json](https://elyobelyob.github.io/freely_tv_guide/channels/28000.json) |
+| 34688 | TLC+1 | [channels/34688.json](https://elyobelyob.github.io/freely_tv_guide/channels/34688.json) |
 | 14448 | TRUE CRIME | [channels/14448.json](https://elyobelyob.github.io/freely_tv_guide/channels/14448.json) |
 | 14456 | TRUE CRIME XTRA | [channels/14456.json](https://elyobelyob.github.io/freely_tv_guide/channels/14456.json) |
 | 16406 | Talk | [channels/16406.json](https://elyobelyob.github.io/freely_tv_guide/channels/16406.json) |
@@ -328,11 +327,10 @@ layout_options:
 | 27392 | Together TV+1 | [channels/27392.json](https://elyobelyob.github.io/freely_tv_guide/channels/27392.json) |
 | 16188 | Trailblazer | [channels/16188.json](https://elyobelyob.github.io/freely_tv_guide/channels/16188.json) |
 | 22272 | U&Dave | [channels/22272.json](https://elyobelyob.github.io/freely_tv_guide/channels/22272.json) |
-| 13008 | U&DaveJaVu | [channels/13008.json](https://elyobelyob.github.io/freely_tv_guide/channels/13008.json) |
+| 34624 | U&DaveJaVu | [channels/34624.json](https://elyobelyob.github.io/freely_tv_guide/channels/34624.json) |
 | 16208 | U&Drama | [channels/16208.json](https://elyobelyob.github.io/freely_tv_guide/channels/16208.json) |
 | 22336 | U&Drama+1 | [channels/22336.json](https://elyobelyob.github.io/freely_tv_guide/channels/22336.json) |
 | 19968 | U&Eden | [channels/19968.json](https://elyobelyob.github.io/freely_tv_guide/channels/19968.json) |
-| 28096 | U&W | [channels/28096.json](https://elyobelyob.github.io/freely_tv_guide/channels/28096.json) |
 | 25792 | U&Yesterday | [channels/25792.json](https://elyobelyob.github.io/freely_tv_guide/channels/25792.json) |
 | 14464 | WildEarth | [channels/14464.json](https://elyobelyob.github.io/freely_tv_guide/channels/14464.json) |
 | 34368 | YAAAS! | [channels/34368.json](https://elyobelyob.github.io/freely_tv_guide/channels/34368.json) |
