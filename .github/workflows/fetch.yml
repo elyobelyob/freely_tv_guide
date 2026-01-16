@@ -506,5 +506,10 @@ jobs:
             echo "No changes"
           else
             git commit -m "Update EPG: start=${{ steps.when.outputs.start }}"
+            git pull --rebase origin main || {
+              echo "Rebase failed, aborting and exiting"
+              git rebase --abort
+              exit 1
+            }
             git push
           fi
