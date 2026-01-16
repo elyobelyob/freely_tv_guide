@@ -510,32 +510,39 @@ jobs:
             # Retry logic to handle concurrent pushes
             max_attempts=5
             attempt=1
+            success=false
+            
             while [ $attempt -le $max_attempts ]; do
               echo "Attempt $attempt/$max_attempts: Pulling and pushing..."
               
-              git pull --rebase origin main || {
+              # Pull and rebase
+              if ! git pull --rebase origin main; then
                 echo "Rebase failed on attempt $attempt"
                 git rebase --abort
-                if [ $attempt -eq $max_attempts ]; then
+                attempt=$((attempt + 1))
+                if [ $attempt -le $max_attempts ]; then
+                  sleep 2
+                  continue
+                else
                   echo "Max attempts reached, exiting"
                   exit 1
                 fi
-                attempt=$((attempt + 1))
-                sleep 2
-                continue
-              }
+              fi
               
+              # Push
               if git push; then
                 echo "Push succeeded on attempt $attempt"
+                success=true
                 break
               else
                 echo "Push failed on attempt $attempt"
-                if [ $attempt -eq $max_attempts ]; then
+                attempt=$((attempt + 1))
+                if [ $attempt -le $max_attempts ]; then
+                  sleep 2
+                else
                   echo "Max attempts reached, exiting"
                   exit 1
                 fi
-                attempt=$((attempt + 1))
-                sleep 2
               fi
             done
           fi
