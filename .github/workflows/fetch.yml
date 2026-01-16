@@ -506,10 +506,36 @@ jobs:
             echo "No changes"
           else
             git commit -m "Update EPG: start=${{ steps.when.outputs.start }}"
-            git pull --rebase origin main || {
-              echo "Rebase failed, aborting and exiting"
-              git rebase --abort
-              exit 1
-            }
-            git push
+            
+            # Retry logic to handle concurrent pushes
+            max_attempts=5
+            attempt=1
+            while [ $attempt -le $max_attempts ]; do
+              echo "Attempt $attempt/$max_attempts: Pulling and pushing..."
+              
+              git pull --rebase origin main || {
+                echo "Rebase failed on attempt $attempt"
+                git rebase --abort
+                if [ $attempt -eq $max_attempts ]; then
+                  echo "Max attempts reached, exiting"
+                  exit 1
+                fi
+                attempt=$((attempt + 1))
+                sleep 2
+                continue
+              }
+              
+              if git push; then
+                echo "Push succeeded on attempt $attempt"
+                break
+              else
+                echo "Push failed on attempt $attempt"
+                if [ $attempt -eq $max_attempts ]; then
+                  echo "Max attempts reached, exiting"
+                  exit 1
+                fi
+                attempt=$((attempt + 1))
+                sleep 2
+              fi
+            done
           fi
