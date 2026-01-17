@@ -440,18 +440,29 @@
       "startTime": "2026-01-17T15:00:00+0000",
       "duration": 30,
       "name": "Facing Evil",
-      "description": "",
+      "description": "Series 02: 1. Celeste Beard Johnson",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/2d0c97f9-dafa-472c-ad10-aee7a65174de",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/facingevil-02-01/47908694",
         "event_locator": "dvb://233a..3878;42d4",
         "main_title": "Facing Evil",
-        "image_url": "https://img.freeviewplay.tv/e0aa49c934eae45c58041b42ad68dfed3",
+        "secondary_title": "Series 02: 1. Celeste Beard Johnson",
+        "image_url": "https://img.freeviewplay.tv/pa1bb21b47b9a7e73a52ab7e9e4cce001",
         "start_time": "2026-01-17T15:00:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "cc99655450208a39c1fdc3803f5216ff"
+        "on_demand": {
+          "start_of_availability": "2026-01-17T15:00:00+0000",
+          "end_of_availability": "2026-02-16T15:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=47908694&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "64c5844aec8cec2052169810cdbe34d3"
       }
     },
     {
@@ -1219,18 +1230,29 @@
             "startTime": "2026-01-17T15:00:00+0000",
             "duration": 30,
             "name": "Facing Evil",
-            "description": "",
+            "description": "Series 02: 1. Celeste Beard Johnson",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/2d0c97f9-dafa-472c-ad10-aee7a65174de",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/facingevil-02-01/47908694",
               "event_locator": "dvb://233a..3878;42d4",
               "main_title": "Facing Evil",
-              "image_url": "https://img.freeviewplay.tv/e0aa49c934eae45c58041b42ad68dfed3",
+              "secondary_title": "Series 02: 1. Celeste Beard Johnson",
+              "image_url": "https://img.freeviewplay.tv/pa1bb21b47b9a7e73a52ab7e9e4cce001",
               "start_time": "2026-01-17T15:00:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "cc99655450208a39c1fdc3803f5216ff"
+              "on_demand": {
+                "start_of_availability": "2026-01-17T15:00:00+0000",
+                "end_of_availability": "2026-02-16T15:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=47908694&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "64c5844aec8cec2052169810cdbe34d3"
             }
           },
           {
