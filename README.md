@@ -331,6 +331,7 @@ layout_options:
 | 16208 | U&Drama | [channels/16208.json](https://elyobelyob.github.io/freely_tv_guide/channels/16208.json) |
 | 22336 | U&Drama+1 | [channels/22336.json](https://elyobelyob.github.io/freely_tv_guide/channels/22336.json) |
 | 19968 | U&Eden | [channels/19968.json](https://elyobelyob.github.io/freely_tv_guide/channels/19968.json) |
+| 12298 | U&W | [channels/12298.json](https://elyobelyob.github.io/freely_tv_guide/channels/12298.json) |
 | 25792 | U&Yesterday | [channels/25792.json](https://elyobelyob.github.io/freely_tv_guide/channels/25792.json) |
 | 14464 | WildEarth | [channels/14464.json](https://elyobelyob.github.io/freely_tv_guide/channels/14464.json) |
 | 34368 | YAAAS! | [channels/34368.json](https://elyobelyob.github.io/freely_tv_guide/channels/34368.json) |
