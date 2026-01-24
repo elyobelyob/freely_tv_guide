@@ -5,147 +5,435 @@
   },
   "events": [
     {
-      "startTime": "2026-01-23T00:00:00+0000",
-      "duration": 180,
+      "startTime": "2026-01-24T00:00:00+0000",
+      "duration": 60,
+      "name": "INWILD: Available Here",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/1584f8a5-16cf-47e6-bfa8-79764f3932a5",
+        "event_locator": "dvb://233a..3ad8;a878",
+        "main_title": "INWILD: Available Here",
+        "start_time": "2026-01-24T00:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/ed17df36b0c6dad493ac3cb04a1d8aafa",
+        "uuid": "5e3fabf5f42af63007dfacb7aafa87f6"
+      }
+    },
+    {
+      "startTime": "2026-01-24T01:00:00+0000",
+      "duration": 60,
+      "name": "Def Jam's Greatest Hip Hop Tracks",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/cf72a2e0-c13e-46fa-ad01-6e94a2f4233e",
+        "event_locator": "dvb://233a..3ad8;a879",
+        "main_title": "Def Jam's Greatest Hip Hop Tracks",
+        "start_time": "2026-01-24T01:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e63377ff717f09c5b255bb0ccb340907b",
+        "uuid": "cd2bbe165765c638c229031c31b9fea9"
+      }
+    },
+    {
+      "startTime": "2026-01-24T02:00:00+0000",
+      "duration": 60,
+      "name": "INTRAVEL: Watch Here Now",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/2ad81299-c15c-4d94-81c7-4eb882a93d70",
+        "event_locator": "dvb://233a..3ad8;a87a",
+        "main_title": "INTRAVEL: Watch Here Now",
+        "start_time": "2026-01-24T02:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e8cb6983605a00816d4529a16a92aeeed",
+        "uuid": "d103807eba30404b38d54a68bb291c15"
+      }
+    },
+    {
+      "startTime": "2026-01-24T03:00:00+0000",
+      "duration": 60,
+      "name": "Crimeflix: Stream Now",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/2c62d62f-b2e7-49e7-a4ce-969368029b33",
+        "event_locator": "dvb://233a..3ad8;a87b",
+        "main_title": "Crimeflix: Stream Now",
+        "start_time": "2026-01-24T03:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/eed203135de0e79e8bebc26883adf6c85",
+        "uuid": "d59d95b26a3f26e253d4c2fc081ec7ba"
+      }
+    },
+    {
+      "startTime": "2026-01-24T04:00:00+0000",
+      "duration": 60,
+      "name": "INFAST: Available Now",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/b0b941d7-63f3-42c5-8d0c-fd9bc9e8f2de",
+        "event_locator": "dvb://233a..3ad8;a87c",
+        "main_title": "INFAST: Available Now",
+        "start_time": "2026-01-24T04:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e294a361ff5579b44094a77652fccd960",
+        "uuid": "cc9034c7d828c89f60e73ce26aad02c2"
+      }
+    },
+    {
+      "startTime": "2026-01-24T05:00:00+0000",
+      "duration": 60,
+      "name": "INTROUBLE: Watch Here",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/15f0e3e9-dda4-4f13-8d2b-3bef1b786fb9",
+        "event_locator": "dvb://233a..3ad8;a87d",
+        "main_title": "INTROUBLE: Watch Here",
+        "start_time": "2026-01-24T05:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/ea5da64df9be876a8e5fea9ceedf623f2",
+        "uuid": "774f22e3e4b984ce8f8dadb6fa2fbc2f"
+      }
+    },
+    {
+      "startTime": "2026-01-24T06:00:00+0000",
+      "duration": 60,
+      "name": "Chat Show Channel: Watch Free Now",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/80170021-314b-4f55-8078-4e11b7b3dfd2",
+        "event_locator": "dvb://233a..3ad8;a88f",
+        "main_title": "Chat Show Channel: Watch Free Now",
+        "start_time": "2026-01-24T06:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e93cbde0f690e3322bc446d2ba7173921",
+        "uuid": "a5f31e27522e619343fb972bf02874f5"
+      }
+    },
+    {
+      "startTime": "2026-01-24T07:00:00+0000",
+      "duration": 60,
+      "name": "History Hunters: Channel...",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/91f2ce1e-fe3f-45af-8668-91334c7bd0b7",
+        "event_locator": "dvb://233a..3ad8;a890",
+        "main_title": "History Hunters: Channel...",
+        "start_time": "2026-01-24T07:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/eb8bb897d7f6a804eb73477da5c2b4908",
+        "uuid": "156d3d3571625b37b2a0d963b2c0d641"
+      }
+    },
+    {
+      "startTime": "2026-01-24T08:00:00+0000",
+      "duration": 60,
+      "name": "World War TV: Stream Live Here",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/10785456-76c4-4be9-bcfb-41a879d5b7de",
+        "event_locator": "dvb://233a..3ad8;a891",
+        "main_title": "World War TV: Stream Live Here",
+        "start_time": "2026-01-24T08:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/eaf9f9ea12294e1ee49f516e764f97810",
+        "uuid": "5a81830a81f9dc953ef0182bfdb15982"
+      }
+    },
+    {
+      "startTime": "2026-01-24T09:00:00+0000",
+      "duration": 60,
+      "name": "Mystery TV: Stream Here",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/626d0cb0-f99f-4687-99f4-e03309cce01c",
+        "event_locator": "dvb://233a..3ad8;a892",
+        "main_title": "Mystery TV: Stream Here",
+        "start_time": "2026-01-24T09:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e65884eec5961d49c520b535d6bcda5ec",
+        "uuid": "8384e970e4b7316037d5b91d659db9e7"
+      }
+    },
+    {
+      "startTime": "2026-01-24T10:00:00+0000",
+      "duration": 60,
+      "name": "Real Crime: Watch Now",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/f585aa59-6a2b-4570-b26f-dbcac23b3bea",
+        "event_locator": "dvb://233a..3ad8;a893",
+        "main_title": "Real Crime: Watch Now",
+        "start_time": "2026-01-24T10:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/ea340a20e9e278af793f17a1c411cd819",
+        "uuid": "a7449467a7b18de5cd1bef783add0f42"
+      }
+    },
+    {
+      "startTime": "2026-01-24T11:00:00+0000",
+      "duration": 60,
+      "name": "INTRAVEL: Watch Here Now",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/113431fc-30a6-4930-bdae-3bfbb27a34a7",
+        "event_locator": "dvb://233a..3ad8;a894",
+        "main_title": "INTRAVEL: Watch Here Now",
+        "start_time": "2026-01-24T11:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e8cb6983605a00816d4529a16a92aeeed",
+        "uuid": "e1e2d123882693d89187be5cb6d6811c"
+      }
+    },
+    {
+      "startTime": "2026-01-24T12:00:00+0000",
+      "duration": 60,
+      "name": "Wonder: Channel Streaming Here",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/6ea5daf0-1ab8-4e3f-81b7-bb14c5d2d791",
+        "event_locator": "dvb://233a..3ad8;a895",
+        "main_title": "Wonder: Channel Streaming Here",
+        "start_time": "2026-01-24T12:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e5e2281ec26ff97d26f03e2461de8028f",
+        "uuid": "2e5ca8c72f4f7d64f5102af718ffa9f0"
+      }
+    },
+    {
+      "startTime": "2026-01-24T13:00:00+0000",
+      "duration": 60,
+      "name": "Crimeflix: Stream Now",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/eedf0061-3a67-4031-b980-98ab4cde1114",
+        "event_locator": "dvb://233a..3ad8;a896",
+        "main_title": "Crimeflix: Stream Now",
+        "start_time": "2026-01-24T13:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/eed203135de0e79e8bebc26883adf6c85",
+        "uuid": "807a339f5c4cbdeb8207ce632940aeeb"
+      }
+    },
+    {
+      "startTime": "2026-01-24T14:00:00+0000",
+      "duration": 60,
+      "name": "INTROUBLE: Watch Here",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/6d12ad2b-9b42-49e5-95b2-8bf2ac289552",
+        "event_locator": "dvb://233a..3ad8;a897",
+        "main_title": "INTROUBLE: Watch Here",
+        "start_time": "2026-01-24T14:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/ea5da64df9be876a8e5fea9ceedf623f2",
+        "uuid": "9d074d0ad3f44a380ae31cf497b237b5"
+      }
+    },
+    {
+      "startTime": "2026-01-24T15:00:00+0000",
+      "duration": 60,
       "name": "Inside Crime: Channel...",
       "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/a65cc311-25c3-4745-919f-b69e09295508",
-        "event_locator": "dvb://233a..3ad8;a676",
+        "program_id": "crid://csi.digitaluk.co.uk/3570de4a-b6be-437f-b00c-aaada51894eb",
+        "event_locator": "dvb://233a..3ad8;a8a6",
         "main_title": "Inside Crime: Channel...",
-        "start_time": "2026-01-23T00:00:00+0000",
-        "duration": "PT3H",
+        "start_time": "2026-01-24T15:00:00+0000",
+        "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/e442d7b924f0d304299824a485ac69531",
-        "uuid": "0c0164bc7dd48565591f31fee8fadd73"
+        "uuid": "3027f0122c411cd64cc4dadf3d093d32"
       }
     },
     {
-      "startTime": "2026-01-23T03:00:00+0000",
-      "duration": 180,
-      "name": "INWILD: Watch Wildlife",
+      "startTime": "2026-01-24T16:00:00+0000",
+      "duration": 60,
+      "name": "Deal Masters Channel: Available...",
       "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/e55f7ff1-e91d-4315-b217-f33585f25eb2",
-        "event_locator": "dvb://233a..3ad8;a677",
-        "main_title": "INWILD: Watch Wildlife",
-        "start_time": "2026-01-23T03:00:00+0000",
-        "duration": "PT3H",
+        "program_id": "crid://csi.digitaluk.co.uk/38d5beff-f61e-40d0-89b5-4b01f432acf6",
+        "event_locator": "dvb://233a..3ad8;a898",
+        "main_title": "Deal Masters Channel: Available...",
+        "start_time": "2026-01-24T16:00:00+0000",
+        "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/eb342f7b7e629ffa4d6cd5ca5dd9ef453",
-        "uuid": "3f8392847f3327d0edbbfd9b8e10fb5d"
+        "fallback_image_url": "http://img.freeviewplay.net/eb553779f9ef01fae3a38c29dbce7bf8c",
+        "uuid": "0551a98ac2001ae537f7410af7a58559"
       }
     },
     {
-      "startTime": "2026-01-23T06:00:00+0000",
-      "duration": 180,
-      "name": "World War TV: Hitler's Gold",
+      "startTime": "2026-01-24T17:00:00+0000",
+      "duration": 60,
+      "name": "History Hunters: Free Stream Here",
       "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/d19dc93f-b63d-49c9-9d40-dd0da3c21224",
-        "event_locator": "dvb://233a..3ad8;a678",
-        "main_title": "World War TV: Hitler's Gold",
-        "start_time": "2026-01-23T06:00:00+0000",
-        "duration": "PT3H",
+        "program_id": "crid://csi.digitaluk.co.uk/9552c0ce-515b-4b1f-bc19-99ebb688a4d2",
+        "event_locator": "dvb://233a..3ad8;a899",
+        "main_title": "History Hunters: Free Stream Here",
+        "start_time": "2026-01-24T17:00:00+0000",
+        "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/eb2cb9ff884c4248983dc05b79996425b",
-        "uuid": "be035d606d3dce3f089e793cc2b365c1"
+        "fallback_image_url": "http://img.freeviewplay.net/ec9b5535bd710499b5fa956e2e87cbe5b",
+        "uuid": "1ae0c3c39684a288a3fb5dc74480a373"
       }
     },
     {
-      "startTime": "2026-01-23T09:00:00+0000",
-      "duration": 180,
-      "name": "Deal Masters Flipping...",
+      "startTime": "2026-01-24T18:00:00+0000",
+      "duration": 60,
+      "name": "Taylor Swift on Cool Summer:...",
       "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/10603f2a-40a1-4e6f-8ae2-314d80840477",
-        "event_locator": "dvb://233a..3ad8;a679",
-        "main_title": "Deal Masters Flipping...",
-        "start_time": "2026-01-23T09:00:00+0000",
-        "duration": "PT3H",
+        "program_id": "crid://csi.digitaluk.co.uk/eff5cd1a-1d86-4251-bdd5-37ff48c07436",
+        "event_locator": "dvb://233a..3ad8;a89a",
+        "main_title": "Taylor Swift on Cool Summer:...",
+        "start_time": "2026-01-24T18:00:00+0000",
+        "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/ed14034683f811e05dfaca4cce82d5dfa",
-        "uuid": "f702c9997f4a9e0793cdb36258f7db14"
+        "fallback_image_url": "http://img.freeviewplay.net/e686f2e2c1b2676d61a8cfbe7b736ee7d",
+        "uuid": "6545b7fe661b2741f18d8f9f07b16299"
       }
     },
     {
-      "startTime": "2026-01-23T12:00:00+0000",
-      "duration": 180,
-      "name": "NEW! Demand Drama Stream Now",
+      "startTime": "2026-01-24T19:00:00+0000",
+      "duration": 60,
+      "name": "Mystery TV: Stream Here",
       "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/bdd1743c-651d-4254-8f95-1f5daaad43c3",
-        "event_locator": "dvb://233a..3ad8;a67a",
-        "main_title": "NEW! Demand Drama Stream Now",
-        "start_time": "2026-01-23T12:00:00+0000",
-        "duration": "PT3H",
+        "program_id": "crid://csi.digitaluk.co.uk/faa22399-a48f-4d98-9cd9-a4037df49202",
+        "event_locator": "dvb://233a..3ad8;a89b",
+        "main_title": "Mystery TV: Stream Here",
+        "start_time": "2026-01-24T19:00:00+0000",
+        "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/eebb76ae3262be22c9cde4822386a1b7a",
-        "uuid": "ad04a5222c0f55765b099e69f85e1eb5"
+        "fallback_image_url": "http://img.freeviewplay.net/e65884eec5961d49c520b535d6bcda5ec",
+        "uuid": "76950d4a94deb768c0d4b13304fa94a4"
       }
     },
     {
-      "startTime": "2026-01-23T15:00:00+0000",
-      "duration": 180,
-      "name": "Inside Crime: Channel...",
+      "startTime": "2026-01-24T20:00:00+0000",
+      "duration": 60,
+      "name": "Inside Crime: Watch Now",
       "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/bb59a462-dd7c-40f0-adce-af97513af0a9",
-        "event_locator": "dvb://233a..3ad8;a67b",
-        "main_title": "Inside Crime: Channel...",
-        "start_time": "2026-01-23T15:00:00+0000",
-        "duration": "PT3H",
+        "program_id": "crid://csi.digitaluk.co.uk/48af20b9-a2ea-4a35-bdab-1482f18b72e0",
+        "event_locator": "dvb://233a..3ad8;a89c",
+        "main_title": "Inside Crime: Watch Now",
+        "start_time": "2026-01-24T20:00:00+0000",
+        "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/e442d7b924f0d304299824a485ac69531",
-        "uuid": "c007f339cd79117d26ba231283616093"
+        "fallback_image_url": "http://img.freeviewplay.net/edba9a87adea2752a37b0763c08b085b1",
+        "uuid": "5e907cd1b445e76c232c5b451664aa85"
       }
     },
     {
-      "startTime": "2026-01-23T18:00:00+0000",
-      "duration": 180,
-      "name": "Mystery TV: NEW Channel Streaming",
+      "startTime": "2026-01-24T21:00:00+0000",
+      "duration": 60,
+      "name": "World War TV: Stream Live Here",
       "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/3ba4443d-a820-4608-adde-e5926e30d2e4",
-        "event_locator": "dvb://233a..3ad8;a67c",
-        "main_title": "Mystery TV: NEW Channel Streaming",
-        "start_time": "2026-01-23T18:00:00+0000",
-        "duration": "PT3H",
+        "program_id": "crid://csi.digitaluk.co.uk/d2d335a5-46d5-4b9d-ac02-154d5b701784",
+        "event_locator": "dvb://233a..3ad8;a89d",
+        "main_title": "World War TV: Stream Live Here",
+        "start_time": "2026-01-24T21:00:00+0000",
+        "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/ee6725037f106a45bf033830856b77ba3",
-        "uuid": "a3aed4d197b6cb7eec33071f841e907d"
+        "fallback_image_url": "http://img.freeviewplay.net/eaf9f9ea12294e1ee49f516e764f97810",
+        "uuid": "851f97b815dae2d60612dad2f3b24ab8"
       }
     },
     {
-      "startTime": "2026-01-23T21:00:00+0000",
-      "duration": 180,
-      "name": "Inside Crime: Channel...",
+      "startTime": "2026-01-24T22:00:00+0000",
+      "duration": 60,
+      "name": "Deal Masters Channel: Available...",
       "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/648a78e6-1d61-43fe-9a36-edcc423dd347",
-        "event_locator": "dvb://233a..3ad8;a67d",
-        "main_title": "Inside Crime: Channel...",
-        "start_time": "2026-01-23T21:00:00+0000",
-        "duration": "PT3H",
+        "program_id": "crid://csi.digitaluk.co.uk/964b8fed-0376-48cc-8a63-90455a4f8cb5",
+        "event_locator": "dvb://233a..3ad8;a89e",
+        "main_title": "Deal Masters Channel: Available...",
+        "start_time": "2026-01-24T22:00:00+0000",
+        "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/e442d7b924f0d304299824a485ac69531",
-        "uuid": "74cf3c8a4f77316f23780964b25a9506"
+        "fallback_image_url": "http://img.freeviewplay.net/eb553779f9ef01fae3a38c29dbce7bf8c",
+        "uuid": "dea6aadbe931b4d90c20c1307f134f1c"
+      }
+    },
+    {
+      "startTime": "2026-01-24T23:00:00+0000",
+      "duration": 60,
+      "name": "INWONDER: Stream Free Here",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/ba89979f-0af4-4644-abb3-ec4093985ece",
+        "event_locator": "dvb://233a..3ad8;a89f",
+        "main_title": "INWONDER: Stream Free Here",
+        "start_time": "2026-01-24T23:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e2b4420a27b1c19e23b3b2a97d3e49f4d",
+        "uuid": "8854e306255de3979310b1cfea769644"
       }
     }
   ],
@@ -154,147 +442,435 @@
       {
         "event": [
           {
-            "startTime": "2026-01-23T00:00:00+0000",
-            "duration": 180,
+            "startTime": "2026-01-24T00:00:00+0000",
+            "duration": 60,
+            "name": "INWILD: Available Here",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/1584f8a5-16cf-47e6-bfa8-79764f3932a5",
+              "event_locator": "dvb://233a..3ad8;a878",
+              "main_title": "INWILD: Available Here",
+              "start_time": "2026-01-24T00:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/ed17df36b0c6dad493ac3cb04a1d8aafa",
+              "uuid": "5e3fabf5f42af63007dfacb7aafa87f6"
+            }
+          },
+          {
+            "startTime": "2026-01-24T01:00:00+0000",
+            "duration": 60,
+            "name": "Def Jam's Greatest Hip Hop Tracks",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/cf72a2e0-c13e-46fa-ad01-6e94a2f4233e",
+              "event_locator": "dvb://233a..3ad8;a879",
+              "main_title": "Def Jam's Greatest Hip Hop Tracks",
+              "start_time": "2026-01-24T01:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e63377ff717f09c5b255bb0ccb340907b",
+              "uuid": "cd2bbe165765c638c229031c31b9fea9"
+            }
+          },
+          {
+            "startTime": "2026-01-24T02:00:00+0000",
+            "duration": 60,
+            "name": "INTRAVEL: Watch Here Now",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/2ad81299-c15c-4d94-81c7-4eb882a93d70",
+              "event_locator": "dvb://233a..3ad8;a87a",
+              "main_title": "INTRAVEL: Watch Here Now",
+              "start_time": "2026-01-24T02:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e8cb6983605a00816d4529a16a92aeeed",
+              "uuid": "d103807eba30404b38d54a68bb291c15"
+            }
+          },
+          {
+            "startTime": "2026-01-24T03:00:00+0000",
+            "duration": 60,
+            "name": "Crimeflix: Stream Now",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/2c62d62f-b2e7-49e7-a4ce-969368029b33",
+              "event_locator": "dvb://233a..3ad8;a87b",
+              "main_title": "Crimeflix: Stream Now",
+              "start_time": "2026-01-24T03:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/eed203135de0e79e8bebc26883adf6c85",
+              "uuid": "d59d95b26a3f26e253d4c2fc081ec7ba"
+            }
+          },
+          {
+            "startTime": "2026-01-24T04:00:00+0000",
+            "duration": 60,
+            "name": "INFAST: Available Now",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/b0b941d7-63f3-42c5-8d0c-fd9bc9e8f2de",
+              "event_locator": "dvb://233a..3ad8;a87c",
+              "main_title": "INFAST: Available Now",
+              "start_time": "2026-01-24T04:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e294a361ff5579b44094a77652fccd960",
+              "uuid": "cc9034c7d828c89f60e73ce26aad02c2"
+            }
+          },
+          {
+            "startTime": "2026-01-24T05:00:00+0000",
+            "duration": 60,
+            "name": "INTROUBLE: Watch Here",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/15f0e3e9-dda4-4f13-8d2b-3bef1b786fb9",
+              "event_locator": "dvb://233a..3ad8;a87d",
+              "main_title": "INTROUBLE: Watch Here",
+              "start_time": "2026-01-24T05:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/ea5da64df9be876a8e5fea9ceedf623f2",
+              "uuid": "774f22e3e4b984ce8f8dadb6fa2fbc2f"
+            }
+          },
+          {
+            "startTime": "2026-01-24T06:00:00+0000",
+            "duration": 60,
+            "name": "Chat Show Channel: Watch Free Now",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/80170021-314b-4f55-8078-4e11b7b3dfd2",
+              "event_locator": "dvb://233a..3ad8;a88f",
+              "main_title": "Chat Show Channel: Watch Free Now",
+              "start_time": "2026-01-24T06:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e93cbde0f690e3322bc446d2ba7173921",
+              "uuid": "a5f31e27522e619343fb972bf02874f5"
+            }
+          },
+          {
+            "startTime": "2026-01-24T07:00:00+0000",
+            "duration": 60,
+            "name": "History Hunters: Channel...",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/91f2ce1e-fe3f-45af-8668-91334c7bd0b7",
+              "event_locator": "dvb://233a..3ad8;a890",
+              "main_title": "History Hunters: Channel...",
+              "start_time": "2026-01-24T07:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/eb8bb897d7f6a804eb73477da5c2b4908",
+              "uuid": "156d3d3571625b37b2a0d963b2c0d641"
+            }
+          },
+          {
+            "startTime": "2026-01-24T08:00:00+0000",
+            "duration": 60,
+            "name": "World War TV: Stream Live Here",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/10785456-76c4-4be9-bcfb-41a879d5b7de",
+              "event_locator": "dvb://233a..3ad8;a891",
+              "main_title": "World War TV: Stream Live Here",
+              "start_time": "2026-01-24T08:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/eaf9f9ea12294e1ee49f516e764f97810",
+              "uuid": "5a81830a81f9dc953ef0182bfdb15982"
+            }
+          },
+          {
+            "startTime": "2026-01-24T09:00:00+0000",
+            "duration": 60,
+            "name": "Mystery TV: Stream Here",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/626d0cb0-f99f-4687-99f4-e03309cce01c",
+              "event_locator": "dvb://233a..3ad8;a892",
+              "main_title": "Mystery TV: Stream Here",
+              "start_time": "2026-01-24T09:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e65884eec5961d49c520b535d6bcda5ec",
+              "uuid": "8384e970e4b7316037d5b91d659db9e7"
+            }
+          },
+          {
+            "startTime": "2026-01-24T10:00:00+0000",
+            "duration": 60,
+            "name": "Real Crime: Watch Now",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/f585aa59-6a2b-4570-b26f-dbcac23b3bea",
+              "event_locator": "dvb://233a..3ad8;a893",
+              "main_title": "Real Crime: Watch Now",
+              "start_time": "2026-01-24T10:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/ea340a20e9e278af793f17a1c411cd819",
+              "uuid": "a7449467a7b18de5cd1bef783add0f42"
+            }
+          },
+          {
+            "startTime": "2026-01-24T11:00:00+0000",
+            "duration": 60,
+            "name": "INTRAVEL: Watch Here Now",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/113431fc-30a6-4930-bdae-3bfbb27a34a7",
+              "event_locator": "dvb://233a..3ad8;a894",
+              "main_title": "INTRAVEL: Watch Here Now",
+              "start_time": "2026-01-24T11:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e8cb6983605a00816d4529a16a92aeeed",
+              "uuid": "e1e2d123882693d89187be5cb6d6811c"
+            }
+          },
+          {
+            "startTime": "2026-01-24T12:00:00+0000",
+            "duration": 60,
+            "name": "Wonder: Channel Streaming Here",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/6ea5daf0-1ab8-4e3f-81b7-bb14c5d2d791",
+              "event_locator": "dvb://233a..3ad8;a895",
+              "main_title": "Wonder: Channel Streaming Here",
+              "start_time": "2026-01-24T12:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e5e2281ec26ff97d26f03e2461de8028f",
+              "uuid": "2e5ca8c72f4f7d64f5102af718ffa9f0"
+            }
+          },
+          {
+            "startTime": "2026-01-24T13:00:00+0000",
+            "duration": 60,
+            "name": "Crimeflix: Stream Now",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/eedf0061-3a67-4031-b980-98ab4cde1114",
+              "event_locator": "dvb://233a..3ad8;a896",
+              "main_title": "Crimeflix: Stream Now",
+              "start_time": "2026-01-24T13:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/eed203135de0e79e8bebc26883adf6c85",
+              "uuid": "807a339f5c4cbdeb8207ce632940aeeb"
+            }
+          },
+          {
+            "startTime": "2026-01-24T14:00:00+0000",
+            "duration": 60,
+            "name": "INTROUBLE: Watch Here",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/6d12ad2b-9b42-49e5-95b2-8bf2ac289552",
+              "event_locator": "dvb://233a..3ad8;a897",
+              "main_title": "INTROUBLE: Watch Here",
+              "start_time": "2026-01-24T14:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/ea5da64df9be876a8e5fea9ceedf623f2",
+              "uuid": "9d074d0ad3f44a380ae31cf497b237b5"
+            }
+          },
+          {
+            "startTime": "2026-01-24T15:00:00+0000",
+            "duration": 60,
             "name": "Inside Crime: Channel...",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/a65cc311-25c3-4745-919f-b69e09295508",
-              "event_locator": "dvb://233a..3ad8;a676",
+              "program_id": "crid://csi.digitaluk.co.uk/3570de4a-b6be-437f-b00c-aaada51894eb",
+              "event_locator": "dvb://233a..3ad8;a8a6",
               "main_title": "Inside Crime: Channel...",
-              "start_time": "2026-01-23T00:00:00+0000",
-              "duration": "PT3H",
+              "start_time": "2026-01-24T15:00:00+0000",
+              "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/e442d7b924f0d304299824a485ac69531",
-              "uuid": "0c0164bc7dd48565591f31fee8fadd73"
+              "uuid": "3027f0122c411cd64cc4dadf3d093d32"
             }
           },
           {
-            "startTime": "2026-01-23T03:00:00+0000",
-            "duration": 180,
-            "name": "INWILD: Watch Wildlife",
+            "startTime": "2026-01-24T16:00:00+0000",
+            "duration": 60,
+            "name": "Deal Masters Channel: Available...",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/e55f7ff1-e91d-4315-b217-f33585f25eb2",
-              "event_locator": "dvb://233a..3ad8;a677",
-              "main_title": "INWILD: Watch Wildlife",
-              "start_time": "2026-01-23T03:00:00+0000",
-              "duration": "PT3H",
+              "program_id": "crid://csi.digitaluk.co.uk/38d5beff-f61e-40d0-89b5-4b01f432acf6",
+              "event_locator": "dvb://233a..3ad8;a898",
+              "main_title": "Deal Masters Channel: Available...",
+              "start_time": "2026-01-24T16:00:00+0000",
+              "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/eb342f7b7e629ffa4d6cd5ca5dd9ef453",
-              "uuid": "3f8392847f3327d0edbbfd9b8e10fb5d"
+              "fallback_image_url": "http://img.freeviewplay.net/eb553779f9ef01fae3a38c29dbce7bf8c",
+              "uuid": "0551a98ac2001ae537f7410af7a58559"
             }
           },
           {
-            "startTime": "2026-01-23T06:00:00+0000",
-            "duration": 180,
-            "name": "World War TV: Hitler's Gold",
+            "startTime": "2026-01-24T17:00:00+0000",
+            "duration": 60,
+            "name": "History Hunters: Free Stream Here",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/d19dc93f-b63d-49c9-9d40-dd0da3c21224",
-              "event_locator": "dvb://233a..3ad8;a678",
-              "main_title": "World War TV: Hitler's Gold",
-              "start_time": "2026-01-23T06:00:00+0000",
-              "duration": "PT3H",
+              "program_id": "crid://csi.digitaluk.co.uk/9552c0ce-515b-4b1f-bc19-99ebb688a4d2",
+              "event_locator": "dvb://233a..3ad8;a899",
+              "main_title": "History Hunters: Free Stream Here",
+              "start_time": "2026-01-24T17:00:00+0000",
+              "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/eb2cb9ff884c4248983dc05b79996425b",
-              "uuid": "be035d606d3dce3f089e793cc2b365c1"
+              "fallback_image_url": "http://img.freeviewplay.net/ec9b5535bd710499b5fa956e2e87cbe5b",
+              "uuid": "1ae0c3c39684a288a3fb5dc74480a373"
             }
           },
           {
-            "startTime": "2026-01-23T09:00:00+0000",
-            "duration": 180,
-            "name": "Deal Masters Flipping...",
+            "startTime": "2026-01-24T18:00:00+0000",
+            "duration": 60,
+            "name": "Taylor Swift on Cool Summer:...",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/10603f2a-40a1-4e6f-8ae2-314d80840477",
-              "event_locator": "dvb://233a..3ad8;a679",
-              "main_title": "Deal Masters Flipping...",
-              "start_time": "2026-01-23T09:00:00+0000",
-              "duration": "PT3H",
+              "program_id": "crid://csi.digitaluk.co.uk/eff5cd1a-1d86-4251-bdd5-37ff48c07436",
+              "event_locator": "dvb://233a..3ad8;a89a",
+              "main_title": "Taylor Swift on Cool Summer:...",
+              "start_time": "2026-01-24T18:00:00+0000",
+              "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/ed14034683f811e05dfaca4cce82d5dfa",
-              "uuid": "f702c9997f4a9e0793cdb36258f7db14"
+              "fallback_image_url": "http://img.freeviewplay.net/e686f2e2c1b2676d61a8cfbe7b736ee7d",
+              "uuid": "6545b7fe661b2741f18d8f9f07b16299"
             }
           },
           {
-            "startTime": "2026-01-23T12:00:00+0000",
-            "duration": 180,
-            "name": "NEW! Demand Drama Stream Now",
+            "startTime": "2026-01-24T19:00:00+0000",
+            "duration": 60,
+            "name": "Mystery TV: Stream Here",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/bdd1743c-651d-4254-8f95-1f5daaad43c3",
-              "event_locator": "dvb://233a..3ad8;a67a",
-              "main_title": "NEW! Demand Drama Stream Now",
-              "start_time": "2026-01-23T12:00:00+0000",
-              "duration": "PT3H",
+              "program_id": "crid://csi.digitaluk.co.uk/faa22399-a48f-4d98-9cd9-a4037df49202",
+              "event_locator": "dvb://233a..3ad8;a89b",
+              "main_title": "Mystery TV: Stream Here",
+              "start_time": "2026-01-24T19:00:00+0000",
+              "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/eebb76ae3262be22c9cde4822386a1b7a",
-              "uuid": "ad04a5222c0f55765b099e69f85e1eb5"
+              "fallback_image_url": "http://img.freeviewplay.net/e65884eec5961d49c520b535d6bcda5ec",
+              "uuid": "76950d4a94deb768c0d4b13304fa94a4"
             }
           },
           {
-            "startTime": "2026-01-23T15:00:00+0000",
-            "duration": 180,
-            "name": "Inside Crime: Channel...",
+            "startTime": "2026-01-24T20:00:00+0000",
+            "duration": 60,
+            "name": "Inside Crime: Watch Now",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/bb59a462-dd7c-40f0-adce-af97513af0a9",
-              "event_locator": "dvb://233a..3ad8;a67b",
-              "main_title": "Inside Crime: Channel...",
-              "start_time": "2026-01-23T15:00:00+0000",
-              "duration": "PT3H",
+              "program_id": "crid://csi.digitaluk.co.uk/48af20b9-a2ea-4a35-bdab-1482f18b72e0",
+              "event_locator": "dvb://233a..3ad8;a89c",
+              "main_title": "Inside Crime: Watch Now",
+              "start_time": "2026-01-24T20:00:00+0000",
+              "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/e442d7b924f0d304299824a485ac69531",
-              "uuid": "c007f339cd79117d26ba231283616093"
+              "fallback_image_url": "http://img.freeviewplay.net/edba9a87adea2752a37b0763c08b085b1",
+              "uuid": "5e907cd1b445e76c232c5b451664aa85"
             }
           },
           {
-            "startTime": "2026-01-23T18:00:00+0000",
-            "duration": 180,
-            "name": "Mystery TV: NEW Channel Streaming",
+            "startTime": "2026-01-24T21:00:00+0000",
+            "duration": 60,
+            "name": "World War TV: Stream Live Here",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/3ba4443d-a820-4608-adde-e5926e30d2e4",
-              "event_locator": "dvb://233a..3ad8;a67c",
-              "main_title": "Mystery TV: NEW Channel Streaming",
-              "start_time": "2026-01-23T18:00:00+0000",
-              "duration": "PT3H",
+              "program_id": "crid://csi.digitaluk.co.uk/d2d335a5-46d5-4b9d-ac02-154d5b701784",
+              "event_locator": "dvb://233a..3ad8;a89d",
+              "main_title": "World War TV: Stream Live Here",
+              "start_time": "2026-01-24T21:00:00+0000",
+              "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/ee6725037f106a45bf033830856b77ba3",
-              "uuid": "a3aed4d197b6cb7eec33071f841e907d"
+              "fallback_image_url": "http://img.freeviewplay.net/eaf9f9ea12294e1ee49f516e764f97810",
+              "uuid": "851f97b815dae2d60612dad2f3b24ab8"
             }
           },
           {
-            "startTime": "2026-01-23T21:00:00+0000",
-            "duration": 180,
-            "name": "Inside Crime: Channel...",
+            "startTime": "2026-01-24T22:00:00+0000",
+            "duration": 60,
+            "name": "Deal Masters Channel: Available...",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/648a78e6-1d61-43fe-9a36-edcc423dd347",
-              "event_locator": "dvb://233a..3ad8;a67d",
-              "main_title": "Inside Crime: Channel...",
-              "start_time": "2026-01-23T21:00:00+0000",
-              "duration": "PT3H",
+              "program_id": "crid://csi.digitaluk.co.uk/964b8fed-0376-48cc-8a63-90455a4f8cb5",
+              "event_locator": "dvb://233a..3ad8;a89e",
+              "main_title": "Deal Masters Channel: Available...",
+              "start_time": "2026-01-24T22:00:00+0000",
+              "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/e442d7b924f0d304299824a485ac69531",
-              "uuid": "74cf3c8a4f77316f23780964b25a9506"
+              "fallback_image_url": "http://img.freeviewplay.net/eb553779f9ef01fae3a38c29dbce7bf8c",
+              "uuid": "dea6aadbe931b4d90c20c1307f134f1c"
+            }
+          },
+          {
+            "startTime": "2026-01-24T23:00:00+0000",
+            "duration": 60,
+            "name": "INWONDER: Stream Free Here",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/ba89979f-0af4-4644-abb3-ec4093985ece",
+              "event_locator": "dvb://233a..3ad8;a89f",
+              "main_title": "INWONDER: Stream Free Here",
+              "start_time": "2026-01-24T23:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e2b4420a27b1c19e23b3b2a97d3e49f4d",
+              "uuid": "8854e306255de3979310b1cfea769644"
             }
           }
         ]
