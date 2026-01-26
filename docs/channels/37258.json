@@ -350,8 +350,8 @@
         "start_time": "2026-01-26T14:00:00+0000",
         "duration": "PT30M",
         "on_demand": {
-          "start_of_availability": "2026-01-26T23:15:00+0000",
-          "end_of_availability": "2027-01-26T23:15:00+0000",
+          "start_of_availability": "2026-01-26T14:30:00+0000",
+          "end_of_availability": "2027-01-26T23:15:59+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002qr5y&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -381,7 +381,7 @@
         "duration": "PT1H",
         "on_demand": {
           "start_of_availability": "2026-01-26T15:30:00+0000",
-          "end_of_availability": "2027-01-27T08:00:00+0000",
+          "end_of_availability": "2027-01-27T08:10:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002qr60&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -396,19 +396,19 @@
     },
     {
       "startTime": "2026-01-26T15:30:00+0000",
-      "duration": 420,
+      "duration": 45,
       "name": "House of Commons",
-      "description": "26/01/2026 Part 1",
+      "description": "Diego Garcia Military Base Bill Urgent Question",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m002qr62",
         "event_locator": "dvb://233a..918a;7950",
         "main_title": "House of Commons",
-        "secondary_title": "26/01/2026 Part 1",
-        "image_url": "https://img.freeviewplay.tv/p30f762440834bccca3d473d52b554873",
+        "secondary_title": "Diego Garcia Military Base Bill Urgent Question",
+        "image_url": "https://img.freeviewplay.tv/p993fe5f1d50a0bfb56e990d7996d5c59",
         "start_time": "2026-01-26T15:30:00+0000",
-        "duration": "PT7H",
+        "duration": "PT45M",
         "on_demand": {
           "start_of_availability": "2026-01-26T16:30:00+0000",
           "end_of_availability": "2027-01-26T16:30:00+0000",
@@ -420,8 +420,68 @@
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ede10941ec9cbe0143514881b2387ee0a",
+        "fallback_image_url": "http://img.freeviewplay.net/e28f5bd7efdaba55026740b0f39294cd6",
         "uuid": "64c91f97de5123d019b360d50c189031"
+      }
+    },
+    {
+      "startTime": "2026-01-26T16:15:00+0000",
+      "duration": 60,
+      "name": "House of Commons",
+      "description": "Police Reform Statement",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002qr64",
+        "event_locator": "dvb://233a..918a;7951",
+        "main_title": "House of Commons",
+        "secondary_title": "Police Reform Statement",
+        "image_url": "https://img.freeviewplay.tv/p4b466250fa06df8ce4caf9fab52c0a4b",
+        "start_time": "2026-01-26T16:15:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-01-26T17:30:00+0000",
+          "end_of_availability": "2027-01-26T17:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002qr64&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/eeabc883733aa021942a647f975c36d36",
+        "uuid": "6c972bf1193633dd1514713e4eb50750"
+      }
+    },
+    {
+      "startTime": "2026-01-26T17:15:00+0000",
+      "duration": 315,
+      "name": "House of Commons",
+      "description": "26/01/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002qr66",
+        "event_locator": "dvb://233a..918a;7952",
+        "main_title": "House of Commons",
+        "secondary_title": "26/01/2026",
+        "image_url": "https://img.freeviewplay.tv/pe3432da5ae91520c698a080d7f0b1882",
+        "start_time": "2026-01-26T17:15:00+0000",
+        "duration": "PT5H15M",
+        "on_demand": {
+          "start_of_availability": "2026-01-26T22:30:00+0000",
+          "end_of_availability": "2027-01-26T22:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002qr66&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ede10941ec9cbe0143514881b2387ee0a",
+        "uuid": "518d126ba427c11c7ab7cc1d8fdb9f71"
       }
     },
     {
@@ -440,8 +500,8 @@
         "start_time": "2026-01-26T22:30:00+0000",
         "duration": "PT45M",
         "on_demand": {
-          "start_of_availability": "2026-01-26T23:15:00+0000",
-          "end_of_availability": "2027-01-26T23:15:00+0000",
+          "start_of_availability": "2026-01-26T14:30:00+0000",
+          "end_of_availability": "2027-01-26T23:15:59+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002qr5y&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -470,8 +530,8 @@
         "start_time": "2026-01-26T23:15:00+0000",
         "duration": "PT45M",
         "on_demand": {
-          "start_of_availability": "2026-01-27T00:00:00+0000",
-          "end_of_availability": "2027-01-27T00:00:00+0000",
+          "start_of_availability": "2026-01-26T23:59:11+0000",
+          "end_of_availability": "2027-01-26T23:59:11+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002qr6f&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -835,8 +895,8 @@
               "start_time": "2026-01-26T14:00:00+0000",
               "duration": "PT30M",
               "on_demand": {
-                "start_of_availability": "2026-01-26T23:15:00+0000",
-                "end_of_availability": "2027-01-26T23:15:00+0000",
+                "start_of_availability": "2026-01-26T14:30:00+0000",
+                "end_of_availability": "2027-01-26T23:15:59+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002qr5y&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -866,7 +926,7 @@
               "duration": "PT1H",
               "on_demand": {
                 "start_of_availability": "2026-01-26T15:30:00+0000",
-                "end_of_availability": "2027-01-27T08:00:00+0000",
+                "end_of_availability": "2027-01-27T08:10:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002qr60&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -881,19 +941,19 @@
           },
           {
             "startTime": "2026-01-26T15:30:00+0000",
-            "duration": 420,
+            "duration": 45,
             "name": "House of Commons",
-            "description": "26/01/2026 Part 1",
+            "description": "Diego Garcia Military Base Bill Urgent Question",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m002qr62",
               "event_locator": "dvb://233a..918a;7950",
               "main_title": "House of Commons",
-              "secondary_title": "26/01/2026 Part 1",
-              "image_url": "https://img.freeviewplay.tv/p30f762440834bccca3d473d52b554873",
+              "secondary_title": "Diego Garcia Military Base Bill Urgent Question",
+              "image_url": "https://img.freeviewplay.tv/p993fe5f1d50a0bfb56e990d7996d5c59",
               "start_time": "2026-01-26T15:30:00+0000",
-              "duration": "PT7H",
+              "duration": "PT45M",
               "on_demand": {
                 "start_of_availability": "2026-01-26T16:30:00+0000",
                 "end_of_availability": "2027-01-26T16:30:00+0000",
@@ -905,8 +965,68 @@
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ede10941ec9cbe0143514881b2387ee0a",
+              "fallback_image_url": "http://img.freeviewplay.net/e28f5bd7efdaba55026740b0f39294cd6",
               "uuid": "64c91f97de5123d019b360d50c189031"
+            }
+          },
+          {
+            "startTime": "2026-01-26T16:15:00+0000",
+            "duration": 60,
+            "name": "House of Commons",
+            "description": "Police Reform Statement",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002qr64",
+              "event_locator": "dvb://233a..918a;7951",
+              "main_title": "House of Commons",
+              "secondary_title": "Police Reform Statement",
+              "image_url": "https://img.freeviewplay.tv/p4b466250fa06df8ce4caf9fab52c0a4b",
+              "start_time": "2026-01-26T16:15:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-01-26T17:30:00+0000",
+                "end_of_availability": "2027-01-26T17:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002qr64&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/eeabc883733aa021942a647f975c36d36",
+              "uuid": "6c972bf1193633dd1514713e4eb50750"
+            }
+          },
+          {
+            "startTime": "2026-01-26T17:15:00+0000",
+            "duration": 315,
+            "name": "House of Commons",
+            "description": "26/01/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002qr66",
+              "event_locator": "dvb://233a..918a;7952",
+              "main_title": "House of Commons",
+              "secondary_title": "26/01/2026",
+              "image_url": "https://img.freeviewplay.tv/pe3432da5ae91520c698a080d7f0b1882",
+              "start_time": "2026-01-26T17:15:00+0000",
+              "duration": "PT5H15M",
+              "on_demand": {
+                "start_of_availability": "2026-01-26T22:30:00+0000",
+                "end_of_availability": "2027-01-26T22:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002qr66&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ede10941ec9cbe0143514881b2387ee0a",
+              "uuid": "518d126ba427c11c7ab7cc1d8fdb9f71"
             }
           },
           {
@@ -925,8 +1045,8 @@
               "start_time": "2026-01-26T22:30:00+0000",
               "duration": "PT45M",
               "on_demand": {
-                "start_of_availability": "2026-01-26T23:15:00+0000",
-                "end_of_availability": "2027-01-26T23:15:00+0000",
+                "start_of_availability": "2026-01-26T14:30:00+0000",
+                "end_of_availability": "2027-01-26T23:15:59+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002qr5y&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -955,8 +1075,8 @@
               "start_time": "2026-01-26T23:15:00+0000",
               "duration": "PT45M",
               "on_demand": {
-                "start_of_availability": "2026-01-27T00:00:00+0000",
-                "end_of_availability": "2027-01-27T00:00:00+0000",
+                "start_of_availability": "2026-01-26T23:59:11+0000",
+                "end_of_availability": "2027-01-26T23:59:11+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002qr6f&campaign=catalogue&medium=referral&partner=net.freeviewplay",
