@@ -146,6 +146,16 @@
         "image_url": "https://img.freeviewplay.tv/p99898de705a2ae754bcf9fd792e05b9a",
         "start_time": "2026-01-28T06:45:00+0000",
         "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2026-01-27T15:00:00+0000",
+          "end_of_availability": "2027-01-27T15:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-207",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
         "fallback_image_url": "http://img.freeviewplay.net/e726bcead7a12f20a3ab50c0d3c8a2b6a",
         "uuid": "07660e497c479d87320b24429a6c62ce"
@@ -349,6 +359,16 @@
         "image_url": "https://img.freeviewplay.tv/p29767249e692ebb11d637778d587e893",
         "start_time": "2026-01-28T12:10:00+0000",
         "duration": "PT55M",
+        "on_demand": {
+          "start_of_availability": "2026-01-28T12:05:00+0000",
+          "end_of_availability": "2026-03-14T12:05:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=american-pickers&programme=78127-006",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
         "uuid": "67e5b6cac45d7f6b3cbc179f2b5b1a14"
       }
@@ -356,19 +376,30 @@
     {
       "startTime": "2026-01-28T13:05:00+0000",
       "duration": 5,
-      "name": "Channel 4 News Summary",
-      "description": "",
+      "name": "Channel 4 News",
+      "description": "20265647. Wed 28 Jan Midday News",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.enh.digitaluk.co.uk/121791cf-746d-417d-924f-09353e41be97",
+        "program_id": "crid://movida.bebanjo.net/mas/version/79199/019/ASDELIVERED/C",
         "event_locator": "dvb://233a..2104;c96",
-        "main_title": "Channel 4 News Summary",
-        "image_url": "https://img.freeviewplay.tv/e3695da43fab15fffa57a4c2c763168e8",
+        "main_title": "Channel 4 News",
+        "secondary_title": "20265647. Wed 28 Jan Midday News",
+        "image_url": "https://img.freeviewplay.tv/p01689c41e0e46e74d746864531c32c18",
         "start_time": "2026-01-28T13:05:00+0000",
         "duration": "PT5M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "57900a856b858643867623d6e0ebf53e"
+        "on_demand": {
+          "start_of_availability": "2026-01-28T12:10:00+0000",
+          "end_of_availability": "2026-01-29T12:10:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=79199-019",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+        "uuid": "d33024d924a1fd4952a6e909f14d354b"
       }
     },
     {
@@ -423,6 +454,16 @@
         "image_url": "https://img.freeviewplay.tv/pe51d43c4030a14efd1d02211ce2fa249",
         "start_time": "2026-01-28T15:10:00+0000",
         "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2026-01-28T15:00:00+0000",
+          "end_of_availability": "2027-01-28T15:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-208",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
         "fallback_image_url": "http://img.freeviewplay.net/e726bcead7a12f20a3ab50c0d3c8a2b6a",
         "uuid": "e5ab431d03afa2789910bdc3edb26c86"
@@ -461,6 +502,16 @@
         "image_url": "https://img.freeviewplay.tv/pd7f44597847f3cf8ebff0958fd399814",
         "start_time": "2026-01-28T17:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-01-28T17:00:00+0000",
+          "end_of_availability": "2026-03-15T17:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=a-new-life-in-the-sun&programme=76993-018",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
         "uuid": "041a52e08313697082c9b9573ac4f82a"
       }
@@ -562,20 +613,38 @@
     },
     {
       "startTime": "2026-01-28T23:00:00+0000",
+      "duration": 30,
+      "name": "New: Beckham: Family at War...",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/a4551bf8-6bcc-435b-a08e-fcbdcc4f8a98",
+        "event_locator": "dvb://233a..2104;dc4",
+        "main_title": "New: Beckham: Family at War...",
+        "image_url": "https://img.freeviewplay.tv/e34a0969e4def6c13318009551b129bda",
+        "start_time": "2026-01-28T23:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "uuid": "6857d5b45ee961230262563ab5b9f0f2"
+      }
+    },
+    {
+      "startTime": "2026-01-28T23:30:00+0000",
       "duration": 60,
       "name": "Space Shuttle Challenger: Days...",
       "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.enh.digitaluk.co.uk/8937fb09-e464-45ca-a17c-471bb9b249ec",
-        "event_locator": "dvb://233a..2104;cbf",
+        "program_id": "crid://csi.digitaluk.co.uk/7e4da47e-7294-4265-9cd6-07f90d9f3753",
+        "event_locator": "dvb://233a..2104;dc5",
         "main_title": "Space Shuttle Challenger: Days...",
-        "image_url": "https://img.freeviewplay.tv/pdf69f4f6fb2b8635c424a8ee33acfa8b",
-        "start_time": "2026-01-28T23:00:00+0000",
+        "image_url": "https://img.freeviewplay.tv/ea0fae1d899270d2e464bdf20489d8735",
+        "start_time": "2026-01-28T23:30:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "bb283c7f46bee23ae94537a0749dada3"
+        "uuid": "953ffe144336f769be358f4cde30cc1c"
       }
     }
   ],
@@ -725,6 +794,16 @@
               "image_url": "https://img.freeviewplay.tv/p99898de705a2ae754bcf9fd792e05b9a",
               "start_time": "2026-01-28T06:45:00+0000",
               "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2026-01-27T15:00:00+0000",
+                "end_of_availability": "2027-01-27T15:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-207",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
               "fallback_image_url": "http://img.freeviewplay.net/e726bcead7a12f20a3ab50c0d3c8a2b6a",
               "uuid": "07660e497c479d87320b24429a6c62ce"
@@ -928,6 +1007,16 @@
               "image_url": "https://img.freeviewplay.tv/p29767249e692ebb11d637778d587e893",
               "start_time": "2026-01-28T12:10:00+0000",
               "duration": "PT55M",
+              "on_demand": {
+                "start_of_availability": "2026-01-28T12:05:00+0000",
+                "end_of_availability": "2026-03-14T12:05:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=american-pickers&programme=78127-006",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
               "uuid": "67e5b6cac45d7f6b3cbc179f2b5b1a14"
             }
@@ -935,19 +1024,30 @@
           {
             "startTime": "2026-01-28T13:05:00+0000",
             "duration": 5,
-            "name": "Channel 4 News Summary",
-            "description": "",
+            "name": "Channel 4 News",
+            "description": "20265647. Wed 28 Jan Midday News",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.enh.digitaluk.co.uk/121791cf-746d-417d-924f-09353e41be97",
+              "program_id": "crid://movida.bebanjo.net/mas/version/79199/019/ASDELIVERED/C",
               "event_locator": "dvb://233a..2104;c96",
-              "main_title": "Channel 4 News Summary",
-              "image_url": "https://img.freeviewplay.tv/e3695da43fab15fffa57a4c2c763168e8",
+              "main_title": "Channel 4 News",
+              "secondary_title": "20265647. Wed 28 Jan Midday News",
+              "image_url": "https://img.freeviewplay.tv/p01689c41e0e46e74d746864531c32c18",
               "start_time": "2026-01-28T13:05:00+0000",
               "duration": "PT5M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "57900a856b858643867623d6e0ebf53e"
+              "on_demand": {
+                "start_of_availability": "2026-01-28T12:10:00+0000",
+                "end_of_availability": "2026-01-29T12:10:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=79199-019",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+              "uuid": "d33024d924a1fd4952a6e909f14d354b"
             }
           },
           {
@@ -1002,6 +1102,16 @@
               "image_url": "https://img.freeviewplay.tv/pe51d43c4030a14efd1d02211ce2fa249",
               "start_time": "2026-01-28T15:10:00+0000",
               "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2026-01-28T15:00:00+0000",
+                "end_of_availability": "2027-01-28T15:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-208",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
               "fallback_image_url": "http://img.freeviewplay.net/e726bcead7a12f20a3ab50c0d3c8a2b6a",
               "uuid": "e5ab431d03afa2789910bdc3edb26c86"
@@ -1040,6 +1150,16 @@
               "image_url": "https://img.freeviewplay.tv/pd7f44597847f3cf8ebff0958fd399814",
               "start_time": "2026-01-28T17:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-01-28T17:00:00+0000",
+                "end_of_availability": "2026-03-15T17:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=a-new-life-in-the-sun&programme=76993-018",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
               "uuid": "041a52e08313697082c9b9573ac4f82a"
             }
@@ -1141,20 +1261,38 @@
           },
           {
             "startTime": "2026-01-28T23:00:00+0000",
+            "duration": 30,
+            "name": "New: Beckham: Family at War...",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/a4551bf8-6bcc-435b-a08e-fcbdcc4f8a98",
+              "event_locator": "dvb://233a..2104;dc4",
+              "main_title": "New: Beckham: Family at War...",
+              "image_url": "https://img.freeviewplay.tv/e34a0969e4def6c13318009551b129bda",
+              "start_time": "2026-01-28T23:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "uuid": "6857d5b45ee961230262563ab5b9f0f2"
+            }
+          },
+          {
+            "startTime": "2026-01-28T23:30:00+0000",
             "duration": 60,
             "name": "Space Shuttle Challenger: Days...",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.enh.digitaluk.co.uk/8937fb09-e464-45ca-a17c-471bb9b249ec",
-              "event_locator": "dvb://233a..2104;cbf",
+              "program_id": "crid://csi.digitaluk.co.uk/7e4da47e-7294-4265-9cd6-07f90d9f3753",
+              "event_locator": "dvb://233a..2104;dc5",
               "main_title": "Space Shuttle Challenger: Days...",
-              "image_url": "https://img.freeviewplay.tv/pdf69f4f6fb2b8635c424a8ee33acfa8b",
-              "start_time": "2026-01-28T23:00:00+0000",
+              "image_url": "https://img.freeviewplay.tv/ea0fae1d899270d2e464bdf20489d8735",
+              "start_time": "2026-01-28T23:30:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "bb283c7f46bee23ae94537a0749dada3"
+              "uuid": "953ffe144336f769be358f4cde30cc1c"
             }
           }
         ]

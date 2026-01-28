@@ -372,32 +372,44 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/a8a65602-d254-4661-bd49-f30aa9d0c219",
+        "program_id": "crid://csi.digitaluk.co.uk/51d53674-0b2d-400d-96c2-787d0c161a1e",
         "event_locator": "dvb://233a..9704;b7d7",
         "main_title": "Elementary",
         "image_url": "https://img.freeviewplay.tv/e7cfd99a1c9d0564475b08e93099d17b3",
         "start_time": "2026-01-28T22:20:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "b612c49da6034d2f94ba27c7ae44ca88"
+        "uuid": "6ff7402df14c77bb40031bb79a7aa7cd"
       }
     },
     {
       "startTime": "2026-01-28T23:20:00+0000",
       "duration": 60,
       "name": "Nurses on the Ward",
-      "description": "",
+      "description": "Series 1: Episode 1",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/9cc68de7-9aa8-42df-a833-c00c6eae89b3",
+        "program_id": "crid://www.uktv.co.uk/ep/w/CTOQ633P",
         "event_locator": "dvb://233a..9704;b7db",
         "main_title": "Nurses on the Ward",
+        "secondary_title": "Series 1: Episode 1",
+        "image_url": "https://img.freeviewplay.tv/p4de2c59a2c518f019937591151d05490",
         "start_time": "2026-01-28T23:20:00+0000",
         "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "on_demand": {
+          "start_of_availability": "2023-02-06T04:00:00+0000",
+          "end_of_availability": "2099-12-31T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTOQ633P",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/eaf5637b94ed6bc61da82df8c60f25fb4",
-        "uuid": "00ca51c0f5a59ed8a7c5be6cecc57c5b"
+        "uuid": "e1fb9814ed555aefba9b367d02ec1668"
       }
     }
   ],
@@ -773,32 +785,44 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/a8a65602-d254-4661-bd49-f30aa9d0c219",
+              "program_id": "crid://csi.digitaluk.co.uk/51d53674-0b2d-400d-96c2-787d0c161a1e",
               "event_locator": "dvb://233a..9704;b7d7",
               "main_title": "Elementary",
               "image_url": "https://img.freeviewplay.tv/e7cfd99a1c9d0564475b08e93099d17b3",
               "start_time": "2026-01-28T22:20:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "b612c49da6034d2f94ba27c7ae44ca88"
+              "uuid": "6ff7402df14c77bb40031bb79a7aa7cd"
             }
           },
           {
             "startTime": "2026-01-28T23:20:00+0000",
             "duration": 60,
             "name": "Nurses on the Ward",
-            "description": "",
+            "description": "Series 1: Episode 1",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/9cc68de7-9aa8-42df-a833-c00c6eae89b3",
+              "program_id": "crid://www.uktv.co.uk/ep/w/CTOQ633P",
               "event_locator": "dvb://233a..9704;b7db",
               "main_title": "Nurses on the Ward",
+              "secondary_title": "Series 1: Episode 1",
+              "image_url": "https://img.freeviewplay.tv/p4de2c59a2c518f019937591151d05490",
               "start_time": "2026-01-28T23:20:00+0000",
               "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "on_demand": {
+                "start_of_availability": "2023-02-06T04:00:00+0000",
+                "end_of_availability": "2099-12-31T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTOQ633P",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/eaf5637b94ed6bc61da82df8c60f25fb4",
-              "uuid": "00ca51c0f5a59ed8a7c5be6cecc57c5b"
+              "uuid": "e1fb9814ed555aefba9b367d02ec1668"
             }
           }
         ]
