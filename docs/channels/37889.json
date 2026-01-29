@@ -127,6 +127,16 @@
         "image_url": "https://img.freeviewplay.tv/pe51d43c4030a14efd1d02211ce2fa249",
         "start_time": "2026-01-29T05:45:00+0000",
         "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2026-01-28T15:00:00+0000",
+          "end_of_availability": "2027-01-28T15:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-208",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
         "fallback_image_url": "http://img.freeviewplay.net/e26d87acb6dd733385c901ca60a4eae72",
         "uuid": "d024229dfbe9fc9fa4ac3c6cf2f01c07"
@@ -330,6 +340,16 @@
         "image_url": "https://img.freeviewplay.tv/pe8f02ef4c5ac7202edb365a79ae9bd3f",
         "start_time": "2026-01-29T11:10:00+0000",
         "duration": "PT55M",
+        "on_demand": {
+          "start_of_availability": "2026-01-29T12:05:00+0000",
+          "end_of_availability": "2026-03-14T12:05:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=american-pickers&programme=78127-007",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
         "uuid": "99f088f712d1ccf81f5d79fa0b4a7f14"
       }
@@ -337,19 +357,30 @@
     {
       "startTime": "2026-01-29T12:05:00+0000",
       "duration": 5,
-      "name": "Channel 4 News Summary",
-      "description": "",
+      "name": "Channel 4 News",
+      "description": "20265649. Thu 29 Jan Midday News",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.enh.digitaluk.co.uk/5a40b3e1-7282-47d3-813f-875d6cebe4a9",
+        "program_id": "crid://movida.bebanjo.net/mas/version/79199/020/ASDELIVERED/C",
         "event_locator": "dvb://233a..9401;b61",
-        "main_title": "Channel 4 News Summary",
-        "image_url": "https://img.freeviewplay.tv/pca71744c7bcc75a00326b7c7cabd743c",
+        "main_title": "Channel 4 News",
+        "secondary_title": "20265649. Thu 29 Jan Midday News",
+        "image_url": "https://img.freeviewplay.tv/pf8ca872665f7346b1067daf32da2cd00",
         "start_time": "2026-01-29T12:05:00+0000",
         "duration": "PT5M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "e0525993da2c1e4ec46f10ca535bc2a0"
+        "on_demand": {
+          "start_of_availability": "2026-01-29T12:10:00+0000",
+          "end_of_availability": "2026-01-30T12:10:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=79199-020",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+        "uuid": "f1c57c142bff957f36ea7ffa956b7c0d"
       }
     },
     {
@@ -404,6 +435,16 @@
         "image_url": "https://img.freeviewplay.tv/p2d75c1f20521feff99687688ab9a417a",
         "start_time": "2026-01-29T14:10:00+0000",
         "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2026-01-29T15:00:00+0000",
+          "end_of_availability": "2027-01-29T15:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-209",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
         "fallback_image_url": "http://img.freeviewplay.net/e26d87acb6dd733385c901ca60a4eae72",
         "uuid": "7c1a292b1ace2f09af5c3acbf57d9c56"
@@ -442,6 +483,16 @@
         "image_url": "https://img.freeviewplay.tv/pc516056ece91794efc429643fb45546a",
         "start_time": "2026-01-29T16:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-01-29T17:00:00+0000",
+          "end_of_availability": "2026-03-15T17:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=a-new-life-in-the-sun&programme=76993-019",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
         "uuid": "daf29c03350b800a5b238e64afa3aa71"
       }
@@ -478,9 +529,19 @@
         "event_locator": "dvb://233a..9401;b68",
         "main_title": "A Place in the Sun",
         "secondary_title": "20269217. Thu 29 Jan 2026: Garonne, France",
-        "image_url": "https://img.freeviewplay.tv/p5e8c617fa75d438c808aeda2681786cd",
+        "image_url": "https://img.freeviewplay.tv/pd4acdde2eddc9a7915573cad3d014ae0",
         "start_time": "2026-01-29T18:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-01-29T19:00:00+0000",
+          "end_of_availability": "2026-02-28T19:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=a-place-in-the-sun&programme=75273-064",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
         "fallback_image_url": "http://img.freeviewplay.net/ece3245a744d098bcceb304d179a3e885",
         "uuid": "f96a77085ea099b87969765f17acd018"
@@ -707,6 +768,16 @@
               "image_url": "https://img.freeviewplay.tv/pe51d43c4030a14efd1d02211ce2fa249",
               "start_time": "2026-01-29T05:45:00+0000",
               "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2026-01-28T15:00:00+0000",
+                "end_of_availability": "2027-01-28T15:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-208",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
               "fallback_image_url": "http://img.freeviewplay.net/e26d87acb6dd733385c901ca60a4eae72",
               "uuid": "d024229dfbe9fc9fa4ac3c6cf2f01c07"
@@ -910,6 +981,16 @@
               "image_url": "https://img.freeviewplay.tv/pe8f02ef4c5ac7202edb365a79ae9bd3f",
               "start_time": "2026-01-29T11:10:00+0000",
               "duration": "PT55M",
+              "on_demand": {
+                "start_of_availability": "2026-01-29T12:05:00+0000",
+                "end_of_availability": "2026-03-14T12:05:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=american-pickers&programme=78127-007",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
               "uuid": "99f088f712d1ccf81f5d79fa0b4a7f14"
             }
@@ -917,19 +998,30 @@
           {
             "startTime": "2026-01-29T12:05:00+0000",
             "duration": 5,
-            "name": "Channel 4 News Summary",
-            "description": "",
+            "name": "Channel 4 News",
+            "description": "20265649. Thu 29 Jan Midday News",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.enh.digitaluk.co.uk/5a40b3e1-7282-47d3-813f-875d6cebe4a9",
+              "program_id": "crid://movida.bebanjo.net/mas/version/79199/020/ASDELIVERED/C",
               "event_locator": "dvb://233a..9401;b61",
-              "main_title": "Channel 4 News Summary",
-              "image_url": "https://img.freeviewplay.tv/pca71744c7bcc75a00326b7c7cabd743c",
+              "main_title": "Channel 4 News",
+              "secondary_title": "20265649. Thu 29 Jan Midday News",
+              "image_url": "https://img.freeviewplay.tv/pf8ca872665f7346b1067daf32da2cd00",
               "start_time": "2026-01-29T12:05:00+0000",
               "duration": "PT5M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "e0525993da2c1e4ec46f10ca535bc2a0"
+              "on_demand": {
+                "start_of_availability": "2026-01-29T12:10:00+0000",
+                "end_of_availability": "2026-01-30T12:10:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=79199-020",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+              "uuid": "f1c57c142bff957f36ea7ffa956b7c0d"
             }
           },
           {
@@ -984,6 +1076,16 @@
               "image_url": "https://img.freeviewplay.tv/p2d75c1f20521feff99687688ab9a417a",
               "start_time": "2026-01-29T14:10:00+0000",
               "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2026-01-29T15:00:00+0000",
+                "end_of_availability": "2027-01-29T15:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-209",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
               "fallback_image_url": "http://img.freeviewplay.net/e26d87acb6dd733385c901ca60a4eae72",
               "uuid": "7c1a292b1ace2f09af5c3acbf57d9c56"
@@ -1022,6 +1124,16 @@
               "image_url": "https://img.freeviewplay.tv/pc516056ece91794efc429643fb45546a",
               "start_time": "2026-01-29T16:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-01-29T17:00:00+0000",
+                "end_of_availability": "2026-03-15T17:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=a-new-life-in-the-sun&programme=76993-019",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
               "uuid": "daf29c03350b800a5b238e64afa3aa71"
             }
@@ -1058,9 +1170,19 @@
               "event_locator": "dvb://233a..9401;b68",
               "main_title": "A Place in the Sun",
               "secondary_title": "20269217. Thu 29 Jan 2026: Garonne, France",
-              "image_url": "https://img.freeviewplay.tv/p5e8c617fa75d438c808aeda2681786cd",
+              "image_url": "https://img.freeviewplay.tv/pd4acdde2eddc9a7915573cad3d014ae0",
               "start_time": "2026-01-29T18:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-01-29T19:00:00+0000",
+                "end_of_availability": "2026-02-28T19:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=a-place-in-the-sun&programme=75273-064",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
               "fallback_image_url": "http://img.freeviewplay.net/ece3245a744d098bcceb304d179a3e885",
               "uuid": "f96a77085ea099b87969765f17acd018"
