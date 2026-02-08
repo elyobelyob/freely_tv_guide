@@ -12,14 +12,24 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/b6fd2f4e-742b-4917-bb2d-ca40189c7f19",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/beyondthelaw-00-00/52715423",
         "event_locator": "dvb://233a..9803;6b8d",
         "main_title": "Beyond the Law",
-        "image_url": "https://img.freeviewplay.tv/e04c5126f8307850815b53d5bf0e88b15",
+        "image_url": "https://img.freeviewplay.tv/pc04c0d7ae0da0d4b2679a0ca8be9bde3",
         "start_time": "2026-02-08T01:20:00+0000",
         "duration": "PT1H50M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "840b024648a008668f11fcfbc6e18946"
+        "on_demand": {
+          "start_of_availability": "2025-09-03T00:00:00+0000",
+          "end_of_availability": "2028-12-21T23:59:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52715423&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "9346e7ef4508847cc15a607035dfd989"
       }
     },
     {
@@ -359,14 +369,24 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/b6fd2f4e-742b-4917-bb2d-ca40189c7f19",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/beyondthelaw-00-00/52715423",
               "event_locator": "dvb://233a..9803;6b8d",
               "main_title": "Beyond the Law",
-              "image_url": "https://img.freeviewplay.tv/e04c5126f8307850815b53d5bf0e88b15",
+              "image_url": "https://img.freeviewplay.tv/pc04c0d7ae0da0d4b2679a0ca8be9bde3",
               "start_time": "2026-02-08T01:20:00+0000",
               "duration": "PT1H50M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "840b024648a008668f11fcfbc6e18946"
+              "on_demand": {
+                "start_of_availability": "2025-09-03T00:00:00+0000",
+                "end_of_availability": "2028-12-21T23:59:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52715423&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "9346e7ef4508847cc15a607035dfd989"
             }
           },
           {
