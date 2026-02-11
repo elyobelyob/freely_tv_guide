@@ -217,6 +217,16 @@
         "image_url": "https://img.freeviewplay.tv/pf47c319c033b8fdbedb73c48f54cebb3",
         "start_time": "2026-02-11T05:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-11T12:00:00+0000",
+          "end_of_availability": "2026-03-13T12:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36356713&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "5b55bd2688ca0f124d053784848702af"
       }
@@ -344,6 +354,16 @@
         "image_url": "https://img.freeviewplay.tv/pf47c319c033b8fdbedb73c48f54cebb3",
         "start_time": "2026-02-11T12:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-11T12:00:00+0000",
+          "end_of_availability": "2026-03-13T12:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36356713&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "c45b4479f6107ef4cbfa045a48cfe903"
       }
@@ -381,6 +401,16 @@
         "image_url": "https://img.freeviewplay.tv/p1ddb4f378a72e2ed421f0eff4461057d",
         "start_time": "2026-02-11T13:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-11T13:00:00+0000",
+          "end_of_availability": "2026-03-13T13:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36362451&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "64866bed9fe416e6d7fe679146ef6d56"
       }
@@ -400,6 +430,16 @@
         "image_url": "https://img.freeviewplay.tv/ped9c4df157dcef9a662200c1c829e181",
         "start_time": "2026-02-11T13:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-11T13:30:00+0000",
+          "end_of_availability": "2026-03-13T14:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36456585&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "83e30f4492a867a05b07c7c5c00622b3"
       }
@@ -462,36 +502,58 @@
       "startTime": "2026-02-11T17:00:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 05: 3. A Woman Scorned",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/d0ce756a-2c4b-4520-8235-6a8e7926abd8",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-05-03/36362671",
         "event_locator": "dvb://233a..9802;46c6",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/eb19a212a11960434b2f70217179d57e6",
+        "secondary_title": "Series 05: 3. A Woman Scorned",
+        "image_url": "https://img.freeviewplay.tv/p9168eb9a15961a119b050cdcf6a5f5dd",
         "start_time": "2026-02-11T17:00:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "f8c3cd9eb7745f1150c97a7b7fc8f9d4"
+        "on_demand": {
+          "start_of_availability": "2026-02-11T17:00:00+0000",
+          "end_of_availability": "2026-03-13T17:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36362671&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "d7bebd0d04cefabbb0ee521452012667"
       }
     },
     {
       "startTime": "2026-02-11T17:30:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 06: 2. Missing Pearl",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/9eed871c-22f0-4b8e-9879-8068e7e88987",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-06-02/36456621",
         "event_locator": "dvb://233a..9802;46c7",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/e8918cd4e297387e400d55d9a19b47017",
+        "secondary_title": "Series 06: 2. Missing Pearl",
+        "image_url": "https://img.freeviewplay.tv/p8c565358ebd10f49b1842c223dc577fc",
         "start_time": "2026-02-11T17:30:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "0703f782d6e49ae5d757542dfafa8481"
+        "on_demand": {
+          "start_of_availability": "2026-02-11T17:30:00+0000",
+          "end_of_availability": "2026-03-13T18:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36456621&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "9b930eefed49741cde792ae50c0b36a5"
       }
     },
     {
@@ -964,6 +1026,16 @@
               "image_url": "https://img.freeviewplay.tv/pf47c319c033b8fdbedb73c48f54cebb3",
               "start_time": "2026-02-11T05:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-11T12:00:00+0000",
+                "end_of_availability": "2026-03-13T12:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36356713&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "5b55bd2688ca0f124d053784848702af"
             }
@@ -1091,6 +1163,16 @@
               "image_url": "https://img.freeviewplay.tv/pf47c319c033b8fdbedb73c48f54cebb3",
               "start_time": "2026-02-11T12:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-11T12:00:00+0000",
+                "end_of_availability": "2026-03-13T12:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36356713&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "c45b4479f6107ef4cbfa045a48cfe903"
             }
@@ -1128,6 +1210,16 @@
               "image_url": "https://img.freeviewplay.tv/p1ddb4f378a72e2ed421f0eff4461057d",
               "start_time": "2026-02-11T13:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-11T13:00:00+0000",
+                "end_of_availability": "2026-03-13T13:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36362451&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "64866bed9fe416e6d7fe679146ef6d56"
             }
@@ -1147,6 +1239,16 @@
               "image_url": "https://img.freeviewplay.tv/ped9c4df157dcef9a662200c1c829e181",
               "start_time": "2026-02-11T13:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-11T13:30:00+0000",
+                "end_of_availability": "2026-03-13T14:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36456585&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "83e30f4492a867a05b07c7c5c00622b3"
             }
@@ -1209,36 +1311,58 @@
             "startTime": "2026-02-11T17:00:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 05: 3. A Woman Scorned",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/d0ce756a-2c4b-4520-8235-6a8e7926abd8",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-05-03/36362671",
               "event_locator": "dvb://233a..9802;46c6",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/eb19a212a11960434b2f70217179d57e6",
+              "secondary_title": "Series 05: 3. A Woman Scorned",
+              "image_url": "https://img.freeviewplay.tv/p9168eb9a15961a119b050cdcf6a5f5dd",
               "start_time": "2026-02-11T17:00:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "f8c3cd9eb7745f1150c97a7b7fc8f9d4"
+              "on_demand": {
+                "start_of_availability": "2026-02-11T17:00:00+0000",
+                "end_of_availability": "2026-03-13T17:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36362671&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "d7bebd0d04cefabbb0ee521452012667"
             }
           },
           {
             "startTime": "2026-02-11T17:30:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 06: 2. Missing Pearl",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/9eed871c-22f0-4b8e-9879-8068e7e88987",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-06-02/36456621",
               "event_locator": "dvb://233a..9802;46c7",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/e8918cd4e297387e400d55d9a19b47017",
+              "secondary_title": "Series 06: 2. Missing Pearl",
+              "image_url": "https://img.freeviewplay.tv/p8c565358ebd10f49b1842c223dc577fc",
               "start_time": "2026-02-11T17:30:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "0703f782d6e49ae5d757542dfafa8481"
+              "on_demand": {
+                "start_of_availability": "2026-02-11T17:30:00+0000",
+                "end_of_availability": "2026-03-13T18:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36456621&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "9b930eefed49741cde792ae50c0b36a5"
             }
           },
           {
