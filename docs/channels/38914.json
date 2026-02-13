@@ -217,6 +217,16 @@
         "image_url": "https://img.freeviewplay.tv/p4a3be300215bb0c4e8516362a9ebb545",
         "start_time": "2026-02-13T05:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-13T12:00:00+0000",
+          "end_of_availability": "2026-03-15T12:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36363059&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "5d082898d36eb8ab96cd11163574985e"
       }
@@ -236,6 +246,16 @@
         "image_url": "https://img.freeviewplay.tv/p6aa9ed5a032e33140f78923de05771e4",
         "start_time": "2026-02-13T05:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-13T12:30:00+0000",
+          "end_of_availability": "2026-03-15T13:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36475735&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "db443b774db253c16698b8372c2c9f22"
       }
@@ -345,6 +365,16 @@
         "image_url": "https://img.freeviewplay.tv/p4a3be300215bb0c4e8516362a9ebb545",
         "start_time": "2026-02-13T12:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-13T12:00:00+0000",
+          "end_of_availability": "2026-03-15T12:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36363059&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "1e7664df21ff9a2d66284b2ecf173c65"
       }
@@ -364,6 +394,16 @@
         "image_url": "https://img.freeviewplay.tv/p6aa9ed5a032e33140f78923de05771e4",
         "start_time": "2026-02-13T12:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-13T12:30:00+0000",
+          "end_of_availability": "2026-03-15T13:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36475735&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "88c608a76f0b701d31db1961220abcd2"
       }
@@ -383,6 +423,16 @@
         "image_url": "https://img.freeviewplay.tv/pb46ed679b06fa65e9b8bb10acbfaf71e",
         "start_time": "2026-02-13T13:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-13T13:00:00+0000",
+          "end_of_availability": "2026-03-15T13:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36396307&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "18969c1431b5be2afea3863b16a71c90"
       }
@@ -402,6 +452,16 @@
         "image_url": "https://img.freeviewplay.tv/p839d9133848ca1e36fa48992ef4b6601",
         "start_time": "2026-02-13T13:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-13T13:30:00+0000",
+          "end_of_availability": "2026-03-15T14:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36475807&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "c43b0eb946bd64bcdb4b8778a573be00"
       }
@@ -464,72 +524,116 @@
       "startTime": "2026-02-13T17:00:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 05: 7. Trail of Truth",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/e26780ed-46cd-49cb-8987-5cf3224a5d3c",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-05-07/36396376",
         "event_locator": "dvb://233a..9802;4718",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/ed4071c1a3ea67b7eea6c991a020123b9",
+        "secondary_title": "Series 05: 7. Trail of Truth",
+        "image_url": "https://img.freeviewplay.tv/p0ab6fbcf152d912917e038cc92e879f0",
         "start_time": "2026-02-13T17:00:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "ca150efee9f3b04f8dc9a0e854694d67"
+        "on_demand": {
+          "start_of_availability": "2026-02-13T17:00:00+0000",
+          "end_of_availability": "2026-03-15T17:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36396376&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "68336faf550b308bb37324db47f86c69"
       }
     },
     {
       "startTime": "2026-02-13T17:30:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 06: 6. Fire Dot Com",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/5745790f-482d-4619-892e-1fa4a27561b7",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-06-06/36475888",
         "event_locator": "dvb://233a..9802;4719",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/ef8ff3f8a167a13a001d1d084d3f38738",
+        "secondary_title": "Series 06: 6. Fire Dot Com",
+        "image_url": "https://img.freeviewplay.tv/p37a60dd62a74faa96b20d81678cc73c5",
         "start_time": "2026-02-13T17:30:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "dcf1f2eea002afdc734afe57c24080e8"
+        "on_demand": {
+          "start_of_availability": "2026-02-13T17:30:00+0000",
+          "end_of_availability": "2026-03-15T18:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36475888&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "83918a1426c83104609391febbbc71d7"
       }
     },
     {
       "startTime": "2026-02-13T18:00:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 05: 8. Material Evidence",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/a767ace3-ad8d-44ee-a9dc-b493f84a2586",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-05-08/36396466",
         "event_locator": "dvb://233a..9802;471a",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/e7cdcdc05f1260ed2c221230f0b5be8e1",
+        "secondary_title": "Series 05: 8. Material Evidence",
+        "image_url": "https://img.freeviewplay.tv/pd89195f03030cec76c88cba0b3837026",
         "start_time": "2026-02-13T18:00:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "3695461d98228fad185fb301e47c317f"
+        "on_demand": {
+          "start_of_availability": "2026-02-13T18:00:00+0000",
+          "end_of_availability": "2026-03-15T18:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36396466&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "cc4ce9d784394b570134fec8ce0d4627"
       }
     },
     {
       "startTime": "2026-02-13T18:30:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 06: 7. Mistaken for Dead",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/6a3d393b-3838-4260-bb56-f4144a1adc74",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-06-07/36495831",
         "event_locator": "dvb://233a..9802;471b",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/ee85af167e750acec68c2326c9efd29d9",
+        "secondary_title": "Series 06: 7. Mistaken for Dead",
+        "image_url": "https://img.freeviewplay.tv/p3655543ec37df224eaa70dcc9cfb8110",
         "start_time": "2026-02-13T18:30:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "434343a080bb4a136eb6cd8e1e7ced7e"
+        "on_demand": {
+          "start_of_availability": "2026-02-13T18:30:00+0000",
+          "end_of_availability": "2026-03-15T19:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36495831&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "ca667b7d9261c7904adb0951f4e34ee9"
       }
     },
     {
@@ -966,6 +1070,16 @@
               "image_url": "https://img.freeviewplay.tv/p4a3be300215bb0c4e8516362a9ebb545",
               "start_time": "2026-02-13T05:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-13T12:00:00+0000",
+                "end_of_availability": "2026-03-15T12:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36363059&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "5d082898d36eb8ab96cd11163574985e"
             }
@@ -985,6 +1099,16 @@
               "image_url": "https://img.freeviewplay.tv/p6aa9ed5a032e33140f78923de05771e4",
               "start_time": "2026-02-13T05:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-13T12:30:00+0000",
+                "end_of_availability": "2026-03-15T13:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36475735&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "db443b774db253c16698b8372c2c9f22"
             }
@@ -1094,6 +1218,16 @@
               "image_url": "https://img.freeviewplay.tv/p4a3be300215bb0c4e8516362a9ebb545",
               "start_time": "2026-02-13T12:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-13T12:00:00+0000",
+                "end_of_availability": "2026-03-15T12:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36363059&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "1e7664df21ff9a2d66284b2ecf173c65"
             }
@@ -1113,6 +1247,16 @@
               "image_url": "https://img.freeviewplay.tv/p6aa9ed5a032e33140f78923de05771e4",
               "start_time": "2026-02-13T12:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-13T12:30:00+0000",
+                "end_of_availability": "2026-03-15T13:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36475735&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "88c608a76f0b701d31db1961220abcd2"
             }
@@ -1132,6 +1276,16 @@
               "image_url": "https://img.freeviewplay.tv/pb46ed679b06fa65e9b8bb10acbfaf71e",
               "start_time": "2026-02-13T13:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-13T13:00:00+0000",
+                "end_of_availability": "2026-03-15T13:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36396307&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "18969c1431b5be2afea3863b16a71c90"
             }
@@ -1151,6 +1305,16 @@
               "image_url": "https://img.freeviewplay.tv/p839d9133848ca1e36fa48992ef4b6601",
               "start_time": "2026-02-13T13:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-13T13:30:00+0000",
+                "end_of_availability": "2026-03-15T14:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36475807&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "c43b0eb946bd64bcdb4b8778a573be00"
             }
@@ -1213,72 +1377,116 @@
             "startTime": "2026-02-13T17:00:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 05: 7. Trail of Truth",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/e26780ed-46cd-49cb-8987-5cf3224a5d3c",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-05-07/36396376",
               "event_locator": "dvb://233a..9802;4718",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/ed4071c1a3ea67b7eea6c991a020123b9",
+              "secondary_title": "Series 05: 7. Trail of Truth",
+              "image_url": "https://img.freeviewplay.tv/p0ab6fbcf152d912917e038cc92e879f0",
               "start_time": "2026-02-13T17:00:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "ca150efee9f3b04f8dc9a0e854694d67"
+              "on_demand": {
+                "start_of_availability": "2026-02-13T17:00:00+0000",
+                "end_of_availability": "2026-03-15T17:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36396376&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "68336faf550b308bb37324db47f86c69"
             }
           },
           {
             "startTime": "2026-02-13T17:30:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 06: 6. Fire Dot Com",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/5745790f-482d-4619-892e-1fa4a27561b7",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-06-06/36475888",
               "event_locator": "dvb://233a..9802;4719",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/ef8ff3f8a167a13a001d1d084d3f38738",
+              "secondary_title": "Series 06: 6. Fire Dot Com",
+              "image_url": "https://img.freeviewplay.tv/p37a60dd62a74faa96b20d81678cc73c5",
               "start_time": "2026-02-13T17:30:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "dcf1f2eea002afdc734afe57c24080e8"
+              "on_demand": {
+                "start_of_availability": "2026-02-13T17:30:00+0000",
+                "end_of_availability": "2026-03-15T18:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36475888&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "83918a1426c83104609391febbbc71d7"
             }
           },
           {
             "startTime": "2026-02-13T18:00:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 05: 8. Material Evidence",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/a767ace3-ad8d-44ee-a9dc-b493f84a2586",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-05-08/36396466",
               "event_locator": "dvb://233a..9802;471a",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/e7cdcdc05f1260ed2c221230f0b5be8e1",
+              "secondary_title": "Series 05: 8. Material Evidence",
+              "image_url": "https://img.freeviewplay.tv/pd89195f03030cec76c88cba0b3837026",
               "start_time": "2026-02-13T18:00:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "3695461d98228fad185fb301e47c317f"
+              "on_demand": {
+                "start_of_availability": "2026-02-13T18:00:00+0000",
+                "end_of_availability": "2026-03-15T18:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36396466&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "cc4ce9d784394b570134fec8ce0d4627"
             }
           },
           {
             "startTime": "2026-02-13T18:30:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 06: 7. Mistaken for Dead",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/6a3d393b-3838-4260-bb56-f4144a1adc74",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-06-07/36495831",
               "event_locator": "dvb://233a..9802;471b",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/ee85af167e750acec68c2326c9efd29d9",
+              "secondary_title": "Series 06: 7. Mistaken for Dead",
+              "image_url": "https://img.freeviewplay.tv/p3655543ec37df224eaa70dcc9cfb8110",
               "start_time": "2026-02-13T18:30:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "434343a080bb4a136eb6cd8e1e7ced7e"
+              "on_demand": {
+                "start_of_availability": "2026-02-13T18:30:00+0000",
+                "end_of_availability": "2026-03-15T19:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36495831&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "ca667b7d9261c7904adb0951f4e34ee9"
             }
           },
           {
