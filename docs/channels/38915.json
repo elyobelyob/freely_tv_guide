@@ -30,14 +30,24 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/88a23537-6b68-4a9b-8a1c-9259012c071d",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/theshed-00-00/48042127",
         "event_locator": "dvb://233a..9803;6c0d",
         "main_title": "The Shed",
-        "image_url": "https://img.freeviewplay.tv/e888ec0aae702b045b3fa419f19eca2a8",
+        "image_url": "https://img.freeviewplay.tv/p7b1c7908af9b21c66cd59941e4a68988",
         "start_time": "2026-02-15T03:00:00+0000",
         "duration": "PT2H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-        "uuid": "fd6a3f70b4863e4aa545898e2d377933"
+        "on_demand": {
+          "start_of_availability": "2025-08-04T13:15:00+0000",
+          "end_of_availability": "2026-02-28T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=48042127&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "dab52e217801c1ee238b94ae0420cea8"
       }
     },
     {
@@ -377,14 +387,24 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/88a23537-6b68-4a9b-8a1c-9259012c071d",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/theshed-00-00/48042127",
               "event_locator": "dvb://233a..9803;6c0d",
               "main_title": "The Shed",
-              "image_url": "https://img.freeviewplay.tv/e888ec0aae702b045b3fa419f19eca2a8",
+              "image_url": "https://img.freeviewplay.tv/p7b1c7908af9b21c66cd59941e4a68988",
               "start_time": "2026-02-15T03:00:00+0000",
               "duration": "PT2H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-              "uuid": "fd6a3f70b4863e4aa545898e2d377933"
+              "on_demand": {
+                "start_of_availability": "2025-08-04T13:15:00+0000",
+                "end_of_availability": "2026-02-28T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=48042127&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "dab52e217801c1ee238b94ae0420cea8"
             }
           },
           {
