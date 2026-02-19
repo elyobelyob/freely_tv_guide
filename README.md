@@ -328,16 +328,17 @@ layout_options:
 | 16188 | Trailblazer | [channels/16188.json](https://elyobelyob.github.io/freely_tv_guide/channels/16188.json) |
 | 38658 | U&Dave | [channels/38658.json](https://elyobelyob.github.io/freely_tv_guide/channels/38658.json) |
 | 34624 | U&DaveJaVu | [channels/34624.json](https://elyobelyob.github.io/freely_tv_guide/channels/34624.json) |
+| 38661 | U&DaveJaVu | [channels/38661.json](https://elyobelyob.github.io/freely_tv_guide/channels/38661.json) |
 | 38659 | U&Drama | [channels/38659.json](https://elyobelyob.github.io/freely_tv_guide/channels/38659.json) |
 | 22336 | U&Drama+1 | [channels/22336.json](https://elyobelyob.github.io/freely_tv_guide/channels/22336.json) |
 | 19968 | U&Eden | [channels/19968.json](https://elyobelyob.github.io/freely_tv_guide/channels/19968.json) |
+| 38662 | U&Eden | [channels/38662.json](https://elyobelyob.github.io/freely_tv_guide/channels/38662.json) |
 | 38660 | U&W | [channels/38660.json](https://elyobelyob.github.io/freely_tv_guide/channels/38660.json) |
 | 38657 | U&Yesterday | [channels/38657.json](https://elyobelyob.github.io/freely_tv_guide/channels/38657.json) |
 | 14464 | WildEarth | [channels/14464.json](https://elyobelyob.github.io/freely_tv_guide/channels/14464.json) |
-| 34368 | YAAAS! | [channels/34368.json](https://elyobelyob.github.io/freely_tv_guide/channels/34368.json) |
 | 22592 | talkSPORT | [channels/22592.json](https://elyobelyob.github.io/freely_tv_guide/channels/22592.json) |
+| 33920 | wedotv Big Stories | [channels/33920.json](https://elyobelyob.github.io/freely_tv_guide/channels/33920.json) |
 | 34496 | wedotv Movies UK | [channels/34496.json](https://elyobelyob.github.io/freely_tv_guide/channels/34496.json) |
-| 33920 | wedotv movies | [channels/33920.json](https://elyobelyob.github.io/freely_tv_guide/channels/33920.json) |
 <!-- CHANNELS_END -->
 
 ## Stats
