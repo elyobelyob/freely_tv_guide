@@ -30,14 +30,24 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/36873c52-6fe2-4e5c-95df-622a447e212b",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/executivecommand-00-00/51730987",
         "event_locator": "dvb://233a..9803;6ca0",
         "main_title": "Executive Command",
-        "image_url": "https://img.freeviewplay.tv/eb768345e8f238cf222701c010affc4a0",
+        "image_url": "https://img.freeviewplay.tv/p64bf7653674eb89ca35980dc97b61db4",
         "start_time": "2026-02-23T03:10:00+0000",
         "duration": "PT1H50M",
+        "on_demand": {
+          "start_of_availability": "2025-10-19T00:05:00+0000",
+          "end_of_availability": "2027-03-31T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=51730987&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-        "uuid": "6561eb63f00bace274941967367ffa9c"
+        "uuid": "e92e8d36a08aeac1d7043f69f1b3ac9f"
       }
     },
     {
@@ -359,14 +369,24 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/36873c52-6fe2-4e5c-95df-622a447e212b",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/executivecommand-00-00/51730987",
               "event_locator": "dvb://233a..9803;6ca0",
               "main_title": "Executive Command",
-              "image_url": "https://img.freeviewplay.tv/eb768345e8f238cf222701c010affc4a0",
+              "image_url": "https://img.freeviewplay.tv/p64bf7653674eb89ca35980dc97b61db4",
               "start_time": "2026-02-23T03:10:00+0000",
               "duration": "PT1H50M",
+              "on_demand": {
+                "start_of_availability": "2025-10-19T00:05:00+0000",
+                "end_of_availability": "2027-03-31T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=51730987&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-              "uuid": "6561eb63f00bace274941967367ffa9c"
+              "uuid": "e92e8d36a08aeac1d7043f69f1b3ac9f"
             }
           },
           {
