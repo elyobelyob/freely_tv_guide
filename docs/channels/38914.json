@@ -217,6 +217,16 @@
         "image_url": "https://img.freeviewplay.tv/p67749e24be3f3f57053defe6758bc24c",
         "start_time": "2026-02-26T05:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-26T05:00:00+0000",
+          "end_of_availability": "2026-03-28T05:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36325354&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "a0dfb3245563b8e63aff1d37deaaf5f3"
       }
@@ -236,6 +246,16 @@
         "image_url": "https://img.freeviewplay.tv/p2df4f3d4ad04cd661216515890972601",
         "start_time": "2026-02-26T05:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-26T05:30:00+0000",
+          "end_of_availability": "2026-03-28T06:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36325361&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "379b8ef5d593351e6af383cd8faf6b38"
       }
@@ -966,6 +986,16 @@
               "image_url": "https://img.freeviewplay.tv/p67749e24be3f3f57053defe6758bc24c",
               "start_time": "2026-02-26T05:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-26T05:00:00+0000",
+                "end_of_availability": "2026-03-28T05:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36325354&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "a0dfb3245563b8e63aff1d37deaaf5f3"
             }
@@ -985,6 +1015,16 @@
               "image_url": "https://img.freeviewplay.tv/p2df4f3d4ad04cd661216515890972601",
               "start_time": "2026-02-26T05:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-26T05:30:00+0000",
+                "end_of_availability": "2026-03-28T06:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36325361&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "379b8ef5d593351e6af383cd8faf6b38"
             }
