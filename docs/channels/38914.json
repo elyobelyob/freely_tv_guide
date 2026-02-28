@@ -217,6 +217,16 @@
         "image_url": "https://img.freeviewplay.tv/p27ccfd189e6dbe4f7a583ddc61f0b86d",
         "start_time": "2026-02-28T05:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-28T05:00:00+0000",
+          "end_of_availability": "2026-03-30T05:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36344280&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "e813905bf76b246151ac2fba814b3f6b"
       }
@@ -236,6 +246,16 @@
         "image_url": "https://img.freeviewplay.tv/p174424341e1b51889ad3a2c24933f7ae",
         "start_time": "2026-02-28T05:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-28T05:30:00+0000",
+          "end_of_availability": "2026-03-30T06:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36344382&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "e59c12cdab1b378408b7ca2f1bcad1d1"
       }
@@ -273,6 +293,16 @@
         "image_url": "https://img.freeviewplay.tv/p5121117dd4d63e06754ada244d7cfe42",
         "start_time": "2026-02-28T09:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-28T09:00:00+0000",
+          "end_of_availability": "2026-03-30T09:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36456502&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "a6318b4910b6c515e1a5406914e42d0f"
       }
@@ -292,6 +322,16 @@
         "image_url": "https://img.freeviewplay.tv/pad7d53d9a938d31d0e8753139039d4ea",
         "start_time": "2026-02-28T09:30:00+0000",
         "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2026-02-28T09:30:00+0000",
+          "end_of_availability": "2026-03-30T09:55:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=37234534&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "2e5105b36ac45b7d70ebbce30dcd3215"
       }
@@ -311,6 +351,16 @@
         "image_url": "https://img.freeviewplay.tv/p5b2dd7cb8911c4fa2c0f849d52ae49c1",
         "start_time": "2026-02-28T09:55:00+0000",
         "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2026-02-28T09:55:00+0000",
+          "end_of_availability": "2026-03-30T10:20:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36562028&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "5323974796c233d571556703b5a06ce2"
       }
@@ -355,18 +405,29 @@
       "startTime": "2026-02-28T11:00:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 10: 21. Writer's Block",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/0f094cc9-61e9-42a3-9d6e-1d836b273298",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-10-21/40808603",
         "event_locator": "dvb://233a..9802;51a5",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/e4b7ae5da9ad4572d21b0ce47054993da",
+        "secondary_title": "Series 10: 21. Writer's Block",
+        "image_url": "https://img.freeviewplay.tv/p432a2e034e0fc0aa11d0734eb6e824ee",
         "start_time": "2026-02-28T11:00:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "62d5db1eed4de70dcb2ec398975664b1"
+        "on_demand": {
+          "start_of_availability": "2025-08-04T13:15:00+0000",
+          "end_of_availability": "2026-02-28T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=40808603&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "fe15b357d4f16e82abdf75554e4492cb"
       }
     },
     {
@@ -384,6 +445,16 @@
         "image_url": "https://img.freeviewplay.tv/paac4b49ba2d8569f9cc413f767ec4efc",
         "start_time": "2026-02-28T11:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-02-28T11:30:00+0000",
+          "end_of_availability": "2026-03-30T12:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36562247&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "549ebc88311548b059a14ac730b43c19"
       }
@@ -446,36 +517,58 @@
       "startTime": "2026-02-28T15:00:00+0000",
       "duration": 30,
       "name": "Facing Evil",
-      "description": "",
+      "description": "Series 05: 4. Melissa Harris",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/4baa1025-7702-4354-9b9e-9cc72be9fff8",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/facingevil-05-04/48218525",
         "event_locator": "dvb://233a..9802;4976",
         "main_title": "Facing Evil",
-        "image_url": "https://img.freeviewplay.tv/e7745c5525f7f226279c5e1bfdc4faaae",
+        "secondary_title": "Series 05: 4. Melissa Harris",
+        "image_url": "https://img.freeviewplay.tv/p47f9898728082cc15b3ed48a1f107efb",
         "start_time": "2026-02-28T15:00:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "947ee98cdbd406d9579f69355671b0fb"
+        "on_demand": {
+          "start_of_availability": "2026-02-28T15:00:00+0000",
+          "end_of_availability": "2026-03-30T15:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=48218525&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "22776b5d83a94cbca84199e9092db3b7"
       }
     },
     {
       "startTime": "2026-02-28T15:30:00+0000",
       "duration": 30,
       "name": "Facing Evil",
-      "description": "",
+      "description": "Series 05: 5. Alexandra Tobias",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/0297c348-2c6a-4377-9c14-c83592a005c1",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/facingevil-05-05/48272441",
         "event_locator": "dvb://233a..9802;4977",
         "main_title": "Facing Evil",
-        "image_url": "https://img.freeviewplay.tv/ed1f18090de412e4f122d84acf972ce56",
+        "secondary_title": "Series 05: 5. Alexandra Tobias",
+        "image_url": "https://img.freeviewplay.tv/p8c0b7284c306341733cc9ae219dd9ec2",
         "start_time": "2026-02-28T15:30:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "f9091b65b0086864eba5b0f40a28715b"
+        "on_demand": {
+          "start_of_availability": "2026-02-28T15:30:00+0000",
+          "end_of_availability": "2026-03-30T16:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=48272441&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "d7c1ae4953f37c22fb1246e1941642d2"
       }
     },
     {
@@ -1002,6 +1095,16 @@
               "image_url": "https://img.freeviewplay.tv/p27ccfd189e6dbe4f7a583ddc61f0b86d",
               "start_time": "2026-02-28T05:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-28T05:00:00+0000",
+                "end_of_availability": "2026-03-30T05:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36344280&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "e813905bf76b246151ac2fba814b3f6b"
             }
@@ -1021,6 +1124,16 @@
               "image_url": "https://img.freeviewplay.tv/p174424341e1b51889ad3a2c24933f7ae",
               "start_time": "2026-02-28T05:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-28T05:30:00+0000",
+                "end_of_availability": "2026-03-30T06:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36344382&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "e59c12cdab1b378408b7ca2f1bcad1d1"
             }
@@ -1058,6 +1171,16 @@
               "image_url": "https://img.freeviewplay.tv/p5121117dd4d63e06754ada244d7cfe42",
               "start_time": "2026-02-28T09:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-28T09:00:00+0000",
+                "end_of_availability": "2026-03-30T09:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36456502&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "a6318b4910b6c515e1a5406914e42d0f"
             }
@@ -1077,6 +1200,16 @@
               "image_url": "https://img.freeviewplay.tv/pad7d53d9a938d31d0e8753139039d4ea",
               "start_time": "2026-02-28T09:30:00+0000",
               "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2026-02-28T09:30:00+0000",
+                "end_of_availability": "2026-03-30T09:55:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=37234534&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "2e5105b36ac45b7d70ebbce30dcd3215"
             }
@@ -1096,6 +1229,16 @@
               "image_url": "https://img.freeviewplay.tv/p5b2dd7cb8911c4fa2c0f849d52ae49c1",
               "start_time": "2026-02-28T09:55:00+0000",
               "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2026-02-28T09:55:00+0000",
+                "end_of_availability": "2026-03-30T10:20:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36562028&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "5323974796c233d571556703b5a06ce2"
             }
@@ -1140,18 +1283,29 @@
             "startTime": "2026-02-28T11:00:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 10: 21. Writer's Block",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/0f094cc9-61e9-42a3-9d6e-1d836b273298",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-10-21/40808603",
               "event_locator": "dvb://233a..9802;51a5",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/e4b7ae5da9ad4572d21b0ce47054993da",
+              "secondary_title": "Series 10: 21. Writer's Block",
+              "image_url": "https://img.freeviewplay.tv/p432a2e034e0fc0aa11d0734eb6e824ee",
               "start_time": "2026-02-28T11:00:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "62d5db1eed4de70dcb2ec398975664b1"
+              "on_demand": {
+                "start_of_availability": "2025-08-04T13:15:00+0000",
+                "end_of_availability": "2026-02-28T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=40808603&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "fe15b357d4f16e82abdf75554e4492cb"
             }
           },
           {
@@ -1169,6 +1323,16 @@
               "image_url": "https://img.freeviewplay.tv/paac4b49ba2d8569f9cc413f767ec4efc",
               "start_time": "2026-02-28T11:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-02-28T11:30:00+0000",
+                "end_of_availability": "2026-03-30T12:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36562247&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "549ebc88311548b059a14ac730b43c19"
             }
@@ -1231,36 +1395,58 @@
             "startTime": "2026-02-28T15:00:00+0000",
             "duration": 30,
             "name": "Facing Evil",
-            "description": "",
+            "description": "Series 05: 4. Melissa Harris",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/4baa1025-7702-4354-9b9e-9cc72be9fff8",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/facingevil-05-04/48218525",
               "event_locator": "dvb://233a..9802;4976",
               "main_title": "Facing Evil",
-              "image_url": "https://img.freeviewplay.tv/e7745c5525f7f226279c5e1bfdc4faaae",
+              "secondary_title": "Series 05: 4. Melissa Harris",
+              "image_url": "https://img.freeviewplay.tv/p47f9898728082cc15b3ed48a1f107efb",
               "start_time": "2026-02-28T15:00:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "947ee98cdbd406d9579f69355671b0fb"
+              "on_demand": {
+                "start_of_availability": "2026-02-28T15:00:00+0000",
+                "end_of_availability": "2026-03-30T15:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=48218525&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "22776b5d83a94cbca84199e9092db3b7"
             }
           },
           {
             "startTime": "2026-02-28T15:30:00+0000",
             "duration": 30,
             "name": "Facing Evil",
-            "description": "",
+            "description": "Series 05: 5. Alexandra Tobias",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/0297c348-2c6a-4377-9c14-c83592a005c1",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/facingevil-05-05/48272441",
               "event_locator": "dvb://233a..9802;4977",
               "main_title": "Facing Evil",
-              "image_url": "https://img.freeviewplay.tv/ed1f18090de412e4f122d84acf972ce56",
+              "secondary_title": "Series 05: 5. Alexandra Tobias",
+              "image_url": "https://img.freeviewplay.tv/p8c0b7284c306341733cc9ae219dd9ec2",
               "start_time": "2026-02-28T15:30:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "f9091b65b0086864eba5b0f40a28715b"
+              "on_demand": {
+                "start_of_availability": "2026-02-28T15:30:00+0000",
+                "end_of_availability": "2026-03-30T16:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=48272441&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "d7c1ae4953f37c22fb1246e1941642d2"
             }
           },
           {

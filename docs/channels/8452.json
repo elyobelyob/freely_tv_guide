@@ -37,6 +37,16 @@
         "image_url": "https://img.freeviewplay.tv/pa376898d287b8e75dda71cfaca5f39bb",
         "start_time": "2026-02-28T01:10:00+0000",
         "duration": "PT1H55M",
+        "on_demand": {
+          "start_of_availability": "2026-02-28T02:05:00+0000",
+          "end_of_availability": "2026-03-30T01:05:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=scream-2022&programme=74804-001",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
         "fallback_image_url": "http://img.freeviewplay.net/eacbb041a9582d973f5bcc01ad2410d24",
         "uuid": "1ba06596a01d01f1299ac320646a3155"
@@ -551,7 +561,7 @@
     },
     {
       "startTime": "2026-02-28T17:40:00+0000",
-      "duration": 65,
+      "duration": 50,
       "name": "Sandi's Great British Woodland...",
       "description": "",
       "synopsis": "",
@@ -562,27 +572,38 @@
         "main_title": "Sandi's Great British Woodland...",
         "image_url": "https://img.freeviewplay.tv/p469f9c2c1453940dac9dbbcd6bd0d8e0",
         "start_time": "2026-02-28T17:40:00+0000",
-        "duration": "PT1H5M",
+        "duration": "PT50M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "uuid": "7c403b3a4f9e2b22ba0e62c3ea6aac42"
       }
     },
     {
-      "startTime": "2026-02-28T18:45:00+0000",
-      "duration": 30,
+      "startTime": "2026-02-28T18:30:00+0000",
+      "duration": 45,
       "name": "Channel 4 News",
-      "description": "",
+      "description": "21273287. Sat 28 Feb 2026: USA & Israel Strike Iran Special",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.enh.digitaluk.co.uk/242a5c5c-eb90-4e7f-a21c-82fff44e2280",
+        "program_id": "crid://movida.bebanjo.net/mas/version/76009/059/ASDELIVERED/C",
         "event_locator": "dvb://233a..2104;25fa",
         "main_title": "Channel 4 News",
-        "image_url": "https://img.freeviewplay.tv/p327b364fb6640f0cce1e18aa6309ecaf",
-        "start_time": "2026-02-28T18:45:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "0b26ea5ccee1310f95665040050dfed6"
+        "secondary_title": "21273287. Sat 28 Feb 2026: USA & Israel Strike Iran Special",
+        "image_url": "https://img.freeviewplay.tv/pc51b1c417c74478372605b44248466d8",
+        "start_time": "2026-02-28T18:30:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2026-02-28T18:15:00+0000",
+          "end_of_availability": "2026-03-01T18:15:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=76009-059",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+        "uuid": "b87763f2e99cf32aac947599211e2827"
       }
     },
     {
@@ -636,6 +657,16 @@
         "image_url": "https://img.freeviewplay.tv/p5d40d021e2439f68b35af6ba512373b1",
         "start_time": "2026-02-28T21:15:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-02-28T21:15:00+0000",
+          "end_of_availability": "2026-04-13T20:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=roman-empire-by-train-with-alice-roberts&programme=77981-004",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "uuid": "b6ea0102dfcd8a627ca86ce0d8505cf7"
       }
@@ -716,6 +747,16 @@
               "image_url": "https://img.freeviewplay.tv/pa376898d287b8e75dda71cfaca5f39bb",
               "start_time": "2026-02-28T01:10:00+0000",
               "duration": "PT1H55M",
+              "on_demand": {
+                "start_of_availability": "2026-02-28T02:05:00+0000",
+                "end_of_availability": "2026-03-30T01:05:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=scream-2022&programme=74804-001",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
               "fallback_image_url": "http://img.freeviewplay.net/eacbb041a9582d973f5bcc01ad2410d24",
               "uuid": "1ba06596a01d01f1299ac320646a3155"
@@ -1230,7 +1271,7 @@
           },
           {
             "startTime": "2026-02-28T17:40:00+0000",
-            "duration": 65,
+            "duration": 50,
             "name": "Sandi's Great British Woodland...",
             "description": "",
             "synopsis": "",
@@ -1241,27 +1282,38 @@
               "main_title": "Sandi's Great British Woodland...",
               "image_url": "https://img.freeviewplay.tv/p469f9c2c1453940dac9dbbcd6bd0d8e0",
               "start_time": "2026-02-28T17:40:00+0000",
-              "duration": "PT1H5M",
+              "duration": "PT50M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "uuid": "7c403b3a4f9e2b22ba0e62c3ea6aac42"
             }
           },
           {
-            "startTime": "2026-02-28T18:45:00+0000",
-            "duration": 30,
+            "startTime": "2026-02-28T18:30:00+0000",
+            "duration": 45,
             "name": "Channel 4 News",
-            "description": "",
+            "description": "21273287. Sat 28 Feb 2026: USA & Israel Strike Iran Special",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.enh.digitaluk.co.uk/242a5c5c-eb90-4e7f-a21c-82fff44e2280",
+              "program_id": "crid://movida.bebanjo.net/mas/version/76009/059/ASDELIVERED/C",
               "event_locator": "dvb://233a..2104;25fa",
               "main_title": "Channel 4 News",
-              "image_url": "https://img.freeviewplay.tv/p327b364fb6640f0cce1e18aa6309ecaf",
-              "start_time": "2026-02-28T18:45:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "0b26ea5ccee1310f95665040050dfed6"
+              "secondary_title": "21273287. Sat 28 Feb 2026: USA & Israel Strike Iran Special",
+              "image_url": "https://img.freeviewplay.tv/pc51b1c417c74478372605b44248466d8",
+              "start_time": "2026-02-28T18:30:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2026-02-28T18:15:00+0000",
+                "end_of_availability": "2026-03-01T18:15:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=76009-059",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+              "uuid": "b87763f2e99cf32aac947599211e2827"
             }
           },
           {
@@ -1315,6 +1367,16 @@
               "image_url": "https://img.freeviewplay.tv/p5d40d021e2439f68b35af6ba512373b1",
               "start_time": "2026-02-28T21:15:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-02-28T21:15:00+0000",
+                "end_of_availability": "2026-04-13T20:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=roman-empire-by-train-with-alice-roberts&programme=77981-004",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "uuid": "b6ea0102dfcd8a627ca86ce0d8505cf7"
             }
