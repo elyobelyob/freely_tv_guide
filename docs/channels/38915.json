@@ -30,14 +30,25 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/fcb862b2-3c5a-44a2-8286-ed9ec08dfd86",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/acceleration-00-00/52968905",
         "event_locator": "dvb://233a..9803;6d0b",
         "main_title": "Acceleration",
+        "image_url": "https://img.freeviewplay.tv/p35ef72483e54f3b72759580d89079290",
         "start_time": "2026-03-01T03:15:00+0000",
         "duration": "PT1H45M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "on_demand": {
+          "start_of_availability": "2025-08-07T00:00:00+0000",
+          "end_of_availability": "2029-07-31T00:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52968905&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "fallback_image_url": "http://img.freeviewplay.net/e8c56068c913314496673e9773b2e13a1",
-        "uuid": "51188c53266c3d6f352bd2cdacfd10d9"
+        "uuid": "0cdda3f1e8c7ced779fb3efa7f74e59b"
       }
     },
     {
@@ -108,6 +119,16 @@
         "image_url": "https://img.freeviewplay.tv/pa3bab0d2414e4ba5d42708506840f118",
         "start_time": "2026-03-01T07:00:00+0000",
         "duration": "PT1H50M",
+        "on_demand": {
+          "start_of_availability": "2025-08-04T13:15:00+0000",
+          "end_of_availability": "2026-11-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=39256561&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "b96f48fe954b4e1bca4b3a2cc9dcb28e"
       }
@@ -359,14 +380,25 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/fcb862b2-3c5a-44a2-8286-ed9ec08dfd86",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/acceleration-00-00/52968905",
               "event_locator": "dvb://233a..9803;6d0b",
               "main_title": "Acceleration",
+              "image_url": "https://img.freeviewplay.tv/p35ef72483e54f3b72759580d89079290",
               "start_time": "2026-03-01T03:15:00+0000",
               "duration": "PT1H45M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "on_demand": {
+                "start_of_availability": "2025-08-07T00:00:00+0000",
+                "end_of_availability": "2029-07-31T00:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52968905&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "fallback_image_url": "http://img.freeviewplay.net/e8c56068c913314496673e9773b2e13a1",
-              "uuid": "51188c53266c3d6f352bd2cdacfd10d9"
+              "uuid": "0cdda3f1e8c7ced779fb3efa7f74e59b"
             }
           },
           {
@@ -437,6 +469,16 @@
               "image_url": "https://img.freeviewplay.tv/pa3bab0d2414e4ba5d42708506840f118",
               "start_time": "2026-03-01T07:00:00+0000",
               "duration": "PT1H50M",
+              "on_demand": {
+                "start_of_availability": "2025-08-04T13:15:00+0000",
+                "end_of_availability": "2026-11-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=39256561&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "b96f48fe954b4e1bca4b3a2cc9dcb28e"
             }

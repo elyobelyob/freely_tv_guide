@@ -37,6 +37,16 @@
         "image_url": "https://img.freeviewplay.tv/pce2f4f1c87dc83b1bd8343edbb9c608f",
         "start_time": "2026-03-01T01:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-06-11T00:01:00+0000",
+          "end_of_availability": "2028-11-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52804767&stream_id=713&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "41bd1a4493b24725745ba770821877cb"
       }
@@ -56,6 +66,16 @@
         "image_url": "https://img.freeviewplay.tv/pb6996411c90425c0f36c29a1c33a7c9d",
         "start_time": "2026-03-01T02:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-06-11T00:01:00+0000",
+          "end_of_availability": "2028-11-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52804815&stream_id=713&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "98dbc07811506fe37fac60b6a4f4b185"
       }
@@ -75,6 +95,16 @@
         "image_url": "https://img.freeviewplay.tv/p17e2cad74117a24d125989b86520652b",
         "start_time": "2026-03-01T03:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-06-11T00:01:00+0000",
+          "end_of_availability": "2028-11-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52792417&stream_id=713&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "2af567e4b3613d828abb1f53b8d7dba4"
       }
@@ -551,54 +581,87 @@
       "startTime": "2026-03-01T18:05:00+0000",
       "duration": 55,
       "name": "Forensic Factor",
-      "description": "",
+      "description": "Series 02: 6. Beauty Queen",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/1e9a26ba-de11-4343-b9ca-36e90d868c89",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/forensicfactor-02-06/52799702",
         "event_locator": "dvb://233a..9801;55e3",
         "main_title": "Forensic Factor",
-        "image_url": "https://img.freeviewplay.tv/e5e9bbf73902a944d5c1bc3d5e8798542",
+        "secondary_title": "Series 02: 6. Beauty Queen",
+        "image_url": "https://img.freeviewplay.tv/pdb238d090de52780c107d38429b0d36d",
         "start_time": "2026-03-01T18:05:00+0000",
         "duration": "PT55M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "2f56863299e4b3a6eed1fb3506ff188b"
+        "on_demand": {
+          "start_of_availability": "2025-06-11T00:01:00+0000",
+          "end_of_availability": "2028-11-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52799702&stream_id=713&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "c1fdd0cd38a7a6081a2b91622b5d91f2"
       }
     },
     {
       "startTime": "2026-03-01T19:00:00+0000",
       "duration": 60,
       "name": "Forensic Factor",
-      "description": "",
+      "description": "Series 03: 1. Fremont Bomber",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/8a17c168-2566-4014-ba92-ab8922cd76ce",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/forensicfactor-03-01/52804704",
         "event_locator": "dvb://233a..9801;55e4",
         "main_title": "Forensic Factor",
-        "image_url": "https://img.freeviewplay.tv/e5e9bbf73902a944d5c1bc3d5e8798542",
+        "secondary_title": "Series 03: 1. Fremont Bomber",
+        "image_url": "https://img.freeviewplay.tv/p054cf1dd08ae0165b836e0bc08a3cc89",
         "start_time": "2026-03-01T19:00:00+0000",
         "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "0379e43940859a072d261bd81e6960d6"
+        "on_demand": {
+          "start_of_availability": "2025-06-11T00:01:00+0000",
+          "end_of_availability": "2028-11-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52804704&stream_id=713&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "ef799413b3fa2a70eb887826e689551f"
       }
     },
     {
       "startTime": "2026-03-01T20:00:00+0000",
       "duration": 60,
       "name": "Forensic Factor",
-      "description": "",
+      "description": "Series 03: 2. Vanished",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/de68a7e4-980a-4e1a-b9c0-d803573fd4c4",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/forensicfactor-03-02/52804668",
         "event_locator": "dvb://233a..9801;55e5",
         "main_title": "Forensic Factor",
-        "image_url": "https://img.freeviewplay.tv/e5e9bbf73902a944d5c1bc3d5e8798542",
+        "secondary_title": "Series 03: 2. Vanished",
+        "image_url": "https://img.freeviewplay.tv/pccfd57138933fb560afdc8e5b9c2a71a",
         "start_time": "2026-03-01T20:00:00+0000",
         "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "0acac37d3b35e343cc261efc9e2fa5b6"
+        "on_demand": {
+          "start_of_availability": "2025-06-11T00:01:00+0000",
+          "end_of_availability": "2028-11-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52804668&stream_id=713&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "aa84d6861fa8b64eee42569e96785351"
       }
     },
     {
@@ -693,6 +756,16 @@
               "image_url": "https://img.freeviewplay.tv/pce2f4f1c87dc83b1bd8343edbb9c608f",
               "start_time": "2026-03-01T01:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-06-11T00:01:00+0000",
+                "end_of_availability": "2028-11-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52804767&stream_id=713&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "41bd1a4493b24725745ba770821877cb"
             }
@@ -712,6 +785,16 @@
               "image_url": "https://img.freeviewplay.tv/pb6996411c90425c0f36c29a1c33a7c9d",
               "start_time": "2026-03-01T02:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-06-11T00:01:00+0000",
+                "end_of_availability": "2028-11-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52804815&stream_id=713&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "98dbc07811506fe37fac60b6a4f4b185"
             }
@@ -731,6 +814,16 @@
               "image_url": "https://img.freeviewplay.tv/p17e2cad74117a24d125989b86520652b",
               "start_time": "2026-03-01T03:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-06-11T00:01:00+0000",
+                "end_of_availability": "2028-11-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52792417&stream_id=713&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "2af567e4b3613d828abb1f53b8d7dba4"
             }
@@ -1207,54 +1300,87 @@
             "startTime": "2026-03-01T18:05:00+0000",
             "duration": 55,
             "name": "Forensic Factor",
-            "description": "",
+            "description": "Series 02: 6. Beauty Queen",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/1e9a26ba-de11-4343-b9ca-36e90d868c89",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/forensicfactor-02-06/52799702",
               "event_locator": "dvb://233a..9801;55e3",
               "main_title": "Forensic Factor",
-              "image_url": "https://img.freeviewplay.tv/e5e9bbf73902a944d5c1bc3d5e8798542",
+              "secondary_title": "Series 02: 6. Beauty Queen",
+              "image_url": "https://img.freeviewplay.tv/pdb238d090de52780c107d38429b0d36d",
               "start_time": "2026-03-01T18:05:00+0000",
               "duration": "PT55M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "2f56863299e4b3a6eed1fb3506ff188b"
+              "on_demand": {
+                "start_of_availability": "2025-06-11T00:01:00+0000",
+                "end_of_availability": "2028-11-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52799702&stream_id=713&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "c1fdd0cd38a7a6081a2b91622b5d91f2"
             }
           },
           {
             "startTime": "2026-03-01T19:00:00+0000",
             "duration": 60,
             "name": "Forensic Factor",
-            "description": "",
+            "description": "Series 03: 1. Fremont Bomber",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/8a17c168-2566-4014-ba92-ab8922cd76ce",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/forensicfactor-03-01/52804704",
               "event_locator": "dvb://233a..9801;55e4",
               "main_title": "Forensic Factor",
-              "image_url": "https://img.freeviewplay.tv/e5e9bbf73902a944d5c1bc3d5e8798542",
+              "secondary_title": "Series 03: 1. Fremont Bomber",
+              "image_url": "https://img.freeviewplay.tv/p054cf1dd08ae0165b836e0bc08a3cc89",
               "start_time": "2026-03-01T19:00:00+0000",
               "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "0379e43940859a072d261bd81e6960d6"
+              "on_demand": {
+                "start_of_availability": "2025-06-11T00:01:00+0000",
+                "end_of_availability": "2028-11-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52804704&stream_id=713&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "ef799413b3fa2a70eb887826e689551f"
             }
           },
           {
             "startTime": "2026-03-01T20:00:00+0000",
             "duration": 60,
             "name": "Forensic Factor",
-            "description": "",
+            "description": "Series 03: 2. Vanished",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/de68a7e4-980a-4e1a-b9c0-d803573fd4c4",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/forensicfactor-03-02/52804668",
               "event_locator": "dvb://233a..9801;55e5",
               "main_title": "Forensic Factor",
-              "image_url": "https://img.freeviewplay.tv/e5e9bbf73902a944d5c1bc3d5e8798542",
+              "secondary_title": "Series 03: 2. Vanished",
+              "image_url": "https://img.freeviewplay.tv/pccfd57138933fb560afdc8e5b9c2a71a",
               "start_time": "2026-03-01T20:00:00+0000",
               "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "0acac37d3b35e343cc261efc9e2fa5b6"
+              "on_demand": {
+                "start_of_availability": "2025-06-11T00:01:00+0000",
+                "end_of_availability": "2028-11-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52804668&stream_id=713&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "aa84d6861fa8b64eee42569e96785351"
             }
           },
           {
