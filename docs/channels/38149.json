@@ -39,6 +39,16 @@
         "image_url": "https://img.freeviewplay.tv/p75037e0ae0f5d1901257870c236e3d08",
         "start_time": "2026-03-03T01:50:00+0000",
         "duration": "PT55M",
+        "on_demand": {
+          "start_of_availability": "2025-11-01T11:00:00+0000",
+          "end_of_availability": "2026-10-31T00:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5522640001.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/e3d6d41689a065b5cecc8f380570822cb",
         "uuid": "c87595978dbfabe983f86888a5fad62b"
@@ -59,6 +69,16 @@
         "image_url": "https://img.freeviewplay.tv/pc445243250d7674bdaefdc3aef84a5d0",
         "start_time": "2026-03-03T02:45:00+0000",
         "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2025-11-01T11:00:00+0000",
+          "end_of_availability": "2026-10-31T00:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5522640002.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/e3d6d41689a065b5cecc8f380570822cb",
         "uuid": "349d253a47f58b056c22a08919618aa7"
@@ -79,6 +99,16 @@
         "image_url": "https://img.freeviewplay.tv/pfa80ba16eca611d77574465f4e2b3eb4",
         "start_time": "2026-03-03T03:35:00+0000",
         "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2026-01-30T22:02:42+0000",
+          "end_of_availability": "2027-11-30T22:02:42+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5526200003.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/e8dc0f3df25456c3e5a4efb86fa55fab2",
         "uuid": "d47e88bbecba3b90f7f9ae6ae200437f"
@@ -266,126 +296,140 @@
       "startTime": "2026-03-03T15:00:00+0000",
       "duration": 60,
       "name": "Law & Order",
-      "description": "",
+      "description": "Series 12: Access Nation",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/36d095cf-1971-4c03-8055-e15ff4e1c3c6",
+        "program_id": "crid://panorama.five.tv/versions/C5120060015D",
         "event_locator": "dvb://233a..9505;b8a7",
         "main_title": "Law & Order",
+        "secondary_title": "Series 12: Access Nation",
+        "image_url": "https://img.freeviewplay.tv/p6b8208c4c7de20232b8372cc0118cd63",
         "start_time": "2026-03-03T15:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/ea8ded3a79b7c15ae8055238dc15d0a1b",
-        "uuid": "55919c70b3aab079b6c45a4f7c2d225b"
+        "uuid": "4a0d3c33713c8908771a0bf6790772bb"
       }
     },
     {
       "startTime": "2026-03-03T16:00:00+0000",
       "duration": 60,
       "name": "Law & Order",
-      "description": "",
+      "description": "Series 12: Born Again",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/423ec386-f409-432c-a929-7415573f1926",
+        "program_id": "crid://panorama.five.tv/versions/C5120060016D",
         "event_locator": "dvb://233a..9505;b8a8",
         "main_title": "Law & Order",
+        "secondary_title": "Series 12: Born Again",
+        "image_url": "https://img.freeviewplay.tv/p245b3fc09d0637886ed0df37e5b2aea5",
         "start_time": "2026-03-03T16:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/ea8ded3a79b7c15ae8055238dc15d0a1b",
-        "uuid": "5a5f7effc8e28c62219446797b1611fe"
+        "uuid": "98e7936cbc5bb925dae914ab4e4bc1b8"
       }
     },
     {
       "startTime": "2026-03-03T17:00:00+0000",
       "duration": 60,
       "name": "Law & Order",
-      "description": "",
+      "description": "Series 12: Girl Most Likely",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/143074ea-072a-4fe8-a4c5-954059de0ee1",
+        "program_id": "crid://panorama.five.tv/versions/C5120060017D",
         "event_locator": "dvb://233a..9505;b8a9",
         "main_title": "Law & Order",
+        "secondary_title": "Series 12: Girl Most Likely",
+        "image_url": "https://img.freeviewplay.tv/p8ca7ee321558c11697ec6fe165a43f32",
         "start_time": "2026-03-03T17:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/ea8ded3a79b7c15ae8055238dc15d0a1b",
-        "uuid": "eb497f44230b4f2406df9313cb6d072b"
+        "uuid": "5f85662285ad982b4d21cba93815557f"
       }
     },
     {
       "startTime": "2026-03-03T18:00:00+0000",
       "duration": 60,
       "name": "NCIS",
-      "description": "",
+      "description": "Series 6: Episode 21",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/982ec17b-1429-49b8-9721-a25addf68716",
+        "program_id": "crid://panorama.five.tv/versions/C5145930021B",
         "event_locator": "dvb://233a..9505;b8aa",
         "main_title": "NCIS",
+        "secondary_title": "Series 6: Episode 21",
+        "image_url": "https://img.freeviewplay.tv/p19ccbac19747dd9f9c56e30728a0c5dd",
         "start_time": "2026-03-03T18:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/e7f07bde7d83bf3e9da576eae0b91f209",
-        "uuid": "48ba64200a059ce01b4317243d7567e6"
+        "uuid": "0b84d82afc6cbd5a1cb578b3e942db84"
       }
     },
     {
       "startTime": "2026-03-03T19:00:00+0000",
       "duration": 60,
       "name": "NCIS",
-      "description": "",
+      "description": "Series 6: Episode 22",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/ed648eea-d274-4e0c-8c88-fc45d09e6cbe",
+        "program_id": "crid://panorama.five.tv/versions/C5145930022F",
         "event_locator": "dvb://233a..9505;b8ab",
         "main_title": "NCIS",
+        "secondary_title": "Series 6: Episode 22",
+        "image_url": "https://img.freeviewplay.tv/p66c5dcd185b3dc17abc40cb6c8716f09",
         "start_time": "2026-03-03T19:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/e7f07bde7d83bf3e9da576eae0b91f209",
-        "uuid": "3e01afda80e78800a971e26494f6bfe7"
+        "uuid": "4762940cf0686d400d6ab0d1cd909837"
       }
     },
     {
       "startTime": "2026-03-03T20:00:00+0000",
       "duration": 60,
       "name": "NCIS",
-      "description": "",
+      "description": "Series 6: Episode 23",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/8ed0a2ac-7ab0-424d-812b-7db97c31c20e",
+        "program_id": "crid://panorama.five.tv/versions/C5145930023E",
         "event_locator": "dvb://233a..9505;b8ac",
         "main_title": "NCIS",
+        "secondary_title": "Series 6: Episode 23",
+        "image_url": "https://img.freeviewplay.tv/p23b0f39aec09724fcb33a9a5c59fd383",
         "start_time": "2026-03-03T20:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/e7f07bde7d83bf3e9da576eae0b91f209",
-        "uuid": "2a41f3cbddb94a6d2fa82a64d3dd2b45"
+        "uuid": "0c8f3907b441a55c3d8d6b0005f80a0f"
       }
     },
     {
       "startTime": "2026-03-03T21:00:00+0000",
       "duration": 60,
-      "name": "New: Law & Order",
-      "description": "",
+      "name": "Law & Order",
+      "description": "Series 24: The Meaning of Life",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/8a23d8ea-1b99-4340-b925-7566f07a09cd",
+        "program_id": "crid://panorama.five.tv/versions/C5501750004A",
         "event_locator": "dvb://233a..9505;b8ad",
-        "main_title": "New: Law & Order",
+        "main_title": "Law & Order",
+        "secondary_title": "Series 24: The Meaning of Life",
+        "image_url": "https://img.freeviewplay.tv/p5fb6873d0d9a3b66f7a9e89bba8f7192",
         "start_time": "2026-03-03T21:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "fallback_image_url": "http://img.freeviewplay.net/e984adaf27f647192878c34ae346c7acd",
-        "uuid": "e1917e9e77b06c07d2e8c5a4abe4deaa"
+        "uuid": "068bbd76541ab876defdfcea82d12e4c"
       }
     },
     {
@@ -488,6 +532,16 @@
               "image_url": "https://img.freeviewplay.tv/p75037e0ae0f5d1901257870c236e3d08",
               "start_time": "2026-03-03T01:50:00+0000",
               "duration": "PT55M",
+              "on_demand": {
+                "start_of_availability": "2025-11-01T11:00:00+0000",
+                "end_of_availability": "2026-10-31T00:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5522640001.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/e3d6d41689a065b5cecc8f380570822cb",
               "uuid": "c87595978dbfabe983f86888a5fad62b"
@@ -508,6 +562,16 @@
               "image_url": "https://img.freeviewplay.tv/pc445243250d7674bdaefdc3aef84a5d0",
               "start_time": "2026-03-03T02:45:00+0000",
               "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2025-11-01T11:00:00+0000",
+                "end_of_availability": "2026-10-31T00:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5522640002.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/e3d6d41689a065b5cecc8f380570822cb",
               "uuid": "349d253a47f58b056c22a08919618aa7"
@@ -528,6 +592,16 @@
               "image_url": "https://img.freeviewplay.tv/pfa80ba16eca611d77574465f4e2b3eb4",
               "start_time": "2026-03-03T03:35:00+0000",
               "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2026-01-30T22:02:42+0000",
+                "end_of_availability": "2027-11-30T22:02:42+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5526200003.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/e8dc0f3df25456c3e5a4efb86fa55fab2",
               "uuid": "d47e88bbecba3b90f7f9ae6ae200437f"
@@ -715,126 +789,140 @@
             "startTime": "2026-03-03T15:00:00+0000",
             "duration": 60,
             "name": "Law & Order",
-            "description": "",
+            "description": "Series 12: Access Nation",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/36d095cf-1971-4c03-8055-e15ff4e1c3c6",
+              "program_id": "crid://panorama.five.tv/versions/C5120060015D",
               "event_locator": "dvb://233a..9505;b8a7",
               "main_title": "Law & Order",
+              "secondary_title": "Series 12: Access Nation",
+              "image_url": "https://img.freeviewplay.tv/p6b8208c4c7de20232b8372cc0118cd63",
               "start_time": "2026-03-03T15:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/ea8ded3a79b7c15ae8055238dc15d0a1b",
-              "uuid": "55919c70b3aab079b6c45a4f7c2d225b"
+              "uuid": "4a0d3c33713c8908771a0bf6790772bb"
             }
           },
           {
             "startTime": "2026-03-03T16:00:00+0000",
             "duration": 60,
             "name": "Law & Order",
-            "description": "",
+            "description": "Series 12: Born Again",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/423ec386-f409-432c-a929-7415573f1926",
+              "program_id": "crid://panorama.five.tv/versions/C5120060016D",
               "event_locator": "dvb://233a..9505;b8a8",
               "main_title": "Law & Order",
+              "secondary_title": "Series 12: Born Again",
+              "image_url": "https://img.freeviewplay.tv/p245b3fc09d0637886ed0df37e5b2aea5",
               "start_time": "2026-03-03T16:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/ea8ded3a79b7c15ae8055238dc15d0a1b",
-              "uuid": "5a5f7effc8e28c62219446797b1611fe"
+              "uuid": "98e7936cbc5bb925dae914ab4e4bc1b8"
             }
           },
           {
             "startTime": "2026-03-03T17:00:00+0000",
             "duration": 60,
             "name": "Law & Order",
-            "description": "",
+            "description": "Series 12: Girl Most Likely",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/143074ea-072a-4fe8-a4c5-954059de0ee1",
+              "program_id": "crid://panorama.five.tv/versions/C5120060017D",
               "event_locator": "dvb://233a..9505;b8a9",
               "main_title": "Law & Order",
+              "secondary_title": "Series 12: Girl Most Likely",
+              "image_url": "https://img.freeviewplay.tv/p8ca7ee321558c11697ec6fe165a43f32",
               "start_time": "2026-03-03T17:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/ea8ded3a79b7c15ae8055238dc15d0a1b",
-              "uuid": "eb497f44230b4f2406df9313cb6d072b"
+              "uuid": "5f85662285ad982b4d21cba93815557f"
             }
           },
           {
             "startTime": "2026-03-03T18:00:00+0000",
             "duration": 60,
             "name": "NCIS",
-            "description": "",
+            "description": "Series 6: Episode 21",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/982ec17b-1429-49b8-9721-a25addf68716",
+              "program_id": "crid://panorama.five.tv/versions/C5145930021B",
               "event_locator": "dvb://233a..9505;b8aa",
               "main_title": "NCIS",
+              "secondary_title": "Series 6: Episode 21",
+              "image_url": "https://img.freeviewplay.tv/p19ccbac19747dd9f9c56e30728a0c5dd",
               "start_time": "2026-03-03T18:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/e7f07bde7d83bf3e9da576eae0b91f209",
-              "uuid": "48ba64200a059ce01b4317243d7567e6"
+              "uuid": "0b84d82afc6cbd5a1cb578b3e942db84"
             }
           },
           {
             "startTime": "2026-03-03T19:00:00+0000",
             "duration": 60,
             "name": "NCIS",
-            "description": "",
+            "description": "Series 6: Episode 22",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/ed648eea-d274-4e0c-8c88-fc45d09e6cbe",
+              "program_id": "crid://panorama.five.tv/versions/C5145930022F",
               "event_locator": "dvb://233a..9505;b8ab",
               "main_title": "NCIS",
+              "secondary_title": "Series 6: Episode 22",
+              "image_url": "https://img.freeviewplay.tv/p66c5dcd185b3dc17abc40cb6c8716f09",
               "start_time": "2026-03-03T19:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/e7f07bde7d83bf3e9da576eae0b91f209",
-              "uuid": "3e01afda80e78800a971e26494f6bfe7"
+              "uuid": "4762940cf0686d400d6ab0d1cd909837"
             }
           },
           {
             "startTime": "2026-03-03T20:00:00+0000",
             "duration": 60,
             "name": "NCIS",
-            "description": "",
+            "description": "Series 6: Episode 23",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/8ed0a2ac-7ab0-424d-812b-7db97c31c20e",
+              "program_id": "crid://panorama.five.tv/versions/C5145930023E",
               "event_locator": "dvb://233a..9505;b8ac",
               "main_title": "NCIS",
+              "secondary_title": "Series 6: Episode 23",
+              "image_url": "https://img.freeviewplay.tv/p23b0f39aec09724fcb33a9a5c59fd383",
               "start_time": "2026-03-03T20:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/e7f07bde7d83bf3e9da576eae0b91f209",
-              "uuid": "2a41f3cbddb94a6d2fa82a64d3dd2b45"
+              "uuid": "0c8f3907b441a55c3d8d6b0005f80a0f"
             }
           },
           {
             "startTime": "2026-03-03T21:00:00+0000",
             "duration": 60,
-            "name": "New: Law & Order",
-            "description": "",
+            "name": "Law & Order",
+            "description": "Series 24: The Meaning of Life",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/8a23d8ea-1b99-4340-b925-7566f07a09cd",
+              "program_id": "crid://panorama.five.tv/versions/C5501750004A",
               "event_locator": "dvb://233a..9505;b8ad",
-              "main_title": "New: Law & Order",
+              "main_title": "Law & Order",
+              "secondary_title": "Series 24: The Meaning of Life",
+              "image_url": "https://img.freeviewplay.tv/p5fb6873d0d9a3b66f7a9e89bba8f7192",
               "start_time": "2026-03-03T21:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "fallback_image_url": "http://img.freeviewplay.net/e984adaf27f647192878c34ae346c7acd",
-              "uuid": "e1917e9e77b06c07d2e8c5a4abe4deaa"
+              "uuid": "068bbd76541ab876defdfcea82d12e4c"
             }
           },
           {
