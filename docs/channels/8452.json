@@ -55,6 +55,16 @@
         "image_url": "https://img.freeviewplay.tv/pc0b38d0d16c74a0463a00ad7dbb35b4c",
         "start_time": "2026-03-04T02:05:00+0000",
         "duration": "PT55M",
+        "on_demand": {
+          "start_of_availability": "2026-03-01T22:00:00+0000",
+          "end_of_availability": "2026-03-31T21:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=secret-genius&programme=76879-006",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
         "uuid": "e9d7fb58f41b6bc48a79f5b21ee2c65a"
       }
@@ -92,6 +102,16 @@
         "image_url": "https://img.freeviewplay.tv/pa94db8b4774c0ac34aaa086af6b15520",
         "start_time": "2026-03-04T03:50:00+0000",
         "duration": "PT55M",
+        "on_demand": {
+          "start_of_availability": "2026-02-27T23:05:00+0000",
+          "end_of_availability": "2026-04-19T22:05:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=the-last-leg&programme=78850-005",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/e8cd827fc4fcb3c9ccffc301b04bc4ded",
         "uuid": "02df73e1710990b70cd02389fa9bbe97"
@@ -166,6 +186,16 @@
         "image_url": "https://img.freeviewplay.tv/pb1acf3ec0cf9bcd31e24fe2b7c1cbf38",
         "start_time": "2026-03-04T06:45:00+0000",
         "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2026-03-03T15:00:00+0000",
+          "end_of_availability": "2027-03-03T15:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-232",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
         "uuid": "d6379f64ba67fcdd9078a9a1eb6d1a86"
       }
@@ -378,19 +408,30 @@
     {
       "startTime": "2026-03-04T13:05:00+0000",
       "duration": 5,
-      "name": "Channel 4 News Summary",
-      "description": "",
+      "name": "Channel 4 News",
+      "description": "20265848. Wed 4 Mar Midday News",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.enh.digitaluk.co.uk/1fc6f48a-ebd5-440d-b5e8-78e95f7b5d95",
+        "program_id": "crid://movida.bebanjo.net/mas/version/79199/044/ASDELIVERED/C",
         "event_locator": "dvb://233a..2104;2c04",
-        "main_title": "Channel 4 News Summary",
-        "image_url": "https://img.freeviewplay.tv/pca71744c7bcc75a00326b7c7cabd743c",
+        "main_title": "Channel 4 News",
+        "secondary_title": "20265848. Wed 4 Mar Midday News",
+        "image_url": "https://img.freeviewplay.tv/pbd21ae116a271a38ea2ac58ba48cd4c3",
         "start_time": "2026-03-04T13:05:00+0000",
         "duration": "PT5M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "931ae091d042588f553c3791ade13900"
+        "on_demand": {
+          "start_of_availability": "2026-03-04T12:10:00+0000",
+          "end_of_availability": "2026-03-05T12:10:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=79199-044",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+        "uuid": "c72167b0aa2adddff9160175a0718aee"
       }
     },
     {
@@ -444,6 +485,16 @@
         "image_url": "https://img.freeviewplay.tv/p333b1a4333e138aece6e2a30e81f5a87",
         "start_time": "2026-03-04T15:10:00+0000",
         "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2026-03-04T15:00:00+0000",
+          "end_of_availability": "2027-03-04T15:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-233",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
         "uuid": "d7909a478e8d1892758a301e28fe1ed4"
       }
@@ -500,6 +551,16 @@
         "image_url": "https://img.freeviewplay.tv/pe683758728ea52f861a9d3be9c680eb5",
         "start_time": "2026-03-04T18:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-03-04T17:30:00+0000",
+          "end_of_availability": "2026-05-02T16:30:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=four-in-a-bed&programme=77206-008",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "4238fa67d526b57382c478883dd8c7b5"
       }
@@ -519,6 +580,16 @@
         "image_url": "https://img.freeviewplay.tv/pdbdc8f209eba9c7445905746a51b496a",
         "start_time": "2026-03-04T18:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-03-04T18:00:00+0000",
+          "end_of_availability": "2026-04-24T17:00:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://ait.channel4.com/ait/content?brand=come-dine-with-me&programme=77000-008",
+              "template_url": "https://ait.channel4.com/ait/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "7c20832a84b36bf29f1accfdacdbbc53"
       }
@@ -552,7 +623,7 @@
         "program_id": "crid://csi.enh.digitaluk.co.uk/4e5e8528-42a3-4470-95b7-8c58f8a03a2c",
         "event_locator": "dvb://233a..2104;2c0d",
         "main_title": "Channel 4 News",
-        "image_url": "https://img.freeviewplay.tv/e5da142eb57a0ee7a538e2c2d68e04679",
+        "image_url": "https://img.freeviewplay.tv/e46fe96428d01c0a5368cf3af71d8d8e6",
         "start_time": "2026-03-04T20:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -669,6 +740,16 @@
               "image_url": "https://img.freeviewplay.tv/pc0b38d0d16c74a0463a00ad7dbb35b4c",
               "start_time": "2026-03-04T02:05:00+0000",
               "duration": "PT55M",
+              "on_demand": {
+                "start_of_availability": "2026-03-01T22:00:00+0000",
+                "end_of_availability": "2026-03-31T21:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=secret-genius&programme=76879-006",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
               "uuid": "e9d7fb58f41b6bc48a79f5b21ee2c65a"
             }
@@ -706,6 +787,16 @@
               "image_url": "https://img.freeviewplay.tv/pa94db8b4774c0ac34aaa086af6b15520",
               "start_time": "2026-03-04T03:50:00+0000",
               "duration": "PT55M",
+              "on_demand": {
+                "start_of_availability": "2026-02-27T23:05:00+0000",
+                "end_of_availability": "2026-04-19T22:05:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=the-last-leg&programme=78850-005",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/e8cd827fc4fcb3c9ccffc301b04bc4ded",
               "uuid": "02df73e1710990b70cd02389fa9bbe97"
@@ -780,6 +871,16 @@
               "image_url": "https://img.freeviewplay.tv/pb1acf3ec0cf9bcd31e24fe2b7c1cbf38",
               "start_time": "2026-03-04T06:45:00+0000",
               "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2026-03-03T15:00:00+0000",
+                "end_of_availability": "2027-03-03T15:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-232",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
               "uuid": "d6379f64ba67fcdd9078a9a1eb6d1a86"
             }
@@ -992,19 +1093,30 @@
           {
             "startTime": "2026-03-04T13:05:00+0000",
             "duration": 5,
-            "name": "Channel 4 News Summary",
-            "description": "",
+            "name": "Channel 4 News",
+            "description": "20265848. Wed 4 Mar Midday News",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.enh.digitaluk.co.uk/1fc6f48a-ebd5-440d-b5e8-78e95f7b5d95",
+              "program_id": "crid://movida.bebanjo.net/mas/version/79199/044/ASDELIVERED/C",
               "event_locator": "dvb://233a..2104;2c04",
-              "main_title": "Channel 4 News Summary",
-              "image_url": "https://img.freeviewplay.tv/pca71744c7bcc75a00326b7c7cabd743c",
+              "main_title": "Channel 4 News",
+              "secondary_title": "20265848. Wed 4 Mar Midday News",
+              "image_url": "https://img.freeviewplay.tv/pbd21ae116a271a38ea2ac58ba48cd4c3",
               "start_time": "2026-03-04T13:05:00+0000",
               "duration": "PT5M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "931ae091d042588f553c3791ade13900"
+              "on_demand": {
+                "start_of_availability": "2026-03-04T12:10:00+0000",
+                "end_of_availability": "2026-03-05T12:10:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=channel-4-news&programme=79199-044",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
+              "uuid": "c72167b0aa2adddff9160175a0718aee"
             }
           },
           {
@@ -1058,6 +1170,16 @@
               "image_url": "https://img.freeviewplay.tv/p333b1a4333e138aece6e2a30e81f5a87",
               "start_time": "2026-03-04T15:10:00+0000",
               "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2026-03-04T15:00:00+0000",
+                "end_of_availability": "2027-03-04T15:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=countdown&programme=77001-233",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
               "uuid": "d7909a478e8d1892758a301e28fe1ed4"
             }
@@ -1114,6 +1236,16 @@
               "image_url": "https://img.freeviewplay.tv/pe683758728ea52f861a9d3be9c680eb5",
               "start_time": "2026-03-04T18:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-03-04T17:30:00+0000",
+                "end_of_availability": "2026-05-02T16:30:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=four-in-a-bed&programme=77206-008",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "4238fa67d526b57382c478883dd8c7b5"
             }
@@ -1133,6 +1265,16 @@
               "image_url": "https://img.freeviewplay.tv/pdbdc8f209eba9c7445905746a51b496a",
               "start_time": "2026-03-04T18:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-03-04T18:00:00+0000",
+                "end_of_availability": "2026-04-24T17:00:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://ait.channel4.com/ait/content?brand=come-dine-with-me&programme=77000-008",
+                    "template_url": "https://ait.channel4.com/ait/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "7c20832a84b36bf29f1accfdacdbbc53"
             }
@@ -1166,7 +1308,7 @@
               "program_id": "crid://csi.enh.digitaluk.co.uk/4e5e8528-42a3-4470-95b7-8c58f8a03a2c",
               "event_locator": "dvb://233a..2104;2c0d",
               "main_title": "Channel 4 News",
-              "image_url": "https://img.freeviewplay.tv/e5da142eb57a0ee7a538e2c2d68e04679",
+              "image_url": "https://img.freeviewplay.tv/e46fe96428d01c0a5368cf3af71d8d8e6",
               "start_time": "2026-03-04T20:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",

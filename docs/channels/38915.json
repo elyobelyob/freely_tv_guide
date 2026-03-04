@@ -30,14 +30,24 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/4274f5f9-85f2-46ef-91dc-cc7aab5d0db7",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/anybulletwilldo-00-00/51848102",
         "event_locator": "dvb://233a..9803;6d42",
         "main_title": "Any Bullet Will Do",
-        "image_url": "https://img.freeviewplay.tv/e4a9af46d09f7e563ed5abd936632d5ad",
+        "image_url": "https://img.freeviewplay.tv/p7f412dfe3745455182d2950d063e486e",
         "start_time": "2026-03-04T03:00:00+0000",
         "duration": "PT2H",
+        "on_demand": {
+          "start_of_availability": "2025-06-11T00:01:00+0000",
+          "end_of_availability": "2026-05-31T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=51848102&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-        "uuid": "54770dd6d154fd97c85dbef13fc9dbd4"
+        "uuid": "610be649050c46e105141270821fa751"
       }
     },
     {
@@ -360,14 +370,24 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/4274f5f9-85f2-46ef-91dc-cc7aab5d0db7",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/anybulletwilldo-00-00/51848102",
               "event_locator": "dvb://233a..9803;6d42",
               "main_title": "Any Bullet Will Do",
-              "image_url": "https://img.freeviewplay.tv/e4a9af46d09f7e563ed5abd936632d5ad",
+              "image_url": "https://img.freeviewplay.tv/p7f412dfe3745455182d2950d063e486e",
               "start_time": "2026-03-04T03:00:00+0000",
               "duration": "PT2H",
+              "on_demand": {
+                "start_of_availability": "2025-06-11T00:01:00+0000",
+                "end_of_availability": "2026-05-31T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=51848102&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-              "uuid": "54770dd6d154fd97c85dbef13fc9dbd4"
+              "uuid": "610be649050c46e105141270821fa751"
             }
           },
           {
