@@ -51,7 +51,7 @@
         "duration": "PT45M",
         "on_demand": {
           "start_of_availability": "2026-03-03T00:00:53+0000",
-          "end_of_availability": "2027-03-06T02:20:00+0000",
+          "end_of_availability": "2027-03-06T10:36:09+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002sc8k&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -111,7 +111,7 @@
         "duration": "PT1H20M",
         "on_demand": {
           "start_of_availability": "2026-03-05T11:55:00+0000",
-          "end_of_availability": "2027-03-06T04:35:00+0000",
+          "end_of_availability": "2027-03-05T11:55:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002sdtr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -200,8 +200,8 @@
         "start_time": "2026-03-06T05:55:00+0000",
         "duration": "PT1H",
         "on_demand": {
-          "start_of_availability": "2026-03-05T13:45:52+0000",
-          "end_of_availability": "2027-03-06T06:55:00+0000",
+          "start_of_availability": "2026-03-05T13:42:37+0000",
+          "end_of_availability": "2027-03-08T14:25:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002sdtw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -226,7 +226,7 @@
         "event_locator": "dvb://233a..918a;7cff",
         "main_title": "Westminster Hall",
         "secondary_title": "02/03/2026",
-        "image_url": "https://img.freeviewplay.tv/p92505469fb2dfc21b81751fc7d842257",
+        "image_url": "https://img.freeviewplay.tv/p865afe8914d327bcf17e3d348103235f",
         "start_time": "2026-03-06T06:55:00+0000",
         "duration": "PT1H45M",
         "on_demand": {
@@ -286,12 +286,12 @@
         "event_locator": "dvb://233a..918a;7e01",
         "main_title": "Ten Minute Rule Bill",
         "secondary_title": "Police Declarations of Membership",
-        "image_url": "https://img.freeviewplay.tv/p9610f8ff40d3c312b814a61f996db66f",
+        "image_url": "https://img.freeviewplay.tv/p24c943ca416414a9c7fa895388414212",
         "start_time": "2026-03-06T09:45:00+0000",
         "duration": "PT15M",
         "on_demand": {
           "start_of_availability": "2026-03-06T10:00:00+0000",
-          "end_of_availability": "2027-03-06T10:00:00+0000",
+          "end_of_availability": "2027-03-08T23:59:08+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0jq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -306,7 +306,7 @@
     },
     {
       "startTime": "2026-03-06T10:00:00+0000",
-      "duration": 375,
+      "duration": 325,
       "name": "House of Lords",
       "description": "06/03/2026",
       "synopsis": "",
@@ -318,20 +318,40 @@
         "secondary_title": "06/03/2026",
         "image_url": "https://img.freeviewplay.tv/pced4b9ab3b72b3572c846b17ba52cede",
         "start_time": "2026-03-06T10:00:00+0000",
-        "duration": "PT6H15M",
+        "duration": "PT5H25M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e5fa0782b6632372cbef6c9b4014991ec",
+        "uuid": "acfc32c5d462cb51a31c24cf65bdd79d"
+      }
+    },
+    {
+      "startTime": "2026-03-06T15:25:00+0000",
+      "duration": 50,
+      "name": "Northern Ireland Assembly",
+      "description": "Health Questions",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002t0kc",
+        "event_locator": "dvb://233a..918a;7eac",
+        "main_title": "Northern Ireland Assembly",
+        "secondary_title": "Health Questions",
+        "image_url": "https://img.freeviewplay.tv/p1b86a767805d46bee058f39c828351a4",
+        "start_time": "2026-03-06T15:25:00+0000",
+        "duration": "PT50M",
         "on_demand": {
-          "start_of_availability": "2026-03-06T16:15:24+0000",
-          "end_of_availability": "2027-03-06T16:15:24+0000",
+          "start_of_availability": "2026-03-06T16:10:03+0000",
+          "end_of_availability": "2027-03-07T06:03:29+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002scg4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0kc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e5fa0782b6632372cbef6c9b4014991ec",
-        "uuid": "acfc32c5d462cb51a31c24cf65bdd79d"
+        "fallback_image_url": "http://img.freeviewplay.net/e95f6c8f9a73f4883978f70a416188d18",
+        "uuid": "17fb63a25eb51ba0f37eced6b70e44e5"
       }
     },
     {
@@ -351,7 +371,7 @@
         "duration": "PT1H40M",
         "on_demand": {
           "start_of_availability": "2026-03-03T11:30:00+0000",
-          "end_of_availability": "2027-03-06T17:56:31+0000",
+          "end_of_availability": "2027-03-06T17:51:10+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002st25&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -380,8 +400,8 @@
         "start_time": "2026-03-06T17:55:00+0000",
         "duration": "PT1H15M",
         "on_demand": {
-          "start_of_availability": "2026-03-06T19:10:04+0000",
-          "end_of_availability": "2027-03-06T19:10:04+0000",
+          "start_of_availability": "2026-03-06T19:04:43+0000",
+          "end_of_availability": "2027-03-07T20:30:43+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0js&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -410,8 +430,8 @@
         "start_time": "2026-03-06T19:10:00+0000",
         "duration": "PT1H50M",
         "on_demand": {
-          "start_of_availability": "2026-03-06T20:58:13+0000",
-          "end_of_availability": "2027-03-06T20:58:13+0000",
+          "start_of_availability": "2026-03-06T20:52:52+0000",
+          "end_of_availability": "2027-03-09T13:49:31+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0jv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -440,8 +460,8 @@
         "start_time": "2026-03-06T21:00:00+0000",
         "duration": "PT45M",
         "on_demand": {
-          "start_of_availability": "2026-03-05T18:05:00+0000",
-          "end_of_availability": "2027-03-05T18:05:00+0000",
+          "start_of_availability": "2026-03-05T18:00:06+0000",
+          "end_of_availability": "2027-03-05T18:00:06+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002scg8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -470,8 +490,8 @@
         "start_time": "2026-03-06T21:45:00+0000",
         "duration": "PT20M",
         "on_demand": {
-          "start_of_availability": "2026-03-06T22:06:23+0000",
-          "end_of_availability": "2027-03-06T22:06:23+0000",
+          "start_of_availability": "2026-03-06T22:01:02+0000",
+          "end_of_availability": "2027-03-06T22:01:02+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002scgb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -500,8 +520,8 @@
         "start_time": "2026-03-06T22:05:00+0000",
         "duration": "PT25M",
         "on_demand": {
-          "start_of_availability": "2026-03-06T22:31:25+0000",
-          "end_of_availability": "2027-03-06T22:31:25+0000",
+          "start_of_availability": "2026-03-06T22:26:04+0000",
+          "end_of_availability": "2027-03-06T22:26:04+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0jx&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -530,8 +550,8 @@
         "start_time": "2026-03-06T22:30:00+0000",
         "duration": "PT30M",
         "on_demand": {
-          "start_of_availability": "2026-03-06T23:01:49+0000",
-          "end_of_availability": "2027-03-06T23:01:49+0000",
+          "start_of_availability": "2026-03-06T22:56:28+0000",
+          "end_of_availability": "2027-03-06T22:56:28+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0jz&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -560,8 +580,8 @@
         "start_time": "2026-03-06T23:00:00+0000",
         "duration": "PT1H5M",
         "on_demand": {
-          "start_of_availability": "2026-03-07T00:07:13+0000",
-          "end_of_availability": "2027-03-07T00:07:13+0000",
+          "start_of_availability": "2026-03-07T00:01:52+0000",
+          "end_of_availability": "2027-03-07T00:01:52+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0k1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -626,7 +646,7 @@
               "duration": "PT45M",
               "on_demand": {
                 "start_of_availability": "2026-03-03T00:00:53+0000",
-                "end_of_availability": "2027-03-06T02:20:00+0000",
+                "end_of_availability": "2027-03-06T10:36:09+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002sc8k&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -686,7 +706,7 @@
               "duration": "PT1H20M",
               "on_demand": {
                 "start_of_availability": "2026-03-05T11:55:00+0000",
-                "end_of_availability": "2027-03-06T04:35:00+0000",
+                "end_of_availability": "2027-03-05T11:55:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002sdtr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -775,8 +795,8 @@
               "start_time": "2026-03-06T05:55:00+0000",
               "duration": "PT1H",
               "on_demand": {
-                "start_of_availability": "2026-03-05T13:45:52+0000",
-                "end_of_availability": "2027-03-06T06:55:00+0000",
+                "start_of_availability": "2026-03-05T13:42:37+0000",
+                "end_of_availability": "2027-03-08T14:25:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002sdtw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -801,7 +821,7 @@
               "event_locator": "dvb://233a..918a;7cff",
               "main_title": "Westminster Hall",
               "secondary_title": "02/03/2026",
-              "image_url": "https://img.freeviewplay.tv/p92505469fb2dfc21b81751fc7d842257",
+              "image_url": "https://img.freeviewplay.tv/p865afe8914d327bcf17e3d348103235f",
               "start_time": "2026-03-06T06:55:00+0000",
               "duration": "PT1H45M",
               "on_demand": {
@@ -861,12 +881,12 @@
               "event_locator": "dvb://233a..918a;7e01",
               "main_title": "Ten Minute Rule Bill",
               "secondary_title": "Police Declarations of Membership",
-              "image_url": "https://img.freeviewplay.tv/p9610f8ff40d3c312b814a61f996db66f",
+              "image_url": "https://img.freeviewplay.tv/p24c943ca416414a9c7fa895388414212",
               "start_time": "2026-03-06T09:45:00+0000",
               "duration": "PT15M",
               "on_demand": {
                 "start_of_availability": "2026-03-06T10:00:00+0000",
-                "end_of_availability": "2027-03-06T10:00:00+0000",
+                "end_of_availability": "2027-03-08T23:59:08+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0jq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -881,7 +901,7 @@
           },
           {
             "startTime": "2026-03-06T10:00:00+0000",
-            "duration": 375,
+            "duration": 325,
             "name": "House of Lords",
             "description": "06/03/2026",
             "synopsis": "",
@@ -893,20 +913,40 @@
               "secondary_title": "06/03/2026",
               "image_url": "https://img.freeviewplay.tv/pced4b9ab3b72b3572c846b17ba52cede",
               "start_time": "2026-03-06T10:00:00+0000",
-              "duration": "PT6H15M",
+              "duration": "PT5H25M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e5fa0782b6632372cbef6c9b4014991ec",
+              "uuid": "acfc32c5d462cb51a31c24cf65bdd79d"
+            }
+          },
+          {
+            "startTime": "2026-03-06T15:25:00+0000",
+            "duration": 50,
+            "name": "Northern Ireland Assembly",
+            "description": "Health Questions",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002t0kc",
+              "event_locator": "dvb://233a..918a;7eac",
+              "main_title": "Northern Ireland Assembly",
+              "secondary_title": "Health Questions",
+              "image_url": "https://img.freeviewplay.tv/p1b86a767805d46bee058f39c828351a4",
+              "start_time": "2026-03-06T15:25:00+0000",
+              "duration": "PT50M",
               "on_demand": {
-                "start_of_availability": "2026-03-06T16:15:24+0000",
-                "end_of_availability": "2027-03-06T16:15:24+0000",
+                "start_of_availability": "2026-03-06T16:10:03+0000",
+                "end_of_availability": "2027-03-07T06:03:29+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002scg4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0kc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e5fa0782b6632372cbef6c9b4014991ec",
-              "uuid": "acfc32c5d462cb51a31c24cf65bdd79d"
+              "fallback_image_url": "http://img.freeviewplay.net/e95f6c8f9a73f4883978f70a416188d18",
+              "uuid": "17fb63a25eb51ba0f37eced6b70e44e5"
             }
           },
           {
@@ -926,7 +966,7 @@
               "duration": "PT1H40M",
               "on_demand": {
                 "start_of_availability": "2026-03-03T11:30:00+0000",
-                "end_of_availability": "2027-03-06T17:56:31+0000",
+                "end_of_availability": "2027-03-06T17:51:10+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002st25&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -955,8 +995,8 @@
               "start_time": "2026-03-06T17:55:00+0000",
               "duration": "PT1H15M",
               "on_demand": {
-                "start_of_availability": "2026-03-06T19:10:04+0000",
-                "end_of_availability": "2027-03-06T19:10:04+0000",
+                "start_of_availability": "2026-03-06T19:04:43+0000",
+                "end_of_availability": "2027-03-07T20:30:43+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0js&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -985,8 +1025,8 @@
               "start_time": "2026-03-06T19:10:00+0000",
               "duration": "PT1H50M",
               "on_demand": {
-                "start_of_availability": "2026-03-06T20:58:13+0000",
-                "end_of_availability": "2027-03-06T20:58:13+0000",
+                "start_of_availability": "2026-03-06T20:52:52+0000",
+                "end_of_availability": "2027-03-09T13:49:31+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0jv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -1015,8 +1055,8 @@
               "start_time": "2026-03-06T21:00:00+0000",
               "duration": "PT45M",
               "on_demand": {
-                "start_of_availability": "2026-03-05T18:05:00+0000",
-                "end_of_availability": "2027-03-05T18:05:00+0000",
+                "start_of_availability": "2026-03-05T18:00:06+0000",
+                "end_of_availability": "2027-03-05T18:00:06+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002scg8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -1045,8 +1085,8 @@
               "start_time": "2026-03-06T21:45:00+0000",
               "duration": "PT20M",
               "on_demand": {
-                "start_of_availability": "2026-03-06T22:06:23+0000",
-                "end_of_availability": "2027-03-06T22:06:23+0000",
+                "start_of_availability": "2026-03-06T22:01:02+0000",
+                "end_of_availability": "2027-03-06T22:01:02+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002scgb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -1075,8 +1115,8 @@
               "start_time": "2026-03-06T22:05:00+0000",
               "duration": "PT25M",
               "on_demand": {
-                "start_of_availability": "2026-03-06T22:31:25+0000",
-                "end_of_availability": "2027-03-06T22:31:25+0000",
+                "start_of_availability": "2026-03-06T22:26:04+0000",
+                "end_of_availability": "2027-03-06T22:26:04+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0jx&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -1105,8 +1145,8 @@
               "start_time": "2026-03-06T22:30:00+0000",
               "duration": "PT30M",
               "on_demand": {
-                "start_of_availability": "2026-03-06T23:01:49+0000",
-                "end_of_availability": "2027-03-06T23:01:49+0000",
+                "start_of_availability": "2026-03-06T22:56:28+0000",
+                "end_of_availability": "2027-03-06T22:56:28+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0jz&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -1135,8 +1175,8 @@
               "start_time": "2026-03-06T23:00:00+0000",
               "duration": "PT1H5M",
               "on_demand": {
-                "start_of_availability": "2026-03-07T00:07:13+0000",
-                "end_of_availability": "2027-03-07T00:07:13+0000",
+                "start_of_availability": "2026-03-07T00:01:52+0000",
+                "end_of_availability": "2027-03-07T00:01:52+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0k1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
