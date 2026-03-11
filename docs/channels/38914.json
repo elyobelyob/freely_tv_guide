@@ -217,6 +217,16 @@
         "image_url": "https://img.freeviewplay.tv/p55a723c660769bc20942874ac492e032",
         "start_time": "2026-03-11T05:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-03-11T05:00:00+0000",
+          "end_of_availability": "2026-04-10T05:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36424675&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "82aebea5f48c0f64d2cb9acabe4520be"
       }
@@ -236,6 +246,16 @@
         "image_url": "https://img.freeviewplay.tv/p1549092da5f6afbac6100947fc862623",
         "start_time": "2026-03-11T05:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-03-11T05:30:00+0000",
+          "end_of_availability": "2026-04-10T06:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36427701&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "2198c1abed109cb9a14c854409f4fc9a"
       }
@@ -345,6 +365,16 @@
         "image_url": "https://img.freeviewplay.tv/pcf35bc2f022aa034d8b983556d670bd0",
         "start_time": "2026-03-11T12:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-03-11T12:00:00+0000",
+          "end_of_availability": "2026-04-10T12:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36437511&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "f2360066400d717fed09bae3cb3cc591"
       }
@@ -353,18 +383,19 @@
       "startTime": "2026-03-11T12:30:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 16: 15. Pulp Friction",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/06c4cc50-409c-4fc9-bbbd-5f181a7d5591",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-16-15/49957349",
         "event_locator": "dvb://233a..9802;4b2a",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/e9ab282f35d46931b8f756244fa44d9d9",
+        "secondary_title": "Series 16: 15. Pulp Friction",
+        "image_url": "https://img.freeviewplay.tv/p223bc04324f9f386718a525b2bfe8ea9",
         "start_time": "2026-03-11T12:30:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "c0734c64b4a50adcae43dabcc7ba129a"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "95cf973eac720857a3db4fe14481436e"
       }
     },
     {
@@ -382,6 +413,16 @@
         "image_url": "https://img.freeviewplay.tv/p7c25f13a71192ede7af3339cdaad018a",
         "start_time": "2026-03-11T13:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-03-11T13:00:00+0000",
+          "end_of_availability": "2026-04-10T13:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36437584&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "a50c7881d27128add38c39d2486a4bb2"
       }
@@ -390,18 +431,19 @@
       "startTime": "2026-03-11T13:30:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 16: 16. Sole Mate",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/60d87606-8872-47a9-a38f-ff413cad86b3",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-16-16/49957355",
         "event_locator": "dvb://233a..9802;4b2c",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/e01777715c21466fa275373c77ac2dc88",
+        "secondary_title": "Series 16: 16. Sole Mate",
+        "image_url": "https://img.freeviewplay.tv/p633ee31a6cc30d64c6ba1956fb68bded",
         "start_time": "2026-03-11T13:30:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "216a81c3c7b07bc5bec94fdbc5940e76"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "dca612d1a16047f5bec1c1909e36e91f"
       }
     },
     {
@@ -462,72 +504,116 @@
       "startTime": "2026-03-11T17:00:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 07: 38. House Call",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/0d75a1cd-2046-4864-8c7b-8477e50d1a50",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-38/36430544",
         "event_locator": "dvb://233a..9802;4b30",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/e5b75d26281064e7a5bbedb456085e14c",
+        "secondary_title": "Series 07: 38. House Call",
+        "image_url": "https://img.freeviewplay.tv/pa7cf9c6b7da4680da51fddbe73733fd4",
         "start_time": "2026-03-11T17:00:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "d30d8a6bcedf548cafd55651cf808c1f"
+        "on_demand": {
+          "start_of_availability": "2026-03-11T17:00:00+0000",
+          "end_of_availability": "2026-04-10T17:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36430544&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "d567099e86737bd9f5d6b72064183754"
       }
     },
     {
       "startTime": "2026-03-11T17:30:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 07: 39. Marathon Man",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/bc2daab7-3b25-4850-80ba-f11bbe0dbb91",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-39/36433336",
         "event_locator": "dvb://233a..9802;4b31",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/ef09d9a181b5e228006df3544f7195dfd",
+        "secondary_title": "Series 07: 39. Marathon Man",
+        "image_url": "https://img.freeviewplay.tv/pb6e32d0c7e8bf2147c731cbd559bd2bd",
         "start_time": "2026-03-11T17:30:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "97c45da3ea85bfd9e0619d65065bd95a"
+        "on_demand": {
+          "start_of_availability": "2026-03-11T17:30:00+0000",
+          "end_of_availability": "2026-04-10T18:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36433336&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "c5b65c9b217e448e2cba4ed89e2aa852"
       }
     },
     {
       "startTime": "2026-03-11T18:00:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 07: 41. Plastic Fire",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/9c7abcec-1fa4-4379-845f-ad5f513cd455",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-41/36435656",
         "event_locator": "dvb://233a..9802;4b32",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/e43578efe66696d7669df9d44adcffd35",
+        "secondary_title": "Series 07: 41. Plastic Fire",
+        "image_url": "https://img.freeviewplay.tv/pc810305b19e1fc4b687e2e3dad8c5486",
         "start_time": "2026-03-11T18:00:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "0080261ffe23337aa871c2a916227114"
+        "on_demand": {
+          "start_of_availability": "2026-03-11T18:00:00+0000",
+          "end_of_availability": "2026-04-10T18:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36435656&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "db94490d4e166eeadb2233791ddc2016"
       }
     },
     {
       "startTime": "2026-03-11T18:30:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 07: 42. Last Will",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/f801696d-b9f8-490b-9122-b05667982bf7",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-42/36435710",
         "event_locator": "dvb://233a..9802;4b33",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/e81d8cf8213542c0d6210395bbb070f7a",
+        "secondary_title": "Series 07: 42. Last Will",
+        "image_url": "https://img.freeviewplay.tv/p780e6763739f21dcaa0680a47b8f277c",
         "start_time": "2026-03-11T18:30:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "90b08edee93f0a74e16e86b3692c8fd6"
+        "on_demand": {
+          "start_of_availability": "2026-03-11T18:30:00+0000",
+          "end_of_availability": "2026-04-10T19:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36435710&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "231db624a73348903829221b9988e2b3"
       }
     },
     {
@@ -964,6 +1050,16 @@
               "image_url": "https://img.freeviewplay.tv/p55a723c660769bc20942874ac492e032",
               "start_time": "2026-03-11T05:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-03-11T05:00:00+0000",
+                "end_of_availability": "2026-04-10T05:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36424675&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "82aebea5f48c0f64d2cb9acabe4520be"
             }
@@ -983,6 +1079,16 @@
               "image_url": "https://img.freeviewplay.tv/p1549092da5f6afbac6100947fc862623",
               "start_time": "2026-03-11T05:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-03-11T05:30:00+0000",
+                "end_of_availability": "2026-04-10T06:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36427701&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "2198c1abed109cb9a14c854409f4fc9a"
             }
@@ -1092,6 +1198,16 @@
               "image_url": "https://img.freeviewplay.tv/pcf35bc2f022aa034d8b983556d670bd0",
               "start_time": "2026-03-11T12:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-03-11T12:00:00+0000",
+                "end_of_availability": "2026-04-10T12:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36437511&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "f2360066400d717fed09bae3cb3cc591"
             }
@@ -1100,18 +1216,19 @@
             "startTime": "2026-03-11T12:30:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 16: 15. Pulp Friction",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/06c4cc50-409c-4fc9-bbbd-5f181a7d5591",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-16-15/49957349",
               "event_locator": "dvb://233a..9802;4b2a",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/e9ab282f35d46931b8f756244fa44d9d9",
+              "secondary_title": "Series 16: 15. Pulp Friction",
+              "image_url": "https://img.freeviewplay.tv/p223bc04324f9f386718a525b2bfe8ea9",
               "start_time": "2026-03-11T12:30:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "c0734c64b4a50adcae43dabcc7ba129a"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "95cf973eac720857a3db4fe14481436e"
             }
           },
           {
@@ -1129,6 +1246,16 @@
               "image_url": "https://img.freeviewplay.tv/p7c25f13a71192ede7af3339cdaad018a",
               "start_time": "2026-03-11T13:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-03-11T13:00:00+0000",
+                "end_of_availability": "2026-04-10T13:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36437584&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "a50c7881d27128add38c39d2486a4bb2"
             }
@@ -1137,18 +1264,19 @@
             "startTime": "2026-03-11T13:30:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 16: 16. Sole Mate",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/60d87606-8872-47a9-a38f-ff413cad86b3",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-16-16/49957355",
               "event_locator": "dvb://233a..9802;4b2c",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/e01777715c21466fa275373c77ac2dc88",
+              "secondary_title": "Series 16: 16. Sole Mate",
+              "image_url": "https://img.freeviewplay.tv/p633ee31a6cc30d64c6ba1956fb68bded",
               "start_time": "2026-03-11T13:30:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "216a81c3c7b07bc5bec94fdbc5940e76"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "dca612d1a16047f5bec1c1909e36e91f"
             }
           },
           {
@@ -1209,72 +1337,116 @@
             "startTime": "2026-03-11T17:00:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 07: 38. House Call",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/0d75a1cd-2046-4864-8c7b-8477e50d1a50",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-38/36430544",
               "event_locator": "dvb://233a..9802;4b30",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/e5b75d26281064e7a5bbedb456085e14c",
+              "secondary_title": "Series 07: 38. House Call",
+              "image_url": "https://img.freeviewplay.tv/pa7cf9c6b7da4680da51fddbe73733fd4",
               "start_time": "2026-03-11T17:00:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "d30d8a6bcedf548cafd55651cf808c1f"
+              "on_demand": {
+                "start_of_availability": "2026-03-11T17:00:00+0000",
+                "end_of_availability": "2026-04-10T17:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36430544&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "d567099e86737bd9f5d6b72064183754"
             }
           },
           {
             "startTime": "2026-03-11T17:30:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 07: 39. Marathon Man",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/bc2daab7-3b25-4850-80ba-f11bbe0dbb91",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-39/36433336",
               "event_locator": "dvb://233a..9802;4b31",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/ef09d9a181b5e228006df3544f7195dfd",
+              "secondary_title": "Series 07: 39. Marathon Man",
+              "image_url": "https://img.freeviewplay.tv/pb6e32d0c7e8bf2147c731cbd559bd2bd",
               "start_time": "2026-03-11T17:30:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "97c45da3ea85bfd9e0619d65065bd95a"
+              "on_demand": {
+                "start_of_availability": "2026-03-11T17:30:00+0000",
+                "end_of_availability": "2026-04-10T18:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36433336&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "c5b65c9b217e448e2cba4ed89e2aa852"
             }
           },
           {
             "startTime": "2026-03-11T18:00:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 07: 41. Plastic Fire",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/9c7abcec-1fa4-4379-845f-ad5f513cd455",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-41/36435656",
               "event_locator": "dvb://233a..9802;4b32",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/e43578efe66696d7669df9d44adcffd35",
+              "secondary_title": "Series 07: 41. Plastic Fire",
+              "image_url": "https://img.freeviewplay.tv/pc810305b19e1fc4b687e2e3dad8c5486",
               "start_time": "2026-03-11T18:00:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "0080261ffe23337aa871c2a916227114"
+              "on_demand": {
+                "start_of_availability": "2026-03-11T18:00:00+0000",
+                "end_of_availability": "2026-04-10T18:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36435656&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "db94490d4e166eeadb2233791ddc2016"
             }
           },
           {
             "startTime": "2026-03-11T18:30:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 07: 42. Last Will",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/f801696d-b9f8-490b-9122-b05667982bf7",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-07-42/36435710",
               "event_locator": "dvb://233a..9802;4b33",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/e81d8cf8213542c0d6210395bbb070f7a",
+              "secondary_title": "Series 07: 42. Last Will",
+              "image_url": "https://img.freeviewplay.tv/p780e6763739f21dcaa0680a47b8f277c",
               "start_time": "2026-03-11T18:30:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "90b08edee93f0a74e16e86b3692c8fd6"
+              "on_demand": {
+                "start_of_availability": "2026-03-11T18:30:00+0000",
+                "end_of_availability": "2026-04-10T19:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=36435710&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "231db624a73348903829221b9988e2b3"
             }
           },
           {
