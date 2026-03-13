@@ -19,6 +19,16 @@
         "image_url": "https://img.freeviewplay.tv/p9a52afe30f7d3aa51eee277bd3ccb21b",
         "start_time": "2026-03-13T00:15:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-03-08T20:57:54+0000",
+          "end_of_availability": "2030-05-20T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_7907_0222.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "70b7937884e787b9c3f6098464fa3930"
       }
@@ -56,6 +66,16 @@
         "image_url": "https://img.freeviewplay.tv/p22b83f24326eb32477364141e832d799",
         "start_time": "2026-03-13T04:00:00+0000",
         "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2026-03-08T09:21:19+0000",
+          "end_of_availability": "2031-04-11T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_5695_0043.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "d4e5dc0ccd3bff6d60670880cf0c67e1"
       }
@@ -100,36 +120,58 @@
       "startTime": "2026-03-13T07:00:00+0000",
       "duration": 240,
       "name": "Good Morning Britain",
-      "description": "",
+      "description": "Series 13: 50. Friday 13 Mar",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/0172c72a-9224-45e8-aac1-bdaaec080cb3",
+        "program_id": "crid://jvp.itv.com/981xcvr_version",
         "event_locator": "dvb://233a..20a9;427f",
         "main_title": "Good Morning Britain",
-        "image_url": "https://img.freeviewplay.tv/e1dc10c8c6cac600bbdfe87ed94a7823a",
+        "secondary_title": "Series 13: 50. Friday 13 Mar",
+        "image_url": "https://img.freeviewplay.tv/pe8d0f8ee9070b4ee3ab72f482e01f4d4",
         "start_time": "2026-03-13T07:00:00+0000",
         "duration": "PT4H",
+        "on_demand": {
+          "start_of_availability": "2026-03-13T09:54:10+0000",
+          "end_of_availability": "2026-03-20T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_3211_4296.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "7001366ac36c3798bd72e034afa15bfc"
+        "uuid": "4f3be21413fc3c00f4771338fbfe7bf4"
       }
     },
     {
       "startTime": "2026-03-13T11:00:00+0000",
       "duration": 135,
       "name": "This Morning",
-      "description": "",
+      "description": "Series 38: 50. Friday 13 Mar",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/c0b5affe-6afb-4a6b-b6be-639bd0558362",
+        "program_id": "crid://jvp.itv.com/7b5g172_version",
         "event_locator": "dvb://233a..20a9;4282",
         "main_title": "This Morning",
-        "image_url": "https://img.freeviewplay.tv/ecd51439e7f5ed9656dd1875d1c5f453b",
+        "secondary_title": "Series 38: 50. Friday 13 Mar",
+        "image_url": "https://img.freeviewplay.tv/p74ee9e96f0572db533a3c5de214e9d0a",
         "start_time": "2026-03-13T11:00:00+0000",
         "duration": "PT2H15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "5b62263a7cd65c8d4f257de3010163f1"
+        "on_demand": {
+          "start_of_availability": "2026-03-13T12:10:45+0000",
+          "end_of_availability": "2026-03-20T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_1960_10187.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+        "uuid": "ee8a9e38ae750694338880aec68c3a8c"
       }
     },
     {
@@ -171,19 +213,30 @@
     {
       "startTime": "2026-03-13T13:45:00+0000",
       "duration": 255,
-      "name": "ITV Racing: Cheltenham Festival Live",
-      "description": "",
+      "name": "ITV Racing",
+      "description": "Series 10: 18. Cheltenham Festival Live",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/1fc6ac31-0952-4938-986c-ff99b491a7d0",
+        "program_id": "crid://jvp.itv.com/zhd77c3_version",
         "event_locator": "dvb://233a..20a9;432c",
-        "main_title": "ITV Racing: Cheltenham Festival Live",
-        "image_url": "https://img.freeviewplay.tv/e69aa1eb261e0e7c0411f3125691a88b9",
+        "main_title": "ITV Racing",
+        "secondary_title": "Series 10: 18. Cheltenham Festival Live",
+        "image_url": "https://img.freeviewplay.tv/p5d769915634a23de85217e7ace52b717",
         "start_time": "2026-03-13T13:45:00+0000",
         "duration": "PT4H15M",
+        "on_demand": {
+          "start_of_availability": "2026-03-13T16:56:15+0000",
+          "end_of_availability": "2026-12-31T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_4397_0964.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-        "uuid": "e4122ad9939090829007c5a681961f5d"
+        "uuid": "c38063721dfffba336aafc0247f13d08"
       }
     },
     {
@@ -201,6 +254,16 @@
         "image_url": "https://img.freeviewplay.tv/pdecb35d9a58d94230924f79a5ba7e99a",
         "start_time": "2026-03-13T18:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-03-13T17:55:36+0000",
+          "end_of_availability": "2027-10-04T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_7842_2394.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "37b0b5e36e18044ea38bba8039244fa6"
       }
@@ -227,18 +290,29 @@
       "startTime": "2026-03-13T19:30:00+0000",
       "duration": 60,
       "name": "ITV Evening News",
-      "description": "",
+      "description": "Series 11: 52. Friday 13 Mar",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/23d8cd99-d56e-4666-ab9a-b41ca7052566",
+        "program_id": "crid://jvp.itv.com/f381rwd_version",
         "event_locator": "dvb://233a..20a9;453c",
         "main_title": "ITV Evening News",
-        "image_url": "https://img.freeviewplay.tv/e7da0d5decb172a19a898d1959ac79925",
+        "secondary_title": "Series 11: 52. Friday 13 Mar",
+        "image_url": "https://img.freeviewplay.tv/pafa1af7f28ef45335ef9007a1338b14d",
         "start_time": "2026-03-13T19:30:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-03-13T18:56:59+0000",
+          "end_of_availability": "2026-03-14T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_4545_2656.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "d1094c81a8da2f2addfe4cc53721b808"
+        "uuid": "d2e88b524e7d44cbefd876ff795d38ae"
       }
     },
     {
@@ -256,6 +330,16 @@
         "image_url": "https://img.freeviewplay.tv/p79f6573aec4e86757b1d2cb1f94952b6",
         "start_time": "2026-03-13T20:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-03-13T19:56:06+0000",
+          "end_of_availability": "2029-08-25T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_7403_0033.008",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "230bcb59e24005d586d3ad69e05c166d"
       }
@@ -275,6 +359,16 @@
         "image_url": "https://img.freeviewplay.tv/pd874acc4361d93fa03b03ab6889aa54b",
         "start_time": "2026-03-13T21:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-03-13T07:00:00+0000",
+          "end_of_availability": "2030-12-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_8694_10528.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "uuid": "4a2a4ad77e53c4b8b9f81e0b56564a1b"
       }
@@ -294,67 +388,88 @@
         "image_url": "https://img.freeviewplay.tv/p79a5d53a07e8564cf9763b18536d1f95",
         "start_time": "2026-03-13T21:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-03-13T07:00:00+0000",
+          "end_of_availability": "2030-12-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_0694_11813.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "uuid": "69f4336e20e60a9f519e6a575d08641a"
       }
     },
     {
       "startTime": "2026-03-13T22:00:00+0000",
-      "duration": 70,
-      "name": "The Affair",
-      "description": "Series 1: Episode 1",
+      "duration": 60,
+      "name": "Beat the Chasers",
+      "description": "Series 4: 5. Celebrity Special",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://jvp.itv.com/tx9y1vv_version",
-        "event_locator": "dvb://233a..20a9;6014",
-        "main_title": "The Affair",
-        "secondary_title": "Series 1: Episode 1",
-        "image_url": "https://img.freeviewplay.tv/pa58d49342ea7024aabe1b40be339c189",
+        "program_id": "crid://jvp.itv.com/jbnv5rk_version",
+        "event_locator": "dvb://233a..20a9;b33c",
+        "main_title": "Beat the Chasers",
+        "secondary_title": "Series 4: 5. Celebrity Special",
+        "image_url": "https://img.freeviewplay.tv/p357ca6dc72529c99c104a8d6b4fb0d32",
         "start_time": "2026-03-13T22:00:00+0000",
-        "duration": "PT1H10M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "07b4a3afc283eb08aa8be4053f1bcc82"
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2023-12-15T22:00:24+0000",
+          "end_of_availability": "2026-09-10T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_6826_0026.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "9ca7e47501990b0fc590416582f1d590"
       }
     },
     {
-      "startTime": "2026-03-13T23:10:00+0000",
+      "startTime": "2026-03-13T23:00:00+0000",
       "duration": 30,
       "name": "ITV News at Ten",
-      "description": "",
+      "description": "Series 11: 52. Friday 13 Mar",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/f61c700a-716e-4276-bd9d-730036820528",
-        "event_locator": "dvb://233a..20a9;5be8",
+        "program_id": "crid://jvp.itv.com/4nff59x_version",
+        "event_locator": "dvb://233a..20a9;4546",
         "main_title": "ITV News at Ten",
-        "image_url": "https://img.freeviewplay.tv/e426e9e059174e42d8b93e4ac5f5ed6de",
-        "start_time": "2026-03-13T23:10:00+0000",
+        "secondary_title": "Series 11: 52. Friday 13 Mar",
+        "image_url": "https://img.freeviewplay.tv/pef208d153224579658e9b91b2898e9c0",
+        "start_time": "2026-03-13T23:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "8c038fee59da2fde0550c79562c8ed09"
+        "uuid": "ca5aaa550bc571492d27436be9aff3fb"
       }
     },
     {
-      "startTime": "2026-03-13T23:40:00+0000",
+      "startTime": "2026-03-13T23:30:00+0000",
       "duration": 15,
       "name": "ITV News London",
       "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/3edd215b-19f2-4b76-86b7-0af60922289e",
-        "event_locator": "dvb://233a..20a9;5bd2",
+        "program_id": "crid://csi.digitaluk.co.uk/9141fa49-1349-47c1-9c41-117a971334a6",
+        "event_locator": "dvb://233a..20a9;4548",
         "main_title": "ITV News London",
         "image_url": "https://img.freeviewplay.tv/ef4fd506f010315cd0cbf6c2080829541",
-        "start_time": "2026-03-13T23:40:00+0000",
+        "start_time": "2026-03-13T23:30:00+0000",
         "duration": "PT15M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "2b075b30378a2ecac286a8b1f902cedb"
+        "uuid": "b4412fd8ad89d1c79dd8338fc0108f83"
       }
     },
     {
-      "startTime": "2026-03-13T23:55:00+0000",
+      "startTime": "2026-03-13T23:45:00+0000",
       "duration": 75,
       "name": "Devil In Disguise: John Wayne Gacy",
       "description": "Series 1: 6. Tim, John and Rob",
@@ -362,14 +477,14 @@
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://jvp.itv.com/42jxhnv_version",
-        "event_locator": "dvb://233a..20a9;5b7b",
+        "event_locator": "dvb://233a..20a9;4545",
         "main_title": "Devil In Disguise: John Wayne Gacy",
         "secondary_title": "Series 1: 6. Tim, John and Rob",
         "image_url": "https://img.freeviewplay.tv/p7840c38d4732f4dd4e11d1e0e3f86780",
-        "start_time": "2026-03-13T23:55:00+0000",
+        "start_time": "2026-03-13T23:45:00+0000",
         "duration": "PT1H15M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "6580c5bde8b33f30ec2e88816bebeace"
+        "uuid": "7315ed2e1a86c2d337e0260e57a5f0bf"
       }
     }
   ],
@@ -392,6 +507,16 @@
               "image_url": "https://img.freeviewplay.tv/p9a52afe30f7d3aa51eee277bd3ccb21b",
               "start_time": "2026-03-13T00:15:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-03-08T20:57:54+0000",
+                "end_of_availability": "2030-05-20T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_7907_0222.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "70b7937884e787b9c3f6098464fa3930"
             }
@@ -429,6 +554,16 @@
               "image_url": "https://img.freeviewplay.tv/p22b83f24326eb32477364141e832d799",
               "start_time": "2026-03-13T04:00:00+0000",
               "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2026-03-08T09:21:19+0000",
+                "end_of_availability": "2031-04-11T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_5695_0043.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "d4e5dc0ccd3bff6d60670880cf0c67e1"
             }
@@ -473,36 +608,58 @@
             "startTime": "2026-03-13T07:00:00+0000",
             "duration": 240,
             "name": "Good Morning Britain",
-            "description": "",
+            "description": "Series 13: 50. Friday 13 Mar",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/0172c72a-9224-45e8-aac1-bdaaec080cb3",
+              "program_id": "crid://jvp.itv.com/981xcvr_version",
               "event_locator": "dvb://233a..20a9;427f",
               "main_title": "Good Morning Britain",
-              "image_url": "https://img.freeviewplay.tv/e1dc10c8c6cac600bbdfe87ed94a7823a",
+              "secondary_title": "Series 13: 50. Friday 13 Mar",
+              "image_url": "https://img.freeviewplay.tv/pe8d0f8ee9070b4ee3ab72f482e01f4d4",
               "start_time": "2026-03-13T07:00:00+0000",
               "duration": "PT4H",
+              "on_demand": {
+                "start_of_availability": "2026-03-13T09:54:10+0000",
+                "end_of_availability": "2026-03-20T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_3211_4296.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "7001366ac36c3798bd72e034afa15bfc"
+              "uuid": "4f3be21413fc3c00f4771338fbfe7bf4"
             }
           },
           {
             "startTime": "2026-03-13T11:00:00+0000",
             "duration": 135,
             "name": "This Morning",
-            "description": "",
+            "description": "Series 38: 50. Friday 13 Mar",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/c0b5affe-6afb-4a6b-b6be-639bd0558362",
+              "program_id": "crid://jvp.itv.com/7b5g172_version",
               "event_locator": "dvb://233a..20a9;4282",
               "main_title": "This Morning",
-              "image_url": "https://img.freeviewplay.tv/ecd51439e7f5ed9656dd1875d1c5f453b",
+              "secondary_title": "Series 38: 50. Friday 13 Mar",
+              "image_url": "https://img.freeviewplay.tv/p74ee9e96f0572db533a3c5de214e9d0a",
               "start_time": "2026-03-13T11:00:00+0000",
               "duration": "PT2H15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "5b62263a7cd65c8d4f257de3010163f1"
+              "on_demand": {
+                "start_of_availability": "2026-03-13T12:10:45+0000",
+                "end_of_availability": "2026-03-20T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_1960_10187.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+              "uuid": "ee8a9e38ae750694338880aec68c3a8c"
             }
           },
           {
@@ -544,19 +701,30 @@
           {
             "startTime": "2026-03-13T13:45:00+0000",
             "duration": 255,
-            "name": "ITV Racing: Cheltenham Festival Live",
-            "description": "",
+            "name": "ITV Racing",
+            "description": "Series 10: 18. Cheltenham Festival Live",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/1fc6ac31-0952-4938-986c-ff99b491a7d0",
+              "program_id": "crid://jvp.itv.com/zhd77c3_version",
               "event_locator": "dvb://233a..20a9;432c",
-              "main_title": "ITV Racing: Cheltenham Festival Live",
-              "image_url": "https://img.freeviewplay.tv/e69aa1eb261e0e7c0411f3125691a88b9",
+              "main_title": "ITV Racing",
+              "secondary_title": "Series 10: 18. Cheltenham Festival Live",
+              "image_url": "https://img.freeviewplay.tv/p5d769915634a23de85217e7ace52b717",
               "start_time": "2026-03-13T13:45:00+0000",
               "duration": "PT4H15M",
+              "on_demand": {
+                "start_of_availability": "2026-03-13T16:56:15+0000",
+                "end_of_availability": "2026-12-31T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_4397_0964.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-              "uuid": "e4122ad9939090829007c5a681961f5d"
+              "uuid": "c38063721dfffba336aafc0247f13d08"
             }
           },
           {
@@ -574,6 +742,16 @@
               "image_url": "https://img.freeviewplay.tv/pdecb35d9a58d94230924f79a5ba7e99a",
               "start_time": "2026-03-13T18:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-03-13T17:55:36+0000",
+                "end_of_availability": "2027-10-04T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_7842_2394.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "37b0b5e36e18044ea38bba8039244fa6"
             }
@@ -600,18 +778,29 @@
             "startTime": "2026-03-13T19:30:00+0000",
             "duration": 60,
             "name": "ITV Evening News",
-            "description": "",
+            "description": "Series 11: 52. Friday 13 Mar",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/23d8cd99-d56e-4666-ab9a-b41ca7052566",
+              "program_id": "crid://jvp.itv.com/f381rwd_version",
               "event_locator": "dvb://233a..20a9;453c",
               "main_title": "ITV Evening News",
-              "image_url": "https://img.freeviewplay.tv/e7da0d5decb172a19a898d1959ac79925",
+              "secondary_title": "Series 11: 52. Friday 13 Mar",
+              "image_url": "https://img.freeviewplay.tv/pafa1af7f28ef45335ef9007a1338b14d",
               "start_time": "2026-03-13T19:30:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-03-13T18:56:59+0000",
+                "end_of_availability": "2026-03-14T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_4545_2656.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "d1094c81a8da2f2addfe4cc53721b808"
+              "uuid": "d2e88b524e7d44cbefd876ff795d38ae"
             }
           },
           {
@@ -629,6 +818,16 @@
               "image_url": "https://img.freeviewplay.tv/p79f6573aec4e86757b1d2cb1f94952b6",
               "start_time": "2026-03-13T20:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-03-13T19:56:06+0000",
+                "end_of_availability": "2029-08-25T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_7403_0033.008",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "230bcb59e24005d586d3ad69e05c166d"
             }
@@ -648,6 +847,16 @@
               "image_url": "https://img.freeviewplay.tv/pd874acc4361d93fa03b03ab6889aa54b",
               "start_time": "2026-03-13T21:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-03-13T07:00:00+0000",
+                "end_of_availability": "2030-12-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_8694_10528.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "uuid": "4a2a4ad77e53c4b8b9f81e0b56564a1b"
             }
@@ -667,67 +876,88 @@
               "image_url": "https://img.freeviewplay.tv/p79a5d53a07e8564cf9763b18536d1f95",
               "start_time": "2026-03-13T21:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-03-13T07:00:00+0000",
+                "end_of_availability": "2030-12-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_0694_11813.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "uuid": "69f4336e20e60a9f519e6a575d08641a"
             }
           },
           {
             "startTime": "2026-03-13T22:00:00+0000",
-            "duration": 70,
-            "name": "The Affair",
-            "description": "Series 1: Episode 1",
+            "duration": 60,
+            "name": "Beat the Chasers",
+            "description": "Series 4: 5. Celebrity Special",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://jvp.itv.com/tx9y1vv_version",
-              "event_locator": "dvb://233a..20a9;6014",
-              "main_title": "The Affair",
-              "secondary_title": "Series 1: Episode 1",
-              "image_url": "https://img.freeviewplay.tv/pa58d49342ea7024aabe1b40be339c189",
+              "program_id": "crid://jvp.itv.com/jbnv5rk_version",
+              "event_locator": "dvb://233a..20a9;b33c",
+              "main_title": "Beat the Chasers",
+              "secondary_title": "Series 4: 5. Celebrity Special",
+              "image_url": "https://img.freeviewplay.tv/p357ca6dc72529c99c104a8d6b4fb0d32",
               "start_time": "2026-03-13T22:00:00+0000",
-              "duration": "PT1H10M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "07b4a3afc283eb08aa8be4053f1bcc82"
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2023-12-15T22:00:24+0000",
+                "end_of_availability": "2026-09-10T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_6826_0026.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "9ca7e47501990b0fc590416582f1d590"
             }
           },
           {
-            "startTime": "2026-03-13T23:10:00+0000",
+            "startTime": "2026-03-13T23:00:00+0000",
             "duration": 30,
             "name": "ITV News at Ten",
-            "description": "",
+            "description": "Series 11: 52. Friday 13 Mar",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/f61c700a-716e-4276-bd9d-730036820528",
-              "event_locator": "dvb://233a..20a9;5be8",
+              "program_id": "crid://jvp.itv.com/4nff59x_version",
+              "event_locator": "dvb://233a..20a9;4546",
               "main_title": "ITV News at Ten",
-              "image_url": "https://img.freeviewplay.tv/e426e9e059174e42d8b93e4ac5f5ed6de",
-              "start_time": "2026-03-13T23:10:00+0000",
+              "secondary_title": "Series 11: 52. Friday 13 Mar",
+              "image_url": "https://img.freeviewplay.tv/pef208d153224579658e9b91b2898e9c0",
+              "start_time": "2026-03-13T23:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "8c038fee59da2fde0550c79562c8ed09"
+              "uuid": "ca5aaa550bc571492d27436be9aff3fb"
             }
           },
           {
-            "startTime": "2026-03-13T23:40:00+0000",
+            "startTime": "2026-03-13T23:30:00+0000",
             "duration": 15,
             "name": "ITV News London",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/3edd215b-19f2-4b76-86b7-0af60922289e",
-              "event_locator": "dvb://233a..20a9;5bd2",
+              "program_id": "crid://csi.digitaluk.co.uk/9141fa49-1349-47c1-9c41-117a971334a6",
+              "event_locator": "dvb://233a..20a9;4548",
               "main_title": "ITV News London",
               "image_url": "https://img.freeviewplay.tv/ef4fd506f010315cd0cbf6c2080829541",
-              "start_time": "2026-03-13T23:40:00+0000",
+              "start_time": "2026-03-13T23:30:00+0000",
               "duration": "PT15M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "2b075b30378a2ecac286a8b1f902cedb"
+              "uuid": "b4412fd8ad89d1c79dd8338fc0108f83"
             }
           },
           {
-            "startTime": "2026-03-13T23:55:00+0000",
+            "startTime": "2026-03-13T23:45:00+0000",
             "duration": 75,
             "name": "Devil In Disguise: John Wayne Gacy",
             "description": "Series 1: 6. Tim, John and Rob",
@@ -735,14 +965,14 @@
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://jvp.itv.com/42jxhnv_version",
-              "event_locator": "dvb://233a..20a9;5b7b",
+              "event_locator": "dvb://233a..20a9;4545",
               "main_title": "Devil In Disguise: John Wayne Gacy",
               "secondary_title": "Series 1: 6. Tim, John and Rob",
               "image_url": "https://img.freeviewplay.tv/p7840c38d4732f4dd4e11d1e0e3f86780",
-              "start_time": "2026-03-13T23:55:00+0000",
+              "start_time": "2026-03-13T23:45:00+0000",
               "duration": "PT1H15M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "6580c5bde8b33f30ec2e88816bebeace"
+              "uuid": "7315ed2e1a86c2d337e0260e57a5f0bf"
             }
           }
         ]
