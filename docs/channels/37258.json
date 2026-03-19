@@ -5,68 +5,118 @@
   },
   "events": [
     {
-      "startTime": "2026-03-19T01:20:00+0000",
-      "duration": 120,
-      "name": "House of Lords",
-      "description": "Crime and Policing Bill, Part 2",
+      "startTime": "2026-03-19T02:10:00+0000",
+      "duration": 20,
+      "name": "This is BBC Parliament",
+      "description": "This is BBC Parliament",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002t0sy",
-        "event_locator": "dvb://233a..918a;7e66",
-        "main_title": "House of Lords",
-        "secondary_title": "Crime and Policing Bill, Part 2",
-        "image_url": "https://img.freeviewplay.tv/pe04c5f416d71fff521771236a66a00bb",
-        "start_time": "2026-03-19T01:20:00+0000",
-        "duration": "PT2H",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0029ztt",
+        "event_locator": "dvb://233a..918a;7f72",
+        "main_title": "This is BBC Parliament",
+        "secondary_title": "This is BBC Parliament",
+        "image_url": "https://img.freeviewplay.tv/p5d116fe1dcecea5ae9baed4731603040",
+        "start_time": "2026-03-19T02:10:00+0000",
+        "duration": "PT20M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e1ef6f34c056da143b30bd97cc9e8824c",
+        "uuid": "c130d878ed76656c24cda9a74006face"
+      }
+    },
+    {
+      "startTime": "2026-03-19T02:30:00+0000",
+      "duration": 35,
+      "name": "Prime Minister's Questions",
+      "description": "18/03/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002t0sd",
+        "event_locator": "dvb://233a..918a;7e63",
+        "main_title": "Prime Minister's Questions",
+        "secondary_title": "18/03/2026",
+        "image_url": "https://img.freeviewplay.tv/pc6f194a9cbac3ae2f4ce683696db022b",
+        "start_time": "2026-03-19T02:30:00+0000",
+        "duration": "PT35M",
         "on_demand": {
-          "start_of_availability": "2026-03-19T03:20:00+0000",
-          "end_of_availability": "2027-03-19T03:20:00+0000",
+          "start_of_availability": "2026-03-18T12:35:00+0000",
+          "end_of_availability": "2027-03-23T11:55:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0sy&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0sd&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ef2ebe1d38e912bca2ca2b7ae1a192cbb",
+        "uuid": "decf8864586f1367f3f4df3215e8b5d7"
+      }
+    },
+    {
+      "startTime": "2026-03-19T03:05:00+0000",
+      "duration": 45,
+      "name": "Lords Questions",
+      "description": "18/03/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002t0st",
+        "event_locator": "dvb://233a..918a;7e64",
+        "main_title": "Lords Questions",
+        "secondary_title": "18/03/2026",
+        "image_url": "https://img.freeviewplay.tv/p65356fbba0aff888a09efe048f852877",
+        "start_time": "2026-03-19T03:05:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2026-03-19T03:30:00+0000",
+          "end_of_availability": "2027-03-19T03:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0st&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e20c036b24a6a5d55b96007aabf4dea0b",
+        "uuid": "0e0d18dd879e1ad211e031d0baefada2"
+      }
+    },
+    {
+      "startTime": "2026-03-19T03:50:00+0000",
+      "duration": 120,
+      "name": "House of Lords",
+      "description": "Crime and Policing Bill, Part 1",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002t0sw",
+        "event_locator": "dvb://233a..918a;7f69",
+        "main_title": "House of Lords",
+        "secondary_title": "Crime and Policing Bill, Part 1",
+        "image_url": "https://img.freeviewplay.tv/pb38015607daf9aafd7b28f359e0eeb4b",
+        "start_time": "2026-03-19T03:50:00+0000",
+        "duration": "PT2H",
+        "on_demand": {
+          "start_of_availability": "2026-03-19T05:30:00+0000",
+          "end_of_availability": "2027-03-19T05:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0sw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/ec7d93d39718774864b1cf91f2c33af44",
-        "uuid": "adf0cf1f2c47bc98678b9fa9bfb7853e"
+        "uuid": "3af4a7c584452634e57add4321bc1a0d"
       }
     },
     {
-      "startTime": "2026-03-19T03:20:00+0000",
-      "duration": 120,
-      "name": "House of Lords",
-      "description": "Crime and Policing Bill, Part 3",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002t0t0",
-        "event_locator": "dvb://233a..918a;7e67",
-        "main_title": "House of Lords",
-        "secondary_title": "Crime and Policing Bill, Part 3",
-        "image_url": "https://img.freeviewplay.tv/p9a2abcafb990fe2136bd91cce687a130",
-        "start_time": "2026-03-19T03:20:00+0000",
-        "duration": "PT2H",
-        "on_demand": {
-          "start_of_availability": "2026-03-19T05:20:00+0000",
-          "end_of_availability": "2027-03-19T05:20:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0t0&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ec7d93d39718774864b1cf91f2c33af44",
-        "uuid": "b85823fdcc9a29f25328d04364e50ecd"
-      }
-    },
-    {
-      "startTime": "2026-03-19T05:20:00+0000",
-      "duration": 100,
+      "startTime": "2026-03-19T05:50:00+0000",
+      "duration": 45,
       "name": "House of Lords",
       "description": "Digital ID Statement",
       "synopsis": "",
@@ -76,12 +126,12 @@
         "event_locator": "dvb://233a..918a;7e68",
         "main_title": "House of Lords",
         "secondary_title": "Digital ID Statement",
-        "image_url": "https://img.freeviewplay.tv/p74925e3d086d8a192875a51351a4a38d",
-        "start_time": "2026-03-19T05:20:00+0000",
-        "duration": "PT1H40M",
+        "image_url": "https://img.freeviewplay.tv/p92fe6a797aaae3016891ac3ef2e048fe",
+        "start_time": "2026-03-19T05:50:00+0000",
+        "duration": "PT45M",
         "on_demand": {
-          "start_of_availability": "2026-03-19T07:00:00+0000",
-          "end_of_availability": "2027-03-19T07:00:00+0000",
+          "start_of_availability": "2026-03-19T06:14:22+0000",
+          "end_of_availability": "2027-03-19T06:14:22+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0t2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -91,7 +141,27 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/eaeab4c76e9a09ee45146070ca1f8e7ff",
-        "uuid": "6839d866d30e4c97b631d6c73b691349"
+        "uuid": "d8677c9fe3d3c801494abdbf670d7152"
+      }
+    },
+    {
+      "startTime": "2026-03-19T06:35:00+0000",
+      "duration": 25,
+      "name": "This is BBC Parliament",
+      "description": "This is BBC Parliament",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0029ztt",
+        "event_locator": "dvb://233a..918a;7f71",
+        "main_title": "This is BBC Parliament",
+        "secondary_title": "This is BBC Parliament",
+        "image_url": "https://img.freeviewplay.tv/p5d116fe1dcecea5ae9baed4731603040",
+        "start_time": "2026-03-19T06:35:00+0000",
+        "duration": "PT25M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e1ef6f34c056da143b30bd97cc9e8824c",
+        "uuid": "fcd7c5350ed7b77af220bf446f47a465"
       }
     },
     {
@@ -141,7 +211,7 @@
         "duration": "PT40M",
         "on_demand": {
           "start_of_availability": "2026-03-18T12:35:00+0000",
-          "end_of_availability": "2027-03-18T12:35:00+0000",
+          "end_of_availability": "2027-03-23T11:55:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0sd&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -171,7 +241,7 @@
         "duration": "PT1H15M",
         "on_demand": {
           "start_of_availability": "2026-03-17T15:30:00+0000",
-          "end_of_availability": "2027-03-19T09:20:00+0000",
+          "end_of_availability": "2027-03-17T15:30:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0pq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -201,7 +271,7 @@
         "duration": "PT10M",
         "on_demand": {
           "start_of_availability": "2026-03-19T09:30:00+0000",
-          "end_of_availability": "2026-04-18T09:30:00+0000",
+          "end_of_availability": "2027-03-19T09:30:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002thn8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -216,7 +286,7 @@
     },
     {
       "startTime": "2026-03-19T09:30:00+0000",
-      "duration": 40,
+      "duration": 45,
       "name": "House of Commons",
       "description": "Environment, Food and Rural Affairs Questions",
       "synopsis": "",
@@ -226,12 +296,12 @@
         "event_locator": "dvb://233a..918a;7e6e",
         "main_title": "House of Commons",
         "secondary_title": "Environment, Food and Rural Affairs Questions",
-        "image_url": "https://img.freeviewplay.tv/pbc9573708aef20380c489aaed44a184e",
+        "image_url": "https://img.freeviewplay.tv/pf18b0315509aa0d39163f25fc7aab6d3",
         "start_time": "2026-03-19T09:30:00+0000",
-        "duration": "PT40M",
+        "duration": "PT45M",
         "on_demand": {
-          "start_of_availability": "2026-03-19T10:10:00+0000",
-          "end_of_availability": "2027-03-20T02:55:00+0000",
+          "start_of_availability": "2026-03-19T10:15:00+0000",
+          "end_of_availability": "2027-03-20T04:50:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0tw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -245,8 +315,8 @@
       }
     },
     {
-      "startTime": "2026-03-19T10:10:00+0000",
-      "duration": 20,
+      "startTime": "2026-03-19T10:15:00+0000",
+      "duration": 25,
       "name": "House of Commons",
       "description": "Solicitor General Questions",
       "synopsis": "",
@@ -256,12 +326,12 @@
         "event_locator": "dvb://233a..918a;7e6f",
         "main_title": "House of Commons",
         "secondary_title": "Solicitor General Questions",
-        "image_url": "https://img.freeviewplay.tv/pa083924f9ef8ec3bbc9a9d47c19882d7",
-        "start_time": "2026-03-19T10:10:00+0000",
-        "duration": "PT20M",
+        "image_url": "https://img.freeviewplay.tv/p2a873775d1926193cc91bf35901a67e0",
+        "start_time": "2026-03-19T10:15:00+0000",
+        "duration": "PT25M",
         "on_demand": {
-          "start_of_availability": "2026-03-19T10:30:00+0000",
-          "end_of_availability": "2027-03-20T03:15:00+0000",
+          "start_of_availability": "2026-03-19T10:40:00+0000",
+          "end_of_availability": "2027-03-20T05:15:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0ty&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -271,12 +341,12 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e42bace7f23dec5e9b174e00c4d6125f0",
-        "uuid": "33c243ee26e25def16ccb492fb147537"
+        "uuid": "ce7ca744f323557ae5826848bb12a55b"
       }
     },
     {
-      "startTime": "2026-03-19T10:30:00+0000",
-      "duration": 60,
+      "startTime": "2026-03-19T10:40:00+0000",
+      "duration": 85,
       "name": "House of Commons",
       "description": "Commons Business Questions",
       "synopsis": "",
@@ -286,12 +356,12 @@
         "event_locator": "dvb://233a..918a;7e70",
         "main_title": "House of Commons",
         "secondary_title": "Commons Business Questions",
-        "image_url": "https://img.freeviewplay.tv/pc0044c7922b96180b8373952b80b42a1",
-        "start_time": "2026-03-19T10:30:00+0000",
-        "duration": "PT1H",
+        "image_url": "https://img.freeviewplay.tv/pcb28db2b65d94defd406adcaddf7bb39",
+        "start_time": "2026-03-19T10:40:00+0000",
+        "duration": "PT1H25M",
         "on_demand": {
-          "start_of_availability": "2026-03-19T11:30:00+0000",
-          "end_of_availability": "2027-03-20T04:15:00+0000",
+          "start_of_availability": "2026-03-19T12:05:00+0000",
+          "end_of_availability": "2027-03-20T06:55:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0v0&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -301,27 +371,27 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e88ea604eabea869b99d627a37992c08e",
-        "uuid": "80dd76e59c16648a58083785bb6e7a23"
+        "uuid": "04a0dd6c09af9996168aeeeb3481f8d1"
       }
     },
     {
-      "startTime": "2026-03-19T11:30:00+0000",
-      "duration": 360,
+      "startTime": "2026-03-19T12:05:00+0000",
+      "duration": 55,
       "name": "House of Commons",
-      "description": "19/03/2026 Part 1",
+      "description": "International Development Statement",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m002t0v2",
         "event_locator": "dvb://233a..918a;7e71",
         "main_title": "House of Commons",
-        "secondary_title": "19/03/2026 Part 1",
-        "image_url": "https://img.freeviewplay.tv/pfe0ae58d0a50d2df1652a327b77eece2",
-        "start_time": "2026-03-19T11:30:00+0000",
-        "duration": "PT6H",
+        "secondary_title": "International Development Statement",
+        "image_url": "https://img.freeviewplay.tv/p88015a36c120867d9714b920ffc24af6",
+        "start_time": "2026-03-19T12:05:00+0000",
+        "duration": "PT55M",
         "on_demand": {
-          "start_of_availability": "2026-03-19T12:30:00+0000",
-          "end_of_availability": "2027-03-19T12:30:00+0000",
+          "start_of_availability": "2026-03-19T13:00:00+0000",
+          "end_of_availability": "2027-03-19T13:00:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0v2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -330,8 +400,68 @@
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e798adab5c3199242c7a90d47c26b03f2",
+        "uuid": "2cc92a6c42ec14cc0a888a194caf383b"
+      }
+    },
+    {
+      "startTime": "2026-03-19T13:00:00+0000",
+      "duration": 50,
+      "name": "House of Commons",
+      "description": "UK Steel Strategy Statement",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002t0v4",
+        "event_locator": "dvb://233a..918a;7e72",
+        "main_title": "House of Commons",
+        "secondary_title": "UK Steel Strategy Statement",
+        "image_url": "https://img.freeviewplay.tv/pa5d32ea0d938ff57ff8ed47873f65ba7",
+        "start_time": "2026-03-19T13:00:00+0000",
+        "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2026-03-19T13:50:00+0000",
+          "end_of_availability": "2027-03-19T13:50:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0v4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ead245e5da3d162e8eafc73fe25ced24f",
+        "uuid": "af3a4bc2395225eb6a8346a345a12fcb"
+      }
+    },
+    {
+      "startTime": "2026-03-19T13:50:00+0000",
+      "duration": 220,
+      "name": "House of Commons",
+      "description": "19/03/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002t0v6",
+        "event_locator": "dvb://233a..918a;7e73",
+        "main_title": "House of Commons",
+        "secondary_title": "19/03/2026",
+        "image_url": "https://img.freeviewplay.tv/p20b68e5e2fe3e02362c8e523f230cca3",
+        "start_time": "2026-03-19T13:50:00+0000",
+        "duration": "PT3H40M",
+        "on_demand": {
+          "start_of_availability": "2026-03-19T17:30:00+0000",
+          "end_of_availability": "2027-03-19T17:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0v6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/ede10941ec9cbe0143514881b2387ee0a",
-        "uuid": "66d076bd5689a20cf920e6d3613cb404"
+        "uuid": "da8d6eb9999f89d4cd6030eead589e84"
       }
     },
     {
@@ -350,8 +480,8 @@
         "start_time": "2026-03-19T17:30:00+0000",
         "duration": "PT45M",
         "on_demand": {
-          "start_of_availability": "2026-03-19T18:15:00+0000",
-          "end_of_availability": "2027-03-23T11:20:00+0000",
+          "start_of_availability": "2026-03-19T18:16:11+0000",
+          "end_of_availability": "2027-03-19T18:16:11+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0v8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -380,8 +510,8 @@
         "start_time": "2026-03-19T18:15:00+0000",
         "duration": "PT45M",
         "on_demand": {
-          "start_of_availability": "2026-03-19T19:00:00+0000",
-          "end_of_availability": "2026-04-18T19:00:00+0000",
+          "start_of_availability": "2026-03-19T18:59:00+0000",
+          "end_of_availability": "2027-03-19T18:59:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0vb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -396,22 +526,22 @@
     },
     {
       "startTime": "2026-03-19T19:00:00+0000",
-      "duration": 435,
+      "duration": 15,
       "name": "House of Lords",
-      "description": "19/03/2026 Part 1",
+      "description": "Energy Costs Private Notice Question",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m002t0vd",
         "event_locator": "dvb://233a..918a;7e76",
         "main_title": "House of Lords",
-        "secondary_title": "19/03/2026 Part 1",
-        "image_url": "https://img.freeviewplay.tv/pf6d362d1931d240cab9dd97c5e428e3f",
+        "secondary_title": "Energy Costs Private Notice Question",
+        "image_url": "https://img.freeviewplay.tv/pf73fc441e76d20a7ff9cf688598efa87",
         "start_time": "2026-03-19T19:00:00+0000",
-        "duration": "PT7H15M",
+        "duration": "PT15M",
         "on_demand": {
-          "start_of_availability": "2026-03-19T20:00:00+0000",
-          "end_of_availability": "2027-03-19T20:00:00+0000",
+          "start_of_availability": "2026-03-19T19:15:24+0000",
+          "end_of_availability": "2027-03-19T19:15:24+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0vd&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -420,8 +550,128 @@
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ee777f5210422ceb2dda0e693a3ead4e7",
+        "fallback_image_url": "http://img.freeviewplay.net/e8544c1a00f0705b3bf7d59401b9374a5",
         "uuid": "d40fbe6a97444f6ca6d9c217db845f74"
+      }
+    },
+    {
+      "startTime": "2026-03-19T19:15:00+0000",
+      "duration": 115,
+      "name": "House of Lords",
+      "description": "Pension Schemes Bill, Part 1",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002t0vg",
+        "event_locator": "dvb://233a..918a;7e77",
+        "main_title": "House of Lords",
+        "secondary_title": "Pension Schemes Bill, Part 1",
+        "image_url": "https://img.freeviewplay.tv/p6485df57e44988d9cb7ebc91a021a6db",
+        "start_time": "2026-03-19T19:15:00+0000",
+        "duration": "PT1H55M",
+        "on_demand": {
+          "start_of_availability": "2026-03-19T21:12:21+0000",
+          "end_of_availability": "2027-03-19T21:12:21+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0vg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ed68d69f7918e1e9b09df58218ed2c023",
+        "uuid": "e9c6e074471e39a8f8d9c2cbee73b508"
+      }
+    },
+    {
+      "startTime": "2026-03-19T21:10:00+0000",
+      "duration": 20,
+      "name": "House of Lords",
+      "description": "Pension Schemes Bill, Part 2",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002t0vj",
+        "event_locator": "dvb://233a..918a;7e78",
+        "main_title": "House of Lords",
+        "secondary_title": "Pension Schemes Bill, Part 2",
+        "image_url": "https://img.freeviewplay.tv/p68d35a1571e9a7bfedca04377359ccf9",
+        "start_time": "2026-03-19T21:10:00+0000",
+        "duration": "PT20M",
+        "on_demand": {
+          "start_of_availability": "2026-03-19T23:12:21+0000",
+          "end_of_availability": "2027-03-19T23:12:21+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0vj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ed68d69f7918e1e9b09df58218ed2c023",
+        "uuid": "d32971ad5ca15da47ebb11db46242d97"
+      }
+    },
+    {
+      "startTime": "2026-03-19T21:30:00+0000",
+      "duration": 45,
+      "name": "House of Lords",
+      "description": "Middle East Statement",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002t0vn",
+        "event_locator": "dvb://233a..918a;7e7a",
+        "main_title": "House of Lords",
+        "secondary_title": "Middle East Statement",
+        "image_url": "https://img.freeviewplay.tv/pcbf5577ae91f72d1dac9fd596e9c2c10",
+        "start_time": "2026-03-19T21:30:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2026-03-20T01:58:20+0000",
+          "end_of_availability": "2027-03-20T01:58:20+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0vn&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ea28e14aca489017e678f3221257e67f2",
+        "uuid": "9102579f938497c2cfbc7cc69f9f42bc"
+      }
+    },
+    {
+      "startTime": "2026-03-19T22:15:00+0000",
+      "duration": 115,
+      "name": "House of Lords",
+      "description": "Crime and Policing Bill, Part 2",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002t0sy",
+        "event_locator": "dvb://233a..918a;7fb8",
+        "main_title": "House of Lords",
+        "secondary_title": "Crime and Policing Bill, Part 2",
+        "image_url": "https://img.freeviewplay.tv/p048f3cfcf41daea20f8dfec307e28535",
+        "start_time": "2026-03-19T22:15:00+0000",
+        "duration": "PT1H55M",
+        "on_demand": {
+          "start_of_availability": "2026-03-19T03:20:00+0000",
+          "end_of_availability": "2027-03-19T03:20:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0sy&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ee777f5210422ceb2dda0e693a3ead4e7",
+        "uuid": "a2c5113d921c89c46f9198161d32a523"
       }
     }
   ],
@@ -430,68 +680,118 @@
       {
         "event": [
           {
-            "startTime": "2026-03-19T01:20:00+0000",
-            "duration": 120,
-            "name": "House of Lords",
-            "description": "Crime and Policing Bill, Part 2",
+            "startTime": "2026-03-19T02:10:00+0000",
+            "duration": 20,
+            "name": "This is BBC Parliament",
+            "description": "This is BBC Parliament",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002t0sy",
-              "event_locator": "dvb://233a..918a;7e66",
-              "main_title": "House of Lords",
-              "secondary_title": "Crime and Policing Bill, Part 2",
-              "image_url": "https://img.freeviewplay.tv/pe04c5f416d71fff521771236a66a00bb",
-              "start_time": "2026-03-19T01:20:00+0000",
-              "duration": "PT2H",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0029ztt",
+              "event_locator": "dvb://233a..918a;7f72",
+              "main_title": "This is BBC Parliament",
+              "secondary_title": "This is BBC Parliament",
+              "image_url": "https://img.freeviewplay.tv/p5d116fe1dcecea5ae9baed4731603040",
+              "start_time": "2026-03-19T02:10:00+0000",
+              "duration": "PT20M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e1ef6f34c056da143b30bd97cc9e8824c",
+              "uuid": "c130d878ed76656c24cda9a74006face"
+            }
+          },
+          {
+            "startTime": "2026-03-19T02:30:00+0000",
+            "duration": 35,
+            "name": "Prime Minister's Questions",
+            "description": "18/03/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002t0sd",
+              "event_locator": "dvb://233a..918a;7e63",
+              "main_title": "Prime Minister's Questions",
+              "secondary_title": "18/03/2026",
+              "image_url": "https://img.freeviewplay.tv/pc6f194a9cbac3ae2f4ce683696db022b",
+              "start_time": "2026-03-19T02:30:00+0000",
+              "duration": "PT35M",
               "on_demand": {
-                "start_of_availability": "2026-03-19T03:20:00+0000",
-                "end_of_availability": "2027-03-19T03:20:00+0000",
+                "start_of_availability": "2026-03-18T12:35:00+0000",
+                "end_of_availability": "2027-03-23T11:55:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0sy&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0sd&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ef2ebe1d38e912bca2ca2b7ae1a192cbb",
+              "uuid": "decf8864586f1367f3f4df3215e8b5d7"
+            }
+          },
+          {
+            "startTime": "2026-03-19T03:05:00+0000",
+            "duration": 45,
+            "name": "Lords Questions",
+            "description": "18/03/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002t0st",
+              "event_locator": "dvb://233a..918a;7e64",
+              "main_title": "Lords Questions",
+              "secondary_title": "18/03/2026",
+              "image_url": "https://img.freeviewplay.tv/p65356fbba0aff888a09efe048f852877",
+              "start_time": "2026-03-19T03:05:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2026-03-19T03:30:00+0000",
+                "end_of_availability": "2027-03-19T03:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0st&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e20c036b24a6a5d55b96007aabf4dea0b",
+              "uuid": "0e0d18dd879e1ad211e031d0baefada2"
+            }
+          },
+          {
+            "startTime": "2026-03-19T03:50:00+0000",
+            "duration": 120,
+            "name": "House of Lords",
+            "description": "Crime and Policing Bill, Part 1",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002t0sw",
+              "event_locator": "dvb://233a..918a;7f69",
+              "main_title": "House of Lords",
+              "secondary_title": "Crime and Policing Bill, Part 1",
+              "image_url": "https://img.freeviewplay.tv/pb38015607daf9aafd7b28f359e0eeb4b",
+              "start_time": "2026-03-19T03:50:00+0000",
+              "duration": "PT2H",
+              "on_demand": {
+                "start_of_availability": "2026-03-19T05:30:00+0000",
+                "end_of_availability": "2027-03-19T05:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0sw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/ec7d93d39718774864b1cf91f2c33af44",
-              "uuid": "adf0cf1f2c47bc98678b9fa9bfb7853e"
+              "uuid": "3af4a7c584452634e57add4321bc1a0d"
             }
           },
           {
-            "startTime": "2026-03-19T03:20:00+0000",
-            "duration": 120,
-            "name": "House of Lords",
-            "description": "Crime and Policing Bill, Part 3",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002t0t0",
-              "event_locator": "dvb://233a..918a;7e67",
-              "main_title": "House of Lords",
-              "secondary_title": "Crime and Policing Bill, Part 3",
-              "image_url": "https://img.freeviewplay.tv/p9a2abcafb990fe2136bd91cce687a130",
-              "start_time": "2026-03-19T03:20:00+0000",
-              "duration": "PT2H",
-              "on_demand": {
-                "start_of_availability": "2026-03-19T05:20:00+0000",
-                "end_of_availability": "2027-03-19T05:20:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0t0&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ec7d93d39718774864b1cf91f2c33af44",
-              "uuid": "b85823fdcc9a29f25328d04364e50ecd"
-            }
-          },
-          {
-            "startTime": "2026-03-19T05:20:00+0000",
-            "duration": 100,
+            "startTime": "2026-03-19T05:50:00+0000",
+            "duration": 45,
             "name": "House of Lords",
             "description": "Digital ID Statement",
             "synopsis": "",
@@ -501,12 +801,12 @@
               "event_locator": "dvb://233a..918a;7e68",
               "main_title": "House of Lords",
               "secondary_title": "Digital ID Statement",
-              "image_url": "https://img.freeviewplay.tv/p74925e3d086d8a192875a51351a4a38d",
-              "start_time": "2026-03-19T05:20:00+0000",
-              "duration": "PT1H40M",
+              "image_url": "https://img.freeviewplay.tv/p92fe6a797aaae3016891ac3ef2e048fe",
+              "start_time": "2026-03-19T05:50:00+0000",
+              "duration": "PT45M",
               "on_demand": {
-                "start_of_availability": "2026-03-19T07:00:00+0000",
-                "end_of_availability": "2027-03-19T07:00:00+0000",
+                "start_of_availability": "2026-03-19T06:14:22+0000",
+                "end_of_availability": "2027-03-19T06:14:22+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0t2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -516,7 +816,27 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/eaeab4c76e9a09ee45146070ca1f8e7ff",
-              "uuid": "6839d866d30e4c97b631d6c73b691349"
+              "uuid": "d8677c9fe3d3c801494abdbf670d7152"
+            }
+          },
+          {
+            "startTime": "2026-03-19T06:35:00+0000",
+            "duration": 25,
+            "name": "This is BBC Parliament",
+            "description": "This is BBC Parliament",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0029ztt",
+              "event_locator": "dvb://233a..918a;7f71",
+              "main_title": "This is BBC Parliament",
+              "secondary_title": "This is BBC Parliament",
+              "image_url": "https://img.freeviewplay.tv/p5d116fe1dcecea5ae9baed4731603040",
+              "start_time": "2026-03-19T06:35:00+0000",
+              "duration": "PT25M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e1ef6f34c056da143b30bd97cc9e8824c",
+              "uuid": "fcd7c5350ed7b77af220bf446f47a465"
             }
           },
           {
@@ -566,7 +886,7 @@
               "duration": "PT40M",
               "on_demand": {
                 "start_of_availability": "2026-03-18T12:35:00+0000",
-                "end_of_availability": "2027-03-18T12:35:00+0000",
+                "end_of_availability": "2027-03-23T11:55:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0sd&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -596,7 +916,7 @@
               "duration": "PT1H15M",
               "on_demand": {
                 "start_of_availability": "2026-03-17T15:30:00+0000",
-                "end_of_availability": "2027-03-19T09:20:00+0000",
+                "end_of_availability": "2027-03-17T15:30:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0pq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -626,7 +946,7 @@
               "duration": "PT10M",
               "on_demand": {
                 "start_of_availability": "2026-03-19T09:30:00+0000",
-                "end_of_availability": "2026-04-18T09:30:00+0000",
+                "end_of_availability": "2027-03-19T09:30:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002thn8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -641,7 +961,7 @@
           },
           {
             "startTime": "2026-03-19T09:30:00+0000",
-            "duration": 40,
+            "duration": 45,
             "name": "House of Commons",
             "description": "Environment, Food and Rural Affairs Questions",
             "synopsis": "",
@@ -651,12 +971,12 @@
               "event_locator": "dvb://233a..918a;7e6e",
               "main_title": "House of Commons",
               "secondary_title": "Environment, Food and Rural Affairs Questions",
-              "image_url": "https://img.freeviewplay.tv/pbc9573708aef20380c489aaed44a184e",
+              "image_url": "https://img.freeviewplay.tv/pf18b0315509aa0d39163f25fc7aab6d3",
               "start_time": "2026-03-19T09:30:00+0000",
-              "duration": "PT40M",
+              "duration": "PT45M",
               "on_demand": {
-                "start_of_availability": "2026-03-19T10:10:00+0000",
-                "end_of_availability": "2027-03-20T02:55:00+0000",
+                "start_of_availability": "2026-03-19T10:15:00+0000",
+                "end_of_availability": "2027-03-20T04:50:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0tw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -670,8 +990,8 @@
             }
           },
           {
-            "startTime": "2026-03-19T10:10:00+0000",
-            "duration": 20,
+            "startTime": "2026-03-19T10:15:00+0000",
+            "duration": 25,
             "name": "House of Commons",
             "description": "Solicitor General Questions",
             "synopsis": "",
@@ -681,12 +1001,12 @@
               "event_locator": "dvb://233a..918a;7e6f",
               "main_title": "House of Commons",
               "secondary_title": "Solicitor General Questions",
-              "image_url": "https://img.freeviewplay.tv/pa083924f9ef8ec3bbc9a9d47c19882d7",
-              "start_time": "2026-03-19T10:10:00+0000",
-              "duration": "PT20M",
+              "image_url": "https://img.freeviewplay.tv/p2a873775d1926193cc91bf35901a67e0",
+              "start_time": "2026-03-19T10:15:00+0000",
+              "duration": "PT25M",
               "on_demand": {
-                "start_of_availability": "2026-03-19T10:30:00+0000",
-                "end_of_availability": "2027-03-20T03:15:00+0000",
+                "start_of_availability": "2026-03-19T10:40:00+0000",
+                "end_of_availability": "2027-03-20T05:15:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0ty&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -696,12 +1016,12 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e42bace7f23dec5e9b174e00c4d6125f0",
-              "uuid": "33c243ee26e25def16ccb492fb147537"
+              "uuid": "ce7ca744f323557ae5826848bb12a55b"
             }
           },
           {
-            "startTime": "2026-03-19T10:30:00+0000",
-            "duration": 60,
+            "startTime": "2026-03-19T10:40:00+0000",
+            "duration": 85,
             "name": "House of Commons",
             "description": "Commons Business Questions",
             "synopsis": "",
@@ -711,12 +1031,12 @@
               "event_locator": "dvb://233a..918a;7e70",
               "main_title": "House of Commons",
               "secondary_title": "Commons Business Questions",
-              "image_url": "https://img.freeviewplay.tv/pc0044c7922b96180b8373952b80b42a1",
-              "start_time": "2026-03-19T10:30:00+0000",
-              "duration": "PT1H",
+              "image_url": "https://img.freeviewplay.tv/pcb28db2b65d94defd406adcaddf7bb39",
+              "start_time": "2026-03-19T10:40:00+0000",
+              "duration": "PT1H25M",
               "on_demand": {
-                "start_of_availability": "2026-03-19T11:30:00+0000",
-                "end_of_availability": "2027-03-20T04:15:00+0000",
+                "start_of_availability": "2026-03-19T12:05:00+0000",
+                "end_of_availability": "2027-03-20T06:55:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0v0&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -726,27 +1046,27 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e88ea604eabea869b99d627a37992c08e",
-              "uuid": "80dd76e59c16648a58083785bb6e7a23"
+              "uuid": "04a0dd6c09af9996168aeeeb3481f8d1"
             }
           },
           {
-            "startTime": "2026-03-19T11:30:00+0000",
-            "duration": 360,
+            "startTime": "2026-03-19T12:05:00+0000",
+            "duration": 55,
             "name": "House of Commons",
-            "description": "19/03/2026 Part 1",
+            "description": "International Development Statement",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m002t0v2",
               "event_locator": "dvb://233a..918a;7e71",
               "main_title": "House of Commons",
-              "secondary_title": "19/03/2026 Part 1",
-              "image_url": "https://img.freeviewplay.tv/pfe0ae58d0a50d2df1652a327b77eece2",
-              "start_time": "2026-03-19T11:30:00+0000",
-              "duration": "PT6H",
+              "secondary_title": "International Development Statement",
+              "image_url": "https://img.freeviewplay.tv/p88015a36c120867d9714b920ffc24af6",
+              "start_time": "2026-03-19T12:05:00+0000",
+              "duration": "PT55M",
               "on_demand": {
-                "start_of_availability": "2026-03-19T12:30:00+0000",
-                "end_of_availability": "2027-03-19T12:30:00+0000",
+                "start_of_availability": "2026-03-19T13:00:00+0000",
+                "end_of_availability": "2027-03-19T13:00:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0v2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -755,8 +1075,68 @@
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e798adab5c3199242c7a90d47c26b03f2",
+              "uuid": "2cc92a6c42ec14cc0a888a194caf383b"
+            }
+          },
+          {
+            "startTime": "2026-03-19T13:00:00+0000",
+            "duration": 50,
+            "name": "House of Commons",
+            "description": "UK Steel Strategy Statement",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002t0v4",
+              "event_locator": "dvb://233a..918a;7e72",
+              "main_title": "House of Commons",
+              "secondary_title": "UK Steel Strategy Statement",
+              "image_url": "https://img.freeviewplay.tv/pa5d32ea0d938ff57ff8ed47873f65ba7",
+              "start_time": "2026-03-19T13:00:00+0000",
+              "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2026-03-19T13:50:00+0000",
+                "end_of_availability": "2027-03-19T13:50:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0v4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ead245e5da3d162e8eafc73fe25ced24f",
+              "uuid": "af3a4bc2395225eb6a8346a345a12fcb"
+            }
+          },
+          {
+            "startTime": "2026-03-19T13:50:00+0000",
+            "duration": 220,
+            "name": "House of Commons",
+            "description": "19/03/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002t0v6",
+              "event_locator": "dvb://233a..918a;7e73",
+              "main_title": "House of Commons",
+              "secondary_title": "19/03/2026",
+              "image_url": "https://img.freeviewplay.tv/p20b68e5e2fe3e02362c8e523f230cca3",
+              "start_time": "2026-03-19T13:50:00+0000",
+              "duration": "PT3H40M",
+              "on_demand": {
+                "start_of_availability": "2026-03-19T17:30:00+0000",
+                "end_of_availability": "2027-03-19T17:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0v6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/ede10941ec9cbe0143514881b2387ee0a",
-              "uuid": "66d076bd5689a20cf920e6d3613cb404"
+              "uuid": "da8d6eb9999f89d4cd6030eead589e84"
             }
           },
           {
@@ -775,8 +1155,8 @@
               "start_time": "2026-03-19T17:30:00+0000",
               "duration": "PT45M",
               "on_demand": {
-                "start_of_availability": "2026-03-19T18:15:00+0000",
-                "end_of_availability": "2027-03-23T11:20:00+0000",
+                "start_of_availability": "2026-03-19T18:16:11+0000",
+                "end_of_availability": "2027-03-19T18:16:11+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0v8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -805,8 +1185,8 @@
               "start_time": "2026-03-19T18:15:00+0000",
               "duration": "PT45M",
               "on_demand": {
-                "start_of_availability": "2026-03-19T19:00:00+0000",
-                "end_of_availability": "2026-04-18T19:00:00+0000",
+                "start_of_availability": "2026-03-19T18:59:00+0000",
+                "end_of_availability": "2027-03-19T18:59:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0vb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -821,22 +1201,22 @@
           },
           {
             "startTime": "2026-03-19T19:00:00+0000",
-            "duration": 435,
+            "duration": 15,
             "name": "House of Lords",
-            "description": "19/03/2026 Part 1",
+            "description": "Energy Costs Private Notice Question",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m002t0vd",
               "event_locator": "dvb://233a..918a;7e76",
               "main_title": "House of Lords",
-              "secondary_title": "19/03/2026 Part 1",
-              "image_url": "https://img.freeviewplay.tv/pf6d362d1931d240cab9dd97c5e428e3f",
+              "secondary_title": "Energy Costs Private Notice Question",
+              "image_url": "https://img.freeviewplay.tv/pf73fc441e76d20a7ff9cf688598efa87",
               "start_time": "2026-03-19T19:00:00+0000",
-              "duration": "PT7H15M",
+              "duration": "PT15M",
               "on_demand": {
-                "start_of_availability": "2026-03-19T20:00:00+0000",
-                "end_of_availability": "2027-03-19T20:00:00+0000",
+                "start_of_availability": "2026-03-19T19:15:24+0000",
+                "end_of_availability": "2027-03-19T19:15:24+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0vd&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -845,8 +1225,128 @@
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ee777f5210422ceb2dda0e693a3ead4e7",
+              "fallback_image_url": "http://img.freeviewplay.net/e8544c1a00f0705b3bf7d59401b9374a5",
               "uuid": "d40fbe6a97444f6ca6d9c217db845f74"
+            }
+          },
+          {
+            "startTime": "2026-03-19T19:15:00+0000",
+            "duration": 115,
+            "name": "House of Lords",
+            "description": "Pension Schemes Bill, Part 1",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002t0vg",
+              "event_locator": "dvb://233a..918a;7e77",
+              "main_title": "House of Lords",
+              "secondary_title": "Pension Schemes Bill, Part 1",
+              "image_url": "https://img.freeviewplay.tv/p6485df57e44988d9cb7ebc91a021a6db",
+              "start_time": "2026-03-19T19:15:00+0000",
+              "duration": "PT1H55M",
+              "on_demand": {
+                "start_of_availability": "2026-03-19T21:12:21+0000",
+                "end_of_availability": "2027-03-19T21:12:21+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0vg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ed68d69f7918e1e9b09df58218ed2c023",
+              "uuid": "e9c6e074471e39a8f8d9c2cbee73b508"
+            }
+          },
+          {
+            "startTime": "2026-03-19T21:10:00+0000",
+            "duration": 20,
+            "name": "House of Lords",
+            "description": "Pension Schemes Bill, Part 2",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002t0vj",
+              "event_locator": "dvb://233a..918a;7e78",
+              "main_title": "House of Lords",
+              "secondary_title": "Pension Schemes Bill, Part 2",
+              "image_url": "https://img.freeviewplay.tv/p68d35a1571e9a7bfedca04377359ccf9",
+              "start_time": "2026-03-19T21:10:00+0000",
+              "duration": "PT20M",
+              "on_demand": {
+                "start_of_availability": "2026-03-19T23:12:21+0000",
+                "end_of_availability": "2027-03-19T23:12:21+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0vj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ed68d69f7918e1e9b09df58218ed2c023",
+              "uuid": "d32971ad5ca15da47ebb11db46242d97"
+            }
+          },
+          {
+            "startTime": "2026-03-19T21:30:00+0000",
+            "duration": 45,
+            "name": "House of Lords",
+            "description": "Middle East Statement",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002t0vn",
+              "event_locator": "dvb://233a..918a;7e7a",
+              "main_title": "House of Lords",
+              "secondary_title": "Middle East Statement",
+              "image_url": "https://img.freeviewplay.tv/pcbf5577ae91f72d1dac9fd596e9c2c10",
+              "start_time": "2026-03-19T21:30:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2026-03-20T01:58:20+0000",
+                "end_of_availability": "2027-03-20T01:58:20+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0vn&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ea28e14aca489017e678f3221257e67f2",
+              "uuid": "9102579f938497c2cfbc7cc69f9f42bc"
+            }
+          },
+          {
+            "startTime": "2026-03-19T22:15:00+0000",
+            "duration": 115,
+            "name": "House of Lords",
+            "description": "Crime and Policing Bill, Part 2",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002t0sy",
+              "event_locator": "dvb://233a..918a;7fb8",
+              "main_title": "House of Lords",
+              "secondary_title": "Crime and Policing Bill, Part 2",
+              "image_url": "https://img.freeviewplay.tv/p048f3cfcf41daea20f8dfec307e28535",
+              "start_time": "2026-03-19T22:15:00+0000",
+              "duration": "PT1H55M",
+              "on_demand": {
+                "start_of_availability": "2026-03-19T03:20:00+0000",
+                "end_of_availability": "2027-03-19T03:20:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002t0sy&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ee777f5210422ceb2dda0e693a3ead4e7",
+              "uuid": "a2c5113d921c89c46f9198161d32a523"
             }
           }
         ]
