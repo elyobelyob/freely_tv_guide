@@ -273,6 +273,7 @@ layout_options:
 | 13144 | MBC | [channels/13144.json](https://elyobelyob.github.io/freely_tv_guide/channels/13144.json) |
 | 33664 | MBC Group | [channels/33664.json](https://elyobelyob.github.io/freely_tv_guide/channels/33664.json) |
 | 37902 | More4 | [channels/37902.json](https://elyobelyob.github.io/freely_tv_guide/channels/37902.json) |
+| 16218 | Music & Memories | [channels/16218.json](https://elyobelyob.github.io/freely_tv_guide/channels/16218.json) |
 | 23680 | Must Have Ideas | [channels/23680.json](https://elyobelyob.github.io/freely_tv_guide/channels/23680.json) |
 | 16322 | NHK WORLD | [channels/16322.json](https://elyobelyob.github.io/freely_tv_guide/channels/16322.json) |
 | 16360 | New Media TV | [channels/16360.json](https://elyobelyob.github.io/freely_tv_guide/channels/16360.json) |
@@ -282,6 +283,7 @@ layout_options:
 | 34048 | OUTflix Proud | [channels/34048.json](https://elyobelyob.github.io/freely_tv_guide/channels/34048.json) |
 | 16194 | Odyssey TV | [channels/16194.json](https://elyobelyob.github.io/freely_tv_guide/channels/16194.json) |
 | 15064 | On Demand 365 | [channels/15064.json](https://elyobelyob.github.io/freely_tv_guide/channels/15064.json) |
+| 16224 | Outdoor Channel | [channels/16224.json](https://elyobelyob.github.io/freely_tv_guide/channels/16224.json) |
 | 40706 | PBS America | [channels/40706.json](https://elyobelyob.github.io/freely_tv_guide/channels/40706.json) |
 | 16272 | POP | [channels/16272.json](https://elyobelyob.github.io/freely_tv_guide/channels/16272.json) |
 | 27424 | POP UP | [channels/27424.json](https://elyobelyob.github.io/freely_tv_guide/channels/27424.json) |
@@ -314,9 +316,8 @@ layout_options:
 | 38914 | TRUE CRIME XTRA | [channels/38914.json](https://elyobelyob.github.io/freely_tv_guide/channels/38914.json) |
 | 16406 | Talk | [channels/16406.json](https://elyobelyob.github.io/freely_tv_guide/channels/16406.json) |
 | 40708 | TalkingPictures TV | [channels/40708.json](https://elyobelyob.github.io/freely_tv_guide/channels/40708.json) |
-| 23904 | That's 80s | [channels/23904.json](https://elyobelyob.github.io/freely_tv_guide/channels/23904.json) |
-| 28032 | That's Melody | [channels/28032.json](https://elyobelyob.github.io/freely_tv_guide/channels/28032.json) |
-| 15864 | That's Oldies | [channels/15864.json](https://elyobelyob.github.io/freely_tv_guide/channels/15864.json) |
+| 28032 | That's 60s | [channels/28032.json](https://elyobelyob.github.io/freely_tv_guide/channels/28032.json) |
+| 23904 | That's 70s | [channels/23904.json](https://elyobelyob.github.io/freely_tv_guide/channels/23904.json) |
 | 27936 | That's TV (UK) | [channels/27936.json](https://elyobelyob.github.io/freely_tv_guide/channels/27936.json) |
 | 23152 | That's TV 2 | [channels/23152.json](https://elyobelyob.github.io/freely_tv_guide/channels/23152.json) |
 | 8700 | That's TV 3 | [channels/8700.json](https://elyobelyob.github.io/freely_tv_guide/channels/8700.json) |
