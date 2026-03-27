@@ -350,18 +350,29 @@
       "startTime": "2026-03-27T12:30:00+0000",
       "duration": 30,
       "name": "Medical Detectives",
-      "description": "",
+      "description": "Series 10: 31. Material Witness",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/166a1447-e01e-4d2e-ad7c-7c7b04e75574",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-10-31/41322190",
         "event_locator": "dvb://233a..9802;51a6",
         "main_title": "Medical Detectives",
-        "image_url": "https://img.freeviewplay.tv/ef8ff3f8a167a13a001d1d084d3f38738",
+        "secondary_title": "Series 10: 31. Material Witness",
+        "image_url": "https://img.freeviewplay.tv/p341ed6eda764cce768abd705abad5882",
         "start_time": "2026-03-27T12:30:00+0000",
         "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "27c8ad10b1019552363000de4254f30c"
+        "on_demand": {
+          "start_of_availability": "2026-03-27T12:30:00+0000",
+          "end_of_availability": "2026-04-26T13:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=41322190&stream_id=714&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "0937f396552c0a840786deb53cd57ac8"
       }
     },
     {
@@ -1093,18 +1104,29 @@
             "startTime": "2026-03-27T12:30:00+0000",
             "duration": 30,
             "name": "Medical Detectives",
-            "description": "",
+            "description": "Series 10: 31. Material Witness",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/166a1447-e01e-4d2e-ad7c-7c7b04e75574",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/medicaldetectives-10-31/41322190",
               "event_locator": "dvb://233a..9802;51a6",
               "main_title": "Medical Detectives",
-              "image_url": "https://img.freeviewplay.tv/ef8ff3f8a167a13a001d1d084d3f38738",
+              "secondary_title": "Series 10: 31. Material Witness",
+              "image_url": "https://img.freeviewplay.tv/p341ed6eda764cce768abd705abad5882",
               "start_time": "2026-03-27T12:30:00+0000",
               "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "27c8ad10b1019552363000de4254f30c"
+              "on_demand": {
+                "start_of_availability": "2026-03-27T12:30:00+0000",
+                "end_of_availability": "2026-04-26T13:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=41322190&stream_id=714&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "0937f396552c0a840786deb53cd57ac8"
             }
           },
           {
