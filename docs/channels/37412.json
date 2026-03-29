@@ -5,291 +5,237 @@
   },
   "events": [
     {
-      "startTime": "2026-03-29T00:00:00+0000",
+      "startTime": "2026-03-30T00:00:00+0000",
+      "duration": 300,
+      "name": "As BBC Radio 5 Live",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/948c5d10-27b9-4994-865c-99f0e1a4cc7e",
+        "event_locator": "dvb://233a..9224;201",
+        "main_title": "As BBC Radio 5 Live",
+        "start_time": "2026-03-30T00:00:00+0000",
+        "duration": "PT5H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/fdc7d65d59703e520c07789d81fc05ca2",
+        "uuid": "9418ed41b347754897a7463eeae86990"
+      }
+    },
+    {
+      "startTime": "2026-03-30T05:00:00+0000",
+      "duration": 5,
+      "name": "Radio Wales News Update",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/4033da00-b27b-45cd-8245-744690b87f17",
+        "event_locator": "dvb://233a..9224;20f",
+        "main_title": "Radio Wales News Update",
+        "start_time": "2026-03-30T05:00:00+0000",
+        "duration": "PT5M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/fc8186ad50f117e448c06902f4078c84c",
+        "uuid": "2d7bbb34792d3c8097a0ae7609179651"
+      }
+    },
+    {
+      "startTime": "2026-03-30T05:05:00+0000",
+      "duration": 26,
+      "name": "Wake Up with Radio Wales",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/c84ffa0c-98c1-403f-b8fe-d959bbb2ac10",
+        "event_locator": "dvb://233a..9224;210",
+        "main_title": "Wake Up with Radio Wales",
+        "start_time": "2026-03-30T05:05:00+0000",
+        "duration": "PT26M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/fb5360140f45b6832c4b43df03067ed1d",
+        "uuid": "1d5dc9a27d979f2422e214d3359c03f7"
+      }
+    },
+    {
+      "startTime": "2026-03-30T05:31:00+0000",
+      "duration": 29,
+      "name": "Radio Wales Arts Show",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/cd69a320-63c3-4124-ac6d-00d550e3e222",
+        "event_locator": "dvb://233a..9224;2fc",
+        "main_title": "Radio Wales Arts Show",
+        "start_time": "2026-03-30T05:31:00+0000",
+        "duration": "PT29M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/f6116e55b40f4b70d85538784abf4767e",
+        "uuid": "67a12240fda89fcb567e3213f3bb6c2b"
+      }
+    },
+    {
+      "startTime": "2026-03-30T06:00:00+0000",
+      "duration": 120,
+      "name": "Radio Wales Breakfast",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/a4f316bf-50ea-417a-8c5d-6665c5047690",
+        "event_locator": "dvb://233a..9224;212",
+        "main_title": "Radio Wales Breakfast",
+        "start_time": "2026-03-30T06:00:00+0000",
+        "duration": "PT2H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/f3fbcd1bf10eecf98b5504b32395c2b56",
+        "uuid": "bd640f6b9d7d853590fa3fc3f4cdc031"
+      }
+    },
+    {
+      "startTime": "2026-03-30T08:00:00+0000",
+      "duration": 179,
+      "name": "Justine Jones",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/f5a36953-9fd6-44ba-b6a7-e34b348d0ea0",
+        "event_locator": "dvb://233a..9224;213",
+        "main_title": "Justine Jones",
+        "start_time": "2026-03-30T08:00:00+0000",
+        "duration": "PT2H59M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/f1c2b729c28db6d91181382084386014c",
+        "uuid": "8fd5995839e5bd2392c78bb2f71ee10f"
+      }
+    },
+    {
+      "startTime": "2026-03-30T10:59:00+0000",
+      "duration": 121,
+      "name": "The Phone In",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/e2a92feb-f8d6-4385-baec-d82f22abdba2",
+        "event_locator": "dvb://233a..9224;214",
+        "main_title": "The Phone In",
+        "start_time": "2026-03-30T10:59:00+0000",
+        "duration": "PT2H1M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/fa3db520698f909966b06d1c8e818f1cb",
+        "uuid": "a31c7dd7d15e790cd9813effd17b94c4"
+      }
+    },
+    {
+      "startTime": "2026-03-30T13:00:00+0000",
+      "duration": 180,
+      "name": "Behnaz Akhgar",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/1442b8d4-7686-4c12-8a39-ef2e97a1e304",
+        "event_locator": "dvb://233a..9224;215",
+        "main_title": "Behnaz Akhgar",
+        "start_time": "2026-03-30T13:00:00+0000",
+        "duration": "PT3H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/fcec7b6ec86986c0d2b52d984ae6097ed",
+        "uuid": "a78fad5d338a1e93a4f9802e1c9e5fb0"
+      }
+    },
+    {
+      "startTime": "2026-03-30T16:00:00+0000",
+      "duration": 90,
+      "name": "Radio Wales Drive",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/5fcce134-1733-447f-a1f0-4b90bd7bb5da",
+        "event_locator": "dvb://233a..9224;216",
+        "main_title": "Radio Wales Drive",
+        "start_time": "2026-03-30T16:00:00+0000",
+        "duration": "PT1H30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/f9fd7d570ae397d60db219ffdf7e0d9ef",
+        "uuid": "025259f6dbee315ef9a6b57b7f8b8bf8"
+      }
+    },
+    {
+      "startTime": "2026-03-30T17:30:00+0000",
+      "duration": 30,
+      "name": "Welsh Dragons of the Battle of...",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/d62b9748-2f11-433d-b5b5-bf72104d179a",
+        "event_locator": "dvb://233a..9224;217",
+        "main_title": "Welsh Dragons of the Battle of...",
+        "start_time": "2026-03-30T17:30:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/f45163ef94fbfb272a7a19945204b68f0",
+        "uuid": "d4fa3049991656a7916d6bef82af4637"
+      }
+    },
+    {
+      "startTime": "2026-03-30T18:00:00+0000",
+      "duration": 180,
+      "name": "Huw Stephens",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/32edf2e0-dad3-471c-910f-827f372d8608",
+        "event_locator": "dvb://233a..9224;218",
+        "main_title": "Huw Stephens",
+        "start_time": "2026-03-30T18:00:00+0000",
+        "duration": "PT3H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/fb1e43108208f76d56650940cfb2fffe2",
+        "uuid": "caf5e992f128a2102f3fd1e55000542c"
+      }
+    },
+    {
+      "startTime": "2026-03-30T21:00:00+0000",
+      "duration": 120,
+      "name": "Eleri Siôn",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/12ac71fa-592f-43e8-ac23-a799952a8b41",
+        "event_locator": "dvb://233a..9224;219",
+        "main_title": "Eleri Siôn",
+        "start_time": "2026-03-30T21:00:00+0000",
+        "duration": "PT2H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/fc12f906bf386c6485105a18c968eb58d",
+        "uuid": "170b354bc41240b133236a0d1c27956e"
+      }
+    },
+    {
+      "startTime": "2026-03-30T23:00:00+0000",
       "duration": 60,
       "name": "Relax with Radio Wales",
       "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/78f2a076-5b4f-4af7-b0c8-5caa56335baf",
-        "event_locator": "dvb://233a..9224;1e4",
+        "program_id": "crid://csi.digitaluk.co.uk/e87b0c07-9566-4c43-9a18-b5f755fe6710",
+        "event_locator": "dvb://233a..9224;21a",
         "main_title": "Relax with Radio Wales",
-        "start_time": "2026-03-29T00:00:00+0000",
+        "start_time": "2026-03-30T23:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "fallback_image_url": "http://img.freeviewplay.net/fb89e1a75fae7ffee8cfef8d586dd3c71",
-        "uuid": "5c70361f1b53e6a0003fa8e9671f2d4c"
-      }
-    },
-    {
-      "startTime": "2026-03-29T01:00:00+0000",
-      "duration": 240,
-      "name": "As BBC Radio 5 Live",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/5a2f39c9-057d-445e-b0b7-dbc83f35342c",
-        "event_locator": "dvb://233a..9224;1e5",
-        "main_title": "As BBC Radio 5 Live",
-        "start_time": "2026-03-29T01:00:00+0000",
-        "duration": "PT4H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/fdc7d65d59703e520c07789d81fc05ca2",
-        "uuid": "8011efa5e647258a6cf08ca95e97c6a4"
-      }
-    },
-    {
-      "startTime": "2026-03-29T05:00:00+0000",
-      "duration": 30,
-      "name": "Radio Wales Arts Show",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/5a32ea8b-9bf3-44dd-9b83-04aaf3db084f",
-        "event_locator": "dvb://233a..9224;2fb",
-        "main_title": "Radio Wales Arts Show",
-        "start_time": "2026-03-29T05:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/f6116e55b40f4b70d85538784abf4767e",
-        "uuid": "227e18e78eee9675cd62e5a78b22246b"
-      }
-    },
-    {
-      "startTime": "2026-03-29T05:30:00+0000",
-      "duration": 30,
-      "name": "We Can't Go On Eating Like This!",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/df525b86-8c19-483a-99e9-eb526b3a3a95",
-        "event_locator": "dvb://233a..9224;1f4",
-        "main_title": "We Can't Go On Eating Like This!",
-        "start_time": "2026-03-29T05:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/f739e69822dc0692db25e27ac201d6052",
-        "uuid": "085510b50b6b1b5ac6261c4ae4500d29"
-      }
-    },
-    {
-      "startTime": "2026-03-29T06:00:00+0000",
-      "duration": 33,
-      "name": "Country Focus",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/03949640-0212-495e-9352-394f173e7099",
-        "event_locator": "dvb://233a..9224;1f5",
-        "main_title": "Country Focus",
-        "start_time": "2026-03-29T06:00:00+0000",
-        "duration": "PT33M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/f26fb214220b5d83e91b03b1b453924e2",
-        "uuid": "7be7a425ac8f7282fe18a38e9bbf62a3"
-      }
-    },
-    {
-      "startTime": "2026-03-29T06:33:00+0000",
-      "duration": 27,
-      "name": "Celebration",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/057293d0-328f-4ecb-9da3-4844cf6539fa",
-        "event_locator": "dvb://233a..9224;1f6",
-        "main_title": "Celebration",
-        "start_time": "2026-03-29T06:33:00+0000",
-        "duration": "PT27M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ff1fb425710870da2b3261790be6c8871",
-        "uuid": "59facbbda7ee1f841d455b48f12875f3"
-      }
-    },
-    {
-      "startTime": "2026-03-29T07:00:00+0000",
-      "duration": 60,
-      "name": "Sunday Supplement",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/08f3f2ab-7fd8-4854-95e6-d73b43c9dcb5",
-        "event_locator": "dvb://233a..9224;1f7",
-        "main_title": "Sunday Supplement",
-        "start_time": "2026-03-29T07:00:00+0000",
-        "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/fee4dc12bfb94e715b4a704ad16a659b0",
-        "uuid": "3f848d24066b71b961904ac08d9871e1"
-      }
-    },
-    {
-      "startTime": "2026-03-29T08:00:00+0000",
-      "duration": 33,
-      "name": "All Things Considered",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/5aaa5305-6588-4fc7-9d61-fe4e1967b7a9",
-        "event_locator": "dvb://233a..9224;1f8",
-        "main_title": "All Things Considered",
-        "start_time": "2026-03-29T08:00:00+0000",
-        "duration": "PT33M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/fac332ae25a35a5c6ca1b5d0c520960d7",
-        "uuid": "f3b2c81274b77fde7fef90292fa73e93"
-      }
-    },
-    {
-      "startTime": "2026-03-29T08:33:00+0000",
-      "duration": 147,
-      "name": "Owen Money's Solid Gold Sunday",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/4f902094-6890-4a54-9fb5-b1bfe6ff916b",
-        "event_locator": "dvb://233a..9224;1f9",
-        "main_title": "Owen Money's Solid Gold Sunday",
-        "start_time": "2026-03-29T08:33:00+0000",
-        "duration": "PT2H27M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/f890c155070d55e8170efd7383bf9bbf2",
-        "uuid": "c489cd628b1e54284877f3bf13f1c2d7"
-      }
-    },
-    {
-      "startTime": "2026-03-29T11:00:00+0000",
-      "duration": 180,
-      "name": "Robin Morgan",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/02818d9f-8588-4598-803e-524c22489422",
-        "event_locator": "dvb://233a..9224;1fa",
-        "main_title": "Robin Morgan",
-        "start_time": "2026-03-29T11:00:00+0000",
-        "duration": "PT3H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/fbfa2e4e41d3204591a666b804b75528a",
-        "uuid": "6380d6504035a77ec1bd535228844523"
-      }
-    },
-    {
-      "startTime": "2026-03-29T14:00:00+0000",
-      "duration": 120,
-      "name": "Lynn Bowles",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/8d0662b7-65d6-475a-b9c7-581eb0d4b789",
-        "event_locator": "dvb://233a..9224;1fb",
-        "main_title": "Lynn Bowles",
-        "start_time": "2026-03-29T14:00:00+0000",
-        "duration": "PT2H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/ff40321f20e2bf5afcf46bebc713f688b",
-        "uuid": "a00168d423d22cc846f6e15e80346d8c"
-      }
-    },
-    {
-      "startTime": "2026-03-29T16:00:00+0000",
-      "duration": 120,
-      "name": "Roy Noble",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/ecdd75aa-5812-4ccd-abd5-86870f968ec2",
-        "event_locator": "dvb://233a..9224;1fc",
-        "main_title": "Roy Noble",
-        "start_time": "2026-03-29T16:00:00+0000",
-        "duration": "PT2H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/fc57aad00085a79439e6c7fb673f98dd2",
-        "uuid": "3a520d3bfa6b26e72cde37c73498c795"
-      }
-    },
-    {
-      "startTime": "2026-03-29T18:00:00+0000",
-      "duration": 29,
-      "name": "Surrounded by Rebellion -...",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/610a68a6-3c69-4cc3-8081-4f1027d8816a",
-        "event_locator": "dvb://233a..9224;1fd",
-        "main_title": "Surrounded by Rebellion -...",
-        "start_time": "2026-03-29T18:00:00+0000",
-        "duration": "PT29M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/f2855035cc7ba97b2ac03cab7410c351e",
-        "uuid": "162c486cffde24ebaf19e99f8b5cc6b1"
-      }
-    },
-    {
-      "startTime": "2026-03-29T18:29:00+0000",
-      "duration": 31,
-      "name": "Celebration",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/6a438218-1f5c-4f30-8348-397dfe7f6386",
-        "event_locator": "dvb://233a..9224;1fe",
-        "main_title": "Celebration",
-        "start_time": "2026-03-29T18:29:00+0000",
-        "duration": "PT31M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ff1fb425710870da2b3261790be6c8871",
-        "uuid": "84d9f82b01fd6b4052d9e871cfbb588f"
-      }
-    },
-    {
-      "startTime": "2026-03-29T19:00:00+0000",
-      "duration": 120,
-      "name": "Celtic Heartbeat",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/ee06d1a7-2c6f-4d88-96d7-9e17f88731a5",
-        "event_locator": "dvb://233a..9224;1ff",
-        "main_title": "Celtic Heartbeat",
-        "start_time": "2026-03-29T19:00:00+0000",
-        "duration": "PT2H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/f5f8ce1817e4f07502a06101469b9ae8c",
-        "uuid": "7246da74ecb870ecd0f2173975b37ada"
-      }
-    },
-    {
-      "startTime": "2026-03-29T21:00:00+0000",
-      "duration": 180,
-      "name": "Beverley's World of Music",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/f0cac500-35e2-4157-9f3a-5dc9c62f3858",
-        "event_locator": "dvb://233a..9224;200",
-        "main_title": "Beverley's World of Music",
-        "start_time": "2026-03-29T21:00:00+0000",
-        "duration": "PT3H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/f34a6136b2361466aecf531eda542d1f3",
-        "uuid": "fe080bbfee73e71652b59601fb1743ab"
+        "uuid": "134c259954efa7283c39c7535d81a5a0"
       }
     }
   ],
@@ -298,291 +244,237 @@
       {
         "event": [
           {
-            "startTime": "2026-03-29T00:00:00+0000",
+            "startTime": "2026-03-30T00:00:00+0000",
+            "duration": 300,
+            "name": "As BBC Radio 5 Live",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/948c5d10-27b9-4994-865c-99f0e1a4cc7e",
+              "event_locator": "dvb://233a..9224;201",
+              "main_title": "As BBC Radio 5 Live",
+              "start_time": "2026-03-30T00:00:00+0000",
+              "duration": "PT5H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/fdc7d65d59703e520c07789d81fc05ca2",
+              "uuid": "9418ed41b347754897a7463eeae86990"
+            }
+          },
+          {
+            "startTime": "2026-03-30T05:00:00+0000",
+            "duration": 5,
+            "name": "Radio Wales News Update",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/4033da00-b27b-45cd-8245-744690b87f17",
+              "event_locator": "dvb://233a..9224;20f",
+              "main_title": "Radio Wales News Update",
+              "start_time": "2026-03-30T05:00:00+0000",
+              "duration": "PT5M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/fc8186ad50f117e448c06902f4078c84c",
+              "uuid": "2d7bbb34792d3c8097a0ae7609179651"
+            }
+          },
+          {
+            "startTime": "2026-03-30T05:05:00+0000",
+            "duration": 26,
+            "name": "Wake Up with Radio Wales",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/c84ffa0c-98c1-403f-b8fe-d959bbb2ac10",
+              "event_locator": "dvb://233a..9224;210",
+              "main_title": "Wake Up with Radio Wales",
+              "start_time": "2026-03-30T05:05:00+0000",
+              "duration": "PT26M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/fb5360140f45b6832c4b43df03067ed1d",
+              "uuid": "1d5dc9a27d979f2422e214d3359c03f7"
+            }
+          },
+          {
+            "startTime": "2026-03-30T05:31:00+0000",
+            "duration": 29,
+            "name": "Radio Wales Arts Show",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/cd69a320-63c3-4124-ac6d-00d550e3e222",
+              "event_locator": "dvb://233a..9224;2fc",
+              "main_title": "Radio Wales Arts Show",
+              "start_time": "2026-03-30T05:31:00+0000",
+              "duration": "PT29M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/f6116e55b40f4b70d85538784abf4767e",
+              "uuid": "67a12240fda89fcb567e3213f3bb6c2b"
+            }
+          },
+          {
+            "startTime": "2026-03-30T06:00:00+0000",
+            "duration": 120,
+            "name": "Radio Wales Breakfast",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/a4f316bf-50ea-417a-8c5d-6665c5047690",
+              "event_locator": "dvb://233a..9224;212",
+              "main_title": "Radio Wales Breakfast",
+              "start_time": "2026-03-30T06:00:00+0000",
+              "duration": "PT2H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/f3fbcd1bf10eecf98b5504b32395c2b56",
+              "uuid": "bd640f6b9d7d853590fa3fc3f4cdc031"
+            }
+          },
+          {
+            "startTime": "2026-03-30T08:00:00+0000",
+            "duration": 179,
+            "name": "Justine Jones",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/f5a36953-9fd6-44ba-b6a7-e34b348d0ea0",
+              "event_locator": "dvb://233a..9224;213",
+              "main_title": "Justine Jones",
+              "start_time": "2026-03-30T08:00:00+0000",
+              "duration": "PT2H59M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/f1c2b729c28db6d91181382084386014c",
+              "uuid": "8fd5995839e5bd2392c78bb2f71ee10f"
+            }
+          },
+          {
+            "startTime": "2026-03-30T10:59:00+0000",
+            "duration": 121,
+            "name": "The Phone In",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/e2a92feb-f8d6-4385-baec-d82f22abdba2",
+              "event_locator": "dvb://233a..9224;214",
+              "main_title": "The Phone In",
+              "start_time": "2026-03-30T10:59:00+0000",
+              "duration": "PT2H1M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/fa3db520698f909966b06d1c8e818f1cb",
+              "uuid": "a31c7dd7d15e790cd9813effd17b94c4"
+            }
+          },
+          {
+            "startTime": "2026-03-30T13:00:00+0000",
+            "duration": 180,
+            "name": "Behnaz Akhgar",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/1442b8d4-7686-4c12-8a39-ef2e97a1e304",
+              "event_locator": "dvb://233a..9224;215",
+              "main_title": "Behnaz Akhgar",
+              "start_time": "2026-03-30T13:00:00+0000",
+              "duration": "PT3H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/fcec7b6ec86986c0d2b52d984ae6097ed",
+              "uuid": "a78fad5d338a1e93a4f9802e1c9e5fb0"
+            }
+          },
+          {
+            "startTime": "2026-03-30T16:00:00+0000",
+            "duration": 90,
+            "name": "Radio Wales Drive",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/5fcce134-1733-447f-a1f0-4b90bd7bb5da",
+              "event_locator": "dvb://233a..9224;216",
+              "main_title": "Radio Wales Drive",
+              "start_time": "2026-03-30T16:00:00+0000",
+              "duration": "PT1H30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/f9fd7d570ae397d60db219ffdf7e0d9ef",
+              "uuid": "025259f6dbee315ef9a6b57b7f8b8bf8"
+            }
+          },
+          {
+            "startTime": "2026-03-30T17:30:00+0000",
+            "duration": 30,
+            "name": "Welsh Dragons of the Battle of...",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/d62b9748-2f11-433d-b5b5-bf72104d179a",
+              "event_locator": "dvb://233a..9224;217",
+              "main_title": "Welsh Dragons of the Battle of...",
+              "start_time": "2026-03-30T17:30:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/f45163ef94fbfb272a7a19945204b68f0",
+              "uuid": "d4fa3049991656a7916d6bef82af4637"
+            }
+          },
+          {
+            "startTime": "2026-03-30T18:00:00+0000",
+            "duration": 180,
+            "name": "Huw Stephens",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/32edf2e0-dad3-471c-910f-827f372d8608",
+              "event_locator": "dvb://233a..9224;218",
+              "main_title": "Huw Stephens",
+              "start_time": "2026-03-30T18:00:00+0000",
+              "duration": "PT3H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/fb1e43108208f76d56650940cfb2fffe2",
+              "uuid": "caf5e992f128a2102f3fd1e55000542c"
+            }
+          },
+          {
+            "startTime": "2026-03-30T21:00:00+0000",
+            "duration": 120,
+            "name": "Eleri Siôn",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/12ac71fa-592f-43e8-ac23-a799952a8b41",
+              "event_locator": "dvb://233a..9224;219",
+              "main_title": "Eleri Siôn",
+              "start_time": "2026-03-30T21:00:00+0000",
+              "duration": "PT2H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/fc12f906bf386c6485105a18c968eb58d",
+              "uuid": "170b354bc41240b133236a0d1c27956e"
+            }
+          },
+          {
+            "startTime": "2026-03-30T23:00:00+0000",
             "duration": 60,
             "name": "Relax with Radio Wales",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/78f2a076-5b4f-4af7-b0c8-5caa56335baf",
-              "event_locator": "dvb://233a..9224;1e4",
+              "program_id": "crid://csi.digitaluk.co.uk/e87b0c07-9566-4c43-9a18-b5f755fe6710",
+              "event_locator": "dvb://233a..9224;21a",
               "main_title": "Relax with Radio Wales",
-              "start_time": "2026-03-29T00:00:00+0000",
+              "start_time": "2026-03-30T23:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "fallback_image_url": "http://img.freeviewplay.net/fb89e1a75fae7ffee8cfef8d586dd3c71",
-              "uuid": "5c70361f1b53e6a0003fa8e9671f2d4c"
-            }
-          },
-          {
-            "startTime": "2026-03-29T01:00:00+0000",
-            "duration": 240,
-            "name": "As BBC Radio 5 Live",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/5a2f39c9-057d-445e-b0b7-dbc83f35342c",
-              "event_locator": "dvb://233a..9224;1e5",
-              "main_title": "As BBC Radio 5 Live",
-              "start_time": "2026-03-29T01:00:00+0000",
-              "duration": "PT4H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/fdc7d65d59703e520c07789d81fc05ca2",
-              "uuid": "8011efa5e647258a6cf08ca95e97c6a4"
-            }
-          },
-          {
-            "startTime": "2026-03-29T05:00:00+0000",
-            "duration": 30,
-            "name": "Radio Wales Arts Show",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/5a32ea8b-9bf3-44dd-9b83-04aaf3db084f",
-              "event_locator": "dvb://233a..9224;2fb",
-              "main_title": "Radio Wales Arts Show",
-              "start_time": "2026-03-29T05:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/f6116e55b40f4b70d85538784abf4767e",
-              "uuid": "227e18e78eee9675cd62e5a78b22246b"
-            }
-          },
-          {
-            "startTime": "2026-03-29T05:30:00+0000",
-            "duration": 30,
-            "name": "We Can't Go On Eating Like This!",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/df525b86-8c19-483a-99e9-eb526b3a3a95",
-              "event_locator": "dvb://233a..9224;1f4",
-              "main_title": "We Can't Go On Eating Like This!",
-              "start_time": "2026-03-29T05:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/f739e69822dc0692db25e27ac201d6052",
-              "uuid": "085510b50b6b1b5ac6261c4ae4500d29"
-            }
-          },
-          {
-            "startTime": "2026-03-29T06:00:00+0000",
-            "duration": 33,
-            "name": "Country Focus",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/03949640-0212-495e-9352-394f173e7099",
-              "event_locator": "dvb://233a..9224;1f5",
-              "main_title": "Country Focus",
-              "start_time": "2026-03-29T06:00:00+0000",
-              "duration": "PT33M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/f26fb214220b5d83e91b03b1b453924e2",
-              "uuid": "7be7a425ac8f7282fe18a38e9bbf62a3"
-            }
-          },
-          {
-            "startTime": "2026-03-29T06:33:00+0000",
-            "duration": 27,
-            "name": "Celebration",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/057293d0-328f-4ecb-9da3-4844cf6539fa",
-              "event_locator": "dvb://233a..9224;1f6",
-              "main_title": "Celebration",
-              "start_time": "2026-03-29T06:33:00+0000",
-              "duration": "PT27M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ff1fb425710870da2b3261790be6c8871",
-              "uuid": "59facbbda7ee1f841d455b48f12875f3"
-            }
-          },
-          {
-            "startTime": "2026-03-29T07:00:00+0000",
-            "duration": 60,
-            "name": "Sunday Supplement",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/08f3f2ab-7fd8-4854-95e6-d73b43c9dcb5",
-              "event_locator": "dvb://233a..9224;1f7",
-              "main_title": "Sunday Supplement",
-              "start_time": "2026-03-29T07:00:00+0000",
-              "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/fee4dc12bfb94e715b4a704ad16a659b0",
-              "uuid": "3f848d24066b71b961904ac08d9871e1"
-            }
-          },
-          {
-            "startTime": "2026-03-29T08:00:00+0000",
-            "duration": 33,
-            "name": "All Things Considered",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/5aaa5305-6588-4fc7-9d61-fe4e1967b7a9",
-              "event_locator": "dvb://233a..9224;1f8",
-              "main_title": "All Things Considered",
-              "start_time": "2026-03-29T08:00:00+0000",
-              "duration": "PT33M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/fac332ae25a35a5c6ca1b5d0c520960d7",
-              "uuid": "f3b2c81274b77fde7fef90292fa73e93"
-            }
-          },
-          {
-            "startTime": "2026-03-29T08:33:00+0000",
-            "duration": 147,
-            "name": "Owen Money's Solid Gold Sunday",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/4f902094-6890-4a54-9fb5-b1bfe6ff916b",
-              "event_locator": "dvb://233a..9224;1f9",
-              "main_title": "Owen Money's Solid Gold Sunday",
-              "start_time": "2026-03-29T08:33:00+0000",
-              "duration": "PT2H27M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/f890c155070d55e8170efd7383bf9bbf2",
-              "uuid": "c489cd628b1e54284877f3bf13f1c2d7"
-            }
-          },
-          {
-            "startTime": "2026-03-29T11:00:00+0000",
-            "duration": 180,
-            "name": "Robin Morgan",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/02818d9f-8588-4598-803e-524c22489422",
-              "event_locator": "dvb://233a..9224;1fa",
-              "main_title": "Robin Morgan",
-              "start_time": "2026-03-29T11:00:00+0000",
-              "duration": "PT3H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/fbfa2e4e41d3204591a666b804b75528a",
-              "uuid": "6380d6504035a77ec1bd535228844523"
-            }
-          },
-          {
-            "startTime": "2026-03-29T14:00:00+0000",
-            "duration": 120,
-            "name": "Lynn Bowles",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/8d0662b7-65d6-475a-b9c7-581eb0d4b789",
-              "event_locator": "dvb://233a..9224;1fb",
-              "main_title": "Lynn Bowles",
-              "start_time": "2026-03-29T14:00:00+0000",
-              "duration": "PT2H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/ff40321f20e2bf5afcf46bebc713f688b",
-              "uuid": "a00168d423d22cc846f6e15e80346d8c"
-            }
-          },
-          {
-            "startTime": "2026-03-29T16:00:00+0000",
-            "duration": 120,
-            "name": "Roy Noble",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/ecdd75aa-5812-4ccd-abd5-86870f968ec2",
-              "event_locator": "dvb://233a..9224;1fc",
-              "main_title": "Roy Noble",
-              "start_time": "2026-03-29T16:00:00+0000",
-              "duration": "PT2H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/fc57aad00085a79439e6c7fb673f98dd2",
-              "uuid": "3a520d3bfa6b26e72cde37c73498c795"
-            }
-          },
-          {
-            "startTime": "2026-03-29T18:00:00+0000",
-            "duration": 29,
-            "name": "Surrounded by Rebellion -...",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/610a68a6-3c69-4cc3-8081-4f1027d8816a",
-              "event_locator": "dvb://233a..9224;1fd",
-              "main_title": "Surrounded by Rebellion -...",
-              "start_time": "2026-03-29T18:00:00+0000",
-              "duration": "PT29M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/f2855035cc7ba97b2ac03cab7410c351e",
-              "uuid": "162c486cffde24ebaf19e99f8b5cc6b1"
-            }
-          },
-          {
-            "startTime": "2026-03-29T18:29:00+0000",
-            "duration": 31,
-            "name": "Celebration",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/6a438218-1f5c-4f30-8348-397dfe7f6386",
-              "event_locator": "dvb://233a..9224;1fe",
-              "main_title": "Celebration",
-              "start_time": "2026-03-29T18:29:00+0000",
-              "duration": "PT31M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ff1fb425710870da2b3261790be6c8871",
-              "uuid": "84d9f82b01fd6b4052d9e871cfbb588f"
-            }
-          },
-          {
-            "startTime": "2026-03-29T19:00:00+0000",
-            "duration": 120,
-            "name": "Celtic Heartbeat",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/ee06d1a7-2c6f-4d88-96d7-9e17f88731a5",
-              "event_locator": "dvb://233a..9224;1ff",
-              "main_title": "Celtic Heartbeat",
-              "start_time": "2026-03-29T19:00:00+0000",
-              "duration": "PT2H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/f5f8ce1817e4f07502a06101469b9ae8c",
-              "uuid": "7246da74ecb870ecd0f2173975b37ada"
-            }
-          },
-          {
-            "startTime": "2026-03-29T21:00:00+0000",
-            "duration": 180,
-            "name": "Beverley's World of Music",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/f0cac500-35e2-4157-9f3a-5dc9c62f3858",
-              "event_locator": "dvb://233a..9224;200",
-              "main_title": "Beverley's World of Music",
-              "start_time": "2026-03-29T21:00:00+0000",
-              "duration": "PT3H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/f34a6136b2361466aecf531eda542d1f3",
-              "uuid": "fe080bbfee73e71652b59601fb1743ab"
+              "uuid": "134c259954efa7283c39c7535d81a5a0"
             }
           }
         ]
