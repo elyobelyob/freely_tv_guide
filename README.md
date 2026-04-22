@@ -220,7 +220,7 @@ layout_options:
 | 37275 | CBBC | [channels/37275.json](https://elyobelyob.github.io/freely_tv_guide/channels/37275.json) |
 | 37276 | CBeebies | [channels/37276.json](https://elyobelyob.github.io/freely_tv_guide/channels/37276.json) |
 | 16164 | CNA Originals | [channels/16164.json](https://elyobelyob.github.io/freely_tv_guide/channels/16164.json) |
-| 39425 | CNN Headlines | [channels/39425.json](https://elyobelyob.github.io/freely_tv_guide/channels/39425.json) |
+| 39425 | CNN Headlines International | [channels/39425.json](https://elyobelyob.github.io/freely_tv_guide/channels/39425.json) |
 | 22688 | Capital | [channels/22688.json](https://elyobelyob.github.io/freely_tv_guide/channels/22688.json) |
 | 34432 | Cartoon Classics | [channels/34432.json](https://elyobelyob.github.io/freely_tv_guide/channels/34432.json) |
 | 22226 | Challenge | [channels/22226.json](https://elyobelyob.github.io/freely_tv_guide/channels/22226.json) |
@@ -290,7 +290,7 @@ layout_options:
 | 28160 | Premier Radio | [channels/28160.json](https://elyobelyob.github.io/freely_tv_guide/channels/28160.json) |
 | 16400 | Purpose Media | [channels/16400.json](https://elyobelyob.github.io/freely_tv_guide/channels/16400.json) |
 | 27328 | QUEST | [channels/27328.json](https://elyobelyob.github.io/freely_tv_guide/channels/27328.json) |
-| 23808 | QUEST+1 | [channels/23808.json](https://elyobelyob.github.io/freely_tv_guide/channels/23808.json) |
+| 34752 | QUEST+1 | [channels/34752.json](https://elyobelyob.github.io/freely_tv_guide/channels/34752.json) |
 | 39169 | QVC | [channels/39169.json](https://elyobelyob.github.io/freely_tv_guide/channels/39169.json) |
 | 39170 | QVC2 | [channels/39170.json](https://elyobelyob.github.io/freely_tv_guide/channels/39170.json) |
 | 39428 | Quest Red | [channels/39428.json](https://elyobelyob.github.io/freely_tv_guide/channels/39428.json) |
@@ -316,11 +316,11 @@ layout_options:
 | 38914 | TRUE CRIME XTRA | [channels/38914.json](https://elyobelyob.github.io/freely_tv_guide/channels/38914.json) |
 | 16406 | Talk | [channels/16406.json](https://elyobelyob.github.io/freely_tv_guide/channels/16406.json) |
 | 40708 | TalkingPictures TV | [channels/40708.json](https://elyobelyob.github.io/freely_tv_guide/channels/40708.json) |
+| 8700 | That's 20th Century | [channels/8700.json](https://elyobelyob.github.io/freely_tv_guide/channels/8700.json) |
 | 28032 | That's 60s | [channels/28032.json](https://elyobelyob.github.io/freely_tv_guide/channels/28032.json) |
 | 23904 | That's 70s | [channels/23904.json](https://elyobelyob.github.io/freely_tv_guide/channels/23904.json) |
 | 27936 | That's TV (UK) | [channels/27936.json](https://elyobelyob.github.io/freely_tv_guide/channels/27936.json) |
 | 23152 | That's TV 2 | [channels/23152.json](https://elyobelyob.github.io/freely_tv_guide/channels/23152.json) |
-| 8700 | That's TV 3 | [channels/8700.json](https://elyobelyob.github.io/freely_tv_guide/channels/8700.json) |
 | 37696 | The Chase | [channels/37696.json](https://elyobelyob.github.io/freely_tv_guide/channels/37696.json) |
 | 16280 | Tiny Pop | [channels/16280.json](https://elyobelyob.github.io/freely_tv_guide/channels/16280.json) |
 | 16364 | Together TV | [channels/16364.json](https://elyobelyob.github.io/freely_tv_guide/channels/16364.json) |
