@@ -229,6 +229,7 @@ layout_options:
 | 15448 | Channelbox | [channels/15448.json](https://elyobelyob.github.io/freely_tv_guide/channels/15448.json) |
 | 22848 | Classic FM | [channels/22848.json](https://elyobelyob.github.io/freely_tv_guide/channels/22848.json) |
 | 39429 | DMAX | [channels/39429.json](https://elyobelyob.github.io/freely_tv_guide/channels/39429.json) |
+| 40709 | Daystar | [channels/40709.json](https://elyobelyob.github.io/freely_tv_guide/channels/40709.json) |
 | 37900 | E4 | [channels/37900.json](https://elyobelyob.github.io/freely_tv_guide/channels/37900.json) |
 | 22368 | E4 Extra | [channels/22368.json](https://elyobelyob.github.io/freely_tv_guide/channels/22368.json) |
 | 8458 | E4+1 | [channels/8458.json](https://elyobelyob.github.io/freely_tv_guide/channels/8458.json) |
@@ -270,6 +271,7 @@ layout_options:
 | 38915 | LEGEND | [channels/38915.json](https://elyobelyob.github.io/freely_tv_guide/channels/38915.json) |
 | 38916 | LEGEND XTRA | [channels/38916.json](https://elyobelyob.github.io/freely_tv_guide/channels/38916.json) |
 | 32842 | London TV | [channels/32842.json](https://elyobelyob.github.io/freely_tv_guide/channels/32842.json) |
+| 38418 | London TV | [channels/38418.json](https://elyobelyob.github.io/freely_tv_guide/channels/38418.json) |
 | 13144 | MBC | [channels/13144.json](https://elyobelyob.github.io/freely_tv_guide/channels/13144.json) |
 | 33664 | MBC Group | [channels/33664.json](https://elyobelyob.github.io/freely_tv_guide/channels/33664.json) |
 | 37902 | More4 | [channels/37902.json](https://elyobelyob.github.io/freely_tv_guide/channels/37902.json) |
