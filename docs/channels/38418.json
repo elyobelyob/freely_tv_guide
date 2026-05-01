@@ -3,11 +3,121 @@
     "id": "38418",
     "name": "London TV"
   },
-  "events": [],
+  "events": [
+    {
+      "startTime": "2026-05-01T00:15:00+0000",
+      "duration": 125,
+      "name": "The Flock",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/99f89897-f88e-4011-bbbd-e019ea670d35",
+        "event_locator": "dvb://233a..9612;4786",
+        "main_title": "The Flock",
+        "start_time": "2026-05-01T00:15:00+0000",
+        "duration": "PT2H5M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/ec752c4bbaef5578883e27be1e6c8e60a",
+        "uuid": "95af0c203fd012fdf1b611461dd05a84"
+      }
+    },
+    {
+      "startTime": "2026-05-01T02:20:00+0000",
+      "duration": 115,
+      "name": "The Man Called Noon",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/d79f68ed-d31d-49ce-9f7c-ffef3f616ce2",
+        "event_locator": "dvb://233a..9612;4787",
+        "main_title": "The Man Called Noon",
+        "start_time": "2026-05-01T02:20:00+0000",
+        "duration": "PT1H55M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/ee9a562244c7cca3a0aad2ff2e277d6ee",
+        "uuid": "8c814583a11382909b3cfb09e30df548"
+      }
+    },
+    {
+      "startTime": "2026-05-01T04:15:00+0000",
+      "duration": 15,
+      "name": "..programmes start at 5.30am",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/2444a003-32a7-4abd-8ef1-02979a463aba",
+        "event_locator": "dvb://233a..9612;4788",
+        "main_title": "..programmes start at 5.30am",
+        "start_time": "2026-05-01T04:15:00+0000",
+        "duration": "PT15M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e8aa14bbd89c21e86af2a97ccf037f2cc",
+        "uuid": "b86dd3d84ba3aacc13dd9bf9fc244d2f"
+      }
+    }
+  ],
   "compat": {
     "freesat_card": [
       {
-        "event": []
+        "event": [
+          {
+            "startTime": "2026-05-01T00:15:00+0000",
+            "duration": 125,
+            "name": "The Flock",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/99f89897-f88e-4011-bbbd-e019ea670d35",
+              "event_locator": "dvb://233a..9612;4786",
+              "main_title": "The Flock",
+              "start_time": "2026-05-01T00:15:00+0000",
+              "duration": "PT2H5M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/ec752c4bbaef5578883e27be1e6c8e60a",
+              "uuid": "95af0c203fd012fdf1b611461dd05a84"
+            }
+          },
+          {
+            "startTime": "2026-05-01T02:20:00+0000",
+            "duration": 115,
+            "name": "The Man Called Noon",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/d79f68ed-d31d-49ce-9f7c-ffef3f616ce2",
+              "event_locator": "dvb://233a..9612;4787",
+              "main_title": "The Man Called Noon",
+              "start_time": "2026-05-01T02:20:00+0000",
+              "duration": "PT1H55M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/ee9a562244c7cca3a0aad2ff2e277d6ee",
+              "uuid": "8c814583a11382909b3cfb09e30df548"
+            }
+          },
+          {
+            "startTime": "2026-05-01T04:15:00+0000",
+            "duration": 15,
+            "name": "..programmes start at 5.30am",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/2444a003-32a7-4abd-8ef1-02979a463aba",
+              "event_locator": "dvb://233a..9612;4788",
+              "main_title": "..programmes start at 5.30am",
+              "start_time": "2026-05-01T04:15:00+0000",
+              "duration": "PT15M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e8aa14bbd89c21e86af2a97ccf037f2cc",
+              "uuid": "b86dd3d84ba3aacc13dd9bf9fc244d2f"
+            }
+          }
+        ]
       }
     ]
   }
