@@ -270,7 +270,6 @@ layout_options:
 | 22880 | LBC | [channels/22880.json](https://elyobelyob.github.io/freely_tv_guide/channels/22880.json) |
 | 38915 | LEGEND | [channels/38915.json](https://elyobelyob.github.io/freely_tv_guide/channels/38915.json) |
 | 38916 | LEGEND XTRA | [channels/38916.json](https://elyobelyob.github.io/freely_tv_guide/channels/38916.json) |
-| 32842 | London TV | [channels/32842.json](https://elyobelyob.github.io/freely_tv_guide/channels/32842.json) |
 | 38418 | London TV | [channels/38418.json](https://elyobelyob.github.io/freely_tv_guide/channels/38418.json) |
 | 13144 | MBC | [channels/13144.json](https://elyobelyob.github.io/freely_tv_guide/channels/13144.json) |
 | 33664 | MBC Group | [channels/33664.json](https://elyobelyob.github.io/freely_tv_guide/channels/33664.json) |
