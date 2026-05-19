@@ -1362,6 +1362,16 @@
             "image_url": "https://img.freeviewplay.tv/pd66aa4eceb2f746fa0e0ddbea64ad87f",
             "start_time": "2026-05-19T00:00:00+0000",
             "duration": "PT55M",
+            "on_demand": {
+              "start_of_availability": "2026-05-13T21:00:00+0000",
+              "end_of_availability": "2026-06-12T21:00:59+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://ait.channel4.com/ait/content?brand=salisbury-poisonings-the-untold-story&programme=76906-003",
+                  "template_url": "https://ait.channel4.com/ait/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2.1",
             "uuid": "260a2d6111a436025e374d93a15eb34f"
           },
@@ -2257,6 +2267,16 @@
             "image_url": "https://img.freeviewplay.tv/pf4a4f74c1ca39f9ee04a9fbe92c4390c",
             "start_time": "2026-05-19T00:30:00+0000",
             "duration": "PT25M",
+            "on_demand": {
+              "start_of_availability": "2024-02-02T07:00:00+0000",
+              "end_of_availability": "2028-12-27T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_1909_0005.002",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "0c4d31a1328f5396a6d12c4e878ac93e"
           },
@@ -2816,34 +2836,34 @@
         "title": "London TV",
         "events": [
           {
-            "program_id": "crid://csi.digitaluk.co.uk/361b0369-1c44-4ea5-b4fb-451eb9029187",
+            "program_id": "crid://csi.digitaluk.co.uk/74fe1bee-5726-4b99-8d25-e5dbefffaff0",
             "event_locator": "dvb://233a..9612;49d9",
             "main_title": "We Still Steal the Old Way",
             "start_time": "2026-05-19T00:30:00+0000",
             "duration": "PT1H55M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e67f993f6185955b0b9c22ae8903bcb51",
-            "uuid": "e0a241c64c3356e11cba4d1a75a10eb7"
+            "uuid": "bf43e088582ae902459c6421dd8c98d4"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/c1c9b01f-ed8b-4346-9ab6-09994f293c72",
+            "program_id": "crid://csi.digitaluk.co.uk/4cee9987-88d4-434b-bcdf-859ba1ba4f0c",
             "event_locator": "dvb://233a..9612;49da",
             "main_title": "Ambushed",
             "start_time": "2026-05-19T02:25:00+0000",
             "duration": "PT1H50M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/ed462ee6011ae9da98bb4f7f5756ed2f3",
-            "uuid": "d45ee56f94a5df1ddf6af98409527ec5"
+            "uuid": "9d2a7835f2d826504dde46aa52a73f79"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/63d98f52-b43d-4017-9187-419ab45570c0",
+            "program_id": "crid://csi.digitaluk.co.uk/9418efa7-b521-4a0b-93da-b1ece55bd564",
             "event_locator": "dvb://233a..9612;4add",
             "main_title": "..programmes start at 5.30am",
             "start_time": "2026-05-19T04:15:00+0000",
             "duration": "PT15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e8aa14bbd89c21e86af2a97ccf037f2cc",
-            "uuid": "fae422f375d73f23668ef62f48b34a27"
+            "uuid": "ec89ec1db680e8035c005be619124cbc"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/f98cece2-0fbb-4df3-a2c3-34e1ccaa5fd9",
@@ -3184,7 +3204,7 @@
             "event_locator": "dvb://233a..9198;6ec2",
             "main_title": "This is BBC Three",
             "secondary_title": "This is BBC Three",
-            "image_url": "https://img.freeviewplay.tv/p47a92a6af1bfeb383bf9beeae843d970",
+            "image_url": "https://img.freeviewplay.tv/pa2bd173369ea0efe6fd731e911367515",
             "start_time": "2026-05-19T02:55:00+0000",
             "duration": "PT1H35M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
@@ -3206,7 +3226,7 @@
             "event_locator": "dvb://233a..9198;6ec4",
             "main_title": "This is BBC Three",
             "secondary_title": "This is BBC Three",
-            "image_url": "https://img.freeviewplay.tv/p47a92a6af1bfeb383bf9beeae843d970",
+            "image_url": "https://img.freeviewplay.tv/pa2bd173369ea0efe6fd731e911367515",
             "start_time": "2026-05-19T17:58:00+0000",
             "duration": "PT2M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
@@ -23699,7 +23719,7 @@
             "event_locator": "dvb://233a..9184;390d",
             "main_title": "Newsday",
             "secondary_title": "19/05/2026",
-            "image_url": "https://img.freeviewplay.tv/p92673ea85a46488a17c5911c0bb7d908",
+            "image_url": "https://img.freeviewplay.tv/p337340251de202af7833c332aefce776",
             "start_time": "2026-05-19T03:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -23769,7 +23789,7 @@
             "event_locator": "dvb://233a..9184;3912",
             "main_title": "BBC News",
             "secondary_title": "19/05/2026",
-            "image_url": "https://img.freeviewplay.tv/pfba20d0311234ace8112f103ea26a31a",
+            "image_url": "https://img.freeviewplay.tv/pdf2f89b141d1693029ce1ad22385b835",
             "start_time": "2026-05-19T05:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -23817,7 +23837,7 @@
             "event_locator": "dvb://233a..9184;3916",
             "main_title": "BBC News",
             "secondary_title": "19/05/2026",
-            "image_url": "https://img.freeviewplay.tv/pfba20d0311234ace8112f103ea26a31a",
+            "image_url": "https://img.freeviewplay.tv/pdf2f89b141d1693029ce1ad22385b835",
             "start_time": "2026-05-19T07:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -23829,7 +23849,7 @@
             "event_locator": "dvb://233a..9184;3917",
             "main_title": "BBC News",
             "secondary_title": "19/05/2026",
-            "image_url": "https://img.freeviewplay.tv/pdf2f89b141d1693029ce1ad22385b835",
+            "image_url": "https://img.freeviewplay.tv/pfba20d0311234ace8112f103ea26a31a",
             "start_time": "2026-05-19T07:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -23853,7 +23873,7 @@
             "event_locator": "dvb://233a..9184;3919",
             "main_title": "BBC News",
             "secondary_title": "19/05/2026",
-            "image_url": "https://img.freeviewplay.tv/pfba20d0311234ace8112f103ea26a31a",
+            "image_url": "https://img.freeviewplay.tv/pdf2f89b141d1693029ce1ad22385b835",
             "start_time": "2026-05-19T08:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -24265,7 +24285,7 @@
             "event_locator": "dvb://233a..9184;396e",
             "main_title": "BBC News",
             "secondary_title": "19/05/2026",
-            "image_url": "https://img.freeviewplay.tv/pfba20d0311234ace8112f103ea26a31a",
+            "image_url": "https://img.freeviewplay.tv/pdf2f89b141d1693029ce1ad22385b835",
             "start_time": "2026-05-19T23:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
