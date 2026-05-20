@@ -238,6 +238,7 @@ layout_options:
 | 37901 | Film4 | [channels/37901.json](https://elyobelyob.github.io/freely_tv_guide/channels/37901.json) |
 | 22464 | Film4+1 | [channels/22464.json](https://elyobelyob.github.io/freely_tv_guide/channels/22464.json) |
 | 39430 | Food Network | [channels/39430.json](https://elyobelyob.github.io/freely_tv_guide/channels/39430.json) |
+| 40710 | France 24 | [channels/40710.json](https://elyobelyob.github.io/freely_tv_guide/channels/40710.json) |
 | 40705 | GB News | [channels/40705.json](https://elyobelyob.github.io/freely_tv_guide/channels/40705.json) |
 | 16170 | GIGS | [channels/16170.json](https://elyobelyob.github.io/freely_tv_guide/channels/16170.json) |
 | 39201 | Gemporia | [channels/39201.json](https://elyobelyob.github.io/freely_tv_guide/channels/39201.json) |
@@ -247,12 +248,11 @@ layout_options:
 | 27872 | Great! Mystery | [channels/27872.json](https://elyobelyob.github.io/freely_tv_guide/channels/27872.json) |
 | 28352 | Great! Player | [channels/28352.json](https://elyobelyob.github.io/freely_tv_guide/channels/28352.json) |
 | 27296 | Great! Romance | [channels/27296.json](https://elyobelyob.github.io/freely_tv_guide/channels/27296.json) |
-| 28384 | Great! Romance Mix | [channels/28384.json](https://elyobelyob.github.io/freely_tv_guide/channels/28384.json) |
 | 27168 | Great! TV | [channels/27168.json](https://elyobelyob.github.io/freely_tv_guide/channels/27168.json) |
+| 28384 | Great! TV +1 | [channels/28384.json](https://elyobelyob.github.io/freely_tv_guide/channels/28384.json) |
 | 22656 | Heart | [channels/22656.json](https://elyobelyob.github.io/freely_tv_guide/channels/22656.json) |
 | 34176 | High Street TV | [channels/34176.json](https://elyobelyob.github.io/freely_tv_guide/channels/34176.json) |
 | 39203 | HobbyMaker | [channels/39203.json](https://elyobelyob.github.io/freely_tv_guide/channels/39203.json) |
-| 27232 | Hobbycraft TV | [channels/27232.json](https://elyobelyob.github.io/freely_tv_guide/channels/27232.json) |
 | 37655 | ITV Quiz | [channels/37655.json](https://elyobelyob.github.io/freely_tv_guide/channels/37655.json) |
 | 37641 | ITV1 | [channels/37641.json](https://elyobelyob.github.io/freely_tv_guide/channels/37641.json) |
 | 8361 | ITV1+1 | [channels/8361.json](https://elyobelyob.github.io/freely_tv_guide/channels/8361.json) |
@@ -303,6 +303,7 @@ layout_options:
 | 38113 | S4C | [channels/38113.json](https://elyobelyob.github.io/freely_tv_guide/channels/38113.json) |
 | 37697 | Saturday Night Every Night | [channels/37697.json](https://elyobelyob.github.io/freely_tv_guide/channels/37697.json) |
 | 16394 | Shop On TV | [channels/16394.json](https://elyobelyob.github.io/freely_tv_guide/channels/16394.json) |
+| 27232 | Shop Unlimited | [channels/27232.json](https://elyobelyob.github.io/freely_tv_guide/channels/27232.json) |
 | 22144 | Sky Arts | [channels/22144.json](https://elyobelyob.github.io/freely_tv_guide/channels/22144.json) |
 | 22208 | Sky Mix | [channels/22208.json](https://elyobelyob.github.io/freely_tv_guide/channels/22208.json) |
 | 22080 | Sky News | [channels/22080.json](https://elyobelyob.github.io/freely_tv_guide/channels/22080.json) |
