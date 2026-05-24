@@ -19,6 +19,16 @@
         "image_url": "https://img.freeviewplay.tv/p8e5e534fa1dfb37ff245e4e73e9e81a6",
         "start_time": "2026-05-24T00:15:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-05-23T11:00:00+0000",
+          "end_of_availability": "2026-08-22T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_4794_0155.001",
+              "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
         "uuid": "9cc6be944945aa08d40a1014916cce67"
       }
@@ -285,24 +295,6 @@
       }
     },
     {
-      "startTime": "2026-05-24T19:10:00+0000",
-      "duration": 5,
-      "name": "FYI Daily",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/94cda0dc-7c3a-435d-aa91-58c4e5620ce9",
-        "event_locator": "dvb://233a..9316;7df4",
-        "main_title": "FYI Daily",
-        "image_url": "https://img.freeviewplay.tv/e0b87884c574e798ce353be86cbf0177c",
-        "start_time": "2026-05-24T19:10:00+0000",
-        "duration": "PT5M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "031ece02bb5b0441c80724a230ca931a"
-      }
-    },
-    {
       "startTime": "2026-05-24T19:15:00+0000",
       "duration": 70,
       "name": "Tomorrow Never Dies",
@@ -434,6 +426,16 @@
               "image_url": "https://img.freeviewplay.tv/p8e5e534fa1dfb37ff245e4e73e9e81a6",
               "start_time": "2026-05-24T00:15:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-05-23T11:00:00+0000",
+                "end_of_availability": "2026-08-22T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_4794_0155.001",
+                    "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
               "uuid": "9cc6be944945aa08d40a1014916cce67"
             }
@@ -697,24 +699,6 @@
               "duration": "PT1H5M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
               "uuid": "d66ae9fa72ac267fe057997638997b66"
-            }
-          },
-          {
-            "startTime": "2026-05-24T19:10:00+0000",
-            "duration": 5,
-            "name": "FYI Daily",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/94cda0dc-7c3a-435d-aa91-58c4e5620ce9",
-              "event_locator": "dvb://233a..9316;7df4",
-              "main_title": "FYI Daily",
-              "image_url": "https://img.freeviewplay.tv/e0b87884c574e798ce353be86cbf0177c",
-              "start_time": "2026-05-24T19:10:00+0000",
-              "duration": "PT5M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "031ece02bb5b0441c80724a230ca931a"
             }
           },
           {
