@@ -290,14 +290,14 @@ layout_options:
 | 27424 | POP UP | [channels/27424.json](https://elyobelyob.github.io/freely_tv_guide/channels/27424.json) |
 | 28160 | Premier Radio | [channels/28160.json](https://elyobelyob.github.io/freely_tv_guide/channels/28160.json) |
 | 16400 | Purpose Media | [channels/16400.json](https://elyobelyob.github.io/freely_tv_guide/channels/16400.json) |
-| 27328 | QUEST | [channels/27328.json](https://elyobelyob.github.io/freely_tv_guide/channels/27328.json) |
 | 34752 | QUEST+1 | [channels/34752.json](https://elyobelyob.github.io/freely_tv_guide/channels/34752.json) |
 | 39169 | QVC | [channels/39169.json](https://elyobelyob.github.io/freely_tv_guide/channels/39169.json) |
 | 39170 | QVC2 | [channels/39170.json](https://elyobelyob.github.io/freely_tv_guide/channels/39170.json) |
+| 39427 | Quest | [channels/39427.json](https://elyobelyob.github.io/freely_tv_guide/channels/39427.json) |
 | 39428 | Quest Red | [channels/39428.json](https://elyobelyob.github.io/freely_tv_guide/channels/39428.json) |
 | 22624 | RNIB Connect | [channels/22624.json](https://elyobelyob.github.io/freely_tv_guide/channels/22624.json) |
 | 16240 | ROK | [channels/16240.json](https://elyobelyob.github.io/freely_tv_guide/channels/16240.json) |
-| 23712 | Really | [channels/23712.json](https://elyobelyob.github.io/freely_tv_guide/channels/23712.json) |
+| 39431 | Really | [channels/39431.json](https://elyobelyob.github.io/freely_tv_guide/channels/39431.json) |
 | 16248 | Revelation TV | [channels/16248.json](https://elyobelyob.github.io/freely_tv_guide/channels/16248.json) |
 | 27744 | Rewind TV | [channels/27744.json](https://elyobelyob.github.io/freely_tv_guide/channels/27744.json) |
 | 38113 | S4C | [channels/38113.json](https://elyobelyob.github.io/freely_tv_guide/channels/38113.json) |
@@ -312,7 +312,7 @@ layout_options:
 | 15016 | Sonlife | [channels/15016.json](https://elyobelyob.github.io/freely_tv_guide/channels/15016.json) |
 | 20160 | TBN UK | [channels/20160.json](https://elyobelyob.github.io/freely_tv_guide/channels/20160.json) |
 | 15592 | TJC | [channels/15592.json](https://elyobelyob.github.io/freely_tv_guide/channels/15592.json) |
-| 28000 | TLC | [channels/28000.json](https://elyobelyob.github.io/freely_tv_guide/channels/28000.json) |
+| 39426 | TLC | [channels/39426.json](https://elyobelyob.github.io/freely_tv_guide/channels/39426.json) |
 | 34688 | TLC+1 | [channels/34688.json](https://elyobelyob.github.io/freely_tv_guide/channels/34688.json) |
 | 38913 | TRUE CRIME | [channels/38913.json](https://elyobelyob.github.io/freely_tv_guide/channels/38913.json) |
 | 38914 | TRUE CRIME XTRA | [channels/38914.json](https://elyobelyob.github.io/freely_tv_guide/channels/38914.json) |
