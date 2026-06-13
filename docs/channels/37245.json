@@ -106,7 +106,7 @@
         "event_locator": "dvb://233a..917d;feb",
         "main_title": "This is BBC Two",
         "secondary_title": "This is BBC Two",
-        "image_url": "https://img.freeviewplay.tv/p971ecb7a3db6375155111293cd380dda",
+        "image_url": "https://img.freeviewplay.tv/p3eefc63d6825f8304be936c3202c1f37",
         "start_time": "2026-06-13T04:40:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -476,36 +476,54 @@
     },
     {
       "startTime": "2026-06-13T10:50:00+0000",
-      "duration": 85,
-      "name": "The Importance of Being Earnest",
-      "description": "The Importance of Being Earnest",
+      "duration": 30,
+      "name": "The Best Dishes Ever",
+      "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/b0074tp4",
-        "event_locator": "dvb://233a..917d;1014",
-        "main_title": "The Importance of Being Earnest",
-        "secondary_title": "The Importance of Being Earnest",
-        "image_url": "https://img.freeviewplay.tv/pe421cb7417f39a7fa815eb72837251ad",
+        "program_id": "crid://csi.digitaluk.co.uk/b75c26d8-dc72-41d6-84b1-44225b8ace22",
+        "event_locator": "dvb://233a..917d;1176",
+        "main_title": "The Best Dishes Ever",
         "start_time": "2026-06-13T10:50:00+0000",
-        "duration": "PT1H25M",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e70bd04703640a9001cfbbbb3b34364d3",
+        "uuid": "6ef1500b69c8e5174d88c149c65b9d13"
+      }
+    },
+    {
+      "startTime": "2026-06-13T11:20:00+0000",
+      "duration": 65,
+      "name": "Queen's Tennis",
+      "description": "2026: Day 6",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002y3g8",
+        "event_locator": "dvb://233a..917d;1177",
+        "main_title": "Queen's Tennis",
+        "secondary_title": "2026: Day 6",
+        "image_url": "https://img.freeviewplay.tv/pa8d0b7e8acdf15bbd1f9bd6abd93bc6a",
+        "start_time": "2026-06-13T11:20:00+0000",
+        "duration": "PT1H5M",
         "on_demand": {
-          "start_of_availability": "2026-06-13T12:17:05+0000",
-          "end_of_availability": "2026-07-13T12:17:05+0000",
+          "start_of_availability": "2026-06-13T12:25:00+0000",
+          "end_of_availability": "2026-07-13T12:25:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b0074tp4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002y3g8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-        "fallback_image_url": "http://img.freeviewplay.net/e84c22b489c01a1a0733c0fc05681ddf0",
-        "uuid": "697114ce4c74c7ff0d97d388a5206609"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
+        "fallback_image_url": "http://img.freeviewplay.net/e405828cb999b779d3fe152b772cdd881",
+        "uuid": "b7cc602905c80b3e11fde9ba066848ab"
       }
     },
     {
-      "startTime": "2026-06-13T12:15:00+0000",
+      "startTime": "2026-06-13T12:25:00+0000",
       "duration": 60,
       "name": "Homes Under the Hammer",
       "description": "Series 25: Episode 17",
@@ -517,7 +535,7 @@
         "main_title": "Homes Under the Hammer",
         "secondary_title": "Series 25: Episode 17",
         "image_url": "https://img.freeviewplay.tv/pa214bc37728dcbb61f20f3ebf9226813",
-        "start_time": "2026-06-13T12:15:00+0000",
+        "start_time": "2026-06-13T12:25:00+0000",
         "duration": "PT1H",
         "on_demand": {
           "start_of_availability": "2026-06-13T13:16:21+0000",
@@ -531,37 +549,27 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e902b8cc8b304765179d82c3f951d473b",
-        "uuid": "a5cbc549810e86e7d226d40b16aad2ea"
+        "uuid": "dc128480692abc400e7cdf11cb4f661c"
       }
     },
     {
-      "startTime": "2026-06-13T13:15:00+0000",
-      "duration": 60,
+      "startTime": "2026-06-13T13:25:00+0000",
+      "duration": 50,
       "name": "Bargain Hunt",
-      "description": "Series 62-64 (Extended Versions): Builth Wells 1 and 2",
+      "description": "55-Minute Versions: Sawbridgeworth 9 and 10",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m00240dw",
-        "event_locator": "dvb://233a..917d;1016",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0029bkt",
+        "event_locator": "dvb://233a..917d;1178",
         "main_title": "Bargain Hunt",
-        "secondary_title": "Series 62-64 (Extended Versions): Builth Wells 1 and 2",
-        "image_url": "https://img.freeviewplay.tv/p0326aeafc1d47290a41d0275c1ab9524",
-        "start_time": "2026-06-13T13:15:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2026-06-13T14:16:08+0000",
-          "end_of_availability": "2026-07-13T14:16:08+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00240dw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
+        "secondary_title": "55-Minute Versions: Sawbridgeworth 9 and 10",
+        "image_url": "https://img.freeviewplay.tv/p441a0623d8650d0552f53e2b1e31a7d0",
+        "start_time": "2026-06-13T13:25:00+0000",
+        "duration": "PT50M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e7ed8f485da1d984c2a02bf9dbd1ebf8a",
-        "uuid": "c9b5df9c1a02c6b8d1c369e0c26b0150"
+        "uuid": "5e43fa79e1bdbf04749c9eba61b3cdce"
       }
     },
     {
@@ -851,7 +859,7 @@
               "event_locator": "dvb://233a..917d;feb",
               "main_title": "This is BBC Two",
               "secondary_title": "This is BBC Two",
-              "image_url": "https://img.freeviewplay.tv/p971ecb7a3db6375155111293cd380dda",
+              "image_url": "https://img.freeviewplay.tv/p3eefc63d6825f8304be936c3202c1f37",
               "start_time": "2026-06-13T04:40:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1221,36 +1229,54 @@
           },
           {
             "startTime": "2026-06-13T10:50:00+0000",
-            "duration": 85,
-            "name": "The Importance of Being Earnest",
-            "description": "The Importance of Being Earnest",
+            "duration": 30,
+            "name": "The Best Dishes Ever",
+            "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/b0074tp4",
-              "event_locator": "dvb://233a..917d;1014",
-              "main_title": "The Importance of Being Earnest",
-              "secondary_title": "The Importance of Being Earnest",
-              "image_url": "https://img.freeviewplay.tv/pe421cb7417f39a7fa815eb72837251ad",
+              "program_id": "crid://csi.digitaluk.co.uk/b75c26d8-dc72-41d6-84b1-44225b8ace22",
+              "event_locator": "dvb://233a..917d;1176",
+              "main_title": "The Best Dishes Ever",
               "start_time": "2026-06-13T10:50:00+0000",
-              "duration": "PT1H25M",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e70bd04703640a9001cfbbbb3b34364d3",
+              "uuid": "6ef1500b69c8e5174d88c149c65b9d13"
+            }
+          },
+          {
+            "startTime": "2026-06-13T11:20:00+0000",
+            "duration": 65,
+            "name": "Queen's Tennis",
+            "description": "2026: Day 6",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002y3g8",
+              "event_locator": "dvb://233a..917d;1177",
+              "main_title": "Queen's Tennis",
+              "secondary_title": "2026: Day 6",
+              "image_url": "https://img.freeviewplay.tv/pa8d0b7e8acdf15bbd1f9bd6abd93bc6a",
+              "start_time": "2026-06-13T11:20:00+0000",
+              "duration": "PT1H5M",
               "on_demand": {
-                "start_of_availability": "2026-06-13T12:17:05+0000",
-                "end_of_availability": "2026-07-13T12:17:05+0000",
+                "start_of_availability": "2026-06-13T12:25:00+0000",
+                "end_of_availability": "2026-07-13T12:25:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b0074tp4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002y3g8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-              "fallback_image_url": "http://img.freeviewplay.net/e84c22b489c01a1a0733c0fc05681ddf0",
-              "uuid": "697114ce4c74c7ff0d97d388a5206609"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
+              "fallback_image_url": "http://img.freeviewplay.net/e405828cb999b779d3fe152b772cdd881",
+              "uuid": "b7cc602905c80b3e11fde9ba066848ab"
             }
           },
           {
-            "startTime": "2026-06-13T12:15:00+0000",
+            "startTime": "2026-06-13T12:25:00+0000",
             "duration": 60,
             "name": "Homes Under the Hammer",
             "description": "Series 25: Episode 17",
@@ -1262,7 +1288,7 @@
               "main_title": "Homes Under the Hammer",
               "secondary_title": "Series 25: Episode 17",
               "image_url": "https://img.freeviewplay.tv/pa214bc37728dcbb61f20f3ebf9226813",
-              "start_time": "2026-06-13T12:15:00+0000",
+              "start_time": "2026-06-13T12:25:00+0000",
               "duration": "PT1H",
               "on_demand": {
                 "start_of_availability": "2026-06-13T13:16:21+0000",
@@ -1276,37 +1302,27 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e902b8cc8b304765179d82c3f951d473b",
-              "uuid": "a5cbc549810e86e7d226d40b16aad2ea"
+              "uuid": "dc128480692abc400e7cdf11cb4f661c"
             }
           },
           {
-            "startTime": "2026-06-13T13:15:00+0000",
-            "duration": 60,
+            "startTime": "2026-06-13T13:25:00+0000",
+            "duration": 50,
             "name": "Bargain Hunt",
-            "description": "Series 62-64 (Extended Versions): Builth Wells 1 and 2",
+            "description": "55-Minute Versions: Sawbridgeworth 9 and 10",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m00240dw",
-              "event_locator": "dvb://233a..917d;1016",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0029bkt",
+              "event_locator": "dvb://233a..917d;1178",
               "main_title": "Bargain Hunt",
-              "secondary_title": "Series 62-64 (Extended Versions): Builth Wells 1 and 2",
-              "image_url": "https://img.freeviewplay.tv/p0326aeafc1d47290a41d0275c1ab9524",
-              "start_time": "2026-06-13T13:15:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2026-06-13T14:16:08+0000",
-                "end_of_availability": "2026-07-13T14:16:08+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00240dw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
+              "secondary_title": "55-Minute Versions: Sawbridgeworth 9 and 10",
+              "image_url": "https://img.freeviewplay.tv/p441a0623d8650d0552f53e2b1e31a7d0",
+              "start_time": "2026-06-13T13:25:00+0000",
+              "duration": "PT50M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e7ed8f485da1d984c2a02bf9dbd1ebf8a",
-              "uuid": "c9b5df9c1a02c6b8d1c369e0c26b0150"
+              "uuid": "5e43fa79e1bdbf04749c9eba61b3cdce"
             }
           },
           {
