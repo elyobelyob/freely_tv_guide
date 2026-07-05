@@ -5,792 +5,724 @@
   },
   "events": [
     {
-      "startTime": "2026-07-05T01:00:00+0000",
-      "duration": 30,
-      "name": "I'll Get This",
-      "description": "Series 1: Episode 1",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCI473T",
-        "event_locator": "dvb://233a..9702;39df",
-        "main_title": "I'll Get This",
-        "secondary_title": "Series 1: Episode 1",
-        "image_url": "https://img.freeviewplay.tv/p8a80ce2dbea602ed82c49e52f0bbca5d",
-        "start_time": "2026-07-05T01:00:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2024-01-05T00:00:00+0000",
-          "end_of_availability": "2026-10-31T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCI473T",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-        "uuid": "6b11a3b71de39a45bd42fbda0d672e1f"
-      }
-    },
-    {
-      "startTime": "2026-07-05T01:30:00+0000",
-      "duration": 45,
-      "name": "I'll Get This",
-      "description": "Series 1: Episode 2",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCI474N",
-        "event_locator": "dvb://233a..9702;39e3",
-        "main_title": "I'll Get This",
-        "secondary_title": "Series 1: Episode 2",
-        "image_url": "https://img.freeviewplay.tv/p14ec86a5808a6bfa97174fece3b017d0",
-        "start_time": "2026-07-05T01:30:00+0000",
-        "duration": "PT45M",
-        "on_demand": {
-          "start_of_availability": "2024-01-05T00:00:00+0000",
-          "end_of_availability": "2026-10-31T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCI474N",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-        "uuid": "80b60baf4e90592b448184664940defd"
-      }
-    },
-    {
-      "startTime": "2026-07-05T02:15:00+0000",
-      "duration": 45,
-      "name": "Richard Osman's House of Games",
-      "description": "Series 5: Episode 1",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCI905B",
-        "event_locator": "dvb://233a..9702;39e7",
-        "main_title": "Richard Osman's House of Games",
-        "secondary_title": "Series 5: Episode 1",
-        "image_url": "https://img.freeviewplay.tv/pa3cc5c11d0112e719bcbeb59babbe780",
-        "start_time": "2026-07-05T02:15:00+0000",
-        "duration": "PT45M",
-        "on_demand": {
-          "start_of_availability": "2023-11-26T00:00:00+0000",
-          "end_of_availability": "2027-08-27T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCI905B",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "f0b8270592693e133165d48a45a9efc6"
-      }
-    },
-    {
-      "startTime": "2026-07-05T03:00:00+0000",
-      "duration": 120,
-      "name": "Teleshopping",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/3c09cf56-9e4b-47c1-9b62-160938fbfa0a",
-        "event_locator": "dvb://233a..9702;3fa2",
-        "main_title": "Teleshopping",
-        "start_time": "2026-07-05T03:00:00+0000",
-        "duration": "PT2H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "fallback_image_url": "http://img.freeviewplay.net/ef85755b213dfadc206e3ddd4489ec776",
-        "uuid": "c1a1886d397b7775453e734441759479"
-      }
-    },
-    {
-      "startTime": "2026-07-05T05:00:00+0000",
-      "duration": 70,
-      "name": "Teleshopping",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/92fcfc70-6c53-45a2-ab06-817b2ee2e2ee",
-        "event_locator": "dvb://233a..9702;39ef",
-        "main_title": "Teleshopping",
-        "start_time": "2026-07-05T05:00:00+0000",
-        "duration": "PT1H10M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "fallback_image_url": "http://img.freeviewplay.net/ef85755b213dfadc206e3ddd4489ec776",
-        "uuid": "e2e05df0abbcead791fbcec0f4365c31"
-      }
-    },
-    {
-      "startTime": "2026-07-05T06:10:00+0000",
-      "duration": 25,
-      "name": "The Gadget Man",
-      "description": "Series 3: Episode 6",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCK039K",
-        "event_locator": "dvb://233a..9702;39f3",
-        "main_title": "The Gadget Man",
-        "secondary_title": "Series 3: Episode 6",
-        "image_url": "https://img.freeviewplay.tv/pb2560c4408c1eb33979d5ed1b7f04fbd",
-        "start_time": "2026-07-05T06:10:00+0000",
-        "duration": "PT25M",
-        "on_demand": {
-          "start_of_availability": "2024-06-27T23:00:00+0000",
-          "end_of_availability": "2026-10-31T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCK039K",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "uuid": "2e5db2b5b6b0c415a8127bf435a2f4d1"
-      }
-    },
-    {
-      "startTime": "2026-07-05T06:35:00+0000",
-      "duration": 25,
-      "name": "The Gadget Man",
-      "description": "Series 3: Episode 7",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCK040E",
-        "event_locator": "dvb://233a..9702;39f7",
-        "main_title": "The Gadget Man",
-        "secondary_title": "Series 3: Episode 7",
-        "image_url": "https://img.freeviewplay.tv/pd920a95c44c363e7a17b1676c25b72de",
-        "start_time": "2026-07-05T06:35:00+0000",
-        "duration": "PT25M",
-        "on_demand": {
-          "start_of_availability": "2024-06-27T23:00:00+0000",
-          "end_of_availability": "2026-10-31T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCK040E",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "uuid": "c6d5c87110342129137f5d98fde5497d"
-      }
-    },
-    {
-      "startTime": "2026-07-05T07:00:00+0000",
-      "duration": 30,
-      "name": "Storage Hunters UK",
-      "description": "Series 5: Episode 1",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTON196Y",
-        "event_locator": "dvb://233a..9702;39fb",
-        "main_title": "Storage Hunters UK",
-        "secondary_title": "Series 5: Episode 1",
-        "image_url": "https://img.freeviewplay.tv/pafdd91f88bb97572453af223d41d2aa7",
-        "start_time": "2026-07-05T07:00:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2017-02-08T00:00:00+0000",
-          "end_of_availability": "2099-12-31T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://vschedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTON196Y",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
-        "uuid": "c09b77173b1a46129e4e1e985ad3cc5d"
-      }
-    },
-    {
-      "startTime": "2026-07-05T07:30:00+0000",
-      "duration": 30,
-      "name": "Storage Hunters UK",
-      "description": "Series 5: Episode 2",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTON188W",
-        "event_locator": "dvb://233a..9702;39ff",
-        "main_title": "Storage Hunters UK",
-        "secondary_title": "Series 5: Episode 2",
-        "image_url": "https://img.freeviewplay.tv/pcbdede4928f9fb74b94a77d0254792ca",
-        "start_time": "2026-07-05T07:30:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2017-02-08T00:00:00+0000",
-          "end_of_availability": "2099-12-31T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://vschedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTON188W",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
-        "uuid": "0481fd78b9e82c80f64573748fd87089"
-      }
-    },
-    {
-      "startTime": "2026-07-05T08:00:00+0000",
-      "duration": 60,
-      "name": "Top Gear",
-      "description": "Series 3: Episode 4",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/GFGA265X",
-        "event_locator": "dvb://233a..9702;3a03",
-        "main_title": "Top Gear",
-        "secondary_title": "Series 3: Episode 4",
-        "image_url": "https://img.freeviewplay.tv/p30303c19b99256657a69f3ed2d6b0259",
-        "start_time": "2026-07-05T08:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2026-07-05T09:00:00+0000",
-          "end_of_availability": "2026-08-04T08:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=GFGA265X",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "uuid": "329e5efb27446d4c14483fe5f2013fe7"
-      }
-    },
-    {
-      "startTime": "2026-07-05T09:00:00+0000",
-      "duration": 60,
-      "name": "Top Gear",
-      "description": "Series 3: Episode 5",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/GFGA266R",
-        "event_locator": "dvb://233a..9702;3a07",
-        "main_title": "Top Gear",
-        "secondary_title": "Series 3: Episode 5",
-        "image_url": "https://img.freeviewplay.tv/pc7d6d05213a32fac980961e52779ea73",
-        "start_time": "2026-07-05T09:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2026-07-05T10:00:00+0000",
-          "end_of_availability": "2026-08-04T09:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=GFGA266R",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "uuid": "880b1a1a71a4a7782b3c7d8397e66bb8"
-      }
-    },
-    {
-      "startTime": "2026-07-05T10:00:00+0000",
-      "duration": 60,
-      "name": "Motorhoming with Merton and Webster",
-      "description": "Series 2: Episode 1",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL374N",
-        "event_locator": "dvb://233a..9702;3a0b",
-        "main_title": "Motorhoming with Merton and Webster",
-        "secondary_title": "Series 2: Episode 1",
-        "image_url": "https://img.freeviewplay.tv/p595bbac94df1477f9681a2726239c1f0",
-        "start_time": "2026-07-05T10:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2024-08-19T23:00:00+0000",
-          "end_of_availability": "2027-05-31T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL374N",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "uuid": "2f76df5dbfd19d46a1d3d5665df63935"
-      }
-    },
-    {
-      "startTime": "2026-07-05T11:00:00+0000",
-      "duration": 60,
-      "name": "Motorhoming with Merton and Webster",
-      "description": "Series 2: Episode 2",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL375H",
-        "event_locator": "dvb://233a..9702;3a0f",
-        "main_title": "Motorhoming with Merton and Webster",
-        "secondary_title": "Series 2: Episode 2",
-        "image_url": "https://img.freeviewplay.tv/p52738e79cb1161a57060f6206bd22dac",
-        "start_time": "2026-07-05T11:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2024-08-19T23:00:00+0000",
-          "end_of_availability": "2027-05-31T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL375H",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "uuid": "cf2c9c8d40eaba54522e7a9638bb8124"
-      }
-    },
-    {
-      "startTime": "2026-07-05T12:00:00+0000",
-      "duration": 40,
-      "name": "Mortimer & Whitehouse: Gone Fishing",
-      "description": "Series 5: Episode 3",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL914A",
-        "event_locator": "dvb://233a..9702;3a13",
-        "main_title": "Mortimer & Whitehouse: Gone Fishing",
-        "secondary_title": "Series 5: Episode 3",
-        "image_url": "https://img.freeviewplay.tv/p47a9e200e16720194c9c7e49c4ca8fa8",
-        "start_time": "2026-07-05T12:00:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2025-09-15T06:00:00+0000",
-          "end_of_availability": "2026-08-30T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL914A",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "uuid": "29d1cfef7234b20832ef8cf26f485b0e"
-      }
-    },
-    {
-      "startTime": "2026-07-05T12:40:00+0000",
-      "duration": 40,
-      "name": "Mortimer & Whitehouse: Gone Fishing",
-      "description": "Series 5: Episode 4",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL915T",
-        "event_locator": "dvb://233a..9702;3a17",
-        "main_title": "Mortimer & Whitehouse: Gone Fishing",
-        "secondary_title": "Series 5: Episode 4",
-        "image_url": "https://img.freeviewplay.tv/pd30e6553cf73bcfadd5e314f59d83c54",
-        "start_time": "2026-07-05T12:40:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2025-09-15T06:00:00+0000",
-          "end_of_availability": "2026-08-30T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL915T",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "uuid": "9785e728d58dc2002168f08b0a341537"
-      }
-    },
-    {
-      "startTime": "2026-07-05T13:20:00+0000",
-      "duration": 40,
-      "name": "Mortimer & Whitehouse: Gone Fishing",
-      "description": "Series 5: Episode 5",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL916N",
-        "event_locator": "dvb://233a..9702;3a1b",
-        "main_title": "Mortimer & Whitehouse: Gone Fishing",
-        "secondary_title": "Series 5: Episode 5",
-        "image_url": "https://img.freeviewplay.tv/p6507c4fb55ad541d104cc9ae28680f1e",
-        "start_time": "2026-07-05T13:20:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2025-09-15T06:00:00+0000",
-          "end_of_availability": "2026-08-30T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL916N",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "uuid": "f35123f39eb427f1961980d3adf4793e"
-      }
-    },
-    {
-      "startTime": "2026-07-05T14:00:00+0000",
-      "duration": 40,
-      "name": "Mortimer & Whitehouse: Gone Fishing",
-      "description": "Series 5: Episode 6",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL917H",
-        "event_locator": "dvb://233a..9702;3a1f",
-        "main_title": "Mortimer & Whitehouse: Gone Fishing",
-        "secondary_title": "Series 5: Episode 6",
-        "image_url": "https://img.freeviewplay.tv/p812f822474d9eef69550600afc4300ba",
-        "start_time": "2026-07-05T14:00:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2025-09-15T06:00:00+0000",
-          "end_of_availability": "2026-08-30T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL917H",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "uuid": "179b710759d0b23e8a6a34506423544f"
-      }
-    },
-    {
-      "startTime": "2026-07-05T14:40:00+0000",
-      "duration": 80,
-      "name": "Mortimer & Whitehouse: Gone Fishing Christmas 2022",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCM561X",
-        "event_locator": "dvb://233a..9702;3a23",
-        "main_title": "Mortimer & Whitehouse: Gone Fishing Christmas 2022",
-        "image_url": "https://img.freeviewplay.tv/pf89045f6c45042dcffcec3798a548a49",
-        "start_time": "2026-07-05T14:40:00+0000",
-        "duration": "PT1H20M",
-        "on_demand": {
-          "start_of_availability": "2026-07-05T15:55:00+0000",
-          "end_of_availability": "2026-08-04T14:40:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCM561X",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-        "uuid": "bcdcd36486b2ab909b13e5f5efe470a7"
-      }
-    },
-    {
-      "startTime": "2026-07-05T16:00:00+0000",
-      "duration": 40,
-      "name": "Would I Lie To You?",
-      "description": "Series 3: Episode 1",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTAW839S",
-        "event_locator": "dvb://233a..9702;3fa3",
-        "main_title": "Would I Lie To You?",
-        "secondary_title": "Series 3: Episode 1",
-        "image_url": "https://img.freeviewplay.tv/p960ba1ce2e463f2612375cd7bbf4a0bf",
-        "start_time": "2026-07-05T16:00:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2025-03-09T00:00:00+0000",
-          "end_of_availability": "2027-08-31T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTAW839S",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-        "uuid": "29163f7da68000261bba5d11af96b0b7"
-      }
-    },
-    {
-      "startTime": "2026-07-05T16:40:00+0000",
-      "duration": 40,
-      "name": "Would I Lie To You?",
-      "description": "Series 3: Episode 2",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTAW840L",
-        "event_locator": "dvb://233a..9702;3fa4",
-        "main_title": "Would I Lie To You?",
-        "secondary_title": "Series 3: Episode 2",
-        "image_url": "https://img.freeviewplay.tv/p844a8dd8ff84109025ed95b08abce7e2",
-        "start_time": "2026-07-05T16:40:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2025-03-09T00:00:00+0000",
-          "end_of_availability": "2027-08-31T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTAW840L",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-        "uuid": "2960eeca8c9e1d46a7c4634b549622e2"
-      }
-    },
-    {
-      "startTime": "2026-07-05T17:20:00+0000",
-      "duration": 40,
-      "name": "Would I Lie To You?",
-      "description": "Series 3: Episode 3",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTAW841F",
-        "event_locator": "dvb://233a..9702;3fa5",
-        "main_title": "Would I Lie To You?",
-        "secondary_title": "Series 3: Episode 3",
-        "image_url": "https://img.freeviewplay.tv/p0d5af5aa72e8895b8c230f4848eebabb",
-        "start_time": "2026-07-05T17:20:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2025-03-09T00:00:00+0000",
-          "end_of_availability": "2027-08-31T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTAW841F",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-        "uuid": "cd635a5d6706bd92b570e01c1726d597"
-      }
-    },
-    {
-      "startTime": "2026-07-05T18:00:00+0000",
-      "duration": 60,
-      "name": "Border Force America's Gatekeepers",
-      "description": "Series 7: Episode 10",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCS139X",
-        "event_locator": "dvb://233a..9702;4694",
-        "main_title": "Border Force America's Gatekeepers",
-        "secondary_title": "Series 7: Episode 10",
-        "image_url": "https://img.freeviewplay.tv/pbb398b8b69e19e92c9003a0cb7ccffef",
-        "start_time": "2026-07-05T18:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2026-05-15T23:00:00+0000",
-          "end_of_availability": "2030-03-31T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCS139X",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
-        "uuid": "27a60ebe321e238dedf996a9dc728c69"
-      }
-    },
-    {
-      "startTime": "2026-07-05T19:00:00+0000",
-      "duration": 60,
-      "name": "Special Ops: Crime Squad UK",
-      "description": "Series 3: Episode 1",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/CTOR106W",
-        "event_locator": "dvb://233a..9702;3a37",
-        "main_title": "Special Ops: Crime Squad UK",
-        "secondary_title": "Series 3: Episode 1",
-        "image_url": "https://img.freeviewplay.tv/p5041402d8da4149f834df97281eba04c",
-        "start_time": "2026-07-05T19:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2024-03-26T00:00:00+0000",
-          "end_of_availability": "2099-12-31T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTOR106W",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
-        "uuid": "507b6799127857069e61d5b187aff12d"
-      }
-    },
-    {
-      "startTime": "2026-07-05T20:00:00+0000",
-      "duration": 60,
-      "name": "Have I Got A Bit More News For You?",
-      "description": "Series 64: Episode 2",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/ENIT860S",
-        "event_locator": "dvb://233a..9702;4695",
-        "main_title": "Have I Got A Bit More News For You?",
-        "secondary_title": "Series 64: Episode 2",
-        "image_url": "https://img.freeviewplay.tv/p512d553da7d789e38d11bd664b374f04",
-        "start_time": "2026-07-05T20:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2025-08-31T23:00:00+0000",
-          "end_of_availability": "2026-08-31T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIT860S",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-        "uuid": "0cf8ec1ce89d3441e5d6fb5d5f1f4652"
-      }
-    },
-    {
-      "startTime": "2026-07-05T21:00:00+0000",
-      "duration": 40,
-      "name": "QI",
-      "description": "Series 5: Episode 2",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/ICEH057R",
-        "event_locator": "dvb://233a..9702;3a3f",
-        "main_title": "QI",
-        "secondary_title": "Series 5: Episode 2",
-        "image_url": "https://img.freeviewplay.tv/p384db767033fc8d7c222b73eb39d1bea",
-        "start_time": "2026-07-05T21:00:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2026-06-07T23:00:00+0000",
-          "end_of_availability": "2026-09-30T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ICEH057R",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-        "uuid": "4727ce5ee46420402fb543232fe9f97d"
-      }
-    },
-    {
-      "startTime": "2026-07-05T21:40:00+0000",
-      "duration": 40,
-      "name": "Mock the Week",
-      "description": "Series 12: Episode 3",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/ENII313L",
-        "event_locator": "dvb://233a..9702;3a43",
-        "main_title": "Mock the Week",
-        "secondary_title": "Series 12: Episode 3",
-        "image_url": "https://img.freeviewplay.tv/p55c83ff5b40eab156ce9b6646d92a25f",
-        "start_time": "2026-07-05T21:40:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2025-11-01T00:00:00+0000",
-          "end_of_availability": "2026-10-31T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENII313L",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-        "uuid": "814a2252cc9b8f107c0ef0aeee16e352"
-      }
-    },
-    {
-      "startTime": "2026-07-05T22:20:00+0000",
-      "duration": 40,
-      "name": "Mock the Week",
-      "description": "Series 12: Episode 4",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/ENII314F",
-        "event_locator": "dvb://233a..9702;3a47",
-        "main_title": "Mock the Week",
-        "secondary_title": "Series 12: Episode 4",
-        "image_url": "https://img.freeviewplay.tv/p6851b4871918c19674ffe50db250e490",
-        "start_time": "2026-07-05T22:20:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2025-11-01T00:00:00+0000",
-          "end_of_availability": "2026-10-31T23:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENII314F",
-              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-        "uuid": "8d47ee533dd97e47ef0ab4aaebae7d99"
-      }
-    },
-    {
-      "startTime": "2026-07-05T23:00:00+0000",
+      "startTime": "2026-07-06T00:00:00+0000",
       "duration": 60,
       "name": "Live at the Apollo",
-      "description": "Series 14: Episode 1",
+      "description": "Series 14: Episode 2",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://www.uktv.co.uk/ep/dave/ENIP891E",
-        "event_locator": "dvb://233a..9702;3a4b",
+        "program_id": "crid://www.uktv.co.uk/ep/dave/ENIP892Y",
+        "event_locator": "dvb://233a..9702;3a4f",
         "main_title": "Live at the Apollo",
-        "secondary_title": "Series 14: Episode 1",
-        "image_url": "https://img.freeviewplay.tv/p3406d5008e41c4bebe6fe73b380add63",
-        "start_time": "2026-07-05T23:00:00+0000",
+        "secondary_title": "Series 14: Episode 2",
+        "image_url": "https://img.freeviewplay.tv/p15069c4cc847df959a93a8a6d0cf43dc",
+        "start_time": "2026-07-06T00:00:00+0000",
         "duration": "PT1H",
         "on_demand": {
           "start_of_availability": "2025-12-01T00:00:00+0000",
           "end_of_availability": "2026-08-01T22:59:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIP891E",
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIP892Y",
               "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "b011b8c46f4af42e33d62c6543f8443c"
+        "uuid": "ad2378cff13ff068e39ff262095e3cda"
+      }
+    },
+    {
+      "startTime": "2026-07-06T01:00:00+0000",
+      "duration": 60,
+      "name": "QI XL",
+      "description": "Series 21: Episode 4",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/ENIU857P",
+        "event_locator": "dvb://233a..9702;4696",
+        "main_title": "QI XL",
+        "secondary_title": "Series 21: Episode 4",
+        "image_url": "https://img.freeviewplay.tv/p78b6346c00194cd2d0b983348eb10466",
+        "start_time": "2026-07-06T01:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-02-11T00:00:00+0000",
+          "end_of_availability": "2026-10-29T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIU857P",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
+        "uuid": "b58bf57ab9282f252a58c488f32a2e1d"
+      }
+    },
+    {
+      "startTime": "2026-07-06T02:00:00+0000",
+      "duration": 60,
+      "name": "Have I Got A Bit More News For You?",
+      "description": "Series 64: Episode 3",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/ENIT861L",
+        "event_locator": "dvb://233a..9702;4697",
+        "main_title": "Have I Got A Bit More News For You?",
+        "secondary_title": "Series 64: Episode 3",
+        "image_url": "https://img.freeviewplay.tv/p307d4137542e0a75bbf722cbb398803f",
+        "start_time": "2026-07-06T02:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-08-31T23:00:00+0000",
+          "end_of_availability": "2026-08-31T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIT861L",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
+        "uuid": "06df7bf0844af47c8e7375fbab1910a6"
+      }
+    },
+    {
+      "startTime": "2026-07-06T03:00:00+0000",
+      "duration": 120,
+      "name": "Teleshopping",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/eeea63ed-f442-4288-90a5-ef1200f14a10",
+        "event_locator": "dvb://233a..9702;3fa8",
+        "main_title": "Teleshopping",
+        "start_time": "2026-07-06T03:00:00+0000",
+        "duration": "PT2H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "fallback_image_url": "http://img.freeviewplay.net/ef85755b213dfadc206e3ddd4489ec776",
+        "uuid": "8f40de4608aeadd33a8ea494ec93cab9"
+      }
+    },
+    {
+      "startTime": "2026-07-06T05:00:00+0000",
+      "duration": 85,
+      "name": "Teleshopping",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/43f061b8-3932-44e1-a582-e94dbbf5e1b7",
+        "event_locator": "dvb://233a..9702;3a5f",
+        "main_title": "Teleshopping",
+        "start_time": "2026-07-06T05:00:00+0000",
+        "duration": "PT1H25M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "fallback_image_url": "http://img.freeviewplay.net/ef85755b213dfadc206e3ddd4489ec776",
+        "uuid": "b11f54ad57f47a8843dd7871e6ac3d7b"
+      }
+    },
+    {
+      "startTime": "2026-07-06T06:25:00+0000",
+      "duration": 25,
+      "name": "The Gadget Man",
+      "description": "Series 3: Episode 8",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCK041Y",
+        "event_locator": "dvb://233a..9702;3a63",
+        "main_title": "The Gadget Man",
+        "secondary_title": "Series 3: Episode 8",
+        "image_url": "https://img.freeviewplay.tv/pcd7babb8ea18f3dbbb57db2b3dd9484d",
+        "start_time": "2026-07-06T06:25:00+0000",
+        "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2024-06-27T23:00:00+0000",
+          "end_of_availability": "2026-10-31T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCK041Y",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "uuid": "f45b20bea1c210e3a5d28753fb6f5791"
+      }
+    },
+    {
+      "startTime": "2026-07-06T06:50:00+0000",
+      "duration": 30,
+      "name": "The Gadget Man",
+      "description": "Series 4: Episode 1",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCK042S",
+        "event_locator": "dvb://233a..9702;3a67",
+        "main_title": "The Gadget Man",
+        "secondary_title": "Series 4: Episode 1",
+        "image_url": "https://img.freeviewplay.tv/pa30b5c774a23258b268ac77c62ba3e33",
+        "start_time": "2026-07-06T06:50:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2024-07-02T23:00:00+0000",
+          "end_of_availability": "2026-10-31T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCK042S",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "uuid": "3907c6d199a6a5a83734765b60715a23"
+      }
+    },
+    {
+      "startTime": "2026-07-06T07:20:00+0000",
+      "duration": 60,
+      "name": "Border Force America's Gatekeepers",
+      "description": "Series 5: Episode 9",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCN703W",
+        "event_locator": "dvb://233a..9702;3fa9",
+        "main_title": "Border Force America's Gatekeepers",
+        "secondary_title": "Series 5: Episode 9",
+        "image_url": "https://img.freeviewplay.tv/pa5ab5c94c5354b205efd58665e390c34",
+        "start_time": "2026-07-06T07:20:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-01-14T00:00:00+0000",
+          "end_of_availability": "2028-08-31T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCN703W",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+        "uuid": "b172d7c812a8cb7a345872b40625ecae"
+      }
+    },
+    {
+      "startTime": "2026-07-06T08:20:00+0000",
+      "duration": 60,
+      "name": "Border Force America's Gatekeepers",
+      "description": "Series 5: Episode 10",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCN704P",
+        "event_locator": "dvb://233a..9702;3faa",
+        "main_title": "Border Force America's Gatekeepers",
+        "secondary_title": "Series 5: Episode 10",
+        "image_url": "https://img.freeviewplay.tv/p5972012ec05b456f693f96f8e6f97943",
+        "start_time": "2026-07-06T08:20:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-01-14T00:00:00+0000",
+          "end_of_availability": "2028-08-31T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCN704P",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+        "uuid": "f216711b75e4880cd06db29ec22c94cf"
+      }
+    },
+    {
+      "startTime": "2026-07-06T09:20:00+0000",
+      "duration": 60,
+      "name": "Rick Stein's Secret France",
+      "description": "Series 1: Episode 3",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/FKJE673T",
+        "event_locator": "dvb://233a..9702;3cf7",
+        "main_title": "Rick Stein's Secret France",
+        "secondary_title": "Series 1: Episode 3",
+        "image_url": "https://img.freeviewplay.tv/p61dc5cf9d0a69359608923bcbf55c3d1",
+        "start_time": "2026-07-06T09:20:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-09-24T23:00:00+0000",
+          "end_of_availability": "2026-09-24T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=FKJE673T",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "uuid": "5875634f16666d195ac61dfae388cd57"
+      }
+    },
+    {
+      "startTime": "2026-07-06T10:20:00+0000",
+      "duration": 60,
+      "name": "Rick Stein's Secret France",
+      "description": "Series 1: Episode 4",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/FKJE674N",
+        "event_locator": "dvb://233a..9702;3cf8",
+        "main_title": "Rick Stein's Secret France",
+        "secondary_title": "Series 1: Episode 4",
+        "image_url": "https://img.freeviewplay.tv/p2ee63e5020966cc98ed6310a7ec65063",
+        "start_time": "2026-07-06T10:20:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-09-24T23:00:00+0000",
+          "end_of_availability": "2026-09-24T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=FKJE674N",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "uuid": "1076a9ffeba140e7c3f1e0f0d3bcbe5c"
+      }
+    },
+    {
+      "startTime": "2026-07-06T11:20:00+0000",
+      "duration": 60,
+      "name": "Top Gear",
+      "description": "Series 9: Episode 2",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/GFGB578E",
+        "event_locator": "dvb://233a..9702;3cf9",
+        "main_title": "Top Gear",
+        "secondary_title": "Series 9: Episode 2",
+        "image_url": "https://img.freeviewplay.tv/p4a6c4bcd5fe94410978ec075e75f0e0c",
+        "start_time": "2026-07-06T11:20:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-07-06T12:20:00+0000",
+          "end_of_availability": "2026-08-05T11:20:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=GFGB578E",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "uuid": "999e0a16c36cd6101633f247927f9b06"
+      }
+    },
+    {
+      "startTime": "2026-07-06T12:20:00+0000",
+      "duration": 60,
+      "name": "Top Gear",
+      "description": "Series 9: Episode 4",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/GFGB580S",
+        "event_locator": "dvb://233a..9702;3cfa",
+        "main_title": "Top Gear",
+        "secondary_title": "Series 9: Episode 4",
+        "image_url": "https://img.freeviewplay.tv/p9af8113a140d0cbf41adc415d3c5bafa",
+        "start_time": "2026-07-06T12:20:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-07-06T13:20:00+0000",
+          "end_of_availability": "2026-08-05T12:20:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=GFGB580S",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "uuid": "216eea9d9d4f9f90a50a7596b28de6e5"
+      }
+    },
+    {
+      "startTime": "2026-07-06T13:20:00+0000",
+      "duration": 40,
+      "name": "Mortimer & Whitehouse: Gone Fishing",
+      "description": "Series 5: Episode 1",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL912L",
+        "event_locator": "dvb://233a..9702;3cfb",
+        "main_title": "Mortimer & Whitehouse: Gone Fishing",
+        "secondary_title": "Series 5: Episode 1",
+        "image_url": "https://img.freeviewplay.tv/pf5b17a85433936c0ec79e3e8c75f2b34",
+        "start_time": "2026-07-06T13:20:00+0000",
+        "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2025-09-15T06:00:00+0000",
+          "end_of_availability": "2026-08-30T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL912L",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "uuid": "72de44c0a7833adcaef5c159beced1d9"
+      }
+    },
+    {
+      "startTime": "2026-07-06T14:00:00+0000",
+      "duration": 60,
+      "name": "The Americas with Simon Reeve",
+      "description": "Series 1: Episode 4",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/FKBH505N",
+        "event_locator": "dvb://233a..9702;3cfc",
+        "main_title": "The Americas with Simon Reeve",
+        "secondary_title": "Series 1: Episode 4",
+        "image_url": "https://img.freeviewplay.tv/pf17c37a4870bb07759ce0ba874cedab2",
+        "start_time": "2026-07-06T14:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-06-29T23:00:00+0000",
+          "end_of_availability": "2027-06-29T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=FKBH505N",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+        "uuid": "156e7e9f4b6ca89a63491610e1cd8728"
+      }
+    },
+    {
+      "startTime": "2026-07-06T15:00:00+0000",
+      "duration": 60,
+      "name": "Hairy Bikers' Bakeation",
+      "description": "",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://csi.digitaluk.co.uk/eb92761d-489e-4892-b8ea-1ab99f860e8f",
+        "event_locator": "dvb://233a..9702;400b",
+        "main_title": "Hairy Bikers' Bakeation",
+        "image_url": "https://img.freeviewplay.tv/e1d8f6400fb5b3b96dbfe6c71976418fa",
+        "start_time": "2026-07-06T15:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "137b85c58b65bbc8ff34913131680670"
+      }
+    },
+    {
+      "startTime": "2026-07-06T16:00:00+0000",
+      "duration": 60,
+      "name": "Rick Stein's Secret France",
+      "description": "Series 1: Episode 3",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/FKJE673T",
+        "event_locator": "dvb://233a..9702;3cfe",
+        "main_title": "Rick Stein's Secret France",
+        "secondary_title": "Series 1: Episode 3",
+        "image_url": "https://img.freeviewplay.tv/p61dc5cf9d0a69359608923bcbf55c3d1",
+        "start_time": "2026-07-06T16:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-09-24T23:00:00+0000",
+          "end_of_availability": "2026-09-24T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=FKJE673T",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "uuid": "b9957a9e7b0fb37063b8945e684e82fa"
+      }
+    },
+    {
+      "startTime": "2026-07-06T17:00:00+0000",
+      "duration": 60,
+      "name": "Rick Stein's Secret France",
+      "description": "Series 1: Episode 4",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/FKJE674N",
+        "event_locator": "dvb://233a..9702;3cff",
+        "main_title": "Rick Stein's Secret France",
+        "secondary_title": "Series 1: Episode 4",
+        "image_url": "https://img.freeviewplay.tv/p2ee63e5020966cc98ed6310a7ec65063",
+        "start_time": "2026-07-06T17:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-09-24T23:00:00+0000",
+          "end_of_availability": "2026-09-24T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=FKJE674N",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "uuid": "197f6e309246db1dec3b6cdf42bed6c7"
+      }
+    },
+    {
+      "startTime": "2026-07-06T18:00:00+0000",
+      "duration": 40,
+      "name": "Mortimer & Whitehouse: Gone Fishing",
+      "description": "Series 5: Episode 1",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL912L",
+        "event_locator": "dvb://233a..9702;3d00",
+        "main_title": "Mortimer & Whitehouse: Gone Fishing",
+        "secondary_title": "Series 5: Episode 1",
+        "image_url": "https://img.freeviewplay.tv/pf5b17a85433936c0ec79e3e8c75f2b34",
+        "start_time": "2026-07-06T18:00:00+0000",
+        "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2025-09-15T06:00:00+0000",
+          "end_of_availability": "2026-08-30T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL912L",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+        "uuid": "6eb45cfa513cad15fe1d4c65fb287207"
+      }
+    },
+    {
+      "startTime": "2026-07-06T18:40:00+0000",
+      "duration": 40,
+      "name": "Would I Lie To You?",
+      "description": "Series 17: Episode 1",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCO120R",
+        "event_locator": "dvb://233a..9702;4698",
+        "main_title": "Would I Lie To You?",
+        "secondary_title": "Series 17: Episode 1",
+        "image_url": "https://img.freeviewplay.tv/p62ae39a5039b73542c1a73b49cf5d58e",
+        "start_time": "2026-07-06T18:40:00+0000",
+        "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2025-09-30T23:00:00+0000",
+          "end_of_availability": "2026-09-30T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCO120R",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "e4377eb00899b7e75c46d3f96f6abe0a"
+      }
+    },
+    {
+      "startTime": "2026-07-06T19:20:00+0000",
+      "duration": 40,
+      "name": "Would I Lie To You?",
+      "description": "Series 17: Episode 2",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCO121K",
+        "event_locator": "dvb://233a..9702;4699",
+        "main_title": "Would I Lie To You?",
+        "secondary_title": "Series 17: Episode 2",
+        "image_url": "https://img.freeviewplay.tv/pa62acae83cda28653c1cb5e2cc8e73d5",
+        "start_time": "2026-07-06T19:20:00+0000",
+        "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2025-09-30T23:00:00+0000",
+          "end_of_availability": "2026-09-30T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCO121K",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "c6963ff753a83a965bc2b2d87c18afd7"
+      }
+    },
+    {
+      "startTime": "2026-07-06T20:00:00+0000",
+      "duration": 60,
+      "name": "Have I Got A Bit More News For You?",
+      "description": "Series 64: Episode 3",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/ENIT861L",
+        "event_locator": "dvb://233a..9702;469a",
+        "main_title": "Have I Got A Bit More News For You?",
+        "secondary_title": "Series 64: Episode 3",
+        "image_url": "https://img.freeviewplay.tv/p307d4137542e0a75bbf722cbb398803f",
+        "start_time": "2026-07-06T20:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-08-31T23:00:00+0000",
+          "end_of_availability": "2026-08-31T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIT861L",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
+        "uuid": "362166a0024f42eb677a2bdf28a90695"
+      }
+    },
+    {
+      "startTime": "2026-07-06T21:00:00+0000",
+      "duration": 60,
+      "name": "QI XL",
+      "description": "Series 21: Episode 4",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/ENIU857P",
+        "event_locator": "dvb://233a..9702;469b",
+        "main_title": "QI XL",
+        "secondary_title": "Series 21: Episode 4",
+        "image_url": "https://img.freeviewplay.tv/p78b6346c00194cd2d0b983348eb10466",
+        "start_time": "2026-07-06T21:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-02-11T00:00:00+0000",
+          "end_of_availability": "2026-10-29T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIU857P",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
+        "uuid": "fcbbe79ff1ce27de986c7ad5e541dda0"
+      }
+    },
+    {
+      "startTime": "2026-07-06T22:00:00+0000",
+      "duration": 60,
+      "name": "8 Out of 10 Cats",
+      "description": "Series 22: Episode 4",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCI891T",
+        "event_locator": "dvb://233a..9702;3ab3",
+        "main_title": "8 Out of 10 Cats",
+        "secondary_title": "Series 22: Episode 4",
+        "image_url": "https://img.freeviewplay.tv/p298907437d8965cb31377a93f91707b7",
+        "start_time": "2026-07-06T22:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2024-10-06T23:00:00+0000",
+          "end_of_availability": "2026-12-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCI891T",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
+        "uuid": "5ee5917403f848f3ca955f03cc240ca7"
+      }
+    },
+    {
+      "startTime": "2026-07-06T23:00:00+0000",
+      "duration": 35,
+      "name": "Mock the Week",
+      "description": "Series 12: Episode 5",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/ENII315A",
+        "event_locator": "dvb://233a..9702;3ab7",
+        "main_title": "Mock the Week",
+        "secondary_title": "Series 12: Episode 5",
+        "image_url": "https://img.freeviewplay.tv/p8c8599b862f437d94d2ce60f1f3ee640",
+        "start_time": "2026-07-06T23:00:00+0000",
+        "duration": "PT35M",
+        "on_demand": {
+          "start_of_availability": "2025-11-01T00:00:00+0000",
+          "end_of_availability": "2026-10-31T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENII315A",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
+        "uuid": "1083c32794948c17593a417ffeb20ac3"
+      }
+    },
+    {
+      "startTime": "2026-07-06T23:35:00+0000",
+      "duration": 40,
+      "name": "Would I Lie To You?",
+      "description": "Series 17: Episode 1",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://www.uktv.co.uk/ep/dave/CTCO120R",
+        "event_locator": "dvb://233a..9702;469c",
+        "main_title": "Would I Lie To You?",
+        "secondary_title": "Series 17: Episode 1",
+        "image_url": "https://img.freeviewplay.tv/p62ae39a5039b73542c1a73b49cf5d58e",
+        "start_time": "2026-07-06T23:35:00+0000",
+        "duration": "PT40M",
+        "on_demand": {
+          "start_of_availability": "2025-09-30T23:00:00+0000",
+          "end_of_availability": "2026-09-30T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCO120R",
+              "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "uuid": "b1a5f5f45485a621c901b1472b2b89d5"
       }
     }
   ],
@@ -799,792 +731,724 @@
       {
         "event": [
           {
-            "startTime": "2026-07-05T01:00:00+0000",
-            "duration": 30,
-            "name": "I'll Get This",
-            "description": "Series 1: Episode 1",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCI473T",
-              "event_locator": "dvb://233a..9702;39df",
-              "main_title": "I'll Get This",
-              "secondary_title": "Series 1: Episode 1",
-              "image_url": "https://img.freeviewplay.tv/p8a80ce2dbea602ed82c49e52f0bbca5d",
-              "start_time": "2026-07-05T01:00:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2024-01-05T00:00:00+0000",
-                "end_of_availability": "2026-10-31T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCI473T",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-              "uuid": "6b11a3b71de39a45bd42fbda0d672e1f"
-            }
-          },
-          {
-            "startTime": "2026-07-05T01:30:00+0000",
-            "duration": 45,
-            "name": "I'll Get This",
-            "description": "Series 1: Episode 2",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCI474N",
-              "event_locator": "dvb://233a..9702;39e3",
-              "main_title": "I'll Get This",
-              "secondary_title": "Series 1: Episode 2",
-              "image_url": "https://img.freeviewplay.tv/p14ec86a5808a6bfa97174fece3b017d0",
-              "start_time": "2026-07-05T01:30:00+0000",
-              "duration": "PT45M",
-              "on_demand": {
-                "start_of_availability": "2024-01-05T00:00:00+0000",
-                "end_of_availability": "2026-10-31T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCI474N",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-              "uuid": "80b60baf4e90592b448184664940defd"
-            }
-          },
-          {
-            "startTime": "2026-07-05T02:15:00+0000",
-            "duration": 45,
-            "name": "Richard Osman's House of Games",
-            "description": "Series 5: Episode 1",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCI905B",
-              "event_locator": "dvb://233a..9702;39e7",
-              "main_title": "Richard Osman's House of Games",
-              "secondary_title": "Series 5: Episode 1",
-              "image_url": "https://img.freeviewplay.tv/pa3cc5c11d0112e719bcbeb59babbe780",
-              "start_time": "2026-07-05T02:15:00+0000",
-              "duration": "PT45M",
-              "on_demand": {
-                "start_of_availability": "2023-11-26T00:00:00+0000",
-                "end_of_availability": "2027-08-27T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCI905B",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "f0b8270592693e133165d48a45a9efc6"
-            }
-          },
-          {
-            "startTime": "2026-07-05T03:00:00+0000",
-            "duration": 120,
-            "name": "Teleshopping",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/3c09cf56-9e4b-47c1-9b62-160938fbfa0a",
-              "event_locator": "dvb://233a..9702;3fa2",
-              "main_title": "Teleshopping",
-              "start_time": "2026-07-05T03:00:00+0000",
-              "duration": "PT2H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "fallback_image_url": "http://img.freeviewplay.net/ef85755b213dfadc206e3ddd4489ec776",
-              "uuid": "c1a1886d397b7775453e734441759479"
-            }
-          },
-          {
-            "startTime": "2026-07-05T05:00:00+0000",
-            "duration": 70,
-            "name": "Teleshopping",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/92fcfc70-6c53-45a2-ab06-817b2ee2e2ee",
-              "event_locator": "dvb://233a..9702;39ef",
-              "main_title": "Teleshopping",
-              "start_time": "2026-07-05T05:00:00+0000",
-              "duration": "PT1H10M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "fallback_image_url": "http://img.freeviewplay.net/ef85755b213dfadc206e3ddd4489ec776",
-              "uuid": "e2e05df0abbcead791fbcec0f4365c31"
-            }
-          },
-          {
-            "startTime": "2026-07-05T06:10:00+0000",
-            "duration": 25,
-            "name": "The Gadget Man",
-            "description": "Series 3: Episode 6",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCK039K",
-              "event_locator": "dvb://233a..9702;39f3",
-              "main_title": "The Gadget Man",
-              "secondary_title": "Series 3: Episode 6",
-              "image_url": "https://img.freeviewplay.tv/pb2560c4408c1eb33979d5ed1b7f04fbd",
-              "start_time": "2026-07-05T06:10:00+0000",
-              "duration": "PT25M",
-              "on_demand": {
-                "start_of_availability": "2024-06-27T23:00:00+0000",
-                "end_of_availability": "2026-10-31T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCK039K",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "uuid": "2e5db2b5b6b0c415a8127bf435a2f4d1"
-            }
-          },
-          {
-            "startTime": "2026-07-05T06:35:00+0000",
-            "duration": 25,
-            "name": "The Gadget Man",
-            "description": "Series 3: Episode 7",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCK040E",
-              "event_locator": "dvb://233a..9702;39f7",
-              "main_title": "The Gadget Man",
-              "secondary_title": "Series 3: Episode 7",
-              "image_url": "https://img.freeviewplay.tv/pd920a95c44c363e7a17b1676c25b72de",
-              "start_time": "2026-07-05T06:35:00+0000",
-              "duration": "PT25M",
-              "on_demand": {
-                "start_of_availability": "2024-06-27T23:00:00+0000",
-                "end_of_availability": "2026-10-31T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCK040E",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "uuid": "c6d5c87110342129137f5d98fde5497d"
-            }
-          },
-          {
-            "startTime": "2026-07-05T07:00:00+0000",
-            "duration": 30,
-            "name": "Storage Hunters UK",
-            "description": "Series 5: Episode 1",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTON196Y",
-              "event_locator": "dvb://233a..9702;39fb",
-              "main_title": "Storage Hunters UK",
-              "secondary_title": "Series 5: Episode 1",
-              "image_url": "https://img.freeviewplay.tv/pafdd91f88bb97572453af223d41d2aa7",
-              "start_time": "2026-07-05T07:00:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2017-02-08T00:00:00+0000",
-                "end_of_availability": "2099-12-31T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://vschedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTON196Y",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
-              "uuid": "c09b77173b1a46129e4e1e985ad3cc5d"
-            }
-          },
-          {
-            "startTime": "2026-07-05T07:30:00+0000",
-            "duration": 30,
-            "name": "Storage Hunters UK",
-            "description": "Series 5: Episode 2",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTON188W",
-              "event_locator": "dvb://233a..9702;39ff",
-              "main_title": "Storage Hunters UK",
-              "secondary_title": "Series 5: Episode 2",
-              "image_url": "https://img.freeviewplay.tv/pcbdede4928f9fb74b94a77d0254792ca",
-              "start_time": "2026-07-05T07:30:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2017-02-08T00:00:00+0000",
-                "end_of_availability": "2099-12-31T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://vschedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTON188W",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
-              "uuid": "0481fd78b9e82c80f64573748fd87089"
-            }
-          },
-          {
-            "startTime": "2026-07-05T08:00:00+0000",
-            "duration": 60,
-            "name": "Top Gear",
-            "description": "Series 3: Episode 4",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/GFGA265X",
-              "event_locator": "dvb://233a..9702;3a03",
-              "main_title": "Top Gear",
-              "secondary_title": "Series 3: Episode 4",
-              "image_url": "https://img.freeviewplay.tv/p30303c19b99256657a69f3ed2d6b0259",
-              "start_time": "2026-07-05T08:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2026-07-05T09:00:00+0000",
-                "end_of_availability": "2026-08-04T08:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=GFGA265X",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "uuid": "329e5efb27446d4c14483fe5f2013fe7"
-            }
-          },
-          {
-            "startTime": "2026-07-05T09:00:00+0000",
-            "duration": 60,
-            "name": "Top Gear",
-            "description": "Series 3: Episode 5",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/GFGA266R",
-              "event_locator": "dvb://233a..9702;3a07",
-              "main_title": "Top Gear",
-              "secondary_title": "Series 3: Episode 5",
-              "image_url": "https://img.freeviewplay.tv/pc7d6d05213a32fac980961e52779ea73",
-              "start_time": "2026-07-05T09:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2026-07-05T10:00:00+0000",
-                "end_of_availability": "2026-08-04T09:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=GFGA266R",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "uuid": "880b1a1a71a4a7782b3c7d8397e66bb8"
-            }
-          },
-          {
-            "startTime": "2026-07-05T10:00:00+0000",
-            "duration": 60,
-            "name": "Motorhoming with Merton and Webster",
-            "description": "Series 2: Episode 1",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL374N",
-              "event_locator": "dvb://233a..9702;3a0b",
-              "main_title": "Motorhoming with Merton and Webster",
-              "secondary_title": "Series 2: Episode 1",
-              "image_url": "https://img.freeviewplay.tv/p595bbac94df1477f9681a2726239c1f0",
-              "start_time": "2026-07-05T10:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2024-08-19T23:00:00+0000",
-                "end_of_availability": "2027-05-31T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL374N",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "uuid": "2f76df5dbfd19d46a1d3d5665df63935"
-            }
-          },
-          {
-            "startTime": "2026-07-05T11:00:00+0000",
-            "duration": 60,
-            "name": "Motorhoming with Merton and Webster",
-            "description": "Series 2: Episode 2",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL375H",
-              "event_locator": "dvb://233a..9702;3a0f",
-              "main_title": "Motorhoming with Merton and Webster",
-              "secondary_title": "Series 2: Episode 2",
-              "image_url": "https://img.freeviewplay.tv/p52738e79cb1161a57060f6206bd22dac",
-              "start_time": "2026-07-05T11:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2024-08-19T23:00:00+0000",
-                "end_of_availability": "2027-05-31T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL375H",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "uuid": "cf2c9c8d40eaba54522e7a9638bb8124"
-            }
-          },
-          {
-            "startTime": "2026-07-05T12:00:00+0000",
-            "duration": 40,
-            "name": "Mortimer & Whitehouse: Gone Fishing",
-            "description": "Series 5: Episode 3",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL914A",
-              "event_locator": "dvb://233a..9702;3a13",
-              "main_title": "Mortimer & Whitehouse: Gone Fishing",
-              "secondary_title": "Series 5: Episode 3",
-              "image_url": "https://img.freeviewplay.tv/p47a9e200e16720194c9c7e49c4ca8fa8",
-              "start_time": "2026-07-05T12:00:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2025-09-15T06:00:00+0000",
-                "end_of_availability": "2026-08-30T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL914A",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "uuid": "29d1cfef7234b20832ef8cf26f485b0e"
-            }
-          },
-          {
-            "startTime": "2026-07-05T12:40:00+0000",
-            "duration": 40,
-            "name": "Mortimer & Whitehouse: Gone Fishing",
-            "description": "Series 5: Episode 4",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL915T",
-              "event_locator": "dvb://233a..9702;3a17",
-              "main_title": "Mortimer & Whitehouse: Gone Fishing",
-              "secondary_title": "Series 5: Episode 4",
-              "image_url": "https://img.freeviewplay.tv/pd30e6553cf73bcfadd5e314f59d83c54",
-              "start_time": "2026-07-05T12:40:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2025-09-15T06:00:00+0000",
-                "end_of_availability": "2026-08-30T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL915T",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "uuid": "9785e728d58dc2002168f08b0a341537"
-            }
-          },
-          {
-            "startTime": "2026-07-05T13:20:00+0000",
-            "duration": 40,
-            "name": "Mortimer & Whitehouse: Gone Fishing",
-            "description": "Series 5: Episode 5",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL916N",
-              "event_locator": "dvb://233a..9702;3a1b",
-              "main_title": "Mortimer & Whitehouse: Gone Fishing",
-              "secondary_title": "Series 5: Episode 5",
-              "image_url": "https://img.freeviewplay.tv/p6507c4fb55ad541d104cc9ae28680f1e",
-              "start_time": "2026-07-05T13:20:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2025-09-15T06:00:00+0000",
-                "end_of_availability": "2026-08-30T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL916N",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "uuid": "f35123f39eb427f1961980d3adf4793e"
-            }
-          },
-          {
-            "startTime": "2026-07-05T14:00:00+0000",
-            "duration": 40,
-            "name": "Mortimer & Whitehouse: Gone Fishing",
-            "description": "Series 5: Episode 6",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL917H",
-              "event_locator": "dvb://233a..9702;3a1f",
-              "main_title": "Mortimer & Whitehouse: Gone Fishing",
-              "secondary_title": "Series 5: Episode 6",
-              "image_url": "https://img.freeviewplay.tv/p812f822474d9eef69550600afc4300ba",
-              "start_time": "2026-07-05T14:00:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2025-09-15T06:00:00+0000",
-                "end_of_availability": "2026-08-30T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL917H",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "uuid": "179b710759d0b23e8a6a34506423544f"
-            }
-          },
-          {
-            "startTime": "2026-07-05T14:40:00+0000",
-            "duration": 80,
-            "name": "Mortimer & Whitehouse: Gone Fishing Christmas 2022",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCM561X",
-              "event_locator": "dvb://233a..9702;3a23",
-              "main_title": "Mortimer & Whitehouse: Gone Fishing Christmas 2022",
-              "image_url": "https://img.freeviewplay.tv/pf89045f6c45042dcffcec3798a548a49",
-              "start_time": "2026-07-05T14:40:00+0000",
-              "duration": "PT1H20M",
-              "on_demand": {
-                "start_of_availability": "2026-07-05T15:55:00+0000",
-                "end_of_availability": "2026-08-04T14:40:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCM561X",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
-              "uuid": "bcdcd36486b2ab909b13e5f5efe470a7"
-            }
-          },
-          {
-            "startTime": "2026-07-05T16:00:00+0000",
-            "duration": 40,
-            "name": "Would I Lie To You?",
-            "description": "Series 3: Episode 1",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTAW839S",
-              "event_locator": "dvb://233a..9702;3fa3",
-              "main_title": "Would I Lie To You?",
-              "secondary_title": "Series 3: Episode 1",
-              "image_url": "https://img.freeviewplay.tv/p960ba1ce2e463f2612375cd7bbf4a0bf",
-              "start_time": "2026-07-05T16:00:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2025-03-09T00:00:00+0000",
-                "end_of_availability": "2027-08-31T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTAW839S",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-              "uuid": "29163f7da68000261bba5d11af96b0b7"
-            }
-          },
-          {
-            "startTime": "2026-07-05T16:40:00+0000",
-            "duration": 40,
-            "name": "Would I Lie To You?",
-            "description": "Series 3: Episode 2",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTAW840L",
-              "event_locator": "dvb://233a..9702;3fa4",
-              "main_title": "Would I Lie To You?",
-              "secondary_title": "Series 3: Episode 2",
-              "image_url": "https://img.freeviewplay.tv/p844a8dd8ff84109025ed95b08abce7e2",
-              "start_time": "2026-07-05T16:40:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2025-03-09T00:00:00+0000",
-                "end_of_availability": "2027-08-31T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTAW840L",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-              "uuid": "2960eeca8c9e1d46a7c4634b549622e2"
-            }
-          },
-          {
-            "startTime": "2026-07-05T17:20:00+0000",
-            "duration": 40,
-            "name": "Would I Lie To You?",
-            "description": "Series 3: Episode 3",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTAW841F",
-              "event_locator": "dvb://233a..9702;3fa5",
-              "main_title": "Would I Lie To You?",
-              "secondary_title": "Series 3: Episode 3",
-              "image_url": "https://img.freeviewplay.tv/p0d5af5aa72e8895b8c230f4848eebabb",
-              "start_time": "2026-07-05T17:20:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2025-03-09T00:00:00+0000",
-                "end_of_availability": "2027-08-31T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTAW841F",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-              "uuid": "cd635a5d6706bd92b570e01c1726d597"
-            }
-          },
-          {
-            "startTime": "2026-07-05T18:00:00+0000",
-            "duration": 60,
-            "name": "Border Force America's Gatekeepers",
-            "description": "Series 7: Episode 10",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCS139X",
-              "event_locator": "dvb://233a..9702;4694",
-              "main_title": "Border Force America's Gatekeepers",
-              "secondary_title": "Series 7: Episode 10",
-              "image_url": "https://img.freeviewplay.tv/pbb398b8b69e19e92c9003a0cb7ccffef",
-              "start_time": "2026-07-05T18:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2026-05-15T23:00:00+0000",
-                "end_of_availability": "2030-03-31T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCS139X",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
-              "uuid": "27a60ebe321e238dedf996a9dc728c69"
-            }
-          },
-          {
-            "startTime": "2026-07-05T19:00:00+0000",
-            "duration": 60,
-            "name": "Special Ops: Crime Squad UK",
-            "description": "Series 3: Episode 1",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/CTOR106W",
-              "event_locator": "dvb://233a..9702;3a37",
-              "main_title": "Special Ops: Crime Squad UK",
-              "secondary_title": "Series 3: Episode 1",
-              "image_url": "https://img.freeviewplay.tv/p5041402d8da4149f834df97281eba04c",
-              "start_time": "2026-07-05T19:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2024-03-26T00:00:00+0000",
-                "end_of_availability": "2099-12-31T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTOR106W",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
-              "uuid": "507b6799127857069e61d5b187aff12d"
-            }
-          },
-          {
-            "startTime": "2026-07-05T20:00:00+0000",
-            "duration": 60,
-            "name": "Have I Got A Bit More News For You?",
-            "description": "Series 64: Episode 2",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/ENIT860S",
-              "event_locator": "dvb://233a..9702;4695",
-              "main_title": "Have I Got A Bit More News For You?",
-              "secondary_title": "Series 64: Episode 2",
-              "image_url": "https://img.freeviewplay.tv/p512d553da7d789e38d11bd664b374f04",
-              "start_time": "2026-07-05T20:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2025-08-31T23:00:00+0000",
-                "end_of_availability": "2026-08-31T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIT860S",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-              "uuid": "0cf8ec1ce89d3441e5d6fb5d5f1f4652"
-            }
-          },
-          {
-            "startTime": "2026-07-05T21:00:00+0000",
-            "duration": 40,
-            "name": "QI",
-            "description": "Series 5: Episode 2",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/ICEH057R",
-              "event_locator": "dvb://233a..9702;3a3f",
-              "main_title": "QI",
-              "secondary_title": "Series 5: Episode 2",
-              "image_url": "https://img.freeviewplay.tv/p384db767033fc8d7c222b73eb39d1bea",
-              "start_time": "2026-07-05T21:00:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2026-06-07T23:00:00+0000",
-                "end_of_availability": "2026-09-30T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ICEH057R",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-              "uuid": "4727ce5ee46420402fb543232fe9f97d"
-            }
-          },
-          {
-            "startTime": "2026-07-05T21:40:00+0000",
-            "duration": 40,
-            "name": "Mock the Week",
-            "description": "Series 12: Episode 3",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/ENII313L",
-              "event_locator": "dvb://233a..9702;3a43",
-              "main_title": "Mock the Week",
-              "secondary_title": "Series 12: Episode 3",
-              "image_url": "https://img.freeviewplay.tv/p55c83ff5b40eab156ce9b6646d92a25f",
-              "start_time": "2026-07-05T21:40:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2025-11-01T00:00:00+0000",
-                "end_of_availability": "2026-10-31T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENII313L",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-              "uuid": "814a2252cc9b8f107c0ef0aeee16e352"
-            }
-          },
-          {
-            "startTime": "2026-07-05T22:20:00+0000",
-            "duration": 40,
-            "name": "Mock the Week",
-            "description": "Series 12: Episode 4",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/ENII314F",
-              "event_locator": "dvb://233a..9702;3a47",
-              "main_title": "Mock the Week",
-              "secondary_title": "Series 12: Episode 4",
-              "image_url": "https://img.freeviewplay.tv/p6851b4871918c19674ffe50db250e490",
-              "start_time": "2026-07-05T22:20:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2025-11-01T00:00:00+0000",
-                "end_of_availability": "2026-10-31T23:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENII314F",
-                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
-              "uuid": "8d47ee533dd97e47ef0ab4aaebae7d99"
-            }
-          },
-          {
-            "startTime": "2026-07-05T23:00:00+0000",
+            "startTime": "2026-07-06T00:00:00+0000",
             "duration": 60,
             "name": "Live at the Apollo",
-            "description": "Series 14: Episode 1",
+            "description": "Series 14: Episode 2",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://www.uktv.co.uk/ep/dave/ENIP891E",
-              "event_locator": "dvb://233a..9702;3a4b",
+              "program_id": "crid://www.uktv.co.uk/ep/dave/ENIP892Y",
+              "event_locator": "dvb://233a..9702;3a4f",
               "main_title": "Live at the Apollo",
-              "secondary_title": "Series 14: Episode 1",
-              "image_url": "https://img.freeviewplay.tv/p3406d5008e41c4bebe6fe73b380add63",
-              "start_time": "2026-07-05T23:00:00+0000",
+              "secondary_title": "Series 14: Episode 2",
+              "image_url": "https://img.freeviewplay.tv/p15069c4cc847df959a93a8a6d0cf43dc",
+              "start_time": "2026-07-06T00:00:00+0000",
               "duration": "PT1H",
               "on_demand": {
                 "start_of_availability": "2025-12-01T00:00:00+0000",
                 "end_of_availability": "2026-08-01T22:59:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIP891E",
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIP892Y",
                     "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "b011b8c46f4af42e33d62c6543f8443c"
+              "uuid": "ad2378cff13ff068e39ff262095e3cda"
+            }
+          },
+          {
+            "startTime": "2026-07-06T01:00:00+0000",
+            "duration": 60,
+            "name": "QI XL",
+            "description": "Series 21: Episode 4",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/ENIU857P",
+              "event_locator": "dvb://233a..9702;4696",
+              "main_title": "QI XL",
+              "secondary_title": "Series 21: Episode 4",
+              "image_url": "https://img.freeviewplay.tv/p78b6346c00194cd2d0b983348eb10466",
+              "start_time": "2026-07-06T01:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-02-11T00:00:00+0000",
+                "end_of_availability": "2026-10-29T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIU857P",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
+              "uuid": "b58bf57ab9282f252a58c488f32a2e1d"
+            }
+          },
+          {
+            "startTime": "2026-07-06T02:00:00+0000",
+            "duration": 60,
+            "name": "Have I Got A Bit More News For You?",
+            "description": "Series 64: Episode 3",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/ENIT861L",
+              "event_locator": "dvb://233a..9702;4697",
+              "main_title": "Have I Got A Bit More News For You?",
+              "secondary_title": "Series 64: Episode 3",
+              "image_url": "https://img.freeviewplay.tv/p307d4137542e0a75bbf722cbb398803f",
+              "start_time": "2026-07-06T02:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-08-31T23:00:00+0000",
+                "end_of_availability": "2026-08-31T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIT861L",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
+              "uuid": "06df7bf0844af47c8e7375fbab1910a6"
+            }
+          },
+          {
+            "startTime": "2026-07-06T03:00:00+0000",
+            "duration": 120,
+            "name": "Teleshopping",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/eeea63ed-f442-4288-90a5-ef1200f14a10",
+              "event_locator": "dvb://233a..9702;3fa8",
+              "main_title": "Teleshopping",
+              "start_time": "2026-07-06T03:00:00+0000",
+              "duration": "PT2H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "fallback_image_url": "http://img.freeviewplay.net/ef85755b213dfadc206e3ddd4489ec776",
+              "uuid": "8f40de4608aeadd33a8ea494ec93cab9"
+            }
+          },
+          {
+            "startTime": "2026-07-06T05:00:00+0000",
+            "duration": 85,
+            "name": "Teleshopping",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/43f061b8-3932-44e1-a582-e94dbbf5e1b7",
+              "event_locator": "dvb://233a..9702;3a5f",
+              "main_title": "Teleshopping",
+              "start_time": "2026-07-06T05:00:00+0000",
+              "duration": "PT1H25M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "fallback_image_url": "http://img.freeviewplay.net/ef85755b213dfadc206e3ddd4489ec776",
+              "uuid": "b11f54ad57f47a8843dd7871e6ac3d7b"
+            }
+          },
+          {
+            "startTime": "2026-07-06T06:25:00+0000",
+            "duration": 25,
+            "name": "The Gadget Man",
+            "description": "Series 3: Episode 8",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCK041Y",
+              "event_locator": "dvb://233a..9702;3a63",
+              "main_title": "The Gadget Man",
+              "secondary_title": "Series 3: Episode 8",
+              "image_url": "https://img.freeviewplay.tv/pcd7babb8ea18f3dbbb57db2b3dd9484d",
+              "start_time": "2026-07-06T06:25:00+0000",
+              "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2024-06-27T23:00:00+0000",
+                "end_of_availability": "2026-10-31T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCK041Y",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "uuid": "f45b20bea1c210e3a5d28753fb6f5791"
+            }
+          },
+          {
+            "startTime": "2026-07-06T06:50:00+0000",
+            "duration": 30,
+            "name": "The Gadget Man",
+            "description": "Series 4: Episode 1",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCK042S",
+              "event_locator": "dvb://233a..9702;3a67",
+              "main_title": "The Gadget Man",
+              "secondary_title": "Series 4: Episode 1",
+              "image_url": "https://img.freeviewplay.tv/pa30b5c774a23258b268ac77c62ba3e33",
+              "start_time": "2026-07-06T06:50:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2024-07-02T23:00:00+0000",
+                "end_of_availability": "2026-10-31T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCK042S",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "uuid": "3907c6d199a6a5a83734765b60715a23"
+            }
+          },
+          {
+            "startTime": "2026-07-06T07:20:00+0000",
+            "duration": 60,
+            "name": "Border Force America's Gatekeepers",
+            "description": "Series 5: Episode 9",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCN703W",
+              "event_locator": "dvb://233a..9702;3fa9",
+              "main_title": "Border Force America's Gatekeepers",
+              "secondary_title": "Series 5: Episode 9",
+              "image_url": "https://img.freeviewplay.tv/pa5ab5c94c5354b205efd58665e390c34",
+              "start_time": "2026-07-06T07:20:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-01-14T00:00:00+0000",
+                "end_of_availability": "2028-08-31T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCN703W",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+              "uuid": "b172d7c812a8cb7a345872b40625ecae"
+            }
+          },
+          {
+            "startTime": "2026-07-06T08:20:00+0000",
+            "duration": 60,
+            "name": "Border Force America's Gatekeepers",
+            "description": "Series 5: Episode 10",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCN704P",
+              "event_locator": "dvb://233a..9702;3faa",
+              "main_title": "Border Force America's Gatekeepers",
+              "secondary_title": "Series 5: Episode 10",
+              "image_url": "https://img.freeviewplay.tv/p5972012ec05b456f693f96f8e6f97943",
+              "start_time": "2026-07-06T08:20:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-01-14T00:00:00+0000",
+                "end_of_availability": "2028-08-31T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCN704P",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+              "uuid": "f216711b75e4880cd06db29ec22c94cf"
+            }
+          },
+          {
+            "startTime": "2026-07-06T09:20:00+0000",
+            "duration": 60,
+            "name": "Rick Stein's Secret France",
+            "description": "Series 1: Episode 3",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/FKJE673T",
+              "event_locator": "dvb://233a..9702;3cf7",
+              "main_title": "Rick Stein's Secret France",
+              "secondary_title": "Series 1: Episode 3",
+              "image_url": "https://img.freeviewplay.tv/p61dc5cf9d0a69359608923bcbf55c3d1",
+              "start_time": "2026-07-06T09:20:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-09-24T23:00:00+0000",
+                "end_of_availability": "2026-09-24T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=FKJE673T",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "uuid": "5875634f16666d195ac61dfae388cd57"
+            }
+          },
+          {
+            "startTime": "2026-07-06T10:20:00+0000",
+            "duration": 60,
+            "name": "Rick Stein's Secret France",
+            "description": "Series 1: Episode 4",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/FKJE674N",
+              "event_locator": "dvb://233a..9702;3cf8",
+              "main_title": "Rick Stein's Secret France",
+              "secondary_title": "Series 1: Episode 4",
+              "image_url": "https://img.freeviewplay.tv/p2ee63e5020966cc98ed6310a7ec65063",
+              "start_time": "2026-07-06T10:20:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-09-24T23:00:00+0000",
+                "end_of_availability": "2026-09-24T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=FKJE674N",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "uuid": "1076a9ffeba140e7c3f1e0f0d3bcbe5c"
+            }
+          },
+          {
+            "startTime": "2026-07-06T11:20:00+0000",
+            "duration": 60,
+            "name": "Top Gear",
+            "description": "Series 9: Episode 2",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/GFGB578E",
+              "event_locator": "dvb://233a..9702;3cf9",
+              "main_title": "Top Gear",
+              "secondary_title": "Series 9: Episode 2",
+              "image_url": "https://img.freeviewplay.tv/p4a6c4bcd5fe94410978ec075e75f0e0c",
+              "start_time": "2026-07-06T11:20:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-07-06T12:20:00+0000",
+                "end_of_availability": "2026-08-05T11:20:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=GFGB578E",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "uuid": "999e0a16c36cd6101633f247927f9b06"
+            }
+          },
+          {
+            "startTime": "2026-07-06T12:20:00+0000",
+            "duration": 60,
+            "name": "Top Gear",
+            "description": "Series 9: Episode 4",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/GFGB580S",
+              "event_locator": "dvb://233a..9702;3cfa",
+              "main_title": "Top Gear",
+              "secondary_title": "Series 9: Episode 4",
+              "image_url": "https://img.freeviewplay.tv/p9af8113a140d0cbf41adc415d3c5bafa",
+              "start_time": "2026-07-06T12:20:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-07-06T13:20:00+0000",
+                "end_of_availability": "2026-08-05T12:20:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=GFGB580S",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "uuid": "216eea9d9d4f9f90a50a7596b28de6e5"
+            }
+          },
+          {
+            "startTime": "2026-07-06T13:20:00+0000",
+            "duration": 40,
+            "name": "Mortimer & Whitehouse: Gone Fishing",
+            "description": "Series 5: Episode 1",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL912L",
+              "event_locator": "dvb://233a..9702;3cfb",
+              "main_title": "Mortimer & Whitehouse: Gone Fishing",
+              "secondary_title": "Series 5: Episode 1",
+              "image_url": "https://img.freeviewplay.tv/pf5b17a85433936c0ec79e3e8c75f2b34",
+              "start_time": "2026-07-06T13:20:00+0000",
+              "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2025-09-15T06:00:00+0000",
+                "end_of_availability": "2026-08-30T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL912L",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "uuid": "72de44c0a7833adcaef5c159beced1d9"
+            }
+          },
+          {
+            "startTime": "2026-07-06T14:00:00+0000",
+            "duration": 60,
+            "name": "The Americas with Simon Reeve",
+            "description": "Series 1: Episode 4",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/FKBH505N",
+              "event_locator": "dvb://233a..9702;3cfc",
+              "main_title": "The Americas with Simon Reeve",
+              "secondary_title": "Series 1: Episode 4",
+              "image_url": "https://img.freeviewplay.tv/pf17c37a4870bb07759ce0ba874cedab2",
+              "start_time": "2026-07-06T14:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-06-29T23:00:00+0000",
+                "end_of_availability": "2027-06-29T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=FKBH505N",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+              "uuid": "156e7e9f4b6ca89a63491610e1cd8728"
+            }
+          },
+          {
+            "startTime": "2026-07-06T15:00:00+0000",
+            "duration": 60,
+            "name": "Hairy Bikers' Bakeation",
+            "description": "",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://csi.digitaluk.co.uk/eb92761d-489e-4892-b8ea-1ab99f860e8f",
+              "event_locator": "dvb://233a..9702;400b",
+              "main_title": "Hairy Bikers' Bakeation",
+              "image_url": "https://img.freeviewplay.tv/e1d8f6400fb5b3b96dbfe6c71976418fa",
+              "start_time": "2026-07-06T15:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "137b85c58b65bbc8ff34913131680670"
+            }
+          },
+          {
+            "startTime": "2026-07-06T16:00:00+0000",
+            "duration": 60,
+            "name": "Rick Stein's Secret France",
+            "description": "Series 1: Episode 3",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/FKJE673T",
+              "event_locator": "dvb://233a..9702;3cfe",
+              "main_title": "Rick Stein's Secret France",
+              "secondary_title": "Series 1: Episode 3",
+              "image_url": "https://img.freeviewplay.tv/p61dc5cf9d0a69359608923bcbf55c3d1",
+              "start_time": "2026-07-06T16:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-09-24T23:00:00+0000",
+                "end_of_availability": "2026-09-24T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=FKJE673T",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "uuid": "b9957a9e7b0fb37063b8945e684e82fa"
+            }
+          },
+          {
+            "startTime": "2026-07-06T17:00:00+0000",
+            "duration": 60,
+            "name": "Rick Stein's Secret France",
+            "description": "Series 1: Episode 4",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/FKJE674N",
+              "event_locator": "dvb://233a..9702;3cff",
+              "main_title": "Rick Stein's Secret France",
+              "secondary_title": "Series 1: Episode 4",
+              "image_url": "https://img.freeviewplay.tv/p2ee63e5020966cc98ed6310a7ec65063",
+              "start_time": "2026-07-06T17:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-09-24T23:00:00+0000",
+                "end_of_availability": "2026-09-24T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=FKJE674N",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "uuid": "197f6e309246db1dec3b6cdf42bed6c7"
+            }
+          },
+          {
+            "startTime": "2026-07-06T18:00:00+0000",
+            "duration": 40,
+            "name": "Mortimer & Whitehouse: Gone Fishing",
+            "description": "Series 5: Episode 1",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCL912L",
+              "event_locator": "dvb://233a..9702;3d00",
+              "main_title": "Mortimer & Whitehouse: Gone Fishing",
+              "secondary_title": "Series 5: Episode 1",
+              "image_url": "https://img.freeviewplay.tv/pf5b17a85433936c0ec79e3e8c75f2b34",
+              "start_time": "2026-07-06T18:00:00+0000",
+              "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2025-09-15T06:00:00+0000",
+                "end_of_availability": "2026-08-30T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCL912L",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
+              "uuid": "6eb45cfa513cad15fe1d4c65fb287207"
+            }
+          },
+          {
+            "startTime": "2026-07-06T18:40:00+0000",
+            "duration": 40,
+            "name": "Would I Lie To You?",
+            "description": "Series 17: Episode 1",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCO120R",
+              "event_locator": "dvb://233a..9702;4698",
+              "main_title": "Would I Lie To You?",
+              "secondary_title": "Series 17: Episode 1",
+              "image_url": "https://img.freeviewplay.tv/p62ae39a5039b73542c1a73b49cf5d58e",
+              "start_time": "2026-07-06T18:40:00+0000",
+              "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2025-09-30T23:00:00+0000",
+                "end_of_availability": "2026-09-30T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCO120R",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "e4377eb00899b7e75c46d3f96f6abe0a"
+            }
+          },
+          {
+            "startTime": "2026-07-06T19:20:00+0000",
+            "duration": 40,
+            "name": "Would I Lie To You?",
+            "description": "Series 17: Episode 2",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCO121K",
+              "event_locator": "dvb://233a..9702;4699",
+              "main_title": "Would I Lie To You?",
+              "secondary_title": "Series 17: Episode 2",
+              "image_url": "https://img.freeviewplay.tv/pa62acae83cda28653c1cb5e2cc8e73d5",
+              "start_time": "2026-07-06T19:20:00+0000",
+              "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2025-09-30T23:00:00+0000",
+                "end_of_availability": "2026-09-30T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCO121K",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "c6963ff753a83a965bc2b2d87c18afd7"
+            }
+          },
+          {
+            "startTime": "2026-07-06T20:00:00+0000",
+            "duration": 60,
+            "name": "Have I Got A Bit More News For You?",
+            "description": "Series 64: Episode 3",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/ENIT861L",
+              "event_locator": "dvb://233a..9702;469a",
+              "main_title": "Have I Got A Bit More News For You?",
+              "secondary_title": "Series 64: Episode 3",
+              "image_url": "https://img.freeviewplay.tv/p307d4137542e0a75bbf722cbb398803f",
+              "start_time": "2026-07-06T20:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-08-31T23:00:00+0000",
+                "end_of_availability": "2026-08-31T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIT861L",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
+              "uuid": "362166a0024f42eb677a2bdf28a90695"
+            }
+          },
+          {
+            "startTime": "2026-07-06T21:00:00+0000",
+            "duration": 60,
+            "name": "QI XL",
+            "description": "Series 21: Episode 4",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/ENIU857P",
+              "event_locator": "dvb://233a..9702;469b",
+              "main_title": "QI XL",
+              "secondary_title": "Series 21: Episode 4",
+              "image_url": "https://img.freeviewplay.tv/p78b6346c00194cd2d0b983348eb10466",
+              "start_time": "2026-07-06T21:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-02-11T00:00:00+0000",
+                "end_of_availability": "2026-10-29T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENIU857P",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
+              "uuid": "fcbbe79ff1ce27de986c7ad5e541dda0"
+            }
+          },
+          {
+            "startTime": "2026-07-06T22:00:00+0000",
+            "duration": 60,
+            "name": "8 Out of 10 Cats",
+            "description": "Series 22: Episode 4",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCI891T",
+              "event_locator": "dvb://233a..9702;3ab3",
+              "main_title": "8 Out of 10 Cats",
+              "secondary_title": "Series 22: Episode 4",
+              "image_url": "https://img.freeviewplay.tv/p298907437d8965cb31377a93f91707b7",
+              "start_time": "2026-07-06T22:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2024-10-06T23:00:00+0000",
+                "end_of_availability": "2026-12-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCI891T",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
+              "uuid": "5ee5917403f848f3ca955f03cc240ca7"
+            }
+          },
+          {
+            "startTime": "2026-07-06T23:00:00+0000",
+            "duration": 35,
+            "name": "Mock the Week",
+            "description": "Series 12: Episode 5",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/ENII315A",
+              "event_locator": "dvb://233a..9702;3ab7",
+              "main_title": "Mock the Week",
+              "secondary_title": "Series 12: Episode 5",
+              "image_url": "https://img.freeviewplay.tv/p8c8599b862f437d94d2ce60f1f3ee640",
+              "start_time": "2026-07-06T23:00:00+0000",
+              "duration": "PT35M",
+              "on_demand": {
+                "start_of_availability": "2025-11-01T00:00:00+0000",
+                "end_of_availability": "2026-10-31T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=ENII315A",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3.1",
+              "uuid": "1083c32794948c17593a417ffeb20ac3"
+            }
+          },
+          {
+            "startTime": "2026-07-06T23:35:00+0000",
+            "duration": 40,
+            "name": "Would I Lie To You?",
+            "description": "Series 17: Episode 1",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://www.uktv.co.uk/ep/dave/CTCO120R",
+              "event_locator": "dvb://233a..9702;469c",
+              "main_title": "Would I Lie To You?",
+              "secondary_title": "Series 17: Episode 1",
+              "image_url": "https://img.freeviewplay.tv/p62ae39a5039b73542c1a73b49cf5d58e",
+              "start_time": "2026-07-06T23:35:00+0000",
+              "duration": "PT40M",
+              "on_demand": {
+                "start_of_availability": "2025-09-30T23:00:00+0000",
+                "end_of_availability": "2026-09-30T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://schedules.uktv.co.uk/tva_meta/contentait.xml?h_num=CTCO120R",
+                    "template_url": "http://tvameta.uktvapi.co.uk/tva_meta/templateait.xml"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "uuid": "b1a5f5f45485a621c901b1472b2b89d5"
             }
           }
         ]
