@@ -5,423 +5,533 @@
   },
   "events": [
     {
-      "startTime": "2026-07-09T05:00:00+0000",
-      "duration": 210,
-      "name": "Breakfast",
-      "description": "09/07/2026",
+      "startTime": "2026-07-10T00:05:00+0000",
+      "duration": 5,
+      "name": "Weather for the Week Ahead",
+      "description": "10/07/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yp0c",
-        "event_locator": "dvb://233a..910f;2eed",
-        "main_title": "Breakfast",
-        "secondary_title": "09/07/2026",
-        "image_url": "https://img.freeviewplay.tv/p5bcf33830a1dd95c20380aa139191fad",
-        "start_time": "2026-07-09T05:00:00+0000",
-        "duration": "PT3H30M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yp0x",
+        "event_locator": "dvb://233a..910f;2efd",
+        "main_title": "Weather for the Week Ahead",
+        "secondary_title": "10/07/2026",
+        "image_url": "https://img.freeviewplay.tv/p14b22e3214625d47e98289b45f05519c",
+        "start_time": "2026-07-10T00:05:00+0000",
+        "duration": "PT5M",
         "on_demand": {
-          "start_of_availability": "2026-07-09T08:30:00+0000",
-          "end_of_availability": "2026-07-10T08:30:00+0000",
+          "start_of_availability": "2026-07-10T00:12:03+0000",
+          "end_of_availability": "2026-07-17T00:41:23+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp0c&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp0x&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e68aab79eed56e5b297e8c24c37aea09c",
+        "uuid": "0a42715f5084d5f03a11f088e7b9fbac"
+      }
+    },
+    {
+      "startTime": "2026-07-10T00:10:00+0000",
+      "duration": 290,
+      "name": "Joins BBC News",
+      "description": "10/07/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yp0z",
+        "event_locator": "dvb://233a..910f;2efe",
+        "main_title": "Joins BBC News",
+        "secondary_title": "10/07/2026",
+        "image_url": "https://img.freeviewplay.tv/p58914b11f354f10172f05a629dbe8f07",
+        "start_time": "2026-07-10T00:10:00+0000",
+        "duration": "PT4H50M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e655fd055df1106870a1a8c8d7efc652e",
+        "uuid": "25461681888b9905198f09e6e04e1c0a"
+      }
+    },
+    {
+      "startTime": "2026-07-10T05:00:00+0000",
+      "duration": 210,
+      "name": "Breakfast",
+      "description": "10/07/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yp1x",
+        "event_locator": "dvb://233a..910f;2f10",
+        "main_title": "Breakfast",
+        "secondary_title": "10/07/2026",
+        "image_url": "https://img.freeviewplay.tv/p6b2c2959ebcbbddf27d00953403e4849",
+        "start_time": "2026-07-10T05:00:00+0000",
+        "duration": "PT3H30M",
+        "on_demand": {
+          "start_of_availability": "2026-07-10T08:29:00+0000",
+          "end_of_availability": "2026-07-11T08:29:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp1x&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e6b395ee3061b5f019edcfdc62efdb45a",
-        "uuid": "f6c2b1659639f65233773fc3cb81899a"
+        "uuid": "ef2806d45d74e4a991b862b75848524d"
       }
     },
     {
-      "startTime": "2026-07-09T08:30:00+0000",
+      "startTime": "2026-07-10T08:30:00+0000",
       "duration": 75,
       "name": "Morning Live",
-      "description": "Series 8: 09/07/2026",
+      "description": "Series 8: 10/07/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yp0f",
-        "event_locator": "dvb://233a..910f;2eee",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yp1z",
+        "event_locator": "dvb://233a..910f;2f11",
         "main_title": "Morning Live",
-        "secondary_title": "Series 8: 09/07/2026",
-        "image_url": "https://img.freeviewplay.tv/p6cea4c689cf49d481ddcbbc430578e98",
-        "start_time": "2026-07-09T08:30:00+0000",
+        "secondary_title": "Series 8: 10/07/2026",
+        "image_url": "https://img.freeviewplay.tv/p9b657076ed4107e54670fa20fcb4ecd8",
+        "start_time": "2026-07-10T08:30:00+0000",
         "duration": "PT1H15M",
         "on_demand": {
-          "start_of_availability": "2026-07-09T09:45:05+0000",
-          "end_of_availability": "2027-07-09T09:45:05+0000",
+          "start_of_availability": "2026-07-10T09:44:35+0000",
+          "end_of_availability": "2027-07-10T09:44:35+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp0f&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp1z&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/efa5f3d11c8a7037a734c9356b6f107e6",
-        "uuid": "3e1c165cb8fdd0904d349e402f13a709"
+        "uuid": "bbb0c29da23c39ec5ea5b5f334d313ad"
       }
     },
     {
-      "startTime": "2026-07-09T09:45:00+0000",
+      "startTime": "2026-07-10T09:45:00+0000",
       "duration": 30,
       "name": "Expert Witness",
-      "description": "Series 5: 4. The Killer Next Door",
+      "description": "Series 5: 5. Cold Case Convictions",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002xxfl",
-        "event_locator": "dvb://233a..910f;2eef",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002xxfp",
+        "event_locator": "dvb://233a..910f;2f12",
         "main_title": "Expert Witness",
-        "secondary_title": "Series 5: 4. The Killer Next Door",
-        "image_url": "https://img.freeviewplay.tv/p56c8f569c924645eb147235491234ed0",
-        "start_time": "2026-07-09T09:45:00+0000",
+        "secondary_title": "Series 5: 5. Cold Case Convictions",
+        "image_url": "https://img.freeviewplay.tv/pbca9138890b342bc65ca03757169acea",
+        "start_time": "2026-07-10T09:45:00+0000",
         "duration": "PT30M",
         "on_demand": {
           "start_of_availability": "2026-07-06T05:00:00+0000",
           "end_of_availability": "2027-07-06T05:00:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002xxfl&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002xxfp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e666abf7ced4c80ab28c097cbb7a4009a",
-        "uuid": "3b60067b6116ec0dd61336bc8671041f"
+        "uuid": "b7e9cdc55d3c974ee6aa7166ee837a19"
       }
     },
     {
-      "startTime": "2026-07-09T10:15:00+0000",
+      "startTime": "2026-07-10T10:15:00+0000",
       "duration": 60,
       "name": "Homes Under the Hammer",
-      "description": "Series 29: Recreate the Space",
+      "description": "Series 28: When Two Become One!",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yq4z",
-        "event_locator": "dvb://233a..910f;2ef0",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002fy2f",
+        "event_locator": "dvb://233a..910f;2f13",
         "main_title": "Homes Under the Hammer",
-        "secondary_title": "Series 29: Recreate the Space",
-        "image_url": "https://img.freeviewplay.tv/p7d3091b1ea5f480d359c282775814d92",
-        "start_time": "2026-07-09T10:15:00+0000",
+        "secondary_title": "Series 28: When Two Become One!",
+        "image_url": "https://img.freeviewplay.tv/pf18af28bb08671cb17a283a0e07ead1b",
+        "start_time": "2026-07-10T10:15:00+0000",
         "duration": "PT1H",
         "on_demand": {
-          "start_of_availability": "2026-07-09T11:15:09+0000",
-          "end_of_availability": "2027-08-20T10:58:55+0000",
+          "start_of_availability": "2025-07-17T11:14:46+0000",
+          "end_of_availability": "2026-08-09T11:14:56+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yq4z&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002fy2f&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/ef28acd543b9a925ecaa1ad96b6985de3",
-        "uuid": "2d727536fd022772c649f2a7472ae441"
+        "uuid": "620d0c0cb2d339f143ad714051bd5479"
       }
     },
     {
-      "startTime": "2026-07-09T11:15:00+0000",
+      "startTime": "2026-07-10T11:15:00+0000",
       "duration": 45,
       "name": "Bargain Hunt",
-      "description": "Series  61: Southwell 15",
+      "description": "Series 74: Detling 8",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0017167",
-        "event_locator": "dvb://233a..910f;2ef1",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002ypr3",
+        "event_locator": "dvb://233a..910f;2f14",
         "main_title": "Bargain Hunt",
-        "secondary_title": "Series  61: Southwell 15",
-        "image_url": "https://img.freeviewplay.tv/pf8a57db028fa2d4e0ce4c090a8279518",
-        "start_time": "2026-07-09T11:15:00+0000",
+        "secondary_title": "Series 74: Detling 8",
+        "image_url": "https://img.freeviewplay.tv/p6ff8e2021a48c42499ca97460d2deab6",
+        "start_time": "2026-07-10T11:15:00+0000",
         "duration": "PT45M",
         "on_demand": {
-          "start_of_availability": "2026-07-09T12:00:02+0000",
-          "end_of_availability": "2026-08-08T12:00:02+0000",
+          "start_of_availability": "2026-07-10T12:00:02+0000",
+          "end_of_availability": "2027-08-31T11:58:57+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0017167&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002ypr3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e09ff66c12382a731813c9b741e03da7c",
-        "uuid": "336e7bb1a8b801041d65f219d8ee2bc9"
+        "uuid": "d56e315309e28ee5076c2062b0b7efd2"
       }
     },
     {
-      "startTime": "2026-07-09T12:00:00+0000",
+      "startTime": "2026-07-10T12:00:00+0000",
       "duration": 60,
       "name": "BBC News at One",
-      "description": "09/07/2026",
+      "description": "10/07/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yp0h",
-        "event_locator": "dvb://233a..910f;2ef2",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yp21",
+        "event_locator": "dvb://233a..910f;2f15",
         "main_title": "BBC News at One",
-        "secondary_title": "09/07/2026",
-        "image_url": "https://img.freeviewplay.tv/p89ceb4a22c556024dd4cfb985ae8e0de",
-        "start_time": "2026-07-09T12:00:00+0000",
+        "secondary_title": "10/07/2026",
+        "image_url": "https://img.freeviewplay.tv/p0d8c3a89b102c7fbca86e8e25646be3c",
+        "start_time": "2026-07-10T12:00:00+0000",
         "duration": "PT1H",
         "on_demand": {
-          "start_of_availability": "2026-07-09T13:00:00+0000",
-          "end_of_availability": "2026-07-10T12:00:00+0000",
+          "start_of_availability": "2026-07-10T13:00:00+0000",
+          "end_of_availability": "2026-07-11T12:00:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp0h&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp21&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e1b8137891200f9d7fa2aad6333431b7e",
-        "uuid": "15553d03784328216606efa6eb922fcf"
+        "uuid": "0e89b81e96c7d9c4b76285a88ae852b7"
       }
     },
     {
-      "startTime": "2026-07-09T13:00:00+0000",
+      "startTime": "2026-07-10T13:00:00+0000",
       "duration": 240,
       "name": "Wimbledon",
-      "description": "2026: BBC One: Day 11, Afternoon",
+      "description": "2026: BBC One: Day 12, Afternoon",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002ypr1",
-        "event_locator": "dvb://233a..910f;2ef5",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002ypr5",
+        "event_locator": "dvb://233a..910f;2f18",
         "main_title": "Wimbledon",
-        "secondary_title": "2026: BBC One: Day 11, Afternoon",
-        "image_url": "https://img.freeviewplay.tv/p9baf906c56e12099b043831badd12180",
-        "start_time": "2026-07-09T13:00:00+0000",
+        "secondary_title": "2026: BBC One: Day 12, Afternoon",
+        "image_url": "https://img.freeviewplay.tv/pdc476d2577703105487235d4278da0dc",
+        "start_time": "2026-07-10T13:00:00+0000",
         "duration": "PT4H",
         "on_demand": {
-          "start_of_availability": "2026-07-09T17:00:02+0000",
-          "end_of_availability": "2026-08-08T17:00:02+0000",
+          "start_of_availability": "2026-07-10T17:00:00+0000",
+          "end_of_availability": "2026-08-09T17:00:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002ypr1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002ypr5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
         "fallback_image_url": "http://img.freeviewplay.net/ee08ecf0285557b22417f08fa5a6b6a3c",
-        "uuid": "6b7f8698ec04764a8a6dbcc8751afd11"
+        "uuid": "ba7a5b511bb87f594290ff4b1639ddf6"
       }
     },
     {
-      "startTime": "2026-07-09T17:00:00+0000",
+      "startTime": "2026-07-10T17:00:00+0000",
       "duration": 30,
       "name": "BBC News at Six",
-      "description": "09/07/2026",
+      "description": "10/07/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yp0n",
-        "event_locator": "dvb://233a..910f;2ef6",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yp26",
+        "event_locator": "dvb://233a..910f;2f19",
         "main_title": "BBC News at Six",
-        "secondary_title": "09/07/2026",
-        "image_url": "https://img.freeviewplay.tv/p1d1e21a398848cc1041e630f4d415bca",
-        "start_time": "2026-07-09T17:00:00+0000",
+        "secondary_title": "10/07/2026",
+        "image_url": "https://img.freeviewplay.tv/pc4ecb3695fd5d6a1513697b6fa9a6690",
+        "start_time": "2026-07-10T17:00:00+0000",
         "duration": "PT30M",
         "on_demand": {
-          "start_of_availability": "2026-07-09T17:31:30+0000",
-          "end_of_availability": "2026-07-10T17:31:30+0000",
+          "start_of_availability": "2026-07-10T17:31:30+0000",
+          "end_of_availability": "2026-07-11T17:31:30+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp0n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp26&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e655fd055df1106870a1a8c8d7efc652e",
-        "uuid": "fce87134b95dd3b0a4a1c52e22af1110"
+        "uuid": "82698cb632046663a9ce4497d2405687"
       }
     },
     {
-      "startTime": "2026-07-09T17:30:00+0000",
+      "startTime": "2026-07-10T17:30:00+0000",
       "duration": 30,
       "name": "Look North (East Yorkshire and Lincolnshire)",
-      "description": "Evening News: 09/07/2026",
+      "description": "Evening News: 10/07/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yr5w",
-        "event_locator": "dvb://233a..910f;2ef7",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yqvf",
+        "event_locator": "dvb://233a..910f;2f1a",
         "main_title": "Look North (East Yorkshire and Lincolnshire)",
-        "secondary_title": "Evening News: 09/07/2026",
-        "image_url": "https://img.freeviewplay.tv/pa44999ceab53ebb17a027c37c0a6487c",
-        "start_time": "2026-07-09T17:30:00+0000",
+        "secondary_title": "Evening News: 10/07/2026",
+        "image_url": "https://img.freeviewplay.tv/p6067d384d5b753c3f2964c4d0b8e3c3a",
+        "start_time": "2026-07-10T17:30:00+0000",
         "duration": "PT30M",
         "on_demand": {
-          "start_of_availability": "2026-07-09T17:59:15+0000",
-          "end_of_availability": "2026-07-10T17:59:15+0000",
+          "start_of_availability": "2026-07-10T17:59:15+0000",
+          "end_of_availability": "2026-07-11T17:59:15+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yr5w&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yqvf&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e9e39ab6c02dc49aa34100bce53a84a28",
-        "uuid": "5edf835dc200dcc1101eb94fec459a32"
+        "uuid": "d827603a3b0273cfe670c8edae921a0c"
       }
     },
     {
-      "startTime": "2026-07-09T18:00:00+0000",
-      "duration": 120,
-      "name": "Wimbledon",
-      "description": "2026: BBC One: Day 11, Evening",
+      "startTime": "2026-07-10T18:00:00+0000",
+      "duration": 30,
+      "name": "Our Lives",
+      "description": "Series 10: Ashington AFC: Saving Our Club",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yq51",
-        "event_locator": "dvb://233a..910f;2ef8",
-        "main_title": "Wimbledon",
-        "secondary_title": "2026: BBC One: Day 11, Evening",
-        "image_url": "https://img.freeviewplay.tv/pb0029210be4c64ebc1303cc8c705a68f",
-        "start_time": "2026-07-09T18:00:00+0000",
-        "duration": "PT2H",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002ypk3",
+        "event_locator": "dvb://233a..910f;2f1b",
+        "main_title": "Our Lives",
+        "secondary_title": "Series 10: Ashington AFC: Saving Our Club",
+        "image_url": "https://img.freeviewplay.tv/p67ed112eb3f0e9a142761709e783c715",
+        "start_time": "2026-07-10T18:00:00+0000",
+        "duration": "PT30M",
         "on_demand": {
-          "start_of_availability": "2026-07-09T20:00:56+0000",
-          "end_of_availability": "2026-08-08T20:00:56+0000",
+          "start_of_availability": "2026-07-10T05:00:00+0000",
+          "end_of_availability": "2027-07-10T05:00:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yq51&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-        "fallback_image_url": "http://img.freeviewplay.net/ee08ecf0285557b22417f08fa5a6b6a3c",
-        "uuid": "27f8a5671534bc03d022e44d24bcf3e3"
-      }
-    },
-    {
-      "startTime": "2026-07-09T20:00:00+0000",
-      "duration": 60,
-      "name": "Who Do You Think You Are?",
-      "description": "Series 23: Ruth Madeley",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yq53",
-        "event_locator": "dvb://233a..910f;2ef9",
-        "main_title": "Who Do You Think You Are?",
-        "secondary_title": "Series 23: Ruth Madeley",
-        "image_url": "https://img.freeviewplay.tv/peaa25c36073b8ef09a8cd729fa06e539",
-        "start_time": "2026-07-09T20:00:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2026-07-09T21:00:04+0000",
-          "end_of_availability": "2027-08-06T20:58:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yq53&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002ypk3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e30e1acd27388a1b4af92e442378d11ec",
-        "uuid": "762729950baa37cd440a9fd8a24a11cf"
+        "fallback_image_url": "http://img.freeviewplay.net/ec3f44bc22fd98b16a8531ff074885416",
+        "uuid": "ccf5d943b384d694e12d64025cd456fd"
       }
     },
     {
-      "startTime": "2026-07-09T21:00:00+0000",
-      "duration": 30,
-      "name": "BBC News at Ten",
-      "description": "09/07/2026",
+      "startTime": "2026-07-10T18:30:00+0000",
+      "duration": 180,
+      "name": "FIFA World Cup 2026",
+      "description": "Quarter-Finals: Spain v Belgium",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yp0s",
-        "event_locator": "dvb://233a..910f;2efa",
-        "main_title": "BBC News at Ten",
-        "secondary_title": "09/07/2026",
-        "image_url": "https://img.freeviewplay.tv/pc2f1041af6623ada3f0e26cedadeccc9",
-        "start_time": "2026-07-09T21:00:00+0000",
-        "duration": "PT30M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002z97j",
+        "event_locator": "dvb://233a..910f;2fe9",
+        "main_title": "FIFA World Cup 2026",
+        "secondary_title": "Quarter-Finals: Spain v Belgium",
+        "image_url": "https://img.freeviewplay.tv/pea685389c3d59a1610017a0407fb02c4",
+        "start_time": "2026-07-10T18:30:00+0000",
+        "duration": "PT3H",
         "on_demand": {
-          "start_of_availability": "2026-07-09T21:31:30+0000",
-          "end_of_availability": "2026-07-10T21:31:30+0000",
+          "start_of_availability": "2026-07-10T18:30:00+0000",
+          "end_of_availability": "2026-08-09T21:30:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp0s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002z97j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
+        "fallback_image_url": "http://img.freeviewplay.net/ea5c1290c97bb8d5f00f2534632126110",
+        "uuid": "2640d2231ddf9e503c763651eae860f7"
+      }
+    },
+    {
+      "startTime": "2026-07-10T21:30:00+0000",
+      "duration": 30,
+      "name": "BBC News at Ten",
+      "description": "10/07/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yp2b",
+        "event_locator": "dvb://233a..910f;2f1f",
+        "main_title": "BBC News at Ten",
+        "secondary_title": "10/07/2026",
+        "image_url": "https://img.freeviewplay.tv/p7ef98f69f62722d946871793ba2d7c5e",
+        "start_time": "2026-07-10T21:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-07-10T22:01:30+0000",
+          "end_of_availability": "2026-07-11T22:01:30+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp2b&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e174d6da2b189cc61756b10da7bcb2551",
-        "uuid": "1bb8a39e0c4122e91228c18c8abbb899"
+        "uuid": "e69dad9d8de889f977debe438205439c"
       }
     },
     {
-      "startTime": "2026-07-09T21:30:00+0000",
+      "startTime": "2026-07-10T22:00:00+0000",
       "duration": 10,
       "name": "Look North (East Yorkshire and Lincolnshire)",
-      "description": "Late News: 09/07/2026",
+      "description": "Late News: 10/07/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yr5y",
-        "event_locator": "dvb://233a..910f;2efb",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yqvh",
+        "event_locator": "dvb://233a..910f;2f20",
         "main_title": "Look North (East Yorkshire and Lincolnshire)",
-        "secondary_title": "Late News: 09/07/2026",
-        "image_url": "https://img.freeviewplay.tv/pae43b9c361c8b397e8c1b69b4c1f4154",
-        "start_time": "2026-07-09T21:30:00+0000",
+        "secondary_title": "Late News: 10/07/2026",
+        "image_url": "https://img.freeviewplay.tv/p2dc2c21d69bc07ac755604b05e7c8845",
+        "start_time": "2026-07-10T22:00:00+0000",
         "duration": "PT10M",
         "on_demand": {
-          "start_of_availability": "2026-07-09T21:38:30+0000",
-          "end_of_availability": "2026-07-10T21:38:30+0000",
+          "start_of_availability": "2026-07-10T22:08:30+0000",
+          "end_of_availability": "2026-07-11T22:08:30+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yr5y&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yqvh&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e9e39ab6c02dc49aa34100bce53a84a28",
-        "uuid": "af751f5a7c97fc92f363b7f5195630ae"
+        "uuid": "2f12f770ef535b24d0f8ba1477e8f8c0"
       }
     },
     {
-      "startTime": "2026-07-09T21:40:00+0000",
-      "duration": 145,
-      "name": "Elvis",
-      "description": "Elvis",
+      "startTime": "2026-07-10T22:10:00+0000",
+      "duration": 25,
+      "name": "Austin",
+      "description": "Series 2: 1. We'll Always Have Northampton",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002nzws",
-        "event_locator": "dvb://233a..910f;2efc",
-        "main_title": "Elvis",
-        "secondary_title": "Elvis",
-        "image_url": "https://img.freeviewplay.tv/pe476c4059c067d53a4c574db2fb88ff1",
-        "start_time": "2026-07-09T21:40:00+0000",
-        "duration": "PT2H25M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002xsgq",
+        "event_locator": "dvb://233a..910f;2f21",
+        "main_title": "Austin",
+        "secondary_title": "Series 2: 1. We'll Always Have Northampton",
+        "image_url": "https://img.freeviewplay.tv/p001b32438c819c822e9ce6ab0d4e53e6",
+        "start_time": "2026-07-10T22:10:00+0000",
+        "duration": "PT25M",
         "on_demand": {
-          "start_of_availability": "2026-07-10T00:07:20+0000",
-          "end_of_availability": "2026-08-09T00:07:20+0000",
+          "start_of_availability": "2026-07-10T05:00:00+0000",
+          "end_of_availability": "2029-11-01T23:59:59+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002nzws&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002xsgq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/ed70a9adacff2ec67d5eb65caf44bc8a5",
+        "uuid": "61394123018637f10b3b8af689fc29e6"
+      }
+    },
+    {
+      "startTime": "2026-07-10T22:35:00+0000",
+      "duration": 30,
+      "name": "Austin",
+      "description": "Series 2: 2. The Origin Odyssey",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002xsh8",
+        "event_locator": "dvb://233a..910f;2f22",
+        "main_title": "Austin",
+        "secondary_title": "Series 2: 2. The Origin Odyssey",
+        "image_url": "https://img.freeviewplay.tv/p1329c82d668c4b472cf78378dee57b5f",
+        "start_time": "2026-07-10T22:35:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-07-10T05:00:00+0000",
+          "end_of_availability": "2029-11-01T23:59:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002xsh8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/ed70a9adacff2ec67d5eb65caf44bc8a5",
+        "uuid": "d16c3a01b845bba53bc1cfdf1144681a"
+      }
+    },
+    {
+      "startTime": "2026-07-10T23:05:00+0000",
+      "duration": 95,
+      "name": "Harry Brown",
+      "description": "Harry Brown",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002tjrx",
+        "event_locator": "dvb://233a..910f;2f23",
+        "main_title": "Harry Brown",
+        "secondary_title": "Harry Brown",
+        "image_url": "https://img.freeviewplay.tv/pb983948fb77bf6ca524298476dc5d587",
+        "start_time": "2026-07-10T23:05:00+0000",
+        "duration": "PT1H35M",
+        "on_demand": {
+          "start_of_availability": "2026-03-31T05:00:00+0000",
+          "end_of_availability": "2027-03-31T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002tjrx&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-        "fallback_image_url": "http://img.freeviewplay.net/ed22a9359d8f0a1b04b1b03e6fb0792e4",
-        "uuid": "83d9c025a2e296afe5ef06fb7b267e41"
+        "fallback_image_url": "http://img.freeviewplay.net/ea93c909adc2f9674315ded0e2bad658f",
+        "uuid": "4e079569c56ebf60fc923e7c2778f711"
       }
     }
   ],
@@ -430,423 +540,533 @@
       {
         "event": [
           {
-            "startTime": "2026-07-09T05:00:00+0000",
-            "duration": 210,
-            "name": "Breakfast",
-            "description": "09/07/2026",
+            "startTime": "2026-07-10T00:05:00+0000",
+            "duration": 5,
+            "name": "Weather for the Week Ahead",
+            "description": "10/07/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yp0c",
-              "event_locator": "dvb://233a..910f;2eed",
-              "main_title": "Breakfast",
-              "secondary_title": "09/07/2026",
-              "image_url": "https://img.freeviewplay.tv/p5bcf33830a1dd95c20380aa139191fad",
-              "start_time": "2026-07-09T05:00:00+0000",
-              "duration": "PT3H30M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yp0x",
+              "event_locator": "dvb://233a..910f;2efd",
+              "main_title": "Weather for the Week Ahead",
+              "secondary_title": "10/07/2026",
+              "image_url": "https://img.freeviewplay.tv/p14b22e3214625d47e98289b45f05519c",
+              "start_time": "2026-07-10T00:05:00+0000",
+              "duration": "PT5M",
               "on_demand": {
-                "start_of_availability": "2026-07-09T08:30:00+0000",
-                "end_of_availability": "2026-07-10T08:30:00+0000",
+                "start_of_availability": "2026-07-10T00:12:03+0000",
+                "end_of_availability": "2026-07-17T00:41:23+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp0c&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp0x&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e68aab79eed56e5b297e8c24c37aea09c",
+              "uuid": "0a42715f5084d5f03a11f088e7b9fbac"
+            }
+          },
+          {
+            "startTime": "2026-07-10T00:10:00+0000",
+            "duration": 290,
+            "name": "Joins BBC News",
+            "description": "10/07/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yp0z",
+              "event_locator": "dvb://233a..910f;2efe",
+              "main_title": "Joins BBC News",
+              "secondary_title": "10/07/2026",
+              "image_url": "https://img.freeviewplay.tv/p58914b11f354f10172f05a629dbe8f07",
+              "start_time": "2026-07-10T00:10:00+0000",
+              "duration": "PT4H50M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e655fd055df1106870a1a8c8d7efc652e",
+              "uuid": "25461681888b9905198f09e6e04e1c0a"
+            }
+          },
+          {
+            "startTime": "2026-07-10T05:00:00+0000",
+            "duration": 210,
+            "name": "Breakfast",
+            "description": "10/07/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yp1x",
+              "event_locator": "dvb://233a..910f;2f10",
+              "main_title": "Breakfast",
+              "secondary_title": "10/07/2026",
+              "image_url": "https://img.freeviewplay.tv/p6b2c2959ebcbbddf27d00953403e4849",
+              "start_time": "2026-07-10T05:00:00+0000",
+              "duration": "PT3H30M",
+              "on_demand": {
+                "start_of_availability": "2026-07-10T08:29:00+0000",
+                "end_of_availability": "2026-07-11T08:29:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp1x&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e6b395ee3061b5f019edcfdc62efdb45a",
-              "uuid": "f6c2b1659639f65233773fc3cb81899a"
+              "uuid": "ef2806d45d74e4a991b862b75848524d"
             }
           },
           {
-            "startTime": "2026-07-09T08:30:00+0000",
+            "startTime": "2026-07-10T08:30:00+0000",
             "duration": 75,
             "name": "Morning Live",
-            "description": "Series 8: 09/07/2026",
+            "description": "Series 8: 10/07/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yp0f",
-              "event_locator": "dvb://233a..910f;2eee",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yp1z",
+              "event_locator": "dvb://233a..910f;2f11",
               "main_title": "Morning Live",
-              "secondary_title": "Series 8: 09/07/2026",
-              "image_url": "https://img.freeviewplay.tv/p6cea4c689cf49d481ddcbbc430578e98",
-              "start_time": "2026-07-09T08:30:00+0000",
+              "secondary_title": "Series 8: 10/07/2026",
+              "image_url": "https://img.freeviewplay.tv/p9b657076ed4107e54670fa20fcb4ecd8",
+              "start_time": "2026-07-10T08:30:00+0000",
               "duration": "PT1H15M",
               "on_demand": {
-                "start_of_availability": "2026-07-09T09:45:05+0000",
-                "end_of_availability": "2027-07-09T09:45:05+0000",
+                "start_of_availability": "2026-07-10T09:44:35+0000",
+                "end_of_availability": "2027-07-10T09:44:35+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp0f&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp1z&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/efa5f3d11c8a7037a734c9356b6f107e6",
-              "uuid": "3e1c165cb8fdd0904d349e402f13a709"
+              "uuid": "bbb0c29da23c39ec5ea5b5f334d313ad"
             }
           },
           {
-            "startTime": "2026-07-09T09:45:00+0000",
+            "startTime": "2026-07-10T09:45:00+0000",
             "duration": 30,
             "name": "Expert Witness",
-            "description": "Series 5: 4. The Killer Next Door",
+            "description": "Series 5: 5. Cold Case Convictions",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002xxfl",
-              "event_locator": "dvb://233a..910f;2eef",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002xxfp",
+              "event_locator": "dvb://233a..910f;2f12",
               "main_title": "Expert Witness",
-              "secondary_title": "Series 5: 4. The Killer Next Door",
-              "image_url": "https://img.freeviewplay.tv/p56c8f569c924645eb147235491234ed0",
-              "start_time": "2026-07-09T09:45:00+0000",
+              "secondary_title": "Series 5: 5. Cold Case Convictions",
+              "image_url": "https://img.freeviewplay.tv/pbca9138890b342bc65ca03757169acea",
+              "start_time": "2026-07-10T09:45:00+0000",
               "duration": "PT30M",
               "on_demand": {
                 "start_of_availability": "2026-07-06T05:00:00+0000",
                 "end_of_availability": "2027-07-06T05:00:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002xxfl&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002xxfp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e666abf7ced4c80ab28c097cbb7a4009a",
-              "uuid": "3b60067b6116ec0dd61336bc8671041f"
+              "uuid": "b7e9cdc55d3c974ee6aa7166ee837a19"
             }
           },
           {
-            "startTime": "2026-07-09T10:15:00+0000",
+            "startTime": "2026-07-10T10:15:00+0000",
             "duration": 60,
             "name": "Homes Under the Hammer",
-            "description": "Series 29: Recreate the Space",
+            "description": "Series 28: When Two Become One!",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yq4z",
-              "event_locator": "dvb://233a..910f;2ef0",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002fy2f",
+              "event_locator": "dvb://233a..910f;2f13",
               "main_title": "Homes Under the Hammer",
-              "secondary_title": "Series 29: Recreate the Space",
-              "image_url": "https://img.freeviewplay.tv/p7d3091b1ea5f480d359c282775814d92",
-              "start_time": "2026-07-09T10:15:00+0000",
+              "secondary_title": "Series 28: When Two Become One!",
+              "image_url": "https://img.freeviewplay.tv/pf18af28bb08671cb17a283a0e07ead1b",
+              "start_time": "2026-07-10T10:15:00+0000",
               "duration": "PT1H",
               "on_demand": {
-                "start_of_availability": "2026-07-09T11:15:09+0000",
-                "end_of_availability": "2027-08-20T10:58:55+0000",
+                "start_of_availability": "2025-07-17T11:14:46+0000",
+                "end_of_availability": "2026-08-09T11:14:56+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yq4z&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002fy2f&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/ef28acd543b9a925ecaa1ad96b6985de3",
-              "uuid": "2d727536fd022772c649f2a7472ae441"
+              "uuid": "620d0c0cb2d339f143ad714051bd5479"
             }
           },
           {
-            "startTime": "2026-07-09T11:15:00+0000",
+            "startTime": "2026-07-10T11:15:00+0000",
             "duration": 45,
             "name": "Bargain Hunt",
-            "description": "Series  61: Southwell 15",
+            "description": "Series 74: Detling 8",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0017167",
-              "event_locator": "dvb://233a..910f;2ef1",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002ypr3",
+              "event_locator": "dvb://233a..910f;2f14",
               "main_title": "Bargain Hunt",
-              "secondary_title": "Series  61: Southwell 15",
-              "image_url": "https://img.freeviewplay.tv/pf8a57db028fa2d4e0ce4c090a8279518",
-              "start_time": "2026-07-09T11:15:00+0000",
+              "secondary_title": "Series 74: Detling 8",
+              "image_url": "https://img.freeviewplay.tv/p6ff8e2021a48c42499ca97460d2deab6",
+              "start_time": "2026-07-10T11:15:00+0000",
               "duration": "PT45M",
               "on_demand": {
-                "start_of_availability": "2026-07-09T12:00:02+0000",
-                "end_of_availability": "2026-08-08T12:00:02+0000",
+                "start_of_availability": "2026-07-10T12:00:02+0000",
+                "end_of_availability": "2027-08-31T11:58:57+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0017167&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002ypr3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e09ff66c12382a731813c9b741e03da7c",
-              "uuid": "336e7bb1a8b801041d65f219d8ee2bc9"
+              "uuid": "d56e315309e28ee5076c2062b0b7efd2"
             }
           },
           {
-            "startTime": "2026-07-09T12:00:00+0000",
+            "startTime": "2026-07-10T12:00:00+0000",
             "duration": 60,
             "name": "BBC News at One",
-            "description": "09/07/2026",
+            "description": "10/07/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yp0h",
-              "event_locator": "dvb://233a..910f;2ef2",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yp21",
+              "event_locator": "dvb://233a..910f;2f15",
               "main_title": "BBC News at One",
-              "secondary_title": "09/07/2026",
-              "image_url": "https://img.freeviewplay.tv/p89ceb4a22c556024dd4cfb985ae8e0de",
-              "start_time": "2026-07-09T12:00:00+0000",
+              "secondary_title": "10/07/2026",
+              "image_url": "https://img.freeviewplay.tv/p0d8c3a89b102c7fbca86e8e25646be3c",
+              "start_time": "2026-07-10T12:00:00+0000",
               "duration": "PT1H",
               "on_demand": {
-                "start_of_availability": "2026-07-09T13:00:00+0000",
-                "end_of_availability": "2026-07-10T12:00:00+0000",
+                "start_of_availability": "2026-07-10T13:00:00+0000",
+                "end_of_availability": "2026-07-11T12:00:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp0h&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp21&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e1b8137891200f9d7fa2aad6333431b7e",
-              "uuid": "15553d03784328216606efa6eb922fcf"
+              "uuid": "0e89b81e96c7d9c4b76285a88ae852b7"
             }
           },
           {
-            "startTime": "2026-07-09T13:00:00+0000",
+            "startTime": "2026-07-10T13:00:00+0000",
             "duration": 240,
             "name": "Wimbledon",
-            "description": "2026: BBC One: Day 11, Afternoon",
+            "description": "2026: BBC One: Day 12, Afternoon",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002ypr1",
-              "event_locator": "dvb://233a..910f;2ef5",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002ypr5",
+              "event_locator": "dvb://233a..910f;2f18",
               "main_title": "Wimbledon",
-              "secondary_title": "2026: BBC One: Day 11, Afternoon",
-              "image_url": "https://img.freeviewplay.tv/p9baf906c56e12099b043831badd12180",
-              "start_time": "2026-07-09T13:00:00+0000",
+              "secondary_title": "2026: BBC One: Day 12, Afternoon",
+              "image_url": "https://img.freeviewplay.tv/pdc476d2577703105487235d4278da0dc",
+              "start_time": "2026-07-10T13:00:00+0000",
               "duration": "PT4H",
               "on_demand": {
-                "start_of_availability": "2026-07-09T17:00:02+0000",
-                "end_of_availability": "2026-08-08T17:00:02+0000",
+                "start_of_availability": "2026-07-10T17:00:00+0000",
+                "end_of_availability": "2026-08-09T17:00:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002ypr1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002ypr5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
               "fallback_image_url": "http://img.freeviewplay.net/ee08ecf0285557b22417f08fa5a6b6a3c",
-              "uuid": "6b7f8698ec04764a8a6dbcc8751afd11"
+              "uuid": "ba7a5b511bb87f594290ff4b1639ddf6"
             }
           },
           {
-            "startTime": "2026-07-09T17:00:00+0000",
+            "startTime": "2026-07-10T17:00:00+0000",
             "duration": 30,
             "name": "BBC News at Six",
-            "description": "09/07/2026",
+            "description": "10/07/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yp0n",
-              "event_locator": "dvb://233a..910f;2ef6",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yp26",
+              "event_locator": "dvb://233a..910f;2f19",
               "main_title": "BBC News at Six",
-              "secondary_title": "09/07/2026",
-              "image_url": "https://img.freeviewplay.tv/p1d1e21a398848cc1041e630f4d415bca",
-              "start_time": "2026-07-09T17:00:00+0000",
+              "secondary_title": "10/07/2026",
+              "image_url": "https://img.freeviewplay.tv/pc4ecb3695fd5d6a1513697b6fa9a6690",
+              "start_time": "2026-07-10T17:00:00+0000",
               "duration": "PT30M",
               "on_demand": {
-                "start_of_availability": "2026-07-09T17:31:30+0000",
-                "end_of_availability": "2026-07-10T17:31:30+0000",
+                "start_of_availability": "2026-07-10T17:31:30+0000",
+                "end_of_availability": "2026-07-11T17:31:30+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp0n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp26&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e655fd055df1106870a1a8c8d7efc652e",
-              "uuid": "fce87134b95dd3b0a4a1c52e22af1110"
+              "uuid": "82698cb632046663a9ce4497d2405687"
             }
           },
           {
-            "startTime": "2026-07-09T17:30:00+0000",
+            "startTime": "2026-07-10T17:30:00+0000",
             "duration": 30,
             "name": "Look North (East Yorkshire and Lincolnshire)",
-            "description": "Evening News: 09/07/2026",
+            "description": "Evening News: 10/07/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yr5w",
-              "event_locator": "dvb://233a..910f;2ef7",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yqvf",
+              "event_locator": "dvb://233a..910f;2f1a",
               "main_title": "Look North (East Yorkshire and Lincolnshire)",
-              "secondary_title": "Evening News: 09/07/2026",
-              "image_url": "https://img.freeviewplay.tv/pa44999ceab53ebb17a027c37c0a6487c",
-              "start_time": "2026-07-09T17:30:00+0000",
+              "secondary_title": "Evening News: 10/07/2026",
+              "image_url": "https://img.freeviewplay.tv/p6067d384d5b753c3f2964c4d0b8e3c3a",
+              "start_time": "2026-07-10T17:30:00+0000",
               "duration": "PT30M",
               "on_demand": {
-                "start_of_availability": "2026-07-09T17:59:15+0000",
-                "end_of_availability": "2026-07-10T17:59:15+0000",
+                "start_of_availability": "2026-07-10T17:59:15+0000",
+                "end_of_availability": "2026-07-11T17:59:15+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yr5w&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yqvf&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e9e39ab6c02dc49aa34100bce53a84a28",
-              "uuid": "5edf835dc200dcc1101eb94fec459a32"
+              "uuid": "d827603a3b0273cfe670c8edae921a0c"
             }
           },
           {
-            "startTime": "2026-07-09T18:00:00+0000",
-            "duration": 120,
-            "name": "Wimbledon",
-            "description": "2026: BBC One: Day 11, Evening",
+            "startTime": "2026-07-10T18:00:00+0000",
+            "duration": 30,
+            "name": "Our Lives",
+            "description": "Series 10: Ashington AFC: Saving Our Club",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yq51",
-              "event_locator": "dvb://233a..910f;2ef8",
-              "main_title": "Wimbledon",
-              "secondary_title": "2026: BBC One: Day 11, Evening",
-              "image_url": "https://img.freeviewplay.tv/pb0029210be4c64ebc1303cc8c705a68f",
-              "start_time": "2026-07-09T18:00:00+0000",
-              "duration": "PT2H",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002ypk3",
+              "event_locator": "dvb://233a..910f;2f1b",
+              "main_title": "Our Lives",
+              "secondary_title": "Series 10: Ashington AFC: Saving Our Club",
+              "image_url": "https://img.freeviewplay.tv/p67ed112eb3f0e9a142761709e783c715",
+              "start_time": "2026-07-10T18:00:00+0000",
+              "duration": "PT30M",
               "on_demand": {
-                "start_of_availability": "2026-07-09T20:00:56+0000",
-                "end_of_availability": "2026-08-08T20:00:56+0000",
+                "start_of_availability": "2026-07-10T05:00:00+0000",
+                "end_of_availability": "2027-07-10T05:00:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yq51&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-              "fallback_image_url": "http://img.freeviewplay.net/ee08ecf0285557b22417f08fa5a6b6a3c",
-              "uuid": "27f8a5671534bc03d022e44d24bcf3e3"
-            }
-          },
-          {
-            "startTime": "2026-07-09T20:00:00+0000",
-            "duration": 60,
-            "name": "Who Do You Think You Are?",
-            "description": "Series 23: Ruth Madeley",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yq53",
-              "event_locator": "dvb://233a..910f;2ef9",
-              "main_title": "Who Do You Think You Are?",
-              "secondary_title": "Series 23: Ruth Madeley",
-              "image_url": "https://img.freeviewplay.tv/peaa25c36073b8ef09a8cd729fa06e539",
-              "start_time": "2026-07-09T20:00:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2026-07-09T21:00:04+0000",
-                "end_of_availability": "2027-08-06T20:58:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yq53&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002ypk3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e30e1acd27388a1b4af92e442378d11ec",
-              "uuid": "762729950baa37cd440a9fd8a24a11cf"
+              "fallback_image_url": "http://img.freeviewplay.net/ec3f44bc22fd98b16a8531ff074885416",
+              "uuid": "ccf5d943b384d694e12d64025cd456fd"
             }
           },
           {
-            "startTime": "2026-07-09T21:00:00+0000",
-            "duration": 30,
-            "name": "BBC News at Ten",
-            "description": "09/07/2026",
+            "startTime": "2026-07-10T18:30:00+0000",
+            "duration": 180,
+            "name": "FIFA World Cup 2026",
+            "description": "Quarter-Finals: Spain v Belgium",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yp0s",
-              "event_locator": "dvb://233a..910f;2efa",
-              "main_title": "BBC News at Ten",
-              "secondary_title": "09/07/2026",
-              "image_url": "https://img.freeviewplay.tv/pc2f1041af6623ada3f0e26cedadeccc9",
-              "start_time": "2026-07-09T21:00:00+0000",
-              "duration": "PT30M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002z97j",
+              "event_locator": "dvb://233a..910f;2fe9",
+              "main_title": "FIFA World Cup 2026",
+              "secondary_title": "Quarter-Finals: Spain v Belgium",
+              "image_url": "https://img.freeviewplay.tv/pea685389c3d59a1610017a0407fb02c4",
+              "start_time": "2026-07-10T18:30:00+0000",
+              "duration": "PT3H",
               "on_demand": {
-                "start_of_availability": "2026-07-09T21:31:30+0000",
-                "end_of_availability": "2026-07-10T21:31:30+0000",
+                "start_of_availability": "2026-07-10T18:30:00+0000",
+                "end_of_availability": "2026-08-09T21:30:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp0s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002z97j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
+              "fallback_image_url": "http://img.freeviewplay.net/ea5c1290c97bb8d5f00f2534632126110",
+              "uuid": "2640d2231ddf9e503c763651eae860f7"
+            }
+          },
+          {
+            "startTime": "2026-07-10T21:30:00+0000",
+            "duration": 30,
+            "name": "BBC News at Ten",
+            "description": "10/07/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yp2b",
+              "event_locator": "dvb://233a..910f;2f1f",
+              "main_title": "BBC News at Ten",
+              "secondary_title": "10/07/2026",
+              "image_url": "https://img.freeviewplay.tv/p7ef98f69f62722d946871793ba2d7c5e",
+              "start_time": "2026-07-10T21:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-07-10T22:01:30+0000",
+                "end_of_availability": "2026-07-11T22:01:30+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yp2b&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e174d6da2b189cc61756b10da7bcb2551",
-              "uuid": "1bb8a39e0c4122e91228c18c8abbb899"
+              "uuid": "e69dad9d8de889f977debe438205439c"
             }
           },
           {
-            "startTime": "2026-07-09T21:30:00+0000",
+            "startTime": "2026-07-10T22:00:00+0000",
             "duration": 10,
             "name": "Look North (East Yorkshire and Lincolnshire)",
-            "description": "Late News: 09/07/2026",
+            "description": "Late News: 10/07/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yr5y",
-              "event_locator": "dvb://233a..910f;2efb",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yqvh",
+              "event_locator": "dvb://233a..910f;2f20",
               "main_title": "Look North (East Yorkshire and Lincolnshire)",
-              "secondary_title": "Late News: 09/07/2026",
-              "image_url": "https://img.freeviewplay.tv/pae43b9c361c8b397e8c1b69b4c1f4154",
-              "start_time": "2026-07-09T21:30:00+0000",
+              "secondary_title": "Late News: 10/07/2026",
+              "image_url": "https://img.freeviewplay.tv/p2dc2c21d69bc07ac755604b05e7c8845",
+              "start_time": "2026-07-10T22:00:00+0000",
               "duration": "PT10M",
               "on_demand": {
-                "start_of_availability": "2026-07-09T21:38:30+0000",
-                "end_of_availability": "2026-07-10T21:38:30+0000",
+                "start_of_availability": "2026-07-10T22:08:30+0000",
+                "end_of_availability": "2026-07-11T22:08:30+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yr5y&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yqvh&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e9e39ab6c02dc49aa34100bce53a84a28",
-              "uuid": "af751f5a7c97fc92f363b7f5195630ae"
+              "uuid": "2f12f770ef535b24d0f8ba1477e8f8c0"
             }
           },
           {
-            "startTime": "2026-07-09T21:40:00+0000",
-            "duration": 145,
-            "name": "Elvis",
-            "description": "Elvis",
+            "startTime": "2026-07-10T22:10:00+0000",
+            "duration": 25,
+            "name": "Austin",
+            "description": "Series 2: 1. We'll Always Have Northampton",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002nzws",
-              "event_locator": "dvb://233a..910f;2efc",
-              "main_title": "Elvis",
-              "secondary_title": "Elvis",
-              "image_url": "https://img.freeviewplay.tv/pe476c4059c067d53a4c574db2fb88ff1",
-              "start_time": "2026-07-09T21:40:00+0000",
-              "duration": "PT2H25M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002xsgq",
+              "event_locator": "dvb://233a..910f;2f21",
+              "main_title": "Austin",
+              "secondary_title": "Series 2: 1. We'll Always Have Northampton",
+              "image_url": "https://img.freeviewplay.tv/p001b32438c819c822e9ce6ab0d4e53e6",
+              "start_time": "2026-07-10T22:10:00+0000",
+              "duration": "PT25M",
               "on_demand": {
-                "start_of_availability": "2026-07-10T00:07:20+0000",
-                "end_of_availability": "2026-08-09T00:07:20+0000",
+                "start_of_availability": "2026-07-10T05:00:00+0000",
+                "end_of_availability": "2029-11-01T23:59:59+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002nzws&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002xsgq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/ed70a9adacff2ec67d5eb65caf44bc8a5",
+              "uuid": "61394123018637f10b3b8af689fc29e6"
+            }
+          },
+          {
+            "startTime": "2026-07-10T22:35:00+0000",
+            "duration": 30,
+            "name": "Austin",
+            "description": "Series 2: 2. The Origin Odyssey",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002xsh8",
+              "event_locator": "dvb://233a..910f;2f22",
+              "main_title": "Austin",
+              "secondary_title": "Series 2: 2. The Origin Odyssey",
+              "image_url": "https://img.freeviewplay.tv/p1329c82d668c4b472cf78378dee57b5f",
+              "start_time": "2026-07-10T22:35:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-07-10T05:00:00+0000",
+                "end_of_availability": "2029-11-01T23:59:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002xsh8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/ed70a9adacff2ec67d5eb65caf44bc8a5",
+              "uuid": "d16c3a01b845bba53bc1cfdf1144681a"
+            }
+          },
+          {
+            "startTime": "2026-07-10T23:05:00+0000",
+            "duration": 95,
+            "name": "Harry Brown",
+            "description": "Harry Brown",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002tjrx",
+              "event_locator": "dvb://233a..910f;2f23",
+              "main_title": "Harry Brown",
+              "secondary_title": "Harry Brown",
+              "image_url": "https://img.freeviewplay.tv/pb983948fb77bf6ca524298476dc5d587",
+              "start_time": "2026-07-10T23:05:00+0000",
+              "duration": "PT1H35M",
+              "on_demand": {
+                "start_of_availability": "2026-03-31T05:00:00+0000",
+                "end_of_availability": "2027-03-31T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002tjrx&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-              "fallback_image_url": "http://img.freeviewplay.net/ed22a9359d8f0a1b04b1b03e6fb0792e4",
-              "uuid": "83d9c025a2e296afe5ef06fb7b267e41"
+              "fallback_image_url": "http://img.freeviewplay.net/ea93c909adc2f9674315ded0e2bad658f",
+              "uuid": "4e079569c56ebf60fc923e7c2778f711"
             }
           }
         ]
