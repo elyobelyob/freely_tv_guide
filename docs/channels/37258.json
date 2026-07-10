@@ -5,8 +5,8 @@
   },
   "events": [
     {
-      "startTime": "2026-07-10T00:30:00+0000",
-      "duration": 40,
+      "startTime": "2026-07-10T00:00:00+0000",
+      "duration": 45,
       "name": "House of Commons",
       "description": "Environment, Food and Rural Affairs Questions",
       "synopsis": "",
@@ -16,12 +16,12 @@
         "event_locator": "dvb://233a..918a;932",
         "main_title": "House of Commons",
         "secondary_title": "Environment, Food and Rural Affairs Questions",
-        "image_url": "https://img.freeviewplay.tv/pbc9573708aef20380c489aaed44a184e",
-        "start_time": "2026-07-10T00:30:00+0000",
-        "duration": "PT40M",
+        "image_url": "https://img.freeviewplay.tv/p222d3f9fdef5e2fec0679ad22795ddeb",
+        "start_time": "2026-07-10T00:00:00+0000",
+        "duration": "PT45M",
         "on_demand": {
-          "start_of_availability": "2026-07-10T01:10:00+0000",
-          "end_of_availability": "2027-07-10T01:10:00+0000",
+          "start_of_availability": "2026-07-09T09:20:00+0000",
+          "end_of_availability": "2027-07-10T00:45:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvj2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -31,12 +31,12 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/eb8f9cb05aa6c2a29b43d170f1373b0ee",
-        "uuid": "e8beed177ec3c2ef1d76b7726278d30d"
+        "uuid": "c11c76b934c1d24a7bce4c21686e0ecb"
       }
     },
     {
-      "startTime": "2026-07-10T01:10:00+0000",
-      "duration": 20,
+      "startTime": "2026-07-10T00:45:00+0000",
+      "duration": 25,
       "name": "House of Commons",
       "description": "Solicitor General Questions",
       "synopsis": "",
@@ -46,12 +46,12 @@
         "event_locator": "dvb://233a..918a;933",
         "main_title": "House of Commons",
         "secondary_title": "Solicitor General Questions",
-        "image_url": "https://img.freeviewplay.tv/pa083924f9ef8ec3bbc9a9d47c19882d7",
-        "start_time": "2026-07-10T01:10:00+0000",
-        "duration": "PT20M",
+        "image_url": "https://img.freeviewplay.tv/pc677753a11dc8b199b47dcf250a9d13c",
+        "start_time": "2026-07-10T00:45:00+0000",
+        "duration": "PT25M",
         "on_demand": {
-          "start_of_availability": "2026-07-10T01:30:00+0000",
-          "end_of_availability": "2027-07-10T01:30:00+0000",
+          "start_of_availability": "2026-07-09T09:45:00+0000",
+          "end_of_availability": "2027-07-10T01:10:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvj4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -61,12 +61,42 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/eb1674dc26dd64d88a7610ad031e5e179",
-        "uuid": "ee1da8ca9f42c755ce2fa643752b882a"
+        "uuid": "52090810b1299afb759d3662b6875dbc"
       }
     },
     {
-      "startTime": "2026-07-10T01:30:00+0000",
-      "duration": 60,
+      "startTime": "2026-07-10T01:10:00+0000",
+      "duration": 25,
+      "name": "House of Commons",
+      "description": "Iran Urgent Question",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yvj8",
+        "event_locator": "dvb://233a..918a;aa7",
+        "main_title": "House of Commons",
+        "secondary_title": "Iran Urgent Question",
+        "image_url": "https://img.freeviewplay.tv/p17ed6f59639db40eb772fbe7b2abfa14",
+        "start_time": "2026-07-10T01:10:00+0000",
+        "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2026-07-09T10:15:00+0000",
+          "end_of_availability": "2027-07-10T01:35:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvj8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ef7101792401ecb5586a57fd38bc23ebe",
+        "uuid": "263147296466adf3046d93629b70ff7a"
+      }
+    },
+    {
+      "startTime": "2026-07-10T01:35:00+0000",
+      "duration": 70,
       "name": "House of Commons",
       "description": "Commons Business Questions",
       "synopsis": "",
@@ -76,12 +106,12 @@
         "event_locator": "dvb://233a..918a;934",
         "main_title": "House of Commons",
         "secondary_title": "Commons Business Questions",
-        "image_url": "https://img.freeviewplay.tv/pc0044c7922b96180b8373952b80b42a1",
-        "start_time": "2026-07-10T01:30:00+0000",
-        "duration": "PT1H",
+        "image_url": "https://img.freeviewplay.tv/p8341bd0498e56e8aa439246e6235846d",
+        "start_time": "2026-07-10T01:35:00+0000",
+        "duration": "PT1H10M",
         "on_demand": {
-          "start_of_availability": "2026-07-10T02:30:00+0000",
-          "end_of_availability": "2027-07-10T02:30:00+0000",
+          "start_of_availability": "2026-07-09T11:20:00+0000",
+          "end_of_availability": "2027-07-10T02:45:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvj6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -91,42 +121,102 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/ed0a45d1e3c7b1d8395766058d1c8bb61",
-        "uuid": "0138331b04cb95cd6fee9902f3a143a7"
+        "uuid": "1f437766744a15ec7e1985014f66e7ea"
       }
     },
     {
-      "startTime": "2026-07-10T02:30:00+0000",
-      "duration": 150,
+      "startTime": "2026-07-10T02:45:00+0000",
+      "duration": 50,
       "name": "House of Commons",
-      "description": "09/07/2026",
+      "description": "Nato Summit Statement",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yvk0",
-        "event_locator": "dvb://233a..918a;935",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yvjb",
+        "event_locator": "dvb://233a..918a;aa8",
         "main_title": "House of Commons",
-        "secondary_title": "09/07/2026",
-        "image_url": "https://img.freeviewplay.tv/pf8c11493853e04c52f48ee8cbbe34df9",
-        "start_time": "2026-07-10T02:30:00+0000",
-        "duration": "PT2H30M",
+        "secondary_title": "Nato Summit Statement",
+        "image_url": "https://img.freeviewplay.tv/pc074a1e514bba7ea8c85ff8438f7bb1f",
+        "start_time": "2026-07-10T02:45:00+0000",
+        "duration": "PT50M",
         "on_demand": {
-          "start_of_availability": "2026-07-10T05:00:00+0000",
-          "end_of_availability": "2027-07-10T05:00:00+0000",
+          "start_of_availability": "2026-07-09T12:30:00+0000",
+          "end_of_availability": "2027-07-10T03:35:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvk0&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvjb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e3b8c9304d190fb505ed13988a85a22d9",
-        "uuid": "10ce222d790bc0e1a359afd6b067d63f"
+        "fallback_image_url": "http://img.freeviewplay.net/e9d835cd96a8eee08310b027079c5ebc5",
+        "uuid": "23c406d9e5bf7efcb22a40551374fa3d"
+      }
+    },
+    {
+      "startTime": "2026-07-10T03:35:00+0000",
+      "duration": 60,
+      "name": "House of Commons",
+      "description": "Timms Review Statement",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yvjd",
+        "event_locator": "dvb://233a..918a;aa9",
+        "main_title": "House of Commons",
+        "secondary_title": "Timms Review Statement",
+        "image_url": "https://img.freeviewplay.tv/pfb547c69ade8706fc43270671417a033",
+        "start_time": "2026-07-10T03:35:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-07-10T04:35:00+0000",
+          "end_of_availability": "2027-07-10T04:35:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvjd&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ed7372a44aaf154f01714f517bdf27bb7",
+        "uuid": "283fc3f7228a12d2f34b38df40bbf4ba"
+      }
+    },
+    {
+      "startTime": "2026-07-10T04:35:00+0000",
+      "duration": 25,
+      "name": "House of Commons",
+      "description": "Rochdale Grooming Gang Leader Urgent Question",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yvg3",
+        "event_locator": "dvb://233a..918a;aaa",
+        "main_title": "House of Commons",
+        "secondary_title": "Rochdale Grooming Gang Leader Urgent Question",
+        "image_url": "https://img.freeviewplay.tv/p477d23610c58a7f91c0836bd600a1ea3",
+        "start_time": "2026-07-10T04:35:00+0000",
+        "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2026-07-07T07:03:47+0000",
+          "end_of_availability": "2027-07-09T07:35:05+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvg3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ed925b5f6200d984b07fe2d67783a2717",
+        "uuid": "359fb464b05fd5eae373fdec8ccbfbdb"
       }
     },
     {
       "startTime": "2026-07-10T05:00:00+0000",
-      "duration": 180,
+      "duration": 150,
       "name": "Westminster Hall",
       "description": "06/07/2026",
       "synopsis": "",
@@ -138,10 +228,10 @@
         "secondary_title": "06/07/2026",
         "image_url": "https://img.freeviewplay.tv/pf5a9f011f2751f639e13b368ac68a47a",
         "start_time": "2026-07-10T05:00:00+0000",
-        "duration": "PT3H",
+        "duration": "PT2H30M",
         "on_demand": {
-          "start_of_availability": "2026-07-10T08:00:00+0000",
-          "end_of_availability": "2026-08-09T08:00:00+0000",
+          "start_of_availability": "2026-07-10T07:30:00+0000",
+          "end_of_availability": "2026-08-09T07:30:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvk2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -155,93 +245,273 @@
       }
     },
     {
-      "startTime": "2026-07-10T08:00:00+0000",
-      "duration": 300,
+      "startTime": "2026-07-10T07:30:00+0000",
+      "duration": 155,
       "name": "Select Committees",
-      "description": "10/07/2026",
+      "description": "Water, Energy and Broadband Regulation Committee",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yvk4",
-        "event_locator": "dvb://233a..918a;937",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002z87p",
+        "event_locator": "dvb://233a..918a;a93",
         "main_title": "Select Committees",
-        "secondary_title": "10/07/2026",
-        "image_url": "https://img.freeviewplay.tv/pccb1a00594e0c30dec39b62f883e01ef",
-        "start_time": "2026-07-10T08:00:00+0000",
-        "duration": "PT5H",
+        "secondary_title": "Water, Energy and Broadband Regulation Committee",
+        "image_url": "https://img.freeviewplay.tv/p4c66c771696ff3f95b35eae3518c5d34",
+        "start_time": "2026-07-10T07:30:00+0000",
+        "duration": "PT2H35M",
         "on_demand": {
-          "start_of_availability": "2026-07-10T13:00:00+0000",
-          "end_of_availability": "2026-08-09T13:00:00+0000",
+          "start_of_availability": "2026-07-05T19:35:00+0000",
+          "end_of_availability": "2026-08-09T10:05:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvk4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002z87p&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e7545344e26729f95f22f196e9b8fccd5",
-        "uuid": "31ef387ad490842a641f35ad81b94ee0"
+        "fallback_image_url": "http://img.freeviewplay.net/e7ec4216ceaeaf242923697e898c45b57",
+        "uuid": "b0298375aaa01ad801f49181910238e9"
       }
     },
     {
-      "startTime": "2026-07-10T13:00:00+0000",
-      "duration": 240,
+      "startTime": "2026-07-10T10:05:00+0000",
+      "duration": 95,
+      "name": "Select Committees",
+      "description": "Housing, Communities and Local Government Committee on Elections",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002z5d5",
+        "event_locator": "dvb://233a..918a;a94",
+        "main_title": "Select Committees",
+        "secondary_title": "Housing, Communities and Local Government Committee on Elections",
+        "image_url": "https://img.freeviewplay.tv/pe2bcb257ad65b54d0274c7abfa1c429b",
+        "start_time": "2026-07-10T10:05:00+0000",
+        "duration": "PT1H35M",
+        "on_demand": {
+          "start_of_availability": "2026-07-03T18:34:51+0000",
+          "end_of_availability": "2027-07-10T11:40:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002z5d5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ed6c6c38ab328a8cadd4d23d1e5d43fdf",
+        "uuid": "a128345d9f02528d5dce5be94d509858"
+      }
+    },
+    {
+      "startTime": "2026-07-10T11:40:00+0000",
+      "duration": 110,
+      "name": "Select Committees",
+      "description": "Justice Committee on the Crown Prosecution Service",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002zjbq",
+        "event_locator": "dvb://233a..918a;a95",
+        "main_title": "Select Committees",
+        "secondary_title": "Justice Committee on the Crown Prosecution Service",
+        "image_url": "https://img.freeviewplay.tv/p2853e410ff3557195f58995ed503926c",
+        "start_time": "2026-07-10T11:40:00+0000",
+        "duration": "PT1H50M",
+        "on_demand": {
+          "start_of_availability": "2026-07-10T13:29:44+0000",
+          "end_of_availability": "2027-07-10T13:29:44+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zjbq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e83e2346477dec8ea518d436ef0936820",
+        "uuid": "2446fbc8f5c2ffa1eeb075e50a693320"
+      }
+    },
+    {
+      "startTime": "2026-07-10T13:30:00+0000",
+      "duration": 40,
       "name": "House of Lords",
-      "description": "10/07/2026",
+      "description": "National Maternity and Neonatal Investigation",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yvk6",
-        "event_locator": "dvb://233a..918a;938",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yvgh",
+        "event_locator": "dvb://233a..918a;a96",
         "main_title": "House of Lords",
-        "secondary_title": "10/07/2026",
-        "image_url": "https://img.freeviewplay.tv/p23c0a73fa137355473f26eba511931ee",
-        "start_time": "2026-07-10T13:00:00+0000",
-        "duration": "PT4H",
+        "secondary_title": "National Maternity and Neonatal Investigation",
+        "image_url": "https://img.freeviewplay.tv/p06924467e79f785d31cf5eecdf7c41e9",
+        "start_time": "2026-07-10T13:30:00+0000",
+        "duration": "PT40M",
         "on_demand": {
-          "start_of_availability": "2026-07-10T17:00:00+0000",
-          "end_of_availability": "2027-07-10T17:00:00+0000",
+          "start_of_availability": "2026-07-06T23:20:00+0000",
+          "end_of_availability": "2027-07-10T14:10:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvk6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvgh&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ee777f5210422ceb2dda0e693a3ead4e7",
-        "uuid": "d6f0a3ee7a4ad46d2f6d7c5260bbee8f"
+        "fallback_image_url": "http://img.freeviewplay.net/e4eb57dbfb5d5b39d11edc613ff9740d7",
+        "uuid": "44f8fa021172a479087ad760c1aa1353"
       }
     },
     {
-      "startTime": "2026-07-10T17:00:00+0000",
-      "duration": 180,
-      "name": "Select Committees",
-      "description": "10/07/2026",
+      "startTime": "2026-07-10T14:10:00+0000",
+      "duration": 45,
+      "name": "House of Lords",
+      "description": "Police Leadership Commission Statement",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002yvk8",
-        "event_locator": "dvb://233a..918a;939",
-        "main_title": "Select Committees",
-        "secondary_title": "10/07/2026",
-        "image_url": "https://img.freeviewplay.tv/pccb1a00594e0c30dec39b62f883e01ef",
-        "start_time": "2026-07-10T17:00:00+0000",
-        "duration": "PT3H",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yvhn",
+        "event_locator": "dvb://233a..918a;a97",
+        "main_title": "House of Lords",
+        "secondary_title": "Police Leadership Commission Statement",
+        "image_url": "https://img.freeviewplay.tv/p8ad494eb76c5a69860caa140d385feed",
+        "start_time": "2026-07-10T14:10:00+0000",
+        "duration": "PT45M",
         "on_demand": {
-          "start_of_availability": "2026-07-10T20:00:00+0000",
-          "end_of_availability": "2026-08-09T20:00:00+0000",
+          "start_of_availability": "2026-07-08T23:14:03+0000",
+          "end_of_availability": "2027-07-10T14:55:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvk8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvhn&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e7545344e26729f95f22f196e9b8fccd5",
-        "uuid": "8bf6feb3244b90706976a37fb3ae5618"
+        "fallback_image_url": "http://img.freeviewplay.net/efca6d2bc9c59f1efa9dd2f169b5b7e90",
+        "uuid": "1641e07ca148cd564628c2700b6eb799"
+      }
+    },
+    {
+      "startTime": "2026-07-10T14:55:00+0000",
+      "duration": 120,
+      "name": "House of Lords",
+      "description": "Lobbying Transparency Bill",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002zjbs",
+        "event_locator": "dvb://233a..918a;a98",
+        "main_title": "House of Lords",
+        "secondary_title": "Lobbying Transparency Bill",
+        "image_url": "https://img.freeviewplay.tv/ped7c4dbfd35e197532338486e8ae75af",
+        "start_time": "2026-07-10T14:55:00+0000",
+        "duration": "PT2H",
+        "on_demand": {
+          "start_of_availability": "2026-07-10T16:55:02+0000",
+          "end_of_availability": "2027-07-10T16:55:02+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zjbs&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2879806a54a4fb3ae39daab24e7092d3",
+        "uuid": "9a5a0fe8010e1a1bf8d39f0786d86783"
+      }
+    },
+    {
+      "startTime": "2026-07-10T16:55:00+0000",
+      "duration": 10,
+      "name": "Ten Minute Rule Bill",
+      "description": "Outdoor Education",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002z98h",
+        "event_locator": "dvb://233a..918a;a99",
+        "main_title": "Ten Minute Rule Bill",
+        "secondary_title": "Outdoor Education",
+        "image_url": "https://img.freeviewplay.tv/pd6d9b4982790da86ba8472fc56ad59e0",
+        "start_time": "2026-07-10T16:55:00+0000",
+        "duration": "PT10M",
+        "on_demand": {
+          "start_of_availability": "2026-07-07T11:50:00+0000",
+          "end_of_availability": "2027-07-07T11:50:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002z98h&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e407e93997128d53cc355f116cc1a4512",
+        "uuid": "5dd2f70b7a1007d4c57ae1b14ebc4f06"
+      }
+    },
+    {
+      "startTime": "2026-07-10T17:05:00+0000",
+      "duration": 125,
+      "name": "Select Committees",
+      "description": "Culture, Media and Sport Committee on the BBC",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002zjbw",
+        "event_locator": "dvb://233a..918a;a9a",
+        "main_title": "Select Committees",
+        "secondary_title": "Culture, Media and Sport Committee on the BBC",
+        "image_url": "https://img.freeviewplay.tv/pd3df51ba88ed502a0b2181aa0454478b",
+        "start_time": "2026-07-10T17:05:00+0000",
+        "duration": "PT2H5M",
+        "on_demand": {
+          "start_of_availability": "2026-07-10T19:10:00+0000",
+          "end_of_availability": "2027-07-10T19:10:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zjbw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e01ad85b8c08c873012ddfce09a4702f7",
+        "uuid": "9ac52588b86463487985025932e412f0"
+      }
+    },
+    {
+      "startTime": "2026-07-10T19:10:00+0000",
+      "duration": 50,
+      "name": "House of Lords",
+      "description": "Historic Forced Adoptions",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002yvfg",
+        "event_locator": "dvb://233a..918a;a9b",
+        "main_title": "House of Lords",
+        "secondary_title": "Historic Forced Adoptions",
+        "image_url": "https://img.freeviewplay.tv/p3ee627a75462785e40b8f3871a5f0394",
+        "start_time": "2026-07-10T19:10:00+0000",
+        "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2026-07-07T23:50:00+0000",
+          "end_of_availability": "2027-07-10T20:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvfg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e604df16bccef06549eb3c8ac1d0530e9",
+        "uuid": "8213c415d0f82aba7cd417165721b803"
       }
     },
     {
@@ -276,22 +546,22 @@
     },
     {
       "startTime": "2026-07-10T21:00:00+0000",
-      "duration": 480,
+      "duration": 60,
       "name": "Senedd Cymru - Welsh Parliament",
-      "description": "10/07/2026",
+      "description": "New Development Agency",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m002yvkb",
-        "event_locator": "dvb://233a..918a;93b",
+        "event_locator": "dvb://233a..918a;a9c",
         "main_title": "Senedd Cymru - Welsh Parliament",
-        "secondary_title": "10/07/2026",
-        "image_url": "https://img.freeviewplay.tv/p05acb9fd4866af65c0ea96154f52645f",
+        "secondary_title": "New Development Agency",
+        "image_url": "https://img.freeviewplay.tv/p6acf361b818faa9f9274f702e470324c",
         "start_time": "2026-07-10T21:00:00+0000",
-        "duration": "PT8H",
+        "duration": "PT1H",
         "on_demand": {
-          "start_of_availability": "2026-07-11T05:00:00+0000",
-          "end_of_availability": "2027-07-11T05:00:00+0000",
+          "start_of_availability": "2026-07-10T22:00:00+0000",
+          "end_of_availability": "2027-07-10T22:00:00+0000",
           "player_links": {
             "tv": {
               "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvkb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -300,8 +570,98 @@
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/eded73ab15dd1deebda9117bdec594491",
+        "fallback_image_url": "http://img.freeviewplay.net/e879bc81036380b94d0ea4ff1267bbb8a",
         "uuid": "53fdf48e557df0157a388222f4b0010c"
+      }
+    },
+    {
+      "startTime": "2026-07-10T22:00:00+0000",
+      "duration": 45,
+      "name": "Senedd Cymru - Welsh Parliament",
+      "description": "Welsh Language Priorities",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002zjby",
+        "event_locator": "dvb://233a..918a;a9d",
+        "main_title": "Senedd Cymru - Welsh Parliament",
+        "secondary_title": "Welsh Language Priorities",
+        "image_url": "https://img.freeviewplay.tv/p0dc9451861f2b201ce2a0666a3051ac4",
+        "start_time": "2026-07-10T22:00:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2026-07-10T22:45:00+0000",
+          "end_of_availability": "2027-07-10T22:45:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zjby&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/eb60a8f8df04d51d4994e291a0ed1ad1b",
+        "uuid": "896b20df4db2ca52ac4666a734e80229"
+      }
+    },
+    {
+      "startTime": "2026-07-10T22:45:00+0000",
+      "duration": 60,
+      "name": "Senedd Cymru - Welsh Parliament",
+      "description": "Fair Funding",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002zjc0",
+        "event_locator": "dvb://233a..918a;a9e",
+        "main_title": "Senedd Cymru - Welsh Parliament",
+        "secondary_title": "Fair Funding",
+        "image_url": "https://img.freeviewplay.tv/p62e6fc2d17531bccfe3fd42da57b6b33",
+        "start_time": "2026-07-10T22:45:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-07-10T23:46:16+0000",
+          "end_of_availability": "2027-07-10T23:46:16+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zjc0&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/eb7bfce4d4c5a9e90c95fc12b2b03794f",
+        "uuid": "cf55cadf809f034c5dc85540e1723c3f"
+      }
+    },
+    {
+      "startTime": "2026-07-10T23:45:00+0000",
+      "duration": 45,
+      "name": "Senedd Cymru - Welsh Parliament",
+      "description": "Deputy First Minister's Questions",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002zjc2",
+        "event_locator": "dvb://233a..918a;a9f",
+        "main_title": "Senedd Cymru - Welsh Parliament",
+        "secondary_title": "Deputy First Minister's Questions",
+        "image_url": "https://img.freeviewplay.tv/pe3a99106127f64a4eac63700507c43d9",
+        "start_time": "2026-07-10T23:45:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2026-07-11T00:30:00+0000",
+          "end_of_availability": "2027-07-11T00:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zjc2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e54dd0d29b3c56df59a89811be0ce3616",
+        "uuid": "445a3284432e3c69b48b558e9ec708bb"
       }
     }
   ],
@@ -310,8 +670,8 @@
       {
         "event": [
           {
-            "startTime": "2026-07-10T00:30:00+0000",
-            "duration": 40,
+            "startTime": "2026-07-10T00:00:00+0000",
+            "duration": 45,
             "name": "House of Commons",
             "description": "Environment, Food and Rural Affairs Questions",
             "synopsis": "",
@@ -321,12 +681,12 @@
               "event_locator": "dvb://233a..918a;932",
               "main_title": "House of Commons",
               "secondary_title": "Environment, Food and Rural Affairs Questions",
-              "image_url": "https://img.freeviewplay.tv/pbc9573708aef20380c489aaed44a184e",
-              "start_time": "2026-07-10T00:30:00+0000",
-              "duration": "PT40M",
+              "image_url": "https://img.freeviewplay.tv/p222d3f9fdef5e2fec0679ad22795ddeb",
+              "start_time": "2026-07-10T00:00:00+0000",
+              "duration": "PT45M",
               "on_demand": {
-                "start_of_availability": "2026-07-10T01:10:00+0000",
-                "end_of_availability": "2027-07-10T01:10:00+0000",
+                "start_of_availability": "2026-07-09T09:20:00+0000",
+                "end_of_availability": "2027-07-10T00:45:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvj2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -336,12 +696,12 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/eb8f9cb05aa6c2a29b43d170f1373b0ee",
-              "uuid": "e8beed177ec3c2ef1d76b7726278d30d"
+              "uuid": "c11c76b934c1d24a7bce4c21686e0ecb"
             }
           },
           {
-            "startTime": "2026-07-10T01:10:00+0000",
-            "duration": 20,
+            "startTime": "2026-07-10T00:45:00+0000",
+            "duration": 25,
             "name": "House of Commons",
             "description": "Solicitor General Questions",
             "synopsis": "",
@@ -351,12 +711,12 @@
               "event_locator": "dvb://233a..918a;933",
               "main_title": "House of Commons",
               "secondary_title": "Solicitor General Questions",
-              "image_url": "https://img.freeviewplay.tv/pa083924f9ef8ec3bbc9a9d47c19882d7",
-              "start_time": "2026-07-10T01:10:00+0000",
-              "duration": "PT20M",
+              "image_url": "https://img.freeviewplay.tv/pc677753a11dc8b199b47dcf250a9d13c",
+              "start_time": "2026-07-10T00:45:00+0000",
+              "duration": "PT25M",
               "on_demand": {
-                "start_of_availability": "2026-07-10T01:30:00+0000",
-                "end_of_availability": "2027-07-10T01:30:00+0000",
+                "start_of_availability": "2026-07-09T09:45:00+0000",
+                "end_of_availability": "2027-07-10T01:10:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvj4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -366,12 +726,42 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/eb1674dc26dd64d88a7610ad031e5e179",
-              "uuid": "ee1da8ca9f42c755ce2fa643752b882a"
+              "uuid": "52090810b1299afb759d3662b6875dbc"
             }
           },
           {
-            "startTime": "2026-07-10T01:30:00+0000",
-            "duration": 60,
+            "startTime": "2026-07-10T01:10:00+0000",
+            "duration": 25,
+            "name": "House of Commons",
+            "description": "Iran Urgent Question",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yvj8",
+              "event_locator": "dvb://233a..918a;aa7",
+              "main_title": "House of Commons",
+              "secondary_title": "Iran Urgent Question",
+              "image_url": "https://img.freeviewplay.tv/p17ed6f59639db40eb772fbe7b2abfa14",
+              "start_time": "2026-07-10T01:10:00+0000",
+              "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2026-07-09T10:15:00+0000",
+                "end_of_availability": "2027-07-10T01:35:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvj8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ef7101792401ecb5586a57fd38bc23ebe",
+              "uuid": "263147296466adf3046d93629b70ff7a"
+            }
+          },
+          {
+            "startTime": "2026-07-10T01:35:00+0000",
+            "duration": 70,
             "name": "House of Commons",
             "description": "Commons Business Questions",
             "synopsis": "",
@@ -381,12 +771,12 @@
               "event_locator": "dvb://233a..918a;934",
               "main_title": "House of Commons",
               "secondary_title": "Commons Business Questions",
-              "image_url": "https://img.freeviewplay.tv/pc0044c7922b96180b8373952b80b42a1",
-              "start_time": "2026-07-10T01:30:00+0000",
-              "duration": "PT1H",
+              "image_url": "https://img.freeviewplay.tv/p8341bd0498e56e8aa439246e6235846d",
+              "start_time": "2026-07-10T01:35:00+0000",
+              "duration": "PT1H10M",
               "on_demand": {
-                "start_of_availability": "2026-07-10T02:30:00+0000",
-                "end_of_availability": "2027-07-10T02:30:00+0000",
+                "start_of_availability": "2026-07-09T11:20:00+0000",
+                "end_of_availability": "2027-07-10T02:45:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvj6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -396,42 +786,102 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/ed0a45d1e3c7b1d8395766058d1c8bb61",
-              "uuid": "0138331b04cb95cd6fee9902f3a143a7"
+              "uuid": "1f437766744a15ec7e1985014f66e7ea"
             }
           },
           {
-            "startTime": "2026-07-10T02:30:00+0000",
-            "duration": 150,
+            "startTime": "2026-07-10T02:45:00+0000",
+            "duration": 50,
             "name": "House of Commons",
-            "description": "09/07/2026",
+            "description": "Nato Summit Statement",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yvk0",
-              "event_locator": "dvb://233a..918a;935",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yvjb",
+              "event_locator": "dvb://233a..918a;aa8",
               "main_title": "House of Commons",
-              "secondary_title": "09/07/2026",
-              "image_url": "https://img.freeviewplay.tv/pf8c11493853e04c52f48ee8cbbe34df9",
-              "start_time": "2026-07-10T02:30:00+0000",
-              "duration": "PT2H30M",
+              "secondary_title": "Nato Summit Statement",
+              "image_url": "https://img.freeviewplay.tv/pc074a1e514bba7ea8c85ff8438f7bb1f",
+              "start_time": "2026-07-10T02:45:00+0000",
+              "duration": "PT50M",
               "on_demand": {
-                "start_of_availability": "2026-07-10T05:00:00+0000",
-                "end_of_availability": "2027-07-10T05:00:00+0000",
+                "start_of_availability": "2026-07-09T12:30:00+0000",
+                "end_of_availability": "2027-07-10T03:35:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvk0&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvjb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e3b8c9304d190fb505ed13988a85a22d9",
-              "uuid": "10ce222d790bc0e1a359afd6b067d63f"
+              "fallback_image_url": "http://img.freeviewplay.net/e9d835cd96a8eee08310b027079c5ebc5",
+              "uuid": "23c406d9e5bf7efcb22a40551374fa3d"
+            }
+          },
+          {
+            "startTime": "2026-07-10T03:35:00+0000",
+            "duration": 60,
+            "name": "House of Commons",
+            "description": "Timms Review Statement",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yvjd",
+              "event_locator": "dvb://233a..918a;aa9",
+              "main_title": "House of Commons",
+              "secondary_title": "Timms Review Statement",
+              "image_url": "https://img.freeviewplay.tv/pfb547c69ade8706fc43270671417a033",
+              "start_time": "2026-07-10T03:35:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-07-10T04:35:00+0000",
+                "end_of_availability": "2027-07-10T04:35:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvjd&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ed7372a44aaf154f01714f517bdf27bb7",
+              "uuid": "283fc3f7228a12d2f34b38df40bbf4ba"
+            }
+          },
+          {
+            "startTime": "2026-07-10T04:35:00+0000",
+            "duration": 25,
+            "name": "House of Commons",
+            "description": "Rochdale Grooming Gang Leader Urgent Question",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yvg3",
+              "event_locator": "dvb://233a..918a;aaa",
+              "main_title": "House of Commons",
+              "secondary_title": "Rochdale Grooming Gang Leader Urgent Question",
+              "image_url": "https://img.freeviewplay.tv/p477d23610c58a7f91c0836bd600a1ea3",
+              "start_time": "2026-07-10T04:35:00+0000",
+              "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2026-07-07T07:03:47+0000",
+                "end_of_availability": "2027-07-09T07:35:05+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvg3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ed925b5f6200d984b07fe2d67783a2717",
+              "uuid": "359fb464b05fd5eae373fdec8ccbfbdb"
             }
           },
           {
             "startTime": "2026-07-10T05:00:00+0000",
-            "duration": 180,
+            "duration": 150,
             "name": "Westminster Hall",
             "description": "06/07/2026",
             "synopsis": "",
@@ -443,10 +893,10 @@
               "secondary_title": "06/07/2026",
               "image_url": "https://img.freeviewplay.tv/pf5a9f011f2751f639e13b368ac68a47a",
               "start_time": "2026-07-10T05:00:00+0000",
-              "duration": "PT3H",
+              "duration": "PT2H30M",
               "on_demand": {
-                "start_of_availability": "2026-07-10T08:00:00+0000",
-                "end_of_availability": "2026-08-09T08:00:00+0000",
+                "start_of_availability": "2026-07-10T07:30:00+0000",
+                "end_of_availability": "2026-08-09T07:30:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvk2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -460,93 +910,273 @@
             }
           },
           {
-            "startTime": "2026-07-10T08:00:00+0000",
-            "duration": 300,
+            "startTime": "2026-07-10T07:30:00+0000",
+            "duration": 155,
             "name": "Select Committees",
-            "description": "10/07/2026",
+            "description": "Water, Energy and Broadband Regulation Committee",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yvk4",
-              "event_locator": "dvb://233a..918a;937",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002z87p",
+              "event_locator": "dvb://233a..918a;a93",
               "main_title": "Select Committees",
-              "secondary_title": "10/07/2026",
-              "image_url": "https://img.freeviewplay.tv/pccb1a00594e0c30dec39b62f883e01ef",
-              "start_time": "2026-07-10T08:00:00+0000",
-              "duration": "PT5H",
+              "secondary_title": "Water, Energy and Broadband Regulation Committee",
+              "image_url": "https://img.freeviewplay.tv/p4c66c771696ff3f95b35eae3518c5d34",
+              "start_time": "2026-07-10T07:30:00+0000",
+              "duration": "PT2H35M",
               "on_demand": {
-                "start_of_availability": "2026-07-10T13:00:00+0000",
-                "end_of_availability": "2026-08-09T13:00:00+0000",
+                "start_of_availability": "2026-07-05T19:35:00+0000",
+                "end_of_availability": "2026-08-09T10:05:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvk4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002z87p&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e7545344e26729f95f22f196e9b8fccd5",
-              "uuid": "31ef387ad490842a641f35ad81b94ee0"
+              "fallback_image_url": "http://img.freeviewplay.net/e7ec4216ceaeaf242923697e898c45b57",
+              "uuid": "b0298375aaa01ad801f49181910238e9"
             }
           },
           {
-            "startTime": "2026-07-10T13:00:00+0000",
-            "duration": 240,
+            "startTime": "2026-07-10T10:05:00+0000",
+            "duration": 95,
+            "name": "Select Committees",
+            "description": "Housing, Communities and Local Government Committee on Elections",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002z5d5",
+              "event_locator": "dvb://233a..918a;a94",
+              "main_title": "Select Committees",
+              "secondary_title": "Housing, Communities and Local Government Committee on Elections",
+              "image_url": "https://img.freeviewplay.tv/pe2bcb257ad65b54d0274c7abfa1c429b",
+              "start_time": "2026-07-10T10:05:00+0000",
+              "duration": "PT1H35M",
+              "on_demand": {
+                "start_of_availability": "2026-07-03T18:34:51+0000",
+                "end_of_availability": "2027-07-10T11:40:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002z5d5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ed6c6c38ab328a8cadd4d23d1e5d43fdf",
+              "uuid": "a128345d9f02528d5dce5be94d509858"
+            }
+          },
+          {
+            "startTime": "2026-07-10T11:40:00+0000",
+            "duration": 110,
+            "name": "Select Committees",
+            "description": "Justice Committee on the Crown Prosecution Service",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002zjbq",
+              "event_locator": "dvb://233a..918a;a95",
+              "main_title": "Select Committees",
+              "secondary_title": "Justice Committee on the Crown Prosecution Service",
+              "image_url": "https://img.freeviewplay.tv/p2853e410ff3557195f58995ed503926c",
+              "start_time": "2026-07-10T11:40:00+0000",
+              "duration": "PT1H50M",
+              "on_demand": {
+                "start_of_availability": "2026-07-10T13:29:44+0000",
+                "end_of_availability": "2027-07-10T13:29:44+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zjbq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e83e2346477dec8ea518d436ef0936820",
+              "uuid": "2446fbc8f5c2ffa1eeb075e50a693320"
+            }
+          },
+          {
+            "startTime": "2026-07-10T13:30:00+0000",
+            "duration": 40,
             "name": "House of Lords",
-            "description": "10/07/2026",
+            "description": "National Maternity and Neonatal Investigation",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yvk6",
-              "event_locator": "dvb://233a..918a;938",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yvgh",
+              "event_locator": "dvb://233a..918a;a96",
               "main_title": "House of Lords",
-              "secondary_title": "10/07/2026",
-              "image_url": "https://img.freeviewplay.tv/p23c0a73fa137355473f26eba511931ee",
-              "start_time": "2026-07-10T13:00:00+0000",
-              "duration": "PT4H",
+              "secondary_title": "National Maternity and Neonatal Investigation",
+              "image_url": "https://img.freeviewplay.tv/p06924467e79f785d31cf5eecdf7c41e9",
+              "start_time": "2026-07-10T13:30:00+0000",
+              "duration": "PT40M",
               "on_demand": {
-                "start_of_availability": "2026-07-10T17:00:00+0000",
-                "end_of_availability": "2027-07-10T17:00:00+0000",
+                "start_of_availability": "2026-07-06T23:20:00+0000",
+                "end_of_availability": "2027-07-10T14:10:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvk6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvgh&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ee777f5210422ceb2dda0e693a3ead4e7",
-              "uuid": "d6f0a3ee7a4ad46d2f6d7c5260bbee8f"
+              "fallback_image_url": "http://img.freeviewplay.net/e4eb57dbfb5d5b39d11edc613ff9740d7",
+              "uuid": "44f8fa021172a479087ad760c1aa1353"
             }
           },
           {
-            "startTime": "2026-07-10T17:00:00+0000",
-            "duration": 180,
-            "name": "Select Committees",
-            "description": "10/07/2026",
+            "startTime": "2026-07-10T14:10:00+0000",
+            "duration": 45,
+            "name": "House of Lords",
+            "description": "Police Leadership Commission Statement",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002yvk8",
-              "event_locator": "dvb://233a..918a;939",
-              "main_title": "Select Committees",
-              "secondary_title": "10/07/2026",
-              "image_url": "https://img.freeviewplay.tv/pccb1a00594e0c30dec39b62f883e01ef",
-              "start_time": "2026-07-10T17:00:00+0000",
-              "duration": "PT3H",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yvhn",
+              "event_locator": "dvb://233a..918a;a97",
+              "main_title": "House of Lords",
+              "secondary_title": "Police Leadership Commission Statement",
+              "image_url": "https://img.freeviewplay.tv/p8ad494eb76c5a69860caa140d385feed",
+              "start_time": "2026-07-10T14:10:00+0000",
+              "duration": "PT45M",
               "on_demand": {
-                "start_of_availability": "2026-07-10T20:00:00+0000",
-                "end_of_availability": "2026-08-09T20:00:00+0000",
+                "start_of_availability": "2026-07-08T23:14:03+0000",
+                "end_of_availability": "2027-07-10T14:55:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvk8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvhn&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e7545344e26729f95f22f196e9b8fccd5",
-              "uuid": "8bf6feb3244b90706976a37fb3ae5618"
+              "fallback_image_url": "http://img.freeviewplay.net/efca6d2bc9c59f1efa9dd2f169b5b7e90",
+              "uuid": "1641e07ca148cd564628c2700b6eb799"
+            }
+          },
+          {
+            "startTime": "2026-07-10T14:55:00+0000",
+            "duration": 120,
+            "name": "House of Lords",
+            "description": "Lobbying Transparency Bill",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002zjbs",
+              "event_locator": "dvb://233a..918a;a98",
+              "main_title": "House of Lords",
+              "secondary_title": "Lobbying Transparency Bill",
+              "image_url": "https://img.freeviewplay.tv/ped7c4dbfd35e197532338486e8ae75af",
+              "start_time": "2026-07-10T14:55:00+0000",
+              "duration": "PT2H",
+              "on_demand": {
+                "start_of_availability": "2026-07-10T16:55:02+0000",
+                "end_of_availability": "2027-07-10T16:55:02+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zjbs&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2879806a54a4fb3ae39daab24e7092d3",
+              "uuid": "9a5a0fe8010e1a1bf8d39f0786d86783"
+            }
+          },
+          {
+            "startTime": "2026-07-10T16:55:00+0000",
+            "duration": 10,
+            "name": "Ten Minute Rule Bill",
+            "description": "Outdoor Education",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002z98h",
+              "event_locator": "dvb://233a..918a;a99",
+              "main_title": "Ten Minute Rule Bill",
+              "secondary_title": "Outdoor Education",
+              "image_url": "https://img.freeviewplay.tv/pd6d9b4982790da86ba8472fc56ad59e0",
+              "start_time": "2026-07-10T16:55:00+0000",
+              "duration": "PT10M",
+              "on_demand": {
+                "start_of_availability": "2026-07-07T11:50:00+0000",
+                "end_of_availability": "2027-07-07T11:50:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002z98h&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e407e93997128d53cc355f116cc1a4512",
+              "uuid": "5dd2f70b7a1007d4c57ae1b14ebc4f06"
+            }
+          },
+          {
+            "startTime": "2026-07-10T17:05:00+0000",
+            "duration": 125,
+            "name": "Select Committees",
+            "description": "Culture, Media and Sport Committee on the BBC",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002zjbw",
+              "event_locator": "dvb://233a..918a;a9a",
+              "main_title": "Select Committees",
+              "secondary_title": "Culture, Media and Sport Committee on the BBC",
+              "image_url": "https://img.freeviewplay.tv/pd3df51ba88ed502a0b2181aa0454478b",
+              "start_time": "2026-07-10T17:05:00+0000",
+              "duration": "PT2H5M",
+              "on_demand": {
+                "start_of_availability": "2026-07-10T19:10:00+0000",
+                "end_of_availability": "2027-07-10T19:10:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zjbw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e01ad85b8c08c873012ddfce09a4702f7",
+              "uuid": "9ac52588b86463487985025932e412f0"
+            }
+          },
+          {
+            "startTime": "2026-07-10T19:10:00+0000",
+            "duration": 50,
+            "name": "House of Lords",
+            "description": "Historic Forced Adoptions",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002yvfg",
+              "event_locator": "dvb://233a..918a;a9b",
+              "main_title": "House of Lords",
+              "secondary_title": "Historic Forced Adoptions",
+              "image_url": "https://img.freeviewplay.tv/p3ee627a75462785e40b8f3871a5f0394",
+              "start_time": "2026-07-10T19:10:00+0000",
+              "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2026-07-07T23:50:00+0000",
+                "end_of_availability": "2027-07-10T20:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvfg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e604df16bccef06549eb3c8ac1d0530e9",
+              "uuid": "8213c415d0f82aba7cd417165721b803"
             }
           },
           {
@@ -581,22 +1211,22 @@
           },
           {
             "startTime": "2026-07-10T21:00:00+0000",
-            "duration": 480,
+            "duration": 60,
             "name": "Senedd Cymru - Welsh Parliament",
-            "description": "10/07/2026",
+            "description": "New Development Agency",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m002yvkb",
-              "event_locator": "dvb://233a..918a;93b",
+              "event_locator": "dvb://233a..918a;a9c",
               "main_title": "Senedd Cymru - Welsh Parliament",
-              "secondary_title": "10/07/2026",
-              "image_url": "https://img.freeviewplay.tv/p05acb9fd4866af65c0ea96154f52645f",
+              "secondary_title": "New Development Agency",
+              "image_url": "https://img.freeviewplay.tv/p6acf361b818faa9f9274f702e470324c",
               "start_time": "2026-07-10T21:00:00+0000",
-              "duration": "PT8H",
+              "duration": "PT1H",
               "on_demand": {
-                "start_of_availability": "2026-07-11T05:00:00+0000",
-                "end_of_availability": "2027-07-11T05:00:00+0000",
+                "start_of_availability": "2026-07-10T22:00:00+0000",
+                "end_of_availability": "2027-07-10T22:00:00+0000",
                 "player_links": {
                   "tv": {
                     "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002yvkb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -605,8 +1235,98 @@
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/eded73ab15dd1deebda9117bdec594491",
+              "fallback_image_url": "http://img.freeviewplay.net/e879bc81036380b94d0ea4ff1267bbb8a",
               "uuid": "53fdf48e557df0157a388222f4b0010c"
+            }
+          },
+          {
+            "startTime": "2026-07-10T22:00:00+0000",
+            "duration": 45,
+            "name": "Senedd Cymru - Welsh Parliament",
+            "description": "Welsh Language Priorities",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002zjby",
+              "event_locator": "dvb://233a..918a;a9d",
+              "main_title": "Senedd Cymru - Welsh Parliament",
+              "secondary_title": "Welsh Language Priorities",
+              "image_url": "https://img.freeviewplay.tv/p0dc9451861f2b201ce2a0666a3051ac4",
+              "start_time": "2026-07-10T22:00:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2026-07-10T22:45:00+0000",
+                "end_of_availability": "2027-07-10T22:45:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zjby&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/eb60a8f8df04d51d4994e291a0ed1ad1b",
+              "uuid": "896b20df4db2ca52ac4666a734e80229"
+            }
+          },
+          {
+            "startTime": "2026-07-10T22:45:00+0000",
+            "duration": 60,
+            "name": "Senedd Cymru - Welsh Parliament",
+            "description": "Fair Funding",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002zjc0",
+              "event_locator": "dvb://233a..918a;a9e",
+              "main_title": "Senedd Cymru - Welsh Parliament",
+              "secondary_title": "Fair Funding",
+              "image_url": "https://img.freeviewplay.tv/p62e6fc2d17531bccfe3fd42da57b6b33",
+              "start_time": "2026-07-10T22:45:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-07-10T23:46:16+0000",
+                "end_of_availability": "2027-07-10T23:46:16+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zjc0&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/eb7bfce4d4c5a9e90c95fc12b2b03794f",
+              "uuid": "cf55cadf809f034c5dc85540e1723c3f"
+            }
+          },
+          {
+            "startTime": "2026-07-10T23:45:00+0000",
+            "duration": 45,
+            "name": "Senedd Cymru - Welsh Parliament",
+            "description": "Deputy First Minister's Questions",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002zjc2",
+              "event_locator": "dvb://233a..918a;a9f",
+              "main_title": "Senedd Cymru - Welsh Parliament",
+              "secondary_title": "Deputy First Minister's Questions",
+              "image_url": "https://img.freeviewplay.tv/pe3a99106127f64a4eac63700507c43d9",
+              "start_time": "2026-07-10T23:45:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2026-07-11T00:30:00+0000",
+                "end_of_availability": "2027-07-11T00:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zjc2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e54dd0d29b3c56df59a89811be0ce3616",
+              "uuid": "445a3284432e3c69b48b558e9ec708bb"
             }
           }
         ]
