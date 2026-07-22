@@ -235,6 +235,7 @@ layout_options:
 | 8458 | E4+1 | [channels/8458.json](https://elyobelyob.github.io/freely_tv_guide/channels/8458.json) |
 | 16180 | EuroNews | [channels/16180.json](https://elyobelyob.github.io/freely_tv_guide/channels/16180.json) |
 | 16370 | FRANCE 24 | [channels/16370.json](https://elyobelyob.github.io/freely_tv_guide/channels/16370.json) |
+| 34816 | Faith TV | [channels/34816.json](https://elyobelyob.github.io/freely_tv_guide/channels/34816.json) |
 | 37901 | Film4 | [channels/37901.json](https://elyobelyob.github.io/freely_tv_guide/channels/37901.json) |
 | 22464 | Film4+1 | [channels/22464.json](https://elyobelyob.github.io/freely_tv_guide/channels/22464.json) |
 | 39430 | Food Network | [channels/39430.json](https://elyobelyob.github.io/freely_tv_guide/channels/39430.json) |
