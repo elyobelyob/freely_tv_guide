@@ -120,6 +120,16 @@ layout_options:
 | 37899 | 4seven | [channels/37899.json](https://elyobelyob.github.io/freely_tv_guide/channels/37899.json) |
 | 38145 | 5 | [channels/38145.json](https://elyobelyob.github.io/freely_tv_guide/channels/38145.json) |
 | 13024 | 5 +1 | [channels/13024.json](https://elyobelyob.github.io/freely_tv_guide/channels/13024.json) |
+| 38152 | 5 A&E | [channels/38152.json](https://elyobelyob.github.io/freely_tv_guide/channels/38152.json) |
+| 38157 | 5 Bargain Loving Brits | [channels/38157.json](https://elyobelyob.github.io/freely_tv_guide/channels/38157.json) |
+| 38150 | 5 Cops | [channels/38150.json](https://elyobelyob.github.io/freely_tv_guide/channels/38150.json) |
+| 38153 | 5 Crime | [channels/38153.json](https://elyobelyob.github.io/freely_tv_guide/channels/38153.json) |
+| 38159 | 5 History | [channels/38159.json](https://elyobelyob.github.io/freely_tv_guide/channels/38159.json) |
+| 38155 | 5 Medical | [channels/38155.json](https://elyobelyob.github.io/freely_tv_guide/channels/38155.json) |
+| 38154 | 5 Movies | [channels/38154.json](https://elyobelyob.github.io/freely_tv_guide/channels/38154.json) |
+| 38151 | 5 Police Interceptors | [channels/38151.json](https://elyobelyob.github.io/freely_tv_guide/channels/38151.json) |
+| 38158 | 5 Trucking Hell | [channels/38158.json](https://elyobelyob.github.io/freely_tv_guide/channels/38158.json) |
+| 38156 | 5 Yorkshire Vet | [channels/38156.json](https://elyobelyob.github.io/freely_tv_guide/channels/38156.json) |
 | 38146 | 5ACTION | [channels/38146.json](https://elyobelyob.github.io/freely_tv_guide/channels/38146.json) |
 | 38147 | 5SELECT | [channels/38147.json](https://elyobelyob.github.io/freely_tv_guide/channels/38147.json) |
 | 38148 | 5STAR | [channels/38148.json](https://elyobelyob.github.io/freely_tv_guide/channels/38148.json) |
@@ -274,6 +284,7 @@ layout_options:
 | 38418 | London TV | [channels/38418.json](https://elyobelyob.github.io/freely_tv_guide/channels/38418.json) |
 | 13144 | MBC | [channels/13144.json](https://elyobelyob.github.io/freely_tv_guide/channels/13144.json) |
 | 33664 | MBC Group | [channels/33664.json](https://elyobelyob.github.io/freely_tv_guide/channels/33664.json) |
+| 38160 | Milkshake! | [channels/38160.json](https://elyobelyob.github.io/freely_tv_guide/channels/38160.json) |
 | 37902 | More4 | [channels/37902.json](https://elyobelyob.github.io/freely_tv_guide/channels/37902.json) |
 | 16218 | Music & Memories | [channels/16218.json](https://elyobelyob.github.io/freely_tv_guide/channels/16218.json) |
 | 23680 | Must Have Ideas | [channels/23680.json](https://elyobelyob.github.io/freely_tv_guide/channels/23680.json) |
