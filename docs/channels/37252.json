@@ -250,7 +250,7 @@
         "event_locator": "dvb://233a..9184;47f1",
         "main_title": "BBC News",
         "secondary_title": "30/07/2026",
-        "image_url": "https://img.freeviewplay.tv/pebcd36f30342e3d8701596d34ae2ff81",
+        "image_url": "https://img.freeviewplay.tv/p1bbe386c58d101cc41c17d0450ab599c",
         "start_time": "2026-07-30T05:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -326,7 +326,7 @@
         "event_locator": "dvb://233a..9184;4a00",
         "main_title": "BBC News",
         "secondary_title": "30/07/2026",
-        "image_url": "https://img.freeviewplay.tv/pebcd36f30342e3d8701596d34ae2ff81",
+        "image_url": "https://img.freeviewplay.tv/p1bbe386c58d101cc41c17d0450ab599c",
         "start_time": "2026-07-30T07:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -346,7 +346,7 @@
         "event_locator": "dvb://233a..9184;47f6",
         "main_title": "BBC News",
         "secondary_title": "30/07/2026",
-        "image_url": "https://img.freeviewplay.tv/pebcd36f30342e3d8701596d34ae2ff81",
+        "image_url": "https://img.freeviewplay.tv/p1bbe386c58d101cc41c17d0450ab599c",
         "start_time": "2026-07-30T07:30:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -446,7 +446,7 @@
         "event_locator": "dvb://233a..9184;47fb",
         "main_title": "BBC News",
         "secondary_title": "30/07/2026",
-        "image_url": "https://img.freeviewplay.tv/pebcd36f30342e3d8701596d34ae2ff81",
+        "image_url": "https://img.freeviewplay.tv/p1bbe386c58d101cc41c17d0450ab599c",
         "start_time": "2026-07-30T10:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -484,7 +484,7 @@
         "event_locator": "dvb://233a..9184;47fd",
         "main_title": "BBC News",
         "secondary_title": "30/07/2026",
-        "image_url": "https://img.freeviewplay.tv/pebcd36f30342e3d8701596d34ae2ff81",
+        "image_url": "https://img.freeviewplay.tv/p1bbe386c58d101cc41c17d0450ab599c",
         "start_time": "2026-07-30T10:45:00+0000",
         "duration": "PT15M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -684,7 +684,7 @@
         "event_locator": "dvb://233a..9184;4808",
         "main_title": "Verified Live",
         "secondary_title": "30/07/2026",
-        "image_url": "https://img.freeviewplay.tv/p1de7ffc832f68dcdfec3e25f2d60801f",
+        "image_url": "https://img.freeviewplay.tv/pcd6cce2522ab073a1f076f9bbc6e969e",
         "start_time": "2026-07-30T15:45:00+0000",
         "duration": "PT15M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -890,36 +890,60 @@
       "startTime": "2026-07-30T21:00:00+0000",
       "duration": 30,
       "name": "BBC News at Ten",
-      "description": "",
+      "description": "30/07/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/9b1fe62f-7cd5-417e-ac0c-45defabdc273",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002zk9t",
         "event_locator": "dvb://233a..9184;4813",
         "main_title": "BBC News at Ten",
+        "secondary_title": "30/07/2026",
+        "image_url": "https://img.freeviewplay.tv/p5166712f4e7113a100015bf8dfb29d86",
         "start_time": "2026-07-30T21:00:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-07-30T21:31:30+0000",
+          "end_of_availability": "2026-07-31T21:31:30+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zk9t&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e0693ec4b670370a7c0d4f7ea008e6df0",
-        "uuid": "b58620cea5005fb7f007e287b764578c"
+        "uuid": "c3f0108b942fd9d066a673cbc759155e"
       }
     },
     {
       "startTime": "2026-07-30T21:30:00+0000",
       "duration": 30,
       "name": "Newsnight",
-      "description": "",
+      "description": "30/07/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/ebd3399f-de07-4ed7-9595-c56d0bd123f2",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002zkd4",
         "event_locator": "dvb://233a..9184;4814",
         "main_title": "Newsnight",
+        "secondary_title": "30/07/2026",
+        "image_url": "https://img.freeviewplay.tv/p8ca12341613f23ba2c7c9ae4399720aa",
         "start_time": "2026-07-30T21:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-07-30T22:01:30+0000",
+          "end_of_availability": "2027-07-30T22:01:30+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zkd4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/edc3515102cb6ee53ee46f2da1e4fa6b1",
-        "uuid": "9593bf64098b3c236a4be30738e888d7"
+        "uuid": "ff905829a2d6df7b17b7fc5b0465f90e"
       }
     },
     {
@@ -964,18 +988,30 @@
       "startTime": "2026-07-30T23:30:00+0000",
       "duration": 30,
       "name": "Newscast",
-      "description": "",
+      "description": "30/07/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/e0fbf301-f232-4475-97b1-8b4b4e94ec8e",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002znr6",
         "event_locator": "dvb://233a..9184;484b",
         "main_title": "Newscast",
+        "secondary_title": "30/07/2026",
+        "image_url": "https://img.freeviewplay.tv/pf6414764ea4f3ca9722ccc9b2bd9924f",
         "start_time": "2026-07-30T23:30:00+0000",
         "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-07-31T00:00:00+0000",
+          "end_of_availability": "2026-08-29T23:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002znr6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e092478be76a663037e099bfe410f2080",
-        "uuid": "751ce9e17f94ab41b26435b066b8304c"
+        "uuid": "8ac09ad7506ac1a44c7a803aa749ccbc"
       }
     }
   ],
@@ -1229,7 +1265,7 @@
               "event_locator": "dvb://233a..9184;47f1",
               "main_title": "BBC News",
               "secondary_title": "30/07/2026",
-              "image_url": "https://img.freeviewplay.tv/pebcd36f30342e3d8701596d34ae2ff81",
+              "image_url": "https://img.freeviewplay.tv/p1bbe386c58d101cc41c17d0450ab599c",
               "start_time": "2026-07-30T05:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1305,7 +1341,7 @@
               "event_locator": "dvb://233a..9184;4a00",
               "main_title": "BBC News",
               "secondary_title": "30/07/2026",
-              "image_url": "https://img.freeviewplay.tv/pebcd36f30342e3d8701596d34ae2ff81",
+              "image_url": "https://img.freeviewplay.tv/p1bbe386c58d101cc41c17d0450ab599c",
               "start_time": "2026-07-30T07:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1325,7 +1361,7 @@
               "event_locator": "dvb://233a..9184;47f6",
               "main_title": "BBC News",
               "secondary_title": "30/07/2026",
-              "image_url": "https://img.freeviewplay.tv/pebcd36f30342e3d8701596d34ae2ff81",
+              "image_url": "https://img.freeviewplay.tv/p1bbe386c58d101cc41c17d0450ab599c",
               "start_time": "2026-07-30T07:30:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1425,7 +1461,7 @@
               "event_locator": "dvb://233a..9184;47fb",
               "main_title": "BBC News",
               "secondary_title": "30/07/2026",
-              "image_url": "https://img.freeviewplay.tv/pebcd36f30342e3d8701596d34ae2ff81",
+              "image_url": "https://img.freeviewplay.tv/p1bbe386c58d101cc41c17d0450ab599c",
               "start_time": "2026-07-30T10:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1463,7 +1499,7 @@
               "event_locator": "dvb://233a..9184;47fd",
               "main_title": "BBC News",
               "secondary_title": "30/07/2026",
-              "image_url": "https://img.freeviewplay.tv/pebcd36f30342e3d8701596d34ae2ff81",
+              "image_url": "https://img.freeviewplay.tv/p1bbe386c58d101cc41c17d0450ab599c",
               "start_time": "2026-07-30T10:45:00+0000",
               "duration": "PT15M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1663,7 +1699,7 @@
               "event_locator": "dvb://233a..9184;4808",
               "main_title": "Verified Live",
               "secondary_title": "30/07/2026",
-              "image_url": "https://img.freeviewplay.tv/p1de7ffc832f68dcdfec3e25f2d60801f",
+              "image_url": "https://img.freeviewplay.tv/pcd6cce2522ab073a1f076f9bbc6e969e",
               "start_time": "2026-07-30T15:45:00+0000",
               "duration": "PT15M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1869,36 +1905,60 @@
             "startTime": "2026-07-30T21:00:00+0000",
             "duration": 30,
             "name": "BBC News at Ten",
-            "description": "",
+            "description": "30/07/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/9b1fe62f-7cd5-417e-ac0c-45defabdc273",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002zk9t",
               "event_locator": "dvb://233a..9184;4813",
               "main_title": "BBC News at Ten",
+              "secondary_title": "30/07/2026",
+              "image_url": "https://img.freeviewplay.tv/p5166712f4e7113a100015bf8dfb29d86",
               "start_time": "2026-07-30T21:00:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-07-30T21:31:30+0000",
+                "end_of_availability": "2026-07-31T21:31:30+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zk9t&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e0693ec4b670370a7c0d4f7ea008e6df0",
-              "uuid": "b58620cea5005fb7f007e287b764578c"
+              "uuid": "c3f0108b942fd9d066a673cbc759155e"
             }
           },
           {
             "startTime": "2026-07-30T21:30:00+0000",
             "duration": 30,
             "name": "Newsnight",
-            "description": "",
+            "description": "30/07/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/ebd3399f-de07-4ed7-9595-c56d0bd123f2",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002zkd4",
               "event_locator": "dvb://233a..9184;4814",
               "main_title": "Newsnight",
+              "secondary_title": "30/07/2026",
+              "image_url": "https://img.freeviewplay.tv/p8ca12341613f23ba2c7c9ae4399720aa",
               "start_time": "2026-07-30T21:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-07-30T22:01:30+0000",
+                "end_of_availability": "2027-07-30T22:01:30+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zkd4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/edc3515102cb6ee53ee46f2da1e4fa6b1",
-              "uuid": "9593bf64098b3c236a4be30738e888d7"
+              "uuid": "ff905829a2d6df7b17b7fc5b0465f90e"
             }
           },
           {
@@ -1943,18 +2003,30 @@
             "startTime": "2026-07-30T23:30:00+0000",
             "duration": 30,
             "name": "Newscast",
-            "description": "",
+            "description": "30/07/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/e0fbf301-f232-4475-97b1-8b4b4e94ec8e",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002znr6",
               "event_locator": "dvb://233a..9184;484b",
               "main_title": "Newscast",
+              "secondary_title": "30/07/2026",
+              "image_url": "https://img.freeviewplay.tv/pf6414764ea4f3ca9722ccc9b2bd9924f",
               "start_time": "2026-07-30T23:30:00+0000",
               "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-07-31T00:00:00+0000",
+                "end_of_availability": "2026-08-29T23:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002znr6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e092478be76a663037e099bfe410f2080",
-              "uuid": "751ce9e17f94ab41b26435b066b8304c"
+              "uuid": "8ac09ad7506ac1a44c7a803aa749ccbc"
             }
           }
         ]

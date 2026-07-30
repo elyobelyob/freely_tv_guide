@@ -8,18 +8,20 @@
       "startTime": "2026-07-30T04:30:00+0000",
       "duration": 90,
       "name": "This is CBBC!",
-      "description": "",
+      "description": "This is CBBC!",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/2785887f-229e-495b-a171-01b821345afd",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0001j5f",
         "event_locator": "dvb://233a..919b;78cb",
         "main_title": "This is CBBC!",
+        "secondary_title": "This is CBBC!",
+        "image_url": "https://img.freeviewplay.tv/pac6f5338cb209460533f978542c5195a",
         "start_time": "2026-07-30T04:30:00+0000",
         "duration": "PT1H30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
         "fallback_image_url": "http://img.freeviewplay.net/e0af47b61ca09c0164d8074ec28c07911",
-        "uuid": "a91c057ec97272dd2eb494d4cbf25c64"
+        "uuid": "cc2d3c93a4def1b765b38220e9b1243b"
       }
     },
     {
@@ -235,19 +237,31 @@
     {
       "startTime": "2026-07-30T07:55:00+0000",
       "duration": 10,
-      "name": "New: The Amazing World of Gumball",
-      "description": "",
+      "name": "The Amazing World of Gumball",
+      "description": "Series 1: 9. The Pressure",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/59074cd9-2bac-4d6b-abbf-c8f03b6302c8",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002ydn4",
         "event_locator": "dvb://233a..919b;7812",
-        "main_title": "New: The Amazing World of Gumball",
+        "main_title": "The Amazing World of Gumball",
+        "secondary_title": "Series 1: 9. The Pressure",
+        "image_url": "https://img.freeviewplay.tv/pf578e1b6fa7c69f3798aeb41a230c834",
         "start_time": "2026-07-30T07:55:00+0000",
         "duration": "PT10M",
+        "on_demand": {
+          "start_of_availability": "2026-07-10T03:00:00+0000",
+          "end_of_availability": "2028-06-30T03:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002ydn4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
         "fallback_image_url": "http://img.freeviewplay.net/e7fa4c039f7e862fe9918d9c10e59c255",
-        "uuid": "b6067540613e50fbf63b2f641e282434"
+        "uuid": "112178263a5e2fd34a531057eb8dd091"
       }
     },
     {
@@ -271,19 +285,31 @@
     {
       "startTime": "2026-07-30T08:30:00+0000",
       "duration": 25,
-      "name": "New: Mystery Lane",
-      "description": "",
+      "name": "Mystery Lane",
+      "description": "Series 1: The Diamond Gnome",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/9836b8a3-942f-4f0c-b7e0-aa65ff49bdc3",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002xsh4",
         "event_locator": "dvb://233a..919b;7814",
-        "main_title": "New: Mystery Lane",
+        "main_title": "Mystery Lane",
+        "secondary_title": "Series 1: The Diamond Gnome",
+        "image_url": "https://img.freeviewplay.tv/p960f91546d95e7f159a9d1037718b00a",
         "start_time": "2026-07-30T08:30:00+0000",
         "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2026-07-17T03:00:00+0000",
+          "end_of_availability": "2030-07-16T03:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002xsh4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
         "fallback_image_url": "http://img.freeviewplay.net/e16c13368f017c343444c699437cffaa7",
-        "uuid": "de779c4fcf548c884d138b8bf0c3c819"
+        "uuid": "643f2b1364927764228766cb6b4baf78"
       }
     },
     {
@@ -1008,14 +1034,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/976c1734-de07-4f7b-9ed3-bef81132fe3f",
+        "program_id": "crid://csi.digitaluk.co.uk/e24f9eba-4497-4456-87f2-240318f2ee36",
         "event_locator": "dvb://233a..919b;783a",
         "main_title": "This is CBBC!",
         "start_time": "2026-07-30T17:58:00+0000",
         "duration": "PT10H32M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "fallback_image_url": "http://img.freeviewplay.net/e0af47b61ca09c0164d8074ec28c07911",
-        "uuid": "24800831713eaf217ffad98f82f4fa5c"
+        "uuid": "b96b87194535898a55504fa237114398"
       }
     }
   ],
@@ -1027,18 +1053,20 @@
             "startTime": "2026-07-30T04:30:00+0000",
             "duration": 90,
             "name": "This is CBBC!",
-            "description": "",
+            "description": "This is CBBC!",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/2785887f-229e-495b-a171-01b821345afd",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0001j5f",
               "event_locator": "dvb://233a..919b;78cb",
               "main_title": "This is CBBC!",
+              "secondary_title": "This is CBBC!",
+              "image_url": "https://img.freeviewplay.tv/pac6f5338cb209460533f978542c5195a",
               "start_time": "2026-07-30T04:30:00+0000",
               "duration": "PT1H30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
               "fallback_image_url": "http://img.freeviewplay.net/e0af47b61ca09c0164d8074ec28c07911",
-              "uuid": "a91c057ec97272dd2eb494d4cbf25c64"
+              "uuid": "cc2d3c93a4def1b765b38220e9b1243b"
             }
           },
           {
@@ -1254,19 +1282,31 @@
           {
             "startTime": "2026-07-30T07:55:00+0000",
             "duration": 10,
-            "name": "New: The Amazing World of Gumball",
-            "description": "",
+            "name": "The Amazing World of Gumball",
+            "description": "Series 1: 9. The Pressure",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/59074cd9-2bac-4d6b-abbf-c8f03b6302c8",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002ydn4",
               "event_locator": "dvb://233a..919b;7812",
-              "main_title": "New: The Amazing World of Gumball",
+              "main_title": "The Amazing World of Gumball",
+              "secondary_title": "Series 1: 9. The Pressure",
+              "image_url": "https://img.freeviewplay.tv/pf578e1b6fa7c69f3798aeb41a230c834",
               "start_time": "2026-07-30T07:55:00+0000",
               "duration": "PT10M",
+              "on_demand": {
+                "start_of_availability": "2026-07-10T03:00:00+0000",
+                "end_of_availability": "2028-06-30T03:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002ydn4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
               "fallback_image_url": "http://img.freeviewplay.net/e7fa4c039f7e862fe9918d9c10e59c255",
-              "uuid": "b6067540613e50fbf63b2f641e282434"
+              "uuid": "112178263a5e2fd34a531057eb8dd091"
             }
           },
           {
@@ -1290,19 +1330,31 @@
           {
             "startTime": "2026-07-30T08:30:00+0000",
             "duration": 25,
-            "name": "New: Mystery Lane",
-            "description": "",
+            "name": "Mystery Lane",
+            "description": "Series 1: The Diamond Gnome",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/9836b8a3-942f-4f0c-b7e0-aa65ff49bdc3",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002xsh4",
               "event_locator": "dvb://233a..919b;7814",
-              "main_title": "New: Mystery Lane",
+              "main_title": "Mystery Lane",
+              "secondary_title": "Series 1: The Diamond Gnome",
+              "image_url": "https://img.freeviewplay.tv/p960f91546d95e7f159a9d1037718b00a",
               "start_time": "2026-07-30T08:30:00+0000",
               "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2026-07-17T03:00:00+0000",
+                "end_of_availability": "2030-07-16T03:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002xsh4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
               "fallback_image_url": "http://img.freeviewplay.net/e16c13368f017c343444c699437cffaa7",
-              "uuid": "de779c4fcf548c884d138b8bf0c3c819"
+              "uuid": "643f2b1364927764228766cb6b4baf78"
             }
           },
           {
@@ -2027,14 +2079,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/976c1734-de07-4f7b-9ed3-bef81132fe3f",
+              "program_id": "crid://csi.digitaluk.co.uk/e24f9eba-4497-4456-87f2-240318f2ee36",
               "event_locator": "dvb://233a..919b;783a",
               "main_title": "This is CBBC!",
               "start_time": "2026-07-30T17:58:00+0000",
               "duration": "PT10H32M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "fallback_image_url": "http://img.freeviewplay.net/e0af47b61ca09c0164d8074ec28c07911",
-              "uuid": "24800831713eaf217ffad98f82f4fa5c"
+              "uuid": "b96b87194535898a55504fa237114398"
             }
           }
         ]
