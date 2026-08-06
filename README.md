@@ -135,6 +135,7 @@ layout_options:
 | 38148 | 5STAR | [channels/38148.json](https://elyobelyob.github.io/freely_tv_guide/channels/38148.json) |
 | 38149 | 5USA | [channels/38149.json](https://elyobelyob.github.io/freely_tv_guide/channels/38149.json) |
 | 34240 | AL ARABIYA | [channels/34240.json](https://elyobelyob.github.io/freely_tv_guide/channels/34240.json) |
+| 38921 | AMC REALITY | [channels/38921.json](https://elyobelyob.github.io/freely_tv_guide/channels/38921.json) |
 | 34304 | ASHARQ NEWS | [channels/34304.json](https://elyobelyob.github.io/freely_tv_guide/channels/34304.json) |
 | 16284 | Al Jazeera Arabic | [channels/16284.json](https://elyobelyob.github.io/freely_tv_guide/channels/16284.json) |
 | 16278 | Al Jazeera English | [channels/16278.json](https://elyobelyob.github.io/freely_tv_guide/channels/16278.json) |
@@ -225,6 +226,7 @@ layout_options:
 | 37569 | BBC Wiltshire | [channels/37569.json](https://elyobelyob.github.io/freely_tv_guide/channels/37569.json) |
 | 37406 | BBC World Service | [channels/37406.json](https://elyobelyob.github.io/freely_tv_guide/channels/37406.json) |
 | 37578 | BBC York | [channels/37578.json](https://elyobelyob.github.io/freely_tv_guide/channels/37578.json) |
+| 38920 | BLOODLINE DETECTIVES | [channels/38920.json](https://elyobelyob.github.io/freely_tv_guide/channels/38920.json) |
 | 40707 | Blaze | [channels/40707.json](https://elyobelyob.github.io/freely_tv_guide/channels/40707.json) |
 | 14388 | Blaze+1 | [channels/14388.json](https://elyobelyob.github.io/freely_tv_guide/channels/14388.json) |
 | 37275 | CBBC | [channels/37275.json](https://elyobelyob.github.io/freely_tv_guide/channels/37275.json) |
@@ -243,6 +245,7 @@ layout_options:
 | 37900 | E4 | [channels/37900.json](https://elyobelyob.github.io/freely_tv_guide/channels/37900.json) |
 | 22368 | E4 Extra | [channels/22368.json](https://elyobelyob.github.io/freely_tv_guide/channels/22368.json) |
 | 8458 | E4+1 | [channels/8458.json](https://elyobelyob.github.io/freely_tv_guide/channels/8458.json) |
+| 38919 | EVIDENCE OF EVIL | [channels/38919.json](https://elyobelyob.github.io/freely_tv_guide/channels/38919.json) |
 | 16180 | EuroNews | [channels/16180.json](https://elyobelyob.github.io/freely_tv_guide/channels/16180.json) |
 | 16370 | FRANCE 24 | [channels/16370.json](https://elyobelyob.github.io/freely_tv_guide/channels/16370.json) |
 | 34816 | Faith TV | [channels/34816.json](https://elyobelyob.github.io/freely_tv_guide/channels/34816.json) |
@@ -281,6 +284,7 @@ layout_options:
 | 22880 | LBC | [channels/22880.json](https://elyobelyob.github.io/freely_tv_guide/channels/22880.json) |
 | 38915 | LEGEND | [channels/38915.json](https://elyobelyob.github.io/freely_tv_guide/channels/38915.json) |
 | 38916 | LEGEND XTRA | [channels/38916.json](https://elyobelyob.github.io/freely_tv_guide/channels/38916.json) |
+| 38917 | LOVE AFTER LOCKUP | [channels/38917.json](https://elyobelyob.github.io/freely_tv_guide/channels/38917.json) |
 | 38418 | London TV | [channels/38418.json](https://elyobelyob.github.io/freely_tv_guide/channels/38418.json) |
 | 13144 | MBC | [channels/13144.json](https://elyobelyob.github.io/freely_tv_guide/channels/13144.json) |
 | 33664 | MBC Group | [channels/33664.json](https://elyobelyob.github.io/freely_tv_guide/channels/33664.json) |
@@ -327,6 +331,7 @@ layout_options:
 | 39426 | TLC | [channels/39426.json](https://elyobelyob.github.io/freely_tv_guide/channels/39426.json) |
 | 34688 | TLC+1 | [channels/34688.json](https://elyobelyob.github.io/freely_tv_guide/channels/34688.json) |
 | 38913 | TRUE CRIME | [channels/38913.json](https://elyobelyob.github.io/freely_tv_guide/channels/38913.json) |
+| 38918 | TRUE CRIME UK | [channels/38918.json](https://elyobelyob.github.io/freely_tv_guide/channels/38918.json) |
 | 38914 | TRUE CRIME XTRA | [channels/38914.json](https://elyobelyob.github.io/freely_tv_guide/channels/38914.json) |
 | 40708 | TalkingPictures TV | [channels/40708.json](https://elyobelyob.github.io/freely_tv_guide/channels/40708.json) |
 | 8700 | That's 20th Century | [channels/8700.json](https://elyobelyob.github.io/freely_tv_guide/channels/8700.json) |
