@@ -5,27 +5,77 @@
   },
   "events": [
     {
-      "startTime": "2026-08-08T00:00:00+0000",
+      "startTime": "2026-08-09T00:00:00+0000",
       "duration": 30,
       "name": "BBC News",
-      "description": "08/08/2026",
+      "description": "09/08/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030735",
-        "event_locator": "dvb://233a..9184;4a1e",
+        "program_id": "crid://bbc.co.uk/icc/episode/m003075f",
+        "event_locator": "dvb://233a..9184;4a45",
         "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T00:00:00+0000",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T00:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "cee9d855bccee900f6a9ea0d0200e6c7"
+        "uuid": "d45d93f4facb1bd733387849e3fcef8c"
       }
     },
     {
-      "startTime": "2026-08-08T00:30:00+0000",
+      "startTime": "2026-08-09T00:30:00+0000",
+      "duration": 30,
+      "name": "Rachel Khoo's Kitchen Notebook",
+      "description": "Cosmopolitan Cook: Istanbul",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030744",
+        "event_locator": "dvb://233a..9184;4a46",
+        "main_title": "Rachel Khoo's Kitchen Notebook",
+        "secondary_title": "Cosmopolitan Cook: Istanbul",
+        "image_url": "https://img.freeviewplay.tv/p32a31a4149b2d552d88ec027285877c1",
+        "start_time": "2026-08-09T00:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-08-09T01:00:00+0000",
+          "end_of_availability": "2026-09-08T00:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030744&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ecbcd7f52ff822de854669a4e7404c570",
+        "uuid": "afa0aeecd342da4651b7cb601530f41e"
+      }
+    },
+    {
+      "startTime": "2026-08-09T01:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003075h",
+        "event_locator": "dvb://233a..9184;4a47",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T01:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "85fb22a42af759a64d5dbbb7b9a7f411"
+      }
+    },
+    {
+      "startTime": "2026-08-09T01:30:00+0000",
       "duration": 30,
       "name": "Tech Now",
       "description": "Race for the Ultimate Supercomputer",
@@ -33,11 +83,11 @@
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m002z2l5",
-        "event_locator": "dvb://233a..9184;4a1f",
+        "event_locator": "dvb://233a..9184;4b77",
         "main_title": "Tech Now",
         "secondary_title": "Race for the Ultimate Supercomputer",
         "image_url": "https://img.freeviewplay.tv/p0dd7b750097ca1b04de67a8e77542921",
-        "start_time": "2026-08-08T00:30:00+0000",
+        "start_time": "2026-08-09T01:30:00+0000",
         "duration": "PT30M",
         "on_demand": {
           "start_of_availability": "2026-07-11T01:00:00+0000",
@@ -51,461 +101,31 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/eede0e7d70f8c3fe8d46f0f7cd70a4aaa",
-        "uuid": "7e122a8213dfc00d92ebf19123f4df86"
+        "uuid": "08f8c9b12f85c7f1e8565673acaf0e13"
       }
     },
     {
-      "startTime": "2026-08-08T01:00:00+0000",
+      "startTime": "2026-08-09T02:00:00+0000",
       "duration": 30,
       "name": "BBC News",
-      "description": "08/08/2026",
+      "description": "09/08/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030737",
-        "event_locator": "dvb://233a..9184;4a20",
+        "program_id": "crid://bbc.co.uk/icc/episode/m003075k",
+        "event_locator": "dvb://233a..9184;4a49",
         "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-        "start_time": "2026-08-08T01:00:00+0000",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T02:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "3b3e552649ce9f46d678c98ed54f18ef"
+        "uuid": "c9f50d51be92a986cfe383e8bb273d04"
       }
     },
     {
-      "startTime": "2026-08-08T01:30:00+0000",
-      "duration": 30,
-      "name": "Clive Myrie’s Caribbean Adventure",
-      "description": "Series 1: 15. Puerto Plata - Dominican Republic",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m001zpp8",
-        "event_locator": "dvb://233a..9184;4a21",
-        "main_title": "Clive Myrie’s Caribbean Adventure",
-        "secondary_title": "Series 1: 15. Puerto Plata - Dominican Republic",
-        "image_url": "https://img.freeviewplay.tv/p250cbfbd53afb82653e79723410f9737",
-        "start_time": "2026-08-08T01:30:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-08-08T02:00:00+0000",
-          "end_of_availability": "2026-09-08T23:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001zpp8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e4559fdd760ef8cbb66aa4e01f9309059",
-        "uuid": "dfbf7ee87c35cb1622d040b35e53fcf5"
-      }
-    },
-    {
-      "startTime": "2026-08-08T02:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003073b",
-        "event_locator": "dvb://233a..9184;4a22",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-        "start_time": "2026-08-08T02:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "b8aa6df8fb6310121a94ad9826cbff0f"
-      }
-    },
-    {
-      "startTime": "2026-08-08T02:30:00+0000",
-      "duration": 30,
-      "name": "The Big Cases",
-      "description": "Funeral Home Horror",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002hgy9",
-        "event_locator": "dvb://233a..9184;4b71",
-        "main_title": "The Big Cases",
-        "secondary_title": "Funeral Home Horror",
-        "image_url": "https://img.freeviewplay.tv/p0891f7b2bcf47cd01c8df5b17f2dd4ec",
-        "start_time": "2026-08-08T02:30:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-07-31T14:00:00+0000",
-          "end_of_availability": "2027-07-31T14:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002hgy9&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e3b8db55f155bb304af30bab7c40828db",
-        "uuid": "88d883f8556f9c34dd3f8ed43878b36d"
-      }
-    },
-    {
-      "startTime": "2026-08-08T03:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003073d",
-        "event_locator": "dvb://233a..9184;4a24",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T03:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "0c8621516fec86d86ad0878bd2ebc2cc"
-      }
-    },
-    {
-      "startTime": "2026-08-08T03:30:00+0000",
-      "duration": 30,
-      "name": "The Climate Question",
-      "description": "How Hot Could Our Planet Get?",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002x05j",
-        "event_locator": "dvb://233a..9184;4a25",
-        "main_title": "The Climate Question",
-        "secondary_title": "How Hot Could Our Planet Get?",
-        "image_url": "https://img.freeviewplay.tv/pe292d024eac28fade8ef6268d2e4b2ef",
-        "start_time": "2026-08-08T03:30:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-05-23T03:00:00+0000",
-          "end_of_availability": "2027-05-23T02:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002x05j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e532f50ebbb1d713a1d6d6b4bb4a1889a",
-        "uuid": "8383b973b652e7c10f8e434d19e2246b"
-      }
-    },
-    {
-      "startTime": "2026-08-08T04:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003073g",
-        "event_locator": "dvb://233a..9184;4a26",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T04:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "8a6447f0a46ca5e1c12535269c64acc9"
-      }
-    },
-    {
-      "startTime": "2026-08-08T04:30:00+0000",
-      "duration": 30,
-      "name": "The Travel Show",
-      "description": "France: Bistros Bite Back",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002xlsh",
-        "event_locator": "dvb://233a..9184;4a27",
-        "main_title": "The Travel Show",
-        "secondary_title": "France: Bistros Bite Back",
-        "image_url": "https://img.freeviewplay.tv/p7eef7bf3be61286880ec86e50e70c01d",
-        "start_time": "2026-08-08T04:30:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-06-06T05:00:00+0000",
-          "end_of_availability": "2027-06-06T04:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002xlsh&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ee589718ab2a2ce184b30bd9edff06305",
-        "uuid": "21f04ae7c72a6524c491f07f5394c67c"
-      }
-    },
-    {
-      "startTime": "2026-08-08T05:00:00+0000",
-      "duration": 180,
-      "name": "Breakfast",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m00303n6",
-        "event_locator": "dvb://233a..9184;4a28",
-        "main_title": "Breakfast",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p3b81baa8a4091bfa3c629eca29f62dae",
-        "start_time": "2026-08-08T05:00:00+0000",
-        "duration": "PT3H",
-        "on_demand": {
-          "start_of_availability": "2026-08-08T09:00:15+0000",
-          "end_of_availability": "2026-08-09T09:00:15+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00303n6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e3a42ed932bf359b1a037197b9b384851",
-        "uuid": "6a55c09a300d6624f22b9f2e900dc62f"
-      }
-    },
-    {
-      "startTime": "2026-08-08T08:00:00+0000",
-      "duration": 60,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003073q",
-        "event_locator": "dvb://233a..9184;4a29",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T08:00:00+0000",
-        "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "3bc18ec53b103e11d066576979238776"
-      }
-    },
-    {
-      "startTime": "2026-08-08T09:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003073s",
-        "event_locator": "dvb://233a..9184;4a2a",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T09:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "9619a68fcf73f10237ac4ff7b1bcbd3a"
-      }
-    },
-    {
-      "startTime": "2026-08-08T09:30:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003074y",
-        "event_locator": "dvb://233a..9184;4a2b",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-        "start_time": "2026-08-08T09:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "d2744cbd682dbdea2c4a4627bc2dd500"
-      }
-    },
-    {
-      "startTime": "2026-08-08T10:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003073w",
-        "event_locator": "dvb://233a..9184;4a2c",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T10:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "6c21d2fe3f823d27d268534ae0e07fbc"
-      }
-    },
-    {
-      "startTime": "2026-08-08T10:30:00+0000",
-      "duration": 30,
-      "name": "Talking Business",
-      "description": "07/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002zyjb",
-        "event_locator": "dvb://233a..9184;4a2d",
-        "main_title": "Talking Business",
-        "secondary_title": "07/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p48c037b841bd67ca50e53dd5002d9b83",
-        "start_time": "2026-08-08T10:30:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-08-08T00:00:00+0000",
-          "end_of_availability": "2027-08-07T23:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zyjb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e63f29618463b8cc01ae8280001018138",
-        "uuid": "a4ec2752cb25762d86d78005455a0400"
-      }
-    },
-    {
-      "startTime": "2026-08-08T11:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003073y",
-        "event_locator": "dvb://233a..9184;4a2e",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-        "start_time": "2026-08-08T11:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "cfa0776be3eb9692e87ac410811ac710"
-      }
-    },
-    {
-      "startTime": "2026-08-08T11:30:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030750",
-        "event_locator": "dvb://233a..9184;4a2f",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T11:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "abaac44f6632e0bb9c36b6bafdab6b41"
-      }
-    },
-    {
-      "startTime": "2026-08-08T12:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030742",
-        "event_locator": "dvb://233a..9184;4a30",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T12:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "8973ff5d4121c9d6e3b57055ec1f8850"
-      }
-    },
-    {
-      "startTime": "2026-08-08T12:30:00+0000",
-      "duration": 30,
-      "name": "Tech Now",
-      "description": "Race for the Ultimate Supercomputer",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002z2l5",
-        "event_locator": "dvb://233a..9184;4a31",
-        "main_title": "Tech Now",
-        "secondary_title": "Race for the Ultimate Supercomputer",
-        "image_url": "https://img.freeviewplay.tv/p0dd7b750097ca1b04de67a8e77542921",
-        "start_time": "2026-08-08T12:30:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-07-11T01:00:00+0000",
-          "end_of_availability": "2027-07-11T00:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002z2l5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e105cd9335c6fb79b552eb27b48d6aac4",
-        "uuid": "13eac6f52c0b02b619344a484882bbae"
-      }
-    },
-    {
-      "startTime": "2026-08-08T13:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030746",
-        "event_locator": "dvb://233a..9184;4a32",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T13:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "2bdfb25d6738ebe78db434b6dcb63c43"
-      }
-    },
-    {
-      "startTime": "2026-08-08T13:30:00+0000",
+      "startTime": "2026-08-09T02:30:00+0000",
       "duration": 30,
       "name": "AI Decoded",
       "description": "What Jobs Will AI Leave Us?",
@@ -513,11 +133,11 @@
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m002tvmv",
-        "event_locator": "dvb://233a..9184;4a33",
+        "event_locator": "dvb://233a..9184;4a4a",
         "main_title": "AI Decoded",
         "secondary_title": "What Jobs Will AI Leave Us?",
         "image_url": "https://img.freeviewplay.tv/p7a955090d0562268fdd2862e1b336da4",
-        "start_time": "2026-08-08T13:30:00+0000",
+        "start_time": "2026-08-09T02:30:00+0000",
         "duration": "PT30M",
         "on_demand": {
           "start_of_availability": "2026-04-04T14:00:00+0000",
@@ -531,221 +151,31 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e56a8c1cc610f99d8238e4220ffa20e23",
-        "uuid": "27c9cfbea65626de1589af7e20c45e96"
+        "uuid": "00115fe0983be26cd362c00488b07b1e"
       }
     },
     {
-      "startTime": "2026-08-08T14:00:00+0000",
+      "startTime": "2026-08-09T03:00:00+0000",
       "duration": 30,
       "name": "BBC News",
-      "description": "08/08/2026",
+      "description": "09/08/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030748",
-        "event_locator": "dvb://233a..9184;4a34",
+        "program_id": "crid://bbc.co.uk/icc/episode/m003075m",
+        "event_locator": "dvb://233a..9184;4a4b",
         "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T14:00:00+0000",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T03:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "ce4f419c1959125e06f2aba92877dfd9"
+        "uuid": "8a780766bf2d21b04d7d1b7b0ea96566"
       }
     },
     {
-      "startTime": "2026-08-08T14:30:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030752",
-        "event_locator": "dvb://233a..9184;4a35",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T14:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "4291aa2e26553aff89f210d64c4e56cc"
-      }
-    },
-    {
-      "startTime": "2026-08-08T15:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003074b",
-        "event_locator": "dvb://233a..9184;4b76",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T15:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "de03fd0cd17a118920cb51f3129a3996"
-      }
-    },
-    {
-      "startTime": "2026-08-08T15:30:00+0000",
-      "duration": 30,
-      "name": "The Climate Question",
-      "description": "How Hot Could Our Planet Get?",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002x05j",
-        "event_locator": "dvb://233a..9184;4a37",
-        "main_title": "The Climate Question",
-        "secondary_title": "How Hot Could Our Planet Get?",
-        "image_url": "https://img.freeviewplay.tv/pe292d024eac28fade8ef6268d2e4b2ef",
-        "start_time": "2026-08-08T15:30:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-05-23T03:00:00+0000",
-          "end_of_availability": "2027-05-23T02:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002x05j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e532f50ebbb1d713a1d6d6b4bb4a1889a",
-        "uuid": "b3ab3a8ce50a4667d00bf67599a8d21d"
-      }
-    },
-    {
-      "startTime": "2026-08-08T16:00:00+0000",
-      "duration": 60,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003074d",
-        "event_locator": "dvb://233a..9184;4a38",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-        "start_time": "2026-08-08T16:00:00+0000",
-        "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "d3cfc50051b9c37502dadb4259cd8b05"
-      }
-    },
-    {
-      "startTime": "2026-08-08T17:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003074g",
-        "event_locator": "dvb://233a..9184;4a39",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-        "start_time": "2026-08-08T17:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "da26085cc76d24c051ab7302b6de8eef"
-      }
-    },
-    {
-      "startTime": "2026-08-08T17:30:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030754",
-        "event_locator": "dvb://233a..9184;4a3a",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T17:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e49145e747446469dc6818427b9098414",
-        "uuid": "0ceee75d202baababd211bee4e5458d0"
-      }
-    },
-    {
-      "startTime": "2026-08-08T18:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003074j",
-        "event_locator": "dvb://233a..9184;4a3b",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-        "start_time": "2026-08-08T18:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "1fcd85d6603c121bd8400b5a7e9b3487"
-      }
-    },
-    {
-      "startTime": "2026-08-08T18:30:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030756",
-        "event_locator": "dvb://233a..9184;4a3c",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T18:30:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e49145e747446469dc6818427b9098414",
-        "uuid": "533e330b117dcf6091fafc2ac835bbb5"
-      }
-    },
-    {
-      "startTime": "2026-08-08T19:00:00+0000",
-      "duration": 30,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003074l",
-        "event_locator": "dvb://233a..9184;4a3d",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T19:00:00+0000",
-        "duration": "PT30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "b1eba81c87668d31d1b080605b595f5b"
-      }
-    },
-    {
-      "startTime": "2026-08-08T19:30:00+0000",
+      "startTime": "2026-08-09T03:30:00+0000",
       "duration": 30,
       "name": "Global Eye",
       "description": "A Journey Across Iran",
@@ -753,11 +183,11 @@
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m002zwgl",
-        "event_locator": "dvb://233a..9184;4a3e",
+        "event_locator": "dvb://233a..9184;4a4c",
         "main_title": "Global Eye",
         "secondary_title": "A Journey Across Iran",
         "image_url": "https://img.freeviewplay.tv/pd184012eafaacb9802fe5c8015c91554",
-        "start_time": "2026-08-08T19:30:00+0000",
+        "start_time": "2026-08-09T03:30:00+0000",
         "duration": "PT30M",
         "on_demand": {
           "start_of_availability": "2026-08-03T18:30:40+0000",
@@ -771,71 +201,281 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/ef47b32b79296e7e29b7fc7b017ff6292",
-        "uuid": "423d6666afbe03ea85c15b9b6a096c63"
+        "uuid": "232a0eb484e7882c5975df33eaa47413"
       }
     },
     {
-      "startTime": "2026-08-08T20:00:00+0000",
-      "duration": 60,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003074n",
-        "event_locator": "dvb://233a..9184;4a3f",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-        "start_time": "2026-08-08T20:00:00+0000",
-        "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "4806f5690213b6fa40063cc63b2b8cb8"
-      }
-    },
-    {
-      "startTime": "2026-08-08T21:00:00+0000",
-      "duration": 60,
-      "name": "BBC News",
-      "description": "08/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003074q",
-        "event_locator": "dvb://233a..9184;4a40",
-        "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-        "start_time": "2026-08-08T21:00:00+0000",
-        "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "b422618c8fec50b693b7fe1506535565"
-      }
-    },
-    {
-      "startTime": "2026-08-08T22:00:00+0000",
+      "startTime": "2026-08-09T04:00:00+0000",
       "duration": 30,
       "name": "BBC News",
-      "description": "08/08/2026",
+      "description": "09/08/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003074s",
-        "event_locator": "dvb://233a..9184;4a41",
+        "program_id": "crid://bbc.co.uk/icc/episode/m003075p",
+        "event_locator": "dvb://233a..9184;4a4d",
         "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-        "start_time": "2026-08-08T22:00:00+0000",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T04:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "25ca62928c502f57bda36e0d8332ef22"
+        "uuid": "dcacfab587d6cb8125d17fa5b91ad425"
       }
     },
     {
-      "startTime": "2026-08-08T22:30:00+0000",
+      "startTime": "2026-08-09T04:30:00+0000",
+      "duration": 30,
+      "name": "Clive Myrie’s Caribbean Adventure",
+      "description": "Series 1: 15. Puerto Plata - Dominican Republic",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m001zpp8",
+        "event_locator": "dvb://233a..9184;4a4e",
+        "main_title": "Clive Myrie’s Caribbean Adventure",
+        "secondary_title": "Series 1: 15. Puerto Plata - Dominican Republic",
+        "image_url": "https://img.freeviewplay.tv/p250cbfbd53afb82653e79723410f9737",
+        "start_time": "2026-08-09T04:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-08-08T02:00:00+0000",
+          "end_of_availability": "2026-09-08T23:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001zpp8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e4559fdd760ef8cbb66aa4e01f9309059",
+        "uuid": "7f0560450444543db93b8c3204d32318"
+      }
+    },
+    {
+      "startTime": "2026-08-09T05:00:00+0000",
+      "duration": 180,
+      "name": "Breakfast",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m00303p1",
+        "event_locator": "dvb://233a..9184;4a4f",
+        "main_title": "Breakfast",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p90811b8170c19cbe60789b75100e54d1",
+        "start_time": "2026-08-09T05:00:00+0000",
+        "duration": "PT3H",
+        "on_demand": {
+          "start_of_availability": "2026-08-09T08:00:00+0000",
+          "end_of_availability": "2026-08-10T08:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00303p1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e3a42ed932bf359b1a037197b9b384851",
+        "uuid": "335037882420f92d36477074fb90ecca"
+      }
+    },
+    {
+      "startTime": "2026-08-09T08:00:00+0000",
+      "duration": 60,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003075y",
+        "event_locator": "dvb://233a..9184;4a50",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T08:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "7ac393d0429c389a083567eb62092a95"
+      }
+    },
+    {
+      "startTime": "2026-08-09T09:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030760",
+        "event_locator": "dvb://233a..9184;4b78",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T09:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "0fd551ed950e9d640122dd61444a793e"
+      }
+    },
+    {
+      "startTime": "2026-08-09T09:30:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030774",
+        "event_locator": "dvb://233a..9184;4a52",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T09:30:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "24d45a89312879b3e04162a768cc82fa"
+      }
+    },
+    {
+      "startTime": "2026-08-09T10:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030762",
+        "event_locator": "dvb://233a..9184;4a53",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+        "start_time": "2026-08-09T10:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "6910b953b036c4a74515e4db62d9b41a"
+      }
+    },
+    {
+      "startTime": "2026-08-09T10:30:00+0000",
+      "duration": 15,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030764",
+        "event_locator": "dvb://233a..9184;4a54",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+        "start_time": "2026-08-09T10:30:00+0000",
+        "duration": "PT15M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "e66ae3e79ace64a800a54013185be238"
+      }
+    },
+    {
+      "startTime": "2026-08-09T10:45:00+0000",
+      "duration": 15,
+      "name": "The President's Path",
+      "description": "Is Trump the AI president?",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002zyg4",
+        "event_locator": "dvb://233a..9184;4a55",
+        "main_title": "The President's Path",
+        "secondary_title": "Is Trump the AI president?",
+        "image_url": "https://img.freeviewplay.tv/p9a2e0653195703f05c7230da77023739",
+        "start_time": "2026-08-09T10:45:00+0000",
+        "duration": "PT15M",
+        "on_demand": {
+          "start_of_availability": "2026-08-07T22:47:06+0000",
+          "end_of_availability": "2026-09-06T21:47:06+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zyg4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/eb9fd87e355f384fa1cce5ae687dd76c2",
+        "uuid": "d9dfa4a745e1d4c74da9b42b3fce00ce"
+      }
+    },
+    {
+      "startTime": "2026-08-09T11:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030766",
+        "event_locator": "dvb://233a..9184;4a56",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T11:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "bc641d3f9328bb6fba6f4e4f5b0492b2"
+      }
+    },
+    {
+      "startTime": "2026-08-09T11:30:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030776",
+        "event_locator": "dvb://233a..9184;4a57",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T11:30:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "556a8da05ff200ba884e1ddda6fac5c3"
+      }
+    },
+    {
+      "startTime": "2026-08-09T12:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030768",
+        "event_locator": "dvb://233a..9184;4a58",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+        "start_time": "2026-08-09T12:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "447c395dcdee7c8aaf69f5f2d9167303"
+      }
+    },
+    {
+      "startTime": "2026-08-09T12:30:00+0000",
       "duration": 30,
       "name": "Talking Business",
       "description": "07/08/2026",
@@ -843,11 +483,11 @@
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m002zyjb",
-        "event_locator": "dvb://233a..9184;4a42",
+        "event_locator": "dvb://233a..9184;4a59",
         "main_title": "Talking Business",
         "secondary_title": "07/08/2026",
         "image_url": "https://img.freeviewplay.tv/p48c037b841bd67ca50e53dd5002d9b83",
-        "start_time": "2026-08-08T22:30:00+0000",
+        "start_time": "2026-08-09T12:30:00+0000",
         "duration": "PT30M",
         "on_demand": {
           "start_of_availability": "2026-08-08T00:00:00+0000",
@@ -861,31 +501,31 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e63f29618463b8cc01ae8280001018138",
-        "uuid": "86b285d268ee64b75e005deda77ed2ae"
+        "uuid": "e9108c450874221fd08112db4bc6e334"
       }
     },
     {
-      "startTime": "2026-08-08T23:00:00+0000",
+      "startTime": "2026-08-09T13:00:00+0000",
       "duration": 30,
       "name": "BBC News",
-      "description": "08/08/2026",
+      "description": "09/08/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003074v",
-        "event_locator": "dvb://233a..9184;4a43",
+        "program_id": "crid://bbc.co.uk/icc/episode/m003076b",
+        "event_locator": "dvb://233a..9184;4a5a",
         "main_title": "BBC News",
-        "secondary_title": "08/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-        "start_time": "2026-08-08T23:00:00+0000",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T13:00:00+0000",
         "duration": "PT30M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-        "uuid": "855fc6e407066d3ae8a4af8830cca79a"
+        "uuid": "002efab75f4159377e8880bf2b0ca7b0"
       }
     },
     {
-      "startTime": "2026-08-08T23:30:00+0000",
+      "startTime": "2026-08-09T13:30:00+0000",
       "duration": 30,
       "name": "The Climate Question",
       "description": "How Hot Could Our Planet Get?",
@@ -893,11 +533,11 @@
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m002x05j",
-        "event_locator": "dvb://233a..9184;4a44",
+        "event_locator": "dvb://233a..9184;4a5b",
         "main_title": "The Climate Question",
         "secondary_title": "How Hot Could Our Planet Get?",
         "image_url": "https://img.freeviewplay.tv/pe292d024eac28fade8ef6268d2e4b2ef",
-        "start_time": "2026-08-08T23:30:00+0000",
+        "start_time": "2026-08-09T13:30:00+0000",
         "duration": "PT30M",
         "on_demand": {
           "start_of_availability": "2026-05-23T03:00:00+0000",
@@ -911,7 +551,387 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e532f50ebbb1d713a1d6d6b4bb4a1889a",
-        "uuid": "fdef64fec33d4cc975d69b0dd23cdb93"
+        "uuid": "70568b0e0b7608a46747a205e3a4d3de"
+      }
+    },
+    {
+      "startTime": "2026-08-09T14:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003076d",
+        "event_locator": "dvb://233a..9184;4a5c",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+        "start_time": "2026-08-09T14:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "5a67846ee8ae69e6466912f6e1077901"
+      }
+    },
+    {
+      "startTime": "2026-08-09T14:30:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030778",
+        "event_locator": "dvb://233a..9184;4a5d",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T14:30:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "d4ae792b8c31ccc556c1755052e14917"
+      }
+    },
+    {
+      "startTime": "2026-08-09T15:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003076g",
+        "event_locator": "dvb://233a..9184;4a5e",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T15:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "3b8da5bcd2ca99155f082554a42f806d"
+      }
+    },
+    {
+      "startTime": "2026-08-09T15:30:00+0000",
+      "duration": 30,
+      "name": "Global Eye",
+      "description": "A Journey Across Iran",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002zwgl",
+        "event_locator": "dvb://233a..9184;4a5f",
+        "main_title": "Global Eye",
+        "secondary_title": "A Journey Across Iran",
+        "image_url": "https://img.freeviewplay.tv/pd184012eafaacb9802fe5c8015c91554",
+        "start_time": "2026-08-09T15:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-08-03T18:30:40+0000",
+          "end_of_availability": "2027-08-03T18:30:40+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zwgl&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ef47b32b79296e7e29b7fc7b017ff6292",
+        "uuid": "656efb8f99753824008a554006e6ad0e"
+      }
+    },
+    {
+      "startTime": "2026-08-09T16:00:00+0000",
+      "duration": 60,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003076j",
+        "event_locator": "dvb://233a..9184;4a60",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T16:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "c22859abc1c1f8b2f70f8d6244f36995"
+      }
+    },
+    {
+      "startTime": "2026-08-09T17:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003076l",
+        "event_locator": "dvb://233a..9184;4a61",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+        "start_time": "2026-08-09T17:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "964988f19f0fe57a8a0ca51ecdb43f50"
+      }
+    },
+    {
+      "startTime": "2026-08-09T17:30:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003077b",
+        "event_locator": "dvb://233a..9184;4a62",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T17:30:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e49145e747446469dc6818427b9098414",
+        "uuid": "37dd6e106c7abc6f4541636a93e27189"
+      }
+    },
+    {
+      "startTime": "2026-08-09T18:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003076n",
+        "event_locator": "dvb://233a..9184;4b79",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+        "start_time": "2026-08-09T18:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "d6d98fd680468cdbe959d6485c842e40"
+      }
+    },
+    {
+      "startTime": "2026-08-09T18:30:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003077d",
+        "event_locator": "dvb://233a..9184;4a64",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T18:30:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e49145e747446469dc6818427b9098414",
+        "uuid": "651168c5c519cc7c074a32b2ec9d4f18"
+      }
+    },
+    {
+      "startTime": "2026-08-09T19:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003076q",
+        "event_locator": "dvb://233a..9184;4a65",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T19:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "751bee313f561f5599a6992a33541d89"
+      }
+    },
+    {
+      "startTime": "2026-08-09T19:30:00+0000",
+      "duration": 30,
+      "name": "The Big Cases",
+      "description": "Funeral Home Horror",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002hgy9",
+        "event_locator": "dvb://233a..9184;4a66",
+        "main_title": "The Big Cases",
+        "secondary_title": "Funeral Home Horror",
+        "image_url": "https://img.freeviewplay.tv/p0891f7b2bcf47cd01c8df5b17f2dd4ec",
+        "start_time": "2026-08-09T19:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-07-31T14:00:00+0000",
+          "end_of_availability": "2027-07-31T14:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002hgy9&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e3b8db55f155bb304af30bab7c40828db",
+        "uuid": "652f53512a570a24725be833acc0b5ab"
+      }
+    },
+    {
+      "startTime": "2026-08-09T20:00:00+0000",
+      "duration": 60,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003076s",
+        "event_locator": "dvb://233a..9184;4a67",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+        "start_time": "2026-08-09T20:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "405b24ba8c40cf33484432421cc18ff9"
+      }
+    },
+    {
+      "startTime": "2026-08-09T21:00:00+0000",
+      "duration": 60,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003076v",
+        "event_locator": "dvb://233a..9184;4a68",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T21:00:00+0000",
+        "duration": "PT1H",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "33b8af850f0408b20efbda96093275e7"
+      }
+    },
+    {
+      "startTime": "2026-08-09T22:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003076x",
+        "event_locator": "dvb://233a..9184;4a69",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T22:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "0fc4f8c2aee42283d00fe1b6be530170"
+      }
+    },
+    {
+      "startTime": "2026-08-09T22:30:00+0000",
+      "duration": 30,
+      "name": "AI Decoded",
+      "description": "What Jobs Will AI Leave Us?",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002tvmv",
+        "event_locator": "dvb://233a..9184;4a6a",
+        "main_title": "AI Decoded",
+        "secondary_title": "What Jobs Will AI Leave Us?",
+        "image_url": "https://img.freeviewplay.tv/p7a955090d0562268fdd2862e1b336da4",
+        "start_time": "2026-08-09T22:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-04-04T14:00:00+0000",
+          "end_of_availability": "2027-04-04T13:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002tvmv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e56a8c1cc610f99d8238e4220ffa20e23",
+        "uuid": "7bb06779b4c0fdf3587558c9471d4d7d"
+      }
+    },
+    {
+      "startTime": "2026-08-09T23:00:00+0000",
+      "duration": 30,
+      "name": "BBC News",
+      "description": "09/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m003076z",
+        "event_locator": "dvb://233a..9184;4a9f",
+        "main_title": "BBC News",
+        "secondary_title": "09/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+        "start_time": "2026-08-09T23:00:00+0000",
+        "duration": "PT30M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+        "uuid": "65d5b64842f71703d0487a300a204c3b"
+      }
+    },
+    {
+      "startTime": "2026-08-09T23:30:00+0000",
+      "duration": 30,
+      "name": "Global Eye",
+      "description": "A Journey Across Iran",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002zwgl",
+        "event_locator": "dvb://233a..9184;4aa0",
+        "main_title": "Global Eye",
+        "secondary_title": "A Journey Across Iran",
+        "image_url": "https://img.freeviewplay.tv/pd184012eafaacb9802fe5c8015c91554",
+        "start_time": "2026-08-09T23:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-08-03T18:30:40+0000",
+          "end_of_availability": "2027-08-03T18:30:40+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zwgl&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ef47b32b79296e7e29b7fc7b017ff6292",
+        "uuid": "0f1c576d3e0f9e15342384326ec32346"
       }
     }
   ],
@@ -920,27 +940,77 @@
       {
         "event": [
           {
-            "startTime": "2026-08-08T00:00:00+0000",
+            "startTime": "2026-08-09T00:00:00+0000",
             "duration": 30,
             "name": "BBC News",
-            "description": "08/08/2026",
+            "description": "09/08/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030735",
-              "event_locator": "dvb://233a..9184;4a1e",
+              "program_id": "crid://bbc.co.uk/icc/episode/m003075f",
+              "event_locator": "dvb://233a..9184;4a45",
               "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T00:00:00+0000",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T00:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "cee9d855bccee900f6a9ea0d0200e6c7"
+              "uuid": "d45d93f4facb1bd733387849e3fcef8c"
             }
           },
           {
-            "startTime": "2026-08-08T00:30:00+0000",
+            "startTime": "2026-08-09T00:30:00+0000",
+            "duration": 30,
+            "name": "Rachel Khoo's Kitchen Notebook",
+            "description": "Cosmopolitan Cook: Istanbul",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030744",
+              "event_locator": "dvb://233a..9184;4a46",
+              "main_title": "Rachel Khoo's Kitchen Notebook",
+              "secondary_title": "Cosmopolitan Cook: Istanbul",
+              "image_url": "https://img.freeviewplay.tv/p32a31a4149b2d552d88ec027285877c1",
+              "start_time": "2026-08-09T00:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-08-09T01:00:00+0000",
+                "end_of_availability": "2026-09-08T00:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030744&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ecbcd7f52ff822de854669a4e7404c570",
+              "uuid": "afa0aeecd342da4651b7cb601530f41e"
+            }
+          },
+          {
+            "startTime": "2026-08-09T01:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003075h",
+              "event_locator": "dvb://233a..9184;4a47",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T01:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "85fb22a42af759a64d5dbbb7b9a7f411"
+            }
+          },
+          {
+            "startTime": "2026-08-09T01:30:00+0000",
             "duration": 30,
             "name": "Tech Now",
             "description": "Race for the Ultimate Supercomputer",
@@ -948,11 +1018,11 @@
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m002z2l5",
-              "event_locator": "dvb://233a..9184;4a1f",
+              "event_locator": "dvb://233a..9184;4b77",
               "main_title": "Tech Now",
               "secondary_title": "Race for the Ultimate Supercomputer",
               "image_url": "https://img.freeviewplay.tv/p0dd7b750097ca1b04de67a8e77542921",
-              "start_time": "2026-08-08T00:30:00+0000",
+              "start_time": "2026-08-09T01:30:00+0000",
               "duration": "PT30M",
               "on_demand": {
                 "start_of_availability": "2026-07-11T01:00:00+0000",
@@ -966,461 +1036,31 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/eede0e7d70f8c3fe8d46f0f7cd70a4aaa",
-              "uuid": "7e122a8213dfc00d92ebf19123f4df86"
+              "uuid": "08f8c9b12f85c7f1e8565673acaf0e13"
             }
           },
           {
-            "startTime": "2026-08-08T01:00:00+0000",
+            "startTime": "2026-08-09T02:00:00+0000",
             "duration": 30,
             "name": "BBC News",
-            "description": "08/08/2026",
+            "description": "09/08/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030737",
-              "event_locator": "dvb://233a..9184;4a20",
+              "program_id": "crid://bbc.co.uk/icc/episode/m003075k",
+              "event_locator": "dvb://233a..9184;4a49",
               "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-              "start_time": "2026-08-08T01:00:00+0000",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T02:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "3b3e552649ce9f46d678c98ed54f18ef"
+              "uuid": "c9f50d51be92a986cfe383e8bb273d04"
             }
           },
           {
-            "startTime": "2026-08-08T01:30:00+0000",
-            "duration": 30,
-            "name": "Clive Myrie’s Caribbean Adventure",
-            "description": "Series 1: 15. Puerto Plata - Dominican Republic",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m001zpp8",
-              "event_locator": "dvb://233a..9184;4a21",
-              "main_title": "Clive Myrie’s Caribbean Adventure",
-              "secondary_title": "Series 1: 15. Puerto Plata - Dominican Republic",
-              "image_url": "https://img.freeviewplay.tv/p250cbfbd53afb82653e79723410f9737",
-              "start_time": "2026-08-08T01:30:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-08-08T02:00:00+0000",
-                "end_of_availability": "2026-09-08T23:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001zpp8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e4559fdd760ef8cbb66aa4e01f9309059",
-              "uuid": "dfbf7ee87c35cb1622d040b35e53fcf5"
-            }
-          },
-          {
-            "startTime": "2026-08-08T02:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003073b",
-              "event_locator": "dvb://233a..9184;4a22",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-              "start_time": "2026-08-08T02:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "b8aa6df8fb6310121a94ad9826cbff0f"
-            }
-          },
-          {
-            "startTime": "2026-08-08T02:30:00+0000",
-            "duration": 30,
-            "name": "The Big Cases",
-            "description": "Funeral Home Horror",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002hgy9",
-              "event_locator": "dvb://233a..9184;4b71",
-              "main_title": "The Big Cases",
-              "secondary_title": "Funeral Home Horror",
-              "image_url": "https://img.freeviewplay.tv/p0891f7b2bcf47cd01c8df5b17f2dd4ec",
-              "start_time": "2026-08-08T02:30:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-07-31T14:00:00+0000",
-                "end_of_availability": "2027-07-31T14:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002hgy9&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e3b8db55f155bb304af30bab7c40828db",
-              "uuid": "88d883f8556f9c34dd3f8ed43878b36d"
-            }
-          },
-          {
-            "startTime": "2026-08-08T03:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003073d",
-              "event_locator": "dvb://233a..9184;4a24",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T03:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "0c8621516fec86d86ad0878bd2ebc2cc"
-            }
-          },
-          {
-            "startTime": "2026-08-08T03:30:00+0000",
-            "duration": 30,
-            "name": "The Climate Question",
-            "description": "How Hot Could Our Planet Get?",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002x05j",
-              "event_locator": "dvb://233a..9184;4a25",
-              "main_title": "The Climate Question",
-              "secondary_title": "How Hot Could Our Planet Get?",
-              "image_url": "https://img.freeviewplay.tv/pe292d024eac28fade8ef6268d2e4b2ef",
-              "start_time": "2026-08-08T03:30:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-05-23T03:00:00+0000",
-                "end_of_availability": "2027-05-23T02:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002x05j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e532f50ebbb1d713a1d6d6b4bb4a1889a",
-              "uuid": "8383b973b652e7c10f8e434d19e2246b"
-            }
-          },
-          {
-            "startTime": "2026-08-08T04:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003073g",
-              "event_locator": "dvb://233a..9184;4a26",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T04:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "8a6447f0a46ca5e1c12535269c64acc9"
-            }
-          },
-          {
-            "startTime": "2026-08-08T04:30:00+0000",
-            "duration": 30,
-            "name": "The Travel Show",
-            "description": "France: Bistros Bite Back",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002xlsh",
-              "event_locator": "dvb://233a..9184;4a27",
-              "main_title": "The Travel Show",
-              "secondary_title": "France: Bistros Bite Back",
-              "image_url": "https://img.freeviewplay.tv/p7eef7bf3be61286880ec86e50e70c01d",
-              "start_time": "2026-08-08T04:30:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-06-06T05:00:00+0000",
-                "end_of_availability": "2027-06-06T04:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002xlsh&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ee589718ab2a2ce184b30bd9edff06305",
-              "uuid": "21f04ae7c72a6524c491f07f5394c67c"
-            }
-          },
-          {
-            "startTime": "2026-08-08T05:00:00+0000",
-            "duration": 180,
-            "name": "Breakfast",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m00303n6",
-              "event_locator": "dvb://233a..9184;4a28",
-              "main_title": "Breakfast",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p3b81baa8a4091bfa3c629eca29f62dae",
-              "start_time": "2026-08-08T05:00:00+0000",
-              "duration": "PT3H",
-              "on_demand": {
-                "start_of_availability": "2026-08-08T09:00:15+0000",
-                "end_of_availability": "2026-08-09T09:00:15+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00303n6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e3a42ed932bf359b1a037197b9b384851",
-              "uuid": "6a55c09a300d6624f22b9f2e900dc62f"
-            }
-          },
-          {
-            "startTime": "2026-08-08T08:00:00+0000",
-            "duration": 60,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003073q",
-              "event_locator": "dvb://233a..9184;4a29",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T08:00:00+0000",
-              "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "3bc18ec53b103e11d066576979238776"
-            }
-          },
-          {
-            "startTime": "2026-08-08T09:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003073s",
-              "event_locator": "dvb://233a..9184;4a2a",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T09:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "9619a68fcf73f10237ac4ff7b1bcbd3a"
-            }
-          },
-          {
-            "startTime": "2026-08-08T09:30:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003074y",
-              "event_locator": "dvb://233a..9184;4a2b",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-              "start_time": "2026-08-08T09:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "d2744cbd682dbdea2c4a4627bc2dd500"
-            }
-          },
-          {
-            "startTime": "2026-08-08T10:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003073w",
-              "event_locator": "dvb://233a..9184;4a2c",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T10:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "6c21d2fe3f823d27d268534ae0e07fbc"
-            }
-          },
-          {
-            "startTime": "2026-08-08T10:30:00+0000",
-            "duration": 30,
-            "name": "Talking Business",
-            "description": "07/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002zyjb",
-              "event_locator": "dvb://233a..9184;4a2d",
-              "main_title": "Talking Business",
-              "secondary_title": "07/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p48c037b841bd67ca50e53dd5002d9b83",
-              "start_time": "2026-08-08T10:30:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-08-08T00:00:00+0000",
-                "end_of_availability": "2027-08-07T23:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zyjb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e63f29618463b8cc01ae8280001018138",
-              "uuid": "a4ec2752cb25762d86d78005455a0400"
-            }
-          },
-          {
-            "startTime": "2026-08-08T11:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003073y",
-              "event_locator": "dvb://233a..9184;4a2e",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-              "start_time": "2026-08-08T11:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "cfa0776be3eb9692e87ac410811ac710"
-            }
-          },
-          {
-            "startTime": "2026-08-08T11:30:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030750",
-              "event_locator": "dvb://233a..9184;4a2f",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T11:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "abaac44f6632e0bb9c36b6bafdab6b41"
-            }
-          },
-          {
-            "startTime": "2026-08-08T12:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030742",
-              "event_locator": "dvb://233a..9184;4a30",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T12:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "8973ff5d4121c9d6e3b57055ec1f8850"
-            }
-          },
-          {
-            "startTime": "2026-08-08T12:30:00+0000",
-            "duration": 30,
-            "name": "Tech Now",
-            "description": "Race for the Ultimate Supercomputer",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002z2l5",
-              "event_locator": "dvb://233a..9184;4a31",
-              "main_title": "Tech Now",
-              "secondary_title": "Race for the Ultimate Supercomputer",
-              "image_url": "https://img.freeviewplay.tv/p0dd7b750097ca1b04de67a8e77542921",
-              "start_time": "2026-08-08T12:30:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-07-11T01:00:00+0000",
-                "end_of_availability": "2027-07-11T00:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002z2l5&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e105cd9335c6fb79b552eb27b48d6aac4",
-              "uuid": "13eac6f52c0b02b619344a484882bbae"
-            }
-          },
-          {
-            "startTime": "2026-08-08T13:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030746",
-              "event_locator": "dvb://233a..9184;4a32",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T13:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "2bdfb25d6738ebe78db434b6dcb63c43"
-            }
-          },
-          {
-            "startTime": "2026-08-08T13:30:00+0000",
+            "startTime": "2026-08-09T02:30:00+0000",
             "duration": 30,
             "name": "AI Decoded",
             "description": "What Jobs Will AI Leave Us?",
@@ -1428,11 +1068,11 @@
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m002tvmv",
-              "event_locator": "dvb://233a..9184;4a33",
+              "event_locator": "dvb://233a..9184;4a4a",
               "main_title": "AI Decoded",
               "secondary_title": "What Jobs Will AI Leave Us?",
               "image_url": "https://img.freeviewplay.tv/p7a955090d0562268fdd2862e1b336da4",
-              "start_time": "2026-08-08T13:30:00+0000",
+              "start_time": "2026-08-09T02:30:00+0000",
               "duration": "PT30M",
               "on_demand": {
                 "start_of_availability": "2026-04-04T14:00:00+0000",
@@ -1446,221 +1086,31 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e56a8c1cc610f99d8238e4220ffa20e23",
-              "uuid": "27c9cfbea65626de1589af7e20c45e96"
+              "uuid": "00115fe0983be26cd362c00488b07b1e"
             }
           },
           {
-            "startTime": "2026-08-08T14:00:00+0000",
+            "startTime": "2026-08-09T03:00:00+0000",
             "duration": 30,
             "name": "BBC News",
-            "description": "08/08/2026",
+            "description": "09/08/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030748",
-              "event_locator": "dvb://233a..9184;4a34",
+              "program_id": "crid://bbc.co.uk/icc/episode/m003075m",
+              "event_locator": "dvb://233a..9184;4a4b",
               "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T14:00:00+0000",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T03:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "ce4f419c1959125e06f2aba92877dfd9"
+              "uuid": "8a780766bf2d21b04d7d1b7b0ea96566"
             }
           },
           {
-            "startTime": "2026-08-08T14:30:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030752",
-              "event_locator": "dvb://233a..9184;4a35",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T14:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "4291aa2e26553aff89f210d64c4e56cc"
-            }
-          },
-          {
-            "startTime": "2026-08-08T15:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003074b",
-              "event_locator": "dvb://233a..9184;4b76",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T15:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "de03fd0cd17a118920cb51f3129a3996"
-            }
-          },
-          {
-            "startTime": "2026-08-08T15:30:00+0000",
-            "duration": 30,
-            "name": "The Climate Question",
-            "description": "How Hot Could Our Planet Get?",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002x05j",
-              "event_locator": "dvb://233a..9184;4a37",
-              "main_title": "The Climate Question",
-              "secondary_title": "How Hot Could Our Planet Get?",
-              "image_url": "https://img.freeviewplay.tv/pe292d024eac28fade8ef6268d2e4b2ef",
-              "start_time": "2026-08-08T15:30:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-05-23T03:00:00+0000",
-                "end_of_availability": "2027-05-23T02:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002x05j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e532f50ebbb1d713a1d6d6b4bb4a1889a",
-              "uuid": "b3ab3a8ce50a4667d00bf67599a8d21d"
-            }
-          },
-          {
-            "startTime": "2026-08-08T16:00:00+0000",
-            "duration": 60,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003074d",
-              "event_locator": "dvb://233a..9184;4a38",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-              "start_time": "2026-08-08T16:00:00+0000",
-              "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "d3cfc50051b9c37502dadb4259cd8b05"
-            }
-          },
-          {
-            "startTime": "2026-08-08T17:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003074g",
-              "event_locator": "dvb://233a..9184;4a39",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-              "start_time": "2026-08-08T17:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "da26085cc76d24c051ab7302b6de8eef"
-            }
-          },
-          {
-            "startTime": "2026-08-08T17:30:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030754",
-              "event_locator": "dvb://233a..9184;4a3a",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T17:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e49145e747446469dc6818427b9098414",
-              "uuid": "0ceee75d202baababd211bee4e5458d0"
-            }
-          },
-          {
-            "startTime": "2026-08-08T18:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003074j",
-              "event_locator": "dvb://233a..9184;4a3b",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-              "start_time": "2026-08-08T18:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "1fcd85d6603c121bd8400b5a7e9b3487"
-            }
-          },
-          {
-            "startTime": "2026-08-08T18:30:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030756",
-              "event_locator": "dvb://233a..9184;4a3c",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T18:30:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e49145e747446469dc6818427b9098414",
-              "uuid": "533e330b117dcf6091fafc2ac835bbb5"
-            }
-          },
-          {
-            "startTime": "2026-08-08T19:00:00+0000",
-            "duration": 30,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003074l",
-              "event_locator": "dvb://233a..9184;4a3d",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T19:00:00+0000",
-              "duration": "PT30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "b1eba81c87668d31d1b080605b595f5b"
-            }
-          },
-          {
-            "startTime": "2026-08-08T19:30:00+0000",
+            "startTime": "2026-08-09T03:30:00+0000",
             "duration": 30,
             "name": "Global Eye",
             "description": "A Journey Across Iran",
@@ -1668,11 +1118,11 @@
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m002zwgl",
-              "event_locator": "dvb://233a..9184;4a3e",
+              "event_locator": "dvb://233a..9184;4a4c",
               "main_title": "Global Eye",
               "secondary_title": "A Journey Across Iran",
               "image_url": "https://img.freeviewplay.tv/pd184012eafaacb9802fe5c8015c91554",
-              "start_time": "2026-08-08T19:30:00+0000",
+              "start_time": "2026-08-09T03:30:00+0000",
               "duration": "PT30M",
               "on_demand": {
                 "start_of_availability": "2026-08-03T18:30:40+0000",
@@ -1686,71 +1136,281 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/ef47b32b79296e7e29b7fc7b017ff6292",
-              "uuid": "423d6666afbe03ea85c15b9b6a096c63"
+              "uuid": "232a0eb484e7882c5975df33eaa47413"
             }
           },
           {
-            "startTime": "2026-08-08T20:00:00+0000",
-            "duration": 60,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003074n",
-              "event_locator": "dvb://233a..9184;4a3f",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pbb67253ce475c4c891daa93abf152912",
-              "start_time": "2026-08-08T20:00:00+0000",
-              "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "4806f5690213b6fa40063cc63b2b8cb8"
-            }
-          },
-          {
-            "startTime": "2026-08-08T21:00:00+0000",
-            "duration": 60,
-            "name": "BBC News",
-            "description": "08/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003074q",
-              "event_locator": "dvb://233a..9184;4a40",
-              "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-              "start_time": "2026-08-08T21:00:00+0000",
-              "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "b422618c8fec50b693b7fe1506535565"
-            }
-          },
-          {
-            "startTime": "2026-08-08T22:00:00+0000",
+            "startTime": "2026-08-09T04:00:00+0000",
             "duration": 30,
             "name": "BBC News",
-            "description": "08/08/2026",
+            "description": "09/08/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003074s",
-              "event_locator": "dvb://233a..9184;4a41",
+              "program_id": "crid://bbc.co.uk/icc/episode/m003075p",
+              "event_locator": "dvb://233a..9184;4a4d",
               "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-              "start_time": "2026-08-08T22:00:00+0000",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T04:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "25ca62928c502f57bda36e0d8332ef22"
+              "uuid": "dcacfab587d6cb8125d17fa5b91ad425"
             }
           },
           {
-            "startTime": "2026-08-08T22:30:00+0000",
+            "startTime": "2026-08-09T04:30:00+0000",
+            "duration": 30,
+            "name": "Clive Myrie’s Caribbean Adventure",
+            "description": "Series 1: 15. Puerto Plata - Dominican Republic",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m001zpp8",
+              "event_locator": "dvb://233a..9184;4a4e",
+              "main_title": "Clive Myrie’s Caribbean Adventure",
+              "secondary_title": "Series 1: 15. Puerto Plata - Dominican Republic",
+              "image_url": "https://img.freeviewplay.tv/p250cbfbd53afb82653e79723410f9737",
+              "start_time": "2026-08-09T04:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-08-08T02:00:00+0000",
+                "end_of_availability": "2026-09-08T23:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001zpp8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e4559fdd760ef8cbb66aa4e01f9309059",
+              "uuid": "7f0560450444543db93b8c3204d32318"
+            }
+          },
+          {
+            "startTime": "2026-08-09T05:00:00+0000",
+            "duration": 180,
+            "name": "Breakfast",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m00303p1",
+              "event_locator": "dvb://233a..9184;4a4f",
+              "main_title": "Breakfast",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p90811b8170c19cbe60789b75100e54d1",
+              "start_time": "2026-08-09T05:00:00+0000",
+              "duration": "PT3H",
+              "on_demand": {
+                "start_of_availability": "2026-08-09T08:00:00+0000",
+                "end_of_availability": "2026-08-10T08:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00303p1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e3a42ed932bf359b1a037197b9b384851",
+              "uuid": "335037882420f92d36477074fb90ecca"
+            }
+          },
+          {
+            "startTime": "2026-08-09T08:00:00+0000",
+            "duration": 60,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003075y",
+              "event_locator": "dvb://233a..9184;4a50",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T08:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "7ac393d0429c389a083567eb62092a95"
+            }
+          },
+          {
+            "startTime": "2026-08-09T09:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030760",
+              "event_locator": "dvb://233a..9184;4b78",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T09:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "0fd551ed950e9d640122dd61444a793e"
+            }
+          },
+          {
+            "startTime": "2026-08-09T09:30:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030774",
+              "event_locator": "dvb://233a..9184;4a52",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T09:30:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "24d45a89312879b3e04162a768cc82fa"
+            }
+          },
+          {
+            "startTime": "2026-08-09T10:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030762",
+              "event_locator": "dvb://233a..9184;4a53",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+              "start_time": "2026-08-09T10:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "6910b953b036c4a74515e4db62d9b41a"
+            }
+          },
+          {
+            "startTime": "2026-08-09T10:30:00+0000",
+            "duration": 15,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030764",
+              "event_locator": "dvb://233a..9184;4a54",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+              "start_time": "2026-08-09T10:30:00+0000",
+              "duration": "PT15M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "e66ae3e79ace64a800a54013185be238"
+            }
+          },
+          {
+            "startTime": "2026-08-09T10:45:00+0000",
+            "duration": 15,
+            "name": "The President's Path",
+            "description": "Is Trump the AI president?",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002zyg4",
+              "event_locator": "dvb://233a..9184;4a55",
+              "main_title": "The President's Path",
+              "secondary_title": "Is Trump the AI president?",
+              "image_url": "https://img.freeviewplay.tv/p9a2e0653195703f05c7230da77023739",
+              "start_time": "2026-08-09T10:45:00+0000",
+              "duration": "PT15M",
+              "on_demand": {
+                "start_of_availability": "2026-08-07T22:47:06+0000",
+                "end_of_availability": "2026-09-06T21:47:06+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zyg4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/eb9fd87e355f384fa1cce5ae687dd76c2",
+              "uuid": "d9dfa4a745e1d4c74da9b42b3fce00ce"
+            }
+          },
+          {
+            "startTime": "2026-08-09T11:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030766",
+              "event_locator": "dvb://233a..9184;4a56",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T11:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "bc641d3f9328bb6fba6f4e4f5b0492b2"
+            }
+          },
+          {
+            "startTime": "2026-08-09T11:30:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030776",
+              "event_locator": "dvb://233a..9184;4a57",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T11:30:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "556a8da05ff200ba884e1ddda6fac5c3"
+            }
+          },
+          {
+            "startTime": "2026-08-09T12:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030768",
+              "event_locator": "dvb://233a..9184;4a58",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+              "start_time": "2026-08-09T12:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "447c395dcdee7c8aaf69f5f2d9167303"
+            }
+          },
+          {
+            "startTime": "2026-08-09T12:30:00+0000",
             "duration": 30,
             "name": "Talking Business",
             "description": "07/08/2026",
@@ -1758,11 +1418,11 @@
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m002zyjb",
-              "event_locator": "dvb://233a..9184;4a42",
+              "event_locator": "dvb://233a..9184;4a59",
               "main_title": "Talking Business",
               "secondary_title": "07/08/2026",
               "image_url": "https://img.freeviewplay.tv/p48c037b841bd67ca50e53dd5002d9b83",
-              "start_time": "2026-08-08T22:30:00+0000",
+              "start_time": "2026-08-09T12:30:00+0000",
               "duration": "PT30M",
               "on_demand": {
                 "start_of_availability": "2026-08-08T00:00:00+0000",
@@ -1776,31 +1436,31 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e63f29618463b8cc01ae8280001018138",
-              "uuid": "86b285d268ee64b75e005deda77ed2ae"
+              "uuid": "e9108c450874221fd08112db4bc6e334"
             }
           },
           {
-            "startTime": "2026-08-08T23:00:00+0000",
+            "startTime": "2026-08-09T13:00:00+0000",
             "duration": 30,
             "name": "BBC News",
-            "description": "08/08/2026",
+            "description": "09/08/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003074v",
-              "event_locator": "dvb://233a..9184;4a43",
+              "program_id": "crid://bbc.co.uk/icc/episode/m003076b",
+              "event_locator": "dvb://233a..9184;4a5a",
               "main_title": "BBC News",
-              "secondary_title": "08/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p96747efe0a55936f25d3d9671478baa7",
-              "start_time": "2026-08-08T23:00:00+0000",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T13:00:00+0000",
               "duration": "PT30M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
-              "uuid": "855fc6e407066d3ae8a4af8830cca79a"
+              "uuid": "002efab75f4159377e8880bf2b0ca7b0"
             }
           },
           {
-            "startTime": "2026-08-08T23:30:00+0000",
+            "startTime": "2026-08-09T13:30:00+0000",
             "duration": 30,
             "name": "The Climate Question",
             "description": "How Hot Could Our Planet Get?",
@@ -1808,11 +1468,11 @@
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m002x05j",
-              "event_locator": "dvb://233a..9184;4a44",
+              "event_locator": "dvb://233a..9184;4a5b",
               "main_title": "The Climate Question",
               "secondary_title": "How Hot Could Our Planet Get?",
               "image_url": "https://img.freeviewplay.tv/pe292d024eac28fade8ef6268d2e4b2ef",
-              "start_time": "2026-08-08T23:30:00+0000",
+              "start_time": "2026-08-09T13:30:00+0000",
               "duration": "PT30M",
               "on_demand": {
                 "start_of_availability": "2026-05-23T03:00:00+0000",
@@ -1826,7 +1486,387 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e532f50ebbb1d713a1d6d6b4bb4a1889a",
-              "uuid": "fdef64fec33d4cc975d69b0dd23cdb93"
+              "uuid": "70568b0e0b7608a46747a205e3a4d3de"
+            }
+          },
+          {
+            "startTime": "2026-08-09T14:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003076d",
+              "event_locator": "dvb://233a..9184;4a5c",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+              "start_time": "2026-08-09T14:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "5a67846ee8ae69e6466912f6e1077901"
+            }
+          },
+          {
+            "startTime": "2026-08-09T14:30:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030778",
+              "event_locator": "dvb://233a..9184;4a5d",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T14:30:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "d4ae792b8c31ccc556c1755052e14917"
+            }
+          },
+          {
+            "startTime": "2026-08-09T15:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003076g",
+              "event_locator": "dvb://233a..9184;4a5e",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T15:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "3b8da5bcd2ca99155f082554a42f806d"
+            }
+          },
+          {
+            "startTime": "2026-08-09T15:30:00+0000",
+            "duration": 30,
+            "name": "Global Eye",
+            "description": "A Journey Across Iran",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002zwgl",
+              "event_locator": "dvb://233a..9184;4a5f",
+              "main_title": "Global Eye",
+              "secondary_title": "A Journey Across Iran",
+              "image_url": "https://img.freeviewplay.tv/pd184012eafaacb9802fe5c8015c91554",
+              "start_time": "2026-08-09T15:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-08-03T18:30:40+0000",
+                "end_of_availability": "2027-08-03T18:30:40+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zwgl&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ef47b32b79296e7e29b7fc7b017ff6292",
+              "uuid": "656efb8f99753824008a554006e6ad0e"
+            }
+          },
+          {
+            "startTime": "2026-08-09T16:00:00+0000",
+            "duration": 60,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003076j",
+              "event_locator": "dvb://233a..9184;4a60",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T16:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "c22859abc1c1f8b2f70f8d6244f36995"
+            }
+          },
+          {
+            "startTime": "2026-08-09T17:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003076l",
+              "event_locator": "dvb://233a..9184;4a61",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+              "start_time": "2026-08-09T17:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "964988f19f0fe57a8a0ca51ecdb43f50"
+            }
+          },
+          {
+            "startTime": "2026-08-09T17:30:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003077b",
+              "event_locator": "dvb://233a..9184;4a62",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T17:30:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e49145e747446469dc6818427b9098414",
+              "uuid": "37dd6e106c7abc6f4541636a93e27189"
+            }
+          },
+          {
+            "startTime": "2026-08-09T18:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003076n",
+              "event_locator": "dvb://233a..9184;4b79",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+              "start_time": "2026-08-09T18:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "d6d98fd680468cdbe959d6485c842e40"
+            }
+          },
+          {
+            "startTime": "2026-08-09T18:30:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003077d",
+              "event_locator": "dvb://233a..9184;4a64",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T18:30:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e49145e747446469dc6818427b9098414",
+              "uuid": "651168c5c519cc7c074a32b2ec9d4f18"
+            }
+          },
+          {
+            "startTime": "2026-08-09T19:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003076q",
+              "event_locator": "dvb://233a..9184;4a65",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T19:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "751bee313f561f5599a6992a33541d89"
+            }
+          },
+          {
+            "startTime": "2026-08-09T19:30:00+0000",
+            "duration": 30,
+            "name": "The Big Cases",
+            "description": "Funeral Home Horror",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002hgy9",
+              "event_locator": "dvb://233a..9184;4a66",
+              "main_title": "The Big Cases",
+              "secondary_title": "Funeral Home Horror",
+              "image_url": "https://img.freeviewplay.tv/p0891f7b2bcf47cd01c8df5b17f2dd4ec",
+              "start_time": "2026-08-09T19:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-07-31T14:00:00+0000",
+                "end_of_availability": "2027-07-31T14:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002hgy9&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e3b8db55f155bb304af30bab7c40828db",
+              "uuid": "652f53512a570a24725be833acc0b5ab"
+            }
+          },
+          {
+            "startTime": "2026-08-09T20:00:00+0000",
+            "duration": 60,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003076s",
+              "event_locator": "dvb://233a..9184;4a67",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p3a6044ff5e90daf9029fe0e48e8dd6a5",
+              "start_time": "2026-08-09T20:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "405b24ba8c40cf33484432421cc18ff9"
+            }
+          },
+          {
+            "startTime": "2026-08-09T21:00:00+0000",
+            "duration": 60,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003076v",
+              "event_locator": "dvb://233a..9184;4a68",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T21:00:00+0000",
+              "duration": "PT1H",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "33b8af850f0408b20efbda96093275e7"
+            }
+          },
+          {
+            "startTime": "2026-08-09T22:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003076x",
+              "event_locator": "dvb://233a..9184;4a69",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T22:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "0fc4f8c2aee42283d00fe1b6be530170"
+            }
+          },
+          {
+            "startTime": "2026-08-09T22:30:00+0000",
+            "duration": 30,
+            "name": "AI Decoded",
+            "description": "What Jobs Will AI Leave Us?",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002tvmv",
+              "event_locator": "dvb://233a..9184;4a6a",
+              "main_title": "AI Decoded",
+              "secondary_title": "What Jobs Will AI Leave Us?",
+              "image_url": "https://img.freeviewplay.tv/p7a955090d0562268fdd2862e1b336da4",
+              "start_time": "2026-08-09T22:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-04-04T14:00:00+0000",
+                "end_of_availability": "2027-04-04T13:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002tvmv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e56a8c1cc610f99d8238e4220ffa20e23",
+              "uuid": "7bb06779b4c0fdf3587558c9471d4d7d"
+            }
+          },
+          {
+            "startTime": "2026-08-09T23:00:00+0000",
+            "duration": 30,
+            "name": "BBC News",
+            "description": "09/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m003076z",
+              "event_locator": "dvb://233a..9184;4a9f",
+              "main_title": "BBC News",
+              "secondary_title": "09/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pfc0eccc338fed7a70176d7d62755731c",
+              "start_time": "2026-08-09T23:00:00+0000",
+              "duration": "PT30M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2c4d8c47a15ce8600452eb68273ffd78",
+              "uuid": "65d5b64842f71703d0487a300a204c3b"
+            }
+          },
+          {
+            "startTime": "2026-08-09T23:30:00+0000",
+            "duration": 30,
+            "name": "Global Eye",
+            "description": "A Journey Across Iran",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002zwgl",
+              "event_locator": "dvb://233a..9184;4aa0",
+              "main_title": "Global Eye",
+              "secondary_title": "A Journey Across Iran",
+              "image_url": "https://img.freeviewplay.tv/pd184012eafaacb9802fe5c8015c91554",
+              "start_time": "2026-08-09T23:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-08-03T18:30:40+0000",
+                "end_of_availability": "2027-08-03T18:30:40+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002zwgl&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ef47b32b79296e7e29b7fc7b017ff6292",
+              "uuid": "0f1c576d3e0f9e15342384326ec32346"
             }
           }
         ]
