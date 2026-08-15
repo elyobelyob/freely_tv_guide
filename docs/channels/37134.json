@@ -5,543 +5,683 @@
   },
   "events": [
     {
-      "startTime": "2026-08-15T05:00:00+0000",
-      "duration": 240,
-      "name": "Breakfast",
-      "description": "15/08/2026",
+      "startTime": "2026-08-16T01:05:00+0000",
+      "duration": 5,
+      "name": "Weather for the Week Ahead",
+      "description": "16/08/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030dfp",
-        "event_locator": "dvb://233a..910e;3287",
-        "main_title": "Breakfast",
-        "secondary_title": "15/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p13e9ff179ef32b0183361d854ee56212",
-        "start_time": "2026-08-15T05:00:00+0000",
-        "duration": "PT4H",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030dg6",
+        "event_locator": "dvb://233a..910e;3298",
+        "main_title": "Weather for the Week Ahead",
+        "secondary_title": "16/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pa81f9d3746ce05db77a4e956c34d5245",
+        "start_time": "2026-08-16T01:05:00+0000",
+        "duration": "PT5M",
         "on_demand": {
-          "start_of_availability": "2026-08-15T09:00:00+0000",
-          "end_of_availability": "2026-08-16T09:00:00+0000",
+          "start_of_availability": "2026-08-16T01:10:33+0000",
+          "end_of_availability": "2026-08-23T01:10:33+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dfp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dg6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e71dfd64c0529f2d0fedc581ccc608495",
+        "uuid": "7abd1ca20b04d7cd15544b35d46c9403"
+      }
+    },
+    {
+      "startTime": "2026-08-16T01:10:00+0000",
+      "duration": 230,
+      "name": "Joins BBC News",
+      "description": "16/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030dg8",
+        "event_locator": "dvb://233a..910e;3299",
+        "main_title": "Joins BBC News",
+        "secondary_title": "16/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p707847ae6f5129ceebc32ba1bfcb06c9",
+        "start_time": "2026-08-16T01:10:00+0000",
+        "duration": "PT3H50M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e1263a9088a04bd4220f67abe99c7710e",
+        "uuid": "01a5863bb50b3278cdc5909e09483f45"
+      }
+    },
+    {
+      "startTime": "2026-08-16T05:00:00+0000",
+      "duration": 85,
+      "name": "Breakfast",
+      "description": "16/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030dgb",
+        "event_locator": "dvb://233a..910e;32e8",
+        "main_title": "Breakfast",
+        "secondary_title": "16/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p3638c28ef35a68bd64659cf3e3ed9909",
+        "start_time": "2026-08-16T05:00:00+0000",
+        "duration": "PT1H25M",
+        "on_demand": {
+          "start_of_availability": "2026-08-16T06:25:00+0000",
+          "end_of_availability": "2026-08-17T06:25:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dgb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e79d8d02137807923c3db6680968955b3",
-        "uuid": "073b0610a7b930fe2186dbb89fec5437"
+        "uuid": "ffde0b1d4f9344fc3b30204bc1ed1967"
       }
     },
     {
-      "startTime": "2026-08-15T09:00:00+0000",
-      "duration": 210,
+      "startTime": "2026-08-16T06:25:00+0000",
+      "duration": 190,
       "name": "European Athletics Championships",
-      "description": "2026: Day 6: Featuring Women's Heptathlon",
+      "description": "2026: Day 7: Marathons",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030g31",
-        "event_locator": "dvb://233a..910e;3288",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030gf1",
+        "event_locator": "dvb://233a..910e;32e9",
         "main_title": "European Athletics Championships",
-        "secondary_title": "2026: Day 6: Featuring Women's Heptathlon",
-        "image_url": "https://img.freeviewplay.tv/p38c34d09c6f4dd14bad5447f0e7cf38a",
-        "start_time": "2026-08-15T09:00:00+0000",
-        "duration": "PT3H30M",
+        "secondary_title": "2026: Day 7: Marathons",
+        "image_url": "https://img.freeviewplay.tv/p2342146dc35b3119581bcc81a624c71b",
+        "start_time": "2026-08-16T06:25:00+0000",
+        "duration": "PT3H10M",
         "on_demand": {
-          "start_of_availability": "2026-08-15T12:30:00+0000",
-          "end_of_availability": "2026-09-14T12:30:00+0000",
+          "start_of_availability": "2026-08-16T09:35:25+0000",
+          "end_of_availability": "2026-09-15T09:35:25+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030g31&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gf1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
         "fallback_image_url": "http://img.freeviewplay.net/e2c3e16d1b7b4c4298f9affadd85d562d",
-        "uuid": "4bac1d23726dd3168119eb3a327af87c"
+        "uuid": "77e1da78ca6a54b6a7b0526cbdde5bf2"
       }
     },
     {
-      "startTime": "2026-08-15T12:30:00+0000",
-      "duration": 10,
-      "name": "BBC Weekend News",
-      "description": "Lunchtime News: 15/08/2026",
+      "startTime": "2026-08-16T09:35:00+0000",
+      "duration": 100,
+      "name": "Lyle, Lyle, Crocodile",
+      "description": "Lyle, Lyle, Crocodile",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030dfr",
-        "event_locator": "dvb://233a..910e;3289",
-        "main_title": "BBC Weekend News",
-        "secondary_title": "Lunchtime News: 15/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pb2b07973f1e46a48d56499c1c56a3c48",
-        "start_time": "2026-08-15T12:30:00+0000",
-        "duration": "PT10M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002gk4w",
+        "event_locator": "dvb://233a..910e;32ea",
+        "main_title": "Lyle, Lyle, Crocodile",
+        "secondary_title": "Lyle, Lyle, Crocodile",
+        "image_url": "https://img.freeviewplay.tv/p06beb60b57e9667b5ca3c1bc467881b1",
+        "start_time": "2026-08-16T09:35:00+0000",
+        "duration": "PT1H40M",
         "on_demand": {
-          "start_of_availability": "2026-08-15T12:42:00+0000",
-          "end_of_availability": "2026-08-16T12:42:00+0000",
+          "start_of_availability": "2026-08-16T11:14:14+0000",
+          "end_of_availability": "2026-09-15T11:14:14+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dfr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002gk4w&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e1263a9088a04bd4220f67abe99c7710e",
-        "uuid": "138aed3774a07c2b3bab4d0cb8299edf"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
+        "fallback_image_url": "http://img.freeviewplay.net/ed32726402fe50352b7f91a622e8f0a4d",
+        "uuid": "b3f3e0865184980173c0ddef10bc7929"
       }
     },
     {
-      "startTime": "2026-08-15T12:40:00+0000",
-      "duration": 5,
-      "name": "BBC Weather",
-      "description": "15/08/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030dft",
-        "event_locator": "dvb://233a..910e;328a",
-        "main_title": "BBC Weather",
-        "secondary_title": "15/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pd6bd18794d98b804e8f6d982758f5fd5",
-        "start_time": "2026-08-15T12:40:00+0000",
-        "duration": "PT5M",
-        "on_demand": {
-          "start_of_availability": "2026-08-15T12:45:05+0000",
-          "end_of_availability": "2026-08-16T12:45:05+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dft&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ed3dd06989b6ef044006383b6c35d0826",
-        "uuid": "f8184c9324266b5894c2412d890e9150"
-      }
-    },
-    {
-      "startTime": "2026-08-15T12:45:00+0000",
+      "startTime": "2026-08-16T11:15:00+0000",
       "duration": 45,
       "name": "Bargain Hunt",
-      "description": "Series 70: Kingston upon Thames 25",
+      "description": "Series 69: Detling 23",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0029b98",
-        "event_locator": "dvb://233a..910e;328b",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0024r8d",
+        "event_locator": "dvb://233a..910e;32eb",
         "main_title": "Bargain Hunt",
-        "secondary_title": "Series 70: Kingston upon Thames 25",
-        "image_url": "https://img.freeviewplay.tv/pd57278ad2798e32735dc863e2325d696",
-        "start_time": "2026-08-15T12:45:00+0000",
+        "secondary_title": "Series 69: Detling 23",
+        "image_url": "https://img.freeviewplay.tv/p67a2bd594efdd2204daf4a71e938b159",
+        "start_time": "2026-08-16T11:15:00+0000",
         "duration": "PT45M",
         "on_demand": {
-          "start_of_availability": "2026-08-15T13:29:51+0000",
-          "end_of_availability": "2026-09-14T13:29:51+0000",
+          "start_of_availability": "2026-08-16T12:00:00+0000",
+          "end_of_availability": "2026-09-15T12:00:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0029b98&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0024r8d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/eaeedfcd32bbb9eaab715756178d0a250",
-        "uuid": "f47972571ce4e14af819e2812d6df8c2"
+        "uuid": "671ed558329db2eaea69abbc362f025b"
       }
     },
     {
-      "startTime": "2026-08-15T13:30:00+0000",
-      "duration": 80,
-      "name": "Chicken Run",
-      "description": "Chicken Run",
+      "startTime": "2026-08-16T12:00:00+0000",
+      "duration": 10,
+      "name": "BBC Weekend News",
+      "description": "Lunchtime News: 16/08/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/b00d6ns4",
-        "event_locator": "dvb://233a..910e;328c",
-        "main_title": "Chicken Run",
-        "secondary_title": "Chicken Run",
-        "image_url": "https://img.freeviewplay.tv/p2ca1711c48f637805e158bcb96c07ece",
-        "start_time": "2026-08-15T13:30:00+0000",
-        "duration": "PT1H20M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030dgd",
+        "event_locator": "dvb://233a..910e;32ec",
+        "main_title": "BBC Weekend News",
+        "secondary_title": "Lunchtime News: 16/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pc4ec527fb800c44e4a64b2d6218b2190",
+        "start_time": "2026-08-16T12:00:00+0000",
+        "duration": "PT10M",
         "on_demand": {
-          "start_of_availability": "2026-08-15T14:50:08+0000",
-          "end_of_availability": "2026-09-14T14:50:08+0000",
+          "start_of_availability": "2026-08-16T12:10:00+0000",
+          "end_of_availability": "2026-08-17T12:10:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b00d6ns4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dgd&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-        "fallback_image_url": "http://img.freeviewplay.net/e896d2c517f684d82d535753b2eb0cc98",
-        "uuid": "30c41d1abb837cff5c2b2e0ece709ed1"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e1263a9088a04bd4220f67abe99c7710e",
+        "uuid": "9ee894b227416aaac6db3b4984b95c37"
       }
     },
     {
-      "startTime": "2026-08-15T14:50:00+0000",
-      "duration": 45,
-      "name": "Escape to the Country",
-      "description": "Series 25: 11. Perth and Kinross Borders",
+      "startTime": "2026-08-16T12:10:00+0000",
+      "duration": 5,
+      "name": "Weather for the Week Ahead",
+      "description": "16/08/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0024h6h",
-        "event_locator": "dvb://233a..910e;328d",
-        "main_title": "Escape to the Country",
-        "secondary_title": "Series 25: 11. Perth and Kinross Borders",
-        "image_url": "https://img.freeviewplay.tv/p4feddbcf9d7961682b23153f82db8298",
-        "start_time": "2026-08-15T14:50:00+0000",
-        "duration": "PT45M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030dgg",
+        "event_locator": "dvb://233a..910e;32ed",
+        "main_title": "Weather for the Week Ahead",
+        "secondary_title": "16/08/2026",
+        "image_url": "https://img.freeviewplay.tv/pa81f9d3746ce05db77a4e956c34d5245",
+        "start_time": "2026-08-16T12:10:00+0000",
+        "duration": "PT5M",
         "on_demand": {
-          "start_of_availability": "2026-08-15T15:34:57+0000",
-          "end_of_availability": "2026-09-14T15:34:57+0000",
+          "start_of_availability": "2026-08-16T12:14:36+0000",
+          "end_of_availability": "2026-08-17T12:14:36+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0024h6h&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dgg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e71dfd64c0529f2d0fedc581ccc608495",
+        "uuid": "7e0662829977cd25e8bdc127473ef297"
+      }
+    },
+    {
+      "startTime": "2026-08-16T12:15:00+0000",
+      "duration": 35,
+      "name": "Songs of Praise",
+      "description": "Countryside and Creation at the Royal Norfolk Show",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030gf4",
+        "event_locator": "dvb://233a..910e;32ee",
+        "main_title": "Songs of Praise",
+        "secondary_title": "Countryside and Creation at the Royal Norfolk Show",
+        "image_url": "https://img.freeviewplay.tv/p99a2306c990be50e384ef2d53c5a3aa7",
+        "start_time": "2026-08-16T12:15:00+0000",
+        "duration": "PT35M",
+        "on_demand": {
+          "start_of_availability": "2026-08-16T12:50:00+0000",
+          "end_of_availability": "2027-08-16T12:50:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gf4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e5b766da93c7a90a60457a86f941b2979",
+        "uuid": "b3f65f1fbe40a233af0a4892e809102f"
+      }
+    },
+    {
+      "startTime": "2026-08-16T12:50:00+0000",
+      "duration": 45,
+      "name": "Money for Nothing",
+      "description": "Series 14: Episode 6",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m001m78b",
+        "event_locator": "dvb://233a..910e;32ef",
+        "main_title": "Money for Nothing",
+        "secondary_title": "Series 14: Episode 6",
+        "image_url": "https://img.freeviewplay.tv/p2d996f858739237caef546d1b58df22d",
+        "start_time": "2026-08-16T12:50:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2026-08-16T13:35:05+0000",
+          "end_of_availability": "2026-09-15T13:35:05+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001m78b&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ee99a99072e030d129e69ecfc32fd9484",
+        "uuid": "fd9d3e73c98281bf935cb40df355f290"
+      }
+    },
+    {
+      "startTime": "2026-08-16T13:35:00+0000",
+      "duration": 30,
+      "name": "Escape to the Country",
+      "description": "Series 25: 13. Gloucestershire",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0024qhv",
+        "event_locator": "dvb://233a..910e;32f0",
+        "main_title": "Escape to the Country",
+        "secondary_title": "Series 25: 13. Gloucestershire",
+        "image_url": "https://img.freeviewplay.tv/p5c06d19267880439b862c645c2f0cd72",
+        "start_time": "2026-08-16T13:35:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-08-16T14:05:11+0000",
+          "end_of_availability": "2026-09-15T14:05:11+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0024qhv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e5e1120cb0a73fe2d16b8d383fa668905",
-        "uuid": "4605028601317fe31ac925ca6f30b6a9"
+        "uuid": "5abe7f432d9feab7f424599a63e4423f"
       }
     },
     {
-      "startTime": "2026-08-15T15:35:00+0000",
-      "duration": 45,
-      "name": "Garden Rescue",
-      "description": "Series 10: 6. Penarth",
+      "startTime": "2026-08-16T14:05:00+0000",
+      "duration": 60,
+      "name": "The Mating Game",
+      "description": "Series 1: 5. Against All Odds",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002csm8",
-        "event_locator": "dvb://233a..910e;328e",
-        "main_title": "Garden Rescue",
-        "secondary_title": "Series 10: 6. Penarth",
-        "image_url": "https://img.freeviewplay.tv/p36426433daaedf023ec715354db4b173",
-        "start_time": "2026-08-15T15:35:00+0000",
-        "duration": "PT45M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m00116rg",
+        "event_locator": "dvb://233a..910e;32f1",
+        "main_title": "The Mating Game",
+        "secondary_title": "Series 1: 5. Against All Odds",
+        "image_url": "https://img.freeviewplay.tv/p93fff1ad64b56105f01e5307896d121d",
+        "start_time": "2026-08-16T14:05:00+0000",
+        "duration": "PT1H",
         "on_demand": {
-          "start_of_availability": "2026-08-15T16:19:57+0000",
-          "end_of_availability": "2026-09-14T16:19:57+0000",
+          "start_of_availability": "2022-10-31T21:00:00+0000",
+          "end_of_availability": "2026-10-31T05:59:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002csm8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00116rg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e9af4ad1dde8ac01c9641a3c31b5d95bc",
-        "uuid": "d30c43be21297ecbd22e5ab76bc48055"
+        "fallback_image_url": "http://img.freeviewplay.net/e66f1162dbef66472cf3159441686c51c",
+        "uuid": "8f33bdbcd54846ef412fc15acfcc5711"
       }
     },
     {
-      "startTime": "2026-08-15T16:20:00+0000",
-      "duration": 10,
-      "name": "BBC Weekend News",
-      "description": "Evening News: 15/08/2026",
+      "startTime": "2026-08-16T15:05:00+0000",
+      "duration": 60,
+      "name": "Homes Under the Hammer",
+      "description": "Series 27: Digging It",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030dfw",
-        "event_locator": "dvb://233a..910e;328f",
-        "main_title": "BBC Weekend News",
-        "secondary_title": "Evening News: 15/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p8b4c4c4a98b0c45d2e490215f2620d13",
-        "start_time": "2026-08-15T16:20:00+0000",
-        "duration": "PT10M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0022mcj",
+        "event_locator": "dvb://233a..910e;32f2",
+        "main_title": "Homes Under the Hammer",
+        "secondary_title": "Series 27: Digging It",
+        "image_url": "https://img.freeviewplay.tv/p28573e464869aa4171afa32e45f309ab",
+        "start_time": "2026-08-16T15:05:00+0000",
+        "duration": "PT1H",
         "on_demand": {
-          "start_of_availability": "2026-08-15T16:32:00+0000",
-          "end_of_availability": "2026-08-16T16:32:00+0000",
+          "start_of_availability": "2026-08-16T16:05:02+0000",
+          "end_of_availability": "2026-09-15T16:05:02+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dfw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0022mcj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e0b58fccdb29ad9dea145b17577cd597d",
+        "uuid": "30f40550711c725a1dcec910ce702079"
+      }
+    },
+    {
+      "startTime": "2026-08-16T16:05:00+0000",
+      "duration": 15,
+      "name": "BBC Weekend News",
+      "description": "Evening News: 16/08/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030dgk",
+        "event_locator": "dvb://233a..910e;32f3",
+        "main_title": "BBC Weekend News",
+        "secondary_title": "Evening News: 16/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p1c65d31a9306be1d00ea5a8993117460",
+        "start_time": "2026-08-16T16:05:00+0000",
+        "duration": "PT15M",
+        "on_demand": {
+          "start_of_availability": "2026-08-16T16:21:30+0000",
+          "end_of_availability": "2026-08-17T16:21:30+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dgk&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e1263a9088a04bd4220f67abe99c7710e",
-        "uuid": "8b3a1cea60b2452f6a16c80353605296"
+        "uuid": "85efe99ae3a7add26308f3b9eb5ef495"
       }
     },
     {
-      "startTime": "2026-08-15T16:30:00+0000",
+      "startTime": "2026-08-16T16:20:00+0000",
       "duration": 5,
       "name": "Spotlight",
-      "description": "Evening News: 15/08/2026",
+      "description": "Evening News: 16/08/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030gl2",
-        "event_locator": "dvb://233a..910e;3290",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030gmw",
+        "event_locator": "dvb://233a..910e;32f4",
         "main_title": "Spotlight",
-        "secondary_title": "Evening News: 15/08/2026",
-        "image_url": "https://img.freeviewplay.tv/p708e76acd7294c200dc245c6a0bd4440",
-        "start_time": "2026-08-15T16:30:00+0000",
+        "secondary_title": "Evening News: 16/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p58978054adbc7bbc46935e20ffe6d25a",
+        "start_time": "2026-08-16T16:20:00+0000",
         "duration": "PT5M",
         "on_demand": {
-          "start_of_availability": "2026-08-15T16:37:05+0000",
-          "end_of_availability": "2026-08-16T16:37:05+0000",
+          "start_of_availability": "2026-08-16T16:27:30+0000",
+          "end_of_availability": "2026-08-17T16:27:30+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gl2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gmw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/eefdc2de1445d9e3b4fd74bdf009d2bdf",
-        "uuid": "285d5376d4ec5ca15ed46eeda17cd9d5"
+        "uuid": "d1e5d7657888f8581396c30eaa8b500a"
       }
     },
     {
-      "startTime": "2026-08-15T16:35:00+0000",
-      "duration": 10,
+      "startTime": "2026-08-16T16:25:00+0000",
+      "duration": 5,
       "name": "BBC Weather",
-      "description": "15/08/2026",
+      "description": "16/08/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030dg0",
-        "event_locator": "dvb://233a..910e;3291",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030dgp",
+        "event_locator": "dvb://233a..910e;32f5",
         "main_title": "BBC Weather",
-        "secondary_title": "15/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pd6bd18794d98b804e8f6d982758f5fd5",
-        "start_time": "2026-08-15T16:35:00+0000",
-        "duration": "PT10M",
+        "secondary_title": "16/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p58e321d77b55acef3b93dfb1cc6a7fe9",
+        "start_time": "2026-08-16T16:25:00+0000",
+        "duration": "PT5M",
         "on_demand": {
-          "start_of_availability": "2026-08-15T16:38:39+0000",
-          "end_of_availability": "2026-08-22T16:38:39+0000",
+          "start_of_availability": "2026-08-16T16:30:19+0000",
+          "end_of_availability": "2026-08-23T16:30:19+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dg0&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dgp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/ed3dd06989b6ef044006383b6c35d0826",
-        "uuid": "c29c7ea3a3f7da6b0de2cd2c033fbf90"
+        "uuid": "0e26d2c2d202a7450e34fc8633e48fc0"
       }
     },
     {
-      "startTime": "2026-08-15T16:45:00+0000",
-      "duration": 45,
-      "name": "The Hit List",
-      "description": "Series 9: Episode 4",
+      "startTime": "2026-08-16T16:30:00+0000",
+      "duration": 60,
+      "name": "Countryfile",
+      "description": "Adam's Young Farmers: Cumbria",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030g35",
-        "event_locator": "dvb://233a..910e;3292",
-        "main_title": "The Hit List",
-        "secondary_title": "Series 9: Episode 4",
-        "image_url": "https://img.freeviewplay.tv/pac9f07b7e1e4efd2f8bec293b47eb011",
-        "start_time": "2026-08-15T16:45:00+0000",
-        "duration": "PT45M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030gf7",
+        "event_locator": "dvb://233a..910e;32f6",
+        "main_title": "Countryfile",
+        "secondary_title": "Adam's Young Farmers: Cumbria",
+        "image_url": "https://img.freeviewplay.tv/pfe292a56dfe0a82818adcabc8ee90f5f",
+        "start_time": "2026-08-16T16:30:00+0000",
+        "duration": "PT1H",
         "on_demand": {
-          "start_of_availability": "2026-08-15T17:29:55+0000",
-          "end_of_availability": "2027-09-19T17:38:50+0000",
+          "start_of_availability": "2026-08-23T07:40:00+0000",
+          "end_of_availability": "2027-08-23T07:40:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030g35&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gf7&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/efbd99d86c684c45b2483e23d303b24a3",
-        "uuid": "cbcd216f5e71fe09a0e4e692e35479f9"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/efe46c88da7fb100caaa1d6045ea2cd0a",
+        "uuid": "b8e08fe4189490ea6175f3373d767e6f"
       }
     },
     {
-      "startTime": "2026-08-15T17:30:00+0000",
-      "duration": 45,
-      "name": "Alan Carr's Picture Slam",
-      "description": "Series 4: Episode 5",
+      "startTime": "2026-08-16T17:30:00+0000",
+      "duration": 60,
+      "name": "Antiques Roadshow",
+      "description": "Series 45: 5. Brodie Castle and Estate, Morayshire 2",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030g39",
-        "event_locator": "dvb://233a..910e;3293",
-        "main_title": "Alan Carr's Picture Slam",
-        "secondary_title": "Series 4: Episode 5",
-        "image_url": "https://img.freeviewplay.tv/p4390c6b2413764ff10ff230091773390",
-        "start_time": "2026-08-15T17:30:00+0000",
-        "duration": "PT45M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m001d83b",
+        "event_locator": "dvb://233a..910e;32f7",
+        "main_title": "Antiques Roadshow",
+        "secondary_title": "Series 45: 5. Brodie Castle and Estate, Morayshire 2",
+        "image_url": "https://img.freeviewplay.tv/p49a8d630b47562aceaba0bc68040dd90",
+        "start_time": "2026-08-16T17:30:00+0000",
+        "duration": "PT1H",
         "on_demand": {
-          "start_of_availability": "2026-08-15T18:14:57+0000",
-          "end_of_availability": "2027-09-05T18:08:59+0000",
+          "start_of_availability": "2026-08-16T18:30:01+0000",
+          "end_of_availability": "2026-09-15T18:30:01+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030g39&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001d83b&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/eaf32aa7da982e792fa143e269bc64d53",
-        "uuid": "1c593d4a3f086e3f9bf9507570e59097"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e20c8423d9a145445d10b34acdf5f9fc9",
+        "uuid": "687a032a083199e415a9f3c5f412e9f0"
       }
     },
     {
-      "startTime": "2026-08-15T18:15:00+0000",
-      "duration": 165,
+      "startTime": "2026-08-16T18:30:00+0000",
+      "duration": 150,
       "name": "European Athletics Championships",
-      "description": "2026: Day 6: Men's 1,500m Final, 4x100m Relay Finals",
+      "description": "2026: Day 7: Men's Pole Vault, Women's 1,500m Final, Relay Finals",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030g3d",
-        "event_locator": "dvb://233a..910e;3294",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030gfc",
+        "event_locator": "dvb://233a..910e;32f8",
         "main_title": "European Athletics Championships",
-        "secondary_title": "2026: Day 6: Men's 1,500m Final, 4x100m Relay Finals",
-        "image_url": "https://img.freeviewplay.tv/p592366bdab31300a9e525190445e95bf",
-        "start_time": "2026-08-15T18:15:00+0000",
-        "duration": "PT2H45M",
+        "secondary_title": "2026: Day 7: Men's Pole Vault, Women's 1,500m Final, Relay Finals",
+        "image_url": "https://img.freeviewplay.tv/p3e522174bc1cf599a7f74bb87db593cc",
+        "start_time": "2026-08-16T18:30:00+0000",
+        "duration": "PT2H30M",
         "on_demand": {
-          "start_of_availability": "2026-08-15T21:00:00+0000",
-          "end_of_availability": "2026-09-14T21:00:00+0000",
+          "start_of_availability": "2026-08-16T21:00:00+0000",
+          "end_of_availability": "2026-09-15T21:00:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030g3d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gfc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
         "fallback_image_url": "http://img.freeviewplay.net/e2c3e16d1b7b4c4298f9affadd85d562d",
-        "uuid": "8905459c233a01ed22c503e9416bb3a9"
+        "uuid": "d5c670fa2ddd732efdc44338230aeedf"
       }
     },
     {
-      "startTime": "2026-08-15T21:00:00+0000",
-      "duration": 15,
+      "startTime": "2026-08-16T21:00:00+0000",
+      "duration": 25,
       "name": "BBC Weekend News",
-      "description": "Late News: 15/08/2026",
+      "description": "Late News: 16/08/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030dg2",
-        "event_locator": "dvb://233a..910e;3295",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030dgr",
+        "event_locator": "dvb://233a..910e;32f9",
         "main_title": "BBC Weekend News",
-        "secondary_title": "Late News: 15/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pa09740570973f503a6969100d37f0493",
-        "start_time": "2026-08-15T21:00:00+0000",
-        "duration": "PT15M",
+        "secondary_title": "Late News: 16/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p8b2b12e518279cd5c55049f362dcfde3",
+        "start_time": "2026-08-16T21:00:00+0000",
+        "duration": "PT25M",
         "on_demand": {
-          "start_of_availability": "2026-08-15T21:16:00+0000",
-          "end_of_availability": "2026-08-16T21:16:00+0000",
+          "start_of_availability": "2026-08-16T21:24:00+0000",
+          "end_of_availability": "2026-08-17T21:24:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dg2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dgr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e1263a9088a04bd4220f67abe99c7710e",
-        "uuid": "8f65bf4e68c2834816c94d94a7f019ec"
+        "fallback_image_url": "http://img.freeviewplay.net/e614c4deb44ef7be27eced6e2f3f60f7c",
+        "uuid": "b6f7577c14687459617af742183c4e35"
       }
     },
     {
-      "startTime": "2026-08-15T21:15:00+0000",
+      "startTime": "2026-08-16T21:25:00+0000",
       "duration": 5,
-      "name": "BBC Weather",
-      "description": "15/08/2026",
+      "name": "Spotlight",
+      "description": "Late News: 16/08/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030dg4",
-        "event_locator": "dvb://233a..910e;3296",
-        "main_title": "BBC Weather",
-        "secondary_title": "15/08/2026",
-        "image_url": "https://img.freeviewplay.tv/pd6bd18794d98b804e8f6d982758f5fd5",
-        "start_time": "2026-08-15T21:15:00+0000",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030gmy",
+        "event_locator": "dvb://233a..910e;32fa",
+        "main_title": "Spotlight",
+        "secondary_title": "Late News: 16/08/2026",
+        "image_url": "https://img.freeviewplay.tv/p5a8b6bd5cc9a1a3b322a92406de85c49",
+        "start_time": "2026-08-16T21:25:00+0000",
         "duration": "PT5M",
         "on_demand": {
-          "start_of_availability": "2026-08-15T21:17:34+0000",
-          "end_of_availability": "2026-08-22T21:17:34+0000",
+          "start_of_availability": "2026-08-16T21:30:00+0000",
+          "end_of_availability": "2026-08-17T21:30:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dg4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gmy&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ed3dd06989b6ef044006383b6c35d0826",
-        "uuid": "2b8bfd65c113189314c1beec8eb9aa6d"
+        "fallback_image_url": "http://img.freeviewplay.net/eefdc2de1445d9e3b4fd74bdf009d2bdf",
+        "uuid": "3a1fcdfb1b1475c06acd2fadb8bde2ad"
       }
     },
     {
-      "startTime": "2026-08-15T21:20:00+0000",
-      "duration": 105,
-      "name": "Mission: Impossible",
-      "description": "Mission: Impossible",
+      "startTime": "2026-08-16T21:30:00+0000",
+      "duration": 115,
+      "name": "Mission: Impossible II",
+      "description": "Mission: Impossible II",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m000qq54",
-        "event_locator": "dvb://233a..910e;3297",
-        "main_title": "Mission: Impossible",
-        "secondary_title": "Mission: Impossible",
-        "image_url": "https://img.freeviewplay.tv/p87567e45a9b3a1957f81ad3ed51bbec7",
-        "start_time": "2026-08-15T21:20:00+0000",
-        "duration": "PT1H45M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m002nzzw",
+        "event_locator": "dvb://233a..910e;32fb",
+        "main_title": "Mission: Impossible II",
+        "secondary_title": "Mission: Impossible II",
+        "image_url": "https://img.freeviewplay.tv/p4f0bee313468887d6a9179327a085edf",
+        "start_time": "2026-08-16T21:30:00+0000",
+        "duration": "PT1H55M",
         "on_demand": {
           "start_of_availability": "2025-12-31T06:00:00+0000",
           "end_of_availability": "2026-11-05T23:59:00+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m000qq54&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002nzzw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-        "fallback_image_url": "http://img.freeviewplay.net/e082982f9ae1801cf6fc117afab48c682",
-        "uuid": "890686f28287c3674df1444cc7ece4a2"
+        "fallback_image_url": "http://img.freeviewplay.net/ee8a0b1cc2c1d4625a4810c35c993c01a",
+        "uuid": "d9fdf8cb5562740978e20d6173d97e24"
       }
     },
     {
-      "startTime": "2026-08-15T23:05:00+0000",
-      "duration": 120,
-      "name": "Spider-Man: Far from Home",
-      "description": "Spider-Man: Far from Home",
+      "startTime": "2026-08-16T23:25:00+0000",
+      "duration": 135,
+      "name": "Spider-Man: No Way Home",
+      "description": "Spider-Man: No Way Home",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0012k3b",
-        "event_locator": "dvb://233a..910e;33e3",
-        "main_title": "Spider-Man: Far from Home",
-        "secondary_title": "Spider-Man: Far from Home",
-        "image_url": "https://img.freeviewplay.tv/p6db0d6f3a5cc6a86ab79aeda0afb8c48",
-        "start_time": "2026-08-15T23:05:00+0000",
-        "duration": "PT2H",
+        "program_id": "crid://bbc.co.uk/icc/episode/m001zpyp",
+        "event_locator": "dvb://233a..910e;33e4",
+        "main_title": "Spider-Man: No Way Home",
+        "secondary_title": "Spider-Man: No Way Home",
+        "image_url": "https://img.freeviewplay.tv/p5036f75950a9d9f5c2384595a2cd69c3",
+        "start_time": "2026-08-16T23:25:00+0000",
+        "duration": "PT2H15M",
         "on_demand": {
-          "start_of_availability": "2026-07-16T23:39:49+0000",
-          "end_of_availability": "2026-08-15T23:39:49+0000",
+          "start_of_availability": "2026-07-19T16:34:00+0000",
+          "end_of_availability": "2026-09-16T01:43:22+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0012k3b&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001zpyp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-        "fallback_image_url": "http://img.freeviewplay.net/ed13a8ad59d4a06042ebd6909892b4741",
-        "uuid": "1709485edcfe964d55e643b539be1d7b"
+        "fallback_image_url": "http://img.freeviewplay.net/ec25e1001f1fda6dd01cda9e13e685bb9",
+        "uuid": "caec58e9a8aa5c49cec4dd1a03969294"
       }
     }
   ],
@@ -550,543 +690,683 @@
       {
         "event": [
           {
-            "startTime": "2026-08-15T05:00:00+0000",
-            "duration": 240,
-            "name": "Breakfast",
-            "description": "15/08/2026",
+            "startTime": "2026-08-16T01:05:00+0000",
+            "duration": 5,
+            "name": "Weather for the Week Ahead",
+            "description": "16/08/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030dfp",
-              "event_locator": "dvb://233a..910e;3287",
-              "main_title": "Breakfast",
-              "secondary_title": "15/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p13e9ff179ef32b0183361d854ee56212",
-              "start_time": "2026-08-15T05:00:00+0000",
-              "duration": "PT4H",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030dg6",
+              "event_locator": "dvb://233a..910e;3298",
+              "main_title": "Weather for the Week Ahead",
+              "secondary_title": "16/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pa81f9d3746ce05db77a4e956c34d5245",
+              "start_time": "2026-08-16T01:05:00+0000",
+              "duration": "PT5M",
               "on_demand": {
-                "start_of_availability": "2026-08-15T09:00:00+0000",
-                "end_of_availability": "2026-08-16T09:00:00+0000",
+                "start_of_availability": "2026-08-16T01:10:33+0000",
+                "end_of_availability": "2026-08-23T01:10:33+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dfp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dg6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e71dfd64c0529f2d0fedc581ccc608495",
+              "uuid": "7abd1ca20b04d7cd15544b35d46c9403"
+            }
+          },
+          {
+            "startTime": "2026-08-16T01:10:00+0000",
+            "duration": 230,
+            "name": "Joins BBC News",
+            "description": "16/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030dg8",
+              "event_locator": "dvb://233a..910e;3299",
+              "main_title": "Joins BBC News",
+              "secondary_title": "16/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p707847ae6f5129ceebc32ba1bfcb06c9",
+              "start_time": "2026-08-16T01:10:00+0000",
+              "duration": "PT3H50M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e1263a9088a04bd4220f67abe99c7710e",
+              "uuid": "01a5863bb50b3278cdc5909e09483f45"
+            }
+          },
+          {
+            "startTime": "2026-08-16T05:00:00+0000",
+            "duration": 85,
+            "name": "Breakfast",
+            "description": "16/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030dgb",
+              "event_locator": "dvb://233a..910e;32e8",
+              "main_title": "Breakfast",
+              "secondary_title": "16/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p3638c28ef35a68bd64659cf3e3ed9909",
+              "start_time": "2026-08-16T05:00:00+0000",
+              "duration": "PT1H25M",
+              "on_demand": {
+                "start_of_availability": "2026-08-16T06:25:00+0000",
+                "end_of_availability": "2026-08-17T06:25:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dgb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e79d8d02137807923c3db6680968955b3",
-              "uuid": "073b0610a7b930fe2186dbb89fec5437"
+              "uuid": "ffde0b1d4f9344fc3b30204bc1ed1967"
             }
           },
           {
-            "startTime": "2026-08-15T09:00:00+0000",
-            "duration": 210,
+            "startTime": "2026-08-16T06:25:00+0000",
+            "duration": 190,
             "name": "European Athletics Championships",
-            "description": "2026: Day 6: Featuring Women's Heptathlon",
+            "description": "2026: Day 7: Marathons",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030g31",
-              "event_locator": "dvb://233a..910e;3288",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030gf1",
+              "event_locator": "dvb://233a..910e;32e9",
               "main_title": "European Athletics Championships",
-              "secondary_title": "2026: Day 6: Featuring Women's Heptathlon",
-              "image_url": "https://img.freeviewplay.tv/p38c34d09c6f4dd14bad5447f0e7cf38a",
-              "start_time": "2026-08-15T09:00:00+0000",
-              "duration": "PT3H30M",
+              "secondary_title": "2026: Day 7: Marathons",
+              "image_url": "https://img.freeviewplay.tv/p2342146dc35b3119581bcc81a624c71b",
+              "start_time": "2026-08-16T06:25:00+0000",
+              "duration": "PT3H10M",
               "on_demand": {
-                "start_of_availability": "2026-08-15T12:30:00+0000",
-                "end_of_availability": "2026-09-14T12:30:00+0000",
+                "start_of_availability": "2026-08-16T09:35:25+0000",
+                "end_of_availability": "2026-09-15T09:35:25+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030g31&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gf1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
               "fallback_image_url": "http://img.freeviewplay.net/e2c3e16d1b7b4c4298f9affadd85d562d",
-              "uuid": "4bac1d23726dd3168119eb3a327af87c"
+              "uuid": "77e1da78ca6a54b6a7b0526cbdde5bf2"
             }
           },
           {
-            "startTime": "2026-08-15T12:30:00+0000",
-            "duration": 10,
-            "name": "BBC Weekend News",
-            "description": "Lunchtime News: 15/08/2026",
+            "startTime": "2026-08-16T09:35:00+0000",
+            "duration": 100,
+            "name": "Lyle, Lyle, Crocodile",
+            "description": "Lyle, Lyle, Crocodile",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030dfr",
-              "event_locator": "dvb://233a..910e;3289",
-              "main_title": "BBC Weekend News",
-              "secondary_title": "Lunchtime News: 15/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pb2b07973f1e46a48d56499c1c56a3c48",
-              "start_time": "2026-08-15T12:30:00+0000",
-              "duration": "PT10M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002gk4w",
+              "event_locator": "dvb://233a..910e;32ea",
+              "main_title": "Lyle, Lyle, Crocodile",
+              "secondary_title": "Lyle, Lyle, Crocodile",
+              "image_url": "https://img.freeviewplay.tv/p06beb60b57e9667b5ca3c1bc467881b1",
+              "start_time": "2026-08-16T09:35:00+0000",
+              "duration": "PT1H40M",
               "on_demand": {
-                "start_of_availability": "2026-08-15T12:42:00+0000",
-                "end_of_availability": "2026-08-16T12:42:00+0000",
+                "start_of_availability": "2026-08-16T11:14:14+0000",
+                "end_of_availability": "2026-09-15T11:14:14+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dfr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002gk4w&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e1263a9088a04bd4220f67abe99c7710e",
-              "uuid": "138aed3774a07c2b3bab4d0cb8299edf"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
+              "fallback_image_url": "http://img.freeviewplay.net/ed32726402fe50352b7f91a622e8f0a4d",
+              "uuid": "b3f3e0865184980173c0ddef10bc7929"
             }
           },
           {
-            "startTime": "2026-08-15T12:40:00+0000",
-            "duration": 5,
-            "name": "BBC Weather",
-            "description": "15/08/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030dft",
-              "event_locator": "dvb://233a..910e;328a",
-              "main_title": "BBC Weather",
-              "secondary_title": "15/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pd6bd18794d98b804e8f6d982758f5fd5",
-              "start_time": "2026-08-15T12:40:00+0000",
-              "duration": "PT5M",
-              "on_demand": {
-                "start_of_availability": "2026-08-15T12:45:05+0000",
-                "end_of_availability": "2026-08-16T12:45:05+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dft&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ed3dd06989b6ef044006383b6c35d0826",
-              "uuid": "f8184c9324266b5894c2412d890e9150"
-            }
-          },
-          {
-            "startTime": "2026-08-15T12:45:00+0000",
+            "startTime": "2026-08-16T11:15:00+0000",
             "duration": 45,
             "name": "Bargain Hunt",
-            "description": "Series 70: Kingston upon Thames 25",
+            "description": "Series 69: Detling 23",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0029b98",
-              "event_locator": "dvb://233a..910e;328b",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0024r8d",
+              "event_locator": "dvb://233a..910e;32eb",
               "main_title": "Bargain Hunt",
-              "secondary_title": "Series 70: Kingston upon Thames 25",
-              "image_url": "https://img.freeviewplay.tv/pd57278ad2798e32735dc863e2325d696",
-              "start_time": "2026-08-15T12:45:00+0000",
+              "secondary_title": "Series 69: Detling 23",
+              "image_url": "https://img.freeviewplay.tv/p67a2bd594efdd2204daf4a71e938b159",
+              "start_time": "2026-08-16T11:15:00+0000",
               "duration": "PT45M",
               "on_demand": {
-                "start_of_availability": "2026-08-15T13:29:51+0000",
-                "end_of_availability": "2026-09-14T13:29:51+0000",
+                "start_of_availability": "2026-08-16T12:00:00+0000",
+                "end_of_availability": "2026-09-15T12:00:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0029b98&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0024r8d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/eaeedfcd32bbb9eaab715756178d0a250",
-              "uuid": "f47972571ce4e14af819e2812d6df8c2"
+              "uuid": "671ed558329db2eaea69abbc362f025b"
             }
           },
           {
-            "startTime": "2026-08-15T13:30:00+0000",
-            "duration": 80,
-            "name": "Chicken Run",
-            "description": "Chicken Run",
+            "startTime": "2026-08-16T12:00:00+0000",
+            "duration": 10,
+            "name": "BBC Weekend News",
+            "description": "Lunchtime News: 16/08/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/b00d6ns4",
-              "event_locator": "dvb://233a..910e;328c",
-              "main_title": "Chicken Run",
-              "secondary_title": "Chicken Run",
-              "image_url": "https://img.freeviewplay.tv/p2ca1711c48f637805e158bcb96c07ece",
-              "start_time": "2026-08-15T13:30:00+0000",
-              "duration": "PT1H20M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030dgd",
+              "event_locator": "dvb://233a..910e;32ec",
+              "main_title": "BBC Weekend News",
+              "secondary_title": "Lunchtime News: 16/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pc4ec527fb800c44e4a64b2d6218b2190",
+              "start_time": "2026-08-16T12:00:00+0000",
+              "duration": "PT10M",
               "on_demand": {
-                "start_of_availability": "2026-08-15T14:50:08+0000",
-                "end_of_availability": "2026-09-14T14:50:08+0000",
+                "start_of_availability": "2026-08-16T12:10:00+0000",
+                "end_of_availability": "2026-08-17T12:10:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b00d6ns4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dgd&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-              "fallback_image_url": "http://img.freeviewplay.net/e896d2c517f684d82d535753b2eb0cc98",
-              "uuid": "30c41d1abb837cff5c2b2e0ece709ed1"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e1263a9088a04bd4220f67abe99c7710e",
+              "uuid": "9ee894b227416aaac6db3b4984b95c37"
             }
           },
           {
-            "startTime": "2026-08-15T14:50:00+0000",
-            "duration": 45,
-            "name": "Escape to the Country",
-            "description": "Series 25: 11. Perth and Kinross Borders",
+            "startTime": "2026-08-16T12:10:00+0000",
+            "duration": 5,
+            "name": "Weather for the Week Ahead",
+            "description": "16/08/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0024h6h",
-              "event_locator": "dvb://233a..910e;328d",
-              "main_title": "Escape to the Country",
-              "secondary_title": "Series 25: 11. Perth and Kinross Borders",
-              "image_url": "https://img.freeviewplay.tv/p4feddbcf9d7961682b23153f82db8298",
-              "start_time": "2026-08-15T14:50:00+0000",
-              "duration": "PT45M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030dgg",
+              "event_locator": "dvb://233a..910e;32ed",
+              "main_title": "Weather for the Week Ahead",
+              "secondary_title": "16/08/2026",
+              "image_url": "https://img.freeviewplay.tv/pa81f9d3746ce05db77a4e956c34d5245",
+              "start_time": "2026-08-16T12:10:00+0000",
+              "duration": "PT5M",
               "on_demand": {
-                "start_of_availability": "2026-08-15T15:34:57+0000",
-                "end_of_availability": "2026-09-14T15:34:57+0000",
+                "start_of_availability": "2026-08-16T12:14:36+0000",
+                "end_of_availability": "2026-08-17T12:14:36+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0024h6h&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dgg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e71dfd64c0529f2d0fedc581ccc608495",
+              "uuid": "7e0662829977cd25e8bdc127473ef297"
+            }
+          },
+          {
+            "startTime": "2026-08-16T12:15:00+0000",
+            "duration": 35,
+            "name": "Songs of Praise",
+            "description": "Countryside and Creation at the Royal Norfolk Show",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030gf4",
+              "event_locator": "dvb://233a..910e;32ee",
+              "main_title": "Songs of Praise",
+              "secondary_title": "Countryside and Creation at the Royal Norfolk Show",
+              "image_url": "https://img.freeviewplay.tv/p99a2306c990be50e384ef2d53c5a3aa7",
+              "start_time": "2026-08-16T12:15:00+0000",
+              "duration": "PT35M",
+              "on_demand": {
+                "start_of_availability": "2026-08-16T12:50:00+0000",
+                "end_of_availability": "2027-08-16T12:50:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gf4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e5b766da93c7a90a60457a86f941b2979",
+              "uuid": "b3f65f1fbe40a233af0a4892e809102f"
+            }
+          },
+          {
+            "startTime": "2026-08-16T12:50:00+0000",
+            "duration": 45,
+            "name": "Money for Nothing",
+            "description": "Series 14: Episode 6",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m001m78b",
+              "event_locator": "dvb://233a..910e;32ef",
+              "main_title": "Money for Nothing",
+              "secondary_title": "Series 14: Episode 6",
+              "image_url": "https://img.freeviewplay.tv/p2d996f858739237caef546d1b58df22d",
+              "start_time": "2026-08-16T12:50:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2026-08-16T13:35:05+0000",
+                "end_of_availability": "2026-09-15T13:35:05+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001m78b&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ee99a99072e030d129e69ecfc32fd9484",
+              "uuid": "fd9d3e73c98281bf935cb40df355f290"
+            }
+          },
+          {
+            "startTime": "2026-08-16T13:35:00+0000",
+            "duration": 30,
+            "name": "Escape to the Country",
+            "description": "Series 25: 13. Gloucestershire",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0024qhv",
+              "event_locator": "dvb://233a..910e;32f0",
+              "main_title": "Escape to the Country",
+              "secondary_title": "Series 25: 13. Gloucestershire",
+              "image_url": "https://img.freeviewplay.tv/p5c06d19267880439b862c645c2f0cd72",
+              "start_time": "2026-08-16T13:35:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-08-16T14:05:11+0000",
+                "end_of_availability": "2026-09-15T14:05:11+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0024qhv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e5e1120cb0a73fe2d16b8d383fa668905",
-              "uuid": "4605028601317fe31ac925ca6f30b6a9"
+              "uuid": "5abe7f432d9feab7f424599a63e4423f"
             }
           },
           {
-            "startTime": "2026-08-15T15:35:00+0000",
-            "duration": 45,
-            "name": "Garden Rescue",
-            "description": "Series 10: 6. Penarth",
+            "startTime": "2026-08-16T14:05:00+0000",
+            "duration": 60,
+            "name": "The Mating Game",
+            "description": "Series 1: 5. Against All Odds",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002csm8",
-              "event_locator": "dvb://233a..910e;328e",
-              "main_title": "Garden Rescue",
-              "secondary_title": "Series 10: 6. Penarth",
-              "image_url": "https://img.freeviewplay.tv/p36426433daaedf023ec715354db4b173",
-              "start_time": "2026-08-15T15:35:00+0000",
-              "duration": "PT45M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m00116rg",
+              "event_locator": "dvb://233a..910e;32f1",
+              "main_title": "The Mating Game",
+              "secondary_title": "Series 1: 5. Against All Odds",
+              "image_url": "https://img.freeviewplay.tv/p93fff1ad64b56105f01e5307896d121d",
+              "start_time": "2026-08-16T14:05:00+0000",
+              "duration": "PT1H",
               "on_demand": {
-                "start_of_availability": "2026-08-15T16:19:57+0000",
-                "end_of_availability": "2026-09-14T16:19:57+0000",
+                "start_of_availability": "2022-10-31T21:00:00+0000",
+                "end_of_availability": "2026-10-31T05:59:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002csm8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00116rg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e9af4ad1dde8ac01c9641a3c31b5d95bc",
-              "uuid": "d30c43be21297ecbd22e5ab76bc48055"
+              "fallback_image_url": "http://img.freeviewplay.net/e66f1162dbef66472cf3159441686c51c",
+              "uuid": "8f33bdbcd54846ef412fc15acfcc5711"
             }
           },
           {
-            "startTime": "2026-08-15T16:20:00+0000",
-            "duration": 10,
-            "name": "BBC Weekend News",
-            "description": "Evening News: 15/08/2026",
+            "startTime": "2026-08-16T15:05:00+0000",
+            "duration": 60,
+            "name": "Homes Under the Hammer",
+            "description": "Series 27: Digging It",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030dfw",
-              "event_locator": "dvb://233a..910e;328f",
-              "main_title": "BBC Weekend News",
-              "secondary_title": "Evening News: 15/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p8b4c4c4a98b0c45d2e490215f2620d13",
-              "start_time": "2026-08-15T16:20:00+0000",
-              "duration": "PT10M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0022mcj",
+              "event_locator": "dvb://233a..910e;32f2",
+              "main_title": "Homes Under the Hammer",
+              "secondary_title": "Series 27: Digging It",
+              "image_url": "https://img.freeviewplay.tv/p28573e464869aa4171afa32e45f309ab",
+              "start_time": "2026-08-16T15:05:00+0000",
+              "duration": "PT1H",
               "on_demand": {
-                "start_of_availability": "2026-08-15T16:32:00+0000",
-                "end_of_availability": "2026-08-16T16:32:00+0000",
+                "start_of_availability": "2026-08-16T16:05:02+0000",
+                "end_of_availability": "2026-09-15T16:05:02+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dfw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0022mcj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e0b58fccdb29ad9dea145b17577cd597d",
+              "uuid": "30f40550711c725a1dcec910ce702079"
+            }
+          },
+          {
+            "startTime": "2026-08-16T16:05:00+0000",
+            "duration": 15,
+            "name": "BBC Weekend News",
+            "description": "Evening News: 16/08/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030dgk",
+              "event_locator": "dvb://233a..910e;32f3",
+              "main_title": "BBC Weekend News",
+              "secondary_title": "Evening News: 16/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p1c65d31a9306be1d00ea5a8993117460",
+              "start_time": "2026-08-16T16:05:00+0000",
+              "duration": "PT15M",
+              "on_demand": {
+                "start_of_availability": "2026-08-16T16:21:30+0000",
+                "end_of_availability": "2026-08-17T16:21:30+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dgk&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e1263a9088a04bd4220f67abe99c7710e",
-              "uuid": "8b3a1cea60b2452f6a16c80353605296"
+              "uuid": "85efe99ae3a7add26308f3b9eb5ef495"
             }
           },
           {
-            "startTime": "2026-08-15T16:30:00+0000",
+            "startTime": "2026-08-16T16:20:00+0000",
             "duration": 5,
             "name": "Spotlight",
-            "description": "Evening News: 15/08/2026",
+            "description": "Evening News: 16/08/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030gl2",
-              "event_locator": "dvb://233a..910e;3290",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030gmw",
+              "event_locator": "dvb://233a..910e;32f4",
               "main_title": "Spotlight",
-              "secondary_title": "Evening News: 15/08/2026",
-              "image_url": "https://img.freeviewplay.tv/p708e76acd7294c200dc245c6a0bd4440",
-              "start_time": "2026-08-15T16:30:00+0000",
+              "secondary_title": "Evening News: 16/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p58978054adbc7bbc46935e20ffe6d25a",
+              "start_time": "2026-08-16T16:20:00+0000",
               "duration": "PT5M",
               "on_demand": {
-                "start_of_availability": "2026-08-15T16:37:05+0000",
-                "end_of_availability": "2026-08-16T16:37:05+0000",
+                "start_of_availability": "2026-08-16T16:27:30+0000",
+                "end_of_availability": "2026-08-17T16:27:30+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gl2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gmw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/eefdc2de1445d9e3b4fd74bdf009d2bdf",
-              "uuid": "285d5376d4ec5ca15ed46eeda17cd9d5"
+              "uuid": "d1e5d7657888f8581396c30eaa8b500a"
             }
           },
           {
-            "startTime": "2026-08-15T16:35:00+0000",
-            "duration": 10,
+            "startTime": "2026-08-16T16:25:00+0000",
+            "duration": 5,
             "name": "BBC Weather",
-            "description": "15/08/2026",
+            "description": "16/08/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030dg0",
-              "event_locator": "dvb://233a..910e;3291",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030dgp",
+              "event_locator": "dvb://233a..910e;32f5",
               "main_title": "BBC Weather",
-              "secondary_title": "15/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pd6bd18794d98b804e8f6d982758f5fd5",
-              "start_time": "2026-08-15T16:35:00+0000",
-              "duration": "PT10M",
+              "secondary_title": "16/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p58e321d77b55acef3b93dfb1cc6a7fe9",
+              "start_time": "2026-08-16T16:25:00+0000",
+              "duration": "PT5M",
               "on_demand": {
-                "start_of_availability": "2026-08-15T16:38:39+0000",
-                "end_of_availability": "2026-08-22T16:38:39+0000",
+                "start_of_availability": "2026-08-16T16:30:19+0000",
+                "end_of_availability": "2026-08-23T16:30:19+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dg0&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dgp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/ed3dd06989b6ef044006383b6c35d0826",
-              "uuid": "c29c7ea3a3f7da6b0de2cd2c033fbf90"
+              "uuid": "0e26d2c2d202a7450e34fc8633e48fc0"
             }
           },
           {
-            "startTime": "2026-08-15T16:45:00+0000",
-            "duration": 45,
-            "name": "The Hit List",
-            "description": "Series 9: Episode 4",
+            "startTime": "2026-08-16T16:30:00+0000",
+            "duration": 60,
+            "name": "Countryfile",
+            "description": "Adam's Young Farmers: Cumbria",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030g35",
-              "event_locator": "dvb://233a..910e;3292",
-              "main_title": "The Hit List",
-              "secondary_title": "Series 9: Episode 4",
-              "image_url": "https://img.freeviewplay.tv/pac9f07b7e1e4efd2f8bec293b47eb011",
-              "start_time": "2026-08-15T16:45:00+0000",
-              "duration": "PT45M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030gf7",
+              "event_locator": "dvb://233a..910e;32f6",
+              "main_title": "Countryfile",
+              "secondary_title": "Adam's Young Farmers: Cumbria",
+              "image_url": "https://img.freeviewplay.tv/pfe292a56dfe0a82818adcabc8ee90f5f",
+              "start_time": "2026-08-16T16:30:00+0000",
+              "duration": "PT1H",
               "on_demand": {
-                "start_of_availability": "2026-08-15T17:29:55+0000",
-                "end_of_availability": "2027-09-19T17:38:50+0000",
+                "start_of_availability": "2026-08-23T07:40:00+0000",
+                "end_of_availability": "2027-08-23T07:40:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030g35&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gf7&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/efbd99d86c684c45b2483e23d303b24a3",
-              "uuid": "cbcd216f5e71fe09a0e4e692e35479f9"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/efe46c88da7fb100caaa1d6045ea2cd0a",
+              "uuid": "b8e08fe4189490ea6175f3373d767e6f"
             }
           },
           {
-            "startTime": "2026-08-15T17:30:00+0000",
-            "duration": 45,
-            "name": "Alan Carr's Picture Slam",
-            "description": "Series 4: Episode 5",
+            "startTime": "2026-08-16T17:30:00+0000",
+            "duration": 60,
+            "name": "Antiques Roadshow",
+            "description": "Series 45: 5. Brodie Castle and Estate, Morayshire 2",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030g39",
-              "event_locator": "dvb://233a..910e;3293",
-              "main_title": "Alan Carr's Picture Slam",
-              "secondary_title": "Series 4: Episode 5",
-              "image_url": "https://img.freeviewplay.tv/p4390c6b2413764ff10ff230091773390",
-              "start_time": "2026-08-15T17:30:00+0000",
-              "duration": "PT45M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m001d83b",
+              "event_locator": "dvb://233a..910e;32f7",
+              "main_title": "Antiques Roadshow",
+              "secondary_title": "Series 45: 5. Brodie Castle and Estate, Morayshire 2",
+              "image_url": "https://img.freeviewplay.tv/p49a8d630b47562aceaba0bc68040dd90",
+              "start_time": "2026-08-16T17:30:00+0000",
+              "duration": "PT1H",
               "on_demand": {
-                "start_of_availability": "2026-08-15T18:14:57+0000",
-                "end_of_availability": "2027-09-05T18:08:59+0000",
+                "start_of_availability": "2026-08-16T18:30:01+0000",
+                "end_of_availability": "2026-09-15T18:30:01+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030g39&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001d83b&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/eaf32aa7da982e792fa143e269bc64d53",
-              "uuid": "1c593d4a3f086e3f9bf9507570e59097"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e20c8423d9a145445d10b34acdf5f9fc9",
+              "uuid": "687a032a083199e415a9f3c5f412e9f0"
             }
           },
           {
-            "startTime": "2026-08-15T18:15:00+0000",
-            "duration": 165,
+            "startTime": "2026-08-16T18:30:00+0000",
+            "duration": 150,
             "name": "European Athletics Championships",
-            "description": "2026: Day 6: Men's 1,500m Final, 4x100m Relay Finals",
+            "description": "2026: Day 7: Men's Pole Vault, Women's 1,500m Final, Relay Finals",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030g3d",
-              "event_locator": "dvb://233a..910e;3294",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030gfc",
+              "event_locator": "dvb://233a..910e;32f8",
               "main_title": "European Athletics Championships",
-              "secondary_title": "2026: Day 6: Men's 1,500m Final, 4x100m Relay Finals",
-              "image_url": "https://img.freeviewplay.tv/p592366bdab31300a9e525190445e95bf",
-              "start_time": "2026-08-15T18:15:00+0000",
-              "duration": "PT2H45M",
+              "secondary_title": "2026: Day 7: Men's Pole Vault, Women's 1,500m Final, Relay Finals",
+              "image_url": "https://img.freeviewplay.tv/p3e522174bc1cf599a7f74bb87db593cc",
+              "start_time": "2026-08-16T18:30:00+0000",
+              "duration": "PT2H30M",
               "on_demand": {
-                "start_of_availability": "2026-08-15T21:00:00+0000",
-                "end_of_availability": "2026-09-14T21:00:00+0000",
+                "start_of_availability": "2026-08-16T21:00:00+0000",
+                "end_of_availability": "2026-09-15T21:00:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030g3d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gfc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
               "fallback_image_url": "http://img.freeviewplay.net/e2c3e16d1b7b4c4298f9affadd85d562d",
-              "uuid": "8905459c233a01ed22c503e9416bb3a9"
+              "uuid": "d5c670fa2ddd732efdc44338230aeedf"
             }
           },
           {
-            "startTime": "2026-08-15T21:00:00+0000",
-            "duration": 15,
+            "startTime": "2026-08-16T21:00:00+0000",
+            "duration": 25,
             "name": "BBC Weekend News",
-            "description": "Late News: 15/08/2026",
+            "description": "Late News: 16/08/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030dg2",
-              "event_locator": "dvb://233a..910e;3295",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030dgr",
+              "event_locator": "dvb://233a..910e;32f9",
               "main_title": "BBC Weekend News",
-              "secondary_title": "Late News: 15/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pa09740570973f503a6969100d37f0493",
-              "start_time": "2026-08-15T21:00:00+0000",
-              "duration": "PT15M",
+              "secondary_title": "Late News: 16/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p8b2b12e518279cd5c55049f362dcfde3",
+              "start_time": "2026-08-16T21:00:00+0000",
+              "duration": "PT25M",
               "on_demand": {
-                "start_of_availability": "2026-08-15T21:16:00+0000",
-                "end_of_availability": "2026-08-16T21:16:00+0000",
+                "start_of_availability": "2026-08-16T21:24:00+0000",
+                "end_of_availability": "2026-08-17T21:24:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dg2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dgr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e1263a9088a04bd4220f67abe99c7710e",
-              "uuid": "8f65bf4e68c2834816c94d94a7f019ec"
+              "fallback_image_url": "http://img.freeviewplay.net/e614c4deb44ef7be27eced6e2f3f60f7c",
+              "uuid": "b6f7577c14687459617af742183c4e35"
             }
           },
           {
-            "startTime": "2026-08-15T21:15:00+0000",
+            "startTime": "2026-08-16T21:25:00+0000",
             "duration": 5,
-            "name": "BBC Weather",
-            "description": "15/08/2026",
+            "name": "Spotlight",
+            "description": "Late News: 16/08/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030dg4",
-              "event_locator": "dvb://233a..910e;3296",
-              "main_title": "BBC Weather",
-              "secondary_title": "15/08/2026",
-              "image_url": "https://img.freeviewplay.tv/pd6bd18794d98b804e8f6d982758f5fd5",
-              "start_time": "2026-08-15T21:15:00+0000",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030gmy",
+              "event_locator": "dvb://233a..910e;32fa",
+              "main_title": "Spotlight",
+              "secondary_title": "Late News: 16/08/2026",
+              "image_url": "https://img.freeviewplay.tv/p5a8b6bd5cc9a1a3b322a92406de85c49",
+              "start_time": "2026-08-16T21:25:00+0000",
               "duration": "PT5M",
               "on_demand": {
-                "start_of_availability": "2026-08-15T21:17:34+0000",
-                "end_of_availability": "2026-08-22T21:17:34+0000",
+                "start_of_availability": "2026-08-16T21:30:00+0000",
+                "end_of_availability": "2026-08-17T21:30:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030dg4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030gmy&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ed3dd06989b6ef044006383b6c35d0826",
-              "uuid": "2b8bfd65c113189314c1beec8eb9aa6d"
+              "fallback_image_url": "http://img.freeviewplay.net/eefdc2de1445d9e3b4fd74bdf009d2bdf",
+              "uuid": "3a1fcdfb1b1475c06acd2fadb8bde2ad"
             }
           },
           {
-            "startTime": "2026-08-15T21:20:00+0000",
-            "duration": 105,
-            "name": "Mission: Impossible",
-            "description": "Mission: Impossible",
+            "startTime": "2026-08-16T21:30:00+0000",
+            "duration": 115,
+            "name": "Mission: Impossible II",
+            "description": "Mission: Impossible II",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m000qq54",
-              "event_locator": "dvb://233a..910e;3297",
-              "main_title": "Mission: Impossible",
-              "secondary_title": "Mission: Impossible",
-              "image_url": "https://img.freeviewplay.tv/p87567e45a9b3a1957f81ad3ed51bbec7",
-              "start_time": "2026-08-15T21:20:00+0000",
-              "duration": "PT1H45M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m002nzzw",
+              "event_locator": "dvb://233a..910e;32fb",
+              "main_title": "Mission: Impossible II",
+              "secondary_title": "Mission: Impossible II",
+              "image_url": "https://img.freeviewplay.tv/p4f0bee313468887d6a9179327a085edf",
+              "start_time": "2026-08-16T21:30:00+0000",
+              "duration": "PT1H55M",
               "on_demand": {
                 "start_of_availability": "2025-12-31T06:00:00+0000",
                 "end_of_availability": "2026-11-05T23:59:00+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m000qq54&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002nzzw&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-              "fallback_image_url": "http://img.freeviewplay.net/e082982f9ae1801cf6fc117afab48c682",
-              "uuid": "890686f28287c3674df1444cc7ece4a2"
+              "fallback_image_url": "http://img.freeviewplay.net/ee8a0b1cc2c1d4625a4810c35c993c01a",
+              "uuid": "d9fdf8cb5562740978e20d6173d97e24"
             }
           },
           {
-            "startTime": "2026-08-15T23:05:00+0000",
-            "duration": 120,
-            "name": "Spider-Man: Far from Home",
-            "description": "Spider-Man: Far from Home",
+            "startTime": "2026-08-16T23:25:00+0000",
+            "duration": 135,
+            "name": "Spider-Man: No Way Home",
+            "description": "Spider-Man: No Way Home",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0012k3b",
-              "event_locator": "dvb://233a..910e;33e3",
-              "main_title": "Spider-Man: Far from Home",
-              "secondary_title": "Spider-Man: Far from Home",
-              "image_url": "https://img.freeviewplay.tv/p6db0d6f3a5cc6a86ab79aeda0afb8c48",
-              "start_time": "2026-08-15T23:05:00+0000",
-              "duration": "PT2H",
+              "program_id": "crid://bbc.co.uk/icc/episode/m001zpyp",
+              "event_locator": "dvb://233a..910e;33e4",
+              "main_title": "Spider-Man: No Way Home",
+              "secondary_title": "Spider-Man: No Way Home",
+              "image_url": "https://img.freeviewplay.tv/p5036f75950a9d9f5c2384595a2cd69c3",
+              "start_time": "2026-08-16T23:25:00+0000",
+              "duration": "PT2H15M",
               "on_demand": {
-                "start_of_availability": "2026-07-16T23:39:49+0000",
-                "end_of_availability": "2026-08-15T23:39:49+0000",
+                "start_of_availability": "2026-07-19T16:34:00+0000",
+                "end_of_availability": "2026-09-16T01:43:22+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0012k3b&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001zpyp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-              "fallback_image_url": "http://img.freeviewplay.net/ed13a8ad59d4a06042ebd6909892b4741",
-              "uuid": "1709485edcfe964d55e643b539be1d7b"
+              "fallback_image_url": "http://img.freeviewplay.net/ec25e1001f1fda6dd01cda9e13e685bb9",
+              "uuid": "caec58e9a8aa5c49cec4dd1a03969294"
             }
           }
         ]
