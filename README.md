@@ -334,7 +334,6 @@ layout_options:
 | 38918 | TRUE CRIME UK | [channels/38918.json](https://elyobelyob.github.io/freely_tv_guide/channels/38918.json) |
 | 38914 | TRUE CRIME XTRA | [channels/38914.json](https://elyobelyob.github.io/freely_tv_guide/channels/38914.json) |
 | 40708 | TalkingPictures TV | [channels/40708.json](https://elyobelyob.github.io/freely_tv_guide/channels/40708.json) |
-| 8700 | That's 20th Century | [channels/8700.json](https://elyobelyob.github.io/freely_tv_guide/channels/8700.json) |
 | 28032 | That's 60s | [channels/28032.json](https://elyobelyob.github.io/freely_tv_guide/channels/28032.json) |
 | 23904 | That's 70s | [channels/23904.json](https://elyobelyob.github.io/freely_tv_guide/channels/23904.json) |
 | 27936 | That's TV (UK) | [channels/27936.json](https://elyobelyob.github.io/freely_tv_guide/channels/27936.json) |
@@ -353,6 +352,8 @@ layout_options:
 | 38660 | U&W | [channels/38660.json](https://elyobelyob.github.io/freely_tv_guide/channels/38660.json) |
 | 38657 | U&Yesterday | [channels/38657.json](https://elyobelyob.github.io/freely_tv_guide/channels/38657.json) |
 | 14464 | WildEarth | [channels/14464.json](https://elyobelyob.github.io/freely_tv_guide/channels/14464.json) |
+| 34496 | Your TV | [channels/34496.json](https://elyobelyob.github.io/freely_tv_guide/channels/34496.json) |
+| 34368 | Your TV Extra | [channels/34368.json](https://elyobelyob.github.io/freely_tv_guide/channels/34368.json) |
 | 22592 | talkSPORT | [channels/22592.json](https://elyobelyob.github.io/freely_tv_guide/channels/22592.json) |
 | 33920 | wedotv | [channels/33920.json](https://elyobelyob.github.io/freely_tv_guide/channels/33920.json) |
 | 23216 | wedotv Movies UK | [channels/23216.json](https://elyobelyob.github.io/freely_tv_guide/channels/23216.json) |
