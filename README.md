@@ -258,10 +258,10 @@ layout_options:
 | 39201 | Gemporia | [channels/39201.json](https://elyobelyob.github.io/freely_tv_guide/channels/39201.json) |
 | 16286 | Global Arabic + | [channels/16286.json](https://elyobelyob.github.io/freely_tv_guide/channels/16286.json) |
 | 15576 | Great! Action | [channels/15576.json](https://elyobelyob.github.io/freely_tv_guide/channels/15576.json) |
+| 27296 | Great! Christmas | [channels/27296.json](https://elyobelyob.github.io/freely_tv_guide/channels/27296.json) |
 | 15584 | Great! Movies | [channels/15584.json](https://elyobelyob.github.io/freely_tv_guide/channels/15584.json) |
 | 27872 | Great! Mystery | [channels/27872.json](https://elyobelyob.github.io/freely_tv_guide/channels/27872.json) |
 | 28352 | Great! Player | [channels/28352.json](https://elyobelyob.github.io/freely_tv_guide/channels/28352.json) |
-| 27296 | Great! Romance | [channels/27296.json](https://elyobelyob.github.io/freely_tv_guide/channels/27296.json) |
 | 27168 | Great! TV | [channels/27168.json](https://elyobelyob.github.io/freely_tv_guide/channels/27168.json) |
 | 28384 | Great! TV +1 | [channels/28384.json](https://elyobelyob.github.io/freely_tv_guide/channels/28384.json) |
 | 22656 | Heart | [channels/22656.json](https://elyobelyob.github.io/freely_tv_guide/channels/22656.json) |
