@@ -37,6 +37,16 @@
         "image_url": "https://img.freeviewplay.tv/p35bf8197702a44c12e8cc1b19db842a5",
         "start_time": "2026-08-28T01:00:00+0000",
         "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2023-03-21T18:59:32+0000",
+          "end_of_availability": "2027-01-02T18:59:32+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5415800012.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "80d8f9c0889e489ba4a34810f7ce70da"
       }
@@ -56,6 +66,16 @@
         "image_url": "https://img.freeviewplay.tv/pd3cbff6908136d897444d113ba5d369f",
         "start_time": "2026-08-28T01:50:00+0000",
         "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2026-08-27T14:59:00+0000",
+          "end_of_availability": "2026-09-03T14:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5226330008.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
         "uuid": "a5e4d29a76a3bddc169661b132cbdf40"
       }
@@ -169,6 +189,16 @@
         "image_url": "https://img.freeviewplay.tv/p7586c535468628d4ca1a64133b7b1c9a",
         "start_time": "2026-08-28T04:50:00+0000",
         "duration": "PT10M",
+        "on_demand": {
+          "start_of_availability": "2023-11-05T08:35:00+0000",
+          "end_of_availability": "2028-09-17T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5475400002.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
         "uuid": "573d1d2151bdf074dc8b77a214267c17"
       }
@@ -177,360 +207,470 @@
       "startTime": "2026-08-28T05:00:00+0000",
       "duration": 5,
       "name": "Peppa Pig",
-      "description": "",
+      "description": "Series 2: 22. Daddy Pig's Office",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/4c238fc2-c2dd-4e11-b056-03404ec2f471",
+        "program_id": "crid://panorama.five.tv/versions/C5115230022C",
         "event_locator": "dvb://233a..9501;f467",
         "main_title": "Peppa Pig",
-        "image_url": "https://img.freeviewplay.tv/e890e17ae369b18cc0f5944569a43c150",
+        "secondary_title": "Series 2: 22. Daddy Pig's Office",
+        "image_url": "https://img.freeviewplay.tv/p6b4813a29d76282307edb1bf087c4d9d",
         "start_time": "2026-08-28T05:00:00+0000",
         "duration": "PT5M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "b3bdcd5c4850fa14ce0538ecb620bb3b"
+        "uuid": "84c1521f488ae96f485be69763ca2bd5"
       }
     },
     {
       "startTime": "2026-08-28T05:05:00+0000",
       "duration": 5,
       "name": "Peppa Pig",
-      "description": "",
+      "description": "Series 2: 23. Pirate Island",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/5f2c906e-1f6d-4708-a49b-74273ba4af1c",
+        "program_id": "crid://panorama.five.tv/versions/C5115230023C",
         "event_locator": "dvb://233a..9501;f468",
         "main_title": "Peppa Pig",
-        "image_url": "https://img.freeviewplay.tv/e5888cda9a5f2d5cb4fbf8c1f8253e89d",
+        "secondary_title": "Series 2: 23. Pirate Island",
+        "image_url": "https://img.freeviewplay.tv/pf4bf72847b2a91700766acf254752973",
         "start_time": "2026-08-28T05:05:00+0000",
         "duration": "PT5M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "731d1b94db32ad0deb62fb1ae26f35bb"
+        "uuid": "90e7b4a20a9d31e22c22692b039ccd2d"
       }
     },
     {
       "startTime": "2026-08-28T05:10:00+0000",
       "duration": 5,
       "name": "Tweedy & Fluff",
-      "description": "",
+      "description": "Series 1: 10. Bath Time",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/ee9322f3-17a6-4211-bfff-e2dd234c4064",
+        "program_id": "crid://panorama.five.tv/versions/C5392420010A",
         "event_locator": "dvb://233a..9501;f469",
         "main_title": "Tweedy & Fluff",
-        "image_url": "https://img.freeviewplay.tv/ee83edf5ded708d9e21539363cccbee26",
+        "secondary_title": "Series 1: 10. Bath Time",
+        "image_url": "https://img.freeviewplay.tv/p2c6796c6f76dd94810103df52dd5b910",
         "start_time": "2026-08-28T05:10:00+0000",
         "duration": "PT5M",
+        "on_demand": {
+          "start_of_availability": "2023-10-27T05:44:00+0000",
+          "end_of_availability": "2028-09-07T05:44:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5392420010.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "3b2fe7de5ac70c903f2ecab2869e3b1d"
+        "uuid": "3599a615e54eef0028c39595baa90d7f"
       }
     },
     {
       "startTime": "2026-08-28T05:15:00+0000",
       "duration": 5,
       "name": "Odo",
-      "description": "",
+      "description": "Series 1: 8. The Deputy",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/d92d0a93-e579-422c-bae8-9f051e210ef9",
+        "program_id": "crid://panorama.five.tv/versions/C5285600008A",
         "event_locator": "dvb://233a..9501;f46a",
         "main_title": "Odo",
-        "image_url": "https://img.freeviewplay.tv/eb13dd846cbe63f4524c0c5aa8e1c69a3",
+        "secondary_title": "Series 1: 8. The Deputy",
+        "image_url": "https://img.freeviewplay.tv/p44048705ab0e311dcd19900828fafba2",
         "start_time": "2026-08-28T05:15:00+0000",
         "duration": "PT5M",
+        "on_demand": {
+          "start_of_availability": "2022-11-25T09:08:00+0000",
+          "end_of_availability": "2030-02-13T13:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5285600008.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "11bf5fd8932ee763f4afd06b685992f3"
+        "uuid": "dd4a9b5af4a2abc46382e319ad6a37f7"
       }
     },
     {
       "startTime": "2026-08-28T05:20:00+0000",
       "duration": 15,
       "name": "Thomas & Friends",
-      "description": "",
+      "description": "Series 18: 16. Toad's Bright Idea",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/d6a30941-a2d9-4bf4-a4ba-ee1280d6ec4f",
+        "program_id": "crid://panorama.five.tv/versions/C5175550016A",
         "event_locator": "dvb://233a..9501;f46b",
         "main_title": "Thomas & Friends",
-        "image_url": "https://img.freeviewplay.tv/ef95375ff59ded47b3332c98115e8a045",
+        "secondary_title": "Series 18: 16. Toad's Bright Idea",
+        "image_url": "https://img.freeviewplay.tv/pe46159cdb78661c9b758d1306dadb16e",
         "start_time": "2026-08-28T05:20:00+0000",
         "duration": "PT15M",
+        "on_demand": {
+          "start_of_availability": "2022-10-27T07:00:00+0000",
+          "end_of_availability": "2027-12-31T13:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5175550016.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "5288b35b871a3036d4e1205ed1bd979c"
+        "uuid": "71fb68e36aaf434edc2d6147a443bdf0"
       }
     },
     {
       "startTime": "2026-08-28T05:35:00+0000",
       "duration": 10,
       "name": "Fireman Sam",
-      "description": "",
+      "description": "Series 12: 9. Escape from Dinosaur Island",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/9c38ed9d-c177-4a00-88c6-163ac7d569d9",
+        "program_id": "crid://panorama.five.tv/versions/C5337800009A",
         "event_locator": "dvb://233a..9501;f46c",
         "main_title": "Fireman Sam",
-        "image_url": "https://img.freeviewplay.tv/ec0645d71a2d98ddbbe33322eca60a326",
+        "secondary_title": "Series 12: 9. Escape from Dinosaur Island",
+        "image_url": "https://img.freeviewplay.tv/paba67ee176bd17f111cc068b85e99fd2",
         "start_time": "2026-08-28T05:35:00+0000",
         "duration": "PT10M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "9d9a4c409c45065faa3ccb16050d18f0"
+        "uuid": "d0bb59e163022881b2a8f5d3c290ccd7"
       }
     },
     {
       "startTime": "2026-08-28T05:45:00+0000",
       "duration": 5,
       "name": "Peppa Pig",
-      "description": "",
+      "description": "Series 2: 24. George Catches a Cold",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/2658d5a1-4631-4484-9643-faaf55ee7267",
+        "program_id": "crid://panorama.five.tv/versions/C5115230024C",
         "event_locator": "dvb://233a..9501;f46d",
         "main_title": "Peppa Pig",
-        "image_url": "https://img.freeviewplay.tv/ef5c59adc85822af4c296b00053b1e69f",
+        "secondary_title": "Series 2: 24. George Catches a Cold",
+        "image_url": "https://img.freeviewplay.tv/pc799d1f5f14254c0c566a2e272b499a7",
         "start_time": "2026-08-28T05:45:00+0000",
         "duration": "PT5M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "bda8badc0b9925f16f5cd4a3d751b997"
+        "uuid": "53c9f14094768a742c4b26dcea063c77"
       }
     },
     {
       "startTime": "2026-08-28T05:50:00+0000",
       "duration": 5,
       "name": "Pip and Posy",
-      "description": "",
+      "description": "Series 2: 39. Cressheads",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/3b4c385f-05d7-4dc4-802b-58ed4b8f57e5",
+        "program_id": "crid://panorama.five.tv/versions/C5408820039A",
         "event_locator": "dvb://233a..9501;f46e",
         "main_title": "Pip and Posy",
-        "image_url": "https://img.freeviewplay.tv/e0ffb3569fe31f2fe1598b642d72523d1",
+        "secondary_title": "Series 2: 39. Cressheads",
+        "image_url": "https://img.freeviewplay.tv/pbfba4c60f6f0993d5fd9f50bdbc430cf",
         "start_time": "2026-08-28T05:50:00+0000",
         "duration": "PT5M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "01956ee87774577a77aa0b83f8133c6e"
+        "uuid": "ab091a645317819ad1c84dbe77bc90cd"
       }
     },
     {
       "startTime": "2026-08-28T05:55:00+0000",
       "duration": 15,
       "name": "PAW Patrol",
-      "description": "",
+      "description": "Series 10: 46. Pups Save the Cheese Goat",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/70476804-d8f1-46b0-a4fb-6f43e9c068d6",
+        "program_id": "crid://panorama.five.tv/versions/C5479060046A",
         "event_locator": "dvb://233a..9501;f46f",
         "main_title": "PAW Patrol",
-        "image_url": "https://img.freeviewplay.tv/ec25921e0bcaacb08f843f78b3baff894",
+        "secondary_title": "Series 10: 46. Pups Save the Cheese Goat",
+        "image_url": "https://img.freeviewplay.tv/p05241a8211354486ab1cb59c5182233e",
         "start_time": "2026-08-28T05:55:00+0000",
         "duration": "PT15M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "955cfc4a178ef3559bbf3dfb7435028d"
+        "uuid": "12c246de04b35f84304e38f4d3f19612"
       }
     },
     {
       "startTime": "2026-08-28T06:10:00+0000",
       "duration": 10,
       "name": "Move It Milkshakers!",
-      "description": "",
+      "description": "Series 1: 17. Q - Quick",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/54eb6adc-c489-403d-81ee-a5e4056fc4b7",
+        "program_id": "crid://panorama.five.tv/versions/C5514960017A",
         "event_locator": "dvb://233a..9501;f470",
         "main_title": "Move It Milkshakers!",
-        "image_url": "https://img.freeviewplay.tv/e7ab7e89ca167fc267f2b420bdbadabe4",
+        "secondary_title": "Series 1: 17. Q - Quick",
+        "image_url": "https://img.freeviewplay.tv/pa17132cb4e0c46bdf991db8f74e8e4fa",
         "start_time": "2026-08-28T06:10:00+0000",
         "duration": "PT10M",
+        "on_demand": {
+          "start_of_availability": "2026-07-02T06:11:00+0000",
+          "end_of_availability": "2035-12-15T07:11:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5514960017.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "0b391524291324e70b446d2570312f13"
+        "uuid": "cd0780397c2570a3ef7da68d33b616a9"
       }
     },
     {
       "startTime": "2026-08-28T06:20:00+0000",
       "duration": 15,
       "name": "Rubble & Crew",
-      "description": "",
+      "description": "Series 3: 5. The Crew Builds a Super Mega...",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/fa26f55c-2f40-4885-b676-8dca74fbe5e2",
+        "program_id": "crid://panorama.five.tv/versions/C5528380005A",
         "event_locator": "dvb://233a..9501;f471",
         "main_title": "Rubble & Crew",
-        "image_url": "https://img.freeviewplay.tv/e6e2463e8f46399bd3df4ef074f32eea9",
+        "secondary_title": "Series 3: 5. The Crew Builds a Super Mega...",
+        "image_url": "https://img.freeviewplay.tv/p87e1e71771d91cce83d37a5e4a3df2ce",
         "start_time": "2026-08-28T06:20:00+0000",
         "duration": "PT15M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "a3eb8e252294f411a6ed2a6e37e1b01c"
+        "uuid": "1d7605ed36d97b1446d8dc5d05b47f1b"
       }
     },
     {
       "startTime": "2026-08-28T06:35:00+0000",
       "duration": 5,
       "name": "Peppa Pig",
-      "description": "",
+      "description": "Series 3: 11. Polly's Boat Trip",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/4f0bc409-d5a7-4b38-b9c8-740b5ef2f425",
+        "program_id": "crid://panorama.five.tv/versions/C5144870011B",
         "event_locator": "dvb://233a..9501;f472",
         "main_title": "Peppa Pig",
-        "image_url": "https://img.freeviewplay.tv/e2b282940da56f69053706d6171963d72",
+        "secondary_title": "Series 3: 11. Polly's Boat Trip",
+        "image_url": "https://img.freeviewplay.tv/p4cfa84a41a4fe26719460d205471626a",
         "start_time": "2026-08-28T06:35:00+0000",
         "duration": "PT5M",
+        "on_demand": {
+          "start_of_availability": "2026-06-01T05:00:00+0000",
+          "end_of_availability": "2026-08-31T22:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5144870011.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "b5174e1416eda34be51f01163e5392a6"
+        "uuid": "f1012aa2ed23c28f4150aaf225810df3"
       }
     },
     {
       "startTime": "2026-08-28T06:40:00+0000",
       "duration": 5,
       "name": "Peppa Pig",
-      "description": "",
+      "description": "Series 6: 21. Roman Day",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/072eaa7a-2c41-436b-b9e4-105582792644",
+        "program_id": "crid://panorama.five.tv/versions/C5265570021A",
         "event_locator": "dvb://233a..9501;f473",
         "main_title": "Peppa Pig",
-        "image_url": "https://img.freeviewplay.tv/eb7399853c97c27f383e25696d00dfefe",
+        "secondary_title": "Series 6: 21. Roman Day",
+        "image_url": "https://img.freeviewplay.tv/p95f27fa2131c69cd71fe156bae2b5009",
         "start_time": "2026-08-28T06:40:00+0000",
         "duration": "PT5M",
+        "on_demand": {
+          "start_of_availability": "2026-09-01T05:00:00+0000",
+          "end_of_availability": "2026-11-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5265570021.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "06085f8ca9edb6d02b0283f83106a719"
+        "uuid": "0171eee9013cc7e82c2ac7b0918c29be"
       }
     },
     {
       "startTime": "2026-08-28T06:45:00+0000",
       "duration": 15,
       "name": "Tim Rex in Space",
-      "description": "",
+      "description": "Series 1: 5. Spaceship",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/4f86c210-eb3e-4bd2-b124-5d559ce7f9d3",
+        "program_id": "crid://panorama.five.tv/versions/C5463540005C",
         "event_locator": "dvb://233a..9501;f474",
         "main_title": "Tim Rex in Space",
-        "image_url": "https://img.freeviewplay.tv/ec4a98a707940c4f611408878f37ef16e",
+        "secondary_title": "Series 1: 5. Spaceship",
+        "image_url": "https://img.freeviewplay.tv/pe47e52350819eccfdb5c06bee9fcda5f",
         "start_time": "2026-08-28T06:45:00+0000",
         "duration": "PT15M",
+        "on_demand": {
+          "start_of_availability": "2025-07-08T16:01:00+0000",
+          "end_of_availability": "2035-05-01T12:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5463540005.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "276d103c7f2f9de1c7d1bb43ecf4983d"
+        "uuid": "ab3935cbed64b55cefe7717b8f7a3cb7"
       }
     },
     {
       "startTime": "2026-08-28T07:00:00+0000",
       "duration": 15,
       "name": "Stan & Gran",
-      "description": "",
+      "description": "Series 1: 35. Unidentified Flying Insect",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/c10a786b-647a-480a-8a31-ef976b808223",
+        "program_id": "crid://panorama.five.tv/versions/C5285680035A",
         "event_locator": "dvb://233a..9501;f475",
         "main_title": "Stan & Gran",
-        "image_url": "https://img.freeviewplay.tv/eef5399068fe60f0eacd57645412532d0",
+        "secondary_title": "Series 1: 35. Unidentified Flying Insect",
+        "image_url": "https://img.freeviewplay.tv/p4109daa0ad4d9070a6a10573e342543d",
         "start_time": "2026-08-28T07:00:00+0000",
         "duration": "PT15M",
+        "on_demand": {
+          "start_of_availability": "2026-06-19T06:58:38+0000",
+          "end_of_availability": "2030-10-23T06:58:38+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5285680035.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "fe7329b953085f027ce39033538f4526"
+        "uuid": "62a963558b81c996d543ce1b4bb11c3a"
       }
     },
     {
       "startTime": "2026-08-28T07:15:00+0000",
       "duration": 25,
       "name": "PAW Patrol",
-      "description": "",
+      "description": "Series 11: 37. Fire Rescue: Pups Save Lizzy's...",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/df1db7da-b418-4cdb-8f03-87f6cce6f8ba",
+        "program_id": "crid://panorama.five.tv/versions/C5491450037A",
         "event_locator": "dvb://233a..9501;f476",
         "main_title": "PAW Patrol",
-        "image_url": "https://img.freeviewplay.tv/ea9cf0d4c2206a1bc5addb42151f1660a",
+        "secondary_title": "Series 11: 37. Fire Rescue: Pups Save Lizzy's...",
+        "image_url": "https://img.freeviewplay.tv/pe6aab20f67313f35e9d13f2bf165679a",
         "start_time": "2026-08-28T07:15:00+0000",
         "duration": "PT25M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "37a1077a7e71ce895d1275a7b08b093c"
+        "uuid": "e160dc6dd95c4a47f7981a2f7e6fe3bb"
       }
     },
     {
       "startTime": "2026-08-28T07:40:00+0000",
       "duration": 10,
       "name": "The Adventures of Paddington",
-      "description": "",
+      "description": "Series 3: 5. Paddington and the Three Musketeers",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/b4a03832-6201-4eec-a5ad-eebf5626e8b9",
+        "program_id": "crid://panorama.five.tv/versions/C5463820005A",
         "event_locator": "dvb://233a..9501;f477",
         "main_title": "The Adventures of Paddington",
-        "image_url": "https://img.freeviewplay.tv/e1166198077f877422adbf1c47f41a269",
+        "secondary_title": "Series 3: 5. Paddington and the Three Musketeers",
+        "image_url": "https://img.freeviewplay.tv/p1c8ba3e1c4cde24ee8aa9afc8511ef76",
         "start_time": "2026-08-28T07:40:00+0000",
         "duration": "PT10M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "18229c204b3b1b8fa1a17ba898a295c1"
+        "uuid": "b02db732b9476b711dfe60f8c3dc9f0e"
       }
     },
     {
       "startTime": "2026-08-28T07:50:00+0000",
       "duration": 10,
       "name": "Ben and Holly's Little Kingdom",
-      "description": "",
+      "description": "Series 2: 1. Giants in the Meadow",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/30f31354-f8ce-4ef3-bde5-1c5acbb40e8c",
+        "program_id": "crid://panorama.five.tv/versions/C5165010001B",
         "event_locator": "dvb://233a..9501;f478",
         "main_title": "Ben and Holly's Little Kingdom",
-        "image_url": "https://img.freeviewplay.tv/e288008952ed8aa3630ee46cb809a0210",
+        "secondary_title": "Series 2: 1. Giants in the Meadow",
+        "image_url": "https://img.freeviewplay.tv/p4bb7e6fc545ebd16b75ee150cf89c4c1",
         "start_time": "2026-08-28T07:50:00+0000",
         "duration": "PT10M",
+        "on_demand": {
+          "start_of_availability": "2026-09-01T08:00:00+0000",
+          "end_of_availability": "2026-11-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5165010001.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "83e1b61f847b32732587e2be6940936b"
+        "uuid": "6e30b4b7173eccf46a845b4407114f27"
       }
     },
     {
       "startTime": "2026-08-28T08:00:00+0000",
       "duration": 5,
       "name": "Peppa Pig",
-      "description": "",
+      "description": "Series 3: 3. Pedro's Cough",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/c3020a6d-2611-42fb-963a-6886024d5d5e",
+        "program_id": "crid://panorama.five.tv/versions/C5144870003B",
         "event_locator": "dvb://233a..9501;f479",
         "main_title": "Peppa Pig",
-        "image_url": "https://img.freeviewplay.tv/e2b282940da56f69053706d6171963d72",
+        "secondary_title": "Series 3: 3. Pedro's Cough",
+        "image_url": "https://img.freeviewplay.tv/p2ee558083a75942367c34a8df63113b7",
         "start_time": "2026-08-28T08:00:00+0000",
         "duration": "PT5M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "b4223e0892822f6c46ad88cb9d359386"
+        "uuid": "37b86e65297ff03f3b2f68e9965c2735"
       }
     },
     {
       "startTime": "2026-08-28T08:05:00+0000",
       "duration": 10,
       "name": "The Real Pup Squad",
-      "description": "",
+      "description": "Series 1: 5. Isla & Gizmo",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/d8635097-580e-4b47-8829-5da4f8996917",
+        "program_id": "crid://panorama.five.tv/versions/C5508970005A",
         "event_locator": "dvb://233a..9501;f47a",
         "main_title": "The Real Pup Squad",
-        "image_url": "https://img.freeviewplay.tv/e83e85dc2e6d65e7d63150f45c57ee68d",
+        "secondary_title": "Series 1: 5. Isla & Gizmo",
+        "image_url": "https://img.freeviewplay.tv/p01019919f92a103771d33536bf2af2e6",
         "start_time": "2026-08-28T08:05:00+0000",
         "duration": "PT10M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-        "uuid": "c8b5215fed331543be1ffb87f1f436e8"
+        "uuid": "c32cc3179e5f81baa629c5d5aa23bf1f"
       }
     },
     {
@@ -541,32 +681,35 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/4bc11e37-2124-4201-990e-68651417eba7",
+        "program_id": "crid://panorama.five.tv/versions/C5524340170A",
         "event_locator": "dvb://233a..9501;f47b",
         "main_title": "Jeremy Vine",
+        "image_url": "https://img.freeviewplay.tv/pcb04287493148fcd66d3bb542b745243",
         "start_time": "2026-08-28T08:15:00+0000",
         "duration": "PT2H15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/e6954fc4038a4d16bf63ef66fd9241c75",
-        "uuid": "650ff1e6685844aeaa5797e1b24a310c"
+        "uuid": "59f47929d3ff28df51ffbd132cf79b3d"
       }
     },
     {
       "startTime": "2026-08-28T10:30:00+0000",
       "duration": 75,
       "name": "Storm & Alexis",
-      "description": "",
+      "description": "2026: 170. Storm Huntley",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/3ee54af4-bb5d-4146-b5ee-9f07275f7c19",
+        "program_id": "crid://panorama.five.tv/versions/C5524360170A",
         "event_locator": "dvb://233a..9501;f47c",
         "main_title": "Storm & Alexis",
+        "secondary_title": "2026: 170. Storm Huntley",
+        "image_url": "https://img.freeviewplay.tv/p9091bdf41fa8676356d777ceb07d8c63",
         "start_time": "2026-08-28T10:30:00+0000",
         "duration": "PT1H15M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/e68152511d80f60228f6209ca964cb4a6",
-        "uuid": "2a999517774831fed4df64d39be4716c"
+        "uuid": "c4f15bfa3cb3f58f564c42db07ad333f"
       }
     },
     {
@@ -577,14 +720,15 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/e9067718-5463-4d67-80ce-57001d13e3c7",
+        "program_id": "crid://panorama.five.tv/versions/C5524440170A",
         "event_locator": "dvb://233a..9501;f47d",
         "main_title": "5 News at Lunchtime",
+        "image_url": "https://img.freeviewplay.tv/p06de7d7090dce114a006b4ca56199318",
         "start_time": "2026-08-28T11:45:00+0000",
         "duration": "PT5M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/eb589e5b1ac9eec1986a668cec96902b7",
-        "uuid": "07ebf8cc28eb7431587faa96d1c060b9"
+        "uuid": "4c92e065810e006303a0e76582a20955"
       }
     },
     {
@@ -595,14 +739,15 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/8c6f2055-3c08-44fd-96a8-bed1610c70b9",
+        "program_id": "crid://panorama.five.tv/versions/C5526780170A",
         "event_locator": "dvb://233a..9501;f47e",
         "main_title": "Matt Allwright",
+        "image_url": "https://img.freeviewplay.tv/pf1c3a5fe52b16585bf8c2c26b7ddde36",
         "start_time": "2026-08-28T11:50:00+0000",
         "duration": "PT1H30M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/e7637c0858c24140f4949598ed3801ec2",
-        "uuid": "70f7a583ad7d20aa67440a88837c333c"
+        "uuid": "5682f8a56795028643b0f103f9a34b11"
       }
     },
     {
@@ -613,194 +758,185 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/797f5a93-b295-4530-aee2-73efbcbe6d3f",
+        "program_id": "crid://panorama.five.tv/versions/C5506440001C",
         "event_locator": "dvb://233a..9501;f47f",
         "main_title": "Deadly Girls Trip",
-        "image_url": "https://img.freeviewplay.tv/e375ad76f5c7c5e1fb3b20efe58ce7881",
+        "image_url": "https://img.freeviewplay.tv/pc40836f6ba7f3979d1dacbd111e26f2f",
         "start_time": "2026-08-28T13:20:00+0000",
         "duration": "PT1H40M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-        "uuid": "f72d9920edecf7283151b5514ae30b3b"
+        "uuid": "2cdb8d12de6d67f3b8eddba6ad72b030"
       }
     },
     {
       "startTime": "2026-08-28T15:00:00+0000",
       "duration": 55,
       "name": "Castle",
-      "description": "",
+      "description": "Series 8: 7. The Last Seduction",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/e288709d-3984-41ba-86c5-6c43b41e7562",
+        "program_id": "crid://panorama.five.tv/versions/C5226330006B",
         "event_locator": "dvb://233a..9501;f480",
         "main_title": "Castle",
-        "image_url": "https://img.freeviewplay.tv/ed0d6688902e8c82681b79d67c0c3255f",
+        "secondary_title": "Series 8: 7. The Last Seduction",
+        "image_url": "https://img.freeviewplay.tv/p0bd0f3d2af577c2171c103d9d43a8b84",
         "start_time": "2026-08-28T15:00:00+0000",
         "duration": "PT55M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "d424886ffe84ff4c987e72d610865d37"
+        "uuid": "cf548ee139c90a5a239ec993392cbef9"
       }
     },
     {
       "startTime": "2026-08-28T15:55:00+0000",
       "duration": 5,
       "name": "Love Nature",
-      "description": "",
+      "description": "Series 1: 23. South West",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/9c759cab-cf23-42b5-b3d4-56ac6e0a9991",
+        "program_id": "crid://panorama.five.tv/versions/C5528520023A",
         "event_locator": "dvb://233a..9501;f481",
         "main_title": "Love Nature",
-        "image_url": "https://img.freeviewplay.tv/efb7e187b65242ce00db1ec3aeb863065",
+        "secondary_title": "Series 1: 23. South West",
+        "image_url": "https://img.freeviewplay.tv/p3872f076d767aaddb29af766fbdc9459",
         "start_time": "2026-08-28T15:55:00+0000",
         "duration": "PT5M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "d168af16749dfd9acab3d8e5ff49e131"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+        "uuid": "69a09954cbcba355e15d729427b354ed"
       }
     },
     {
       "startTime": "2026-08-28T16:00:00+0000",
       "duration": 60,
-      "name": "5 News with Dan Walker",
+      "name": "5 News at 5",
       "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/305746dd-aafa-49ab-86c4-8392583fc0a0",
+        "program_id": "crid://panorama.five.tv/versions/C5524400169A",
         "event_locator": "dvb://233a..9501;f482",
-        "main_title": "5 News with Dan Walker",
+        "main_title": "5 News at 5",
+        "image_url": "https://img.freeviewplay.tv/p3c5a5cd73c3cc65164b94a275b1afcba",
         "start_time": "2026-08-28T16:00:00+0000",
         "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/e27375e0ddf4a45d88e40e8f9ed454bee",
-        "uuid": "c3d3b0477d3d16139b2b1a92ae5644fc"
+        "uuid": "0c4d676b00d1cee61e63683cc1e348cc"
       }
     },
     {
       "startTime": "2026-08-28T17:00:00+0000",
       "duration": 60,
       "name": "Motorhoming with Merton & Webster",
-      "description": "",
+      "description": "Series 2: 5. Yorkshire",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/046d8869-d092-41cc-9a5c-04100b30ff48",
+        "program_id": "crid://panorama.five.tv/versions/C5421620006A",
         "event_locator": "dvb://233a..9501;f483",
         "main_title": "Motorhoming with Merton & Webster",
-        "image_url": "https://img.freeviewplay.tv/ebd996373eb89f1a48113834b545487fd",
+        "secondary_title": "Series 2: 5. Yorkshire",
+        "image_url": "https://img.freeviewplay.tv/p8fdec850cf51f39f119a4e983f4b5459",
         "start_time": "2026-08-28T17:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "bf5a668a29cbe525737a9c40a4883338"
+        "uuid": "c8d901d20c5b97ee3e10a64f9c64a396"
       }
     },
     {
       "startTime": "2026-08-28T18:00:00+0000",
       "duration": 60,
-      "name": "New: Cycling: Vuelta a Espana 2026",
-      "description": "",
+      "name": "Vuelta a Espana 2026",
+      "description": "Series 1: 7. Stage 7",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/50db9277-1d73-4e02-b11d-be39801e4b24",
+        "program_id": "crid://panorama.five.tv/versions/C5541100007A",
         "event_locator": "dvb://233a..9501;f484",
-        "main_title": "New: Cycling: Vuelta a Espana 2026",
+        "main_title": "Vuelta a Espana 2026",
+        "secondary_title": "Series 1: 7. Stage 7",
+        "image_url": "https://img.freeviewplay.tv/pb91281fb3f3cc956327e8775d98fe1af",
         "start_time": "2026-08-28T18:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
         "fallback_image_url": "http://img.freeviewplay.net/e5d83f75b675ca7131c532d5973489611",
-        "uuid": "89fd4abd50981782c52d521031cd8737"
+        "uuid": "1ed4b93801b282965ed796630e7496b3"
       }
     },
     {
       "startTime": "2026-08-28T19:00:00+0000",
       "duration": 60,
       "name": "Alexander Armstrong in Sri Lanka",
-      "description": "",
+      "description": "Series 1: Episode 3",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/5cf498bf-f40d-49eb-8cf4-1024b85dcdf8",
+        "program_id": "crid://panorama.five.tv/versions/C5449020003B",
         "event_locator": "dvb://233a..9501;f485",
         "main_title": "Alexander Armstrong in Sri Lanka",
-        "image_url": "https://img.freeviewplay.tv/e5aceed20d1acf5b5b4bbbf9b0ac9c6dd",
+        "secondary_title": "Series 1: Episode 3",
+        "image_url": "https://img.freeviewplay.tv/p80672ff303757469392bb0b6a9350c11",
         "start_time": "2026-08-28T19:00:00+0000",
         "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "1b60687e0a59f1a4ec6dcbfb886c8596"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+        "uuid": "b8975050d3b49edf9c6294ff75feb3bf"
       }
     },
     {
       "startTime": "2026-08-28T20:00:00+0000",
       "duration": 60,
       "name": "Heat",
-      "description": "",
+      "description": "Series 1: Episode 3",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/bce77039-7eae-484f-9b4f-7fc0c812bd48",
+        "program_id": "crid://panorama.five.tv/versions/C5434400003A",
         "event_locator": "dvb://233a..9501;f486",
         "main_title": "Heat",
-        "image_url": "https://img.freeviewplay.tv/e7bd6fec4f1f64cc263f5f16c7c53c4ec",
+        "secondary_title": "Series 1: Episode 3",
+        "image_url": "https://img.freeviewplay.tv/p2abe7a9c008b6ba67ad4535c2fd932a3",
         "start_time": "2026-08-28T20:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "c6856e8eb032b339faeb61148ec1813b"
+        "uuid": "b3647e02a2bfdb4e0ebcc1300af03029"
       }
     },
     {
       "startTime": "2026-08-28T21:00:00+0000",
       "duration": 65,
       "name": "Heat",
-      "description": "",
+      "description": "Series 1: Episode 4",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/d58e550b-aef5-41af-a58a-bf51995246ab",
+        "program_id": "crid://panorama.five.tv/versions/C5434400004A",
         "event_locator": "dvb://233a..9501;f487",
         "main_title": "Heat",
-        "image_url": "https://img.freeviewplay.tv/e3ac49c2173b4aa32bfa324e0b151b6b0",
+        "secondary_title": "Series 1: Episode 4",
+        "image_url": "https://img.freeviewplay.tv/p20b544cde8e05e0db3c0c14ed694109b",
         "start_time": "2026-08-28T21:00:00+0000",
         "duration": "PT1H5M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "uuid": "2ef40346787f3a27912916bdd2ad5ed9"
+        "uuid": "4193fca113ffe86d08f2dc6951aacdbf"
       }
     },
     {
       "startTime": "2026-08-28T22:05:00+0000",
-      "duration": 110,
-      "name": "New: Piers Morgan: Uncensored",
+      "duration": 115,
+      "name": "When News Goes Horribly Wrong",
       "description": "",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/b19c8f7b-7097-4f0c-944c-17823694da79",
-        "event_locator": "dvb://233a..9501;f488",
-        "main_title": "New: Piers Morgan: Uncensored",
+        "program_id": "crid://panorama.five.tv/versions/C5477900001A",
+        "event_locator": "dvb://233a..9501;f6fc",
+        "main_title": "When News Goes Horribly Wrong",
+        "image_url": "https://img.freeviewplay.tv/pfc455b14d520b7ad75d356379aaf4ffd",
         "start_time": "2026-08-28T22:05:00+0000",
-        "duration": "PT1H50M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ee284c617de61de5e39f495410fdd9752",
-        "uuid": "746cc655b02a9348cd21291b8638a858"
-      }
-    },
-    {
-      "startTime": "2026-08-28T23:55:00+0000",
-      "duration": 5,
-      "name": "Entertainment News on 5",
-      "description": "",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://panorama.five.tv/versions/C5522880035A",
-        "event_locator": "dvb://233a..9501;f489",
-        "main_title": "Entertainment News on 5",
-        "image_url": "https://img.freeviewplay.tv/p354de87bd6a48ec281e94b5dd086a352",
-        "start_time": "2026-08-28T23:55:00+0000",
-        "duration": "PT5M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "75c380f9ed94ce9d0bf1fb2873b54e98"
+        "duration": "PT1H55M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+        "uuid": "c14cdb80651cbe5453860e698028479e"
       }
     }
   ],
@@ -841,6 +977,16 @@
               "image_url": "https://img.freeviewplay.tv/p35bf8197702a44c12e8cc1b19db842a5",
               "start_time": "2026-08-28T01:00:00+0000",
               "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2023-03-21T18:59:32+0000",
+                "end_of_availability": "2027-01-02T18:59:32+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5415800012.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "80d8f9c0889e489ba4a34810f7ce70da"
             }
@@ -860,6 +1006,16 @@
               "image_url": "https://img.freeviewplay.tv/pd3cbff6908136d897444d113ba5d369f",
               "start_time": "2026-08-28T01:50:00+0000",
               "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2026-08-27T14:59:00+0000",
+                "end_of_availability": "2026-09-03T14:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5226330008.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
               "uuid": "a5e4d29a76a3bddc169661b132cbdf40"
             }
@@ -973,6 +1129,16 @@
               "image_url": "https://img.freeviewplay.tv/p7586c535468628d4ca1a64133b7b1c9a",
               "start_time": "2026-08-28T04:50:00+0000",
               "duration": "PT10M",
+              "on_demand": {
+                "start_of_availability": "2023-11-05T08:35:00+0000",
+                "end_of_availability": "2028-09-17T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5475400002.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
               "uuid": "573d1d2151bdf074dc8b77a214267c17"
             }
@@ -981,360 +1147,470 @@
             "startTime": "2026-08-28T05:00:00+0000",
             "duration": 5,
             "name": "Peppa Pig",
-            "description": "",
+            "description": "Series 2: 22. Daddy Pig's Office",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/4c238fc2-c2dd-4e11-b056-03404ec2f471",
+              "program_id": "crid://panorama.five.tv/versions/C5115230022C",
               "event_locator": "dvb://233a..9501;f467",
               "main_title": "Peppa Pig",
-              "image_url": "https://img.freeviewplay.tv/e890e17ae369b18cc0f5944569a43c150",
+              "secondary_title": "Series 2: 22. Daddy Pig's Office",
+              "image_url": "https://img.freeviewplay.tv/p6b4813a29d76282307edb1bf087c4d9d",
               "start_time": "2026-08-28T05:00:00+0000",
               "duration": "PT5M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "b3bdcd5c4850fa14ce0538ecb620bb3b"
+              "uuid": "84c1521f488ae96f485be69763ca2bd5"
             }
           },
           {
             "startTime": "2026-08-28T05:05:00+0000",
             "duration": 5,
             "name": "Peppa Pig",
-            "description": "",
+            "description": "Series 2: 23. Pirate Island",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/5f2c906e-1f6d-4708-a49b-74273ba4af1c",
+              "program_id": "crid://panorama.five.tv/versions/C5115230023C",
               "event_locator": "dvb://233a..9501;f468",
               "main_title": "Peppa Pig",
-              "image_url": "https://img.freeviewplay.tv/e5888cda9a5f2d5cb4fbf8c1f8253e89d",
+              "secondary_title": "Series 2: 23. Pirate Island",
+              "image_url": "https://img.freeviewplay.tv/pf4bf72847b2a91700766acf254752973",
               "start_time": "2026-08-28T05:05:00+0000",
               "duration": "PT5M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "731d1b94db32ad0deb62fb1ae26f35bb"
+              "uuid": "90e7b4a20a9d31e22c22692b039ccd2d"
             }
           },
           {
             "startTime": "2026-08-28T05:10:00+0000",
             "duration": 5,
             "name": "Tweedy & Fluff",
-            "description": "",
+            "description": "Series 1: 10. Bath Time",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/ee9322f3-17a6-4211-bfff-e2dd234c4064",
+              "program_id": "crid://panorama.five.tv/versions/C5392420010A",
               "event_locator": "dvb://233a..9501;f469",
               "main_title": "Tweedy & Fluff",
-              "image_url": "https://img.freeviewplay.tv/ee83edf5ded708d9e21539363cccbee26",
+              "secondary_title": "Series 1: 10. Bath Time",
+              "image_url": "https://img.freeviewplay.tv/p2c6796c6f76dd94810103df52dd5b910",
               "start_time": "2026-08-28T05:10:00+0000",
               "duration": "PT5M",
+              "on_demand": {
+                "start_of_availability": "2023-10-27T05:44:00+0000",
+                "end_of_availability": "2028-09-07T05:44:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5392420010.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "3b2fe7de5ac70c903f2ecab2869e3b1d"
+              "uuid": "3599a615e54eef0028c39595baa90d7f"
             }
           },
           {
             "startTime": "2026-08-28T05:15:00+0000",
             "duration": 5,
             "name": "Odo",
-            "description": "",
+            "description": "Series 1: 8. The Deputy",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/d92d0a93-e579-422c-bae8-9f051e210ef9",
+              "program_id": "crid://panorama.five.tv/versions/C5285600008A",
               "event_locator": "dvb://233a..9501;f46a",
               "main_title": "Odo",
-              "image_url": "https://img.freeviewplay.tv/eb13dd846cbe63f4524c0c5aa8e1c69a3",
+              "secondary_title": "Series 1: 8. The Deputy",
+              "image_url": "https://img.freeviewplay.tv/p44048705ab0e311dcd19900828fafba2",
               "start_time": "2026-08-28T05:15:00+0000",
               "duration": "PT5M",
+              "on_demand": {
+                "start_of_availability": "2022-11-25T09:08:00+0000",
+                "end_of_availability": "2030-02-13T13:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5285600008.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "11bf5fd8932ee763f4afd06b685992f3"
+              "uuid": "dd4a9b5af4a2abc46382e319ad6a37f7"
             }
           },
           {
             "startTime": "2026-08-28T05:20:00+0000",
             "duration": 15,
             "name": "Thomas & Friends",
-            "description": "",
+            "description": "Series 18: 16. Toad's Bright Idea",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/d6a30941-a2d9-4bf4-a4ba-ee1280d6ec4f",
+              "program_id": "crid://panorama.five.tv/versions/C5175550016A",
               "event_locator": "dvb://233a..9501;f46b",
               "main_title": "Thomas & Friends",
-              "image_url": "https://img.freeviewplay.tv/ef95375ff59ded47b3332c98115e8a045",
+              "secondary_title": "Series 18: 16. Toad's Bright Idea",
+              "image_url": "https://img.freeviewplay.tv/pe46159cdb78661c9b758d1306dadb16e",
               "start_time": "2026-08-28T05:20:00+0000",
               "duration": "PT15M",
+              "on_demand": {
+                "start_of_availability": "2022-10-27T07:00:00+0000",
+                "end_of_availability": "2027-12-31T13:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5175550016.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "5288b35b871a3036d4e1205ed1bd979c"
+              "uuid": "71fb68e36aaf434edc2d6147a443bdf0"
             }
           },
           {
             "startTime": "2026-08-28T05:35:00+0000",
             "duration": 10,
             "name": "Fireman Sam",
-            "description": "",
+            "description": "Series 12: 9. Escape from Dinosaur Island",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/9c38ed9d-c177-4a00-88c6-163ac7d569d9",
+              "program_id": "crid://panorama.five.tv/versions/C5337800009A",
               "event_locator": "dvb://233a..9501;f46c",
               "main_title": "Fireman Sam",
-              "image_url": "https://img.freeviewplay.tv/ec0645d71a2d98ddbbe33322eca60a326",
+              "secondary_title": "Series 12: 9. Escape from Dinosaur Island",
+              "image_url": "https://img.freeviewplay.tv/paba67ee176bd17f111cc068b85e99fd2",
               "start_time": "2026-08-28T05:35:00+0000",
               "duration": "PT10M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "9d9a4c409c45065faa3ccb16050d18f0"
+              "uuid": "d0bb59e163022881b2a8f5d3c290ccd7"
             }
           },
           {
             "startTime": "2026-08-28T05:45:00+0000",
             "duration": 5,
             "name": "Peppa Pig",
-            "description": "",
+            "description": "Series 2: 24. George Catches a Cold",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/2658d5a1-4631-4484-9643-faaf55ee7267",
+              "program_id": "crid://panorama.five.tv/versions/C5115230024C",
               "event_locator": "dvb://233a..9501;f46d",
               "main_title": "Peppa Pig",
-              "image_url": "https://img.freeviewplay.tv/ef5c59adc85822af4c296b00053b1e69f",
+              "secondary_title": "Series 2: 24. George Catches a Cold",
+              "image_url": "https://img.freeviewplay.tv/pc799d1f5f14254c0c566a2e272b499a7",
               "start_time": "2026-08-28T05:45:00+0000",
               "duration": "PT5M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "bda8badc0b9925f16f5cd4a3d751b997"
+              "uuid": "53c9f14094768a742c4b26dcea063c77"
             }
           },
           {
             "startTime": "2026-08-28T05:50:00+0000",
             "duration": 5,
             "name": "Pip and Posy",
-            "description": "",
+            "description": "Series 2: 39. Cressheads",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/3b4c385f-05d7-4dc4-802b-58ed4b8f57e5",
+              "program_id": "crid://panorama.five.tv/versions/C5408820039A",
               "event_locator": "dvb://233a..9501;f46e",
               "main_title": "Pip and Posy",
-              "image_url": "https://img.freeviewplay.tv/e0ffb3569fe31f2fe1598b642d72523d1",
+              "secondary_title": "Series 2: 39. Cressheads",
+              "image_url": "https://img.freeviewplay.tv/pbfba4c60f6f0993d5fd9f50bdbc430cf",
               "start_time": "2026-08-28T05:50:00+0000",
               "duration": "PT5M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "01956ee87774577a77aa0b83f8133c6e"
+              "uuid": "ab091a645317819ad1c84dbe77bc90cd"
             }
           },
           {
             "startTime": "2026-08-28T05:55:00+0000",
             "duration": 15,
             "name": "PAW Patrol",
-            "description": "",
+            "description": "Series 10: 46. Pups Save the Cheese Goat",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/70476804-d8f1-46b0-a4fb-6f43e9c068d6",
+              "program_id": "crid://panorama.five.tv/versions/C5479060046A",
               "event_locator": "dvb://233a..9501;f46f",
               "main_title": "PAW Patrol",
-              "image_url": "https://img.freeviewplay.tv/ec25921e0bcaacb08f843f78b3baff894",
+              "secondary_title": "Series 10: 46. Pups Save the Cheese Goat",
+              "image_url": "https://img.freeviewplay.tv/p05241a8211354486ab1cb59c5182233e",
               "start_time": "2026-08-28T05:55:00+0000",
               "duration": "PT15M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "955cfc4a178ef3559bbf3dfb7435028d"
+              "uuid": "12c246de04b35f84304e38f4d3f19612"
             }
           },
           {
             "startTime": "2026-08-28T06:10:00+0000",
             "duration": 10,
             "name": "Move It Milkshakers!",
-            "description": "",
+            "description": "Series 1: 17. Q - Quick",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/54eb6adc-c489-403d-81ee-a5e4056fc4b7",
+              "program_id": "crid://panorama.five.tv/versions/C5514960017A",
               "event_locator": "dvb://233a..9501;f470",
               "main_title": "Move It Milkshakers!",
-              "image_url": "https://img.freeviewplay.tv/e7ab7e89ca167fc267f2b420bdbadabe4",
+              "secondary_title": "Series 1: 17. Q - Quick",
+              "image_url": "https://img.freeviewplay.tv/pa17132cb4e0c46bdf991db8f74e8e4fa",
               "start_time": "2026-08-28T06:10:00+0000",
               "duration": "PT10M",
+              "on_demand": {
+                "start_of_availability": "2026-07-02T06:11:00+0000",
+                "end_of_availability": "2035-12-15T07:11:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5514960017.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "0b391524291324e70b446d2570312f13"
+              "uuid": "cd0780397c2570a3ef7da68d33b616a9"
             }
           },
           {
             "startTime": "2026-08-28T06:20:00+0000",
             "duration": 15,
             "name": "Rubble & Crew",
-            "description": "",
+            "description": "Series 3: 5. The Crew Builds a Super Mega...",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/fa26f55c-2f40-4885-b676-8dca74fbe5e2",
+              "program_id": "crid://panorama.five.tv/versions/C5528380005A",
               "event_locator": "dvb://233a..9501;f471",
               "main_title": "Rubble & Crew",
-              "image_url": "https://img.freeviewplay.tv/e6e2463e8f46399bd3df4ef074f32eea9",
+              "secondary_title": "Series 3: 5. The Crew Builds a Super Mega...",
+              "image_url": "https://img.freeviewplay.tv/p87e1e71771d91cce83d37a5e4a3df2ce",
               "start_time": "2026-08-28T06:20:00+0000",
               "duration": "PT15M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "a3eb8e252294f411a6ed2a6e37e1b01c"
+              "uuid": "1d7605ed36d97b1446d8dc5d05b47f1b"
             }
           },
           {
             "startTime": "2026-08-28T06:35:00+0000",
             "duration": 5,
             "name": "Peppa Pig",
-            "description": "",
+            "description": "Series 3: 11. Polly's Boat Trip",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/4f0bc409-d5a7-4b38-b9c8-740b5ef2f425",
+              "program_id": "crid://panorama.five.tv/versions/C5144870011B",
               "event_locator": "dvb://233a..9501;f472",
               "main_title": "Peppa Pig",
-              "image_url": "https://img.freeviewplay.tv/e2b282940da56f69053706d6171963d72",
+              "secondary_title": "Series 3: 11. Polly's Boat Trip",
+              "image_url": "https://img.freeviewplay.tv/p4cfa84a41a4fe26719460d205471626a",
               "start_time": "2026-08-28T06:35:00+0000",
               "duration": "PT5M",
+              "on_demand": {
+                "start_of_availability": "2026-06-01T05:00:00+0000",
+                "end_of_availability": "2026-08-31T22:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5144870011.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "b5174e1416eda34be51f01163e5392a6"
+              "uuid": "f1012aa2ed23c28f4150aaf225810df3"
             }
           },
           {
             "startTime": "2026-08-28T06:40:00+0000",
             "duration": 5,
             "name": "Peppa Pig",
-            "description": "",
+            "description": "Series 6: 21. Roman Day",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/072eaa7a-2c41-436b-b9e4-105582792644",
+              "program_id": "crid://panorama.five.tv/versions/C5265570021A",
               "event_locator": "dvb://233a..9501;f473",
               "main_title": "Peppa Pig",
-              "image_url": "https://img.freeviewplay.tv/eb7399853c97c27f383e25696d00dfefe",
+              "secondary_title": "Series 6: 21. Roman Day",
+              "image_url": "https://img.freeviewplay.tv/p95f27fa2131c69cd71fe156bae2b5009",
               "start_time": "2026-08-28T06:40:00+0000",
               "duration": "PT5M",
+              "on_demand": {
+                "start_of_availability": "2026-09-01T05:00:00+0000",
+                "end_of_availability": "2026-11-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5265570021.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "06085f8ca9edb6d02b0283f83106a719"
+              "uuid": "0171eee9013cc7e82c2ac7b0918c29be"
             }
           },
           {
             "startTime": "2026-08-28T06:45:00+0000",
             "duration": 15,
             "name": "Tim Rex in Space",
-            "description": "",
+            "description": "Series 1: 5. Spaceship",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/4f86c210-eb3e-4bd2-b124-5d559ce7f9d3",
+              "program_id": "crid://panorama.five.tv/versions/C5463540005C",
               "event_locator": "dvb://233a..9501;f474",
               "main_title": "Tim Rex in Space",
-              "image_url": "https://img.freeviewplay.tv/ec4a98a707940c4f611408878f37ef16e",
+              "secondary_title": "Series 1: 5. Spaceship",
+              "image_url": "https://img.freeviewplay.tv/pe47e52350819eccfdb5c06bee9fcda5f",
               "start_time": "2026-08-28T06:45:00+0000",
               "duration": "PT15M",
+              "on_demand": {
+                "start_of_availability": "2025-07-08T16:01:00+0000",
+                "end_of_availability": "2035-05-01T12:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5463540005.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "276d103c7f2f9de1c7d1bb43ecf4983d"
+              "uuid": "ab3935cbed64b55cefe7717b8f7a3cb7"
             }
           },
           {
             "startTime": "2026-08-28T07:00:00+0000",
             "duration": 15,
             "name": "Stan & Gran",
-            "description": "",
+            "description": "Series 1: 35. Unidentified Flying Insect",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/c10a786b-647a-480a-8a31-ef976b808223",
+              "program_id": "crid://panorama.five.tv/versions/C5285680035A",
               "event_locator": "dvb://233a..9501;f475",
               "main_title": "Stan & Gran",
-              "image_url": "https://img.freeviewplay.tv/eef5399068fe60f0eacd57645412532d0",
+              "secondary_title": "Series 1: 35. Unidentified Flying Insect",
+              "image_url": "https://img.freeviewplay.tv/p4109daa0ad4d9070a6a10573e342543d",
               "start_time": "2026-08-28T07:00:00+0000",
               "duration": "PT15M",
+              "on_demand": {
+                "start_of_availability": "2026-06-19T06:58:38+0000",
+                "end_of_availability": "2030-10-23T06:58:38+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5285680035.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "fe7329b953085f027ce39033538f4526"
+              "uuid": "62a963558b81c996d543ce1b4bb11c3a"
             }
           },
           {
             "startTime": "2026-08-28T07:15:00+0000",
             "duration": 25,
             "name": "PAW Patrol",
-            "description": "",
+            "description": "Series 11: 37. Fire Rescue: Pups Save Lizzy's...",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/df1db7da-b418-4cdb-8f03-87f6cce6f8ba",
+              "program_id": "crid://panorama.five.tv/versions/C5491450037A",
               "event_locator": "dvb://233a..9501;f476",
               "main_title": "PAW Patrol",
-              "image_url": "https://img.freeviewplay.tv/ea9cf0d4c2206a1bc5addb42151f1660a",
+              "secondary_title": "Series 11: 37. Fire Rescue: Pups Save Lizzy's...",
+              "image_url": "https://img.freeviewplay.tv/pe6aab20f67313f35e9d13f2bf165679a",
               "start_time": "2026-08-28T07:15:00+0000",
               "duration": "PT25M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "37a1077a7e71ce895d1275a7b08b093c"
+              "uuid": "e160dc6dd95c4a47f7981a2f7e6fe3bb"
             }
           },
           {
             "startTime": "2026-08-28T07:40:00+0000",
             "duration": 10,
             "name": "The Adventures of Paddington",
-            "description": "",
+            "description": "Series 3: 5. Paddington and the Three Musketeers",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/b4a03832-6201-4eec-a5ad-eebf5626e8b9",
+              "program_id": "crid://panorama.five.tv/versions/C5463820005A",
               "event_locator": "dvb://233a..9501;f477",
               "main_title": "The Adventures of Paddington",
-              "image_url": "https://img.freeviewplay.tv/e1166198077f877422adbf1c47f41a269",
+              "secondary_title": "Series 3: 5. Paddington and the Three Musketeers",
+              "image_url": "https://img.freeviewplay.tv/p1c8ba3e1c4cde24ee8aa9afc8511ef76",
               "start_time": "2026-08-28T07:40:00+0000",
               "duration": "PT10M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "18229c204b3b1b8fa1a17ba898a295c1"
+              "uuid": "b02db732b9476b711dfe60f8c3dc9f0e"
             }
           },
           {
             "startTime": "2026-08-28T07:50:00+0000",
             "duration": 10,
             "name": "Ben and Holly's Little Kingdom",
-            "description": "",
+            "description": "Series 2: 1. Giants in the Meadow",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/30f31354-f8ce-4ef3-bde5-1c5acbb40e8c",
+              "program_id": "crid://panorama.five.tv/versions/C5165010001B",
               "event_locator": "dvb://233a..9501;f478",
               "main_title": "Ben and Holly's Little Kingdom",
-              "image_url": "https://img.freeviewplay.tv/e288008952ed8aa3630ee46cb809a0210",
+              "secondary_title": "Series 2: 1. Giants in the Meadow",
+              "image_url": "https://img.freeviewplay.tv/p4bb7e6fc545ebd16b75ee150cf89c4c1",
               "start_time": "2026-08-28T07:50:00+0000",
               "duration": "PT10M",
+              "on_demand": {
+                "start_of_availability": "2026-09-01T08:00:00+0000",
+                "end_of_availability": "2026-11-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5165010001.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "83e1b61f847b32732587e2be6940936b"
+              "uuid": "6e30b4b7173eccf46a845b4407114f27"
             }
           },
           {
             "startTime": "2026-08-28T08:00:00+0000",
             "duration": 5,
             "name": "Peppa Pig",
-            "description": "",
+            "description": "Series 3: 3. Pedro's Cough",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/c3020a6d-2611-42fb-963a-6886024d5d5e",
+              "program_id": "crid://panorama.five.tv/versions/C5144870003B",
               "event_locator": "dvb://233a..9501;f479",
               "main_title": "Peppa Pig",
-              "image_url": "https://img.freeviewplay.tv/e2b282940da56f69053706d6171963d72",
+              "secondary_title": "Series 3: 3. Pedro's Cough",
+              "image_url": "https://img.freeviewplay.tv/p2ee558083a75942367c34a8df63113b7",
               "start_time": "2026-08-28T08:00:00+0000",
               "duration": "PT5M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "b4223e0892822f6c46ad88cb9d359386"
+              "uuid": "37b86e65297ff03f3b2f68e9965c2735"
             }
           },
           {
             "startTime": "2026-08-28T08:05:00+0000",
             "duration": 10,
             "name": "The Real Pup Squad",
-            "description": "",
+            "description": "Series 1: 5. Isla & Gizmo",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/d8635097-580e-4b47-8829-5da4f8996917",
+              "program_id": "crid://panorama.five.tv/versions/C5508970005A",
               "event_locator": "dvb://233a..9501;f47a",
               "main_title": "The Real Pup Squad",
-              "image_url": "https://img.freeviewplay.tv/e83e85dc2e6d65e7d63150f45c57ee68d",
+              "secondary_title": "Series 1: 5. Isla & Gizmo",
+              "image_url": "https://img.freeviewplay.tv/p01019919f92a103771d33536bf2af2e6",
               "start_time": "2026-08-28T08:05:00+0000",
               "duration": "PT10M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
-              "uuid": "c8b5215fed331543be1ffb87f1f436e8"
+              "uuid": "c32cc3179e5f81baa629c5d5aa23bf1f"
             }
           },
           {
@@ -1345,32 +1621,35 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/4bc11e37-2124-4201-990e-68651417eba7",
+              "program_id": "crid://panorama.five.tv/versions/C5524340170A",
               "event_locator": "dvb://233a..9501;f47b",
               "main_title": "Jeremy Vine",
+              "image_url": "https://img.freeviewplay.tv/pcb04287493148fcd66d3bb542b745243",
               "start_time": "2026-08-28T08:15:00+0000",
               "duration": "PT2H15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/e6954fc4038a4d16bf63ef66fd9241c75",
-              "uuid": "650ff1e6685844aeaa5797e1b24a310c"
+              "uuid": "59f47929d3ff28df51ffbd132cf79b3d"
             }
           },
           {
             "startTime": "2026-08-28T10:30:00+0000",
             "duration": 75,
             "name": "Storm & Alexis",
-            "description": "",
+            "description": "2026: 170. Storm Huntley",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/3ee54af4-bb5d-4146-b5ee-9f07275f7c19",
+              "program_id": "crid://panorama.five.tv/versions/C5524360170A",
               "event_locator": "dvb://233a..9501;f47c",
               "main_title": "Storm & Alexis",
+              "secondary_title": "2026: 170. Storm Huntley",
+              "image_url": "https://img.freeviewplay.tv/p9091bdf41fa8676356d777ceb07d8c63",
               "start_time": "2026-08-28T10:30:00+0000",
               "duration": "PT1H15M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/e68152511d80f60228f6209ca964cb4a6",
-              "uuid": "2a999517774831fed4df64d39be4716c"
+              "uuid": "c4f15bfa3cb3f58f564c42db07ad333f"
             }
           },
           {
@@ -1381,14 +1660,15 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/e9067718-5463-4d67-80ce-57001d13e3c7",
+              "program_id": "crid://panorama.five.tv/versions/C5524440170A",
               "event_locator": "dvb://233a..9501;f47d",
               "main_title": "5 News at Lunchtime",
+              "image_url": "https://img.freeviewplay.tv/p06de7d7090dce114a006b4ca56199318",
               "start_time": "2026-08-28T11:45:00+0000",
               "duration": "PT5M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/eb589e5b1ac9eec1986a668cec96902b7",
-              "uuid": "07ebf8cc28eb7431587faa96d1c060b9"
+              "uuid": "4c92e065810e006303a0e76582a20955"
             }
           },
           {
@@ -1399,14 +1679,15 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/8c6f2055-3c08-44fd-96a8-bed1610c70b9",
+              "program_id": "crid://panorama.five.tv/versions/C5526780170A",
               "event_locator": "dvb://233a..9501;f47e",
               "main_title": "Matt Allwright",
+              "image_url": "https://img.freeviewplay.tv/pf1c3a5fe52b16585bf8c2c26b7ddde36",
               "start_time": "2026-08-28T11:50:00+0000",
               "duration": "PT1H30M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/e7637c0858c24140f4949598ed3801ec2",
-              "uuid": "70f7a583ad7d20aa67440a88837c333c"
+              "uuid": "5682f8a56795028643b0f103f9a34b11"
             }
           },
           {
@@ -1417,194 +1698,185 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/797f5a93-b295-4530-aee2-73efbcbe6d3f",
+              "program_id": "crid://panorama.five.tv/versions/C5506440001C",
               "event_locator": "dvb://233a..9501;f47f",
               "main_title": "Deadly Girls Trip",
-              "image_url": "https://img.freeviewplay.tv/e375ad76f5c7c5e1fb3b20efe58ce7881",
+              "image_url": "https://img.freeviewplay.tv/pc40836f6ba7f3979d1dacbd111e26f2f",
               "start_time": "2026-08-28T13:20:00+0000",
               "duration": "PT1H40M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-              "uuid": "f72d9920edecf7283151b5514ae30b3b"
+              "uuid": "2cdb8d12de6d67f3b8eddba6ad72b030"
             }
           },
           {
             "startTime": "2026-08-28T15:00:00+0000",
             "duration": 55,
             "name": "Castle",
-            "description": "",
+            "description": "Series 8: 7. The Last Seduction",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/e288709d-3984-41ba-86c5-6c43b41e7562",
+              "program_id": "crid://panorama.five.tv/versions/C5226330006B",
               "event_locator": "dvb://233a..9501;f480",
               "main_title": "Castle",
-              "image_url": "https://img.freeviewplay.tv/ed0d6688902e8c82681b79d67c0c3255f",
+              "secondary_title": "Series 8: 7. The Last Seduction",
+              "image_url": "https://img.freeviewplay.tv/p0bd0f3d2af577c2171c103d9d43a8b84",
               "start_time": "2026-08-28T15:00:00+0000",
               "duration": "PT55M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "d424886ffe84ff4c987e72d610865d37"
+              "uuid": "cf548ee139c90a5a239ec993392cbef9"
             }
           },
           {
             "startTime": "2026-08-28T15:55:00+0000",
             "duration": 5,
             "name": "Love Nature",
-            "description": "",
+            "description": "Series 1: 23. South West",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/9c759cab-cf23-42b5-b3d4-56ac6e0a9991",
+              "program_id": "crid://panorama.five.tv/versions/C5528520023A",
               "event_locator": "dvb://233a..9501;f481",
               "main_title": "Love Nature",
-              "image_url": "https://img.freeviewplay.tv/efb7e187b65242ce00db1ec3aeb863065",
+              "secondary_title": "Series 1: 23. South West",
+              "image_url": "https://img.freeviewplay.tv/p3872f076d767aaddb29af766fbdc9459",
               "start_time": "2026-08-28T15:55:00+0000",
               "duration": "PT5M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "d168af16749dfd9acab3d8e5ff49e131"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+              "uuid": "69a09954cbcba355e15d729427b354ed"
             }
           },
           {
             "startTime": "2026-08-28T16:00:00+0000",
             "duration": 60,
-            "name": "5 News with Dan Walker",
+            "name": "5 News at 5",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/305746dd-aafa-49ab-86c4-8392583fc0a0",
+              "program_id": "crid://panorama.five.tv/versions/C5524400169A",
               "event_locator": "dvb://233a..9501;f482",
-              "main_title": "5 News with Dan Walker",
+              "main_title": "5 News at 5",
+              "image_url": "https://img.freeviewplay.tv/p3c5a5cd73c3cc65164b94a275b1afcba",
               "start_time": "2026-08-28T16:00:00+0000",
               "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/e27375e0ddf4a45d88e40e8f9ed454bee",
-              "uuid": "c3d3b0477d3d16139b2b1a92ae5644fc"
+              "uuid": "0c4d676b00d1cee61e63683cc1e348cc"
             }
           },
           {
             "startTime": "2026-08-28T17:00:00+0000",
             "duration": 60,
             "name": "Motorhoming with Merton & Webster",
-            "description": "",
+            "description": "Series 2: 5. Yorkshire",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/046d8869-d092-41cc-9a5c-04100b30ff48",
+              "program_id": "crid://panorama.five.tv/versions/C5421620006A",
               "event_locator": "dvb://233a..9501;f483",
               "main_title": "Motorhoming with Merton & Webster",
-              "image_url": "https://img.freeviewplay.tv/ebd996373eb89f1a48113834b545487fd",
+              "secondary_title": "Series 2: 5. Yorkshire",
+              "image_url": "https://img.freeviewplay.tv/p8fdec850cf51f39f119a4e983f4b5459",
               "start_time": "2026-08-28T17:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "bf5a668a29cbe525737a9c40a4883338"
+              "uuid": "c8d901d20c5b97ee3e10a64f9c64a396"
             }
           },
           {
             "startTime": "2026-08-28T18:00:00+0000",
             "duration": 60,
-            "name": "New: Cycling: Vuelta a Espana 2026",
-            "description": "",
+            "name": "Vuelta a Espana 2026",
+            "description": "Series 1: 7. Stage 7",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/50db9277-1d73-4e02-b11d-be39801e4b24",
+              "program_id": "crid://panorama.five.tv/versions/C5541100007A",
               "event_locator": "dvb://233a..9501;f484",
-              "main_title": "New: Cycling: Vuelta a Espana 2026",
+              "main_title": "Vuelta a Espana 2026",
+              "secondary_title": "Series 1: 7. Stage 7",
+              "image_url": "https://img.freeviewplay.tv/pb91281fb3f3cc956327e8775d98fe1af",
               "start_time": "2026-08-28T18:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
               "fallback_image_url": "http://img.freeviewplay.net/e5d83f75b675ca7131c532d5973489611",
-              "uuid": "89fd4abd50981782c52d521031cd8737"
+              "uuid": "1ed4b93801b282965ed796630e7496b3"
             }
           },
           {
             "startTime": "2026-08-28T19:00:00+0000",
             "duration": 60,
             "name": "Alexander Armstrong in Sri Lanka",
-            "description": "",
+            "description": "Series 1: Episode 3",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/5cf498bf-f40d-49eb-8cf4-1024b85dcdf8",
+              "program_id": "crid://panorama.five.tv/versions/C5449020003B",
               "event_locator": "dvb://233a..9501;f485",
               "main_title": "Alexander Armstrong in Sri Lanka",
-              "image_url": "https://img.freeviewplay.tv/e5aceed20d1acf5b5b4bbbf9b0ac9c6dd",
+              "secondary_title": "Series 1: Episode 3",
+              "image_url": "https://img.freeviewplay.tv/p80672ff303757469392bb0b6a9350c11",
               "start_time": "2026-08-28T19:00:00+0000",
               "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "1b60687e0a59f1a4ec6dcbfb886c8596"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+              "uuid": "b8975050d3b49edf9c6294ff75feb3bf"
             }
           },
           {
             "startTime": "2026-08-28T20:00:00+0000",
             "duration": 60,
             "name": "Heat",
-            "description": "",
+            "description": "Series 1: Episode 3",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/bce77039-7eae-484f-9b4f-7fc0c812bd48",
+              "program_id": "crid://panorama.five.tv/versions/C5434400003A",
               "event_locator": "dvb://233a..9501;f486",
               "main_title": "Heat",
-              "image_url": "https://img.freeviewplay.tv/e7bd6fec4f1f64cc263f5f16c7c53c4ec",
+              "secondary_title": "Series 1: Episode 3",
+              "image_url": "https://img.freeviewplay.tv/p2abe7a9c008b6ba67ad4535c2fd932a3",
               "start_time": "2026-08-28T20:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "c6856e8eb032b339faeb61148ec1813b"
+              "uuid": "b3647e02a2bfdb4e0ebcc1300af03029"
             }
           },
           {
             "startTime": "2026-08-28T21:00:00+0000",
             "duration": 65,
             "name": "Heat",
-            "description": "",
+            "description": "Series 1: Episode 4",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/d58e550b-aef5-41af-a58a-bf51995246ab",
+              "program_id": "crid://panorama.five.tv/versions/C5434400004A",
               "event_locator": "dvb://233a..9501;f487",
               "main_title": "Heat",
-              "image_url": "https://img.freeviewplay.tv/e3ac49c2173b4aa32bfa324e0b151b6b0",
+              "secondary_title": "Series 1: Episode 4",
+              "image_url": "https://img.freeviewplay.tv/p20b544cde8e05e0db3c0c14ed694109b",
               "start_time": "2026-08-28T21:00:00+0000",
               "duration": "PT1H5M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "uuid": "2ef40346787f3a27912916bdd2ad5ed9"
+              "uuid": "4193fca113ffe86d08f2dc6951aacdbf"
             }
           },
           {
             "startTime": "2026-08-28T22:05:00+0000",
-            "duration": 110,
-            "name": "New: Piers Morgan: Uncensored",
+            "duration": 115,
+            "name": "When News Goes Horribly Wrong",
             "description": "",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/b19c8f7b-7097-4f0c-944c-17823694da79",
-              "event_locator": "dvb://233a..9501;f488",
-              "main_title": "New: Piers Morgan: Uncensored",
+              "program_id": "crid://panorama.five.tv/versions/C5477900001A",
+              "event_locator": "dvb://233a..9501;f6fc",
+              "main_title": "When News Goes Horribly Wrong",
+              "image_url": "https://img.freeviewplay.tv/pfc455b14d520b7ad75d356379aaf4ffd",
               "start_time": "2026-08-28T22:05:00+0000",
-              "duration": "PT1H50M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ee284c617de61de5e39f495410fdd9752",
-              "uuid": "746cc655b02a9348cd21291b8638a858"
-            }
-          },
-          {
-            "startTime": "2026-08-28T23:55:00+0000",
-            "duration": 5,
-            "name": "Entertainment News on 5",
-            "description": "",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://panorama.five.tv/versions/C5522880035A",
-              "event_locator": "dvb://233a..9501;f489",
-              "main_title": "Entertainment News on 5",
-              "image_url": "https://img.freeviewplay.tv/p354de87bd6a48ec281e94b5dd086a352",
-              "start_time": "2026-08-28T23:55:00+0000",
-              "duration": "PT5M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "75c380f9ed94ce9d0bf1fb2873b54e98"
+              "duration": "PT1H55M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+              "uuid": "c14cdb80651cbe5453860e698028479e"
             }
           }
         ]
