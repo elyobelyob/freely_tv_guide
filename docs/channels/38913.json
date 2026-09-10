@@ -44,18 +44,29 @@
       "startTime": "2026-09-10T02:00:00+0000",
       "duration": 60,
       "name": "Murder UK",
-      "description": "",
+      "description": "Series 01: 1. Deadly Obsession",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/eb96df9e-8fd8-4d0a-a2df-1fd746b510f2",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/murderuk-01-01/52753066",
         "event_locator": "dvb://233a..9801;8119",
         "main_title": "Murder UK",
-        "image_url": "https://img.freeviewplay.tv/ee6996004969d87e8d78fbc451f9de0d7",
+        "secondary_title": "Series 01: 1. Deadly Obsession",
+        "image_url": "https://img.freeviewplay.tv/pdd1d7dc4b1985ff0627e81ab10063cf5",
         "start_time": "2026-09-10T02:00:00+0000",
         "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "61db1844af1fbd610f4967cc0fc7beae"
+        "on_demand": {
+          "start_of_availability": "2025-01-01T00:00:00+0000",
+          "end_of_availability": "2074-12-31T23:59:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52753066&stream_id=713&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "6e63377336fab7031dcf4565d65559cc"
       }
     },
     {
@@ -679,18 +690,29 @@
             "startTime": "2026-09-10T02:00:00+0000",
             "duration": 60,
             "name": "Murder UK",
-            "description": "",
+            "description": "Series 01: 1. Deadly Obsession",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/eb96df9e-8fd8-4d0a-a2df-1fd746b510f2",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/murderuk-01-01/52753066",
               "event_locator": "dvb://233a..9801;8119",
               "main_title": "Murder UK",
-              "image_url": "https://img.freeviewplay.tv/ee6996004969d87e8d78fbc451f9de0d7",
+              "secondary_title": "Series 01: 1. Deadly Obsession",
+              "image_url": "https://img.freeviewplay.tv/pdd1d7dc4b1985ff0627e81ab10063cf5",
               "start_time": "2026-09-10T02:00:00+0000",
               "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "61db1844af1fbd610f4967cc0fc7beae"
+              "on_demand": {
+                "start_of_availability": "2025-01-01T00:00:00+0000",
+                "end_of_availability": "2074-12-31T23:59:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52753066&stream_id=713&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "6e63377336fab7031dcf4565d65559cc"
             }
           },
           {
