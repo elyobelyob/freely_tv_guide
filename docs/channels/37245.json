@@ -5,8 +5,8 @@
   },
   "events": [
     {
-      "startTime": "2026-09-13T00:45:00+0000",
-      "duration": 120,
+      "startTime": "2026-09-13T00:55:00+0000",
+      "duration": 115,
       "name": "Saint Omer",
       "description": "Saint Omer",
       "synopsis": "",
@@ -17,8 +17,8 @@
         "main_title": "Saint Omer",
         "secondary_title": "Saint Omer",
         "image_url": "https://img.freeviewplay.tv/p49b5d8a8079e46279be5dc43da42ad99",
-        "start_time": "2026-09-13T00:45:00+0000",
-        "duration": "PT2H",
+        "start_time": "2026-09-13T00:55:00+0000",
+        "duration": "PT1H55M",
         "on_demand": {
           "start_of_availability": "2026-09-13T02:43:01+0000",
           "end_of_availability": "2026-10-13T02:43:01+0000",
@@ -31,12 +31,12 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
         "fallback_image_url": "http://img.freeviewplay.net/e0fc4b51957afdcde58f3b4bd38c74ebe",
-        "uuid": "171db7426acc3e42c838ead00101b63d"
+        "uuid": "c9da88df9e8664190bede343ae92440a"
       }
     },
     {
-      "startTime": "2026-09-13T02:45:00+0000",
-      "duration": 140,
+      "startTime": "2026-09-13T02:50:00+0000",
+      "duration": 135,
       "name": "This is BBC Two",
       "description": "This is BBC Two",
       "synopsis": "",
@@ -47,11 +47,11 @@
         "main_title": "This is BBC Two",
         "secondary_title": "This is BBC Two",
         "image_url": "https://img.freeviewplay.tv/p3eefc63d6825f8304be936c3202c1f37",
-        "start_time": "2026-09-13T02:45:00+0000",
-        "duration": "PT2H20M",
+        "start_time": "2026-09-13T02:50:00+0000",
+        "duration": "PT2H15M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/ef153acce3edae04570e9a7a0d350ba0c",
-        "uuid": "4cd563e7ec855dcda2d6a654083bb08a"
+        "uuid": "fc5fa27e5d3b306cc5edd967fc36db4e"
       }
     },
     {
@@ -429,6 +429,16 @@
         "image_url": "https://img.freeviewplay.tv/p856ff72c5a6958bb582eaabc17bcc780",
         "start_time": "2026-09-13T18:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-09-20T06:35:55+0000",
+          "end_of_availability": "2026-10-20T06:35:55+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0031n81&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/eb7787231e143f2dd9034698de3983f1f",
         "uuid": "9195d50a7bfa87a395a7a29c2b8751d2"
@@ -556,32 +566,22 @@
     },
     {
       "startTime": "2026-09-13T23:20:00+0000",
-      "duration": 60,
-      "name": "Golf: Solheim Cup",
-      "description": "2026: Day 3 Highlights",
+      "duration": 105,
+      "name": "X+Y",
+      "description": "X+Y",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0031n89",
-        "event_locator": "dvb://233a..917d;197a",
-        "main_title": "Golf: Solheim Cup",
-        "secondary_title": "2026: Day 3 Highlights",
-        "image_url": "https://img.freeviewplay.tv/p746e1a7f54e8c435338f0562266b1780",
+        "program_id": "crid://bbc.co.uk/icc/episode/b0953w82",
+        "event_locator": "dvb://233a..917d;1a66",
+        "main_title": "X+Y",
+        "secondary_title": "X+Y",
+        "image_url": "https://img.freeviewplay.tv/p71802a1e2dbf4805c91ed188321f8a50",
         "start_time": "2026-09-13T23:20:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2026-09-13T19:00:30+0000",
-          "end_of_availability": "2026-09-21T00:20:10+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0031n89&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-        "fallback_image_url": "http://img.freeviewplay.net/e24eb038a8f90f36c3cdb6bf7cb5d5519",
-        "uuid": "3af0cf9b9890ddbdf2dd9059944fccac"
+        "duration": "PT1H45M",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
+        "fallback_image_url": "http://img.freeviewplay.net/e9d953f20c9b89052342952dcf5c599ac",
+        "uuid": "8f89628742deafc5b6b0c6175a131bbd"
       }
     }
   ],
@@ -590,8 +590,8 @@
       {
         "event": [
           {
-            "startTime": "2026-09-13T00:45:00+0000",
-            "duration": 120,
+            "startTime": "2026-09-13T00:55:00+0000",
+            "duration": 115,
             "name": "Saint Omer",
             "description": "Saint Omer",
             "synopsis": "",
@@ -602,8 +602,8 @@
               "main_title": "Saint Omer",
               "secondary_title": "Saint Omer",
               "image_url": "https://img.freeviewplay.tv/p49b5d8a8079e46279be5dc43da42ad99",
-              "start_time": "2026-09-13T00:45:00+0000",
-              "duration": "PT2H",
+              "start_time": "2026-09-13T00:55:00+0000",
+              "duration": "PT1H55M",
               "on_demand": {
                 "start_of_availability": "2026-09-13T02:43:01+0000",
                 "end_of_availability": "2026-10-13T02:43:01+0000",
@@ -616,12 +616,12 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
               "fallback_image_url": "http://img.freeviewplay.net/e0fc4b51957afdcde58f3b4bd38c74ebe",
-              "uuid": "171db7426acc3e42c838ead00101b63d"
+              "uuid": "c9da88df9e8664190bede343ae92440a"
             }
           },
           {
-            "startTime": "2026-09-13T02:45:00+0000",
-            "duration": 140,
+            "startTime": "2026-09-13T02:50:00+0000",
+            "duration": 135,
             "name": "This is BBC Two",
             "description": "This is BBC Two",
             "synopsis": "",
@@ -632,11 +632,11 @@
               "main_title": "This is BBC Two",
               "secondary_title": "This is BBC Two",
               "image_url": "https://img.freeviewplay.tv/p3eefc63d6825f8304be936c3202c1f37",
-              "start_time": "2026-09-13T02:45:00+0000",
-              "duration": "PT2H20M",
+              "start_time": "2026-09-13T02:50:00+0000",
+              "duration": "PT2H15M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/ef153acce3edae04570e9a7a0d350ba0c",
-              "uuid": "4cd563e7ec855dcda2d6a654083bb08a"
+              "uuid": "fc5fa27e5d3b306cc5edd967fc36db4e"
             }
           },
           {
@@ -1014,6 +1014,16 @@
               "image_url": "https://img.freeviewplay.tv/p856ff72c5a6958bb582eaabc17bcc780",
               "start_time": "2026-09-13T18:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-09-20T06:35:55+0000",
+                "end_of_availability": "2026-10-20T06:35:55+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0031n81&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/eb7787231e143f2dd9034698de3983f1f",
               "uuid": "9195d50a7bfa87a395a7a29c2b8751d2"
@@ -1141,32 +1151,22 @@
           },
           {
             "startTime": "2026-09-13T23:20:00+0000",
-            "duration": 60,
-            "name": "Golf: Solheim Cup",
-            "description": "2026: Day 3 Highlights",
+            "duration": 105,
+            "name": "X+Y",
+            "description": "X+Y",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0031n89",
-              "event_locator": "dvb://233a..917d;197a",
-              "main_title": "Golf: Solheim Cup",
-              "secondary_title": "2026: Day 3 Highlights",
-              "image_url": "https://img.freeviewplay.tv/p746e1a7f54e8c435338f0562266b1780",
+              "program_id": "crid://bbc.co.uk/icc/episode/b0953w82",
+              "event_locator": "dvb://233a..917d;1a66",
+              "main_title": "X+Y",
+              "secondary_title": "X+Y",
+              "image_url": "https://img.freeviewplay.tv/p71802a1e2dbf4805c91ed188321f8a50",
               "start_time": "2026-09-13T23:20:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2026-09-13T19:00:30+0000",
-                "end_of_availability": "2026-09-21T00:20:10+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0031n89&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-              "fallback_image_url": "http://img.freeviewplay.net/e24eb038a8f90f36c3cdb6bf7cb5d5519",
-              "uuid": "3af0cf9b9890ddbdf2dd9059944fccac"
+              "duration": "PT1H45M",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
+              "fallback_image_url": "http://img.freeviewplay.net/e9d953f20c9b89052342952dcf5c599ac",
+              "uuid": "8f89628742deafc5b6b0c6175a131bbd"
             }
           }
         ]
