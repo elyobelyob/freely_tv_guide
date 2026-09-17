@@ -243,14 +243,14 @@ layout_options:
 | 39429 | DMAX | [channels/39429.json](https://elyobelyob.github.io/freely_tv_guide/channels/39429.json) |
 | 40709 | Daystar | [channels/40709.json](https://elyobelyob.github.io/freely_tv_guide/channels/40709.json) |
 | 37900 | E4 | [channels/37900.json](https://elyobelyob.github.io/freely_tv_guide/channels/37900.json) |
-| 22368 | E4 Extra | [channels/22368.json](https://elyobelyob.github.io/freely_tv_guide/channels/22368.json) |
+| 8462 | E4 Extra | [channels/8462.json](https://elyobelyob.github.io/freely_tv_guide/channels/8462.json) |
 | 8458 | E4+1 | [channels/8458.json](https://elyobelyob.github.io/freely_tv_guide/channels/8458.json) |
 | 38919 | EVIDENCE OF EVIL | [channels/38919.json](https://elyobelyob.github.io/freely_tv_guide/channels/38919.json) |
 | 16180 | EuroNews | [channels/16180.json](https://elyobelyob.github.io/freely_tv_guide/channels/16180.json) |
 | 16370 | FRANCE 24 | [channels/16370.json](https://elyobelyob.github.io/freely_tv_guide/channels/16370.json) |
 | 34816 | Faith TV | [channels/34816.json](https://elyobelyob.github.io/freely_tv_guide/channels/34816.json) |
 | 37901 | Film4 | [channels/37901.json](https://elyobelyob.github.io/freely_tv_guide/channels/37901.json) |
-| 22464 | Film4+1 | [channels/22464.json](https://elyobelyob.github.io/freely_tv_guide/channels/22464.json) |
+| 8464 | Film4+1 | [channels/8464.json](https://elyobelyob.github.io/freely_tv_guide/channels/8464.json) |
 | 39430 | Food Network | [channels/39430.json](https://elyobelyob.github.io/freely_tv_guide/channels/39430.json) |
 | 40710 | France 24 | [channels/40710.json](https://elyobelyob.github.io/freely_tv_guide/channels/40710.json) |
 | 40705 | GB News | [channels/40705.json](https://elyobelyob.github.io/freely_tv_guide/channels/40705.json) |
@@ -271,11 +271,11 @@ layout_options:
 | 37641 | ITV1 | [channels/37641.json](https://elyobelyob.github.io/freely_tv_guide/channels/37641.json) |
 | 8361 | ITV1+1 | [channels/8361.json](https://elyobelyob.github.io/freely_tv_guide/channels/8361.json) |
 | 37652 | ITV2 | [channels/37652.json](https://elyobelyob.github.io/freely_tv_guide/channels/37652.json) |
-| 15952 | ITV2+1 | [channels/15952.json](https://elyobelyob.github.io/freely_tv_guide/channels/15952.json) |
+| 8345 | ITV2+1 | [channels/8345.json](https://elyobelyob.github.io/freely_tv_guide/channels/8345.json) |
 | 37653 | ITV3 | [channels/37653.json](https://elyobelyob.github.io/freely_tv_guide/channels/37653.json) |
 | 16016 | ITV3+1 | [channels/16016.json](https://elyobelyob.github.io/freely_tv_guide/channels/16016.json) |
 | 37654 | ITV4 | [channels/37654.json](https://elyobelyob.github.io/freely_tv_guide/channels/37654.json) |
-| 15920 | ITV4+1 | [channels/15920.json](https://elyobelyob.github.io/freely_tv_guide/channels/15920.json) |
+| 8347 | ITV4+1 | [channels/8347.json](https://elyobelyob.github.io/freely_tv_guide/channels/8347.json) |
 | 25920 | Ideal World | [channels/25920.json](https://elyobelyob.github.io/freely_tv_guide/channels/25920.json) |
 | 33984 | It Is Written TV | [channels/33984.json](https://elyobelyob.github.io/freely_tv_guide/channels/33984.json) |
 | 39202 | Jewellery Maker | [channels/39202.json](https://elyobelyob.github.io/freely_tv_guide/channels/39202.json) |
@@ -300,7 +300,6 @@ layout_options:
 | 34048 | OUTflix Proud | [channels/34048.json](https://elyobelyob.github.io/freely_tv_guide/channels/34048.json) |
 | 16194 | Odyssey TV | [channels/16194.json](https://elyobelyob.github.io/freely_tv_guide/channels/16194.json) |
 | 15064 | On Demand 365 | [channels/15064.json](https://elyobelyob.github.io/freely_tv_guide/channels/15064.json) |
-| 16224 | Outdoor Channel | [channels/16224.json](https://elyobelyob.github.io/freely_tv_guide/channels/16224.json) |
 | 40706 | PBS America | [channels/40706.json](https://elyobelyob.github.io/freely_tv_guide/channels/40706.json) |
 | 16272 | POP | [channels/16272.json](https://elyobelyob.github.io/freely_tv_guide/channels/16272.json) |
 | 27424 | POP UP | [channels/27424.json](https://elyobelyob.github.io/freely_tv_guide/channels/27424.json) |
@@ -334,8 +333,7 @@ layout_options:
 | 38918 | TRUE CRIME UK | [channels/38918.json](https://elyobelyob.github.io/freely_tv_guide/channels/38918.json) |
 | 38914 | TRUE CRIME XTRA | [channels/38914.json](https://elyobelyob.github.io/freely_tv_guide/channels/38914.json) |
 | 40708 | TalkingPictures TV | [channels/40708.json](https://elyobelyob.github.io/freely_tv_guide/channels/40708.json) |
-| 28032 | That's 60s | [channels/28032.json](https://elyobelyob.github.io/freely_tv_guide/channels/28032.json) |
-| 23904 | That's 70s | [channels/23904.json](https://elyobelyob.github.io/freely_tv_guide/channels/23904.json) |
+| 23904 | That's Classics | [channels/23904.json](https://elyobelyob.github.io/freely_tv_guide/channels/23904.json) |
 | 27936 | That's TV (UK) | [channels/27936.json](https://elyobelyob.github.io/freely_tv_guide/channels/27936.json) |
 | 23152 | That's TV 2 | [channels/23152.json](https://elyobelyob.github.io/freely_tv_guide/channels/23152.json) |
 | 37696 | The Chase | [channels/37696.json](https://elyobelyob.github.io/freely_tv_guide/channels/37696.json) |
@@ -352,10 +350,10 @@ layout_options:
 | 38660 | U&W | [channels/38660.json](https://elyobelyob.github.io/freely_tv_guide/channels/38660.json) |
 | 38657 | U&Yesterday | [channels/38657.json](https://elyobelyob.github.io/freely_tv_guide/channels/38657.json) |
 | 14464 | WildEarth | [channels/14464.json](https://elyobelyob.github.io/freely_tv_guide/channels/14464.json) |
+| 15864 | Your Music | [channels/15864.json](https://elyobelyob.github.io/freely_tv_guide/channels/15864.json) |
 | 34496 | Your TV | [channels/34496.json](https://elyobelyob.github.io/freely_tv_guide/channels/34496.json) |
 | 34112 | Your TV Extra | [channels/34112.json](https://elyobelyob.github.io/freely_tv_guide/channels/34112.json) |
 | 22592 | talkSPORT | [channels/22592.json](https://elyobelyob.github.io/freely_tv_guide/channels/22592.json) |
-| 33920 | wedotv | [channels/33920.json](https://elyobelyob.github.io/freely_tv_guide/channels/33920.json) |
 | 23216 | wedotv Movies UK | [channels/23216.json](https://elyobelyob.github.io/freely_tv_guide/channels/23216.json) |
 <!-- CHANNELS_END -->
 
