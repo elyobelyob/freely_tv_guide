@@ -5,200 +5,110 @@
   },
   "events": [
     {
-      "startTime": "2026-09-27T00:15:00+0000",
+      "startTime": "2026-09-28T00:10:00+0000",
+      "duration": 25,
+      "name": "Scottish Parliament",
+      "description": "Corporate Body Questions",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032s6f",
+        "event_locator": "dvb://233a..918a;f8a",
+        "main_title": "Scottish Parliament",
+        "secondary_title": "Corporate Body Questions",
+        "image_url": "https://img.freeviewplay.tv/pedf79a680a1a646b3d175258ce979dda",
+        "start_time": "2026-09-28T00:10:00+0000",
+        "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2026-09-25T00:05:55+0000",
+          "end_of_availability": "2027-09-28T00:35:07+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032s6f&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ecdd43e82d83053ff1ebd42f634298964",
+        "uuid": "b55adbf5e013d27c153b1dee6b4b7786"
+      }
+    },
+    {
+      "startTime": "2026-09-28T00:35:00+0000",
+      "duration": 125,
+      "name": "Scottish Parliament",
+      "description": "Scotland's Creative Economy",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032s6h",
+        "event_locator": "dvb://233a..918a;f8b",
+        "main_title": "Scottish Parliament",
+        "secondary_title": "Scotland's Creative Economy",
+        "image_url": "https://img.freeviewplay.tv/pddca7eecd45b65a1aa8c7417bd044602",
+        "start_time": "2026-09-28T00:35:00+0000",
+        "duration": "PT2H5M",
+        "on_demand": {
+          "start_of_availability": "2026-09-25T02:11:02+0000",
+          "end_of_availability": "2027-09-28T02:40:14+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032s6h&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e836b431776afb0d217c1f346d8db4983",
+        "uuid": "733de8df65f9064ae022f52a922ed747"
+      }
+    },
+    {
+      "startTime": "2026-09-28T02:40:00+0000",
+      "duration": 35,
+      "name": "Senedd Cymru - Welsh Parliament",
+      "description": "Can and Bottle Deposit Reform Scheme",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032k6l",
+        "event_locator": "dvb://233a..918a;f8c",
+        "main_title": "Senedd Cymru - Welsh Parliament",
+        "secondary_title": "Can and Bottle Deposit Reform Scheme",
+        "image_url": "https://img.freeviewplay.tv/p42983f3b8da38f6dbc05471c9fb1b934",
+        "start_time": "2026-09-28T02:40:00+0000",
+        "duration": "PT35M",
+        "on_demand": {
+          "start_of_availability": "2026-09-23T09:00:00+0000",
+          "end_of_availability": "2027-09-28T03:15:27+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6l&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
+        "uuid": "feaf9cb421c6a8662ed87a6391f7fc8c"
+      }
+    },
+    {
+      "startTime": "2026-09-28T03:15:00+0000",
       "duration": 60,
-      "name": "Senedd Cymru - Welsh Parliament",
-      "description": "Programme for Government Statement",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032k6g",
-        "event_locator": "dvb://233a..918a;f72",
-        "main_title": "Senedd Cymru - Welsh Parliament",
-        "secondary_title": "Programme for Government Statement",
-        "image_url": "https://img.freeviewplay.tv/p17d6bbe621fae5d146109b85803f2889",
-        "start_time": "2026-09-27T00:15:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2026-09-23T07:30:00+0000",
-          "end_of_availability": "2027-09-27T01:15:29+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6g&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-        "uuid": "ce4c9a76c14fa423f93d850a5def79c9"
-      }
-    },
-    {
-      "startTime": "2026-09-27T01:15:00+0000",
-      "duration": 40,
-      "name": "Senedd Cymru - Welsh Parliament",
-      "description": "Welsh Defence Ethical Framework",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032k6j",
-        "event_locator": "dvb://233a..918a;f73",
-        "main_title": "Senedd Cymru - Welsh Parliament",
-        "secondary_title": "Welsh Defence Ethical Framework",
-        "image_url": "https://img.freeviewplay.tv/p679344e3571f1329c4b30cc55fa23ab2",
-        "start_time": "2026-09-27T01:15:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2026-09-23T08:15:00+0000",
-          "end_of_availability": "2027-09-27T01:54:05+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-        "uuid": "efca1d3e269f60d30be13dd1fe68aae6"
-      }
-    },
-    {
-      "startTime": "2026-09-27T01:55:00+0000",
-      "duration": 45,
-      "name": "Senedd Cymru - Welsh Parliament",
-      "description": "Building Safety Programme",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032k6n",
-        "event_locator": "dvb://233a..918a;f74",
-        "main_title": "Senedd Cymru - Welsh Parliament",
-        "secondary_title": "Building Safety Programme",
-        "image_url": "https://img.freeviewplay.tv/pbf86b30a0af320751c963cc16435807b",
-        "start_time": "2026-09-27T01:55:00+0000",
-        "duration": "PT45M",
-        "on_demand": {
-          "start_of_availability": "2026-09-23T09:40:00+0000",
-          "end_of_availability": "2027-09-27T02:40:13+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-        "uuid": "eefdb60cc86f2c0674a68c64606c4064"
-      }
-    },
-    {
-      "startTime": "2026-09-27T02:40:00+0000",
-      "duration": 15,
-      "name": "House of Lords",
-      "description": "Tourism Tax Statement",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0031sf8",
-        "event_locator": "dvb://233a..918a;f75",
-        "main_title": "House of Lords",
-        "secondary_title": "Tourism Tax Statement",
-        "image_url": "https://img.freeviewplay.tv/pdb0250d468ce97150405227a0e8e783d",
-        "start_time": "2026-09-27T02:40:00+0000",
-        "duration": "PT15M",
-        "on_demand": {
-          "start_of_availability": "2026-09-17T11:10:00+0000",
-          "end_of_availability": "2027-09-27T02:55:37+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0031sf8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e86b6e1ce146cc9e48689340cac4c54a2",
-        "uuid": "8b4d374be93e8c6caf585eb6d11f19af"
-      }
-    },
-    {
-      "startTime": "2026-09-27T02:55:00+0000",
-      "duration": 30,
-      "name": "Scottish First Minister's Questions",
-      "description": "22/09/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m00323dc",
-        "event_locator": "dvb://233a..918a;e3a",
-        "main_title": "Scottish First Minister's Questions",
-        "secondary_title": "22/09/2026",
-        "image_url": "https://img.freeviewplay.tv/p190a56c4fc5bb13df5bcbd39dcaa738f",
-        "start_time": "2026-09-27T02:55:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-09-22T18:46:20+0000",
-          "end_of_availability": "2027-09-22T18:46:20+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323dc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e426468a3b1ac9d2907a5d785a9f33375",
-        "uuid": "6042ed36de313f09e80e9d3e4706f380"
-      }
-    },
-    {
-      "startTime": "2026-09-27T03:25:00+0000",
-      "duration": 30,
-      "name": "Scottish First Minister's Questions",
-      "description": "24/09/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m00323xj",
-        "event_locator": "dvb://233a..918a;e3b",
-        "main_title": "Scottish First Minister's Questions",
-        "secondary_title": "24/09/2026",
-        "image_url": "https://img.freeviewplay.tv/p8a96270a3c407fa7eca95e49385cff7a",
-        "start_time": "2026-09-27T03:25:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-09-24T23:45:00+0000",
-          "end_of_availability": "2027-09-28T11:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323xj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e426468a3b1ac9d2907a5d785a9f33375",
-        "uuid": "a8d408750433ad8f8e41cf0d06d75403"
-      }
-    },
-    {
-      "startTime": "2026-09-27T03:55:00+0000",
-      "duration": 65,
       "name": "Welsh First Minister's Questions",
       "description": "22/09/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m00323qp",
-        "event_locator": "dvb://233a..918a;e3c",
+        "event_locator": "dvb://233a..918a;e54",
         "main_title": "Welsh First Minister's Questions",
         "secondary_title": "22/09/2026",
         "image_url": "https://img.freeviewplay.tv/pdcba9e423ec66b03c7d11d4ea49f38a6",
-        "start_time": "2026-09-27T03:55:00+0000",
-        "duration": "PT1H5M",
+        "start_time": "2026-09-28T03:15:00+0000",
+        "duration": "PT1H",
         "on_demand": {
           "start_of_availability": "2026-09-22T13:30:00+0000",
           "end_of_availability": "2027-09-22T13:30:00+0000",
@@ -211,581 +121,41 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e4ab53c8259fbe30e72455533736d963d",
-        "uuid": "56db1e2eb87b93c4c6301cdececd48ec"
+        "uuid": "93bde2ba208cb4216f96ae386bfac6f3"
       }
     },
     {
-      "startTime": "2026-09-27T05:00:00+0000",
-      "duration": 30,
-      "name": "Northern Ireland Assembly",
-      "description": "Members' Statements",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032k6q",
-        "event_locator": "dvb://233a..918a;f76",
-        "main_title": "Northern Ireland Assembly",
-        "secondary_title": "Members' Statements",
-        "image_url": "https://img.freeviewplay.tv/p635dd369205076c23f549434aa01c9fc",
-        "start_time": "2026-09-27T05:00:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-09-22T22:50:00+0000",
-          "end_of_availability": "2027-09-27T05:31:06+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6q&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e95f6c8f9a73f4883978f70a416188d18",
-        "uuid": "edf29317a951d065fee4955e2199eb97"
-      }
-    },
-    {
-      "startTime": "2026-09-27T05:30:00+0000",
-      "duration": 45,
-      "name": "Northern Ireland Assembly",
-      "description": "Support for Veterans and Families",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032k6s",
-        "event_locator": "dvb://233a..918a;f77",
-        "main_title": "Northern Ireland Assembly",
-        "secondary_title": "Support for Veterans and Families",
-        "image_url": "https://img.freeviewplay.tv/p13c3fe91e8d19c50bb9c89d8c0338068",
-        "start_time": "2026-09-27T05:30:00+0000",
-        "duration": "PT45M",
-        "on_demand": {
-          "start_of_availability": "2026-09-22T23:35:00+0000",
-          "end_of_availability": "2027-09-27T06:17:27+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e95f6c8f9a73f4883978f70a416188d18",
-        "uuid": "46a538c465bc67ec519c1085b5723a6d"
-      }
-    },
-    {
-      "startTime": "2026-09-27T06:15:00+0000",
-      "duration": 50,
-      "name": "Northern Ireland Assembly",
-      "description": "Infrastructure Questions",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032k6v",
-        "event_locator": "dvb://233a..918a;f78",
-        "main_title": "Northern Ireland Assembly",
-        "secondary_title": "Infrastructure Questions",
-        "image_url": "https://img.freeviewplay.tv/p80b400aff00373df871a63da7bc15458",
-        "start_time": "2026-09-27T06:15:00+0000",
-        "duration": "PT50M",
-        "on_demand": {
-          "start_of_availability": "2026-09-25T18:45:07+0000",
-          "end_of_availability": "2027-09-27T07:03:27+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6v&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e95f6c8f9a73f4883978f70a416188d18",
-        "uuid": "484d8e0597c6a803f1f16e3b89d84eae"
-      }
-    },
-    {
-      "startTime": "2026-09-27T07:05:00+0000",
-      "duration": 30,
-      "name": "Scottish Parliament",
-      "description": "Climate Action and Rural Affairs Questions",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032m0k",
-        "event_locator": "dvb://233a..918a;f79",
-        "main_title": "Scottish Parliament",
-        "secondary_title": "Climate Action and Rural Affairs Questions",
-        "image_url": "https://img.freeviewplay.tv/p2ec7d848a5f6ce31cc7a739363d2976b",
-        "start_time": "2026-09-27T07:05:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-09-23T23:25:00+0000",
-          "end_of_availability": "2027-09-27T07:35:20+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0k&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/eaeb0e0705f327150afb086bf60e2de2e",
-        "uuid": "a692a177f44d28afb33e364d283f2146"
-      }
-    },
-    {
-      "startTime": "2026-09-27T07:35:00+0000",
+      "startTime": "2026-09-28T04:15:00+0000",
       "duration": 35,
-      "name": "Scottish Parliament",
-      "description": "Education, Culture and Gaelic Questions",
+      "name": "Scottish First Minister's Questions",
+      "description": "22/09/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032m0m",
-        "event_locator": "dvb://233a..918a;f7a",
-        "main_title": "Scottish Parliament",
-        "secondary_title": "Education, Culture and Gaelic Questions",
-        "image_url": "https://img.freeviewplay.tv/p3dde415296bb47d7edf1dd7309d7cf49",
-        "start_time": "2026-09-27T07:35:00+0000",
+        "program_id": "crid://bbc.co.uk/icc/episode/m00323dc",
+        "event_locator": "dvb://233a..918a;e55",
+        "main_title": "Scottish First Minister's Questions",
+        "secondary_title": "22/09/2026",
+        "image_url": "https://img.freeviewplay.tv/p190a56c4fc5bb13df5bcbd39dcaa738f",
+        "start_time": "2026-09-28T04:15:00+0000",
         "duration": "PT35M",
         "on_demand": {
-          "start_of_availability": "2026-09-23T23:55:00+0000",
-          "end_of_availability": "2027-09-27T08:09:22+0000",
+          "start_of_availability": "2026-09-22T18:46:20+0000",
+          "end_of_availability": "2027-09-22T18:46:20+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0m&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323dc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e836b431776afb0d217c1f346d8db4983",
-        "uuid": "e75cf042e23b4d33a36dbd5361c520ed"
+        "fallback_image_url": "http://img.freeviewplay.net/e426468a3b1ac9d2907a5d785a9f33375",
+        "uuid": "6402116bd1284546553dda7e94ba063c"
       }
     },
     {
-      "startTime": "2026-09-27T08:10:00+0000",
-      "duration": 40,
-      "name": "Scottish Parliament",
-      "description": "Addressing Drugs Harms Statement",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032m0p",
-        "event_locator": "dvb://233a..918a;f7b",
-        "main_title": "Scottish Parliament",
-        "secondary_title": "Addressing Drugs Harms Statement",
-        "image_url": "https://img.freeviewplay.tv/p16d424a0b9a4861bbcfee86db400304d",
-        "start_time": "2026-09-27T08:10:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2026-09-24T00:35:23+0000",
-          "end_of_availability": "2027-09-27T08:49:45+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0p&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e836b431776afb0d217c1f346d8db4983",
-        "uuid": "feda2c1a465248a26b39973ef4131552"
-      }
-    },
-    {
-      "startTime": "2026-09-27T08:50:00+0000",
-      "duration": 125,
-      "name": "Scottish Parliament",
-      "description": "Flood Resilient Scotland",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032m0r",
-        "event_locator": "dvb://233a..918a;f7c",
-        "main_title": "Scottish Parliament",
-        "secondary_title": "Flood Resilient Scotland",
-        "image_url": "https://img.freeviewplay.tv/p930f4b29f5223fe2e91d9807a353523a",
-        "start_time": "2026-09-27T08:50:00+0000",
-        "duration": "PT2H5M",
-        "on_demand": {
-          "start_of_availability": "2026-09-24T02:40:00+0000",
-          "end_of_availability": "2027-09-27T10:54:49+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0r&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e6134d17841bcc99b7801a38b2583cdbe",
-        "uuid": "e9185ca0674df083facea8f0488538df"
-      }
-    },
-    {
-      "startTime": "2026-09-27T10:55:00+0000",
-      "duration": 40,
-      "name": "Scottish Parliament",
-      "description": "Childhood Cancer Awareness Month",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032n6n",
-        "event_locator": "dvb://233a..918a;f7d",
-        "main_title": "Scottish Parliament",
-        "secondary_title": "Childhood Cancer Awareness Month",
-        "image_url": "https://img.freeviewplay.tv/pd1a1d6f720bf549dc0aebecc5d4d631d",
-        "start_time": "2026-09-27T10:55:00+0000",
-        "duration": "PT40M",
-        "on_demand": {
-          "start_of_availability": "2026-09-26T03:07:39+0000",
-          "end_of_availability": "2027-09-27T11:37:40+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032n6n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ec6747cc3a8c3b750981b86cc171975c8",
-        "uuid": "e002cb0d87d0be0709e500bd42cd91f6"
-      }
-    },
-    {
-      "startTime": "2026-09-27T11:35:00+0000",
-      "duration": 55,
-      "name": "Senedd Cymru - Welsh Parliament",
-      "description": "Enterprise, Connectivity and Energy Questions",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032m03",
-        "event_locator": "dvb://233a..918a;f7e",
-        "main_title": "Senedd Cymru - Welsh Parliament",
-        "secondary_title": "Enterprise, Connectivity and Energy Questions",
-        "image_url": "https://img.freeviewplay.tv/p15f9f016fa7060c875b21ae28b104ed8",
-        "start_time": "2026-09-27T11:35:00+0000",
-        "duration": "PT55M",
-        "on_demand": {
-          "start_of_availability": "2026-09-23T18:30:00+0000",
-          "end_of_availability": "2027-09-27T12:30:32+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m03&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/eb6df3fb85e38edb5af8149d72c184a98",
-        "uuid": "675c56af8ed137257a1e5cc44f6e2110"
-      }
-    },
-    {
-      "startTime": "2026-09-27T12:30:00+0000",
-      "duration": 55,
-      "name": "Senedd Cymru - Welsh Parliament",
-      "description": "Education and Welsh Language Questions",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032m05",
-        "event_locator": "dvb://233a..918a;f7f",
-        "main_title": "Senedd Cymru - Welsh Parliament",
-        "secondary_title": "Education and Welsh Language Questions",
-        "image_url": "https://img.freeviewplay.tv/p73546221fb9f1876eff35e8e792bfebd",
-        "start_time": "2026-09-27T12:30:00+0000",
-        "duration": "PT55M",
-        "on_demand": {
-          "start_of_availability": "2026-09-23T19:25:00+0000",
-          "end_of_availability": "2027-09-27T13:25:10+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m05&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ea26477e1c6c1b6a04efaa6a27c533cac",
-        "uuid": "1033160703ce254ef9276880fedd050b"
-      }
-    },
-    {
-      "startTime": "2026-09-27T13:25:00+0000",
-      "duration": 25,
-      "name": "Senedd Cymru - Welsh Parliament",
-      "description": "Senedd Commission Questions",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032m07",
-        "event_locator": "dvb://233a..918a;f80",
-        "main_title": "Senedd Cymru - Welsh Parliament",
-        "secondary_title": "Senedd Commission Questions",
-        "image_url": "https://img.freeviewplay.tv/p9eef2abdd607be7246f619e4f6fd1f1f",
-        "start_time": "2026-09-27T13:25:00+0000",
-        "duration": "PT25M",
-        "on_demand": {
-          "start_of_availability": "2026-09-23T19:50:39+0000",
-          "end_of_availability": "2027-09-27T13:50:49+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m07&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-        "uuid": "0eb83fe9a99cc97c21a2cb3b2469cfdf"
-      }
-    },
-    {
-      "startTime": "2026-09-27T13:50:00+0000",
-      "duration": 5,
-      "name": "Senedd Cymru - Welsh Parliament",
-      "description": "90 Second Statements",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032m09",
-        "event_locator": "dvb://233a..918a;f81",
-        "main_title": "Senedd Cymru - Welsh Parliament",
-        "secondary_title": "90 Second Statements",
-        "image_url": "https://img.freeviewplay.tv/pb7ab661523a2c21bae212e3d5ce95ea6",
-        "start_time": "2026-09-27T13:50:00+0000",
-        "duration": "PT5M",
-        "on_demand": {
-          "start_of_availability": "2026-09-23T20:00:00+0000",
-          "end_of_availability": "2027-09-27T13:56:40+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m09&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-        "uuid": "e22da6dc7e567d0d2ae14db3c15fc05b"
-      }
-    },
-    {
-      "startTime": "2026-09-27T13:55:00+0000",
-      "duration": 60,
-      "name": "Senedd Cymru - Welsh Parliament",
-      "description": "Further Education Debate",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032m0c",
-        "event_locator": "dvb://233a..918a;f82",
-        "main_title": "Senedd Cymru - Welsh Parliament",
-        "secondary_title": "Further Education Debate",
-        "image_url": "https://img.freeviewplay.tv/pce118456d2662f8ecde8e3a72d86cfd6",
-        "start_time": "2026-09-27T13:55:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2026-09-23T20:55:00+0000",
-          "end_of_availability": "2027-09-27T14:54:12+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0c&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-        "uuid": "dbd078f3854efec98c4faecfe14de8d0"
-      }
-    },
-    {
-      "startTime": "2026-09-27T14:55:00+0000",
-      "duration": 60,
-      "name": "Senedd Cymru - Welsh Parliament",
-      "description": "Wales and the UK Debate",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032m0f",
-        "event_locator": "dvb://233a..918a;f83",
-        "main_title": "Senedd Cymru - Welsh Parliament",
-        "secondary_title": "Wales and the UK Debate",
-        "image_url": "https://img.freeviewplay.tv/pdd17e5477503266da4eb72c50de11c3c",
-        "start_time": "2026-09-27T14:55:00+0000",
-        "duration": "PT1H",
-        "on_demand": {
-          "start_of_availability": "2026-09-23T22:00:00+0000",
-          "end_of_availability": "2027-09-27T15:56:37+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0f&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-        "uuid": "5f7cf24bec6700729ae0894eb8a70ad1"
-      }
-    },
-    {
-      "startTime": "2026-09-27T15:55:00+0000",
-      "duration": 30,
-      "name": "Senedd Cymru - Welsh Parliament",
-      "description": "Scheduled Treatment for Trans Patients",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0032m0h",
-        "event_locator": "dvb://233a..918a;f84",
-        "main_title": "Senedd Cymru - Welsh Parliament",
-        "secondary_title": "Scheduled Treatment for Trans Patients",
-        "image_url": "https://img.freeviewplay.tv/pbebd7e8fc2208e43ea642c84ee0bb6e7",
-        "start_time": "2026-09-27T15:55:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-09-26T07:55:33+0000",
-          "end_of_availability": "2027-09-27T16:25:22+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0h&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e0a8afa60bdf90e7e11c60b3becc1970c",
-        "uuid": "7529e27b814c70fe68b9ea8464d64748"
-      }
-    },
-    {
-      "startTime": "2026-09-27T16:25:00+0000",
-      "duration": 145,
-      "name": "Select Committees",
-      "description": "Home Affairs Committee with Shabana Mahmood",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m00327pf",
-        "event_locator": "dvb://233a..918a;f85",
-        "main_title": "Select Committees",
-        "secondary_title": "Home Affairs Committee with Shabana Mahmood",
-        "image_url": "https://img.freeviewplay.tv/p248837e3acd5f109b162c113f3b79f3e",
-        "start_time": "2026-09-27T16:25:00+0000",
-        "duration": "PT2H25M",
-        "on_demand": {
-          "start_of_availability": "2026-09-15T21:24:33+0000",
-          "end_of_availability": "2027-09-27T18:50:19+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00327pf&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e361b2c50424e80c58d53804e559acc07",
-        "uuid": "1548ee0a0cd728d41e3c7d634c95a520"
-      }
-    },
-    {
-      "startTime": "2026-09-27T18:50:00+0000",
-      "duration": 130,
-      "name": "Select Committees",
-      "description": "Environmental Audit Committee on Air Pollution",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m003299n",
-        "event_locator": "dvb://233a..918a;f86",
-        "main_title": "Select Committees",
-        "secondary_title": "Environmental Audit Committee on Air Pollution",
-        "image_url": "https://img.freeviewplay.tv/p78627d25c8ce7a4d6a25c9a687f4bacd",
-        "start_time": "2026-09-27T18:50:00+0000",
-        "duration": "PT2H10M",
-        "on_demand": {
-          "start_of_availability": "2026-09-17T10:00:00+0000",
-          "end_of_availability": "2026-10-27T21:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m003299n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2ac82bab6bea37e0a83748d98766b2da",
-        "uuid": "064aaa63384a507403a87e6b50010dbb"
-      }
-    },
-    {
-      "startTime": "2026-09-27T21:00:00+0000",
-      "duration": 130,
-      "name": "Select Committees",
-      "description": "Environment, Food and Rural Affairs Committee",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0031s9z",
-        "event_locator": "dvb://233a..918a;f87",
-        "main_title": "Select Committees",
-        "secondary_title": "Environment, Food and Rural Affairs Committee",
-        "image_url": "https://img.freeviewplay.tv/p6be1fc565b5c052f0452197553879b92",
-        "start_time": "2026-09-27T21:00:00+0000",
-        "duration": "PT2H10M",
-        "on_demand": {
-          "start_of_availability": "2026-09-15T10:30:00+0000",
-          "end_of_availability": "2027-09-27T23:11:18+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0031s9z&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/eb8f9cb05aa6c2a29b43d170f1373b0ee",
-        "uuid": "936d081468020d8086336997cc7721b7"
-      }
-    },
-    {
-      "startTime": "2026-09-27T23:10:00+0000",
-      "duration": 30,
-      "name": "Scottish Parliament",
-      "description": "General Questions",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m00323xg",
-        "event_locator": "dvb://233a..918a;f88",
-        "main_title": "Scottish Parliament",
-        "secondary_title": "General Questions",
-        "image_url": "https://img.freeviewplay.tv/pa1867d3fddbbf5800d895ec01e61c01c",
-        "start_time": "2026-09-27T23:10:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2026-09-24T23:13:48+0000",
-          "end_of_availability": "2027-09-27T23:39:26+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323xg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e2ab74c8c25097e6c1d01330e02440683",
-        "uuid": "d65db9be4a7dbf0799a15639d198ce30"
-      }
-    },
-    {
-      "startTime": "2026-09-27T23:40:00+0000",
+      "startTime": "2026-09-28T04:50:00+0000",
       "duration": 30,
       "name": "Scottish First Minister's Questions",
       "description": "24/09/2026",
@@ -793,11 +163,11 @@
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m00323xj",
-        "event_locator": "dvb://233a..918a;f89",
+        "event_locator": "dvb://233a..918a;e56",
         "main_title": "Scottish First Minister's Questions",
         "secondary_title": "24/09/2026",
         "image_url": "https://img.freeviewplay.tv/p8a96270a3c407fa7eca95e49385cff7a",
-        "start_time": "2026-09-27T23:40:00+0000",
+        "start_time": "2026-09-28T04:50:00+0000",
         "duration": "PT30M",
         "on_demand": {
           "start_of_availability": "2026-09-24T23:45:00+0000",
@@ -811,7 +181,457 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/e426468a3b1ac9d2907a5d785a9f33375",
-        "uuid": "ce724ef4d1b4acdd2cb578c6f5a8843a"
+        "uuid": "16b13bfff34a0100a25d6e59b6bd2b3f"
+      }
+    },
+    {
+      "startTime": "2026-09-28T05:20:00+0000",
+      "duration": 75,
+      "name": "Westminster Hall",
+      "description": "Grey Belt Land",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032v4k",
+        "event_locator": "dvb://233a..918a;f8d",
+        "main_title": "Westminster Hall",
+        "secondary_title": "Grey Belt Land",
+        "image_url": "https://img.freeviewplay.tv/p193881d0b408d1dd97695581ca7df900",
+        "start_time": "2026-09-28T05:20:00+0000",
+        "duration": "PT1H15M",
+        "on_demand": {
+          "start_of_availability": "2026-09-28T06:33:04+0000",
+          "end_of_availability": "2027-09-28T06:33:04+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032v4k&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e0d962467c3d6d326c7ac867756405d03",
+        "uuid": "9dc4f1c91fdc61bd376e475a27c1a0e6"
+      }
+    },
+    {
+      "startTime": "2026-09-28T06:35:00+0000",
+      "duration": 90,
+      "name": "Westminster Hall",
+      "description": "Safety of the Jewish Community",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032v4m",
+        "event_locator": "dvb://233a..918a;f8e",
+        "main_title": "Westminster Hall",
+        "secondary_title": "Safety of the Jewish Community",
+        "image_url": "https://img.freeviewplay.tv/pbf6f24a6ef411b176e77b3de718297ca",
+        "start_time": "2026-09-28T06:35:00+0000",
+        "duration": "PT1H30M",
+        "on_demand": {
+          "start_of_availability": "2026-09-28T08:03:32+0000",
+          "end_of_availability": "2027-09-28T08:03:32+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032v4m&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e924c3933ae43dfcaf965da2f6060f189",
+        "uuid": "0b9c84e7d7ed12c739c8b8aa215ecfa0"
+      }
+    },
+    {
+      "startTime": "2026-09-28T08:05:00+0000",
+      "duration": 45,
+      "name": "Northern Ireland Assembly",
+      "description": "Executive Office Questions",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m00323xb",
+        "event_locator": "dvb://233a..918a;f8f",
+        "main_title": "Northern Ireland Assembly",
+        "secondary_title": "Executive Office Questions",
+        "image_url": "https://img.freeviewplay.tv/p8f15503d973d6718cb60950165019dce",
+        "start_time": "2026-09-28T08:05:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2026-09-21T13:45:00+0000",
+          "end_of_availability": "2027-09-21T13:45:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323xb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e95f6c8f9a73f4883978f70a416188d18",
+        "uuid": "c044a6f2bbb404d378cc921d166ada11"
+      }
+    },
+    {
+      "startTime": "2026-09-28T08:50:00+0000",
+      "duration": 60,
+      "name": "Welsh First Minister's Questions",
+      "description": "22/09/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m00323qp",
+        "event_locator": "dvb://233a..918a;f90",
+        "main_title": "Welsh First Minister's Questions",
+        "secondary_title": "22/09/2026",
+        "image_url": "https://img.freeviewplay.tv/pdcba9e423ec66b03c7d11d4ea49f38a6",
+        "start_time": "2026-09-28T08:50:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-09-22T13:30:00+0000",
+          "end_of_availability": "2027-09-22T13:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323qp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e4ab53c8259fbe30e72455533736d963d",
+        "uuid": "a301255397b04a43b57501a39157ac04"
+      }
+    },
+    {
+      "startTime": "2026-09-28T09:50:00+0000",
+      "duration": 35,
+      "name": "Scottish First Minister's Questions",
+      "description": "22/09/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m00323dc",
+        "event_locator": "dvb://233a..918a;f91",
+        "main_title": "Scottish First Minister's Questions",
+        "secondary_title": "22/09/2026",
+        "image_url": "https://img.freeviewplay.tv/p190a56c4fc5bb13df5bcbd39dcaa738f",
+        "start_time": "2026-09-28T09:50:00+0000",
+        "duration": "PT35M",
+        "on_demand": {
+          "start_of_availability": "2026-09-22T18:46:20+0000",
+          "end_of_availability": "2027-09-22T18:46:20+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323dc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e426468a3b1ac9d2907a5d785a9f33375",
+        "uuid": "58878ce191a5d0468a3861a1d84a90e3"
+      }
+    },
+    {
+      "startTime": "2026-09-28T10:25:00+0000",
+      "duration": 35,
+      "name": "Scottish First Minister's Questions",
+      "description": "24/09/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m00323xj",
+        "event_locator": "dvb://233a..918a;e3e",
+        "main_title": "Scottish First Minister's Questions",
+        "secondary_title": "24/09/2026",
+        "image_url": "https://img.freeviewplay.tv/p8a96270a3c407fa7eca95e49385cff7a",
+        "start_time": "2026-09-28T10:25:00+0000",
+        "duration": "PT35M",
+        "on_demand": {
+          "start_of_availability": "2026-09-24T23:45:00+0000",
+          "end_of_availability": "2027-09-28T11:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323xj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e426468a3b1ac9d2907a5d785a9f33375",
+        "uuid": "8e5efdf9c29a78557f9ba094e1d18818"
+      }
+    },
+    {
+      "startTime": "2026-09-28T11:00:00+0000",
+      "duration": 120,
+      "name": "Northern Ireland Assembly",
+      "description": "28/09/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032bf4",
+        "event_locator": "dvb://233a..918a;e3f",
+        "main_title": "Northern Ireland Assembly",
+        "secondary_title": "28/09/2026",
+        "image_url": "https://img.freeviewplay.tv/pfe9dbcc6a349c5652b6fb4d52cf2bd30",
+        "start_time": "2026-09-28T11:00:00+0000",
+        "duration": "PT2H",
+        "on_demand": {
+          "start_of_availability": "2026-09-28T19:00:00+0000",
+          "end_of_availability": "2027-09-29T01:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e679a2d20af51ba2e348f892ce841b3e1",
+        "uuid": "4574a64e4cfc625a47e0b338c2971b68"
+      }
+    },
+    {
+      "startTime": "2026-09-28T13:00:00+0000",
+      "duration": 45,
+      "name": "Northern Ireland Assembly",
+      "description": "Justice Questions",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032bf6",
+        "event_locator": "dvb://233a..918a;e40",
+        "main_title": "Northern Ireland Assembly",
+        "secondary_title": "Justice Questions",
+        "image_url": "https://img.freeviewplay.tv/p5e332b906f2815ee7d700c35a1d98b28",
+        "start_time": "2026-09-28T13:00:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2026-09-28T19:45:00+0000",
+          "end_of_availability": "2027-09-29T01:45:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ed88891694798e20165ea2e635681f6b6",
+        "uuid": "e48a1736689f097b3d364af15c5d492e"
+      }
+    },
+    {
+      "startTime": "2026-09-28T13:45:00+0000",
+      "duration": 45,
+      "name": "Northern Ireland Assembly",
+      "description": "Agriculture, Environment and Rural Affairs Questions",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032bf8",
+        "event_locator": "dvb://233a..918a;e41",
+        "main_title": "Northern Ireland Assembly",
+        "secondary_title": "Agriculture, Environment and Rural Affairs Questions",
+        "image_url": "https://img.freeviewplay.tv/pe898881f23e8681ba78608cf170a990f",
+        "start_time": "2026-09-28T13:45:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2026-09-28T20:30:00+0000",
+          "end_of_availability": "2027-09-29T02:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e65ba783e7c2daf9967e1f0e631c5291c",
+        "uuid": "a4464d384a9f4f581430672b51f4dec9"
+      }
+    },
+    {
+      "startTime": "2026-09-28T14:30:00+0000",
+      "duration": 150,
+      "name": "Northern Ireland Assembly",
+      "description": "28/09/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032bfb",
+        "event_locator": "dvb://233a..918a;e42",
+        "main_title": "Northern Ireland Assembly",
+        "secondary_title": "28/09/2026",
+        "image_url": "https://img.freeviewplay.tv/pfe9dbcc6a349c5652b6fb4d52cf2bd30",
+        "start_time": "2026-09-28T14:30:00+0000",
+        "duration": "PT2H30M",
+        "on_demand": {
+          "start_of_availability": "2026-09-28T23:00:00+0000",
+          "end_of_availability": "2027-09-29T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bfb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e679a2d20af51ba2e348f892ce841b3e1",
+        "uuid": "a57b82392ac4095cb8beda242bdeca28"
+      }
+    },
+    {
+      "startTime": "2026-09-28T17:00:00+0000",
+      "duration": 120,
+      "name": "Northern Ireland Assembly",
+      "description": "28/09/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032bf4",
+        "event_locator": "dvb://233a..918a;e43",
+        "main_title": "Northern Ireland Assembly",
+        "secondary_title": "28/09/2026",
+        "image_url": "https://img.freeviewplay.tv/pfe9dbcc6a349c5652b6fb4d52cf2bd30",
+        "start_time": "2026-09-28T17:00:00+0000",
+        "duration": "PT2H",
+        "on_demand": {
+          "start_of_availability": "2026-09-28T19:00:00+0000",
+          "end_of_availability": "2027-09-29T01:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e1284557d292e5c9270ebb9609e461071",
+        "uuid": "ff3317f8b7895244f5411484a01fe917"
+      }
+    },
+    {
+      "startTime": "2026-09-28T19:00:00+0000",
+      "duration": 45,
+      "name": "Northern Ireland Assembly",
+      "description": "Justice Questions",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032bf6",
+        "event_locator": "dvb://233a..918a;e44",
+        "main_title": "Northern Ireland Assembly",
+        "secondary_title": "Justice Questions",
+        "image_url": "https://img.freeviewplay.tv/p5e332b906f2815ee7d700c35a1d98b28",
+        "start_time": "2026-09-28T19:00:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2026-09-28T19:45:00+0000",
+          "end_of_availability": "2027-09-29T01:45:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e95f6c8f9a73f4883978f70a416188d18",
+        "uuid": "919ba8a3ae200898f339985543018fc2"
+      }
+    },
+    {
+      "startTime": "2026-09-28T19:45:00+0000",
+      "duration": 45,
+      "name": "Northern Ireland Assembly",
+      "description": "Agriculture, Environment and Rural Affairs Questions",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032bf8",
+        "event_locator": "dvb://233a..918a;e45",
+        "main_title": "Northern Ireland Assembly",
+        "secondary_title": "Agriculture, Environment and Rural Affairs Questions",
+        "image_url": "https://img.freeviewplay.tv/pe898881f23e8681ba78608cf170a990f",
+        "start_time": "2026-09-28T19:45:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2026-09-28T20:30:00+0000",
+          "end_of_availability": "2027-09-29T02:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ef2a807129099c87531d761373e018505",
+        "uuid": "22de15353123805961e0209a2810601b"
+      }
+    },
+    {
+      "startTime": "2026-09-28T20:30:00+0000",
+      "duration": 150,
+      "name": "Northern Ireland Assembly",
+      "description": "28/09/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032bfb",
+        "event_locator": "dvb://233a..918a;e46",
+        "main_title": "Northern Ireland Assembly",
+        "secondary_title": "28/09/2026",
+        "image_url": "https://img.freeviewplay.tv/pfe9dbcc6a349c5652b6fb4d52cf2bd30",
+        "start_time": "2026-09-28T20:30:00+0000",
+        "duration": "PT2H30M",
+        "on_demand": {
+          "start_of_availability": "2026-09-28T23:00:00+0000",
+          "end_of_availability": "2027-09-29T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bfb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e1284557d292e5c9270ebb9609e461071",
+        "uuid": "cac495abf5295dfb5640bc9c8fe40307"
+      }
+    },
+    {
+      "startTime": "2026-09-28T23:00:00+0000",
+      "duration": 120,
+      "name": "Northern Ireland Assembly",
+      "description": "28/09/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0032bf4",
+        "event_locator": "dvb://233a..918a;e47",
+        "main_title": "Northern Ireland Assembly",
+        "secondary_title": "28/09/2026",
+        "image_url": "https://img.freeviewplay.tv/pfe9dbcc6a349c5652b6fb4d52cf2bd30",
+        "start_time": "2026-09-28T23:00:00+0000",
+        "duration": "PT2H",
+        "on_demand": {
+          "start_of_availability": "2026-09-28T19:00:00+0000",
+          "end_of_availability": "2027-09-29T01:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e1284557d292e5c9270ebb9609e461071",
+        "uuid": "23e40e2c649572414f9e4ff69076da59"
       }
     }
   ],
@@ -820,200 +640,110 @@
       {
         "event": [
           {
-            "startTime": "2026-09-27T00:15:00+0000",
+            "startTime": "2026-09-28T00:10:00+0000",
+            "duration": 25,
+            "name": "Scottish Parliament",
+            "description": "Corporate Body Questions",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032s6f",
+              "event_locator": "dvb://233a..918a;f8a",
+              "main_title": "Scottish Parliament",
+              "secondary_title": "Corporate Body Questions",
+              "image_url": "https://img.freeviewplay.tv/pedf79a680a1a646b3d175258ce979dda",
+              "start_time": "2026-09-28T00:10:00+0000",
+              "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2026-09-25T00:05:55+0000",
+                "end_of_availability": "2027-09-28T00:35:07+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032s6f&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ecdd43e82d83053ff1ebd42f634298964",
+              "uuid": "b55adbf5e013d27c153b1dee6b4b7786"
+            }
+          },
+          {
+            "startTime": "2026-09-28T00:35:00+0000",
+            "duration": 125,
+            "name": "Scottish Parliament",
+            "description": "Scotland's Creative Economy",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032s6h",
+              "event_locator": "dvb://233a..918a;f8b",
+              "main_title": "Scottish Parliament",
+              "secondary_title": "Scotland's Creative Economy",
+              "image_url": "https://img.freeviewplay.tv/pddca7eecd45b65a1aa8c7417bd044602",
+              "start_time": "2026-09-28T00:35:00+0000",
+              "duration": "PT2H5M",
+              "on_demand": {
+                "start_of_availability": "2026-09-25T02:11:02+0000",
+                "end_of_availability": "2027-09-28T02:40:14+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032s6h&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e836b431776afb0d217c1f346d8db4983",
+              "uuid": "733de8df65f9064ae022f52a922ed747"
+            }
+          },
+          {
+            "startTime": "2026-09-28T02:40:00+0000",
+            "duration": 35,
+            "name": "Senedd Cymru - Welsh Parliament",
+            "description": "Can and Bottle Deposit Reform Scheme",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032k6l",
+              "event_locator": "dvb://233a..918a;f8c",
+              "main_title": "Senedd Cymru - Welsh Parliament",
+              "secondary_title": "Can and Bottle Deposit Reform Scheme",
+              "image_url": "https://img.freeviewplay.tv/p42983f3b8da38f6dbc05471c9fb1b934",
+              "start_time": "2026-09-28T02:40:00+0000",
+              "duration": "PT35M",
+              "on_demand": {
+                "start_of_availability": "2026-09-23T09:00:00+0000",
+                "end_of_availability": "2027-09-28T03:15:27+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6l&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
+              "uuid": "feaf9cb421c6a8662ed87a6391f7fc8c"
+            }
+          },
+          {
+            "startTime": "2026-09-28T03:15:00+0000",
             "duration": 60,
-            "name": "Senedd Cymru - Welsh Parliament",
-            "description": "Programme for Government Statement",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032k6g",
-              "event_locator": "dvb://233a..918a;f72",
-              "main_title": "Senedd Cymru - Welsh Parliament",
-              "secondary_title": "Programme for Government Statement",
-              "image_url": "https://img.freeviewplay.tv/p17d6bbe621fae5d146109b85803f2889",
-              "start_time": "2026-09-27T00:15:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2026-09-23T07:30:00+0000",
-                "end_of_availability": "2027-09-27T01:15:29+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6g&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-              "uuid": "ce4c9a76c14fa423f93d850a5def79c9"
-            }
-          },
-          {
-            "startTime": "2026-09-27T01:15:00+0000",
-            "duration": 40,
-            "name": "Senedd Cymru - Welsh Parliament",
-            "description": "Welsh Defence Ethical Framework",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032k6j",
-              "event_locator": "dvb://233a..918a;f73",
-              "main_title": "Senedd Cymru - Welsh Parliament",
-              "secondary_title": "Welsh Defence Ethical Framework",
-              "image_url": "https://img.freeviewplay.tv/p679344e3571f1329c4b30cc55fa23ab2",
-              "start_time": "2026-09-27T01:15:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2026-09-23T08:15:00+0000",
-                "end_of_availability": "2027-09-27T01:54:05+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-              "uuid": "efca1d3e269f60d30be13dd1fe68aae6"
-            }
-          },
-          {
-            "startTime": "2026-09-27T01:55:00+0000",
-            "duration": 45,
-            "name": "Senedd Cymru - Welsh Parliament",
-            "description": "Building Safety Programme",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032k6n",
-              "event_locator": "dvb://233a..918a;f74",
-              "main_title": "Senedd Cymru - Welsh Parliament",
-              "secondary_title": "Building Safety Programme",
-              "image_url": "https://img.freeviewplay.tv/pbf86b30a0af320751c963cc16435807b",
-              "start_time": "2026-09-27T01:55:00+0000",
-              "duration": "PT45M",
-              "on_demand": {
-                "start_of_availability": "2026-09-23T09:40:00+0000",
-                "end_of_availability": "2027-09-27T02:40:13+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-              "uuid": "eefdb60cc86f2c0674a68c64606c4064"
-            }
-          },
-          {
-            "startTime": "2026-09-27T02:40:00+0000",
-            "duration": 15,
-            "name": "House of Lords",
-            "description": "Tourism Tax Statement",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0031sf8",
-              "event_locator": "dvb://233a..918a;f75",
-              "main_title": "House of Lords",
-              "secondary_title": "Tourism Tax Statement",
-              "image_url": "https://img.freeviewplay.tv/pdb0250d468ce97150405227a0e8e783d",
-              "start_time": "2026-09-27T02:40:00+0000",
-              "duration": "PT15M",
-              "on_demand": {
-                "start_of_availability": "2026-09-17T11:10:00+0000",
-                "end_of_availability": "2027-09-27T02:55:37+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0031sf8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e86b6e1ce146cc9e48689340cac4c54a2",
-              "uuid": "8b4d374be93e8c6caf585eb6d11f19af"
-            }
-          },
-          {
-            "startTime": "2026-09-27T02:55:00+0000",
-            "duration": 30,
-            "name": "Scottish First Minister's Questions",
-            "description": "22/09/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m00323dc",
-              "event_locator": "dvb://233a..918a;e3a",
-              "main_title": "Scottish First Minister's Questions",
-              "secondary_title": "22/09/2026",
-              "image_url": "https://img.freeviewplay.tv/p190a56c4fc5bb13df5bcbd39dcaa738f",
-              "start_time": "2026-09-27T02:55:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-09-22T18:46:20+0000",
-                "end_of_availability": "2027-09-22T18:46:20+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323dc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e426468a3b1ac9d2907a5d785a9f33375",
-              "uuid": "6042ed36de313f09e80e9d3e4706f380"
-            }
-          },
-          {
-            "startTime": "2026-09-27T03:25:00+0000",
-            "duration": 30,
-            "name": "Scottish First Minister's Questions",
-            "description": "24/09/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m00323xj",
-              "event_locator": "dvb://233a..918a;e3b",
-              "main_title": "Scottish First Minister's Questions",
-              "secondary_title": "24/09/2026",
-              "image_url": "https://img.freeviewplay.tv/p8a96270a3c407fa7eca95e49385cff7a",
-              "start_time": "2026-09-27T03:25:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-09-24T23:45:00+0000",
-                "end_of_availability": "2027-09-28T11:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323xj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e426468a3b1ac9d2907a5d785a9f33375",
-              "uuid": "a8d408750433ad8f8e41cf0d06d75403"
-            }
-          },
-          {
-            "startTime": "2026-09-27T03:55:00+0000",
-            "duration": 65,
             "name": "Welsh First Minister's Questions",
             "description": "22/09/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m00323qp",
-              "event_locator": "dvb://233a..918a;e3c",
+              "event_locator": "dvb://233a..918a;e54",
               "main_title": "Welsh First Minister's Questions",
               "secondary_title": "22/09/2026",
               "image_url": "https://img.freeviewplay.tv/pdcba9e423ec66b03c7d11d4ea49f38a6",
-              "start_time": "2026-09-27T03:55:00+0000",
-              "duration": "PT1H5M",
+              "start_time": "2026-09-28T03:15:00+0000",
+              "duration": "PT1H",
               "on_demand": {
                 "start_of_availability": "2026-09-22T13:30:00+0000",
                 "end_of_availability": "2027-09-22T13:30:00+0000",
@@ -1026,581 +756,41 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e4ab53c8259fbe30e72455533736d963d",
-              "uuid": "56db1e2eb87b93c4c6301cdececd48ec"
+              "uuid": "93bde2ba208cb4216f96ae386bfac6f3"
             }
           },
           {
-            "startTime": "2026-09-27T05:00:00+0000",
-            "duration": 30,
-            "name": "Northern Ireland Assembly",
-            "description": "Members' Statements",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032k6q",
-              "event_locator": "dvb://233a..918a;f76",
-              "main_title": "Northern Ireland Assembly",
-              "secondary_title": "Members' Statements",
-              "image_url": "https://img.freeviewplay.tv/p635dd369205076c23f549434aa01c9fc",
-              "start_time": "2026-09-27T05:00:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-09-22T22:50:00+0000",
-                "end_of_availability": "2027-09-27T05:31:06+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6q&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e95f6c8f9a73f4883978f70a416188d18",
-              "uuid": "edf29317a951d065fee4955e2199eb97"
-            }
-          },
-          {
-            "startTime": "2026-09-27T05:30:00+0000",
-            "duration": 45,
-            "name": "Northern Ireland Assembly",
-            "description": "Support for Veterans and Families",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032k6s",
-              "event_locator": "dvb://233a..918a;f77",
-              "main_title": "Northern Ireland Assembly",
-              "secondary_title": "Support for Veterans and Families",
-              "image_url": "https://img.freeviewplay.tv/p13c3fe91e8d19c50bb9c89d8c0338068",
-              "start_time": "2026-09-27T05:30:00+0000",
-              "duration": "PT45M",
-              "on_demand": {
-                "start_of_availability": "2026-09-22T23:35:00+0000",
-                "end_of_availability": "2027-09-27T06:17:27+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e95f6c8f9a73f4883978f70a416188d18",
-              "uuid": "46a538c465bc67ec519c1085b5723a6d"
-            }
-          },
-          {
-            "startTime": "2026-09-27T06:15:00+0000",
-            "duration": 50,
-            "name": "Northern Ireland Assembly",
-            "description": "Infrastructure Questions",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032k6v",
-              "event_locator": "dvb://233a..918a;f78",
-              "main_title": "Northern Ireland Assembly",
-              "secondary_title": "Infrastructure Questions",
-              "image_url": "https://img.freeviewplay.tv/p80b400aff00373df871a63da7bc15458",
-              "start_time": "2026-09-27T06:15:00+0000",
-              "duration": "PT50M",
-              "on_demand": {
-                "start_of_availability": "2026-09-25T18:45:07+0000",
-                "end_of_availability": "2027-09-27T07:03:27+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032k6v&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e95f6c8f9a73f4883978f70a416188d18",
-              "uuid": "484d8e0597c6a803f1f16e3b89d84eae"
-            }
-          },
-          {
-            "startTime": "2026-09-27T07:05:00+0000",
-            "duration": 30,
-            "name": "Scottish Parliament",
-            "description": "Climate Action and Rural Affairs Questions",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032m0k",
-              "event_locator": "dvb://233a..918a;f79",
-              "main_title": "Scottish Parliament",
-              "secondary_title": "Climate Action and Rural Affairs Questions",
-              "image_url": "https://img.freeviewplay.tv/p2ec7d848a5f6ce31cc7a739363d2976b",
-              "start_time": "2026-09-27T07:05:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-09-23T23:25:00+0000",
-                "end_of_availability": "2027-09-27T07:35:20+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0k&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/eaeb0e0705f327150afb086bf60e2de2e",
-              "uuid": "a692a177f44d28afb33e364d283f2146"
-            }
-          },
-          {
-            "startTime": "2026-09-27T07:35:00+0000",
+            "startTime": "2026-09-28T04:15:00+0000",
             "duration": 35,
-            "name": "Scottish Parliament",
-            "description": "Education, Culture and Gaelic Questions",
+            "name": "Scottish First Minister's Questions",
+            "description": "22/09/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032m0m",
-              "event_locator": "dvb://233a..918a;f7a",
-              "main_title": "Scottish Parliament",
-              "secondary_title": "Education, Culture and Gaelic Questions",
-              "image_url": "https://img.freeviewplay.tv/p3dde415296bb47d7edf1dd7309d7cf49",
-              "start_time": "2026-09-27T07:35:00+0000",
+              "program_id": "crid://bbc.co.uk/icc/episode/m00323dc",
+              "event_locator": "dvb://233a..918a;e55",
+              "main_title": "Scottish First Minister's Questions",
+              "secondary_title": "22/09/2026",
+              "image_url": "https://img.freeviewplay.tv/p190a56c4fc5bb13df5bcbd39dcaa738f",
+              "start_time": "2026-09-28T04:15:00+0000",
               "duration": "PT35M",
               "on_demand": {
-                "start_of_availability": "2026-09-23T23:55:00+0000",
-                "end_of_availability": "2027-09-27T08:09:22+0000",
+                "start_of_availability": "2026-09-22T18:46:20+0000",
+                "end_of_availability": "2027-09-22T18:46:20+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0m&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323dc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e836b431776afb0d217c1f346d8db4983",
-              "uuid": "e75cf042e23b4d33a36dbd5361c520ed"
+              "fallback_image_url": "http://img.freeviewplay.net/e426468a3b1ac9d2907a5d785a9f33375",
+              "uuid": "6402116bd1284546553dda7e94ba063c"
             }
           },
           {
-            "startTime": "2026-09-27T08:10:00+0000",
-            "duration": 40,
-            "name": "Scottish Parliament",
-            "description": "Addressing Drugs Harms Statement",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032m0p",
-              "event_locator": "dvb://233a..918a;f7b",
-              "main_title": "Scottish Parliament",
-              "secondary_title": "Addressing Drugs Harms Statement",
-              "image_url": "https://img.freeviewplay.tv/p16d424a0b9a4861bbcfee86db400304d",
-              "start_time": "2026-09-27T08:10:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2026-09-24T00:35:23+0000",
-                "end_of_availability": "2027-09-27T08:49:45+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0p&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e836b431776afb0d217c1f346d8db4983",
-              "uuid": "feda2c1a465248a26b39973ef4131552"
-            }
-          },
-          {
-            "startTime": "2026-09-27T08:50:00+0000",
-            "duration": 125,
-            "name": "Scottish Parliament",
-            "description": "Flood Resilient Scotland",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032m0r",
-              "event_locator": "dvb://233a..918a;f7c",
-              "main_title": "Scottish Parliament",
-              "secondary_title": "Flood Resilient Scotland",
-              "image_url": "https://img.freeviewplay.tv/p930f4b29f5223fe2e91d9807a353523a",
-              "start_time": "2026-09-27T08:50:00+0000",
-              "duration": "PT2H5M",
-              "on_demand": {
-                "start_of_availability": "2026-09-24T02:40:00+0000",
-                "end_of_availability": "2027-09-27T10:54:49+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0r&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e6134d17841bcc99b7801a38b2583cdbe",
-              "uuid": "e9185ca0674df083facea8f0488538df"
-            }
-          },
-          {
-            "startTime": "2026-09-27T10:55:00+0000",
-            "duration": 40,
-            "name": "Scottish Parliament",
-            "description": "Childhood Cancer Awareness Month",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032n6n",
-              "event_locator": "dvb://233a..918a;f7d",
-              "main_title": "Scottish Parliament",
-              "secondary_title": "Childhood Cancer Awareness Month",
-              "image_url": "https://img.freeviewplay.tv/pd1a1d6f720bf549dc0aebecc5d4d631d",
-              "start_time": "2026-09-27T10:55:00+0000",
-              "duration": "PT40M",
-              "on_demand": {
-                "start_of_availability": "2026-09-26T03:07:39+0000",
-                "end_of_availability": "2027-09-27T11:37:40+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032n6n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ec6747cc3a8c3b750981b86cc171975c8",
-              "uuid": "e002cb0d87d0be0709e500bd42cd91f6"
-            }
-          },
-          {
-            "startTime": "2026-09-27T11:35:00+0000",
-            "duration": 55,
-            "name": "Senedd Cymru - Welsh Parliament",
-            "description": "Enterprise, Connectivity and Energy Questions",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032m03",
-              "event_locator": "dvb://233a..918a;f7e",
-              "main_title": "Senedd Cymru - Welsh Parliament",
-              "secondary_title": "Enterprise, Connectivity and Energy Questions",
-              "image_url": "https://img.freeviewplay.tv/p15f9f016fa7060c875b21ae28b104ed8",
-              "start_time": "2026-09-27T11:35:00+0000",
-              "duration": "PT55M",
-              "on_demand": {
-                "start_of_availability": "2026-09-23T18:30:00+0000",
-                "end_of_availability": "2027-09-27T12:30:32+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m03&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/eb6df3fb85e38edb5af8149d72c184a98",
-              "uuid": "675c56af8ed137257a1e5cc44f6e2110"
-            }
-          },
-          {
-            "startTime": "2026-09-27T12:30:00+0000",
-            "duration": 55,
-            "name": "Senedd Cymru - Welsh Parliament",
-            "description": "Education and Welsh Language Questions",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032m05",
-              "event_locator": "dvb://233a..918a;f7f",
-              "main_title": "Senedd Cymru - Welsh Parliament",
-              "secondary_title": "Education and Welsh Language Questions",
-              "image_url": "https://img.freeviewplay.tv/p73546221fb9f1876eff35e8e792bfebd",
-              "start_time": "2026-09-27T12:30:00+0000",
-              "duration": "PT55M",
-              "on_demand": {
-                "start_of_availability": "2026-09-23T19:25:00+0000",
-                "end_of_availability": "2027-09-27T13:25:10+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m05&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ea26477e1c6c1b6a04efaa6a27c533cac",
-              "uuid": "1033160703ce254ef9276880fedd050b"
-            }
-          },
-          {
-            "startTime": "2026-09-27T13:25:00+0000",
-            "duration": 25,
-            "name": "Senedd Cymru - Welsh Parliament",
-            "description": "Senedd Commission Questions",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032m07",
-              "event_locator": "dvb://233a..918a;f80",
-              "main_title": "Senedd Cymru - Welsh Parliament",
-              "secondary_title": "Senedd Commission Questions",
-              "image_url": "https://img.freeviewplay.tv/p9eef2abdd607be7246f619e4f6fd1f1f",
-              "start_time": "2026-09-27T13:25:00+0000",
-              "duration": "PT25M",
-              "on_demand": {
-                "start_of_availability": "2026-09-23T19:50:39+0000",
-                "end_of_availability": "2027-09-27T13:50:49+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m07&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-              "uuid": "0eb83fe9a99cc97c21a2cb3b2469cfdf"
-            }
-          },
-          {
-            "startTime": "2026-09-27T13:50:00+0000",
-            "duration": 5,
-            "name": "Senedd Cymru - Welsh Parliament",
-            "description": "90 Second Statements",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032m09",
-              "event_locator": "dvb://233a..918a;f81",
-              "main_title": "Senedd Cymru - Welsh Parliament",
-              "secondary_title": "90 Second Statements",
-              "image_url": "https://img.freeviewplay.tv/pb7ab661523a2c21bae212e3d5ce95ea6",
-              "start_time": "2026-09-27T13:50:00+0000",
-              "duration": "PT5M",
-              "on_demand": {
-                "start_of_availability": "2026-09-23T20:00:00+0000",
-                "end_of_availability": "2027-09-27T13:56:40+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m09&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-              "uuid": "e22da6dc7e567d0d2ae14db3c15fc05b"
-            }
-          },
-          {
-            "startTime": "2026-09-27T13:55:00+0000",
-            "duration": 60,
-            "name": "Senedd Cymru - Welsh Parliament",
-            "description": "Further Education Debate",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032m0c",
-              "event_locator": "dvb://233a..918a;f82",
-              "main_title": "Senedd Cymru - Welsh Parliament",
-              "secondary_title": "Further Education Debate",
-              "image_url": "https://img.freeviewplay.tv/pce118456d2662f8ecde8e3a72d86cfd6",
-              "start_time": "2026-09-27T13:55:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2026-09-23T20:55:00+0000",
-                "end_of_availability": "2027-09-27T14:54:12+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0c&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-              "uuid": "dbd078f3854efec98c4faecfe14de8d0"
-            }
-          },
-          {
-            "startTime": "2026-09-27T14:55:00+0000",
-            "duration": 60,
-            "name": "Senedd Cymru - Welsh Parliament",
-            "description": "Wales and the UK Debate",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032m0f",
-              "event_locator": "dvb://233a..918a;f83",
-              "main_title": "Senedd Cymru - Welsh Parliament",
-              "secondary_title": "Wales and the UK Debate",
-              "image_url": "https://img.freeviewplay.tv/pdd17e5477503266da4eb72c50de11c3c",
-              "start_time": "2026-09-27T14:55:00+0000",
-              "duration": "PT1H",
-              "on_demand": {
-                "start_of_availability": "2026-09-23T22:00:00+0000",
-                "end_of_availability": "2027-09-27T15:56:37+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0f&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
-              "uuid": "5f7cf24bec6700729ae0894eb8a70ad1"
-            }
-          },
-          {
-            "startTime": "2026-09-27T15:55:00+0000",
-            "duration": 30,
-            "name": "Senedd Cymru - Welsh Parliament",
-            "description": "Scheduled Treatment for Trans Patients",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0032m0h",
-              "event_locator": "dvb://233a..918a;f84",
-              "main_title": "Senedd Cymru - Welsh Parliament",
-              "secondary_title": "Scheduled Treatment for Trans Patients",
-              "image_url": "https://img.freeviewplay.tv/pbebd7e8fc2208e43ea642c84ee0bb6e7",
-              "start_time": "2026-09-27T15:55:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-09-26T07:55:33+0000",
-                "end_of_availability": "2027-09-27T16:25:22+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032m0h&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e0a8afa60bdf90e7e11c60b3becc1970c",
-              "uuid": "7529e27b814c70fe68b9ea8464d64748"
-            }
-          },
-          {
-            "startTime": "2026-09-27T16:25:00+0000",
-            "duration": 145,
-            "name": "Select Committees",
-            "description": "Home Affairs Committee with Shabana Mahmood",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m00327pf",
-              "event_locator": "dvb://233a..918a;f85",
-              "main_title": "Select Committees",
-              "secondary_title": "Home Affairs Committee with Shabana Mahmood",
-              "image_url": "https://img.freeviewplay.tv/p248837e3acd5f109b162c113f3b79f3e",
-              "start_time": "2026-09-27T16:25:00+0000",
-              "duration": "PT2H25M",
-              "on_demand": {
-                "start_of_availability": "2026-09-15T21:24:33+0000",
-                "end_of_availability": "2027-09-27T18:50:19+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00327pf&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e361b2c50424e80c58d53804e559acc07",
-              "uuid": "1548ee0a0cd728d41e3c7d634c95a520"
-            }
-          },
-          {
-            "startTime": "2026-09-27T18:50:00+0000",
-            "duration": 130,
-            "name": "Select Committees",
-            "description": "Environmental Audit Committee on Air Pollution",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m003299n",
-              "event_locator": "dvb://233a..918a;f86",
-              "main_title": "Select Committees",
-              "secondary_title": "Environmental Audit Committee on Air Pollution",
-              "image_url": "https://img.freeviewplay.tv/p78627d25c8ce7a4d6a25c9a687f4bacd",
-              "start_time": "2026-09-27T18:50:00+0000",
-              "duration": "PT2H10M",
-              "on_demand": {
-                "start_of_availability": "2026-09-17T10:00:00+0000",
-                "end_of_availability": "2026-10-27T21:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m003299n&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2ac82bab6bea37e0a83748d98766b2da",
-              "uuid": "064aaa63384a507403a87e6b50010dbb"
-            }
-          },
-          {
-            "startTime": "2026-09-27T21:00:00+0000",
-            "duration": 130,
-            "name": "Select Committees",
-            "description": "Environment, Food and Rural Affairs Committee",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0031s9z",
-              "event_locator": "dvb://233a..918a;f87",
-              "main_title": "Select Committees",
-              "secondary_title": "Environment, Food and Rural Affairs Committee",
-              "image_url": "https://img.freeviewplay.tv/p6be1fc565b5c052f0452197553879b92",
-              "start_time": "2026-09-27T21:00:00+0000",
-              "duration": "PT2H10M",
-              "on_demand": {
-                "start_of_availability": "2026-09-15T10:30:00+0000",
-                "end_of_availability": "2027-09-27T23:11:18+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0031s9z&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/eb8f9cb05aa6c2a29b43d170f1373b0ee",
-              "uuid": "936d081468020d8086336997cc7721b7"
-            }
-          },
-          {
-            "startTime": "2026-09-27T23:10:00+0000",
-            "duration": 30,
-            "name": "Scottish Parliament",
-            "description": "General Questions",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m00323xg",
-              "event_locator": "dvb://233a..918a;f88",
-              "main_title": "Scottish Parliament",
-              "secondary_title": "General Questions",
-              "image_url": "https://img.freeviewplay.tv/pa1867d3fddbbf5800d895ec01e61c01c",
-              "start_time": "2026-09-27T23:10:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2026-09-24T23:13:48+0000",
-                "end_of_availability": "2027-09-27T23:39:26+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323xg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e2ab74c8c25097e6c1d01330e02440683",
-              "uuid": "d65db9be4a7dbf0799a15639d198ce30"
-            }
-          },
-          {
-            "startTime": "2026-09-27T23:40:00+0000",
+            "startTime": "2026-09-28T04:50:00+0000",
             "duration": 30,
             "name": "Scottish First Minister's Questions",
             "description": "24/09/2026",
@@ -1608,11 +798,11 @@
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m00323xj",
-              "event_locator": "dvb://233a..918a;f89",
+              "event_locator": "dvb://233a..918a;e56",
               "main_title": "Scottish First Minister's Questions",
               "secondary_title": "24/09/2026",
               "image_url": "https://img.freeviewplay.tv/p8a96270a3c407fa7eca95e49385cff7a",
-              "start_time": "2026-09-27T23:40:00+0000",
+              "start_time": "2026-09-28T04:50:00+0000",
               "duration": "PT30M",
               "on_demand": {
                 "start_of_availability": "2026-09-24T23:45:00+0000",
@@ -1626,7 +816,457 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/e426468a3b1ac9d2907a5d785a9f33375",
-              "uuid": "ce724ef4d1b4acdd2cb578c6f5a8843a"
+              "uuid": "16b13bfff34a0100a25d6e59b6bd2b3f"
+            }
+          },
+          {
+            "startTime": "2026-09-28T05:20:00+0000",
+            "duration": 75,
+            "name": "Westminster Hall",
+            "description": "Grey Belt Land",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032v4k",
+              "event_locator": "dvb://233a..918a;f8d",
+              "main_title": "Westminster Hall",
+              "secondary_title": "Grey Belt Land",
+              "image_url": "https://img.freeviewplay.tv/p193881d0b408d1dd97695581ca7df900",
+              "start_time": "2026-09-28T05:20:00+0000",
+              "duration": "PT1H15M",
+              "on_demand": {
+                "start_of_availability": "2026-09-28T06:33:04+0000",
+                "end_of_availability": "2027-09-28T06:33:04+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032v4k&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e0d962467c3d6d326c7ac867756405d03",
+              "uuid": "9dc4f1c91fdc61bd376e475a27c1a0e6"
+            }
+          },
+          {
+            "startTime": "2026-09-28T06:35:00+0000",
+            "duration": 90,
+            "name": "Westminster Hall",
+            "description": "Safety of the Jewish Community",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032v4m",
+              "event_locator": "dvb://233a..918a;f8e",
+              "main_title": "Westminster Hall",
+              "secondary_title": "Safety of the Jewish Community",
+              "image_url": "https://img.freeviewplay.tv/pbf6f24a6ef411b176e77b3de718297ca",
+              "start_time": "2026-09-28T06:35:00+0000",
+              "duration": "PT1H30M",
+              "on_demand": {
+                "start_of_availability": "2026-09-28T08:03:32+0000",
+                "end_of_availability": "2027-09-28T08:03:32+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032v4m&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e924c3933ae43dfcaf965da2f6060f189",
+              "uuid": "0b9c84e7d7ed12c739c8b8aa215ecfa0"
+            }
+          },
+          {
+            "startTime": "2026-09-28T08:05:00+0000",
+            "duration": 45,
+            "name": "Northern Ireland Assembly",
+            "description": "Executive Office Questions",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m00323xb",
+              "event_locator": "dvb://233a..918a;f8f",
+              "main_title": "Northern Ireland Assembly",
+              "secondary_title": "Executive Office Questions",
+              "image_url": "https://img.freeviewplay.tv/p8f15503d973d6718cb60950165019dce",
+              "start_time": "2026-09-28T08:05:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2026-09-21T13:45:00+0000",
+                "end_of_availability": "2027-09-21T13:45:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323xb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e95f6c8f9a73f4883978f70a416188d18",
+              "uuid": "c044a6f2bbb404d378cc921d166ada11"
+            }
+          },
+          {
+            "startTime": "2026-09-28T08:50:00+0000",
+            "duration": 60,
+            "name": "Welsh First Minister's Questions",
+            "description": "22/09/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m00323qp",
+              "event_locator": "dvb://233a..918a;f90",
+              "main_title": "Welsh First Minister's Questions",
+              "secondary_title": "22/09/2026",
+              "image_url": "https://img.freeviewplay.tv/pdcba9e423ec66b03c7d11d4ea49f38a6",
+              "start_time": "2026-09-28T08:50:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-09-22T13:30:00+0000",
+                "end_of_availability": "2027-09-22T13:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323qp&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e4ab53c8259fbe30e72455533736d963d",
+              "uuid": "a301255397b04a43b57501a39157ac04"
+            }
+          },
+          {
+            "startTime": "2026-09-28T09:50:00+0000",
+            "duration": 35,
+            "name": "Scottish First Minister's Questions",
+            "description": "22/09/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m00323dc",
+              "event_locator": "dvb://233a..918a;f91",
+              "main_title": "Scottish First Minister's Questions",
+              "secondary_title": "22/09/2026",
+              "image_url": "https://img.freeviewplay.tv/p190a56c4fc5bb13df5bcbd39dcaa738f",
+              "start_time": "2026-09-28T09:50:00+0000",
+              "duration": "PT35M",
+              "on_demand": {
+                "start_of_availability": "2026-09-22T18:46:20+0000",
+                "end_of_availability": "2027-09-22T18:46:20+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323dc&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e426468a3b1ac9d2907a5d785a9f33375",
+              "uuid": "58878ce191a5d0468a3861a1d84a90e3"
+            }
+          },
+          {
+            "startTime": "2026-09-28T10:25:00+0000",
+            "duration": 35,
+            "name": "Scottish First Minister's Questions",
+            "description": "24/09/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m00323xj",
+              "event_locator": "dvb://233a..918a;e3e",
+              "main_title": "Scottish First Minister's Questions",
+              "secondary_title": "24/09/2026",
+              "image_url": "https://img.freeviewplay.tv/p8a96270a3c407fa7eca95e49385cff7a",
+              "start_time": "2026-09-28T10:25:00+0000",
+              "duration": "PT35M",
+              "on_demand": {
+                "start_of_availability": "2026-09-24T23:45:00+0000",
+                "end_of_availability": "2027-09-28T11:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00323xj&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e426468a3b1ac9d2907a5d785a9f33375",
+              "uuid": "8e5efdf9c29a78557f9ba094e1d18818"
+            }
+          },
+          {
+            "startTime": "2026-09-28T11:00:00+0000",
+            "duration": 120,
+            "name": "Northern Ireland Assembly",
+            "description": "28/09/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032bf4",
+              "event_locator": "dvb://233a..918a;e3f",
+              "main_title": "Northern Ireland Assembly",
+              "secondary_title": "28/09/2026",
+              "image_url": "https://img.freeviewplay.tv/pfe9dbcc6a349c5652b6fb4d52cf2bd30",
+              "start_time": "2026-09-28T11:00:00+0000",
+              "duration": "PT2H",
+              "on_demand": {
+                "start_of_availability": "2026-09-28T19:00:00+0000",
+                "end_of_availability": "2027-09-29T01:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e679a2d20af51ba2e348f892ce841b3e1",
+              "uuid": "4574a64e4cfc625a47e0b338c2971b68"
+            }
+          },
+          {
+            "startTime": "2026-09-28T13:00:00+0000",
+            "duration": 45,
+            "name": "Northern Ireland Assembly",
+            "description": "Justice Questions",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032bf6",
+              "event_locator": "dvb://233a..918a;e40",
+              "main_title": "Northern Ireland Assembly",
+              "secondary_title": "Justice Questions",
+              "image_url": "https://img.freeviewplay.tv/p5e332b906f2815ee7d700c35a1d98b28",
+              "start_time": "2026-09-28T13:00:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2026-09-28T19:45:00+0000",
+                "end_of_availability": "2027-09-29T01:45:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ed88891694798e20165ea2e635681f6b6",
+              "uuid": "e48a1736689f097b3d364af15c5d492e"
+            }
+          },
+          {
+            "startTime": "2026-09-28T13:45:00+0000",
+            "duration": 45,
+            "name": "Northern Ireland Assembly",
+            "description": "Agriculture, Environment and Rural Affairs Questions",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032bf8",
+              "event_locator": "dvb://233a..918a;e41",
+              "main_title": "Northern Ireland Assembly",
+              "secondary_title": "Agriculture, Environment and Rural Affairs Questions",
+              "image_url": "https://img.freeviewplay.tv/pe898881f23e8681ba78608cf170a990f",
+              "start_time": "2026-09-28T13:45:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2026-09-28T20:30:00+0000",
+                "end_of_availability": "2027-09-29T02:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e65ba783e7c2daf9967e1f0e631c5291c",
+              "uuid": "a4464d384a9f4f581430672b51f4dec9"
+            }
+          },
+          {
+            "startTime": "2026-09-28T14:30:00+0000",
+            "duration": 150,
+            "name": "Northern Ireland Assembly",
+            "description": "28/09/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032bfb",
+              "event_locator": "dvb://233a..918a;e42",
+              "main_title": "Northern Ireland Assembly",
+              "secondary_title": "28/09/2026",
+              "image_url": "https://img.freeviewplay.tv/pfe9dbcc6a349c5652b6fb4d52cf2bd30",
+              "start_time": "2026-09-28T14:30:00+0000",
+              "duration": "PT2H30M",
+              "on_demand": {
+                "start_of_availability": "2026-09-28T23:00:00+0000",
+                "end_of_availability": "2027-09-29T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bfb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e679a2d20af51ba2e348f892ce841b3e1",
+              "uuid": "a57b82392ac4095cb8beda242bdeca28"
+            }
+          },
+          {
+            "startTime": "2026-09-28T17:00:00+0000",
+            "duration": 120,
+            "name": "Northern Ireland Assembly",
+            "description": "28/09/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032bf4",
+              "event_locator": "dvb://233a..918a;e43",
+              "main_title": "Northern Ireland Assembly",
+              "secondary_title": "28/09/2026",
+              "image_url": "https://img.freeviewplay.tv/pfe9dbcc6a349c5652b6fb4d52cf2bd30",
+              "start_time": "2026-09-28T17:00:00+0000",
+              "duration": "PT2H",
+              "on_demand": {
+                "start_of_availability": "2026-09-28T19:00:00+0000",
+                "end_of_availability": "2027-09-29T01:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e1284557d292e5c9270ebb9609e461071",
+              "uuid": "ff3317f8b7895244f5411484a01fe917"
+            }
+          },
+          {
+            "startTime": "2026-09-28T19:00:00+0000",
+            "duration": 45,
+            "name": "Northern Ireland Assembly",
+            "description": "Justice Questions",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032bf6",
+              "event_locator": "dvb://233a..918a;e44",
+              "main_title": "Northern Ireland Assembly",
+              "secondary_title": "Justice Questions",
+              "image_url": "https://img.freeviewplay.tv/p5e332b906f2815ee7d700c35a1d98b28",
+              "start_time": "2026-09-28T19:00:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2026-09-28T19:45:00+0000",
+                "end_of_availability": "2027-09-29T01:45:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf6&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e95f6c8f9a73f4883978f70a416188d18",
+              "uuid": "919ba8a3ae200898f339985543018fc2"
+            }
+          },
+          {
+            "startTime": "2026-09-28T19:45:00+0000",
+            "duration": 45,
+            "name": "Northern Ireland Assembly",
+            "description": "Agriculture, Environment and Rural Affairs Questions",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032bf8",
+              "event_locator": "dvb://233a..918a;e45",
+              "main_title": "Northern Ireland Assembly",
+              "secondary_title": "Agriculture, Environment and Rural Affairs Questions",
+              "image_url": "https://img.freeviewplay.tv/pe898881f23e8681ba78608cf170a990f",
+              "start_time": "2026-09-28T19:45:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2026-09-28T20:30:00+0000",
+                "end_of_availability": "2027-09-29T02:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf8&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ef2a807129099c87531d761373e018505",
+              "uuid": "22de15353123805961e0209a2810601b"
+            }
+          },
+          {
+            "startTime": "2026-09-28T20:30:00+0000",
+            "duration": 150,
+            "name": "Northern Ireland Assembly",
+            "description": "28/09/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032bfb",
+              "event_locator": "dvb://233a..918a;e46",
+              "main_title": "Northern Ireland Assembly",
+              "secondary_title": "28/09/2026",
+              "image_url": "https://img.freeviewplay.tv/pfe9dbcc6a349c5652b6fb4d52cf2bd30",
+              "start_time": "2026-09-28T20:30:00+0000",
+              "duration": "PT2H30M",
+              "on_demand": {
+                "start_of_availability": "2026-09-28T23:00:00+0000",
+                "end_of_availability": "2027-09-29T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bfb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e1284557d292e5c9270ebb9609e461071",
+              "uuid": "cac495abf5295dfb5640bc9c8fe40307"
+            }
+          },
+          {
+            "startTime": "2026-09-28T23:00:00+0000",
+            "duration": 120,
+            "name": "Northern Ireland Assembly",
+            "description": "28/09/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0032bf4",
+              "event_locator": "dvb://233a..918a;e47",
+              "main_title": "Northern Ireland Assembly",
+              "secondary_title": "28/09/2026",
+              "image_url": "https://img.freeviewplay.tv/pfe9dbcc6a349c5652b6fb4d52cf2bd30",
+              "start_time": "2026-09-28T23:00:00+0000",
+              "duration": "PT2H",
+              "on_demand": {
+                "start_of_availability": "2026-09-28T19:00:00+0000",
+                "end_of_availability": "2027-09-29T01:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0032bf4&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e1284557d292e5c9270ebb9609e461071",
+              "uuid": "23e40e2c649572414f9e4ff69076da59"
             }
           }
         ]
