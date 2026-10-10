@@ -545,7 +545,7 @@
             "event_locator": "dvb://233a..9140;1360",
             "main_title": "This is BBC Two",
             "secondary_title": "This is BBC Two",
-            "image_url": "https://img.freeviewplay.tv/p971ecb7a3db6375155111293cd380dda",
+            "image_url": "https://img.freeviewplay.tv/p3eefc63d6825f8304be936c3202c1f37",
             "start_time": "2026-10-10T01:50:00+0000",
             "duration": "PT3H15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1104,6 +1104,16 @@
             "image_url": "https://img.freeviewplay.tv/p08368585a0107e5fd498b77e6059b5db",
             "start_time": "2026-10-10T02:00:00+0000",
             "duration": "PT50M",
+            "on_demand": {
+              "start_of_availability": "2025-09-18T20:59:08+0000",
+              "end_of_availability": "2030-09-21T22:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_8904_0115.001",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
             "uuid": "d0b4d5cb7d96d8549e0ec6ab67b62351"
           },
@@ -1680,6 +1690,16 @@
             "image_url": "https://img.freeviewplay.tv/p15813611ae8b25c86f4b91795f0eb8dc",
             "start_time": "2026-10-10T01:00:00+0000",
             "duration": "PT50M",
+            "on_demand": {
+              "start_of_availability": "2026-05-28T18:59:00+0000",
+              "end_of_availability": "2031-05-21T18:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5524580001.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
             "uuid": "33ab2cc8b5348103d14bab52e3538e93"
           },
@@ -1691,6 +1711,16 @@
             "image_url": "https://img.freeviewplay.tv/p9fa5438eece2ba9d8d380d4c73fda14c",
             "start_time": "2026-10-10T01:50:00+0000",
             "duration": "PT50M",
+            "on_demand": {
+              "start_of_availability": "2025-06-02T14:59:51+0000",
+              "end_of_availability": "2029-02-07T15:59:51+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5495570010.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
             "uuid": "d49b8dd9744e9f6336d796d57ec4f39d"
           },
@@ -2131,6 +2161,16 @@
             "image_url": "https://img.freeviewplay.tv/p7fd5486efd52d4e78cc0bf6b61830e25",
             "start_time": "2026-10-10T00:05:00+0000",
             "duration": "PT25M",
+            "on_demand": {
+              "start_of_availability": "2026-10-07T00:27:37+0000",
+              "end_of_availability": "2026-10-14T22:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_1449_0255.001",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "1d75f4c98bac7034128d40d43cadcc4b"
           },
@@ -2142,6 +2182,16 @@
             "image_url": "https://img.freeviewplay.tv/pe72e3d3a5f85b08e1ffcc2af14a3b863",
             "start_time": "2026-10-10T00:30:00+0000",
             "duration": "PT50M",
+            "on_demand": {
+              "start_of_availability": "2023-02-23T07:00:00+0000",
+              "end_of_availability": "2027-01-31T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_3226_0005.001",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "24f326b409ffb11c6325ec9f8391886d"
           },
@@ -2267,14 +2317,15 @@
             "uuid": "1f0486b159b21b508d89465bd4457eb0"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/5e9b0a48-1711-4c16-8a96-6ebe5bb37497",
+            "program_id": "crid://csi.digitaluk.co.uk/dffe8f8c-6caf-460f-b8cd-2ec4759ac13b",
             "event_locator": "dvb://233a..9314;771c",
             "main_title": "Coraline",
+            "image_url": "https://img.freeviewplay.tv/e5cbbb9030c5add7685d159d136818b6c",
             "start_time": "2026-10-10T14:10:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
             "fallback_image_url": "http://img.freeviewplay.net/e4ed002653885d4f60bbc0bc7f6fa7210",
-            "uuid": "25bc0ee819173bc46ed3a0502e6c8015"
+            "uuid": "a9dedbafd45e525585a36b0cf3773163"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/d488f97d-c31d-4808-b38e-18162874028d",
@@ -2287,14 +2338,15 @@
             "uuid": "466c17cc37334446d06248c3a0d3f514"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/4e0c951c-906c-4d11-9cb4-776bba8cfc74",
+            "program_id": "crid://csi.digitaluk.co.uk/f255fc89-4ba4-4c22-bbb4-7f1615386a4d",
             "event_locator": "dvb://233a..9314;771d",
             "main_title": "Coraline",
+            "image_url": "https://img.freeviewplay.tv/e5cbbb9030c5add7685d159d136818b6c",
             "start_time": "2026-10-10T15:15:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
             "fallback_image_url": "http://img.freeviewplay.net/e4ed002653885d4f60bbc0bc7f6fa7210",
-            "uuid": "bdc29fb936453e278c3342a0489bc86c"
+            "uuid": "0d0f291ca22e79d9a818590bd00ec6ad"
           },
           {
             "program_id": "crid://jvp.itv.com/bd1c6gr_version",
@@ -2429,6 +2481,16 @@
             "image_url": "https://img.freeviewplay.tv/p9d73cd11a866c14e8f45b90447ea0f0a",
             "start_time": "2026-10-10T00:55:00+0000",
             "duration": "PT25M",
+            "on_demand": {
+              "start_of_availability": "2025-01-02T16:00:00+0000",
+              "end_of_availability": "2029-12-19T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_9010_0006.002",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "14b3c95c26fb1caa06c0df2b4decceb4"
           },
@@ -2579,74 +2641,74 @@
         "title": "London TV",
         "events": [
           {
-            "program_id": "crid://csi.digitaluk.co.uk/4346d8d3-899b-4884-b51c-c9d96944bc93",
+            "program_id": "crid://csi.digitaluk.co.uk/7dd17228-c9be-42c6-85c8-78c0729f4e43",
             "event_locator": "dvb://233a..9612;5b02",
             "main_title": "UK Crime Files: The Murder Of Rachel ...",
             "start_time": "2026-10-10T00:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e77a26b395d4b84443fd2046d08cb4e8d",
-            "uuid": "a9afc4b4f42bb145058b0e7c3e5f20d4"
+            "uuid": "7e5a9f279b32b05f849f4b4d3150b91b"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/1d832580-1c06-4525-a7ff-0d5eaafd6f29",
+            "program_id": "crid://csi.digitaluk.co.uk/4b745ddf-4082-4971-933e-ec8248822465",
             "event_locator": "dvb://233a..9612;5be9",
             "main_title": "New Scotland Yard Files",
             "start_time": "2026-10-10T01:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e49e42a3e00b06dae79ba98e0a45a8743",
-            "uuid": "4d4ca15c25834961a226e59f89c52b29"
+            "uuid": "243a4add32dec2379d78b5466694bc02"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/01a95579-f61a-46e6-ac94-34936ad74f4f",
+            "program_id": "crid://csi.digitaluk.co.uk/63e16dd9-5ca1-4067-bf9f-73668e4403f2",
             "event_locator": "dvb://233a..9612;5b04",
             "main_title": "Donal MacIntyre's UK Killer Evidence",
             "start_time": "2026-10-10T02:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e8686c32e4c9ae34b06f2748008e33058",
-            "uuid": "e0dd4ce92c3fc1288c2aff2079a70ad0"
+            "uuid": "a389ff6f580f0cd21e6067589082e44a"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/964ecaaa-4538-48cd-8d37-914b605990c8",
+            "program_id": "crid://csi.digitaluk.co.uk/0957bee4-0304-4a16-861a-b0c29d5a9c84",
             "event_locator": "dvb://233a..9612;5b05",
             "main_title": "48 Hours",
             "start_time": "2026-10-10T03:00:00+0000",
             "duration": "PT50M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/ec185d4fba5c4fd828b65e3f58d203308",
-            "uuid": "f405cb6db283b5d12233f8d220acf933"
+            "uuid": "fdb5d923ea83927bb7f75581193fbd8e"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/de6231db-cb8f-4216-8f81-4ce0c11bb342",
+            "program_id": "crid://csi.digitaluk.co.uk/724265ab-f1e8-4794-859c-d5528ebd47eb",
             "event_locator": "dvb://233a..9612;5b06",
             "main_title": "Close Calls: On Camera",
             "start_time": "2026-10-10T03:50:00+0000",
             "duration": "PT25M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e2848fa6b41519f391b1234b8624ca76b",
-            "uuid": "56c0ea72aae0d83f25fb917883da1e12"
+            "uuid": "6aab555bd13dd52b1fe5c9d941809b37"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/e62f58f5-05e1-41d3-8d56-07bcdc3b0cf0",
+            "program_id": "crid://csi.digitaluk.co.uk/0e860926-5343-44ea-b3a9-5430d974c9e6",
             "event_locator": "dvb://233a..9612;5b07",
             "main_title": "Close Calls: On Camera",
             "start_time": "2026-10-10T04:15:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e2848fa6b41519f391b1234b8624ca76b",
-            "uuid": "c9c497dcbf4402320bde3bce4c973306"
+            "uuid": "e68693fd79b5ae51e445b68c94df62ea"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/a1ec8d6d-9c26-4aed-901f-1f9370a322c1",
+            "program_id": "crid://csi.digitaluk.co.uk/5e5a1f13-96cf-4e19-acc2-33da19d3a352",
             "event_locator": "dvb://233a..9612;5b08",
             "main_title": "Teleshopping",
             "start_time": "2026-10-10T04:45:00+0000",
             "duration": "PT15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e678dadc84a234a30fb7b66c4f05513eb",
-            "uuid": "1fbee33c7bef8141677f95b30318917f"
+            "uuid": "6c84996212621c805ca9e450756523f2"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/46161b1c-21b1-481f-af07-7bf17c265556",
@@ -3065,7 +3127,7 @@
             "event_locator": "dvb://233a..9198;77e6",
             "main_title": "This is BBC Three",
             "secondary_title": "This is BBC Three",
-            "image_url": "https://img.freeviewplay.tv/p47a92a6af1bfeb383bf9beeae843d970",
+            "image_url": "https://img.freeviewplay.tv/pa2bd173369ea0efe6fd731e911367515",
             "start_time": "2026-10-10T02:55:00+0000",
             "duration": "PT1H35M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
@@ -3087,7 +3149,7 @@
             "event_locator": "dvb://233a..9198;7855",
             "main_title": "This is BBC Three",
             "secondary_title": "This is BBC Three",
-            "image_url": "https://img.freeviewplay.tv/p47a92a6af1bfeb383bf9beeae843d970",
+            "image_url": "https://img.freeviewplay.tv/pa2bd173369ea0efe6fd731e911367515",
             "start_time": "2026-10-10T17:58:00+0000",
             "duration": "PT2M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
@@ -3413,7 +3475,7 @@
             "event_locator": "dvb://233a..919a;1181",
             "main_title": "This is BBC Four",
             "secondary_title": "This is BBC Four",
-            "image_url": "https://img.freeviewplay.tv/p3588e141c5a5c338372c56828c31700f",
+            "image_url": "https://img.freeviewplay.tv/p00e2d22899d8336f45458ab80ac4f0c5",
             "start_time": "2026-10-10T02:50:00+0000",
             "duration": "PT1H40M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -3435,7 +3497,7 @@
             "event_locator": "dvb://233a..919a;11e0",
             "main_title": "This is BBC Four",
             "secondary_title": "This is BBC Four",
-            "image_url": "https://img.freeviewplay.tv/p3588e141c5a5c338372c56828c31700f",
+            "image_url": "https://img.freeviewplay.tv/p00e2d22899d8336f45458ab80ac4f0c5",
             "start_time": "2026-10-10T17:58:00+0000",
             "duration": "PT2M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -6227,6 +6289,16 @@
             "image_url": "https://img.freeviewplay.tv/pf4f19b2a44163a78e542ffa4aac6139d",
             "start_time": "2026-10-10T00:05:00+0000",
             "duration": "PT1H",
+            "on_demand": {
+              "start_of_availability": "2023-10-03T15:55:00+0000",
+              "end_of_availability": "2028-12-31T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_5334_0062.001",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
             "uuid": "67accb8b8092a89a1f319d2339f0db3b"
           },
@@ -6489,6 +6561,16 @@
             "image_url": "https://img.freeviewplay.tv/p2c008e07ceb7550e664cf5c06a8ef7f4",
             "start_time": "2026-10-10T00:50:00+0000",
             "duration": "PT55M",
+            "on_demand": {
+              "start_of_availability": "2026-03-06T15:54:03+0000",
+              "end_of_availability": "2030-01-06T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_1886_0065.001",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "2cecd604dda1377aaa5f63bf3b380077"
           },
@@ -7276,6 +7358,16 @@
             "image_url": "https://img.freeviewplay.tv/pf450faf01b39ac9439e6a837dadb3189",
             "start_time": "2026-10-10T01:00:00+0000",
             "duration": "PT45M",
+            "on_demand": {
+              "start_of_availability": "2023-09-18T21:02:40+0000",
+              "end_of_availability": "2028-03-31T21:02:40+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5439060007.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "9e3296a6e81a8d632f493050a3277dfb"
           },
@@ -7287,6 +7379,16 @@
             "image_url": "https://img.freeviewplay.tv/pa5bb7b0975ffc411d7b13c125a63f08e",
             "start_time": "2026-10-10T01:45:00+0000",
             "duration": "PT50M",
+            "on_demand": {
+              "start_of_availability": "2024-12-09T21:00:00+0000",
+              "end_of_availability": "2027-06-14T20:00:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5487360009.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
             "uuid": "7c057832ff31ea8d46350ec1644a2b2d"
           },
@@ -7298,6 +7400,16 @@
             "image_url": "https://img.freeviewplay.tv/p1a2e59d994c2fee8e1958c2099081e45",
             "start_time": "2026-10-10T02:35:00+0000",
             "duration": "PT25M",
+            "on_demand": {
+              "start_of_availability": "2026-10-05T05:00:00+0000",
+              "end_of_availability": "2026-11-04T06:00:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5164553197.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
             "uuid": "4bfa19df2106f8cd0c9cb64acbdb4479"
           },
@@ -7541,6 +7653,16 @@
             "image_url": "https://img.freeviewplay.tv/pd3ff31dfd7fbf038a0644d47be61847d",
             "start_time": "2026-10-10T00:50:00+0000",
             "duration": "PT1H",
+            "on_demand": {
+              "start_of_availability": "2026-10-10T00:52:57+0000",
+              "end_of_availability": "2026-11-08T01:52:57+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5213640010.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "843d22de3a2a25e4ce77c5a80e00a943"
           },
@@ -7552,6 +7674,16 @@
             "image_url": "https://img.freeviewplay.tv/pabf71dc78a8622dcff9caf2eb345a7a5",
             "start_time": "2026-10-10T01:50:00+0000",
             "duration": "PT55M",
+            "on_demand": {
+              "start_of_availability": "2021-05-06T20:00:00+0000",
+              "end_of_availability": "2031-05-06T21:00:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5351620004.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
             "uuid": "b84a6b17a1aa1f573006d0df49e52b12"
           },
@@ -8763,6 +8895,16 @@
             "image_url": "https://img.freeviewplay.tv/p98a9c4242cbb21faac0fd7549ad3d1f1",
             "start_time": "2026-10-10T01:50:00+0000",
             "duration": "PT1H",
+            "on_demand": {
+              "start_of_availability": "2026-10-05T20:00:00+0000",
+              "end_of_availability": "2027-12-14T21:00:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5501660008.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
             "uuid": "aa622bf0ff704c6f04d1f642324ddaec"
           },
@@ -9020,6 +9162,16 @@
             "image_url": "https://img.freeviewplay.tv/pab5ceef144c49381230ab6f7a0dfccec",
             "start_time": "2026-10-10T00:10:00+0000",
             "duration": "PT55M",
+            "on_demand": {
+              "start_of_availability": "2024-12-29T03:02:15+0000",
+              "end_of_availability": "2026-11-30T03:02:15+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5500100015.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
             "uuid": "20d07c13235bc0324ea7ec8380b5052e"
           },
@@ -9031,6 +9183,16 @@
             "image_url": "https://img.freeviewplay.tv/p3cbe4d3a9a301e25d7f4df55d7a1cc59",
             "start_time": "2026-10-10T01:05:00+0000",
             "duration": "PT55M",
+            "on_demand": {
+              "start_of_availability": "2024-12-30T00:37:59+0000",
+              "end_of_availability": "2026-11-30T00:37:59+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5500100016.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
             "uuid": "b7d78b647fe7766cbc6034201d2a82d6"
           },
@@ -9042,6 +9204,16 @@
             "image_url": "https://img.freeviewplay.tv/p2c3d4708bb70c909933614ba2a050201",
             "start_time": "2026-10-10T02:00:00+0000",
             "duration": "PT50M",
+            "on_demand": {
+              "start_of_availability": "2025-12-09T12:00:00+0000",
+              "end_of_availability": "2028-10-15T12:00:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5452400005.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
             "uuid": "bd124bc385dda61a9001484cd2157980"
           },
@@ -15600,6 +15772,7 @@
             "program_id": "crid://csi.digitaluk.co.uk/13a0fb31-97ca-43a0-b141-7f8c8e389bfa",
             "event_locator": "dvb://233a..3fec;c2fe",
             "main_title": "Murphy's War",
+            "image_url": "https://img.freeviewplay.tv/ee7346534387ad06da2b837bc7f78935b",
             "start_time": "2026-10-10T18:45:00+0000",
             "duration": "PT2H15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
@@ -16047,14 +16220,14 @@
         "title": "BBC ALBA",
         "events": [
           {
-            "program_id": "crid://csi.digitaluk.co.uk/47b2c053-932f-4239-8c87-5f18b7d5045a",
+            "program_id": "crid://csi.digitaluk.co.uk/41e20c33-8b4a-4998-8dfe-bf7d8fe72ffc",
             "event_locator": "dvb://233a..918b;8cb",
             "main_title": "Seo BBC ALBA. This is BBC ALBA",
             "start_time": "2026-10-10T05:00:00+0000",
             "duration": "PT10H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
             "fallback_image_url": "http://img.freeviewplay.net/e0112197b92af3a993ff88ea807b3339a",
-            "uuid": "19859738c3acf3e733916c91a9767797"
+            "uuid": "5259939a31bd60e0d8207605bf3f7ccd"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/8804c183-d8fd-4e3e-953b-0cac7a490e2b",
@@ -23752,6 +23925,16 @@
             "image_url": "https://img.freeviewplay.tv/p3aaa24e8054b37c53c20ae5157c0af51",
             "start_time": "2026-10-10T00:05:00+0000",
             "duration": "PT55M",
+            "on_demand": {
+              "start_of_availability": "2026-10-05T19:00:00+0000",
+              "end_of_availability": "2030-03-12T20:00:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5524560001.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
             "uuid": "b9177a5bacb54001a2ccb4394638e694"
           },
@@ -23773,6 +23956,16 @@
             "image_url": "https://img.freeviewplay.tv/p15813611ae8b25c86f4b91795f0eb8dc",
             "start_time": "2026-10-10T02:00:00+0000",
             "duration": "PT50M",
+            "on_demand": {
+              "start_of_availability": "2026-05-28T18:59:00+0000",
+              "end_of_availability": "2031-05-21T18:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5524580001.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
             "uuid": "b1c80217dc2b89cec4a934b840a54a8d"
           },
@@ -24290,6 +24483,7 @@
             "program_id": "crid://csi.digitaluk.co.uk/5e563cdb-9476-4d53-978a-826db517fd49",
             "event_locator": "dvb://233a..2099;7288",
             "main_title": "Peter Andre's 60 Minute Makeover",
+            "image_url": "https://img.freeviewplay.tv/e62db77c535c1d5bf4871df09ee58c41f",
             "start_time": "2026-10-10T07:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
@@ -24300,6 +24494,7 @@
             "program_id": "crid://csi.digitaluk.co.uk/0e6a0757-d6cd-41ff-ab38-c0a511e79973",
             "event_locator": "dvb://233a..2099;7289",
             "main_title": "Peter Andre's 60 Minute Makeover",
+            "image_url": "https://img.freeviewplay.tv/e62db77c535c1d5bf4871df09ee58c41f",
             "start_time": "2026-10-10T08:00:00+0000",
             "duration": "PT1H5M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
@@ -24310,6 +24505,7 @@
             "program_id": "crid://csi.digitaluk.co.uk/6b3f2c2d-1752-4acd-97c3-7ef3f30f2219",
             "event_locator": "dvb://233a..2099;782e",
             "main_title": "Peter Andre's 60 Minute Makeover",
+            "image_url": "https://img.freeviewplay.tv/e62db77c535c1d5bf4871df09ee58c41f",
             "start_time": "2026-10-10T09:05:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
@@ -24370,6 +24566,7 @@
             "program_id": "crid://csi.digitaluk.co.uk/a21d6721-aaa8-4b17-88be-d647cc1f1ac6",
             "event_locator": "dvb://233a..2099;771c",
             "main_title": "Coraline",
+            "image_url": "https://img.freeviewplay.tv/ee485efde74de37d82fa8e9f032d97d2e",
             "start_time": "2026-10-10T15:10:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
@@ -24390,6 +24587,7 @@
             "program_id": "crid://csi.digitaluk.co.uk/c91b7406-b376-4af5-ac53-79a246f33c39",
             "event_locator": "dvb://233a..2099;771d",
             "main_title": "Coraline",
+            "image_url": "https://img.freeviewplay.tv/ee485efde74de37d82fa8e9f032d97d2e",
             "start_time": "2026-10-10T16:15:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
@@ -24500,6 +24698,16 @@
             "image_url": "https://img.freeviewplay.tv/p39ecc1e447d05b16b41c4244afb99ac3",
             "start_time": "2026-10-10T00:55:00+0000",
             "duration": "PT1H",
+            "on_demand": {
+              "start_of_availability": "2026-10-10T00:54:50+0000",
+              "end_of_availability": "2026-11-09T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_9089_0016.002",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
             "uuid": "62f1b84ac3c0fc7e02ff4c35ea903c91"
           },
@@ -24511,6 +24719,16 @@
             "image_url": "https://img.freeviewplay.tv/p9d73cd11a866c14e8f45b90447ea0f0a",
             "start_time": "2026-10-10T01:55:00+0000",
             "duration": "PT25M",
+            "on_demand": {
+              "start_of_availability": "2025-01-02T16:00:00+0000",
+              "end_of_availability": "2029-12-19T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/1_9010_0006.002",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "31eed5088569235651df4328ba1097b0"
           },
@@ -27639,6 +27857,7 @@
             "program_id": "crid://csi.digitaluk.co.uk/b53b9b1a-a287-40e6-85f4-6dc906b4374c",
             "event_locator": "dvb://233a..6b00;c2fe",
             "main_title": "Murphy's War",
+            "image_url": "https://img.freeviewplay.tv/efc94d038ed70952f462474876d5ab755",
             "start_time": "2026-10-10T19:45:00+0000",
             "duration": "PT2H15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
@@ -27676,7 +27895,7 @@
             "event_locator": "dvb://233a..9184;56aa",
             "main_title": "BBC News",
             "secondary_title": "10/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p6dc1dfe6e36773060d85683668d32d11",
+            "image_url": "https://img.freeviewplay.tv/pf1223db0ecf5274146a7915dec68ec32",
             "start_time": "2026-10-10T00:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27710,7 +27929,7 @@
             "event_locator": "dvb://233a..9184;56ac",
             "main_title": "BBC News",
             "secondary_title": "10/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p6dc1dfe6e36773060d85683668d32d11",
+            "image_url": "https://img.freeviewplay.tv/pf1223db0ecf5274146a7915dec68ec32",
             "start_time": "2026-10-10T01:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27744,7 +27963,7 @@
             "event_locator": "dvb://233a..9184;56ae",
             "main_title": "BBC News",
             "secondary_title": "10/10/2026",
-            "image_url": "https://img.freeviewplay.tv/pf1223db0ecf5274146a7915dec68ec32",
+            "image_url": "https://img.freeviewplay.tv/p6dc1dfe6e36773060d85683668d32d11",
             "start_time": "2026-10-10T02:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27778,7 +27997,7 @@
             "event_locator": "dvb://233a..9184;56b0",
             "main_title": "BBC News",
             "secondary_title": "10/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p6dc1dfe6e36773060d85683668d32d11",
+            "image_url": "https://img.freeviewplay.tv/pf1223db0ecf5274146a7915dec68ec32",
             "start_time": "2026-10-10T03:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27982,7 +28201,7 @@
             "event_locator": "dvb://233a..9184;56bc",
             "main_title": "BBC News",
             "secondary_title": "10/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p6dc1dfe6e36773060d85683668d32d11",
+            "image_url": "https://img.freeviewplay.tv/pf1223db0ecf5274146a7915dec68ec32",
             "start_time": "2026-10-10T09:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -28006,7 +28225,7 @@
             "event_locator": "dvb://233a..9184;56be",
             "main_title": "Talking Business",
             "secondary_title": "09/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p0749f8312a8770a73b597593fd33846d",
+            "image_url": "https://img.freeviewplay.tv/pf4c8d054b7b7e0d6d2f1c22d5d595855",
             "start_time": "2026-10-10T10:30:00+0000",
             "duration": "PT30M",
             "on_demand": {
@@ -28040,7 +28259,7 @@
             "event_locator": "dvb://233a..9184;56c0",
             "main_title": "BBC News",
             "secondary_title": "10/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p6dc1dfe6e36773060d85683668d32d11",
+            "image_url": "https://img.freeviewplay.tv/pf1223db0ecf5274146a7915dec68ec32",
             "start_time": "2026-10-10T11:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -28086,7 +28305,7 @@
             "event_locator": "dvb://233a..9184;56c3",
             "main_title": "BBC News",
             "secondary_title": "10/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p6dc1dfe6e36773060d85683668d32d11",
+            "image_url": "https://img.freeviewplay.tv/pf1223db0ecf5274146a7915dec68ec32",
             "start_time": "2026-10-10T13:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -28132,7 +28351,7 @@
             "event_locator": "dvb://233a..9184;56c6",
             "main_title": "BBC News",
             "secondary_title": "10/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p6dc1dfe6e36773060d85683668d32d11",
+            "image_url": "https://img.freeviewplay.tv/pf1223db0ecf5274146a7915dec68ec32",
             "start_time": "2026-10-10T14:30:00+0000",
             "duration": "PT15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -28260,7 +28479,7 @@
             "event_locator": "dvb://233a..9184;56cf",
             "main_title": "BBC News",
             "secondary_title": "10/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p6dc1dfe6e36773060d85683668d32d11",
+            "image_url": "https://img.freeviewplay.tv/pf1223db0ecf5274146a7915dec68ec32",
             "start_time": "2026-10-10T19:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -28318,7 +28537,7 @@
             "event_locator": "dvb://233a..9184;56d3",
             "main_title": "BBC News",
             "secondary_title": "10/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p6dc1dfe6e36773060d85683668d32d11",
+            "image_url": "https://img.freeviewplay.tv/pf1223db0ecf5274146a7915dec68ec32",
             "start_time": "2026-10-10T22:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -28330,7 +28549,7 @@
             "event_locator": "dvb://233a..9184;56d4",
             "main_title": "Talking Business",
             "secondary_title": "09/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p0749f8312a8770a73b597593fd33846d",
+            "image_url": "https://img.freeviewplay.tv/pf4c8d054b7b7e0d6d2f1c22d5d595855",
             "start_time": "2026-10-10T22:30:00+0000",
             "duration": "PT30M",
             "on_demand": {
@@ -30800,7 +31019,7 @@
             "event_locator": "dvb://233a..919b;5e8",
             "main_title": "This is CBBC!",
             "secondary_title": "This is CBBC!",
-            "image_url": "https://img.freeviewplay.tv/pba3b38b915e6fe6bae758c6d914e8d60",
+            "image_url": "https://img.freeviewplay.tv/pac6f5338cb209460533f978542c5195a",
             "start_time": "2026-10-10T04:30:00+0000",
             "duration": "PT1H30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
@@ -31622,14 +31841,14 @@
             "uuid": "35f9b9e964420630ee16c1b58f3dc18f"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/4fe564bd-0b49-4d97-b764-280f82534fd9",
+            "program_id": "crid://csi.digitaluk.co.uk/5777bea5-d5c7-4265-bb6d-350509c0e806",
             "event_locator": "dvb://233a..919b;738",
             "main_title": "This is CBBC!",
             "start_time": "2026-10-10T17:58:00+0000",
             "duration": "PT10H32M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
             "fallback_image_url": "http://img.freeviewplay.net/e0af47b61ca09c0164d8074ec28c07911",
-            "uuid": "f2daf004f080df2057fc2b609960b434"
+            "uuid": "d8d40de8d26f263738967427963d1723"
           }
         ]
       },
@@ -33278,14 +33497,14 @@
             "uuid": "4cf4be1cc339bf7be1d50cb551b12cf0"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/d5c60748-e851-45f2-84de-b01edf8a012d",
+            "program_id": "crid://csi.digitaluk.co.uk/0b12ff6a-cfdd-4fcd-8fc7-72f59acae781",
             "event_locator": "dvb://233a..919c;27fc",
             "main_title": "This Is CBeebies",
             "start_time": "2026-10-10T17:58:00+0000",
             "duration": "PT10H32M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
             "fallback_image_url": "http://img.freeviewplay.net/eb7ae46c8cac06b6f71d8ece37ea48316",
-            "uuid": "167d971026820db0e866857c8cf1b9e6"
+            "uuid": "f4a370aac8a04ad3ea531851f9489160"
           }
         ]
       },
@@ -40246,244 +40465,244 @@
         "title": "Gemporia",
         "events": [
           {
-            "program_id": "crid://csi.digitaluk.co.uk/bb3ddd52-7f99-4428-9b61-e17f1468d91b",
+            "program_id": "crid://csi.digitaluk.co.uk/ea1c3459-529d-4e9c-a2d5-5dcc712b7ac6",
             "event_locator": "dvb://233a..9921;4f68",
             "main_title": "Amazing Deals with Jeff Hayden",
             "start_time": "2026-10-10T00:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e127967dca280db490a228d3bc0745b0c",
-            "uuid": "448ba9b4e2f0d39198452c777e864447"
+            "uuid": "28e8e13d597db4061888421a27377b29"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/0ab66f34-1636-4b00-a6d1-3553e93f6b6c",
+            "program_id": "crid://csi.digitaluk.co.uk/6a132763-0aba-441c-bb1d-0149b405b954",
             "event_locator": "dvb://233a..9921;4f69",
             "main_title": "Amazing Deals with Jeff Hayden",
             "start_time": "2026-10-10T01:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e127967dca280db490a228d3bc0745b0c",
-            "uuid": "feca3978bcc8ae4b9eb1e953865148a4"
+            "uuid": "d923a87351160fe4e68e95143eb3c48c"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/dce69b20-092f-4597-9b63-170c75753126",
+            "program_id": "crid://csi.digitaluk.co.uk/6472d4b8-fe61-40b2-82a1-f6d52e5cbd8d",
             "event_locator": "dvb://233a..9921;4f6a",
             "main_title": "Luxury Launches",
             "start_time": "2026-10-10T02:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e7aa91ac05691b561671303148056fb58",
-            "uuid": "c5a2cdfd3e34622b9e974909701634f0"
+            "uuid": "2f279ebd8faaf135de36c31ac64fe765"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/36b072c5-14f2-4b77-8a96-f4a1f9c1faaf",
+            "program_id": "crid://csi.digitaluk.co.uk/230e010f-be57-4a99-9fb8-2dcb7d3aa386",
             "event_locator": "dvb://233a..9921;4f6b",
             "main_title": "Gemporia Jewellery",
             "start_time": "2026-10-10T03:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/ebb7c506c958382a34690ce9d75870b89",
-            "uuid": "89e2524192112f184b67e4b28f7f9e69"
+            "uuid": "405caf1880b06935db52cb70231bccce"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/3899acd3-a64b-479e-ade0-d4c45371b551",
+            "program_id": "crid://csi.digitaluk.co.uk/d574d081-ec68-480a-93ba-70e5b1b76ec5",
             "event_locator": "dvb://233a..9921;4f6c",
             "main_title": "Huge Jewellery Savings",
             "start_time": "2026-10-10T04:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/eb3c5540ff86cc4102aee1174cd0d850a",
-            "uuid": "b1b0dc178cb8992b0f9c79ce47a54ca7"
+            "uuid": "e19a02cd556f202d4b7afe4dd24ac0b6"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/75b51a58-4541-472a-8112-eb2681a9abc4",
+            "program_id": "crid://csi.digitaluk.co.uk/9e663dad-c490-49b1-8137-de578f5ef08a",
             "event_locator": "dvb://233a..9921;4f6d",
             "main_title": "Live Falling Auctions",
             "start_time": "2026-10-10T05:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e08f7401141c6ae8c9a5101d9018d0e54",
-            "uuid": "10a3701986dc896e4f352d8e51e61c44"
+            "uuid": "dfb044fce9d9ba81d3bffc8c3ecd76fc"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/cc7964b4-b3d7-442d-8683-d566b8f9ba7b",
+            "program_id": "crid://csi.digitaluk.co.uk/e8c5accc-4c78-49e8-9e55-61fb6cf3a377",
             "event_locator": "dvb://233a..9921;4ffb",
             "main_title": "Last of Stock Birthday Deals!",
             "start_time": "2026-10-10T06:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e9201c114c980e1bc92fb8c7a0cf80e6c",
-            "uuid": "171f62033e730aa3cf513d8793026a15"
+            "uuid": "063d28207aad3045e4f18a4380377ebf"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/92c909e4-55b1-4c05-a631-c2720f8f0452",
+            "program_id": "crid://csi.digitaluk.co.uk/51c696ad-7369-4b81-9588-3f94d560becf",
             "event_locator": "dvb://233a..9921;4ffc",
             "main_title": "Last of Stock Birthday Deals!",
             "start_time": "2026-10-10T07:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e9201c114c980e1bc92fb8c7a0cf80e6c",
-            "uuid": "84bb6e357de1b1e4ee78df9515a335e0"
+            "uuid": "078ac8642b071b34c804b288373e6b30"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/c2df564c-8b64-4203-93b7-9aa86fe77a3b",
+            "program_id": "crid://csi.digitaluk.co.uk/6bcdc9ec-8684-4f56-a529-7bf4edc500e4",
             "event_locator": "dvb://233a..9921;50c4",
             "main_title": "Tanzanite with Kieran Glen",
             "start_time": "2026-10-10T08:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e3f5f2759c322004b5cd22e17dc5acb9e",
-            "uuid": "40b6ac098a45114eebf55e82d6e90823"
+            "uuid": "113bf88691aa0e9820749fb60095c190"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/8f38739e-0fef-42b1-acdc-76c72dbffb04",
+            "program_id": "crid://csi.digitaluk.co.uk/5f826c55-1584-4563-8eb4-8eaa8653d077",
             "event_locator": "dvb://233a..9921;50c5",
             "main_title": "Baltic Amber",
             "start_time": "2026-10-10T09:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e751f5d066eb8c37a02444e38b87a56a7",
-            "uuid": "9bd2a81ffc6809abe8f3ba24bf6a94c4"
+            "uuid": "74d9670d9972d0bc2189d529e5ca9119"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/a15cef5e-9c67-4df7-a3f4-088fc0f67505",
+            "program_id": "crid://csi.digitaluk.co.uk/bafa57db-0527-462b-9a79-b23216e605a0",
             "event_locator": "dvb://233a..9921;4f72",
             "main_title": "Multicolour Tourmaline",
             "start_time": "2026-10-10T10:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e46a9705af8f1736e77e0fe44fdb53d2e",
-            "uuid": "b6abdbbb500be86175c260b003ba9cd5"
+            "uuid": "3a2780ed6f55330edaef33261dcb9052"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/68c00e20-ef52-4a5b-b4fb-1ade4fca1c7e",
+            "program_id": "crid://csi.digitaluk.co.uk/d8a84a34-7e73-46a8-8967-e5affa1fc834",
             "event_locator": "dvb://233a..9921;4f73",
             "main_title": "Red Diamond Showcase",
             "start_time": "2026-10-10T11:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/eb4b899f3d793221f9d8f609b65fa99a4",
-            "uuid": "52f0c0bb59192b1b7a28baa6bcfcabbf"
+            "uuid": "cfd56d52b734f49d3f202b4a60d47b69"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/f05f1ad8-2de8-4a48-af8c-ce030a7c80e8",
+            "program_id": "crid://csi.digitaluk.co.uk/facc3da6-c325-4dce-b51e-0b9723fc3679",
             "event_locator": "dvb://233a..9921;4f74",
             "main_title": "Icy Green Jade Launch with Dave Troth",
             "start_time": "2026-10-10T12:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e38be731927a2dbf96e0b5ea6ec02d741",
-            "uuid": "488e93c0746d7dde1201326875f07fcb"
+            "uuid": "bb64261918a3fe745fdfef35a7b99cc9"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/61660df0-9a28-4ee0-b60b-50b2b44dee7d",
+            "program_id": "crid://csi.digitaluk.co.uk/052e767b-2ded-4df2-b659-0e92ebf3c583",
             "event_locator": "dvb://233a..9921;4f75",
             "main_title": "Zircon Showcase",
             "start_time": "2026-10-10T13:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e779f91c05e924b0049522c1ba40e53b3",
-            "uuid": "43777423ac1d4f55f5fb09e0caca4730"
+            "uuid": "73c589ae053a6dd232488e05572ddf59"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/efdccac2-66d1-438f-b5de-1d55a3ff29a5",
+            "program_id": "crid://csi.digitaluk.co.uk/3a6dc31d-8935-4457-bd39-9fe2bf01298b",
             "event_locator": "dvb://233a..9921;4f76",
             "main_title": "Yellow Zircon with Toby Cavill",
             "start_time": "2026-10-10T14:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e9e2d9804ebe12039dbd42791f2d16697",
-            "uuid": "58c95e16e48c850eb5742b45d24b3b4d"
+            "uuid": "0e269074b91e22497d10e5d058b2fbd4"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/cd2d0be4-f240-4ca6-b2d2-eff4e23af233",
+            "program_id": "crid://csi.digitaluk.co.uk/2c080c30-5ca2-4609-adc3-13a442f8c78c",
             "event_locator": "dvb://233a..9921;4f77",
             "main_title": "Tanzanite with Kieran Glen",
             "start_time": "2026-10-10T15:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e3f5f2759c322004b5cd22e17dc5acb9e",
-            "uuid": "e3587d2abf0233da69ba2a1b270677f7"
+            "uuid": "50c5505ad86dd322fb129171480f304f"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/53e8055c-198d-4afc-aff0-b85437105d7c",
+            "program_id": "crid://csi.digitaluk.co.uk/9871994d-e34a-4b93-8f9c-b4ba48ad2216",
             "event_locator": "dvb://233a..9921;50c6",
             "main_title": "Garnet with Kieran Glen",
             "start_time": "2026-10-10T16:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/ebb46525c71a0da8b99923286c29181d5",
-            "uuid": "027cbec4872f34a10a04eb804f552b63"
+            "uuid": "6ad7fb107b89abea3507cb990b5dba71"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/55fbc4d6-9565-4e37-a924-472f9bbec517",
+            "program_id": "crid://csi.digitaluk.co.uk/0bf6b346-7df8-4348-873a-e34026ef1b52",
             "event_locator": "dvb://233a..9921;4f79",
             "main_title": "Natural Yellow Diamonds",
             "start_time": "2026-10-10T17:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e4575d7c165a7a51ab2ba9122f1a83359",
-            "uuid": "a4cc2a2219810337db2614f4cda1c6de"
+            "uuid": "3530ee830b567305f5e049447317d24d"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/bf2a5140-894d-4090-a400-d7c934ebcc7c",
+            "program_id": "crid://csi.digitaluk.co.uk/2022dee7-19d3-4c29-9da6-502a03ec3969",
             "event_locator": "dvb://233a..9921;4f7a",
             "main_title": "Mutton Fat Jade with Dave Troth",
             "start_time": "2026-10-10T18:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e05a7daa2600bb9473a82f468d30b5a91",
-            "uuid": "ef3e4b8924b40736d1d5d82a978e640b"
+            "uuid": "8feca4ffa08232010733606240c01ebc"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/aabdf90e-8fc0-4ed1-a927-f9fc0ea3fe37",
+            "program_id": "crid://csi.digitaluk.co.uk/d9917848-60d3-4baa-827a-29a7bd11d20e",
             "event_locator": "dvb://233a..9921;4f7b",
             "main_title": "Mutton Fat Jade with Dave Troth",
             "start_time": "2026-10-10T19:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e05a7daa2600bb9473a82f468d30b5a91",
-            "uuid": "5557ca0e53d147b7c52270da077c0070"
+            "uuid": "cd2db68bdb7291dfdb14065692e6724a"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/022c476f-1652-4d5a-9777-71fe0d3d45eb",
+            "program_id": "crid://csi.digitaluk.co.uk/d5eea2e1-bc43-4ac1-b0a4-8c49e56465df",
             "event_locator": "dvb://233a..9921;4f7c",
             "main_title": "£15 Bracelet Deal",
             "start_time": "2026-10-10T20:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e921966793fdc0401401ba35ade1bba2b",
-            "uuid": "65b5b085359ad042d5a67a6ed64e22df"
+            "uuid": "124bb0e9a760e25d1f9fdffb6c42fac5"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/b9dd735f-f85f-4cdb-9703-89a4c760592a",
+            "program_id": "crid://csi.digitaluk.co.uk/f4dfa367-4779-4bd2-84b3-0f746b2d601d",
             "event_locator": "dvb://233a..9921;4f7d",
             "main_title": "Deal of the Day",
             "start_time": "2026-10-10T21:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e72f64e3b85c08c609f8f7fa6bc574603",
-            "uuid": "b537ebefd43a0a2734ed56918d3071d0"
+            "uuid": "766b8b73fb2f114084a029a6f7916e9a"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/45da0af7-25ee-43e1-932c-080438d6cdfd",
+            "program_id": "crid://csi.digitaluk.co.uk/b5b90e0e-7489-45e3-b264-998bf8846617",
             "event_locator": "dvb://233a..9921;4f7e",
             "main_title": "Amazing Deals with Jeff Hayden",
             "start_time": "2026-10-10T22:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e127967dca280db490a228d3bc0745b0c",
-            "uuid": "7cebc7e2a1108b7ee64fc04abc92617a"
+            "uuid": "a1a1ac8f55385efe3834f05f2fca9f8d"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/3c6bbc77-4b82-4d73-8927-7a0415a9d50d",
+            "program_id": "crid://csi.digitaluk.co.uk/87a8a525-a11c-4ca6-868b-735791c3ec42",
             "event_locator": "dvb://233a..9921;4f7f",
             "main_title": "Amazing Deals with Jeff Hayden",
             "start_time": "2026-10-10T23:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:7",
             "fallback_image_url": "http://img.freeviewplay.net/e127967dca280db490a228d3bc0745b0c",
-            "uuid": "b97788ca8b5c2ae27094dc2178427bee"
+            "uuid": "85a5c13880a8036d8506daf5d94eda9c"
           }
         ]
       },
@@ -47979,6 +48198,7 @@
             "program_id": "crid://csi.digitaluk.co.uk/6ce83202-571a-4471-aeda-f88e4cce0cd1",
             "event_locator": "dvb://233a..6ca0;c2fe",
             "main_title": "Murphy's War",
+            "image_url": "https://img.freeviewplay.tv/e031e85dbab009c3f36b43f0d20b0cec0",
             "start_time": "2026-10-10T18:45:00+0000",
             "duration": "PT2H15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
@@ -52436,34 +52656,34 @@
             "uuid": "501e5883b96089c049b046d21467cc8a"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/6051c638-af7c-4eb6-b8af-f613b4d7fd57",
+            "program_id": "crid://csi.digitaluk.co.uk/0774ccd6-13ba-4fd8-ab09-57c401e3e99f",
             "event_locator": "dvb://233a..9218;1179",
             "main_title": "Trouble at the Bottom:...",
             "start_time": "2026-10-10T23:00:00+0000",
             "duration": "PT20M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
             "fallback_image_url": "http://img.freeviewplay.net/e7c9d846abccb7ac93d2c3a9ab5a64c8a",
-            "uuid": "bda9e59cd30f7d8b7c79699e71230f4b"
+            "uuid": "07f40035eb7ee9b62a48caa15f7c83fc"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/3c8e67c1-99cd-4f65-94c2-9482c1e767db",
+            "program_id": "crid://csi.digitaluk.co.uk/4d101c97-69d1-4df2-a829-1eb875c6a7fe",
             "event_locator": "dvb://233a..9218;117a",
             "main_title": "Trouble at the Bottom:...",
             "start_time": "2026-10-10T23:20:00+0000",
             "duration": "PT20M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
             "fallback_image_url": "http://img.freeviewplay.net/e7c9d846abccb7ac93d2c3a9ab5a64c8a",
-            "uuid": "a453fc56b8c5c7307463d90500f81e94"
+            "uuid": "94dd2d476d40db487513c412a60cfd9d"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/52e8e862-425d-4daf-ac5e-d9dd04d39067",
+            "program_id": "crid://csi.digitaluk.co.uk/1285335b-8888-459e-a70e-47a7154af5ad",
             "event_locator": "dvb://233a..9218;117b",
             "main_title": "Trouble at the Bottom:...",
             "start_time": "2026-10-10T23:40:00+0000",
             "duration": "PT20M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
             "fallback_image_url": "http://img.freeviewplay.net/e7c9d846abccb7ac93d2c3a9ab5a64c8a",
-            "uuid": "4059c19283eddb176df88ad31b082b63"
+            "uuid": "93af4cd8aae65d6092e226f271da1e0e"
           }
         ]
       },
@@ -53280,24 +53500,24 @@
             "uuid": "25df73ca47043c4971f6f60b44d661ea"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/29f4822d-9880-4116-a2a6-f73469e0af61",
+            "program_id": "crid://csi.digitaluk.co.uk/f8079921-8a46-4e8d-a1cf-44caf1237017",
             "event_locator": "dvb://233a..921d;3d92",
             "main_title": "Pure Spice with DJ Manara",
             "start_time": "2026-10-10T20:00:00+0000",
             "duration": "PT3H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e49afb781a50347d8c96a8d6a2a09f63c",
-            "uuid": "f2cf2b6bdc9e45282f7d7546121c5a11"
+            "uuid": "3183622561f81107cffeb67b0548b564"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/1dd378c6-023f-4555-8fe1-b0d956c02b67",
+            "program_id": "crid://csi.digitaluk.co.uk/4fbf58ec-16ec-4480-9339-d08d3585ac11",
             "event_locator": "dvb://233a..921d;3f7c",
             "main_title": "Pure Spice - Takeover",
             "start_time": "2026-10-10T23:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/ea744566f8a9a80346eea480e88a841ac",
-            "uuid": "cc741f13b2ff39b0d0323ad0c873e989"
+            "uuid": "82ebf825306274065f70ee876568a198"
           }
         ]
       },
@@ -53486,454 +53706,454 @@
             "uuid": "a820e947c9e7bd84f70bfbe020d6a44c"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/368ec653-0abd-400e-8ed5-2d4042282848",
+            "program_id": "crid://csi.digitaluk.co.uk/60c14e56-9377-49d4-a342-7723ff6e54c8",
             "event_locator": "dvb://233a..921e;488c",
             "main_title": "BBC News",
             "start_time": "2026-10-10T05:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "7617a74f6123bb39d0afa61f3a573501"
+            "uuid": "3c0bf03cb611012ee6a156035d5ff252"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/612749dc-25bc-40e1-b154-93092ed89812",
+            "program_id": "crid://csi.digitaluk.co.uk/79f54074-a013-4ba7-a002-626f8d3eb872",
             "event_locator": "dvb://233a..921e;488d",
             "main_title": "Weekend",
             "start_time": "2026-10-10T05:06:00+0000",
             "duration": "PT54M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e6120009b27c3382a37ce96eaf9e57dd7",
-            "uuid": "9ae0df3676121696108505be187ea258"
+            "uuid": "94fc1e8609514cdffe9ecbb175286d4a"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/62b53ac2-c081-418d-a39f-72c76cf40aac",
+            "program_id": "crid://csi.digitaluk.co.uk/b2483647-88e9-411e-8033-cea0495dc5b5",
             "event_locator": "dvb://233a..921e;488e",
             "main_title": "BBC News",
             "start_time": "2026-10-10T06:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "11deed15309c2a5546e8db9e4458ebcd"
+            "uuid": "6c19a2231242c1abbc1d6cbebf5224de"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/bda5b685-24a9-4e2c-ba9b-f2cf3dd4928e",
+            "program_id": "crid://csi.digitaluk.co.uk/f954e4c1-39eb-422c-a152-4fb37f7c5d7e",
             "event_locator": "dvb://233a..921e;488f",
             "main_title": "Weekend",
             "start_time": "2026-10-10T06:06:00+0000",
             "duration": "PT54M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e6120009b27c3382a37ce96eaf9e57dd7",
-            "uuid": "092e513396daaf23b2f66a78c35f496e"
+            "uuid": "a4e218792cf16eff7ed3e270220b7a03"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/0605620a-7125-40b6-bde3-294d1c07653c",
+            "program_id": "crid://csi.digitaluk.co.uk/db79f884-5dbc-415f-8702-8eb641687155",
             "event_locator": "dvb://233a..921e;4890",
             "main_title": "BBC News",
             "start_time": "2026-10-10T07:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "16fb896c83e6d0400e882e7e19f19ec8"
+            "uuid": "fc656e8a4ae54ee6d9758f6cd18036f3"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/374fae6a-c1f5-4c84-9c13-64142a2b31c5",
+            "program_id": "crid://csi.digitaluk.co.uk/25cb1645-4572-4dda-87aa-ff9437fe64b4",
             "event_locator": "dvb://233a..921e;4891",
             "main_title": "Weekend",
             "start_time": "2026-10-10T07:06:00+0000",
             "duration": "PT54M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e6120009b27c3382a37ce96eaf9e57dd7",
-            "uuid": "38b14b157eebebaf9d4c5be3bad16f06"
+            "uuid": "89dd8c7cc9573d063b163b856656be58"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/844fc8b1-fbe8-4c3a-944b-fa72673b12e4",
+            "program_id": "crid://csi.digitaluk.co.uk/8b461e14-b498-42e1-854c-963c5ac830aa",
             "event_locator": "dvb://233a..921e;4892",
             "main_title": "BBC News",
             "start_time": "2026-10-10T08:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "5b9f9555a95c39c0c8ef076094cd2f74"
+            "uuid": "7afc028fe25b75b426618ad1bf26156b"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/7c34d6f0-b289-4569-bf3e-fe29b022c9a7",
+            "program_id": "crid://csi.digitaluk.co.uk/9c78ab10-4d15-4b80-84da-766df27fc708",
             "event_locator": "dvb://233a..921e;4893",
             "main_title": "BBC Conversations",
             "start_time": "2026-10-10T08:06:00+0000",
             "duration": "PT24M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/eb04d19104276580085c6617bcc06adf3",
-            "uuid": "5a4f75dbe78127c981e0e102c403c505"
+            "uuid": "da2a01d1d061bb2383e68bd9a9d3c434"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/f4baa6f4-5e46-4b26-a002-a16710d4461a",
+            "program_id": "crid://csi.digitaluk.co.uk/4fdd1d11-fa84-4c1c-b08f-faa642e26af7",
             "event_locator": "dvb://233a..921e;4894",
             "main_title": "BBC News Summary",
             "start_time": "2026-10-10T08:30:00+0000",
             "duration": "PT2M30S",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e29d48c663b4ef3482760016a04179a6e",
-            "uuid": "ce9497f0643ef476131245ba751f7605"
+            "uuid": "98ede3b78fcf50ec005da66b229dcd67"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/090d15ac-03fd-4d78-befe-46432583f154",
+            "program_id": "crid://csi.digitaluk.co.uk/95dba3e7-676f-454c-8fea-d07416ea0f33",
             "event_locator": "dvb://233a..921e;4895",
             "main_title": "Americast",
             "start_time": "2026-10-10T08:32:30+0000",
             "duration": "PT27M30S",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/ebd4b0f6be002528943ff3acad0534971",
-            "uuid": "4ef1c1b213b840c5183df7e9c6fefb8e"
+            "uuid": "d6e51482371e281c800e28c33e4b1df1"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/8358908c-ef5b-4395-af59-d017fd70a277",
+            "program_id": "crid://csi.digitaluk.co.uk/679df349-3f7f-4e55-ba62-8946bd9bfc28",
             "event_locator": "dvb://233a..921e;4896",
             "main_title": "BBC News",
             "start_time": "2026-10-10T09:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "eed0cfdbb55792332fe89f29393ceffd"
+            "uuid": "26d78fa9c2772f1d3a7b024d940996cf"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/eba966ee-c537-4a3f-a97a-afdae06a1d93",
+            "program_id": "crid://csi.digitaluk.co.uk/c14d5557-7507-4dcd-a422-b115322a4e68",
             "event_locator": "dvb://233a..921e;4897",
             "main_title": "Not by the Playbook",
             "start_time": "2026-10-10T09:06:00+0000",
             "duration": "PT54M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
             "fallback_image_url": "http://img.freeviewplay.net/e0dc933fc35a7f383ffd18bd7376e937e",
-            "uuid": "5b0200911d4bd2f4f89d43696bf6e49c"
+            "uuid": "dcae11256d926cb6cd0e3a833dd563bd"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/136289e0-1a42-4df3-a00a-a98da601adf7",
+            "program_id": "crid://csi.digitaluk.co.uk/c369ea80-3535-40e1-84cc-e5e9087d546a",
             "event_locator": "dvb://233a..921e;4898",
             "main_title": "BBC News",
             "start_time": "2026-10-10T10:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "a5bc11e4db0bfce13b832e584b38f248"
+            "uuid": "5ee47944c625a9ad6091c0f4eadc91fa"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/5cff96a0-490c-4c22-bd11-7f483cf77ed3",
+            "program_id": "crid://csi.digitaluk.co.uk/f65d21d8-ba8a-4be5-95a0-058cf5bf9a35",
             "event_locator": "dvb://233a..921e;4899",
             "main_title": "The Newsroom",
             "start_time": "2026-10-10T10:06:00+0000",
             "duration": "PT24M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/ebd6ed56a19bfe0a20e162063bfe74a7b",
-            "uuid": "3d67052ae0af7efa953b989fffb1d541"
+            "uuid": "eccde4986f839c00b3291266633a76af"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/dcf9b31a-a6dc-4439-8ec9-b5d7245c96d5",
+            "program_id": "crid://csi.digitaluk.co.uk/b5e731cb-d732-4c7e-9c48-ce8b333401fb",
             "event_locator": "dvb://233a..921e;489a",
             "main_title": "BBC News Summary",
             "start_time": "2026-10-10T10:30:00+0000",
             "duration": "PT2M30S",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e29d48c663b4ef3482760016a04179a6e",
-            "uuid": "de07b74fb8eae88e4c7664831a3e8472"
+            "uuid": "51f0c6323e7dbf10fb88541ce83c2641"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/597ba449-b708-44e8-9c9d-b54224536cb1",
+            "program_id": "crid://csi.digitaluk.co.uk/2d85962a-c56e-4c78-a7b0-70c7d8fe5dc8",
             "event_locator": "dvb://233a..921e;489b",
             "main_title": "Unspun World with John Simpson",
             "start_time": "2026-10-10T10:32:30+0000",
             "duration": "PT27M30S",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/ee56ff6245f7705f7b55fc130b0085db6",
-            "uuid": "dcdecd5ab043711bd002607af285a6a7"
+            "uuid": "6a1e566d492e824642ef28c21b00a146"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/843f1629-8cfe-4939-9e1e-2c700ecfaebe",
+            "program_id": "crid://csi.digitaluk.co.uk/15d2ceb7-bf5a-4c42-aa82-41ace9c7ed70",
             "event_locator": "dvb://233a..921e;489c",
             "main_title": "BBC News",
             "start_time": "2026-10-10T11:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "b2bb49369d559542cf2d7da1ccd44c5c"
+            "uuid": "25fffc208f261c05f9dad452ae4a87e9"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/a78711ab-40ed-44d1-a1e4-1d27528dc820",
+            "program_id": "crid://csi.digitaluk.co.uk/7129ca7f-b150-4497-9163-970d8ed6349f",
             "event_locator": "dvb://233a..921e;489d",
             "main_title": "World Questions",
             "start_time": "2026-10-10T11:06:00+0000",
             "duration": "PT54M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e18a2710815615444646b5a241eda2bac",
-            "uuid": "c1fa1143da72d0ab0cb128cdba5cb927"
+            "uuid": "087bbf0ffa6f1365c42184c0c02e4755"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/948209fd-404b-4d57-be84-927554089ce1",
+            "program_id": "crid://csi.digitaluk.co.uk/3d5c2692-d5fd-407c-884e-c76b20760583",
             "event_locator": "dvb://233a..921e;489e",
             "main_title": "BBC News",
             "start_time": "2026-10-10T12:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "85d608a67a247a469731e710f3d7aaaa"
+            "uuid": "676b9e35c712680e04ba45ebf0194fe7"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/3df41f06-5004-4b08-8162-1c652aa75d33",
+            "program_id": "crid://csi.digitaluk.co.uk/58a14d1f-55a7-4d38-a50e-dcb3601df486",
             "event_locator": "dvb://233a..921e;489f",
             "main_title": "Newshour",
             "start_time": "2026-10-10T12:06:00+0000",
             "duration": "PT54M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/eb397570df9496620996ba7c06be208ba",
-            "uuid": "f1695b1c92631239dc2976108d2da1f1"
+            "uuid": "251c798b422fd10795d52350b1025a1b"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/b867abab-8f76-45e7-87d8-e620ac1e2dc0",
+            "program_id": "crid://csi.digitaluk.co.uk/80d247ba-866c-4bdc-8511-e04945df9484",
             "event_locator": "dvb://233a..921e;48a0",
             "main_title": "BBC News",
             "start_time": "2026-10-10T13:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "825c241323f2c366866b3b295915f5ae"
+            "uuid": "23864688600e5425cc74078e08d91657"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/19329abb-7398-472b-b4c2-43d77c5f7209",
+            "program_id": "crid://csi.digitaluk.co.uk/f0676617-3ad5-425f-b039-5387ee9ca117",
             "event_locator": "dvb://233a..921e;48a1",
             "main_title": "Sportsworld",
             "start_time": "2026-10-10T13:06:00+0000",
             "duration": "PT3H54M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
             "fallback_image_url": "http://img.freeviewplay.net/ecad995789ac71b24f1d750b1fd2e4a2e",
-            "uuid": "827298e7d038310daf4991dd3dad5e64"
+            "uuid": "b059a96104f5f914cad3ed19b1177afa"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/a2816e00-d510-407b-ae1d-4eccbbea4ac1",
+            "program_id": "crid://csi.digitaluk.co.uk/0f0e71bf-46e8-4603-ac58-fe1c41fadc4c",
             "event_locator": "dvb://233a..921e;48a2",
             "main_title": "BBC News",
             "start_time": "2026-10-10T17:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "f2afbbe1bfac622744701313eef629d6"
+            "uuid": "dbe6c76ee8fd2f659c4116e338180e35"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/95624cdf-1e6d-40b0-abb5-159d172d7fb7",
+            "program_id": "crid://csi.digitaluk.co.uk/526eb2a6-680d-4e11-a720-d20401f18258",
             "event_locator": "dvb://233a..921e;48a3",
             "main_title": "The Newsroom",
             "start_time": "2026-10-10T17:06:00+0000",
             "duration": "PT24M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/ebd6ed56a19bfe0a20e162063bfe74a7b",
-            "uuid": "1522232acc4fa2a5b6fed1f3d42bef69"
+            "uuid": "2e82baebd05d7bd94e2d1c393e816b9c"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/96eecab9-3029-4138-b60d-04ae376a4771",
+            "program_id": "crid://csi.digitaluk.co.uk/99caa15a-df61-402a-972e-76d534a97203",
             "event_locator": "dvb://233a..921e;48a4",
             "main_title": "BBC News Summary",
             "start_time": "2026-10-10T17:30:00+0000",
             "duration": "PT2M30S",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e29d48c663b4ef3482760016a04179a6e",
-            "uuid": "6c53909c152ff6d4dce25814db102ef6"
+            "uuid": "86a7232f889097bfc24517795c30bd20"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/bb3b13f0-d09e-4f7a-aabb-c26622917468",
+            "program_id": "crid://csi.digitaluk.co.uk/637c0885-bec4-43d2-ad2f-629422ecc125",
             "event_locator": "dvb://233a..921e;48a5",
             "main_title": "Amazing Sport Stories",
             "start_time": "2026-10-10T17:32:30+0000",
             "duration": "PT17M30S",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/ecfb338cd159853f68866111c31f52e41",
-            "uuid": "cac82fdf34f556da6ba8d2b7719d5a20"
+            "uuid": "f65fbcab2b46a71784b00ed88c627ad2"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/a3681c44-b92b-4586-91dc-d7ddecc5873a",
+            "program_id": "crid://csi.digitaluk.co.uk/b65892fb-1f7d-4454-bb39-2abb7fb56a01",
             "event_locator": "dvb://233a..921e;48a6",
             "main_title": "Sporting Witness",
             "start_time": "2026-10-10T17:50:00+0000",
             "duration": "PT10M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
             "fallback_image_url": "http://img.freeviewplay.net/ed39d27eacb211ffbe8ccbf56523cc82b",
-            "uuid": "19261ae9053df2813221a2a49438687e"
+            "uuid": "7ae462191ea04beb25fa5eae201aa3bd"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/99a0da4e-e331-44b6-b790-c3626537b39b",
+            "program_id": "crid://csi.digitaluk.co.uk/fb2daf3c-14a0-47f9-8bd0-f43899bc27b3",
             "event_locator": "dvb://233a..921e;48a7",
             "main_title": "BBC News",
             "start_time": "2026-10-10T18:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "5d5ed0207c5e27f2d4386807a33a12f7"
+            "uuid": "a809aed9c353973bf6ec709b0c45872a"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/b0400525-d0b3-4b56-a592-de9dff41fc04",
+            "program_id": "crid://csi.digitaluk.co.uk/0a54ac54-ce62-4b31-902d-a3c9cd848223",
             "event_locator": "dvb://233a..921e;48a8",
             "main_title": "The Inquiry",
             "start_time": "2026-10-10T18:06:00+0000",
             "duration": "PT24M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e2392ad83f1eeb77f5414e00e9bb41c2b",
-            "uuid": "9c9fa39bb396da2b5c26d1866aa06a37"
+            "uuid": "13aced8fa271a7ce6552f92da75d2c23"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/73de60b5-069d-41ed-8554-ff44a74be865",
+            "program_id": "crid://csi.digitaluk.co.uk/c3c75543-cb34-40b7-90d9-38f422d8e9c4",
             "event_locator": "dvb://233a..921e;48a9",
             "main_title": "BBC News Summary",
             "start_time": "2026-10-10T18:30:00+0000",
             "duration": "PT2M30S",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e29d48c663b4ef3482760016a04179a6e",
-            "uuid": "05013f700243520fc0b6f91f5ff4678a"
+            "uuid": "741744016e1f8f51a3f6ff0ee0ad0ca6"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/61e1f5eb-0281-49b0-9d82-1cb6e1a396c6",
+            "program_id": "crid://csi.digitaluk.co.uk/f0a89f00-3b0b-4442-936d-1b6632463987",
             "event_locator": "dvb://233a..921e;48aa",
             "main_title": "World of Secrets",
             "start_time": "2026-10-10T18:32:30+0000",
             "duration": "PT27M30S",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e7e101fd24f5ac70ba399624761bac57c",
-            "uuid": "cde43830ee6971d965ad15b7244f0cb8"
+            "uuid": "b3a3839ff428ad3a7f9b30635b0603b8"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/d1ecd336-49fa-4f29-a558-adcfa4c7d633",
+            "program_id": "crid://csi.digitaluk.co.uk/9ae929c3-9398-45d6-bad3-1de2ba7ab103",
             "event_locator": "dvb://233a..921e;48ab",
             "main_title": "BBC News",
             "start_time": "2026-10-10T19:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "3d052ae6ab39071d8d3ffa1911129cec"
+            "uuid": "9f058070f4a998527e64386219ebb093"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/2c206be1-3f84-4ef2-8ab2-aeab57db515d",
+            "program_id": "crid://csi.digitaluk.co.uk/33b9d6d9-eefd-4d39-a3c9-a56260fec3b2",
             "event_locator": "dvb://233a..921e;48ac",
             "main_title": "The Arts Hour",
             "start_time": "2026-10-10T19:06:00+0000",
             "duration": "PT54M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/eb5dadedf8346154198e2b90475a112d9",
-            "uuid": "8354b04197c915b128f53781293200e3"
+            "uuid": "481a1e970120e2c74999f5724c107bce"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/e9bf1ad7-0a9d-4b60-8161-266becaf8514",
+            "program_id": "crid://csi.digitaluk.co.uk/190956af-cbf9-45dd-8526-80ebe1983826",
             "event_locator": "dvb://233a..921e;48ad",
             "main_title": "BBC News",
             "start_time": "2026-10-10T20:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "262b76cb68b8b00412966308fe8888be"
+            "uuid": "235dde575fef2db04f14d28585452678"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/e33d4143-a704-4612-bac5-a9b69565a2fd",
+            "program_id": "crid://csi.digitaluk.co.uk/7bace03f-d5fd-43f0-b873-b436c6f0d5a9",
             "event_locator": "dvb://233a..921e;48ae",
             "main_title": "Newshour",
             "start_time": "2026-10-10T20:06:00+0000",
             "duration": "PT54M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/eb397570df9496620996ba7c06be208ba",
-            "uuid": "ce7e91f923e627de979657046d3b70d9"
+            "uuid": "2040d7b498d3b47d68977f058f3d6ebe"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/1fdb4609-4726-4b9e-b8f5-9eb9af5ffd79",
+            "program_id": "crid://csi.digitaluk.co.uk/2e08a807-796e-47a4-8fa2-893a71790f32",
             "event_locator": "dvb://233a..921e;48af",
             "main_title": "BBC News",
             "start_time": "2026-10-10T21:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "e475f85544d242bcff7324bb248768f9"
+            "uuid": "aced39bad078dd9374f4364c70304c65"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/387f2223-b4a5-477d-b56d-c4b3aafe00ed",
+            "program_id": "crid://csi.digitaluk.co.uk/696b5c36-f1e1-41c1-94f4-2c84059f2070",
             "event_locator": "dvb://233a..921e;48b0",
             "main_title": "Not by the Playbook",
             "start_time": "2026-10-10T21:06:00+0000",
             "duration": "PT54M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
             "fallback_image_url": "http://img.freeviewplay.net/e0dc933fc35a7f383ffd18bd7376e937e",
-            "uuid": "d105a6d93f16ab9dd3ef2f9892b24765"
+            "uuid": "596cdef8a000b784d87d77a3abc6cb1b"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/0a067d53-8a45-468d-99d6-af117650a652",
+            "program_id": "crid://csi.digitaluk.co.uk/b39ca4ca-0a7f-4d2f-946b-279ed3bb3a2c",
             "event_locator": "dvb://233a..921e;48b1",
             "main_title": "BBC News",
             "start_time": "2026-10-10T22:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "3f98c37db2a4be3b4338309f1dfac11e"
+            "uuid": "cf88a00c60209ea54ef281ab2b3910f8"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/692698da-9fdf-45bb-8132-478f911cef3b",
+            "program_id": "crid://csi.digitaluk.co.uk/34262bf2-0531-4549-b1d7-467730f12c99",
             "event_locator": "dvb://233a..921e;48b2",
             "main_title": "The Newsroom",
             "start_time": "2026-10-10T22:06:00+0000",
             "duration": "PT24M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/ebd6ed56a19bfe0a20e162063bfe74a7b",
-            "uuid": "a0e10b7427b894efa98aee6ec3074739"
+            "uuid": "b44271311d6ff31da11aea6668244461"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/321b93e2-9b9e-48f3-bb6f-9c69e814f594",
+            "program_id": "crid://csi.digitaluk.co.uk/c6dab28a-5980-4e08-a218-fb81ca3cf4d2",
             "event_locator": "dvb://233a..921e;48b3",
             "main_title": "BBC News Summary",
             "start_time": "2026-10-10T22:30:00+0000",
             "duration": "PT2M30S",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e29d48c663b4ef3482760016a04179a6e",
-            "uuid": "1b38879c9764b857826d29b2a80f00df"
+            "uuid": "7b80d991ae76a79b73cd3664b02cd3b4"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/c9e78746-8cf6-4a00-88f2-3c71610a8c06",
+            "program_id": "crid://csi.digitaluk.co.uk/a6a51873-dc60-4c44-adae-7b903d84c53d",
             "event_locator": "dvb://233a..921e;48b4",
             "main_title": "This Is Africa",
             "start_time": "2026-10-10T22:32:30+0000",
             "duration": "PT27M30S",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "fallback_image_url": "http://img.freeviewplay.net/e3f42834586eeca5cbb2e3253cefb765f",
-            "uuid": "d12d986729ff0b1cfdf440acea837d86"
+            "uuid": "d173a37e88fc6600dee370b49449b5d6"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/af61b777-19b9-4e13-afe2-05908a7ce0f5",
+            "program_id": "crid://csi.digitaluk.co.uk/60df5407-93bf-47f7-8f92-cb2d1ccd1b36",
             "event_locator": "dvb://233a..921e;48b5",
             "main_title": "BBC News",
             "start_time": "2026-10-10T23:00:00+0000",
             "duration": "PT6M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e083cdf77f1d6e39ece0ca7ef1e9089d1",
-            "uuid": "5d4ca1f08d90984b4020ed200353fd6d"
+            "uuid": "3a982696e570e4ac9138105d45fa02b2"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/71cee1e3-d52d-4d70-8e14-f41454018d32",
+            "program_id": "crid://csi.digitaluk.co.uk/52b04884-d4d1-4a27-9ecb-2f686723b0a1",
             "event_locator": "dvb://233a..921e;48b6",
             "main_title": "BBC Conversations",
             "start_time": "2026-10-10T23:06:00+0000",
             "duration": "PT24M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/eb04d19104276580085c6617bcc06adf3",
-            "uuid": "2f8e553389c5ad8aa7559271858d6228"
+            "uuid": "447319dbf7e06a4b0e7f1a8ca1c4ba46"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/de17918d-9ac3-458d-877b-1aa03daf02be",
+            "program_id": "crid://csi.digitaluk.co.uk/8f837938-ef1c-4f29-9f2b-cba138e82e7f",
             "event_locator": "dvb://233a..921e;48b7",
             "main_title": "BBC News Summary",
             "start_time": "2026-10-10T23:30:00+0000",
             "duration": "PT2M30S",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e29d48c663b4ef3482760016a04179a6e",
-            "uuid": "1cdc0673f79f3e5396be0b5789f50cd3"
+            "uuid": "006c39783988fc217ada61822b69131b"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/833368d1-ab6e-4740-8445-8e820ea91b30",
+            "program_id": "crid://csi.digitaluk.co.uk/6e4dbdf8-ea39-4059-a21a-ad5551650189",
             "event_locator": "dvb://233a..921e;4b01",
             "main_title": "The Documentary",
             "start_time": "2026-10-10T23:32:30+0000",
             "duration": "PT27M30S",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e031cbc9509e421552c7f27ec3868e4e0",
-            "uuid": "7f2d10c5044b29502154b2cd9dcf96dc"
+            "uuid": "745b71809b285a55d4e23f1cc39cc586"
           }
         ]
       },
@@ -55466,14 +55686,14 @@
             "uuid": "1c09092d2f1b295de2e058c953e2837f"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/dca663f4-8dca-437e-bc8f-418d316fe38a",
+            "program_id": "crid://csi.digitaluk.co.uk/7bd217c4-9406-49eb-8581-6ea8bb44388e",
             "event_locator": "dvb://233a..9221;27f2",
             "main_title": "Channel off-air.",
             "start_time": "2026-10-10T15:00:00+0000",
             "duration": "PT9H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
             "fallback_image_url": "http://img.freeviewplay.net/e76255efda779ab07b19752f38942bdb1",
-            "uuid": "3cc0ea83aacd5d1ae859a128e2baf9a6"
+            "uuid": "7eddae1257bea6aaccbb9862bbee45b3"
           }
         ]
       },
@@ -65732,7 +65952,7 @@
             "event_locator": "dvb://233a..913c;2bfe",
             "main_title": "Weather for the Week Ahead",
             "secondary_title": "10/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p4bd28db23e54623c45ecd1f846b5e66d",
+            "image_url": "https://img.freeviewplay.tv/p262f903ad416f6991be4bc2ca27a7d73",
             "start_time": "2026-10-10T00:05:00+0000",
             "duration": "PT5M",
             "on_demand": {
@@ -67270,7 +67490,7 @@
             "event_locator": "dvb://233a..917e;1baf",
             "main_title": "This is BBC Two",
             "secondary_title": "This is BBC Two",
-            "image_url": "https://img.freeviewplay.tv/p971ecb7a3db6375155111293cd380dda",
+            "image_url": "https://img.freeviewplay.tv/p3eefc63d6825f8304be936c3202c1f37",
             "start_time": "2026-10-10T01:50:00+0000",
             "duration": "PT3H15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -67860,7 +68080,7 @@
             "event_locator": "dvb://233a..917d;1bb6",
             "main_title": "This is BBC Two",
             "secondary_title": "This is BBC Two",
-            "image_url": "https://img.freeviewplay.tv/p971ecb7a3db6375155111293cd380dda",
+            "image_url": "https://img.freeviewplay.tv/p3eefc63d6825f8304be936c3202c1f37",
             "start_time": "2026-10-10T01:50:00+0000",
             "duration": "PT3H15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
