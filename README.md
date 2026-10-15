@@ -354,7 +354,6 @@ layout_options:
 | 34496 | Your TV | [channels/34496.json](https://elyobelyob.github.io/freely_tv_guide/channels/34496.json) |
 | 34112 | Your TV Extra | [channels/34112.json](https://elyobelyob.github.io/freely_tv_guide/channels/34112.json) |
 | 22592 | talkSPORT | [channels/22592.json](https://elyobelyob.github.io/freely_tv_guide/channels/22592.json) |
-| 40711 | wedotv Movies | [channels/40711.json](https://elyobelyob.github.io/freely_tv_guide/channels/40711.json) |
 | 23216 | wedotv Movies UK | [channels/23216.json](https://elyobelyob.github.io/freely_tv_guide/channels/23216.json) |
 <!-- CHANNELS_END -->
 
