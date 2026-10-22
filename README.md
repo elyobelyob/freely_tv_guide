@@ -131,7 +131,7 @@ layout_options:
 | 38158 | 5 Trucking Hell | [channels/38158.json](https://elyobelyob.github.io/freely_tv_guide/channels/38158.json) |
 | 38156 | 5 Yorkshire Vet | [channels/38156.json](https://elyobelyob.github.io/freely_tv_guide/channels/38156.json) |
 | 38146 | 5ACTION | [channels/38146.json](https://elyobelyob.github.io/freely_tv_guide/channels/38146.json) |
-| 38147 | 5SELECT | [channels/38147.json](https://elyobelyob.github.io/freely_tv_guide/channels/38147.json) |
+| 38147 | 5DRAMA | [channels/38147.json](https://elyobelyob.github.io/freely_tv_guide/channels/38147.json) |
 | 38148 | 5STAR | [channels/38148.json](https://elyobelyob.github.io/freely_tv_guide/channels/38148.json) |
 | 38149 | 5USA | [channels/38149.json](https://elyobelyob.github.io/freely_tv_guide/channels/38149.json) |
 | 34240 | AL ARABIYA | [channels/34240.json](https://elyobelyob.github.io/freely_tv_guide/channels/34240.json) |
@@ -234,7 +234,6 @@ layout_options:
 | 16164 | CNA Originals | [channels/16164.json](https://elyobelyob.github.io/freely_tv_guide/channels/16164.json) |
 | 39425 | CNN Headlines International | [channels/39425.json](https://elyobelyob.github.io/freely_tv_guide/channels/39425.json) |
 | 22688 | Capital | [channels/22688.json](https://elyobelyob.github.io/freely_tv_guide/channels/22688.json) |
-| 34432 | Cartoon Classics | [channels/34432.json](https://elyobelyob.github.io/freely_tv_guide/channels/34432.json) |
 | 22226 | Challenge | [channels/22226.json](https://elyobelyob.github.io/freely_tv_guide/channels/22226.json) |
 | 37889 | Channel 4 | [channels/37889.json](https://elyobelyob.github.io/freely_tv_guide/channels/37889.json) |
 | 8452 | Channel 4+1 | [channels/8452.json](https://elyobelyob.github.io/freely_tv_guide/channels/8452.json) |
@@ -350,12 +349,14 @@ layout_options:
 | 38660 | U&W | [channels/38660.json](https://elyobelyob.github.io/freely_tv_guide/channels/38660.json) |
 | 38657 | U&Yesterday | [channels/38657.json](https://elyobelyob.github.io/freely_tv_guide/channels/38657.json) |
 | 14464 | WildEarth | [channels/14464.json](https://elyobelyob.github.io/freely_tv_guide/channels/14464.json) |
-| 15864 | Your Music | [channels/15864.json](https://elyobelyob.github.io/freely_tv_guide/channels/15864.json) |
-| 34496 | Your TV | [channels/34496.json](https://elyobelyob.github.io/freely_tv_guide/channels/34496.json) |
-| 34112 | Your TV Extra | [channels/34112.json](https://elyobelyob.github.io/freely_tv_guide/channels/34112.json) |
 | 22592 | talkSPORT | [channels/22592.json](https://elyobelyob.github.io/freely_tv_guide/channels/22592.json) |
 | 40711 | wedotv Movies | [channels/40711.json](https://elyobelyob.github.io/freely_tv_guide/channels/40711.json) |
 | 23216 | wedotv Movies UK | [channels/23216.json](https://elyobelyob.github.io/freely_tv_guide/channels/23216.json) |
+| 34944 | your 80s | [channels/34944.json](https://elyobelyob.github.io/freely_tv_guide/channels/34944.json) |
+| 34112 | your OLDIES | [channels/34112.json](https://elyobelyob.github.io/freely_tv_guide/channels/34112.json) |
+| 34880 | your ROCK | [channels/34880.json](https://elyobelyob.github.io/freely_tv_guide/channels/34880.json) |
+| 34496 | your TV | [channels/34496.json](https://elyobelyob.github.io/freely_tv_guide/channels/34496.json) |
+| 15864 | your XMAS | [channels/15864.json](https://elyobelyob.github.io/freely_tv_guide/channels/15864.json) |
 <!-- CHANNELS_END -->
 
 ## Stats
