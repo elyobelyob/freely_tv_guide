@@ -350,7 +350,6 @@ layout_options:
 | 38657 | U&Yesterday | [channels/38657.json](https://elyobelyob.github.io/freely_tv_guide/channels/38657.json) |
 | 14464 | WildEarth | [channels/14464.json](https://elyobelyob.github.io/freely_tv_guide/channels/14464.json) |
 | 22592 | talkSPORT | [channels/22592.json](https://elyobelyob.github.io/freely_tv_guide/channels/22592.json) |
-| 40711 | wedotv Movies | [channels/40711.json](https://elyobelyob.github.io/freely_tv_guide/channels/40711.json) |
 | 23216 | wedotv Movies UK | [channels/23216.json](https://elyobelyob.github.io/freely_tv_guide/channels/23216.json) |
 | 34944 | your 80s | [channels/34944.json](https://elyobelyob.github.io/freely_tv_guide/channels/34944.json) |
 | 34112 | your OLDIES | [channels/34112.json](https://elyobelyob.github.io/freely_tv_guide/channels/34112.json) |
