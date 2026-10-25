@@ -45,7 +45,7 @@
             "event_locator": "dvb://233a..9104;3afe",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -735,7 +735,7 @@
             "event_locator": "dvb://233a..9140;1544",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T07:45:00+0000",
             "duration": "PT1H15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -1340,14 +1340,25 @@
         "title": "Channel 4",
         "events": [
           {
-            "program_id": "crid://csi.digitaluk.co.uk/63cc2e65-c50c-4713-b2eb-0f9cb7785434",
+            "program_id": "crid://movida.bebanjo.net/mas/version/77663/047/ASDELIVERED/C",
             "event_locator": "dvb://233a..9401;bd13",
-            "main_title": "F1 United States GP Qualifying...",
-            "image_url": "https://img.freeviewplay.tv/eb493982fccba009e042aa47fff3baaf0",
+            "main_title": "Formula 1 ®",
+            "secondary_title": "20267075. United States GP Qualifying Highlights",
+            "image_url": "https://img.freeviewplay.tv/p2852bcb6e63d5b4576c43f8222d21ac8",
             "start_time": "2026-10-25T00:05:00+0000",
             "duration": "PT50M",
+            "on_demand": {
+              "start_of_availability": "2026-10-25T00:55:00+0000",
+              "end_of_availability": "2026-11-01T01:55:59+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://ait.channel4.com/ait/content?brand=formula-1&programme=77663-047",
+                  "template_url": "https://ait.channel4.com/ait/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-            "uuid": "bcd2acc173da886f5f594fac325ae9d1"
+            "uuid": "65c18bb8190059cf73b209b9893b57dc"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/7ee4e0e2-104b-4fee-a7a7-e76c5edeef6f",
@@ -1480,14 +1491,15 @@
             "uuid": "3ed10363e6e614d81c67880c82900917"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/8042d43f-7aad-473f-880f-bfb8ab9bbf34",
+            "program_id": "crid://movida.bebanjo.net/mas/version/77663/047/ASDELIVERED/C",
             "event_locator": "dvb://233a..9401;bea1",
-            "main_title": "F1 United States GP Qualifying...",
-            "image_url": "https://img.freeviewplay.tv/eb493982fccba009e042aa47fff3baaf0",
+            "main_title": "Formula 1 ®",
+            "secondary_title": "20267075. United States GP Qualifying Highlights",
+            "image_url": "https://img.freeviewplay.tv/p2852bcb6e63d5b4576c43f8222d21ac8",
             "start_time": "2026-10-25T09:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-            "uuid": "6e315c74706b0db86f4c8c2880e66bd7"
+            "uuid": "0f3f73d9818b24b776d2a68e585a80d8"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/65ed9ac2-7d04-475e-ac48-75a145da28a9",
@@ -2143,6 +2155,16 @@
             "image_url": "https://img.freeviewplay.tv/p0a0ee3c034fbf08865b5a281a88bf948",
             "start_time": "2026-10-25T00:15:00+0000",
             "duration": "PT1H5M",
+            "on_demand": {
+              "start_of_availability": "2023-02-23T07:00:00+0000",
+              "end_of_availability": "2027-01-31T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_3226_0010.001",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "fd28bdec717d3d40a6b64a982cbd0ec7"
           },
@@ -2154,6 +2176,16 @@
             "image_url": "https://img.freeviewplay.tv/pe58b019b4c48ab336a1ce7392ecc2d3d",
             "start_time": "2026-10-25T01:20:00+0000",
             "duration": "PT30M",
+            "on_demand": {
+              "start_of_availability": "2026-06-01T06:00:00+0000",
+              "end_of_availability": "2029-02-28T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/2_1670_0014.001",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "e1973c216438265d712bbf8ed4e7d2c9"
           },
@@ -2620,14 +2652,14 @@
         "title": "London TV",
         "events": [
           {
-            "program_id": "crid://csi.digitaluk.co.uk/c9f8fd1f-be0b-4d78-9e62-fd21b39a532b",
-            "event_locator": "dvb://233a..9612;5e02",
-            "main_title": "UK Forensic Breakthroughs",
+            "program_id": "crid://csi.digitaluk.co.uk/a60454d2-17e0-41be-9d84-e53f76e969cc",
+            "event_locator": "dvb://233a..9612;5fab",
+            "main_title": "New Scotland Yard Files",
             "start_time": "2026-10-25T00:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-            "fallback_image_url": "http://img.freeviewplay.net/ea91b5b39f747c067067eba701d5c3a31",
-            "uuid": "4d645ea60c8608d4aedae404b47ee54b"
+            "fallback_image_url": "http://img.freeviewplay.net/e49e42a3e00b06dae79ba98e0a45a8743",
+            "uuid": "563ab75eb2de36ed4cae8de26af994d7"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/549ffa52-6827-4753-86f0-d46a1cb2d2fb",
@@ -3006,7 +3038,7 @@
             "event_locator": "dvb://233a..9198;793f",
             "main_title": "Two Pints of Lager and a Packet of Crisps",
             "secondary_title": "Series 2: 4. Vomit",
-            "image_url": "https://img.freeviewplay.tv/p8d065857660a9a92cc24b1a050c1c105",
+            "image_url": "https://img.freeviewplay.tv/p8a99ff7156c1c20c49bcf72e41f6eeaf",
             "start_time": "2026-10-25T01:25:00+0000",
             "duration": "PT30M",
             "on_demand": {
@@ -6005,6 +6037,16 @@
             "image_url": "https://img.freeviewplay.tv/p3f8d0e151e5d5fe5ca72cae32316d18c",
             "start_time": "2026-10-25T00:30:00+0000",
             "duration": "PT1H10M",
+            "on_demand": {
+              "start_of_availability": "2025-09-07T06:00:00+0000",
+              "end_of_availability": "2027-07-31T22:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_6777_0008.001",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
             "uuid": "450b8c146322ac2c13ac003ff1797364"
           },
@@ -6083,14 +6125,15 @@
             "uuid": "13ac9604fb462ff8c16401b135d88063"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/8c1b477f-f95d-42fc-b06a-7ff531bf1c16",
+            "program_id": "crid://jvp.itv.com/9trwc4k_version",
             "event_locator": "dvb://233a..9316;5ee4",
             "main_title": "English Football League Highlights",
-            "image_url": "https://img.freeviewplay.tv/e8474e81407f8a15dac326fb129a05635",
+            "secondary_title": "Series 5: Episode 14",
+            "image_url": "https://img.freeviewplay.tv/pa188de43c87310eb0555deb19dee6f7a",
             "start_time": "2026-10-25T09:00:00+0000",
             "duration": "PT1H30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-            "uuid": "5d545d69ec60f389af1cfe9fea65ff41"
+            "uuid": "268e7b808aa3f0609ceacc1960c28232"
           },
           {
             "program_id": "crid://jvp.itv.com/yft5g6w_version",
@@ -6201,6 +6244,16 @@
             "image_url": "https://img.freeviewplay.tv/p83b9ef4d6ff1e9532655f685554dbee9",
             "start_time": "2026-10-25T00:55:00+0000",
             "duration": "PT55M",
+            "on_demand": {
+              "start_of_availability": "2024-01-08T15:54:15+0000",
+              "end_of_availability": "2028-10-31T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_1886_0026.001",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "50475f9736a12062ed93d6efa61addfb"
           },
@@ -6976,6 +7029,16 @@
             "image_url": "https://img.freeviewplay.tv/p7da13f5bbc898ac673825fb0226e3e49",
             "start_time": "2026-10-25T00:35:00+0000",
             "duration": "PT1H",
+            "on_demand": {
+              "start_of_availability": "2026-03-04T08:00:00+0000",
+              "end_of_availability": "2027-08-20T12:00:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5429820006.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
             "uuid": "1df74d6de9718d5ee7b0a486afcfb681"
           },
@@ -7243,6 +7306,16 @@
             "image_url": "https://img.freeviewplay.tv/p179779ba0cc864a48b692723d3317795",
             "start_time": "2026-10-25T01:00:00+0000",
             "duration": "PT1H",
+            "on_demand": {
+              "start_of_availability": "2024-05-28T08:00:00+0000",
+              "end_of_availability": "2027-09-27T23:00:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5478640077.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
             "uuid": "d82f0c7ad98e3773d279f3a1dc3ed020"
           },
@@ -8382,6 +8455,16 @@
             "image_url": "https://img.freeviewplay.tv/p8300ebf06ae7c667e0dd03bf0ca0e252",
             "start_time": "2026-10-25T00:00:00+0000",
             "duration": "PT1H",
+            "on_demand": {
+              "start_of_availability": "2026-10-24T23:59:39+0000",
+              "end_of_availability": "2026-11-01T00:59:39+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5468440012.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
             "uuid": "10d87498ced2e6274ac2031634fa7cbc"
           },
@@ -8579,6 +8662,16 @@
             "image_url": "https://img.freeviewplay.tv/paeb3e81f0abde8c72070e54df4f4db2c",
             "start_time": "2026-10-25T00:35:00+0000",
             "duration": "PT1H",
+            "on_demand": {
+              "start_of_availability": "2026-02-27T09:04:00+0000",
+              "end_of_availability": "2026-12-31T13:00:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5215960004.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
             "uuid": "14b7cdce155a5fcd369f1955d62349e1"
           },
@@ -22659,14 +22752,25 @@
         "title": "Channel 4+1",
         "events": [
           {
-            "program_id": "crid://csi.digitaluk.co.uk/86f49b1f-914e-4390-a3e8-eef7d10ca8c9",
+            "program_id": "crid://movida.bebanjo.net/mas/version/77663/047/ASDELIVERED/C",
             "event_locator": "dvb://233a..2104;bd13",
-            "main_title": "F1 United States GP Qualifying...",
-            "image_url": "https://img.freeviewplay.tv/e1a0432a6af0e35316329cf5cf3cd1185",
+            "main_title": "Formula 1 ®",
+            "secondary_title": "20267075. United States GP Qualifying Highlights",
+            "image_url": "https://img.freeviewplay.tv/p2852bcb6e63d5b4576c43f8222d21ac8",
             "start_time": "2026-10-25T01:05:00+0000",
             "duration": "PT50M",
+            "on_demand": {
+              "start_of_availability": "2026-10-25T00:55:00+0000",
+              "end_of_availability": "2026-11-01T01:55:59+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://ait.channel4.com/ait/content?brand=formula-1&programme=77663-047",
+                  "template_url": "https://ait.channel4.com/ait/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-            "uuid": "0024c6c25c5541780335e279b86a137f"
+            "uuid": "c18b404393b2108f2afd17fecd3ef4e5"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/87d93049-9b6a-4cd9-9f73-0ebdec52e1e6",
@@ -22799,14 +22903,15 @@
             "uuid": "0c633351a301fa9a75bf8b88d12eef7b"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/59c5c3ad-28fd-42c0-a173-4ce64ee6fc81",
+            "program_id": "crid://movida.bebanjo.net/mas/version/77663/047/ASDELIVERED/C",
             "event_locator": "dvb://233a..2104;bea1",
-            "main_title": "F1 United States GP Qualifying...",
-            "image_url": "https://img.freeviewplay.tv/e1a0432a6af0e35316329cf5cf3cd1185",
+            "main_title": "Formula 1 ®",
+            "secondary_title": "20267075. United States GP Qualifying Highlights",
+            "image_url": "https://img.freeviewplay.tv/p2852bcb6e63d5b4576c43f8222d21ac8",
             "start_time": "2026-10-25T10:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-            "uuid": "7dbd1081e958bce6908d85c2a3daef0e"
+            "uuid": "32754169e0bee93d73d6dd5ae0fa9cf3"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/a8f3367f-bf8e-4e9a-a0ae-83a90f0bc32d",
@@ -26654,7 +26759,7 @@
             "event_locator": "dvb://233a..9184;59b2",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T00:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -26688,7 +26793,7 @@
             "event_locator": "dvb://233a..9184;59b4",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T01:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -26722,7 +26827,7 @@
             "event_locator": "dvb://233a..9184;59b6",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T02:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -26756,7 +26861,7 @@
             "event_locator": "dvb://233a..9184;59b8",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T03:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -26824,7 +26929,7 @@
             "event_locator": "dvb://233a..9184;59bc",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T05:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -26858,7 +26963,7 @@
             "event_locator": "dvb://233a..9184;59be",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -26984,7 +27089,7 @@
             "event_locator": "dvb://233a..9184;59c6",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T10:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -26996,7 +27101,7 @@
             "event_locator": "dvb://233a..9184;59c7",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T11:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27008,7 +27113,7 @@
             "event_locator": "dvb://233a..9184;59c8",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T11:30:00+0000",
             "duration": "PT15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27042,7 +27147,7 @@
             "event_locator": "dvb://233a..9184;59ca",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T12:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27054,7 +27159,7 @@
             "event_locator": "dvb://233a..9184;59cb",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T12:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27066,7 +27171,7 @@
             "event_locator": "dvb://233a..9184;59cc",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T13:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27100,7 +27205,7 @@
             "event_locator": "dvb://233a..9184;59ce",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T14:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27134,7 +27239,7 @@
             "event_locator": "dvb://233a..9184;59d0",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T15:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27146,7 +27251,7 @@
             "event_locator": "dvb://233a..9184;59d1",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T15:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27158,7 +27263,7 @@
             "event_locator": "dvb://233a..9184;59d2",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T16:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27204,7 +27309,7 @@
             "event_locator": "dvb://233a..9184;59d5",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T18:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27216,7 +27321,7 @@
             "event_locator": "dvb://233a..9184;59d6",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T18:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27286,7 +27391,7 @@
             "event_locator": "dvb://233a..9184;59db",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T21:00:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27310,7 +27415,7 @@
             "event_locator": "dvb://233a..9184;59dd",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
+            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
             "start_time": "2026-10-25T23:00:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -27355,7 +27460,7 @@
             "duration": "PT1H5M",
             "on_demand": {
               "start_of_availability": "2026-10-20T22:00:00+0000",
-              "end_of_availability": "2027-10-26T10:25:00+0000",
+              "end_of_availability": "2027-10-20T22:00:00+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033d6g&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -27663,7 +27768,7 @@
             "duration": "PT1H",
             "on_demand": {
               "start_of_availability": "2026-10-20T22:00:00+0000",
-              "end_of_availability": "2027-10-26T10:25:00+0000",
+              "end_of_availability": "2027-10-20T22:00:00+0000",
               "player_links": {
                 "tv": {
                   "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033d6g&campaign=catalogue&medium=referral&partner=net.freeviewplay",
@@ -28598,7 +28703,7 @@
             "event_locator": "dvb://233a..919b;9e2",
             "main_title": "This is CBBC!",
             "secondary_title": "This is CBBC!",
-            "image_url": "https://img.freeviewplay.tv/pba3b38b915e6fe6bae758c6d914e8d60",
+            "image_url": "https://img.freeviewplay.tv/pac6f5338cb209460533f978542c5195a",
             "start_time": "2026-10-25T05:30:00+0000",
             "duration": "PT1H30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
@@ -56265,7 +56370,7 @@
             "event_locator": "dvb://233a..9103;3a01",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -56867,7 +56972,7 @@
             "event_locator": "dvb://233a..9107;39c1",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -57469,7 +57574,7 @@
             "event_locator": "dvb://233a..9106;3a40",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -58071,7 +58176,7 @@
             "event_locator": "dvb://233a..9105;39d7",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -58673,7 +58778,7 @@
             "event_locator": "dvb://233a..910f;39cf",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -59275,7 +59380,7 @@
             "event_locator": "dvb://233a..9101;39f6",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -59877,7 +59982,7 @@
             "event_locator": "dvb://233a..9102;3a2d",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -60479,7 +60584,7 @@
             "event_locator": "dvb://233a..910e;39fc",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -61081,7 +61186,7 @@
             "event_locator": "dvb://233a..9109;3a42",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -61683,7 +61788,7 @@
             "event_locator": "dvb://233a..9108;3a30",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -62285,7 +62390,7 @@
             "event_locator": "dvb://233a..910a;3a6c",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -62887,7 +62992,7 @@
             "event_locator": "dvb://233a..910c;39e6",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -63489,7 +63594,7 @@
             "event_locator": "dvb://233a..913c;2e0a",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -64091,7 +64196,7 @@
             "event_locator": "dvb://233a..913e;26f6",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -64609,7 +64714,7 @@
             "event_locator": "dvb://233a..913e;2710",
             "main_title": "BBC Wales Today",
             "secondary_title": "Late News: 25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/pcfbad8e0998ee6ef4b1ddf4f474d5a39",
+            "image_url": "https://img.freeviewplay.tv/pce02ceb7efa93a681c287a29f31aac3d",
             "start_time": "2026-10-25T22:25:00+0000",
             "duration": "PT5M",
             "on_demand": {
@@ -64715,7 +64820,7 @@
             "event_locator": "dvb://233a..913d;219c",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T06:00:00+0000",
             "duration": "PT1H45M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -65383,7 +65488,7 @@
             "event_locator": "dvb://233a..917e;1d6e",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T07:45:00+0000",
             "duration": "PT1H15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
@@ -65853,7 +65958,7 @@
             "event_locator": "dvb://233a..917d;1d51",
             "main_title": "BBC News",
             "secondary_title": "25/10/2026",
-            "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+            "image_url": "https://img.freeviewplay.tv/p47c3fe97943f0343ea7dcc90ff360f4c",
             "start_time": "2026-10-25T07:45:00+0000",
             "duration": "PT1H15M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
