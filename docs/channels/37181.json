@@ -5,550 +5,90 @@
   },
   "events": [
     {
-      "startTime": "2026-10-24T00:10:00+0000",
-      "duration": 290,
+      "startTime": "2026-10-25T00:30:00+0000",
+      "duration": 5,
+      "name": "Weather for the Week Ahead",
+      "description": "25/10/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033h6x",
+        "event_locator": "dvb://233a..913d;219a",
+        "main_title": "Weather for the Week Ahead",
+        "secondary_title": "25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/pe01e6c9518d9fdb39574a03f2e6b1236",
+        "start_time": "2026-10-25T00:30:00+0000",
+        "duration": "PT5M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T00:35:23+0000",
+          "end_of_availability": "2026-11-01T02:34:38+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6x&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ec251164ecc75e364d334214f49eb7a97",
+        "uuid": "dde3b4434473215751f0c26a8c0abcdf"
+      }
+    },
+    {
+      "startTime": "2026-10-25T00:35:00+0000",
+      "duration": 325,
       "name": "Joins BBC News",
-      "description": "24/10/2026",
+      "description": "25/10/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m00334t6",
-        "event_locator": "dvb://233a..913d;217e",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033h6z",
+        "event_locator": "dvb://233a..913d;219b",
         "main_title": "Joins BBC News",
-        "secondary_title": "24/10/2026",
-        "image_url": "https://img.freeviewplay.tv/p0dabff9f63302aa7a6246b337b312e1d",
-        "start_time": "2026-10-24T00:10:00+0000",
-        "duration": "PT4H50M",
+        "secondary_title": "25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/p4b16834c42e43af230498f26fc018fe8",
+        "start_time": "2026-10-25T00:35:00+0000",
+        "duration": "PT5H25M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/ec998412797eaa5ae4238df186e60b640",
-        "uuid": "6666460d9670b3891df555942128b198"
+        "uuid": "7381dd69e55b503be1ca5b65cc00d4c1"
       }
     },
     {
-      "startTime": "2026-10-24T05:00:00+0000",
-      "duration": 240,
-      "name": "Breakfast",
-      "description": "24/10/2026",
+      "startTime": "2026-10-25T06:00:00+0000",
+      "duration": 105,
+      "name": "BBC News",
+      "description": "25/10/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0033h6b",
-        "event_locator": "dvb://233a..913d;2187",
-        "main_title": "Breakfast",
-        "secondary_title": "24/10/2026",
-        "image_url": "https://img.freeviewplay.tv/p625afa4090190844d68a944cf9b4e7de",
-        "start_time": "2026-10-24T05:00:00+0000",
-        "duration": "PT4H",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T09:00:00+0000",
-          "end_of_availability": "2026-10-25T10:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6b&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e9a441e59bf4da96ea94ce497211b6f02",
-        "uuid": "f260e5313abda34c6c83ea22b2aad096"
-      }
-    },
-    {
-      "startTime": "2026-10-24T09:00:00+0000",
-      "duration": 90,
-      "name": "Saturday Kitchen",
-      "description": "24/10/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0033h6d",
-        "event_locator": "dvb://233a..913d;2188",
-        "main_title": "Saturday Kitchen",
-        "secondary_title": "24/10/2026",
-        "image_url": "https://img.freeviewplay.tv/pf121d19166d89b1a33ffa8983d3c1f80",
-        "start_time": "2026-10-24T09:00:00+0000",
-        "duration": "PT1H30M",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T10:30:02+0000",
-          "end_of_availability": "2027-10-24T10:30:02+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e638be15b7d3ad2a654996e8961e6592f",
-        "uuid": "f12a25fe120c2ae570f5136ba007d89f"
-      }
-    },
-    {
-      "startTime": "2026-10-24T10:30:00+0000",
-      "duration": 30,
-      "name": "Simply Nigella",
-      "description": "Series 1: Episode 1",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/b07y6pb1",
-        "event_locator": "dvb://233a..913d;2189",
-        "main_title": "Simply Nigella",
-        "secondary_title": "Series 1: Episode 1",
-        "image_url": "https://img.freeviewplay.tv/pf5829bf15f1a7160aae75c955ea96717",
-        "start_time": "2026-10-24T10:30:00+0000",
-        "duration": "PT30M",
-        "on_demand": {
-          "start_of_availability": "2020-06-11T08:00:00+0000",
-          "end_of_availability": "2032-06-10T08:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b07y6pb1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e6e5c6bb809d1d516bff44c9ee99e2794",
-        "uuid": "544766a9caa4088ee724f0e0a36d1cb4"
-      }
-    },
-    {
-      "startTime": "2026-10-24T11:00:00+0000",
-      "duration": 10,
-      "name": "BBC Weekend News",
-      "description": "Lunchtime News: 24/10/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0033h6g",
-        "event_locator": "dvb://233a..913d;218a",
-        "main_title": "BBC Weekend News",
-        "secondary_title": "Lunchtime News: 24/10/2026",
-        "image_url": "https://img.freeviewplay.tv/p6bb1ce142aa346b01724c74d6ea3bb87",
-        "start_time": "2026-10-24T11:00:00+0000",
-        "duration": "PT10M",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T11:12:00+0000",
-          "end_of_availability": "2026-10-25T12:12:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6g&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033h7z",
+        "event_locator": "dvb://233a..913d;219c",
+        "main_title": "BBC News",
+        "secondary_title": "25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+        "start_time": "2026-10-25T06:00:00+0000",
+        "duration": "PT1H45M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
         "fallback_image_url": "http://img.freeviewplay.net/ec998412797eaa5ae4238df186e60b640",
-        "uuid": "c2b5b317ffa6ad40130c0eb15c978991"
+        "uuid": "da6174da03c4f64f05211a2ab25daa20"
       }
     },
     {
-      "startTime": "2026-10-24T11:10:00+0000",
-      "duration": 5,
-      "name": "BBC Weather",
-      "description": "24/10/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0033h6j",
-        "event_locator": "dvb://233a..913d;218b",
-        "main_title": "BBC Weather",
-        "secondary_title": "24/10/2026",
-        "image_url": "https://img.freeviewplay.tv/p3ddfb4d97a49a68ca1e0bd0099e16490",
-        "start_time": "2026-10-24T11:10:00+0000",
-        "duration": "PT5M",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T11:14:43+0000",
-          "end_of_availability": "2026-10-25T12:14:43+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e1140f7f24d5c00f9955f0ac947697bdd",
-        "uuid": "ceb0b2bbe17718d94e403b9044817c7c"
-      }
-    },
-    {
-      "startTime": "2026-10-24T11:15:00+0000",
-      "duration": 15,
-      "name": "The Football Interview",
-      "description": "Series 2: Sean Dyche",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m00335xx",
-        "event_locator": "dvb://233a..913d;218c",
-        "main_title": "The Football Interview",
-        "secondary_title": "Series 2: Sean Dyche",
-        "image_url": "https://img.freeviewplay.tv/pe4fa069a06eaccdd4b6d3cc410757bb7",
-        "start_time": "2026-10-24T11:15:00+0000",
-        "duration": "PT15M",
-        "on_demand": {
-          "start_of_availability": "2026-10-23T16:00:00+0000",
-          "end_of_availability": "2027-10-24T16:00:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00335xx&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-        "fallback_image_url": "http://img.freeviewplay.net/ef10da399e0fae0271ff6229bbf39f896",
-        "uuid": "4b22991f2f7c122e7f864f9821ce1b8f"
-      }
-    },
-    {
-      "startTime": "2026-10-24T11:30:00+0000",
-      "duration": 150,
-      "name": "Women's Super League",
-      "description": "2026/27: Tottenham Hotspur v Arsenal",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0033htg",
-        "event_locator": "dvb://233a..913d;218d",
-        "main_title": "Women's Super League",
-        "secondary_title": "2026/27: Tottenham Hotspur v Arsenal",
-        "image_url": "https://img.freeviewplay.tv/pf01d05ee59e2c8765873b5cd245d2bfb",
-        "start_time": "2026-10-24T11:30:00+0000",
-        "duration": "PT2H30M",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T14:00:25+0000",
-          "end_of_availability": "2026-11-23T15:00:25+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033htg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-        "fallback_image_url": "http://img.freeviewplay.net/ea6935bc8ae06a8ad437d50b5ed499e3d",
-        "uuid": "9a9f9f8682de5ba5bfbeea89126902b2"
-      }
-    },
-    {
-      "startTime": "2026-10-24T14:00:00+0000",
-      "duration": 45,
-      "name": "Homes Under the Hammer",
-      "description": "Series 27: 1. Dressed for Success!",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m001y3q2",
-        "event_locator": "dvb://233a..913d;218e",
-        "main_title": "Homes Under the Hammer",
-        "secondary_title": "Series 27: 1. Dressed for Success!",
-        "image_url": "https://img.freeviewplay.tv/p7bec0ee127045e53ddd1bd70cd41dd4c",
-        "start_time": "2026-10-24T14:00:00+0000",
-        "duration": "PT45M",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T14:45:17+0000",
-          "end_of_availability": "2026-11-23T15:45:17+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001y3q2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e9b484b4805f5eb8be1393906b5a6898b",
-        "uuid": "85c687901510707c7ae8dd88a1b09496"
-      }
-    },
-    {
-      "startTime": "2026-10-24T14:45:00+0000",
-      "duration": 100,
-      "name": "Final Score",
-      "description": "2026/27: 24/10/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0033jln",
-        "event_locator": "dvb://233a..913d;218f",
-        "main_title": "Final Score",
-        "secondary_title": "2026/27: 24/10/2026",
-        "image_url": "https://img.freeviewplay.tv/p8233a3a84dbe8e758b08f0386b00c112",
-        "start_time": "2026-10-24T14:45:00+0000",
-        "duration": "PT1H40M",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T15:30:00+0000",
-          "end_of_availability": "2026-11-23T17:25:02+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033jln&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-        "fallback_image_url": "http://img.freeviewplay.net/e22b19edf63e607588c406944e8133646",
-        "uuid": "05c32e2d599c1adea1364f00cc916e9b"
-      }
-    },
-    {
-      "startTime": "2026-10-24T16:25:00+0000",
-      "duration": 10,
-      "name": "BBC Weekend News",
-      "description": "Evening News: 24/10/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0033h6l",
-        "event_locator": "dvb://233a..913d;2190",
-        "main_title": "BBC Weekend News",
-        "secondary_title": "Evening News: 24/10/2026",
-        "image_url": "https://img.freeviewplay.tv/paca5b91071d72e230b5c8fa1ba2bd2da",
-        "start_time": "2026-10-24T16:25:00+0000",
-        "duration": "PT10M",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T16:37:00+0000",
-          "end_of_availability": "2026-10-25T17:37:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6l&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ec998412797eaa5ae4238df186e60b640",
-        "uuid": "1fc16dd383924cec4c03dbcd5b83d3fb"
-      }
-    },
-    {
-      "startTime": "2026-10-24T16:35:00+0000",
-      "duration": 10,
-      "name": "BBC Newsline",
-      "description": "Evening News: 24/10/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0033m6q",
-        "event_locator": "dvb://233a..913d;2191",
-        "main_title": "BBC Newsline",
-        "secondary_title": "Evening News: 24/10/2026",
-        "image_url": "https://img.freeviewplay.tv/p971568f3c36febca647abb45b40f2e8f",
-        "start_time": "2026-10-24T16:35:00+0000",
-        "duration": "PT10M",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T16:45:34+0000",
-          "end_of_availability": "2026-10-25T17:45:34+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033m6q&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e9f1950a470462ed0cf039d41a8eac59e",
-        "uuid": "cc4838b03e889e182379e6b88eb35703"
-      }
-    },
-    {
-      "startTime": "2026-10-24T16:45:00+0000",
-      "duration": 45,
-      "name": "The Celebrity Inner Circle",
-      "description": "Series 2: Episode 7",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0033jlq",
-        "event_locator": "dvb://233a..913d;2192",
-        "main_title": "The Celebrity Inner Circle",
-        "secondary_title": "Series 2: Episode 7",
-        "image_url": "https://img.freeviewplay.tv/p8fb72b7b5a0284fb8d51d3498e5e44b9",
-        "start_time": "2026-10-24T16:45:00+0000",
-        "duration": "PT45M",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T17:30:00+0000",
-          "end_of_availability": "2027-10-31T18:30:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033jlq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/ec03c0cbd6f95c4253cea6dd4669717ee",
-        "uuid": "a77424edafa03dd6bb880f63ae34d708"
-      }
-    },
-    {
-      "startTime": "2026-10-24T17:30:00+0000",
-      "duration": 125,
-      "name": "Strictly Come Dancing",
-      "description": "Series 24: Week 5",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0033jls",
-        "event_locator": "dvb://233a..913d;2193",
-        "main_title": "Strictly Come Dancing",
-        "secondary_title": "Series 24: Week 5",
-        "image_url": "https://img.freeviewplay.tv/p1586d0f361a0e3884dfea2e6de01b39f",
-        "start_time": "2026-10-24T17:30:00+0000",
-        "duration": "PT2H5M",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T19:34:21+0000",
-          "end_of_availability": "2027-12-25T18:40:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033jls&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/e9ebfd246149ee3e64b822617c5f6149f",
-        "uuid": "7752199fd8d9766c1fadf551038c9e9c"
-      }
-    },
-    {
-      "startTime": "2026-10-24T19:35:00+0000",
-      "duration": 45,
-      "name": "Wisdom of the Crowd",
-      "description": "Series 1: Episode 6",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0033jlv",
-        "event_locator": "dvb://233a..913d;2194",
-        "main_title": "Wisdom of the Crowd",
-        "secondary_title": "Series 1: Episode 6",
-        "image_url": "https://img.freeviewplay.tv/p23c0738b5a2045aa6041534383f2b71c",
-        "start_time": "2026-10-24T19:35:00+0000",
-        "duration": "PT45M",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T20:20:08+0000",
-          "end_of_availability": "2027-11-07T21:00:07+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033jlv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "fallback_image_url": "http://img.freeviewplay.net/e837255d19d945a969bb751839fa978d7",
-        "uuid": "8b265ee455b2827c8db8e38436f3e7c5"
-      }
-    },
-    {
-      "startTime": "2026-10-24T20:20:00+0000",
-      "duration": 50,
-      "name": "Marble Hall Murders",
-      "description": "Series 1: Episode 5",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0030465",
-        "event_locator": "dvb://233a..913d;2195",
-        "main_title": "Marble Hall Murders",
-        "secondary_title": "Series 1: Episode 5",
-        "image_url": "https://img.freeviewplay.tv/p7ad210b533c23e8c153816de7bd5fbe1",
-        "start_time": "2026-10-24T20:20:00+0000",
-        "duration": "PT50M",
-        "on_demand": {
-          "start_of_availability": "2026-09-26T05:00:00+0000",
-          "end_of_availability": "2030-05-02T22:59:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030465&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-        "fallback_image_url": "http://img.freeviewplay.net/edd08689afb03814261d76871810237a0",
-        "uuid": "643a1fa4018c50c3795999c76f67eb62"
-      }
-    },
-    {
-      "startTime": "2026-10-24T21:10:00+0000",
-      "duration": 15,
-      "name": "BBC Weekend News",
-      "description": "Late News: 24/10/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0033h6s",
-        "event_locator": "dvb://233a..913d;2196",
-        "main_title": "BBC Weekend News",
-        "secondary_title": "Late News: 24/10/2026",
-        "image_url": "https://img.freeviewplay.tv/p31a4a883ae23a44486f9e27739556787",
-        "start_time": "2026-10-24T21:10:00+0000",
-        "duration": "PT15M",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T21:26:00+0000",
-          "end_of_availability": "2026-10-25T22:26:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/ec998412797eaa5ae4238df186e60b640",
-        "uuid": "956355ecaaedcba88500360f1f340117"
-      }
-    },
-    {
-      "startTime": "2026-10-24T21:25:00+0000",
-      "duration": 5,
-      "name": "BBC Weather",
-      "description": "24/10/2026",
-      "synopsis": "",
-      "image": "img/programmes/placeholder.svg",
-      "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m0033h6v",
-        "event_locator": "dvb://233a..913d;2197",
-        "main_title": "BBC Weather",
-        "secondary_title": "24/10/2026",
-        "image_url": "https://img.freeviewplay.tv/pcec533a525f47045a29968a29b424722",
-        "start_time": "2026-10-24T21:25:00+0000",
-        "duration": "PT5M",
-        "on_demand": {
-          "start_of_availability": "2026-10-24T21:30:00+0000",
-          "end_of_availability": "2026-10-31T22:30:00+0000",
-          "player_links": {
-            "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6v&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-            }
-          }
-        },
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "fallback_image_url": "http://img.freeviewplay.net/e1140f7f24d5c00f9955f0ac947697bdd",
-        "uuid": "779eccfdd183b37b2e9c849bd976c2d3"
-      }
-    },
-    {
-      "startTime": "2026-10-24T21:30:00+0000",
-      "duration": 70,
+      "startTime": "2026-10-25T07:45:00+0000",
+      "duration": 75,
       "name": "Match of the Day",
       "description": "2026/27: 24/10/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
         "program_id": "crid://bbc.co.uk/icc/episode/m0033jlx",
-        "event_locator": "dvb://233a..913d;2198",
+        "event_locator": "dvb://233a..913d;219f",
         "main_title": "Match of the Day",
         "secondary_title": "2026/27: 24/10/2026",
         "image_url": "https://img.freeviewplay.tv/pa6e217cfff3907837e4257714c6c83e3",
-        "start_time": "2026-10-24T21:30:00+0000",
-        "duration": "PT1H10M",
+        "start_time": "2026-10-25T07:45:00+0000",
+        "duration": "PT1H15M",
         "on_demand": {
           "start_of_availability": "2026-10-24T22:40:55+0000",
           "end_of_availability": "2026-11-24T09:00:00+0000",
@@ -561,37 +101,697 @@
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
         "fallback_image_url": "http://img.freeviewplay.net/ecd4abb578cfc67787aa23b09c6e60e11",
-        "uuid": "734d87f5ec134250724a7e5edf07cbec"
+        "uuid": "e9dd8cdc929565202941e7daa3efcc42"
       }
     },
     {
-      "startTime": "2026-10-24T22:40:00+0000",
-      "duration": 110,
-      "name": "Cat Person",
-      "description": "Cat Person",
+      "startTime": "2026-10-25T09:00:00+0000",
+      "duration": 60,
+      "name": "Sunday with Laura Kuenssberg",
+      "description": "25/10/2026",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://bbc.co.uk/icc/episode/m002lv7d",
-        "event_locator": "dvb://233a..913d;2199",
-        "main_title": "Cat Person",
-        "secondary_title": "Cat Person",
-        "image_url": "https://img.freeviewplay.tv/pada6f3722c31220821ad565b2770288e",
-        "start_time": "2026-10-24T22:40:00+0000",
-        "duration": "PT1H50M",
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033h81",
+        "event_locator": "dvb://233a..913d;21a0",
+        "main_title": "Sunday with Laura Kuenssberg",
+        "secondary_title": "25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/p434a492d8b71ca7b76bf1eeb87f6c7a3",
+        "start_time": "2026-10-25T09:00:00+0000",
+        "duration": "PT1H",
         "on_demand": {
-          "start_of_availability": "2025-11-07T00:01:10+0000",
-          "end_of_availability": "2026-11-24T01:30:35+0000",
+          "start_of_availability": "2026-10-25T10:00:06+0000",
+          "end_of_availability": "2027-10-25T09:00:06+0000",
           "player_links": {
             "tv": {
-              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lv7d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h81&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e2ebf65ac414c204b4476a93c8dbd8bcb",
+        "uuid": "bb14a10e7a6ef73e22fd46e7cfe65743"
+      }
+    },
+    {
+      "startTime": "2026-10-25T10:00:00+0000",
+      "duration": 30,
+      "name": "Sunday Politics Northern Ireland",
+      "description": "25/10/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033m87",
+        "event_locator": "dvb://233a..913d;21a1",
+        "main_title": "Sunday Politics Northern Ireland",
+        "secondary_title": "25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/p1dba0c10066ce02cf4d1684c1438be08",
+        "start_time": "2026-10-25T10:00:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T10:30:00+0000",
+          "end_of_availability": "2026-11-24T10:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033m87&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e995b4c8d4ea1a033ab30066656899d49",
+        "uuid": "5807d47de030eafcc352d28727e54684"
+      }
+    },
+    {
+      "startTime": "2026-10-25T10:30:00+0000",
+      "duration": 60,
+      "name": "Sunday Morning Live",
+      "description": "Series 17: 25/10/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033h85",
+        "event_locator": "dvb://233a..913d;21a2",
+        "main_title": "Sunday Morning Live",
+        "secondary_title": "Series 17: 25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/pd3237afd1775488a017bfc4def7cdeb6",
+        "start_time": "2026-10-25T10:30:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T11:30:25+0000",
+          "end_of_availability": "2027-10-25T10:30:25+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h85&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ed72a19b39aa7d79b9b6a168f9c74016a",
+        "uuid": "77194540333c102da12d04d55ae8ea26"
+      }
+    },
+    {
+      "startTime": "2026-10-25T11:30:00+0000",
+      "duration": 30,
+      "name": "Money for Nothing",
+      "description": "Series  10: Episode 10",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m000vlsb",
+        "event_locator": "dvb://233a..913d;21a3",
+        "main_title": "Money for Nothing",
+        "secondary_title": "Series  10: Episode 10",
+        "image_url": "https://img.freeviewplay.tv/p65d0c73f9fda3ed1e5e4e9ae0b10835e",
+        "start_time": "2026-10-25T11:30:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T12:00:24+0000",
+          "end_of_availability": "2026-11-24T12:00:24+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m000vlsb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/eb970ed55f04c86ac15bfde78f72e01f2",
+        "uuid": "ee61168f81674b1be5bc2fae555b1edf"
+      }
+    },
+    {
+      "startTime": "2026-10-25T12:00:00+0000",
+      "duration": 45,
+      "name": "Bargain Hunt",
+      "description": "Series 69: On Your Marks, Get Set, Go!",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0021d35",
+        "event_locator": "dvb://233a..913d;21a4",
+        "main_title": "Bargain Hunt",
+        "secondary_title": "Series 69: On Your Marks, Get Set, Go!",
+        "image_url": "https://img.freeviewplay.tv/ped2db3d54579ebeb3d6f2fa527eff4f8",
+        "start_time": "2026-10-25T12:00:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T12:44:50+0000",
+          "end_of_availability": "2026-11-24T12:44:50+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0021d35&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e1f00551af291a4564e1b0435db1fd01b",
+        "uuid": "b0d9f92e117094c0b14fc1f943abf7b1"
+      }
+    },
+    {
+      "startTime": "2026-10-25T12:45:00+0000",
+      "duration": 15,
+      "name": "Points of View",
+      "description": "2026: 25/10/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033h87",
+        "event_locator": "dvb://233a..913d;21a5",
+        "main_title": "Points of View",
+        "secondary_title": "2026: 25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/pd97a7ccac18713615b0aac5f0785d086",
+        "start_time": "2026-10-25T12:45:00+0000",
+        "duration": "PT15M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T13:00:10+0000",
+          "end_of_availability": "2027-10-25T12:00:10+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h87&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/eafe40a9cb65955ca839f87243ca652d6",
+        "uuid": "021601b7b71c62f67205d4d8e5495e52"
+      }
+    },
+    {
+      "startTime": "2026-10-25T13:00:00+0000",
+      "duration": 10,
+      "name": "BBC Weekend News",
+      "description": "Lunchtime News: 25/10/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033h89",
+        "event_locator": "dvb://233a..913d;21a6",
+        "main_title": "BBC Weekend News",
+        "secondary_title": "Lunchtime News: 25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/p6e01147a32463b6b879c21737ada227c",
+        "start_time": "2026-10-25T13:00:00+0000",
+        "duration": "PT10M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T13:10:00+0000",
+          "end_of_availability": "2026-10-26T13:10:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h89&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ec998412797eaa5ae4238df186e60b640",
+        "uuid": "d158f6c9ad0817c273d99df3e80fffd4"
+      }
+    },
+    {
+      "startTime": "2026-10-25T13:10:00+0000",
+      "duration": 5,
+      "name": "Weather for the Week Ahead",
+      "description": "25/10/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033h8c",
+        "event_locator": "dvb://233a..913d;21a7",
+        "main_title": "Weather for the Week Ahead",
+        "secondary_title": "25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/pe01e6c9518d9fdb39574a03f2e6b1236",
+        "start_time": "2026-10-25T13:10:00+0000",
+        "duration": "PT5M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T13:15:06+0000",
+          "end_of_availability": "2026-10-26T13:15:06+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h8c&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ec251164ecc75e364d334214f49eb7a97",
+        "uuid": "40ce7a3c0fa9e04f0e4d3f82fcdf1000"
+      }
+    },
+    {
+      "startTime": "2026-10-25T13:15:00+0000",
+      "duration": 35,
+      "name": "Songs of Praise",
+      "description": "The Music Is Black",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033hv7",
+        "event_locator": "dvb://233a..913d;21a8",
+        "main_title": "Songs of Praise",
+        "secondary_title": "The Music Is Black",
+        "image_url": "https://img.freeviewplay.tv/pc3ab0113796f83df79625cecaefb336b",
+        "start_time": "2026-10-25T13:15:00+0000",
+        "duration": "PT35M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T13:50:18+0000",
+          "end_of_availability": "2027-10-25T12:50:18+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033hv7&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/eb3340dd4a8604b48f658a66f1478529c",
+        "uuid": "a3fe8878c49070545dae1e2f10e1bd19"
+      }
+    },
+    {
+      "startTime": "2026-10-25T13:50:00+0000",
+      "duration": 95,
+      "name": "The Witches",
+      "description": "The Witches",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m001tvfv",
+        "event_locator": "dvb://233a..913d;21a9",
+        "main_title": "The Witches",
+        "secondary_title": "The Witches",
+        "image_url": "https://img.freeviewplay.tv/pe6410e8a246e1f59231a4fffa1e50d68",
+        "start_time": "2026-10-25T13:50:00+0000",
+        "duration": "PT1H35M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T15:26:11+0000",
+          "end_of_availability": "2026-11-24T15:26:11+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001tvfv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
               "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
             }
           }
         },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-        "fallback_image_url": "http://img.freeviewplay.net/ea52648fac8642a929c4499a7cafcd208",
-        "uuid": "3cb897eec4ba277c66b2646826f80af8"
+        "fallback_image_url": "http://img.freeviewplay.net/e42ea3f68118319822adeabb9c75ddcfc",
+        "uuid": "c2e523984550ad187af1b739d8b0f58c"
+      }
+    },
+    {
+      "startTime": "2026-10-25T15:25:00+0000",
+      "duration": 50,
+      "name": "Kingdom",
+      "description": "Series 1: 6. The Secret Story of Kingdom",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m002m30p",
+        "event_locator": "dvb://233a..913d;21aa",
+        "main_title": "Kingdom",
+        "secondary_title": "Series 1: 6. The Secret Story of Kingdom",
+        "image_url": "https://img.freeviewplay.tv/p52facba49ab27c967179d456f8172dab",
+        "start_time": "2026-10-25T15:25:00+0000",
+        "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2025-11-09T06:00:00+0000",
+          "end_of_availability": "2030-11-09T06:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002m30p&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e01fe1b43f58bf9638e623cd5ddb4e493",
+        "uuid": "1c156826b9c61edfe7e14c8699ffac68"
+      }
+    },
+    {
+      "startTime": "2026-10-25T16:15:00+0000",
+      "duration": 45,
+      "name": "Homes Under the Hammer",
+      "description": "Series 27: 2. A Family Affair",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m001y47d",
+        "event_locator": "dvb://233a..913d;21ab",
+        "main_title": "Homes Under the Hammer",
+        "secondary_title": "Series 27: 2. A Family Affair",
+        "image_url": "https://img.freeviewplay.tv/p3e674c9b1c2c7d9143ce1ede3db4ffa3",
+        "start_time": "2026-10-25T16:15:00+0000",
+        "duration": "PT45M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T16:59:59+0000",
+          "end_of_availability": "2026-11-24T16:59:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001y47d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e9b484b4805f5eb8be1393906b5a6898b",
+        "uuid": "8f26cb48f32b664fbc8c9c6880f805c6"
+      }
+    },
+    {
+      "startTime": "2026-10-25T17:00:00+0000",
+      "duration": 15,
+      "name": "BBC Weekend News",
+      "description": "Evening News: 25/10/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033h8f",
+        "event_locator": "dvb://233a..913d;21ac",
+        "main_title": "BBC Weekend News",
+        "secondary_title": "Evening News: 25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/pdd37f2a4d0e082ae56a7acfef6a0a81b",
+        "start_time": "2026-10-25T17:00:00+0000",
+        "duration": "PT15M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T17:16:30+0000",
+          "end_of_availability": "2026-10-26T17:16:30+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h8f&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ec998412797eaa5ae4238df186e60b640",
+        "uuid": "1d880c94f2687c727554adb3e2e71c1a"
+      }
+    },
+    {
+      "startTime": "2026-10-25T17:15:00+0000",
+      "duration": 10,
+      "name": "BBC Newsline",
+      "description": "Evening News: 25/10/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033m89",
+        "event_locator": "dvb://233a..913d;21ad",
+        "main_title": "BBC Newsline",
+        "secondary_title": "Evening News: 25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/pa236f7ba5d97830ada90a8931adfce23",
+        "start_time": "2026-10-25T17:15:00+0000",
+        "duration": "PT10M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T17:25:07+0000",
+          "end_of_availability": "2026-10-26T17:25:07+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033m89&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e9f1950a470462ed0cf039d41a8eac59e",
+        "uuid": "7966b383f37be8ccec8ef760af524515"
+      }
+    },
+    {
+      "startTime": "2026-10-25T17:25:00+0000",
+      "duration": 75,
+      "name": "Countryfile",
+      "description": "Countryfile Ramble for BBC Children in Need 2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033k1b",
+        "event_locator": "dvb://233a..913d;21ae",
+        "main_title": "Countryfile",
+        "secondary_title": "Countryfile Ramble for BBC Children in Need 2026",
+        "image_url": "https://img.freeviewplay.tv/p9fe2c57d4ae36c5c32a9686627e6c63f",
+        "start_time": "2026-10-25T17:25:00+0000",
+        "duration": "PT1H15M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T18:40:40+0000",
+          "end_of_availability": "2027-10-25T17:40:40+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033k1b&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ef996827ae60fe4e78a3e50bf5a95b7f4",
+        "uuid": "59f1ff38bea421d352d2df7c92a9b4d6"
+      }
+    },
+    {
+      "startTime": "2026-10-25T18:40:00+0000",
+      "duration": 30,
+      "name": "The Reluctant Vampire",
+      "description": "Series 1: Episode 4",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0030wp3",
+        "event_locator": "dvb://233a..913d;21af",
+        "main_title": "The Reluctant Vampire",
+        "secondary_title": "Series 1: Episode 4",
+        "image_url": "https://img.freeviewplay.tv/p7ba71fe93da6eb4aace5f190a5f4945c",
+        "start_time": "2026-10-25T18:40:00+0000",
+        "duration": "PT30M",
+        "on_demand": {
+          "start_of_availability": "2026-10-04T05:00:00+0000",
+          "end_of_availability": "2027-10-04T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030wp3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/ecd59efef96edac53601d7663a817dcca",
+        "uuid": "0e4425d7647e5f3d0814073c60904e57"
+      }
+    },
+    {
+      "startTime": "2026-10-25T19:10:00+0000",
+      "duration": 50,
+      "name": "Strictly Come Dancing",
+      "description": "Series 24: Week 5 Results",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033k1d",
+        "event_locator": "dvb://233a..913d;21b0",
+        "main_title": "Strictly Come Dancing",
+        "secondary_title": "Series 24: Week 5 Results",
+        "image_url": "https://img.freeviewplay.tv/p173fc830e033d6959f8a66bfc6d2d589",
+        "start_time": "2026-10-25T19:10:00+0000",
+        "duration": "PT50M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T20:00:23+0000",
+          "end_of_availability": "2027-12-13T19:57:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033k1d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+        "fallback_image_url": "http://img.freeviewplay.net/e75d4c483c4aecd29fc7c7307722f60cd",
+        "uuid": "5cb11485e82f4c4b9408ca2441afb483"
+      }
+    },
+    {
+      "startTime": "2026-10-25T20:00:00+0000",
+      "duration": 60,
+      "name": "Antiques Roadshow",
+      "description": "Series 49: 9. Bangor Castle 1",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033k1g",
+        "event_locator": "dvb://233a..913d;21b1",
+        "main_title": "Antiques Roadshow",
+        "secondary_title": "Series 49: 9. Bangor Castle 1",
+        "image_url": "https://img.freeviewplay.tv/p96a2c801ed0a0c696f9af691596b45c2",
+        "start_time": "2026-10-25T20:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T21:00:31+0000",
+          "end_of_availability": "2027-10-25T20:00:31+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033k1g&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ea7d92ae4822002ef43404968e4a82728",
+        "uuid": "a54d398f6e93882c9ce3fecd4eea4f14"
+      }
+    },
+    {
+      "startTime": "2026-10-25T21:00:00+0000",
+      "duration": 60,
+      "name": "This City Is Ours",
+      "description": "Series 2: Episode 1",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0031lrz",
+        "event_locator": "dvb://233a..913d;21b2",
+        "main_title": "This City Is Ours",
+        "secondary_title": "Series 2: Episode 1",
+        "image_url": "https://img.freeviewplay.tv/p36f7e473bd9948ed108690969f8ae07f",
+        "start_time": "2026-10-25T21:00:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T06:00:00+0000",
+          "end_of_availability": "2027-10-25T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0031lrz&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+        "fallback_image_url": "http://img.freeviewplay.net/e302fda74a48812a02e97c8054cc56612",
+        "uuid": "f6ede742d838d9fac2a9ea5840b23fb6"
+      }
+    },
+    {
+      "startTime": "2026-10-25T22:00:00+0000",
+      "duration": 25,
+      "name": "BBC Weekend News",
+      "description": "Late News: 25/10/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033h8m",
+        "event_locator": "dvb://233a..913d;21b3",
+        "main_title": "BBC Weekend News",
+        "secondary_title": "Late News: 25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/p7bfe03af154d4fa9ce0cb5c32050035b",
+        "start_time": "2026-10-25T22:00:00+0000",
+        "duration": "PT25M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T22:26:00+0000",
+          "end_of_availability": "2026-10-26T22:26:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h8m&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ebf773cd41e5ad95843af64502ded94fc",
+        "uuid": "1d271bb8bfecffb73b3452b346050c26"
+      }
+    },
+    {
+      "startTime": "2026-10-25T22:25:00+0000",
+      "duration": 5,
+      "name": "BBC Newsline",
+      "description": "Late News: 25/10/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033m8c",
+        "event_locator": "dvb://233a..913d;21b4",
+        "main_title": "BBC Newsline",
+        "secondary_title": "Late News: 25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/pb0046579bd18f829acdf3e44c295f743",
+        "start_time": "2026-10-25T22:25:00+0000",
+        "duration": "PT5M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T22:32:17+0000",
+          "end_of_availability": "2026-10-26T22:32:17+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033m8c&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/e9f1950a470462ed0cf039d41a8eac59e",
+        "uuid": "1e50849154f0a056ca598be45bd7c842"
+      }
+    },
+    {
+      "startTime": "2026-10-25T22:30:00+0000",
+      "duration": 60,
+      "name": "Spotlight",
+      "description": "Murder in Belfast: Sisters Seeking Justice: Part 1 - An Innocent Man",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033h52",
+        "event_locator": "dvb://233a..913d;21b5",
+        "main_title": "Spotlight",
+        "secondary_title": "Murder in Belfast: Sisters Seeking Justice: Part 1 - An Innocent Man",
+        "image_url": "https://img.freeviewplay.tv/p83cef17d30611933befb04d5e3a77b36",
+        "start_time": "2026-10-25T22:30:00+0000",
+        "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T06:00:00+0000",
+          "end_of_availability": "2027-10-24T22:22:33+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h52&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "fallback_image_url": "http://img.freeviewplay.net/ed2c9d6b3e3f5464dcf3041f77bc367c2",
+        "uuid": "7fd8cde89d46a5b76c29f599e4c4bd5a"
+      }
+    },
+    {
+      "startTime": "2026-10-25T23:30:00+0000",
+      "duration": 75,
+      "name": "Match of the Day",
+      "description": "2026/27: 25/10/2026",
+      "synopsis": "",
+      "image": "img/programmes/placeholder.svg",
+      "_raw": {
+        "program_id": "crid://bbc.co.uk/icc/episode/m0033htr",
+        "event_locator": "dvb://233a..913d;21b6",
+        "main_title": "Match of the Day",
+        "secondary_title": "2026/27: 25/10/2026",
+        "image_url": "https://img.freeviewplay.tv/p4a233234ffd0c962a19b4171e094c9cf",
+        "start_time": "2026-10-25T23:30:00+0000",
+        "duration": "PT1H15M",
+        "on_demand": {
+          "start_of_availability": "2026-10-25T23:46:55+0000",
+          "end_of_availability": "2026-11-24T23:46:55+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033htr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+              "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
+        "fallback_image_url": "http://img.freeviewplay.net/ecd4abb578cfc67787aa23b09c6e60e11",
+        "uuid": "110cc17792cac035939301c9ff3fbac6"
       }
     }
   ],
@@ -600,550 +800,90 @@
       {
         "event": [
           {
-            "startTime": "2026-10-24T00:10:00+0000",
-            "duration": 290,
+            "startTime": "2026-10-25T00:30:00+0000",
+            "duration": 5,
+            "name": "Weather for the Week Ahead",
+            "description": "25/10/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033h6x",
+              "event_locator": "dvb://233a..913d;219a",
+              "main_title": "Weather for the Week Ahead",
+              "secondary_title": "25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/pe01e6c9518d9fdb39574a03f2e6b1236",
+              "start_time": "2026-10-25T00:30:00+0000",
+              "duration": "PT5M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T00:35:23+0000",
+                "end_of_availability": "2026-11-01T02:34:38+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6x&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ec251164ecc75e364d334214f49eb7a97",
+              "uuid": "dde3b4434473215751f0c26a8c0abcdf"
+            }
+          },
+          {
+            "startTime": "2026-10-25T00:35:00+0000",
+            "duration": 325,
             "name": "Joins BBC News",
-            "description": "24/10/2026",
+            "description": "25/10/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m00334t6",
-              "event_locator": "dvb://233a..913d;217e",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033h6z",
+              "event_locator": "dvb://233a..913d;219b",
               "main_title": "Joins BBC News",
-              "secondary_title": "24/10/2026",
-              "image_url": "https://img.freeviewplay.tv/p0dabff9f63302aa7a6246b337b312e1d",
-              "start_time": "2026-10-24T00:10:00+0000",
-              "duration": "PT4H50M",
+              "secondary_title": "25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/p4b16834c42e43af230498f26fc018fe8",
+              "start_time": "2026-10-25T00:35:00+0000",
+              "duration": "PT5H25M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/ec998412797eaa5ae4238df186e60b640",
-              "uuid": "6666460d9670b3891df555942128b198"
+              "uuid": "7381dd69e55b503be1ca5b65cc00d4c1"
             }
           },
           {
-            "startTime": "2026-10-24T05:00:00+0000",
-            "duration": 240,
-            "name": "Breakfast",
-            "description": "24/10/2026",
+            "startTime": "2026-10-25T06:00:00+0000",
+            "duration": 105,
+            "name": "BBC News",
+            "description": "25/10/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0033h6b",
-              "event_locator": "dvb://233a..913d;2187",
-              "main_title": "Breakfast",
-              "secondary_title": "24/10/2026",
-              "image_url": "https://img.freeviewplay.tv/p625afa4090190844d68a944cf9b4e7de",
-              "start_time": "2026-10-24T05:00:00+0000",
-              "duration": "PT4H",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T09:00:00+0000",
-                "end_of_availability": "2026-10-25T10:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6b&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e9a441e59bf4da96ea94ce497211b6f02",
-              "uuid": "f260e5313abda34c6c83ea22b2aad096"
-            }
-          },
-          {
-            "startTime": "2026-10-24T09:00:00+0000",
-            "duration": 90,
-            "name": "Saturday Kitchen",
-            "description": "24/10/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0033h6d",
-              "event_locator": "dvb://233a..913d;2188",
-              "main_title": "Saturday Kitchen",
-              "secondary_title": "24/10/2026",
-              "image_url": "https://img.freeviewplay.tv/pf121d19166d89b1a33ffa8983d3c1f80",
-              "start_time": "2026-10-24T09:00:00+0000",
-              "duration": "PT1H30M",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T10:30:02+0000",
-                "end_of_availability": "2027-10-24T10:30:02+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e638be15b7d3ad2a654996e8961e6592f",
-              "uuid": "f12a25fe120c2ae570f5136ba007d89f"
-            }
-          },
-          {
-            "startTime": "2026-10-24T10:30:00+0000",
-            "duration": 30,
-            "name": "Simply Nigella",
-            "description": "Series 1: Episode 1",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/b07y6pb1",
-              "event_locator": "dvb://233a..913d;2189",
-              "main_title": "Simply Nigella",
-              "secondary_title": "Series 1: Episode 1",
-              "image_url": "https://img.freeviewplay.tv/pf5829bf15f1a7160aae75c955ea96717",
-              "start_time": "2026-10-24T10:30:00+0000",
-              "duration": "PT30M",
-              "on_demand": {
-                "start_of_availability": "2020-06-11T08:00:00+0000",
-                "end_of_availability": "2032-06-10T08:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:b07y6pb1&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e6e5c6bb809d1d516bff44c9ee99e2794",
-              "uuid": "544766a9caa4088ee724f0e0a36d1cb4"
-            }
-          },
-          {
-            "startTime": "2026-10-24T11:00:00+0000",
-            "duration": 10,
-            "name": "BBC Weekend News",
-            "description": "Lunchtime News: 24/10/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0033h6g",
-              "event_locator": "dvb://233a..913d;218a",
-              "main_title": "BBC Weekend News",
-              "secondary_title": "Lunchtime News: 24/10/2026",
-              "image_url": "https://img.freeviewplay.tv/p6bb1ce142aa346b01724c74d6ea3bb87",
-              "start_time": "2026-10-24T11:00:00+0000",
-              "duration": "PT10M",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T11:12:00+0000",
-                "end_of_availability": "2026-10-25T12:12:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6g&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033h7z",
+              "event_locator": "dvb://233a..913d;219c",
+              "main_title": "BBC News",
+              "secondary_title": "25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/p7f632b6d86f68103d49859649dec4649",
+              "start_time": "2026-10-25T06:00:00+0000",
+              "duration": "PT1H45M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
               "fallback_image_url": "http://img.freeviewplay.net/ec998412797eaa5ae4238df186e60b640",
-              "uuid": "c2b5b317ffa6ad40130c0eb15c978991"
+              "uuid": "da6174da03c4f64f05211a2ab25daa20"
             }
           },
           {
-            "startTime": "2026-10-24T11:10:00+0000",
-            "duration": 5,
-            "name": "BBC Weather",
-            "description": "24/10/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0033h6j",
-              "event_locator": "dvb://233a..913d;218b",
-              "main_title": "BBC Weather",
-              "secondary_title": "24/10/2026",
-              "image_url": "https://img.freeviewplay.tv/p3ddfb4d97a49a68ca1e0bd0099e16490",
-              "start_time": "2026-10-24T11:10:00+0000",
-              "duration": "PT5M",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T11:14:43+0000",
-                "end_of_availability": "2026-10-25T12:14:43+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6j&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e1140f7f24d5c00f9955f0ac947697bdd",
-              "uuid": "ceb0b2bbe17718d94e403b9044817c7c"
-            }
-          },
-          {
-            "startTime": "2026-10-24T11:15:00+0000",
-            "duration": 15,
-            "name": "The Football Interview",
-            "description": "Series 2: Sean Dyche",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m00335xx",
-              "event_locator": "dvb://233a..913d;218c",
-              "main_title": "The Football Interview",
-              "secondary_title": "Series 2: Sean Dyche",
-              "image_url": "https://img.freeviewplay.tv/pe4fa069a06eaccdd4b6d3cc410757bb7",
-              "start_time": "2026-10-24T11:15:00+0000",
-              "duration": "PT15M",
-              "on_demand": {
-                "start_of_availability": "2026-10-23T16:00:00+0000",
-                "end_of_availability": "2027-10-24T16:00:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m00335xx&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-              "fallback_image_url": "http://img.freeviewplay.net/ef10da399e0fae0271ff6229bbf39f896",
-              "uuid": "4b22991f2f7c122e7f864f9821ce1b8f"
-            }
-          },
-          {
-            "startTime": "2026-10-24T11:30:00+0000",
-            "duration": 150,
-            "name": "Women's Super League",
-            "description": "2026/27: Tottenham Hotspur v Arsenal",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0033htg",
-              "event_locator": "dvb://233a..913d;218d",
-              "main_title": "Women's Super League",
-              "secondary_title": "2026/27: Tottenham Hotspur v Arsenal",
-              "image_url": "https://img.freeviewplay.tv/pf01d05ee59e2c8765873b5cd245d2bfb",
-              "start_time": "2026-10-24T11:30:00+0000",
-              "duration": "PT2H30M",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T14:00:25+0000",
-                "end_of_availability": "2026-11-23T15:00:25+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033htg&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-              "fallback_image_url": "http://img.freeviewplay.net/ea6935bc8ae06a8ad437d50b5ed499e3d",
-              "uuid": "9a9f9f8682de5ba5bfbeea89126902b2"
-            }
-          },
-          {
-            "startTime": "2026-10-24T14:00:00+0000",
-            "duration": 45,
-            "name": "Homes Under the Hammer",
-            "description": "Series 27: 1. Dressed for Success!",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m001y3q2",
-              "event_locator": "dvb://233a..913d;218e",
-              "main_title": "Homes Under the Hammer",
-              "secondary_title": "Series 27: 1. Dressed for Success!",
-              "image_url": "https://img.freeviewplay.tv/p7bec0ee127045e53ddd1bd70cd41dd4c",
-              "start_time": "2026-10-24T14:00:00+0000",
-              "duration": "PT45M",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T14:45:17+0000",
-                "end_of_availability": "2026-11-23T15:45:17+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001y3q2&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e9b484b4805f5eb8be1393906b5a6898b",
-              "uuid": "85c687901510707c7ae8dd88a1b09496"
-            }
-          },
-          {
-            "startTime": "2026-10-24T14:45:00+0000",
-            "duration": 100,
-            "name": "Final Score",
-            "description": "2026/27: 24/10/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0033jln",
-              "event_locator": "dvb://233a..913d;218f",
-              "main_title": "Final Score",
-              "secondary_title": "2026/27: 24/10/2026",
-              "image_url": "https://img.freeviewplay.tv/p8233a3a84dbe8e758b08f0386b00c112",
-              "start_time": "2026-10-24T14:45:00+0000",
-              "duration": "PT1H40M",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T15:30:00+0000",
-                "end_of_availability": "2026-11-23T17:25:02+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033jln&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
-              "fallback_image_url": "http://img.freeviewplay.net/e22b19edf63e607588c406944e8133646",
-              "uuid": "05c32e2d599c1adea1364f00cc916e9b"
-            }
-          },
-          {
-            "startTime": "2026-10-24T16:25:00+0000",
-            "duration": 10,
-            "name": "BBC Weekend News",
-            "description": "Evening News: 24/10/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0033h6l",
-              "event_locator": "dvb://233a..913d;2190",
-              "main_title": "BBC Weekend News",
-              "secondary_title": "Evening News: 24/10/2026",
-              "image_url": "https://img.freeviewplay.tv/paca5b91071d72e230b5c8fa1ba2bd2da",
-              "start_time": "2026-10-24T16:25:00+0000",
-              "duration": "PT10M",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T16:37:00+0000",
-                "end_of_availability": "2026-10-25T17:37:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6l&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ec998412797eaa5ae4238df186e60b640",
-              "uuid": "1fc16dd383924cec4c03dbcd5b83d3fb"
-            }
-          },
-          {
-            "startTime": "2026-10-24T16:35:00+0000",
-            "duration": 10,
-            "name": "BBC Newsline",
-            "description": "Evening News: 24/10/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0033m6q",
-              "event_locator": "dvb://233a..913d;2191",
-              "main_title": "BBC Newsline",
-              "secondary_title": "Evening News: 24/10/2026",
-              "image_url": "https://img.freeviewplay.tv/p971568f3c36febca647abb45b40f2e8f",
-              "start_time": "2026-10-24T16:35:00+0000",
-              "duration": "PT10M",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T16:45:34+0000",
-                "end_of_availability": "2026-10-25T17:45:34+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033m6q&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e9f1950a470462ed0cf039d41a8eac59e",
-              "uuid": "cc4838b03e889e182379e6b88eb35703"
-            }
-          },
-          {
-            "startTime": "2026-10-24T16:45:00+0000",
-            "duration": 45,
-            "name": "The Celebrity Inner Circle",
-            "description": "Series 2: Episode 7",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0033jlq",
-              "event_locator": "dvb://233a..913d;2192",
-              "main_title": "The Celebrity Inner Circle",
-              "secondary_title": "Series 2: Episode 7",
-              "image_url": "https://img.freeviewplay.tv/p8fb72b7b5a0284fb8d51d3498e5e44b9",
-              "start_time": "2026-10-24T16:45:00+0000",
-              "duration": "PT45M",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T17:30:00+0000",
-                "end_of_availability": "2027-10-31T18:30:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033jlq&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/ec03c0cbd6f95c4253cea6dd4669717ee",
-              "uuid": "a77424edafa03dd6bb880f63ae34d708"
-            }
-          },
-          {
-            "startTime": "2026-10-24T17:30:00+0000",
-            "duration": 125,
-            "name": "Strictly Come Dancing",
-            "description": "Series 24: Week 5",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0033jls",
-              "event_locator": "dvb://233a..913d;2193",
-              "main_title": "Strictly Come Dancing",
-              "secondary_title": "Series 24: Week 5",
-              "image_url": "https://img.freeviewplay.tv/p1586d0f361a0e3884dfea2e6de01b39f",
-              "start_time": "2026-10-24T17:30:00+0000",
-              "duration": "PT2H5M",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T19:34:21+0000",
-                "end_of_availability": "2027-12-25T18:40:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033jls&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/e9ebfd246149ee3e64b822617c5f6149f",
-              "uuid": "7752199fd8d9766c1fadf551038c9e9c"
-            }
-          },
-          {
-            "startTime": "2026-10-24T19:35:00+0000",
-            "duration": 45,
-            "name": "Wisdom of the Crowd",
-            "description": "Series 1: Episode 6",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0033jlv",
-              "event_locator": "dvb://233a..913d;2194",
-              "main_title": "Wisdom of the Crowd",
-              "secondary_title": "Series 1: Episode 6",
-              "image_url": "https://img.freeviewplay.tv/p23c0738b5a2045aa6041534383f2b71c",
-              "start_time": "2026-10-24T19:35:00+0000",
-              "duration": "PT45M",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T20:20:08+0000",
-                "end_of_availability": "2027-11-07T21:00:07+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033jlv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "fallback_image_url": "http://img.freeviewplay.net/e837255d19d945a969bb751839fa978d7",
-              "uuid": "8b265ee455b2827c8db8e38436f3e7c5"
-            }
-          },
-          {
-            "startTime": "2026-10-24T20:20:00+0000",
-            "duration": 50,
-            "name": "Marble Hall Murders",
-            "description": "Series 1: Episode 5",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0030465",
-              "event_locator": "dvb://233a..913d;2195",
-              "main_title": "Marble Hall Murders",
-              "secondary_title": "Series 1: Episode 5",
-              "image_url": "https://img.freeviewplay.tv/p7ad210b533c23e8c153816de7bd5fbe1",
-              "start_time": "2026-10-24T20:20:00+0000",
-              "duration": "PT50M",
-              "on_demand": {
-                "start_of_availability": "2026-09-26T05:00:00+0000",
-                "end_of_availability": "2030-05-02T22:59:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030465&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
-              "fallback_image_url": "http://img.freeviewplay.net/edd08689afb03814261d76871810237a0",
-              "uuid": "643a1fa4018c50c3795999c76f67eb62"
-            }
-          },
-          {
-            "startTime": "2026-10-24T21:10:00+0000",
-            "duration": 15,
-            "name": "BBC Weekend News",
-            "description": "Late News: 24/10/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0033h6s",
-              "event_locator": "dvb://233a..913d;2196",
-              "main_title": "BBC Weekend News",
-              "secondary_title": "Late News: 24/10/2026",
-              "image_url": "https://img.freeviewplay.tv/p31a4a883ae23a44486f9e27739556787",
-              "start_time": "2026-10-24T21:10:00+0000",
-              "duration": "PT15M",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T21:26:00+0000",
-                "end_of_availability": "2026-10-25T22:26:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6s&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/ec998412797eaa5ae4238df186e60b640",
-              "uuid": "956355ecaaedcba88500360f1f340117"
-            }
-          },
-          {
-            "startTime": "2026-10-24T21:25:00+0000",
-            "duration": 5,
-            "name": "BBC Weather",
-            "description": "24/10/2026",
-            "synopsis": "",
-            "image": "img/programmes/placeholder.svg",
-            "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m0033h6v",
-              "event_locator": "dvb://233a..913d;2197",
-              "main_title": "BBC Weather",
-              "secondary_title": "24/10/2026",
-              "image_url": "https://img.freeviewplay.tv/pcec533a525f47045a29968a29b424722",
-              "start_time": "2026-10-24T21:25:00+0000",
-              "duration": "PT5M",
-              "on_demand": {
-                "start_of_availability": "2026-10-24T21:30:00+0000",
-                "end_of_availability": "2026-10-31T22:30:00+0000",
-                "player_links": {
-                  "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h6v&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                  }
-                }
-              },
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "fallback_image_url": "http://img.freeviewplay.net/e1140f7f24d5c00f9955f0ac947697bdd",
-              "uuid": "779eccfdd183b37b2e9c849bd976c2d3"
-            }
-          },
-          {
-            "startTime": "2026-10-24T21:30:00+0000",
-            "duration": 70,
+            "startTime": "2026-10-25T07:45:00+0000",
+            "duration": 75,
             "name": "Match of the Day",
             "description": "2026/27: 24/10/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
               "program_id": "crid://bbc.co.uk/icc/episode/m0033jlx",
-              "event_locator": "dvb://233a..913d;2198",
+              "event_locator": "dvb://233a..913d;219f",
               "main_title": "Match of the Day",
               "secondary_title": "2026/27: 24/10/2026",
               "image_url": "https://img.freeviewplay.tv/pa6e217cfff3907837e4257714c6c83e3",
-              "start_time": "2026-10-24T21:30:00+0000",
-              "duration": "PT1H10M",
+              "start_time": "2026-10-25T07:45:00+0000",
+              "duration": "PT1H15M",
               "on_demand": {
                 "start_of_availability": "2026-10-24T22:40:55+0000",
                 "end_of_availability": "2026-11-24T09:00:00+0000",
@@ -1156,37 +896,697 @@
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
               "fallback_image_url": "http://img.freeviewplay.net/ecd4abb578cfc67787aa23b09c6e60e11",
-              "uuid": "734d87f5ec134250724a7e5edf07cbec"
+              "uuid": "e9dd8cdc929565202941e7daa3efcc42"
             }
           },
           {
-            "startTime": "2026-10-24T22:40:00+0000",
-            "duration": 110,
-            "name": "Cat Person",
-            "description": "Cat Person",
+            "startTime": "2026-10-25T09:00:00+0000",
+            "duration": 60,
+            "name": "Sunday with Laura Kuenssberg",
+            "description": "25/10/2026",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://bbc.co.uk/icc/episode/m002lv7d",
-              "event_locator": "dvb://233a..913d;2199",
-              "main_title": "Cat Person",
-              "secondary_title": "Cat Person",
-              "image_url": "https://img.freeviewplay.tv/pada6f3722c31220821ad565b2770288e",
-              "start_time": "2026-10-24T22:40:00+0000",
-              "duration": "PT1H50M",
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033h81",
+              "event_locator": "dvb://233a..913d;21a0",
+              "main_title": "Sunday with Laura Kuenssberg",
+              "secondary_title": "25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/p434a492d8b71ca7b76bf1eeb87f6c7a3",
+              "start_time": "2026-10-25T09:00:00+0000",
+              "duration": "PT1H",
               "on_demand": {
-                "start_of_availability": "2025-11-07T00:01:10+0000",
-                "end_of_availability": "2026-11-24T01:30:35+0000",
+                "start_of_availability": "2026-10-25T10:00:06+0000",
+                "end_of_availability": "2027-10-25T09:00:06+0000",
                 "player_links": {
                   "tv": {
-                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002lv7d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h81&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e2ebf65ac414c204b4476a93c8dbd8bcb",
+              "uuid": "bb14a10e7a6ef73e22fd46e7cfe65743"
+            }
+          },
+          {
+            "startTime": "2026-10-25T10:00:00+0000",
+            "duration": 30,
+            "name": "Sunday Politics Northern Ireland",
+            "description": "25/10/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033m87",
+              "event_locator": "dvb://233a..913d;21a1",
+              "main_title": "Sunday Politics Northern Ireland",
+              "secondary_title": "25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/p1dba0c10066ce02cf4d1684c1438be08",
+              "start_time": "2026-10-25T10:00:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T10:30:00+0000",
+                "end_of_availability": "2026-11-24T10:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033m87&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e995b4c8d4ea1a033ab30066656899d49",
+              "uuid": "5807d47de030eafcc352d28727e54684"
+            }
+          },
+          {
+            "startTime": "2026-10-25T10:30:00+0000",
+            "duration": 60,
+            "name": "Sunday Morning Live",
+            "description": "Series 17: 25/10/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033h85",
+              "event_locator": "dvb://233a..913d;21a2",
+              "main_title": "Sunday Morning Live",
+              "secondary_title": "Series 17: 25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/pd3237afd1775488a017bfc4def7cdeb6",
+              "start_time": "2026-10-25T10:30:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T11:30:25+0000",
+                "end_of_availability": "2027-10-25T10:30:25+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h85&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ed72a19b39aa7d79b9b6a168f9c74016a",
+              "uuid": "77194540333c102da12d04d55ae8ea26"
+            }
+          },
+          {
+            "startTime": "2026-10-25T11:30:00+0000",
+            "duration": 30,
+            "name": "Money for Nothing",
+            "description": "Series  10: Episode 10",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m000vlsb",
+              "event_locator": "dvb://233a..913d;21a3",
+              "main_title": "Money for Nothing",
+              "secondary_title": "Series  10: Episode 10",
+              "image_url": "https://img.freeviewplay.tv/p65d0c73f9fda3ed1e5e4e9ae0b10835e",
+              "start_time": "2026-10-25T11:30:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T12:00:24+0000",
+                "end_of_availability": "2026-11-24T12:00:24+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m000vlsb&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/eb970ed55f04c86ac15bfde78f72e01f2",
+              "uuid": "ee61168f81674b1be5bc2fae555b1edf"
+            }
+          },
+          {
+            "startTime": "2026-10-25T12:00:00+0000",
+            "duration": 45,
+            "name": "Bargain Hunt",
+            "description": "Series 69: On Your Marks, Get Set, Go!",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0021d35",
+              "event_locator": "dvb://233a..913d;21a4",
+              "main_title": "Bargain Hunt",
+              "secondary_title": "Series 69: On Your Marks, Get Set, Go!",
+              "image_url": "https://img.freeviewplay.tv/ped2db3d54579ebeb3d6f2fa527eff4f8",
+              "start_time": "2026-10-25T12:00:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T12:44:50+0000",
+                "end_of_availability": "2026-11-24T12:44:50+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0021d35&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e1f00551af291a4564e1b0435db1fd01b",
+              "uuid": "b0d9f92e117094c0b14fc1f943abf7b1"
+            }
+          },
+          {
+            "startTime": "2026-10-25T12:45:00+0000",
+            "duration": 15,
+            "name": "Points of View",
+            "description": "2026: 25/10/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033h87",
+              "event_locator": "dvb://233a..913d;21a5",
+              "main_title": "Points of View",
+              "secondary_title": "2026: 25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/pd97a7ccac18713615b0aac5f0785d086",
+              "start_time": "2026-10-25T12:45:00+0000",
+              "duration": "PT15M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T13:00:10+0000",
+                "end_of_availability": "2027-10-25T12:00:10+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h87&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/eafe40a9cb65955ca839f87243ca652d6",
+              "uuid": "021601b7b71c62f67205d4d8e5495e52"
+            }
+          },
+          {
+            "startTime": "2026-10-25T13:00:00+0000",
+            "duration": 10,
+            "name": "BBC Weekend News",
+            "description": "Lunchtime News: 25/10/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033h89",
+              "event_locator": "dvb://233a..913d;21a6",
+              "main_title": "BBC Weekend News",
+              "secondary_title": "Lunchtime News: 25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/p6e01147a32463b6b879c21737ada227c",
+              "start_time": "2026-10-25T13:00:00+0000",
+              "duration": "PT10M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T13:10:00+0000",
+                "end_of_availability": "2026-10-26T13:10:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h89&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ec998412797eaa5ae4238df186e60b640",
+              "uuid": "d158f6c9ad0817c273d99df3e80fffd4"
+            }
+          },
+          {
+            "startTime": "2026-10-25T13:10:00+0000",
+            "duration": 5,
+            "name": "Weather for the Week Ahead",
+            "description": "25/10/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033h8c",
+              "event_locator": "dvb://233a..913d;21a7",
+              "main_title": "Weather for the Week Ahead",
+              "secondary_title": "25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/pe01e6c9518d9fdb39574a03f2e6b1236",
+              "start_time": "2026-10-25T13:10:00+0000",
+              "duration": "PT5M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T13:15:06+0000",
+                "end_of_availability": "2026-10-26T13:15:06+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h8c&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ec251164ecc75e364d334214f49eb7a97",
+              "uuid": "40ce7a3c0fa9e04f0e4d3f82fcdf1000"
+            }
+          },
+          {
+            "startTime": "2026-10-25T13:15:00+0000",
+            "duration": 35,
+            "name": "Songs of Praise",
+            "description": "The Music Is Black",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033hv7",
+              "event_locator": "dvb://233a..913d;21a8",
+              "main_title": "Songs of Praise",
+              "secondary_title": "The Music Is Black",
+              "image_url": "https://img.freeviewplay.tv/pc3ab0113796f83df79625cecaefb336b",
+              "start_time": "2026-10-25T13:15:00+0000",
+              "duration": "PT35M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T13:50:18+0000",
+                "end_of_availability": "2027-10-25T12:50:18+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033hv7&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/eb3340dd4a8604b48f658a66f1478529c",
+              "uuid": "a3fe8878c49070545dae1e2f10e1bd19"
+            }
+          },
+          {
+            "startTime": "2026-10-25T13:50:00+0000",
+            "duration": 95,
+            "name": "The Witches",
+            "description": "The Witches",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m001tvfv",
+              "event_locator": "dvb://233a..913d;21a9",
+              "main_title": "The Witches",
+              "secondary_title": "The Witches",
+              "image_url": "https://img.freeviewplay.tv/pe6410e8a246e1f59231a4fffa1e50d68",
+              "start_time": "2026-10-25T13:50:00+0000",
+              "duration": "PT1H35M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T15:26:11+0000",
+                "end_of_availability": "2026-11-24T15:26:11+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001tvfv&campaign=catalogue&medium=referral&partner=net.freeviewplay",
                     "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
                   }
                 }
               },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-              "fallback_image_url": "http://img.freeviewplay.net/ea52648fac8642a929c4499a7cafcd208",
-              "uuid": "3cb897eec4ba277c66b2646826f80af8"
+              "fallback_image_url": "http://img.freeviewplay.net/e42ea3f68118319822adeabb9c75ddcfc",
+              "uuid": "c2e523984550ad187af1b739d8b0f58c"
+            }
+          },
+          {
+            "startTime": "2026-10-25T15:25:00+0000",
+            "duration": 50,
+            "name": "Kingdom",
+            "description": "Series 1: 6. The Secret Story of Kingdom",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m002m30p",
+              "event_locator": "dvb://233a..913d;21aa",
+              "main_title": "Kingdom",
+              "secondary_title": "Series 1: 6. The Secret Story of Kingdom",
+              "image_url": "https://img.freeviewplay.tv/p52facba49ab27c967179d456f8172dab",
+              "start_time": "2026-10-25T15:25:00+0000",
+              "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2025-11-09T06:00:00+0000",
+                "end_of_availability": "2030-11-09T06:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m002m30p&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e01fe1b43f58bf9638e623cd5ddb4e493",
+              "uuid": "1c156826b9c61edfe7e14c8699ffac68"
+            }
+          },
+          {
+            "startTime": "2026-10-25T16:15:00+0000",
+            "duration": 45,
+            "name": "Homes Under the Hammer",
+            "description": "Series 27: 2. A Family Affair",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m001y47d",
+              "event_locator": "dvb://233a..913d;21ab",
+              "main_title": "Homes Under the Hammer",
+              "secondary_title": "Series 27: 2. A Family Affair",
+              "image_url": "https://img.freeviewplay.tv/p3e674c9b1c2c7d9143ce1ede3db4ffa3",
+              "start_time": "2026-10-25T16:15:00+0000",
+              "duration": "PT45M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T16:59:59+0000",
+                "end_of_availability": "2026-11-24T16:59:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m001y47d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e9b484b4805f5eb8be1393906b5a6898b",
+              "uuid": "8f26cb48f32b664fbc8c9c6880f805c6"
+            }
+          },
+          {
+            "startTime": "2026-10-25T17:00:00+0000",
+            "duration": 15,
+            "name": "BBC Weekend News",
+            "description": "Evening News: 25/10/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033h8f",
+              "event_locator": "dvb://233a..913d;21ac",
+              "main_title": "BBC Weekend News",
+              "secondary_title": "Evening News: 25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/pdd37f2a4d0e082ae56a7acfef6a0a81b",
+              "start_time": "2026-10-25T17:00:00+0000",
+              "duration": "PT15M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T17:16:30+0000",
+                "end_of_availability": "2026-10-26T17:16:30+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h8f&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ec998412797eaa5ae4238df186e60b640",
+              "uuid": "1d880c94f2687c727554adb3e2e71c1a"
+            }
+          },
+          {
+            "startTime": "2026-10-25T17:15:00+0000",
+            "duration": 10,
+            "name": "BBC Newsline",
+            "description": "Evening News: 25/10/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033m89",
+              "event_locator": "dvb://233a..913d;21ad",
+              "main_title": "BBC Newsline",
+              "secondary_title": "Evening News: 25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/pa236f7ba5d97830ada90a8931adfce23",
+              "start_time": "2026-10-25T17:15:00+0000",
+              "duration": "PT10M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T17:25:07+0000",
+                "end_of_availability": "2026-10-26T17:25:07+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033m89&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e9f1950a470462ed0cf039d41a8eac59e",
+              "uuid": "7966b383f37be8ccec8ef760af524515"
+            }
+          },
+          {
+            "startTime": "2026-10-25T17:25:00+0000",
+            "duration": 75,
+            "name": "Countryfile",
+            "description": "Countryfile Ramble for BBC Children in Need 2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033k1b",
+              "event_locator": "dvb://233a..913d;21ae",
+              "main_title": "Countryfile",
+              "secondary_title": "Countryfile Ramble for BBC Children in Need 2026",
+              "image_url": "https://img.freeviewplay.tv/p9fe2c57d4ae36c5c32a9686627e6c63f",
+              "start_time": "2026-10-25T17:25:00+0000",
+              "duration": "PT1H15M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T18:40:40+0000",
+                "end_of_availability": "2027-10-25T17:40:40+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033k1b&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ef996827ae60fe4e78a3e50bf5a95b7f4",
+              "uuid": "59f1ff38bea421d352d2df7c92a9b4d6"
+            }
+          },
+          {
+            "startTime": "2026-10-25T18:40:00+0000",
+            "duration": 30,
+            "name": "The Reluctant Vampire",
+            "description": "Series 1: Episode 4",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0030wp3",
+              "event_locator": "dvb://233a..913d;21af",
+              "main_title": "The Reluctant Vampire",
+              "secondary_title": "Series 1: Episode 4",
+              "image_url": "https://img.freeviewplay.tv/p7ba71fe93da6eb4aace5f190a5f4945c",
+              "start_time": "2026-10-25T18:40:00+0000",
+              "duration": "PT30M",
+              "on_demand": {
+                "start_of_availability": "2026-10-04T05:00:00+0000",
+                "end_of_availability": "2027-10-04T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0030wp3&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/ecd59efef96edac53601d7663a817dcca",
+              "uuid": "0e4425d7647e5f3d0814073c60904e57"
+            }
+          },
+          {
+            "startTime": "2026-10-25T19:10:00+0000",
+            "duration": 50,
+            "name": "Strictly Come Dancing",
+            "description": "Series 24: Week 5 Results",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033k1d",
+              "event_locator": "dvb://233a..913d;21b0",
+              "main_title": "Strictly Come Dancing",
+              "secondary_title": "Series 24: Week 5 Results",
+              "image_url": "https://img.freeviewplay.tv/p173fc830e033d6959f8a66bfc6d2d589",
+              "start_time": "2026-10-25T19:10:00+0000",
+              "duration": "PT50M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T20:00:23+0000",
+                "end_of_availability": "2027-12-13T19:57:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033k1d&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
+              "fallback_image_url": "http://img.freeviewplay.net/e75d4c483c4aecd29fc7c7307722f60cd",
+              "uuid": "5cb11485e82f4c4b9408ca2441afb483"
+            }
+          },
+          {
+            "startTime": "2026-10-25T20:00:00+0000",
+            "duration": 60,
+            "name": "Antiques Roadshow",
+            "description": "Series 49: 9. Bangor Castle 1",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033k1g",
+              "event_locator": "dvb://233a..913d;21b1",
+              "main_title": "Antiques Roadshow",
+              "secondary_title": "Series 49: 9. Bangor Castle 1",
+              "image_url": "https://img.freeviewplay.tv/p96a2c801ed0a0c696f9af691596b45c2",
+              "start_time": "2026-10-25T20:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T21:00:31+0000",
+                "end_of_availability": "2027-10-25T20:00:31+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033k1g&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ea7d92ae4822002ef43404968e4a82728",
+              "uuid": "a54d398f6e93882c9ce3fecd4eea4f14"
+            }
+          },
+          {
+            "startTime": "2026-10-25T21:00:00+0000",
+            "duration": 60,
+            "name": "This City Is Ours",
+            "description": "Series 2: Episode 1",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0031lrz",
+              "event_locator": "dvb://233a..913d;21b2",
+              "main_title": "This City Is Ours",
+              "secondary_title": "Series 2: Episode 1",
+              "image_url": "https://img.freeviewplay.tv/p36f7e473bd9948ed108690969f8ae07f",
+              "start_time": "2026-10-25T21:00:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T06:00:00+0000",
+                "end_of_availability": "2027-10-25T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0031lrz&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:8",
+              "fallback_image_url": "http://img.freeviewplay.net/e302fda74a48812a02e97c8054cc56612",
+              "uuid": "f6ede742d838d9fac2a9ea5840b23fb6"
+            }
+          },
+          {
+            "startTime": "2026-10-25T22:00:00+0000",
+            "duration": 25,
+            "name": "BBC Weekend News",
+            "description": "Late News: 25/10/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033h8m",
+              "event_locator": "dvb://233a..913d;21b3",
+              "main_title": "BBC Weekend News",
+              "secondary_title": "Late News: 25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/p7bfe03af154d4fa9ce0cb5c32050035b",
+              "start_time": "2026-10-25T22:00:00+0000",
+              "duration": "PT25M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T22:26:00+0000",
+                "end_of_availability": "2026-10-26T22:26:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h8m&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ebf773cd41e5ad95843af64502ded94fc",
+              "uuid": "1d271bb8bfecffb73b3452b346050c26"
+            }
+          },
+          {
+            "startTime": "2026-10-25T22:25:00+0000",
+            "duration": 5,
+            "name": "BBC Newsline",
+            "description": "Late News: 25/10/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033m8c",
+              "event_locator": "dvb://233a..913d;21b4",
+              "main_title": "BBC Newsline",
+              "secondary_title": "Late News: 25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/pb0046579bd18f829acdf3e44c295f743",
+              "start_time": "2026-10-25T22:25:00+0000",
+              "duration": "PT5M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T22:32:17+0000",
+                "end_of_availability": "2026-10-26T22:32:17+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033m8c&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/e9f1950a470462ed0cf039d41a8eac59e",
+              "uuid": "1e50849154f0a056ca598be45bd7c842"
+            }
+          },
+          {
+            "startTime": "2026-10-25T22:30:00+0000",
+            "duration": 60,
+            "name": "Spotlight",
+            "description": "Murder in Belfast: Sisters Seeking Justice: Part 1 - An Innocent Man",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033h52",
+              "event_locator": "dvb://233a..913d;21b5",
+              "main_title": "Spotlight",
+              "secondary_title": "Murder in Belfast: Sisters Seeking Justice: Part 1 - An Innocent Man",
+              "image_url": "https://img.freeviewplay.tv/p83cef17d30611933befb04d5e3a77b36",
+              "start_time": "2026-10-25T22:30:00+0000",
+              "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T06:00:00+0000",
+                "end_of_availability": "2027-10-24T22:22:33+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033h52&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "fallback_image_url": "http://img.freeviewplay.net/ed2c9d6b3e3f5464dcf3041f77bc367c2",
+              "uuid": "7fd8cde89d46a5b76c29f599e4c4bd5a"
+            }
+          },
+          {
+            "startTime": "2026-10-25T23:30:00+0000",
+            "duration": 75,
+            "name": "Match of the Day",
+            "description": "2026/27: 25/10/2026",
+            "synopsis": "",
+            "image": "img/programmes/placeholder.svg",
+            "_raw": {
+              "program_id": "crid://bbc.co.uk/icc/episode/m0033htr",
+              "event_locator": "dvb://233a..913d;21b6",
+              "main_title": "Match of the Day",
+              "secondary_title": "2026/27: 25/10/2026",
+              "image_url": "https://img.freeviewplay.tv/p4a233234ffd0c962a19b4171e094c9cf",
+              "start_time": "2026-10-25T23:30:00+0000",
+              "duration": "PT1H15M",
+              "on_demand": {
+                "start_of_availability": "2026-10-25T23:46:55+0000",
+                "end_of_availability": "2026-11-24T23:46:55+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033htr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                    "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:4",
+              "fallback_image_url": "http://img.freeviewplay.net/ecd4abb578cfc67787aa23b09c6e60e11",
+              "uuid": "110cc17792cac035939301c9ff3fbac6"
             }
           }
         ]
