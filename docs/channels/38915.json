@@ -12,14 +12,24 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/662981a0-e9cb-4c02-af4c-e15e654626e2",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/highlanderiiithesorcerer-00-00/52864234",
         "event_locator": "dvb://233a..9803;8053",
         "main_title": "Highlander III: The Sorcerer",
-        "image_url": "https://img.freeviewplay.tv/ec9843fad92c01bae82f5b3a67d775654",
+        "image_url": "https://img.freeviewplay.tv/p79cb01e84ebb90ed3e234824f0df8461",
         "start_time": "2026-10-28T01:05:00+0000",
         "duration": "PT1H55M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "7add5e3f4b69fea27d63dab27e03bc4f"
+        "on_demand": {
+          "start_of_availability": "2026-10-28T01:05:00+0000",
+          "end_of_availability": "2026-11-27T03:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52864234&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "8e156d6ed43d463110085cc90b29635c"
       }
     },
     {
@@ -326,14 +336,24 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/662981a0-e9cb-4c02-af4c-e15e654626e2",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/highlanderiiithesorcerer-00-00/52864234",
               "event_locator": "dvb://233a..9803;8053",
               "main_title": "Highlander III: The Sorcerer",
-              "image_url": "https://img.freeviewplay.tv/ec9843fad92c01bae82f5b3a67d775654",
+              "image_url": "https://img.freeviewplay.tv/p79cb01e84ebb90ed3e234824f0df8461",
               "start_time": "2026-10-28T01:05:00+0000",
               "duration": "PT1H55M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "7add5e3f4b69fea27d63dab27e03bc4f"
+              "on_demand": {
+                "start_of_availability": "2026-10-28T01:05:00+0000",
+                "end_of_availability": "2026-11-27T03:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52864234&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "8e156d6ed43d463110085cc90b29635c"
             }
           },
           {
