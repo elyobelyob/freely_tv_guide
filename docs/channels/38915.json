@@ -12,14 +12,24 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/bbae3308-4c83-4db2-8dac-04f3af3744f0",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/pandorum-00-00/53292223",
         "event_locator": "dvb://233a..9803;8097",
         "main_title": "Pandorum",
-        "image_url": "https://img.freeviewplay.tv/e7e5d827a9b81da289f9ecd9b514b6a0a",
+        "image_url": "https://img.freeviewplay.tv/pfd6cbe6d68d7336d55b4eaefd0a970e8",
         "start_time": "2026-11-01T01:20:00+0000",
         "duration": "PT2H10M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-        "uuid": "cc375d762238b9f06bd55799c3bcb6eb"
+        "on_demand": {
+          "start_of_availability": "2026-11-01T01:20:00+0000",
+          "end_of_availability": "2026-12-01T03:30:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=53292223&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "f557bc5310085618dc335c85b80bd498"
       }
     },
     {
@@ -346,14 +356,24 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/bbae3308-4c83-4db2-8dac-04f3af3744f0",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/pandorum-00-00/53292223",
               "event_locator": "dvb://233a..9803;8097",
               "main_title": "Pandorum",
-              "image_url": "https://img.freeviewplay.tv/e7e5d827a9b81da289f9ecd9b514b6a0a",
+              "image_url": "https://img.freeviewplay.tv/pfd6cbe6d68d7336d55b4eaefd0a970e8",
               "start_time": "2026-11-01T01:20:00+0000",
               "duration": "PT2H10M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-              "uuid": "cc375d762238b9f06bd55799c3bcb6eb"
+              "on_demand": {
+                "start_of_availability": "2026-11-01T01:20:00+0000",
+                "end_of_availability": "2026-12-01T03:30:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=53292223&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "f557bc5310085618dc335c85b80bd498"
             }
           },
           {
