@@ -73,6 +73,16 @@
         "image_url": "https://img.freeviewplay.tv/pd182c6984a4448a30b16d6e4f034a356",
         "start_time": "2026-11-03T03:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2025-01-01T00:00:00+0000",
+          "end_of_availability": "2074-12-31T23:59:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52753066&stream_id=713&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
         "uuid": "802704d95fb0c9ed59c4bb67e41faba0"
       }
@@ -728,6 +738,16 @@
               "image_url": "https://img.freeviewplay.tv/pd182c6984a4448a30b16d6e4f034a356",
               "start_time": "2026-11-03T03:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2025-01-01T00:00:00+0000",
+                "end_of_availability": "2074-12-31T23:59:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52753066&stream_id=713&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
               "uuid": "802704d95fb0c9ed59c4bb67e41faba0"
             }
