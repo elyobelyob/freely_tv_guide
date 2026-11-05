@@ -1071,6 +1071,16 @@
             "image_url": "https://img.freeviewplay.tv/p7ac5a6888d377ee6427d0c3e871a6c49",
             "start_time": "2026-11-05T05:05:00+0000",
             "duration": "PT55M",
+            "on_demand": {
+              "start_of_availability": "2026-11-04T16:56:00+0000",
+              "end_of_availability": "2031-11-19T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_4934_0143.001",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "01a54e60db93b1f08416d0eb3e24460d"
           },
@@ -1804,6 +1814,16 @@
             "image_url": "https://img.freeviewplay.tv/pfd4f00229bb6e465d6774782aeb1dde5",
             "start_time": "2026-11-05T06:00:00+0000",
             "duration": "PT5M",
+            "on_demand": {
+              "start_of_availability": "2026-09-01T05:00:00+0000",
+              "end_of_availability": "2026-11-30T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5265570048.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
             "uuid": "5984ea2043c1b225d2d1e503e8957e0d"
           },
@@ -1815,6 +1835,16 @@
             "image_url": "https://img.freeviewplay.tv/pcc730141e6e0e221ba633b5477afe238",
             "start_time": "2026-11-05T06:05:00+0000",
             "duration": "PT5M",
+            "on_demand": {
+              "start_of_availability": "2026-09-01T05:00:00+0000",
+              "end_of_availability": "2026-11-30T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5265570049.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
             "uuid": "5af5c1a672af88ff1576f0450f3fb2da"
           },
@@ -1826,6 +1856,16 @@
             "image_url": "https://img.freeviewplay.tv/pdd3b37a7ff778658d9a1d86c4255ab4e",
             "start_time": "2026-11-05T06:10:00+0000",
             "duration": "PT5M",
+            "on_demand": {
+              "start_of_availability": "2024-03-11T07:00:00+0000",
+              "end_of_availability": "2028-11-30T07:00:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5392420021.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
             "uuid": "e65a0029598fde07dd90d952940264ea"
           },
@@ -1837,6 +1877,16 @@
             "image_url": "https://img.freeviewplay.tv/p9909b9409a54733feed149be08f6fb10",
             "start_time": "2026-11-05T06:15:00+0000",
             "duration": "PT5M",
+            "on_demand": {
+              "start_of_availability": "2024-06-06T05:31:00+0000",
+              "end_of_availability": "2029-04-14T05:31:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5416520004.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
             "uuid": "5a921f40672d24307034de5ce7a343a9"
           },
@@ -11457,14 +11507,24 @@
             "uuid": "d8cb66a5bc1d456d209a677090a66748"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/07357755-3af0-4235-8ea3-1d05609e1bf5",
+            "program_id": "crid://www.uk.amcnetworks.com/versions/robinhoodtherebellion-00-00/52978735",
             "event_locator": "dvb://233a..9803;80e0",
             "main_title": "Robin Hood: The Rebellion",
-            "image_url": "https://img.freeviewplay.tv/eef97d4e7e69f44f8d6b5d024d8e2f3f2",
+            "image_url": "https://img.freeviewplay.tv/p23a2976f3adba9b1cc851d502099fce3",
             "start_time": "2026-11-05T03:30:00+0000",
             "duration": "PT1H45M",
-            "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-            "uuid": "5c513dfd8d75935feffd9e68fa3669c7"
+            "on_demand": {
+              "start_of_availability": "2026-11-05T03:30:00+0000",
+              "end_of_availability": "2026-12-05T05:15:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52978735&stream_id=715&env=prod&product=horror",
+                  "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                }
+              }
+            },
+            "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+            "uuid": "846f9a758af69455831ffe7fef40f844"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/1feb8e55-0d21-4373-8d01-e21585bdf58b",
@@ -24310,6 +24370,16 @@
             "image_url": "https://img.freeviewplay.tv/pecf05cb1dadad74f4a091328f1425331",
             "start_time": "2026-11-05T04:45:00+0000",
             "duration": "PT1H",
+            "on_demand": {
+              "start_of_availability": "2026-04-22T22:01:00+0000",
+              "end_of_availability": "2026-11-24T13:00:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5410000004.xml",
+                  "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "3888ae777d72d24eb34bc1396f72eaf0"
           },
@@ -28648,16 +28718,6 @@
             "image_url": "https://img.freeviewplay.tv/p610e10d3d2eccbc8c4501ffe78aa64b2",
             "start_time": "2026-11-05T05:30:00+0000",
             "duration": "PT30M",
-            "on_demand": {
-              "start_of_availability": "2026-11-05T06:00:00+0000",
-              "end_of_availability": "2026-11-06T06:00:00+0000",
-              "player_links": {
-                "tv": {
-                  "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0033wmr&campaign=catalogue&medium=referral&partner=net.freeviewplay",
-                  "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
-                }
-              }
-            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/e54b5132fcab4f8da3bf267eb2c588388",
             "uuid": "b4eedd4f2b3d6d42744e5b46c512cad7"
@@ -32547,7 +32607,7 @@
             "event_locator": "dvb://233a..919c;2f1b",
             "main_title": "This Is CBeebies",
             "secondary_title": "This Is CBeebies",
-            "image_url": "https://img.freeviewplay.tv/p0c047a0fc0e6776a0f901f7aba9b849c",
+            "image_url": "https://img.freeviewplay.tv/p10ea157587b2c59f69b2bc41bc98163f",
             "start_time": "2026-11-05T05:30:00+0000",
             "duration": "PT30M",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:5",
@@ -32559,7 +32619,7 @@
             "event_locator": "dvb://233a..919c;2de9",
             "main_title": "Roots and Fruits",
             "secondary_title": "Series 1: 17. Watermelon",
-            "image_url": "https://img.freeviewplay.tv/pace1a774a7c1c4706b3078a0ef7dd8e6",
+            "image_url": "https://img.freeviewplay.tv/pcd6afb7d93fdf23c096ca5c9980a82a6",
             "start_time": "2026-11-05T06:00:00+0000",
             "duration": "PT5M",
             "on_demand": {
@@ -32581,7 +32641,7 @@
             "event_locator": "dvb://233a..919c;2dea",
             "main_title": "Bing",
             "secondary_title": "Series 1: 1. Fireworks",
-            "image_url": "https://img.freeviewplay.tv/p8c41ce269906cd7d27fb499238bb0855",
+            "image_url": "https://img.freeviewplay.tv/pf2698ac7d90fac559500ef9bef612450",
             "start_time": "2026-11-05T06:05:00+0000",
             "duration": "PT10M",
             "on_demand": {

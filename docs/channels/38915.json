@@ -30,14 +30,24 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/07357755-3af0-4235-8ea3-1d05609e1bf5",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/robinhoodtherebellion-00-00/52978735",
         "event_locator": "dvb://233a..9803;80e0",
         "main_title": "Robin Hood: The Rebellion",
-        "image_url": "https://img.freeviewplay.tv/eef97d4e7e69f44f8d6b5d024d8e2f3f2",
+        "image_url": "https://img.freeviewplay.tv/p23a2976f3adba9b1cc851d502099fce3",
         "start_time": "2026-11-05T03:30:00+0000",
         "duration": "PT1H45M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "5c513dfd8d75935feffd9e68fa3669c7"
+        "on_demand": {
+          "start_of_availability": "2026-11-05T03:30:00+0000",
+          "end_of_availability": "2026-12-05T05:15:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52978735&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "846f9a758af69455831ffe7fef40f844"
       }
     },
     {
@@ -382,14 +392,24 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/07357755-3af0-4235-8ea3-1d05609e1bf5",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/robinhoodtherebellion-00-00/52978735",
               "event_locator": "dvb://233a..9803;80e0",
               "main_title": "Robin Hood: The Rebellion",
-              "image_url": "https://img.freeviewplay.tv/eef97d4e7e69f44f8d6b5d024d8e2f3f2",
+              "image_url": "https://img.freeviewplay.tv/p23a2976f3adba9b1cc851d502099fce3",
               "start_time": "2026-11-05T03:30:00+0000",
               "duration": "PT1H45M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "5c513dfd8d75935feffd9e68fa3669c7"
+              "on_demand": {
+                "start_of_availability": "2026-11-05T03:30:00+0000",
+                "end_of_availability": "2026-12-05T05:15:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52978735&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "846f9a758af69455831ffe7fef40f844"
             }
           },
           {
