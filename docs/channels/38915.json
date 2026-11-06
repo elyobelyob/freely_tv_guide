@@ -12,14 +12,24 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/d61e19aa-6253-4c15-80f6-948f10c2d275",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/hotseat-00-00/52146437",
         "event_locator": "dvb://233a..9803;80f1",
         "main_title": "Hot Seat",
-        "image_url": "https://img.freeviewplay.tv/e1893a799b8df4051cea2ecebd4fb3ee7",
+        "image_url": "https://img.freeviewplay.tv/p717585611304ca5898041c8f5cc06a5d",
         "start_time": "2026-11-06T01:10:00+0000",
         "duration": "PT1H55M",
+        "on_demand": {
+          "start_of_availability": "2026-11-06T01:10:00+0000",
+          "end_of_availability": "2026-12-06T03:05:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52146437&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-        "uuid": "b06c9fb0719aaf6d552807994187dc4a"
+        "uuid": "d9c2d4f77440115971218fce3b677d49"
       }
     },
     {
@@ -364,14 +374,24 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/d61e19aa-6253-4c15-80f6-948f10c2d275",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/hotseat-00-00/52146437",
               "event_locator": "dvb://233a..9803;80f1",
               "main_title": "Hot Seat",
-              "image_url": "https://img.freeviewplay.tv/e1893a799b8df4051cea2ecebd4fb3ee7",
+              "image_url": "https://img.freeviewplay.tv/p717585611304ca5898041c8f5cc06a5d",
               "start_time": "2026-11-06T01:10:00+0000",
               "duration": "PT1H55M",
+              "on_demand": {
+                "start_of_availability": "2026-11-06T01:10:00+0000",
+                "end_of_availability": "2026-12-06T03:05:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52146437&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-              "uuid": "b06c9fb0719aaf6d552807994187dc4a"
+              "uuid": "d9c2d4f77440115971218fce3b677d49"
             }
           },
           {
