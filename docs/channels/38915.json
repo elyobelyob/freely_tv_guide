@@ -12,14 +12,24 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/1d7697f1-7697-4bbb-bcfe-57c50ca4cf4d",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/thewildgeese-00-00/53362466",
         "event_locator": "dvb://233a..9803;8103",
         "main_title": "The Wild Geese",
-        "image_url": "https://img.freeviewplay.tv/ef38a3478e5059524b433734feaf67155",
+        "image_url": "https://img.freeviewplay.tv/p3c7a2c2d3c8567ae495b005bb322aa38",
         "start_time": "2026-11-07T00:10:00+0000",
         "duration": "PT2H35M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "d6485d1e71daea601997060a3f352c50"
+        "on_demand": {
+          "start_of_availability": "2026-08-01T23:00:00+0000",
+          "end_of_availability": "2027-01-31T09:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=53362466&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "a4aa7eae66576d093119bf6195b11169"
       }
     },
     {
@@ -348,14 +358,24 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/1d7697f1-7697-4bbb-bcfe-57c50ca4cf4d",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/thewildgeese-00-00/53362466",
               "event_locator": "dvb://233a..9803;8103",
               "main_title": "The Wild Geese",
-              "image_url": "https://img.freeviewplay.tv/ef38a3478e5059524b433734feaf67155",
+              "image_url": "https://img.freeviewplay.tv/p3c7a2c2d3c8567ae495b005bb322aa38",
               "start_time": "2026-11-07T00:10:00+0000",
               "duration": "PT2H35M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "d6485d1e71daea601997060a3f352c50"
+              "on_demand": {
+                "start_of_availability": "2026-08-01T23:00:00+0000",
+                "end_of_availability": "2027-01-31T09:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=53362466&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "a4aa7eae66576d093119bf6195b11169"
             }
           },
           {
