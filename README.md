@@ -258,7 +258,6 @@ layout_options:
 | 16286 | Global Arabic + | [channels/16286.json](https://elyobelyob.github.io/freely_tv_guide/channels/16286.json) |
 | 15576 | Great! Action | [channels/15576.json](https://elyobelyob.github.io/freely_tv_guide/channels/15576.json) |
 | 27296 | Great! Christmas | [channels/27296.json](https://elyobelyob.github.io/freely_tv_guide/channels/27296.json) |
-| 15584 | Great! Movies | [channels/15584.json](https://elyobelyob.github.io/freely_tv_guide/channels/15584.json) |
 | 27872 | Great! Mystery | [channels/27872.json](https://elyobelyob.github.io/freely_tv_guide/channels/27872.json) |
 | 28352 | Great! Player | [channels/28352.json](https://elyobelyob.github.io/freely_tv_guide/channels/28352.json) |
 | 27168 | Great! TV | [channels/27168.json](https://elyobelyob.github.io/freely_tv_guide/channels/27168.json) |
@@ -285,6 +284,7 @@ layout_options:
 | 38916 | LEGEND XTRA | [channels/38916.json](https://elyobelyob.github.io/freely_tv_guide/channels/38916.json) |
 | 38917 | LOVE AFTER LOCKUP | [channels/38917.json](https://elyobelyob.github.io/freely_tv_guide/channels/38917.json) |
 | 38418 | London TV | [channels/38418.json](https://elyobelyob.github.io/freely_tv_guide/channels/38418.json) |
+| 23280 | Lucky Cat TV | [channels/23280.json](https://elyobelyob.github.io/freely_tv_guide/channels/23280.json) |
 | 13144 | MBC | [channels/13144.json](https://elyobelyob.github.io/freely_tv_guide/channels/13144.json) |
 | 33664 | MBC Group | [channels/33664.json](https://elyobelyob.github.io/freely_tv_guide/channels/33664.json) |
 | 38160 | Milkshake! | [channels/38160.json](https://elyobelyob.github.io/freely_tv_guide/channels/38160.json) |
@@ -348,7 +348,6 @@ layout_options:
 | 38662 | U&Eden | [channels/38662.json](https://elyobelyob.github.io/freely_tv_guide/channels/38662.json) |
 | 38660 | U&W | [channels/38660.json](https://elyobelyob.github.io/freely_tv_guide/channels/38660.json) |
 | 38657 | U&Yesterday | [channels/38657.json](https://elyobelyob.github.io/freely_tv_guide/channels/38657.json) |
-| 14464 | WildEarth | [channels/14464.json](https://elyobelyob.github.io/freely_tv_guide/channels/14464.json) |
 | 22592 | talkSPORT | [channels/22592.json](https://elyobelyob.github.io/freely_tv_guide/channels/22592.json) |
 | 40711 | wedotv Movies | [channels/40711.json](https://elyobelyob.github.io/freely_tv_guide/channels/40711.json) |
 | 34944 | your 80s | [channels/34944.json](https://elyobelyob.github.io/freely_tv_guide/channels/34944.json) |
