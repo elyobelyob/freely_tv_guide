@@ -12,14 +12,24 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/ee4bad85-aa54-4a78-bc08-2ab59f551538",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/papillon-00-00/53335374",
         "event_locator": "dvb://233a..9803;81da",
         "main_title": "Papillon",
-        "image_url": "https://img.freeviewplay.tv/eedf8e8b93f92a463ab84111bd1d9f1b3",
+        "image_url": "https://img.freeviewplay.tv/pbdc49a98362a62ff408b5018763c789e",
         "start_time": "2026-11-20T01:35:00+0000",
         "duration": "PT2H35M",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "b3317664aa0a700a7ccc3fc49e67f11c"
+        "on_demand": {
+          "start_of_availability": "2026-11-01T23:00:00+0000",
+          "end_of_availability": "2026-11-30T23:59:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=53335374&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "acea5a2e2df344cd9a0c9525b2090fff"
       }
     },
     {
@@ -326,14 +336,24 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/ee4bad85-aa54-4a78-bc08-2ab59f551538",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/papillon-00-00/53335374",
               "event_locator": "dvb://233a..9803;81da",
               "main_title": "Papillon",
-              "image_url": "https://img.freeviewplay.tv/eedf8e8b93f92a463ab84111bd1d9f1b3",
+              "image_url": "https://img.freeviewplay.tv/pbdc49a98362a62ff408b5018763c789e",
               "start_time": "2026-11-20T01:35:00+0000",
               "duration": "PT2H35M",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "b3317664aa0a700a7ccc3fc49e67f11c"
+              "on_demand": {
+                "start_of_availability": "2026-11-01T23:00:00+0000",
+                "end_of_availability": "2026-11-30T23:59:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=53335374&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "acea5a2e2df344cd9a0c9525b2090fff"
             }
           },
           {

@@ -62,18 +62,29 @@
       "startTime": "2026-11-20T03:00:00+0000",
       "duration": 60,
       "name": "Murder UK",
-      "description": "",
+      "description": "Series 02: 4. Husband, Liar, Killer",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/cde8044d-e68d-4acc-9040-56bf63f1b122",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/murderuk-02-04/53038760",
         "event_locator": "dvb://233a..9801;8bec",
         "main_title": "Murder UK",
-        "image_url": "https://img.freeviewplay.tv/ee6996004969d87e8d78fbc451f9de0d7",
+        "secondary_title": "Series 02: 4. Husband, Liar, Killer",
+        "image_url": "https://img.freeviewplay.tv/p75defcd46ad90b4110a423969602b0c1",
         "start_time": "2026-11-20T03:00:00+0000",
         "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "8356e50e78f71f1e3ad5e21607e7815b"
+        "on_demand": {
+          "start_of_availability": "2025-03-01T00:00:00+0000",
+          "end_of_availability": "2075-03-01T23:59:59+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=53038760&stream_id=713&env=prod&product=catchup",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+            }
+          }
+        },
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+        "uuid": "f69932b46f2af387ebe37e3d6fa17ad4"
       }
     },
     {
@@ -697,18 +708,29 @@
             "startTime": "2026-11-20T03:00:00+0000",
             "duration": 60,
             "name": "Murder UK",
-            "description": "",
+            "description": "Series 02: 4. Husband, Liar, Killer",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/cde8044d-e68d-4acc-9040-56bf63f1b122",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/murderuk-02-04/53038760",
               "event_locator": "dvb://233a..9801;8bec",
               "main_title": "Murder UK",
-              "image_url": "https://img.freeviewplay.tv/ee6996004969d87e8d78fbc451f9de0d7",
+              "secondary_title": "Series 02: 4. Husband, Liar, Killer",
+              "image_url": "https://img.freeviewplay.tv/p75defcd46ad90b4110a423969602b0c1",
               "start_time": "2026-11-20T03:00:00+0000",
               "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "8356e50e78f71f1e3ad5e21607e7815b"
+              "on_demand": {
+                "start_of_availability": "2025-03-01T00:00:00+0000",
+                "end_of_availability": "2075-03-01T23:59:59+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=53038760&stream_id=713&env=prod&product=catchup",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=catchup"
+                  }
+                }
+              },
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
+              "uuid": "f69932b46f2af387ebe37e3d6fa17ad4"
             }
           },
           {
