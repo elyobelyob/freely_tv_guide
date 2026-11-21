@@ -19,6 +19,16 @@
         "image_url": "https://img.freeviewplay.tv/p68e7a78884be61c851f3c773aece4c85",
         "start_time": "2026-11-21T00:00:00+0000",
         "duration": "PT1H",
+        "on_demand": {
+          "start_of_availability": "2026-03-04T21:00:00+0000",
+          "end_of_availability": "2029-11-09T21:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5513380003.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
         "uuid": "e852d7080430513412963f5ea7267dd1"
       }
@@ -38,6 +48,16 @@
         "image_url": "https://img.freeviewplay.tv/pcee56f2cb3656e42d47b098a9658f74a",
         "start_time": "2026-11-21T01:00:00+0000",
         "duration": "PT1H5M",
+        "on_demand": {
+          "start_of_availability": "2026-08-18T20:00:00+0000",
+          "end_of_availability": "2029-04-29T23:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5523630004.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "uuid": "5a56629549b4432f5926c61e85c3e8c9"
       }
@@ -57,6 +77,16 @@
         "image_url": "https://img.freeviewplay.tv/pe80b4b9680734f53c7a1e1ff3db6d473",
         "start_time": "2026-11-21T02:05:00+0000",
         "duration": "PT55M",
+        "on_demand": {
+          "start_of_availability": "2024-10-27T22:00:00+0000",
+          "end_of_availability": "2027-05-30T23:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5489700003.xml",
+              "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "uuid": "c84812f85a8f41767b8736acecd7b94e"
       }
@@ -176,72 +206,76 @@
       "startTime": "2026-11-21T08:00:00+0000",
       "duration": 60,
       "name": "Cruising with Susan Calman",
-      "description": "",
+      "description": "Series 1: The Canaries Part 1",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/b366cf72-43e9-4858-b452-df0fd2cdb2c4",
+        "program_id": "crid://panorama.five.tv/versions/C5382000001B",
         "event_locator": "dvb://233a..9504;ef84",
         "main_title": "Cruising with Susan Calman",
-        "image_url": "https://img.freeviewplay.tv/ef2ea5fe90566a2a576fe329ca6f0954c",
+        "secondary_title": "Series 1: The Canaries Part 1",
+        "image_url": "https://img.freeviewplay.tv/p0171d25f541fed5d2d23ffe2a52ce1d1",
         "start_time": "2026-11-21T08:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "6b5cbd7412ee397328b1183071890194"
+        "uuid": "ec7f48757524d713741b40736413cc67"
       }
     },
     {
       "startTime": "2026-11-21T09:00:00+0000",
       "duration": 60,
       "name": "Cruising with Susan Calman",
-      "description": "",
+      "description": "Series 1: The Canaries Part 2",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/0c60112e-6dc5-40a6-9363-59215224d110",
+        "program_id": "crid://panorama.five.tv/versions/C5382000002A",
         "event_locator": "dvb://233a..9504;ef85",
         "main_title": "Cruising with Susan Calman",
-        "image_url": "https://img.freeviewplay.tv/efb53e442d7a879fb5868fc0d4230cd80",
+        "secondary_title": "Series 1: The Canaries Part 2",
+        "image_url": "https://img.freeviewplay.tv/pee4808b5c633cb8203a6bdb0b85655d1",
         "start_time": "2026-11-21T09:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "c65b5df9e3f2a553e840224072f0bd39"
+        "uuid": "ed443579a9b485bb37b738c3ae8af561"
       }
     },
     {
       "startTime": "2026-11-21T10:00:00+0000",
       "duration": 60,
       "name": "Dogs Behaving (Very) Badly",
-      "description": "",
+      "description": "Series 8: Episode 3",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/a6d50ba3-d37a-477b-aee4-3290ebb8123b",
+        "program_id": "crid://panorama.five.tv/versions/C5488980003A",
         "event_locator": "dvb://233a..9504;ef86",
         "main_title": "Dogs Behaving (Very) Badly",
-        "image_url": "https://img.freeviewplay.tv/e7e9bf2d9c0282301b67d4bcf0e65121d",
+        "secondary_title": "Series 8: Episode 3",
+        "image_url": "https://img.freeviewplay.tv/p3e0d6614da650a0f5c11e49b77f728c4",
         "start_time": "2026-11-21T10:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "71dba077e1cc88845e2f5a021a7b65f2"
+        "uuid": "49a5359137d85eba47b23232500a0d4c"
       }
     },
     {
       "startTime": "2026-11-21T11:00:00+0000",
       "duration": 60,
       "name": "Dogs Behaving (Very) Badly",
-      "description": "",
+      "description": "Series 8: Episode 4",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/e4e1fa91-2dbd-4f83-a437-9a26ab10c116",
+        "program_id": "crid://panorama.five.tv/versions/C5488980004A",
         "event_locator": "dvb://233a..9504;ef87",
         "main_title": "Dogs Behaving (Very) Badly",
-        "image_url": "https://img.freeviewplay.tv/eb81510ea12dd4c1f3226e8c09da94752",
+        "secondary_title": "Series 8: Episode 4",
+        "image_url": "https://img.freeviewplay.tv/pccf318d14065a3a7e748412b1e6ccabd",
         "start_time": "2026-11-21T11:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "76dfa9dcb6a1a81288b80b6f939ecf37"
+        "uuid": "a68423ad70302b06ee33d85622f3b726"
       }
     },
     {
@@ -342,73 +376,77 @@
     {
       "startTime": "2026-11-21T17:00:00+0000",
       "duration": 60,
-      "name": "Motorway Cops: Catching...",
-      "description": "",
+      "name": "Motorway Cops: Catching Britain's Speeders",
+      "description": "Series 7: Episode 1",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/eadccb04-d82d-404e-b64d-5bb4ca2b3854",
+        "program_id": "crid://panorama.five.tv/versions/C5453540001C",
         "event_locator": "dvb://233a..9504;ef8d",
-        "main_title": "Motorway Cops: Catching...",
-        "image_url": "https://img.freeviewplay.tv/eed7f916319dee5bae7afe113849c4643",
+        "main_title": "Motorway Cops: Catching Britain's Speeders",
+        "secondary_title": "Series 7: Episode 1",
+        "image_url": "https://img.freeviewplay.tv/p04058ea288e676f1d44efb08e3d7a051",
         "start_time": "2026-11-21T17:00:00+0000",
         "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "f178ba4070e972984827d50db0c6f350"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+        "uuid": "d85282e19e34e1b397192a6ca9f964de"
       }
     },
     {
       "startTime": "2026-11-21T18:00:00+0000",
       "duration": 60,
-      "name": "Motorway Cops: Catching...",
-      "description": "",
+      "name": "Motorway Cops: Catching Britain's Speeders",
+      "description": "Series 7: Episode 2",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/3d198a08-e9da-40c5-b4c9-6e5c32ff3562",
+        "program_id": "crid://panorama.five.tv/versions/C5453540002C",
         "event_locator": "dvb://233a..9504;ef8e",
-        "main_title": "Motorway Cops: Catching...",
-        "image_url": "https://img.freeviewplay.tv/e5715b57216c245a1da5eb860649702a1",
+        "main_title": "Motorway Cops: Catching Britain's Speeders",
+        "secondary_title": "Series 7: Episode 2",
+        "image_url": "https://img.freeviewplay.tv/pfbecb3ac10bda5a056e6ba526a514a1c",
         "start_time": "2026-11-21T18:00:00+0000",
         "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "5dacfb4885e56694713ff075f8cf9f67"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+        "uuid": "80913fa0cb9afa0c7ea84c77b9a2070d"
       }
     },
     {
       "startTime": "2026-11-21T19:00:00+0000",
       "duration": 60,
-      "name": "Motorway Cops: Catching...",
-      "description": "",
+      "name": "Motorway Cops: Catching Britain's Speeders",
+      "description": "Series 7: Episode 4",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/fd41364c-738c-4ac5-be7e-99bcf37308d8",
+        "program_id": "crid://panorama.five.tv/versions/C5453540005D",
         "event_locator": "dvb://233a..9504;ef8f",
-        "main_title": "Motorway Cops: Catching...",
-        "image_url": "https://img.freeviewplay.tv/e6e190981b26d3876a94fe220b57cde81",
+        "main_title": "Motorway Cops: Catching Britain's Speeders",
+        "secondary_title": "Series 7: Episode 4",
+        "image_url": "https://img.freeviewplay.tv/pf9e9b50bb1be387a3e24b28348e1ce5e",
         "start_time": "2026-11-21T19:00:00+0000",
         "duration": "PT1H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-        "uuid": "1cf2751fd89086b78b6de49c65e9eb09"
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+        "uuid": "8da8c4ec37f29f5287bec13234680e88"
       }
     },
     {
       "startTime": "2026-11-21T20:00:00+0000",
       "duration": 60,
-      "name": "Motorway Cops: Catching...",
-      "description": "",
+      "name": "Motorway Cops: Catching Britain's Speeders",
+      "description": "Series 2: Episode 2",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/d1a65c71-9b64-4e3b-b36b-8951cdc27c00",
+        "program_id": "crid://panorama.five.tv/versions/C5399060002H",
         "event_locator": "dvb://233a..9504;ef90",
-        "main_title": "Motorway Cops: Catching...",
-        "image_url": "https://img.freeviewplay.tv/e6617a228712931593b253fdcc6d879a9",
+        "main_title": "Motorway Cops: Catching Britain's Speeders",
+        "secondary_title": "Series 2: Episode 2",
+        "image_url": "https://img.freeviewplay.tv/p9d5b96598787b24a41fd396fea71e81d",
         "start_time": "2026-11-21T20:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-        "uuid": "99b1471776ea4e907aae00df4f893282"
+        "uuid": "f6036885bc401293f9c393003651da53"
       }
     },
     {
@@ -419,14 +457,14 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/bb989229-03b2-48b1-9a56-ab1ad7b2f8f1",
+        "program_id": "crid://panorama.five.tv/versions/C5245250001A",
         "event_locator": "dvb://233a..9504;ef91",
         "main_title": "Battle Los Angeles",
-        "image_url": "https://img.freeviewplay.tv/e86ed3efbc55c327f8896589698b27f44",
+        "image_url": "https://img.freeviewplay.tv/p27be0cd77d7d3f2580a65673945022fa",
         "start_time": "2026-11-21T21:00:00+0000",
         "duration": "PT1H",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-        "uuid": "d80ebfcbb605b6fd8631e2cf6f2c15ba"
+        "uuid": "97206606a925d100eaed45efdeaa5ef3"
       }
     },
     {
@@ -455,32 +493,34 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/5f08d425-f33b-463a-ab72-db87a8da6051",
+        "program_id": "crid://panorama.five.tv/versions/C5245250001A",
         "event_locator": "dvb://233a..9504;ef93",
         "main_title": "Battle Los Angeles",
-        "image_url": "https://img.freeviewplay.tv/e86ed3efbc55c327f8896589698b27f44",
+        "image_url": "https://img.freeviewplay.tv/p27be0cd77d7d3f2580a65673945022fa",
         "start_time": "2026-11-21T22:05:00+0000",
         "duration": "PT1H15M",
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-        "uuid": "0074297be2f033f9fcd96015d1e3106f"
+        "uuid": "7d622f56fbeef9bda1cf409244e78bd1"
       }
     },
     {
       "startTime": "2026-11-21T23:20:00+0000",
       "duration": 120,
-      "name": "Piers Morgan: Uncensored",
-      "description": "",
+      "name": "Piers Morgan Uncensored",
+      "description": "Series 2: 42. The Trillion Dollar Scandal",
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/7ab40ed8-3673-438a-a489-bc04ee9d2160",
+        "program_id": "crid://panorama.five.tv/versions/C5527200042A",
         "event_locator": "dvb://233a..9504;ef94",
-        "main_title": "Piers Morgan: Uncensored",
+        "main_title": "Piers Morgan Uncensored",
+        "secondary_title": "Series 2: 42. The Trillion Dollar Scandal",
+        "image_url": "https://img.freeviewplay.tv/p7986432e690a7f8a57959fa4af50e2d0",
         "start_time": "2026-11-21T23:20:00+0000",
         "duration": "PT2H",
-        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+        "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
         "fallback_image_url": "http://img.freeviewplay.net/ed9b3e0c156f4ad6c58cf9d0c789eb3ef",
-        "uuid": "97117d29be6d4ee3174baa5085a0c255"
+        "uuid": "5e9a4815904ade60b9e66a4a3ea1f6ea"
       }
     }
   ],
@@ -503,6 +543,16 @@
               "image_url": "https://img.freeviewplay.tv/p68e7a78884be61c851f3c773aece4c85",
               "start_time": "2026-11-21T00:00:00+0000",
               "duration": "PT1H",
+              "on_demand": {
+                "start_of_availability": "2026-03-04T21:00:00+0000",
+                "end_of_availability": "2029-11-09T21:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5513380003.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
               "uuid": "e852d7080430513412963f5ea7267dd1"
             }
@@ -522,6 +572,16 @@
               "image_url": "https://img.freeviewplay.tv/pcee56f2cb3656e42d47b098a9658f74a",
               "start_time": "2026-11-21T01:00:00+0000",
               "duration": "PT1H5M",
+              "on_demand": {
+                "start_of_availability": "2026-08-18T20:00:00+0000",
+                "end_of_availability": "2029-04-29T23:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5523630004.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "uuid": "5a56629549b4432f5926c61e85c3e8c9"
             }
@@ -541,6 +601,16 @@
               "image_url": "https://img.freeviewplay.tv/pe80b4b9680734f53c7a1e1ff3db6d473",
               "start_time": "2026-11-21T02:05:00+0000",
               "duration": "PT55M",
+              "on_demand": {
+                "start_of_availability": "2024-10-27T22:00:00+0000",
+                "end_of_availability": "2027-05-30T23:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "https://cassie-auth.channel5.com/freeviewplay/ait/C5489700003.xml",
+                    "template_url": "https://cassie-auth.channel5.com/freeviewplay/ait/template.xml"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "uuid": "c84812f85a8f41767b8736acecd7b94e"
             }
@@ -660,72 +730,76 @@
             "startTime": "2026-11-21T08:00:00+0000",
             "duration": 60,
             "name": "Cruising with Susan Calman",
-            "description": "",
+            "description": "Series 1: The Canaries Part 1",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/b366cf72-43e9-4858-b452-df0fd2cdb2c4",
+              "program_id": "crid://panorama.five.tv/versions/C5382000001B",
               "event_locator": "dvb://233a..9504;ef84",
               "main_title": "Cruising with Susan Calman",
-              "image_url": "https://img.freeviewplay.tv/ef2ea5fe90566a2a576fe329ca6f0954c",
+              "secondary_title": "Series 1: The Canaries Part 1",
+              "image_url": "https://img.freeviewplay.tv/p0171d25f541fed5d2d23ffe2a52ce1d1",
               "start_time": "2026-11-21T08:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "6b5cbd7412ee397328b1183071890194"
+              "uuid": "ec7f48757524d713741b40736413cc67"
             }
           },
           {
             "startTime": "2026-11-21T09:00:00+0000",
             "duration": 60,
             "name": "Cruising with Susan Calman",
-            "description": "",
+            "description": "Series 1: The Canaries Part 2",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/0c60112e-6dc5-40a6-9363-59215224d110",
+              "program_id": "crid://panorama.five.tv/versions/C5382000002A",
               "event_locator": "dvb://233a..9504;ef85",
               "main_title": "Cruising with Susan Calman",
-              "image_url": "https://img.freeviewplay.tv/efb53e442d7a879fb5868fc0d4230cd80",
+              "secondary_title": "Series 1: The Canaries Part 2",
+              "image_url": "https://img.freeviewplay.tv/pee4808b5c633cb8203a6bdb0b85655d1",
               "start_time": "2026-11-21T09:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "c65b5df9e3f2a553e840224072f0bd39"
+              "uuid": "ed443579a9b485bb37b738c3ae8af561"
             }
           },
           {
             "startTime": "2026-11-21T10:00:00+0000",
             "duration": 60,
             "name": "Dogs Behaving (Very) Badly",
-            "description": "",
+            "description": "Series 8: Episode 3",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/a6d50ba3-d37a-477b-aee4-3290ebb8123b",
+              "program_id": "crid://panorama.five.tv/versions/C5488980003A",
               "event_locator": "dvb://233a..9504;ef86",
               "main_title": "Dogs Behaving (Very) Badly",
-              "image_url": "https://img.freeviewplay.tv/e7e9bf2d9c0282301b67d4bcf0e65121d",
+              "secondary_title": "Series 8: Episode 3",
+              "image_url": "https://img.freeviewplay.tv/p3e0d6614da650a0f5c11e49b77f728c4",
               "start_time": "2026-11-21T10:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "71dba077e1cc88845e2f5a021a7b65f2"
+              "uuid": "49a5359137d85eba47b23232500a0d4c"
             }
           },
           {
             "startTime": "2026-11-21T11:00:00+0000",
             "duration": 60,
             "name": "Dogs Behaving (Very) Badly",
-            "description": "",
+            "description": "Series 8: Episode 4",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/e4e1fa91-2dbd-4f83-a437-9a26ab10c116",
+              "program_id": "crid://panorama.five.tv/versions/C5488980004A",
               "event_locator": "dvb://233a..9504;ef87",
               "main_title": "Dogs Behaving (Very) Badly",
-              "image_url": "https://img.freeviewplay.tv/eb81510ea12dd4c1f3226e8c09da94752",
+              "secondary_title": "Series 8: Episode 4",
+              "image_url": "https://img.freeviewplay.tv/pccf318d14065a3a7e748412b1e6ccabd",
               "start_time": "2026-11-21T11:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "76dfa9dcb6a1a81288b80b6f939ecf37"
+              "uuid": "a68423ad70302b06ee33d85622f3b726"
             }
           },
           {
@@ -826,73 +900,77 @@
           {
             "startTime": "2026-11-21T17:00:00+0000",
             "duration": 60,
-            "name": "Motorway Cops: Catching...",
-            "description": "",
+            "name": "Motorway Cops: Catching Britain's Speeders",
+            "description": "Series 7: Episode 1",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/eadccb04-d82d-404e-b64d-5bb4ca2b3854",
+              "program_id": "crid://panorama.five.tv/versions/C5453540001C",
               "event_locator": "dvb://233a..9504;ef8d",
-              "main_title": "Motorway Cops: Catching...",
-              "image_url": "https://img.freeviewplay.tv/eed7f916319dee5bae7afe113849c4643",
+              "main_title": "Motorway Cops: Catching Britain's Speeders",
+              "secondary_title": "Series 7: Episode 1",
+              "image_url": "https://img.freeviewplay.tv/p04058ea288e676f1d44efb08e3d7a051",
               "start_time": "2026-11-21T17:00:00+0000",
               "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "f178ba4070e972984827d50db0c6f350"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+              "uuid": "d85282e19e34e1b397192a6ca9f964de"
             }
           },
           {
             "startTime": "2026-11-21T18:00:00+0000",
             "duration": 60,
-            "name": "Motorway Cops: Catching...",
-            "description": "",
+            "name": "Motorway Cops: Catching Britain's Speeders",
+            "description": "Series 7: Episode 2",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/3d198a08-e9da-40c5-b4c9-6e5c32ff3562",
+              "program_id": "crid://panorama.five.tv/versions/C5453540002C",
               "event_locator": "dvb://233a..9504;ef8e",
-              "main_title": "Motorway Cops: Catching...",
-              "image_url": "https://img.freeviewplay.tv/e5715b57216c245a1da5eb860649702a1",
+              "main_title": "Motorway Cops: Catching Britain's Speeders",
+              "secondary_title": "Series 7: Episode 2",
+              "image_url": "https://img.freeviewplay.tv/pfbecb3ac10bda5a056e6ba526a514a1c",
               "start_time": "2026-11-21T18:00:00+0000",
               "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "5dacfb4885e56694713ff075f8cf9f67"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+              "uuid": "80913fa0cb9afa0c7ea84c77b9a2070d"
             }
           },
           {
             "startTime": "2026-11-21T19:00:00+0000",
             "duration": 60,
-            "name": "Motorway Cops: Catching...",
-            "description": "",
+            "name": "Motorway Cops: Catching Britain's Speeders",
+            "description": "Series 7: Episode 4",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/fd41364c-738c-4ac5-be7e-99bcf37308d8",
+              "program_id": "crid://panorama.five.tv/versions/C5453540005D",
               "event_locator": "dvb://233a..9504;ef8f",
-              "main_title": "Motorway Cops: Catching...",
-              "image_url": "https://img.freeviewplay.tv/e6e190981b26d3876a94fe220b57cde81",
+              "main_title": "Motorway Cops: Catching Britain's Speeders",
+              "secondary_title": "Series 7: Episode 4",
+              "image_url": "https://img.freeviewplay.tv/pf9e9b50bb1be387a3e24b28348e1ce5e",
               "start_time": "2026-11-21T19:00:00+0000",
               "duration": "PT1H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
-              "uuid": "1cf2751fd89086b78b6de49c65e9eb09"
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
+              "uuid": "8da8c4ec37f29f5287bec13234680e88"
             }
           },
           {
             "startTime": "2026-11-21T20:00:00+0000",
             "duration": 60,
-            "name": "Motorway Cops: Catching...",
-            "description": "",
+            "name": "Motorway Cops: Catching Britain's Speeders",
+            "description": "Series 2: Episode 2",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/d1a65c71-9b64-4e3b-b36b-8951cdc27c00",
+              "program_id": "crid://panorama.five.tv/versions/C5399060002H",
               "event_locator": "dvb://233a..9504;ef90",
-              "main_title": "Motorway Cops: Catching...",
-              "image_url": "https://img.freeviewplay.tv/e6617a228712931593b253fdcc6d879a9",
+              "main_title": "Motorway Cops: Catching Britain's Speeders",
+              "secondary_title": "Series 2: Episode 2",
+              "image_url": "https://img.freeviewplay.tv/p9d5b96598787b24a41fd396fea71e81d",
               "start_time": "2026-11-21T20:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
-              "uuid": "99b1471776ea4e907aae00df4f893282"
+              "uuid": "f6036885bc401293f9c393003651da53"
             }
           },
           {
@@ -903,14 +981,14 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/bb989229-03b2-48b1-9a56-ab1ad7b2f8f1",
+              "program_id": "crid://panorama.five.tv/versions/C5245250001A",
               "event_locator": "dvb://233a..9504;ef91",
               "main_title": "Battle Los Angeles",
-              "image_url": "https://img.freeviewplay.tv/e86ed3efbc55c327f8896589698b27f44",
+              "image_url": "https://img.freeviewplay.tv/p27be0cd77d7d3f2580a65673945022fa",
               "start_time": "2026-11-21T21:00:00+0000",
               "duration": "PT1H",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-              "uuid": "d80ebfcbb605b6fd8631e2cf6f2c15ba"
+              "uuid": "97206606a925d100eaed45efdeaa5ef3"
             }
           },
           {
@@ -939,32 +1017,34 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/5f08d425-f33b-463a-ab72-db87a8da6051",
+              "program_id": "crid://panorama.five.tv/versions/C5245250001A",
               "event_locator": "dvb://233a..9504;ef93",
               "main_title": "Battle Los Angeles",
-              "image_url": "https://img.freeviewplay.tv/e86ed3efbc55c327f8896589698b27f44",
+              "image_url": "https://img.freeviewplay.tv/p27be0cd77d7d3f2580a65673945022fa",
               "start_time": "2026-11-21T22:05:00+0000",
               "duration": "PT1H15M",
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:1",
-              "uuid": "0074297be2f033f9fcd96015d1e3106f"
+              "uuid": "7d622f56fbeef9bda1cf409244e78bd1"
             }
           },
           {
             "startTime": "2026-11-21T23:20:00+0000",
             "duration": 120,
-            "name": "Piers Morgan: Uncensored",
-            "description": "",
+            "name": "Piers Morgan Uncensored",
+            "description": "Series 2: 42. The Trillion Dollar Scandal",
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/7ab40ed8-3673-438a-a489-bc04ee9d2160",
+              "program_id": "crid://panorama.five.tv/versions/C5527200042A",
               "event_locator": "dvb://233a..9504;ef94",
-              "main_title": "Piers Morgan: Uncensored",
+              "main_title": "Piers Morgan Uncensored",
+              "secondary_title": "Series 2: 42. The Trillion Dollar Scandal",
+              "image_url": "https://img.freeviewplay.tv/p7986432e690a7f8a57959fa4af50e2d0",
               "start_time": "2026-11-21T23:20:00+0000",
               "duration": "PT2H",
-              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
+              "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:6",
               "fallback_image_url": "http://img.freeviewplay.net/ed9b3e0c156f4ad6c58cf9d0c789eb3ef",
-              "uuid": "97117d29be6d4ee3174baa5085a0c255"
+              "uuid": "5e9a4815904ade60b9e66a4a3ea1f6ea"
             }
           }
         ]
