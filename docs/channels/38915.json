@@ -30,14 +30,24 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/e40bbc8f-0299-4a09-926c-e1ce73d0795e",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/drivehard-00-00/52375361",
         "event_locator": "dvb://233a..9803;822f",
         "main_title": "Drive Hard",
-        "image_url": "https://img.freeviewplay.tv/e22813c110910b5f520a0655bef105b28",
+        "image_url": "https://img.freeviewplay.tv/p32ce7864438fe0a1160a0732a1aadc89",
         "start_time": "2026-11-25T03:25:00+0000",
         "duration": "PT1H45M",
+        "on_demand": {
+          "start_of_availability": "2026-11-25T03:25:00+0000",
+          "end_of_availability": "2026-12-25T05:10:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52375361&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-        "uuid": "a0dfbd1ceaea24e79e8c24e67ed21ce2"
+        "uuid": "37c2d9c86634bcaf6b0a4f089ba8d8ec"
       }
     },
     {
@@ -382,14 +392,24 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/e40bbc8f-0299-4a09-926c-e1ce73d0795e",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/drivehard-00-00/52375361",
               "event_locator": "dvb://233a..9803;822f",
               "main_title": "Drive Hard",
-              "image_url": "https://img.freeviewplay.tv/e22813c110910b5f520a0655bef105b28",
+              "image_url": "https://img.freeviewplay.tv/p32ce7864438fe0a1160a0732a1aadc89",
               "start_time": "2026-11-25T03:25:00+0000",
               "duration": "PT1H45M",
+              "on_demand": {
+                "start_of_availability": "2026-11-25T03:25:00+0000",
+                "end_of_availability": "2026-12-25T05:10:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=52375361&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-              "uuid": "a0dfbd1ceaea24e79e8c24e67ed21ce2"
+              "uuid": "37c2d9c86634bcaf6b0a4f089ba8d8ec"
             }
           },
           {
