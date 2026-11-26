@@ -40,14 +40,24 @@
       "synopsis": "",
       "image": "img/programmes/placeholder.svg",
       "_raw": {
-        "program_id": "crid://csi.digitaluk.co.uk/3a2ce03c-6673-40f9-9b88-7e3eae603aa7",
+        "program_id": "crid://www.uk.amcnetworks.com/versions/theoutsider-00-00/53292416",
         "event_locator": "dvb://233a..9803;82ed",
         "main_title": "The Outsider",
-        "image_url": "https://img.freeviewplay.tv/e4a912b1fe301e3628d9c07f7a6d79284",
+        "image_url": "https://img.freeviewplay.tv/p213cdcb288c5fc5ea444909a7881e83e",
         "start_time": "2026-11-26T03:15:00+0000",
         "duration": "PT1H45M",
+        "on_demand": {
+          "start_of_availability": "2026-11-26T03:15:00+0000",
+          "end_of_availability": "2026-12-26T05:00:00+0000",
+          "player_links": {
+            "tv": {
+              "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=53292416&stream_id=715&env=prod&product=horror",
+              "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+            }
+          }
+        },
         "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-        "uuid": "a8da5c8b9ced32b9758c6493fe992f2e"
+        "uuid": "258883cfe3199734c138d5908841a60f"
       }
     },
     {
@@ -421,14 +431,24 @@
             "synopsis": "",
             "image": "img/programmes/placeholder.svg",
             "_raw": {
-              "program_id": "crid://csi.digitaluk.co.uk/3a2ce03c-6673-40f9-9b88-7e3eae603aa7",
+              "program_id": "crid://www.uk.amcnetworks.com/versions/theoutsider-00-00/53292416",
               "event_locator": "dvb://233a..9803;82ed",
               "main_title": "The Outsider",
-              "image_url": "https://img.freeviewplay.tv/e4a912b1fe301e3628d9c07f7a6d79284",
+              "image_url": "https://img.freeviewplay.tv/p213cdcb288c5fc5ea444909a7881e83e",
               "start_time": "2026-11-26T03:15:00+0000",
               "duration": "PT1H45M",
+              "on_demand": {
+                "start_of_availability": "2026-11-26T03:15:00+0000",
+                "end_of_availability": "2026-12-26T05:00:00+0000",
+                "player_links": {
+                  "tv": {
+                    "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=53292416&stream_id=715&env=prod&product=horror",
+                    "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                  }
+                }
+              },
               "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-              "uuid": "a8da5c8b9ced32b9758c6493fe992f2e"
+              "uuid": "258883cfe3199734c138d5908841a60f"
             }
           },
           {
