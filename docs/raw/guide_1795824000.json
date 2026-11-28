@@ -2378,8 +2378,8 @@
             "program_id": "crid://jvp.itv.com/vbkbycm_version",
             "event_locator": "dvb://233a..9314;8164",
             "main_title": "I'm A Celebrity... Unpacked",
-            "secondary_title": "Series 3: 12. Friday 27 Nov",
-            "image_url": "https://img.freeviewplay.tv/p14d65c02659780e77b95e92f8029c701",
+            "secondary_title": "Series 3: 12. Saturday 28 Nov",
+            "image_url": "https://img.freeviewplay.tv/pae3794a03230c08a22b345d57c00f5fe",
             "start_time": "2026-11-28T13:45:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
@@ -11427,14 +11427,24 @@
             "uuid": "08a3a7c44b9cc8d7f0a65a91da907d11"
           },
           {
-            "program_id": "crid://csi.digitaluk.co.uk/37752a2e-3623-4dbf-b1f9-cf823d21f41d",
+            "program_id": "crid://www.uk.amcnetworks.com/versions/brake-00-00/51630489",
             "event_locator": "dvb://233a..9803;8265",
             "main_title": "Brake",
-            "image_url": "https://img.freeviewplay.tv/e9e27edc88c04b5efd34e706cded98c4f",
+            "image_url": "https://img.freeviewplay.tv/pd0308a3b9760bffa7d705f8aff37e120",
             "start_time": "2026-11-28T03:35:00+0000",
             "duration": "PT1H40M",
+            "on_demand": {
+              "start_of_availability": "2026-11-28T03:35:00+0000",
+              "end_of_availability": "2026-12-28T05:15:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://fvp-ait-api.ss7.tv/player.aitx?uvid=51630489&stream_id=715&env=prod&product=horror",
+                  "template_url": "http://fvp-ait-api.ss7.tv/template.aitx?&env=prod&product=horror"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:0",
-            "uuid": "451219552acd89885ff670d74749c2ca"
+            "uuid": "24a9f4b1becaf00dbb49756bbb2bc312"
           },
           {
             "program_id": "crid://csi.digitaluk.co.uk/271fbee6-1c61-4e94-812d-ccf307d8f7e7",
@@ -23249,6 +23259,16 @@
             "image_url": "https://img.freeviewplay.tv/peca80746d8aaa0721c8e53dccb3e5422",
             "start_time": "2026-11-28T04:50:00+0000",
             "duration": "PT50M",
+            "on_demand": {
+              "start_of_availability": "2023-12-25T09:00:00+0000",
+              "end_of_availability": "2028-12-17T23:59:00+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/content/10_4734_0001.001",
+                  "template_url": "http://aitlauncher.10ft.itv.com/platform/itvonline/freeview/app-info/template"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
             "uuid": "08eef62e354f35cb13896aaac031398e"
           },
@@ -24549,8 +24569,8 @@
             "program_id": "crid://jvp.itv.com/vbkbycm_version",
             "event_locator": "dvb://233a..2099;8164",
             "main_title": "I'm A Celebrity... Unpacked",
-            "secondary_title": "Series 3: 12. Friday 27 Nov",
-            "image_url": "https://img.freeviewplay.tv/p14d65c02659780e77b95e92f8029c701",
+            "secondary_title": "Series 3: 12. Saturday 28 Nov",
+            "image_url": "https://img.freeviewplay.tv/pae3794a03230c08a22b345d57c00f5fe",
             "start_time": "2026-11-28T14:45:00+0000",
             "duration": "PT1H",
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:3",
@@ -28788,9 +28808,19 @@
             "event_locator": "dvb://233a..918a;1740",
             "main_title": "Senedd Cymru - Welsh Parliament",
             "secondary_title": "Counsel General Questions",
-            "image_url": "https://img.freeviewplay.tv/paf43b0b7c407614d0a13a2f37675bf31",
+            "image_url": "https://img.freeviewplay.tv/p478c5648b0c24861e8e330904f5b3417",
             "start_time": "2026-11-28T03:55:00+0000",
             "duration": "PT45M",
+            "on_demand": {
+              "start_of_availability": "2026-11-28T04:46:07+0000",
+              "end_of_availability": "2027-11-28T04:46:07+0000",
+              "player_links": {
+                "tv": {
+                  "program_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx?deeplink=tv/playback/urn:bbc:iplayer:episode:m0035xll&campaign=catalogue&medium=referral&partner=net.freeviewplay",
+                  "template_url": "https://www.live.bbctvapps.co.uk/tap/iplayer/ait/launch/iplayer.aitx"
+                }
+              }
+            },
             "genre": "urn:fvc:metadata:cs:ContentSubjectCS:2014-07:2",
             "fallback_image_url": "http://img.freeviewplay.net/ef570eae54067dcc989eecce8a16619e2",
             "uuid": "f1af8133820bc6d87bb46aca63ea0b1f"
